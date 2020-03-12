@@ -3,6 +3,14 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão 8.0.6.1 (2020/03/04)
+Bem-vindos ao 4biz Helium Versão 8.0.6.1. Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|Ticket 3627|Corretiva|Gerência de Eventos|Carregando as triggers de acordo com o host selecionado.|
+|Ticket 3616|Corretiva|Gerência de Eventos|Falha na tela do gerente genérico zabbix, ao clicar em editar um item de monitoramento, o campo da trigger está listando também as triggers de outros hosts. Isso ocorre apenas na edição, já na criação o campo se comporta de maneira esperada.|
+
 ## Versão 8.0.6 (2020/03/04)
 Bem-vindos ao 4biz Helium Versão 8.0.6. Esta versão apresenta os seguintes itens:
 
