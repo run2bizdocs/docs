@@ -4,7 +4,7 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 # Notas de Release
 
 ## Versão 8.0.6.2 (2020/03/23)
-Bem-vindos ao 4biz Helium Versão 8.0.6.2. Esta versão apresenta os seguintes itens
+Bem-vindos ao 4biz Helium Versão 8.0.6.2. Esta versão apresenta os seguintes itens:
 
 |Número|Corretiva/Melhoria/Nova|Funcionalidade|Descrição|
 |--------|---------|---------|---------|
