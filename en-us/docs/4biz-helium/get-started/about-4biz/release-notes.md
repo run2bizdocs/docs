@@ -3,6 +3,84 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
+## Version 8.0.6.2 (2020/03/23)
+Welcome to 4biz Helium Version 8.0.6.2. This version presents the following items:
+
+|Number|Correction/Improvement/New|Functionality|Description|
+|--------|---------|---------|---------|
+|ITSM 3117|Correction|Service Level Management|Correction in the report of SLA Control of the panel.|
+|ITSM 3716|Correction|Knowledge Management|Correction in the label "Interested Parties".|
+|ITSM 4088|Correction|Ticket Management|Correction of SLA calculation for approval activities.|
+
+## Version 8.0.6.1 (2020/03/04)
+Welcome to 4biz Helium Version 8.0.6.1. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|Ticket 3627|Correction|Event Management|Loading triggers according to the selected host.|
+|Ticket 3616|Correction|Event Management|Failure in the generic zabbix manager screen, when clicking on edit a monitoring item, the trigger field is also listing the triggers of other hosts. This occurs only in editing, while in creation the field works as expected.|
+
+## Version 8.0.6 (2020/03/04)
+Welcome to 4biz Helium Version 8.0.6. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|5547|Improvement|CMDB|It allows to discovery of a Configuration Item that doesn't have an Inventory Agent|
+|5555|Improvement|Omnichannel|WhatsApp integration with Smartchat|
+|5594|Improvement|Change Management|Adding a conflict view of CIs and Services in RFC|
+|5928|Improvement|Project Management|Adjustment in the estimated design time field|
+|5930|Correction|Change Management|When we close a change the application is showing the unconfigured actions|
+|6215|Correction|Ticket Management|[ITSM 2558] Discontinuation of parameter 69|
+|6292|Improvement|Knowledge Management|Adjustment in the Knowledge Base Report|
+|6390|Improvement|Smart Report|[ITSM 2892] Updating libraries to enable the use of the Select2 component in Smart Report|
+|6400|Improvement|CMDB|Link CMDB Map View on Change|
+|6436|Correction|Change Management|Error in the Request for Change when generating a "Execution Record Report"|
+|6439|Correction|System|When cleaning parameters of type number the value is not being persisted in the DB|
+|6609|Improvement|Omnichannel|Upload of files on the ticket via SmartChat to Helper|
+|6612|Improvement|Omnichannel|Carousel menu presentation on Smartchat for Helper|
+|6614|Improvement|WebServices|Validation of 4biz Webservices implemented for virtual assistant|
+|6622|Improvement|CMDB|Page listing of CI on the CMDB home screen|
+|6649|Correction|Change Management|Translation error in the Risk and Impact Analysis screen of the Request for Change|
+|6660|Improvement|Ticket Management|Include 'Cause' and 'Solution' fields in the sub-request (from external and internal menu)|
+|6662|Improvement|Omnichannel|Direct Message communication with 4biz|
+|6668|Correction|Project Management|Project Screen when creating a project whose process is Change Management in the Change field the popup is not presenting the data correctly|
+|6738|Correction|CMDB|Removal of the Agent Capture field. NET in the Inventory Connections register|
+|6742|Correction|Ticket Management|Error Changing a Ticket's SLA|
+|6743|Correction|Ticket Management|Adjustment in the viewing of canceled tickets via token in the ticket screen filter|
+|6744|Improvement|CMDB|It allows to open editing by clicking on the details field in the CI Design Map|
+|6787|Correction|Email Template|Failure to display paged email templates|
+|6825|Correction|Ticket Management|Adjustment of Spanish subticket labels|
+|6866|Correction|Change Management|Adjust popup label when adding a service to a request for change - Languages Portuguese and Spanish|
+|6878|Correction|Ticket Management|When viewing a canceled ticket performing the search by the filter, the application triggers an error message|
+|6891|Correction|CMDB|When defining the TimeZone in a CI/group, it's not saving it|
+|6897|Improvement|Webservice|Validation of consumer WebService in the knowledge base|
+|6953|Improvement|Change Management|Hide Service and CI icons in the change registration|
+|6956|Correction|System|Failed to attempt to attach file with incorrect parameter path 44|
+|6957|Correction|System|Correction when crashing the date component |
+|6966|Correction|Ticket Management|Closed ticket filter on the ticket screen is not showing the created and closed ticket for the current day|
+|6970|Correction|Ticket Management|Kanban is not showing the icons of Attachments, Configuration Item, sub-tickets, related Tickets|
+|7043|Correction|Smart Portal|In the request history in Smart Portal is bringing the comment information out of alignment and without identifying who replied a comment|
+|7046|Correction|Users Administration|Error in the log when we entered with a user created by the Profile|
+|7053|Correction|knowledge Management|Archived knowledge changes its situation when saving|
+|7057|Correction|Knowledge Management|Wrong message to the user when "Send for approval" with interested parties to receive all notifications|
+|7059|Correction|CMDB|Adjustment in the presentation of CMDB export information|
+
+**Package(s) released in this version:**
+* [x] 4biz Enterprise 8.0.6
+* [x] 4biz Builder 1.3.4.0
+
+**Update guidelines:**
+- It'll be necessary to activate the execution of the batch processing “Process Working Hours Calendar”, after the update to take advantage of the improvement “5594 - Add view of conflicts of CIs and Services in RFC”.
+- It's necessary to update Builder to 1.3.4 to maintain compatibility with version 8.0.6.
+
+## Version 8.0.5.4 (2020/02/28)
+Welcome to 4biz Helium Version 8.0.5.4. This version presents the following improvements:
+
+|Correction|Improvement/Correction/New|Functionality|Description|
+|--------|---------|---------|---------|
+|Ticket 3599|Correction|Ticket Management|When reopening a Ticket via Smart Portal you can add a Note on it.|
+|Ticket 3551|Improvement|Ticket Management/Tracker|Created email key to send date and time of the last execution in the flow.|
+
 ## Version 8.0.5.3 (2020/02/27)
 Welcome to 4biz Version 8.0.5.3. This version has the following improvements:
 
