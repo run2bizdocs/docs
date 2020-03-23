@@ -3,6 +3,15 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão 8.0.6.2 (2020/03/23)
+Bem-vindos ao 4biz Helium Versão 8.0.6.2. Esta versão apresenta os seguintes itens
+
+|Número|Corretiva/Melhoria/Nova|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|ITSM 3117|Corretiva|Gerência de Nível de Serviço|Correção no relatório de Controle de SLA do painel.|
+|ITSM 3716|Corretiva|Gerência de Conhecimento|Correção de label de Partes Interessadas.|
+|ITSM 4088|Corretiva|Gerência de Ticket|Correção do cálculo de SLA para atividades de aprovação.|
+
 ## Versão 8.0.6.1 (2020/03/04)
 Bem-vindos ao 4biz Helium Versão 8.0.6.1. Esta versão apresenta os seguintes itens:
 
