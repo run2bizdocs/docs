@@ -3,6 +3,84 @@ Description: Notas de release, correcciones de errores y mejoras en la 4biz.
 
 # Notas de Release
 
+## Versión 8.0.6.2 (2020/03/23)
+Bienvenido a 4biz Helium Versión 8.0.6.2. Esta versión presenta los siguientes elementos:
+
+|Numero|Corrección/Mejora/Nueva|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|ITSM 3117|Corrección|Gestión de Nivel de Servicio|Corrección en el informe de control SLA del panel.|
+|ITSM 3716|Corrección|Gestión de Conocimiento|Corrección de la label de Partes Interesadas.|
+|ITSM 4088|Corrección|Gestión de Ticket|Corrección del cálculo de SLA para actividades de aprobación.|
+
+## Versión 8.0.6.1 (2020/03/04)
+Bienvenido a 4biz Helium Versión 8.0.6.1. Esta versión presenta los siguientes elementos:
+
+|Numero|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|Ticket 3627|Corrección|Gestión de Eventos|Cargando los triggers de acuerdo con el host seleccionado.|
+|Ticket 3616|Corrección|Gestión de Eventos|Falla en la pantalla genérica del administrador de zabbix, al hacer clic en editar un elemento de monitoreo, el campo de activación también enumera los triggers de otros hosts. Esto ocurre solo en la edición, mientras que en la creación el campo se comporta como se esperaba.|
+
+## Versión 8.0.6 (2020/03/04)
+Bienvenido a 4biz Helium Versión 8.0.6. Esta versión presenta los siguientes elementos:
+
+|Numero|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|5547|Mejora|CMDB|Permitir el descubrimiento de un Ítem de Configuración que no tiene un Agente Inventory|
+|5555|Mejora|Omnichannel|Integración de WhatsApp con Smartchat|
+|5594|Mejora|Gestión de Cambio|Agregar una vista de conflicto de IC y servicios en RFC|
+|5928|Mejora|Gestión de Proyecto|Ajuste en el campo de tiempo estimado de proyecto|
+|5930|Corrección|Gestión de Cambio|Cuando cerramos un cambio, la aplicación muestra las acciones no configuradas|
+|6215|Corrección|Gestión de Ticket|[ITSM 2558] Discontinuación del parámetro 69|
+|6292|Mejora|Gestión de Conocimiento|Ajuste del Informe de Base de Conocimiento|
+|6390|Mejora|Smart Report|[ITSM 2892] Actualización de bibliotecas para permitir el uso del componente Select2 en Smart Report|
+|6400|Mejora|CMDB|Vincular visualización del Mapa de CMDB en el Cambio|
+|6436|Corrección|Gestión de Cambio|Error de Solicitud de Cambio al generar un "Informe de registro de ejecución"|
+|6439|Corrección|Sistema|Cuando se limpian los parámetros del tipo número, el valor no se conserva en la base de datos|
+|6609|Mejora|Omnichannel|Carga de archivos en el ticket a través de SmartChat a Helper|
+|6612|Mejora|Omnichannel|Presentación del menú de carrusel en Smartchat para Helper|
+|6614|Mejora|WebServices|Validación de los servicios web 4biz implementados para el asistente virtual|
+|6622|Mejora|CMDB|Paginación de la lista de IC en la pantalla de inicio del CMDB|
+|6649|Corrección|Gestión de Cambio|Error de traducción en la pantalla Análisis de impacto y riesgo de la Solicitud de Cambio|
+|6660|Melhoria|Gerenciamento de Tickets|Incluir campos de 'Causa' e 'Solução' na subsolicitação (do menu externo e interno)|
+|6662|Mejora|Omnichannel|Comunicación de mensajes directos con 4biz|
+|6668|Corrección|Gestión de Proyecto|Pantalla de Proyecto al crear un proyecto cuyo proceso es Gestión de Cambios en el campo Cambio, la ventana emergente no presenta los datos correctamente|
+|6738|Corrección|CMDB|Eliminación del campo Captura del agente. NET en el registro de Conexiones Inventory|
+|6742|Corrección|Gestión de Tickets|Error al cambiar el SLA de un ticket|
+|6743|Corrección|Gestión de Tickets|Ajuste en la visualización de tickets cancelados mediante token en el filtro de pantalla de tickets|
+|6744|Mejora|CMDB|Permitir la edición haciendo clic en el campo de detalles en el Mapa de diseño del IC|
+|6787|Corrección|Plantilla de correo electrónico|Error al mostrar plantillas de correo electrónico paginado|
+|6825|Corrección|Gestión de Tickets|Ajuste de labels de subticket en español|
+|6866|Corrección|Gestión de Cambio|Ajuste la label del popul al agregar un servicio a una solicitud de cambio - Idiomas portugués y español|
+|6878|Corrección|Gestión de Tickets|Al ver un ticket cancelado que realiza la búsqueda por el filtro, la aplicación activa un mensaje de error|
+|6891|Corrección|CMDB|No se está guardando al colocar TimeZone en un IC/grupo|
+|6897|Mejora|Webservice|Validación del servicio web del consumidor en la base de conocimiento|
+|6953|Mejora|Gestión de Cambio|Ocultar iconos de servicio y IC en el registro de cambios|
+|6956|Corrección|Sistema|Error al intentar adjuntar archivo con ruta de parámetro 44 incorrecto|
+|6957|Corrección|Sistema|Corrección del bloqueo del componente de fecha |
+|6966|Corrección|Gestión de Tickets|El filtro de ticket cerrado en la pantalla del ticket no muestra el ticket creado y cerrado para el día actual|
+|6970|Corrección|Gestión de Tickets|Kanban no muestra los íconos de Adjuntos, Ítem de Configuración, sub-tickets y Tickets relacionados|
+|7043|Corrección|Smart Portal|En el historial de solicitudes en Smart Portal, la información del comentario está desalineada y sin identificar quién respondió un comentario|
+|7046|Corrección|Administración de Usuarios|Error en el registro cuando ingresamos con un usuario creado por el Profile|
+|7053|Corrección|Gestión de Conocimiento|El conocimiento archivado cambia su situación al guardarlo|
+|7057|Corrección|Gestión de Conocimiento|Envío de mensaje incorrecto al usuario cuando "Enviar para aprobación" con las partes interesadas para recibir todas las notificaciones|
+|7059|Corrección|CMDB|Ajuste en la presentación de la información de exportación del CMDB|
+
+**Paquete(s) liberado(s) en esta versión:**
+* [x] 4biz Enterprise 8.0.6
+* [x] 4biz Builder 1.3.4.0
+
+**Directrices para la actualización:**
+- Será necesario activar la ejecución del procesamiento batch "Process Working Hours Calendar", después de la actualización para aprovechar la mejora "5594 - Agregar vista de conflictos de IC y Servicios en RFC".
+- Es necesario actualizar el Builder a 1.3.4 para mantener la compatibilidad con la versión 8.0.6.
+
+## Versión 8.0.5.4 (2020/02/28)
+Bienvenido a 4biz Helium Versión 8.0.5.4. Esta versión presenta las siguientes mejoras:
+
+|Corrección|Mejora/Corrección/Nueva|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|Ticket 3599|Corrección|Gestión de Ticket|Al volver a abrir un ticket a través del Smart Portal, se puede agregarlo una Nota.|
+|Ticket 3551|Mejora|Gestión de Ticket/Tracker|Se creó una clave de correo electrónico para enviar la fecha y la hora de la última ejecución en el flujo.|
+
 ## Versión 8.0.5.3 (2020/02/27)
 Bienvenido a Citsmart Versión 8.0.5.3. Esta versión presenta las siguientes mejoras:
 
