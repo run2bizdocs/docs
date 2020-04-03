@@ -36,6 +36,19 @@ Procedimiento
        * Guardar Solución/Respuesta en la Base de Conocimiento: para que el checkbox 
          "Guardar Solución/Respuesta en la Base de Conocimiento" sea visible, verificar 
          la parametrización del proceso de Gestión del Conocimiento;
+         
+        !!! abstract "NOTE"
+        
+            Para reducir las opciones en los campos "Causa" y "Categoría de solución", presentados al cerrar el ticket,  
+            la herramienta proporciona el enlace de Causa y Categoría de Solución a servicios específicos.
+            Para esto, es necesario crear una "Causa", donde es posible vincular a otras causas relacionadas. Tambien   
+            es necesario crear la "Categoría de solución", donde es posible vincular una causa y, dependiendo de ella,  
+            traerá todas las causas relacionadas con la causa principal.
+            Después, en el Portafolio de servicios que quieras, vinculará las Causas y la Categoría de solución en el  
+            servicio que te parece más apropiado.
+            Al ejecutar el ticket, al describir los campos de cierre, las opciones para "Causa" y la "Categoría de solución"  
+            estará de acuerdo con lo que estaba vinculado al servicio dentro del Portafolio, reduciendo entonces las opciones  
+            disponibles, enfocándose solo en lo necesario.        
            
         !!! Abstract "ATENCIÓN"
          
