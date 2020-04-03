@@ -38,6 +38,19 @@ Procedimento
         * Gravar Solução/Resposta na Base de Conhecimento: para que o checkbox 
           "Gravar Solução/Resposta na Base de Conhecimento" esteja visível,
           verificar a parametrização do processo de Gestão do Conhecimento;
+          
+        !!! abstract "NOTE"
+        
+            Para reduzir as opções dos campos "Causa" e "Categoria da Solução", apresentadas ao encerrar o ticket,
+            a ferramenta proporciona o vínculo de Causa e Categoria de Solução a serviços específicos.
+            Para isso, é necessário a criação de uma "Causa", nela é possível vincular a  causas relacionadas. Também 
+            é necessário a criação da "Categoria de solução", nela é possível vincular uma causa e dependendo dela, 
+            ela trará todas as causas relacionadas à causa principal.
+            Depois, no Portfólio de serviços desejado, você irá vincular as Causas e Categoria da Solução no serviço
+            que achar mais apropriado.
+            Na hora de execução do ticket, quando for descrever os campos de encerramento, as opções para "Causa" e 
+            "Categoria da Solução" serão de acordo ao que foi vinculado ao serviço dentro do Portfólio, reduzindo
+            assim as opções disponíveis, com foco apenas no necessário
 
         !!! Abstract "ATENÇÃO"
             
