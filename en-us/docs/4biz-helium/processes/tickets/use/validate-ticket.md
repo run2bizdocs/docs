@@ -37,8 +37,8 @@ Procedure
 
         !!! abstract "NOTE"
         
-            To reduce the options for the "Cause" and "Solution Category" fields, presented when closing the ticket,
-            the tool provides the Cause and Solution Category link to specific services.
+            To reduce the options for the "Cause" and "Solution Category" fields, presented when closing the ticket,  
+            the tool provides the Cause and Solution Category link to specific services.
             For this, it's necessary to create a "Cause", where is possible to link to other related causes. It's 
             also necessary to create the "Solution Category", where is possible to link a cause and depending on it, 
             it will bring all the causes related to the main one
