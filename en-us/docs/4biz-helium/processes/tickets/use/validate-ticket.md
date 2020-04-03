@@ -34,7 +34,19 @@ Procedure
          
          * Save Solution/Answer in the Knowledge Base: in order to the checkbox "Save Solution/Answer 
            in the Knowledge Base" is visible, check the parametrization of the Knowledge Management process;
-           
+
+        !!! abstract "NOTE"
+        
+            To reduce the options for the "Cause" and "Solution Category" fields, presented when closing the ticket,
+            the tool provides the Cause and Solution Category link to specific services.
+            For this, it's necessary to create a "Cause", where is possible to link to other related causes. It's 
+            also necessary to create the "Solution Category", where is possible to link a cause and depending on it, 
+            it will bring all the causes related to the main one
+            Then, in Service Portfolio you want, you will link the Causes and Solution Category in the service you 
+            find most appropriate.
+            When executing the ticket, completing the closing fields, the options for "Cause" and "Solution Category" 
+            will be in accordance with what was linked to the service within the Portfolio, reducing so the options 
+            available, focusing only on the necessary
          
         !!! Abstract "ATTENTION"
            
