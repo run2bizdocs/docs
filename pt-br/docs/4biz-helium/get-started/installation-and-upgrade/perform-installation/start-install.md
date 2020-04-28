@@ -11,7 +11,7 @@ Conforme já informado anteriormente, as etapas de instalação em ambientes loc
 4.	Banco de dados relacional (utilizaremos o PostgreSQL como padrão);
 5.	Banco de dados não-relacional Mongo;
 6.	Apache SOLR;
-7.	Instalação do pacote do 4biz Tracker.
+7.	Instalação do pacote do 4biz Helium.
 
 ## Próximo passo
 
