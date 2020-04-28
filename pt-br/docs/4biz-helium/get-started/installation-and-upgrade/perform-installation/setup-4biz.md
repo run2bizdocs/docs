@@ -13,7 +13,7 @@ Após o deploy do 4biz, você deverá seguir os passos para finalizar a instala�
     |Campo|Descrição|Exemplo|
     |-----|---------|-------|
     |Connection Driver|Tipo de SGBD utilizado na instalação |PostgreSQL |
-    |System access URL|URL para acesso ao 4biz | https://run2biz.exemplo.com|
+    |System access URL|URL para acesso ao 4biz | https://4biz.exemplo.com|
     |Enable loggin on system|Habilitar logs do sistema |True |
     |Name of log file|Nome do arquivo de log | log_4biz |
     |Path of the folder that will be the LOG file) |Nome da pasta onde os logs serão salvos |/var/tmp |
@@ -37,6 +37,6 @@ Se você chegou aqui, acreditamos que tenha concluído com sucesso o processo de
 
 !!! tip ""
 
-    Author: `Christiano Mendonça` Version: 8.0.2.0 Updated: 2019/11/18 Description: Updated installation process to latest
+    Author: `Renato Aragão` Version: 4biz-helium-BETA-1 Updated: 2020/04/28 Description: Updated installation process to latest
 
 [1]:/pt-br/4biz-helium/initial-settings/navigation-and-user-interface.html

@@ -2,7 +2,7 @@ Title: Instalando certificado SSL
 
 # Instalando certificado SSL
 
-A instalação de um certificado SSL é obrigatória para funcionamento da ferramenta 4biz. Existem duas formas de configurar um certificado SSL em nossos cenários:
+A instalação de um certificado SSL é obrigatória para funcionamento da ferramenta CITSmart. Existem duas formas de configurar um certificado SSL em nossos cenários:
 
 * Gerando e utilizando auto assinado.
 * Utilizando um certificado válido com uma cadeia de certificação válida.
@@ -10,32 +10,36 @@ A instalação de um certificado SSL é obrigatória para funcionamento da ferra
 
 ## Gerando e utilizando um certificado auto assinado pelo Java
 
-A forma como você acessa o 4biz altera a maneira de geração do certificado SSL. Existem duas possibilidades de acessar o URL do sistema:
+A forma como você acessa o CITSmart altera a maneira de geração do certificado SSL. Existem duas possibilidades de acessar o URL do sistema:
 
 * Através de endereçamento IP no formato https://ENDERECO_IP
-* Através de DNS no formato https://run2biz.exemplo.com
+* Através de DNS no formato https://4biz.exemplo.com
 
 A geração do certificado em ambos casos é ligeiramente diferente. Abaixo o procedimento válido par ambos os casos.
 
 
 ### Criando um certificado para uma entrada de DNS
 
-Abaixo o comando para se gerar um certificado SSL para uma entrada de DNS chamada `run2biz.example.com`. Lembre-se de alterar os seguintes parâmetros abaixo:
+Abaixo o comando para se gerar um certificado SSL para uma entrada de DNS chamada `4biz.example.com`. Lembre-se de alterar os seguintes parâmetros abaixo:
 
 * **KEY_NAME:** Um nome para chave/arquivo. Exemplo 4bizV1.
-* **run2biz.example.com:** Altere para entrada de DNS que você criou para sua aplicação.
+* **4biz.example.com:** Altere para entrada de DNS que você criou para sua aplicação.
 * **validity 365:** Tempo de validade da chave em dias. Dependendo do requisito de segurança interno de sua instituição, defina esse valor. Após atingido o limite de tempo, o certificado irá se expirar e será necessário gerar outro. Definia o tempo que achar melhor apropriado. No exemplo o certificado vale por 1 ano 365 dias).
 * **PASSWORD:** Uma senha para o certificado. Exemplo password123456
 
 ``` shell
-/opt/jdk/bin/keytool -genkey -alias KEY_NAME -keyalg RSA -keystore /opt/wildfly/standalone/configuration/KEY_NAME.keystore -ext san=dns:run2biz.example.com -validity 365 -storepass PASSWORD
+/opt/jdk/bin/keytool -genkey -alias KEY_NAME -keyalg RSA -keystore /opt/wildfly/standalone/configuration/KEY_NAME.keystore -ext san=dns:4biz.example.com -validity 365 -storepass PASSWORD
 ```
 
 Quando o comando for executado, será realizada uma série de perguntas, no qual poderá ser respondidas ou não (o preenchimento é opcional). Caso não queira preencher as informações, digite [enter] para todas, com exceção da última que precisará ser respondido `yes.
 
+```sh
+/opt/jdk/bin/keytool -genkey -alias 4bizV1 -keyalg RSA -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -ext san=dns:4biz.example.com -validity 365 -storepass password123456
+```
+Saída:
 ``` shell
 
-[root@server /tmp]# /opt/jdk/bin/keytool -genkey -alias 4bizV1 -keyalg RSA -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -ext san=dns:run2biz.example.com -validity 365 -storepass password123456
+[root@server /tmp]# /opt/jdk/bin/keytool -genkey -alias 4bizV1 -keyalg RSA -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -ext san=dns:4biz.example.com -validity 365 -storepass password123456
 What is your first and last name?
   [Unknown]:
 What is the name of your organizational unit?
@@ -51,7 +55,7 @@ What is the two-letter country code for this unit?
 Is CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown correct?
   [no]:  yes
 
-Enter key password for <GRPv1>
+Enter key password for <4bizV1>
         (RETURN if same as keystore password):
 Re-enter new password:
 
@@ -66,7 +70,7 @@ The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS
 Abaixo o comando para se gerar um certificado SSL para um acesso feito diretamente por IP, por exemplo `192.168.0.40`. Lembre-se de alterar os seguintes parâmetros abaixo:
 
 * **KEY_NAME:** Um nome para chave/arquivo. Exemplo 4bizV1.
-* **192.168.0.40:** Altere para o endereço IP que está respondendo o 4biz.
+* **192.168.0.40:** Altere para o endereço IP que está respondendo o CITSmart.
 * **validity 365:** Tempo de validade da chave em dias. Dependendo do requisito de segurança interno de sua instituição, defina esse valor. Após atingido o limite de tempo, o certificado irá se expirar e será necessário gerar outro. Definia o tempo que achar melhor apropriado. No exemplo o certificado vale por 1 ano 365 dias).
 * **PASSWORD:** Uma senha para o certificado. Exemplo password123456
 
@@ -78,7 +82,7 @@ Quando o comando for executado, será realizada uma série de perguntas, no qual
 
 ``` shell
 
-[root@server /tmp]# /opt/jdk/bin/keytool -genkey -alias D -keyalg RSA -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -ext san=ip:192.168.0.40 -validity 365 -storepass password123456
+[root@server /tmp]# /opt/jdk/bin/keytool -genkey -alias 4bizV1 -keyalg RSA -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -ext san=ip:192.168.0.40 -validity 365 -storepass password123456
 What is your first and last name?
   [Unknown]:
 What is the name of your organizational unit?
@@ -94,7 +98,7 @@ What is the two-letter country code for this unit?
 Is CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown correct?
   [no]:  yes
 
-Enter key password for <GRPv1>
+Enter key password for <4bizV1>
         (RETURN if same as keystore password):
 Re-enter new password:
 
@@ -108,6 +112,11 @@ The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS
 
 O próximo passo é a geração do arquivo de certificado `.cer`. Para gerar o arquivo, execute o comando abaixo substituindo os valores (como nome do keystore e tempo) de acordo com keystore gerado nos comandos anteriores. No momento que executar o comando, será solicitada a senha gerada nos passos anteriores.
 
+```sh
+/opt/jdk/bin/keytool -export -alias 4bizV1 -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -validity 365 -file /opt/wildfly/standalone/configuration/4bizV1.cer
+```
+Saída:
+
 ```shell
 
 [root@server /tmp]# /opt/jdk/bin/keytool -export -alias 4bizV1 -keystore /opt/wildfly/standalone/configuration/4bizV1.keystore -validity 365 -file /opt/wildfly/standalone/configuration/4bizV1.cer
@@ -120,6 +129,12 @@ The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS
 ```
 
 Agora é necessário importar o arquivo `.cer` para o cacerts do Java. Execute o comando abaixo para realizar a importação. No momento que executar o comando, será solicitada a senha do cacerts (a senha padrão do aplicativo Java caso não tenha alterado é `changeit`). Altere os nome dos arquivos de acordo com o que que fora gerado anteriormente. No final do comando responda `[yes]` para prosseguir.
+
+```sh
+/opt/jdk/bin/keytool -keystore /opt/jdk/jre/lib/security/cacerts -importcert -alias "4bizV1" -file /opt/wildfly/standalone/configuration/4bizV1.cer
+```
+
+Saída:
 
 ``` shell
 [root@server /tmp]# /opt/jdk/bin/keytool -keystore /opt/jdk/jre/lib/security/cacerts -importcert -alias "4bizV1" -file /opt/wildfly/standalone/configuration/4bizV1.cer
@@ -140,7 +155,7 @@ Extensions:
 
 #1: ObjectId: 2.5.29.17 Criticality=false
 SubjectAlternativeName [
-  DNSName: run2biz.example.com
+  DNSName: 4biz.example.com
 ]
 
 #2: ObjectId: 2.5.29.14 Criticality=false
@@ -160,8 +175,7 @@ Certificate was added to keystore
 Para finalizar, qualquer que tenha sido a forma escolhida, mude o proprietário do keystore para o wildfly, substituindo o exemplo abaixo pelo nome do seu certificado caso tenha alterado:
 
 ```shell
-[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/4bizV1.keystore
-[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/4bizV1.cer
+chown wildfly.wildfly /opt/wildfly/standalone/configuration/4bizV1.*
 ```
 
 ### Gerando o keystore com certificado válido
@@ -174,7 +188,7 @@ Caso você tenha um certificado válido, com uma cadeia de certificação válid
 
 
 ```shell
-[root@server /tmp]# /opt/jdk/bin/keytool -importkeystore -srckeystore CERTIFICADO.p12 -srcstoretype PKCS12 -alias "ALIAS_CERT" -destkeystore CERTIFICADO.jks -deststoretype JKS
+/opt/jdk/bin/keytool -importkeystore -srckeystore CERTIFICADO.p12 -srcstoretype PKCS12 -alias "ALIAS_CERT" -destkeystore CERTIFICADO.jks -deststoretype JKS
 ```
 
 Uma vez gerado o arquivo do keystore, é necessário importá-lo para o cacerts (mesmo procedimento de importação utilizado na geração do certificado auto assinado)
@@ -186,10 +200,15 @@ Acesse o wildfly no modo CLI e dê os comandos abaixo substituindo os valores pe
 
 ```shell
 /subsystem=undertow/server=default-server/https-listener=https:read-attribute(name=security-realm)
+
 /subsystem=elytron/key-store=citsmartKeyStore:add(path="4bizV1.keystore",relative-to=jboss.server.config.dir,credential-reference={clear-text="password123456"},type=JKS)
-/subsystem=elytron/key-manager=4bizKeyManager:add(key-store=4bizKeyStore,credential-reference={clear-text="password123456"})
-/subsystem=elytron/server-ssl-context=4bizSSLContext:add(key-manager=4bizKeyManager,protocols=["TLSv1.2"])
+
+/subsystem=elytron/key-manager=citsmartKeyManager:add(key-store=citsmartKeyStore,credential-reference={clear-text="password123456"})
+
+/subsystem=elytron/server-ssl-context=citsmartSSLContext:add(key-manager=citsmartKeyManager,protocols=["TLSv1.2"])
+
 /core-service=management/security-realm=ApplicationRealm/server-identity=ssl:remove
+
 /core-service=management/security-realm=ApplicationRealm/server-identity=ssl:add(keystore-path="4bizV1.keystore", keystore-password-credential-reference={clear-text="password123456"}, keystore-relative-to="jboss.server.config.dir",alias="4bizV1")
 ```
 
