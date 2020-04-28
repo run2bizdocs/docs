@@ -13,53 +13,51 @@ As configurações do servidor de aplicação podem ser feitas de duas formas: v
 Conecte-se ao jboss-cli (considerando-se que o servidor esteja rodando) executando o comando abaixo:
 
 ``` shell
-[root@server /tmp]# /opt/wildfly/bin/jboss-cli.sh --connect
-[standalone@localhost:9990 /]
+/opt/wildfly/bin/jboss-cli.sh --connect
 ```
 
-Em seguida execute os seguintes comandos substituindo o conteúdo das variáveis pela configuração do seu ambiente.
+Em seguida execute os seguintes comandos substituindo o conteúdo das variáveis pela configuração do seu ambiente. Você deverá ter como resposta `{"outcome" => "success"}`
 
 ``` shell
-[standalone@localhost:9990 /] /system-property=mongodb.host:add(value="citmongo")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=mongodb.port:add(value="27017")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=mongodb.user:add(value="admin")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=mongodb.password:add(value="admin")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.protocol:add(value="http")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.host:add(value="my.4biz.com")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.port:add(value="8080")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.context:add(value="4biz")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.login:add(value="4biz.local\\\consultor")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.password:add(value="senhaConsultor")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.inventory.id:add(value="4bizinventory")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.evm.id:add(value="4bizevm")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.evm.enable:add(value=true)
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.inventory.enable:add(value=true)
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.port.updateparameters:add(value="9000")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=4biz.inventory.pagelength:add(value="100")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=rhino.scripts.directory:add(value="")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=jboss.as.management.blocking.timeout:add(value="600")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=org.quartz.properties:add(value="$\{jboss.server.config.dir\}/quartz.properties")
-{"outcome" => "success"}
-[standalone@localhost:9990 /]/system-property=snmp.oid.repository.directory:add(value="/opt/templates")
-{"outcome" => "success"}
+/system-property=mongodb.host:add(value="citmongo")
+
+/system-property=mongodb.port:add(value="27017")
+
+/system-property=mongodb.user:add(value="admin")
+
+/system-property=mongodb.password:add(value="admin")
+
+/system-property=citsmart.protocol:add(value="http")
+
+/system-property=citsmart.host:add(value="my.citsmart.com")
+
+/system-property=citsmart.port:add(value="8080")
+
+/system-property=citsmart.context:add(value="4biz")
+
+/system-property=citsmart.login:add(value="4biz.local\\\consultor")
+
+/system-property=citsmart.password:add(value="senhaConsultor")
+
+/system-property=citsmart.inventory.id:add(value="citsmartinventory")
+
+/system-property=citsmart.evm.id:add(value="citsmartevm")
+
+/system-property=citsmart.evm.enable:add(value=true)
+
+/system-property=citsmart.inventory.enable:add(value=true)
+
+/system-property=citsmart.port.updateparameters:add(value="9000")
+
+/system-property=citsmart.inventory.pagelength:add(value="100")
+
+/system-property=rhino.scripts.directory:add(value="")
+
+/system-property=jboss.as.management.blocking.timeout:add(value="600")
+
+/system-property=org.quartz.properties:add(value="$\{jboss.server.config.dir\}/quartz.properties")
+
+/system-property=snmp.oid.repository.directory:add(value="/opt/templates")
 ```
 
 Após as configurações, para sair do CLI digite `quit`
@@ -73,9 +71,9 @@ Após as configurações, para sair do CLI digite `quit`
 Para editar o arquivo XML utilizado pelo wildfly na mão, entre no diretório:
 
 ``` shell
-[root@server /tmp]# /opt/wildfly/standalone/configuration
+cd /opt/wildfly/standalone/configuration
 ```
-E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo após a clausula abaixo:
+E edite o arquivo stantalone-full.xml e inclua a configuração XML do CITSmart logo após a clausula abaixo:
 
 ``` xml
 <server xmlns="urn:jboss:domain:6.0">
@@ -94,20 +92,20 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo
      <property name="mongodb.port" value="27017"/>
      <property name="mongodb.user" value="admin"/>
      <property name="mongodb.password" value="admin"/>
-     <property name="4biz.protocol" value="http"/>
-     <property name="4biz.host" value="my.cloud4biz.com"/>
-     <property name="4biz.port" value="8080"/>
-     <property name="4biz.context" value="4biz"/>
-     <property name="4biz.login" value="4biz.local\\\consultor"/>
-     <property name="4biz.password" value="senhaConsultor"/>
-     <property name="4biz.inventory.id" value="4bizinventory"/>
-     <property name="4biz.evm.id" value="4bizevm"/>
-     <property name="4biz.evm.enable" value="false"/>
-     <property name="4biz.inventory.enable" value="false"/>
+     <property name="citsmart.protocol" value="http"/>
+     <property name="citsmart.host" value="my.citsmartcloud.com"/>
+     <property name="citsmart.port" value="8080"/>
+     <property name="citsmart.context" value="4biz"/>
+     <property name="citsmart.login" value="4biz.local\\\consultor"/>
+     <property name="citsmart.password" value="senhaConsultor"/>
+     <property name="citsmart.inventory.id" value="citsmartinventory"/>
+     <property name="citsmart.evm.id" value="citsmartevm"/>
+     <property name="citsmart.evm.enable" value="false"/>
+     <property name="citsmart.inventory.enable" value="false"/>
      <property name="rhino.scripts.directory" value=""/>
      <property name="jboss.as.management.blocking.timeout" value="600"/>
-     <property name="4biz.port.updateparameters" value="9000"/>
-     <property name="4biz.inventory.pagelength" value="100"/>
+     <property name="citsmart.port.updateparameters" value="9000"/>
+     <property name="citsmart.inventory.pagelength" value="100"/>
      <property name="org.quartz.properties" value="${jboss.server.config.dir}/quartz.properties"/>
      <property name="snmp.oid.repository.directory" value="/opt/templates"/>
  </system-properties>
@@ -115,9 +113,9 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo
 
  Após realizada as configurações, reinicie o serviço para efetivar as mudanças:
 
- ``` shell
- [root@server /tmp]# systemctl status wildfly
- ```
+``` shell
+systemctl restart wildfly
+```
 
 ## Próximo passo
 
