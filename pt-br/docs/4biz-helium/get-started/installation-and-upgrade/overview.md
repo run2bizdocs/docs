@@ -29,4 +29,4 @@ Na próxima etapa, daremos início a instalação de todos os pacotes.
 
 Author         | Version   | Updated             | Description
 -------------- | ------ | ------------------- | -----------
-`Christiano Mendonça` | 8.0.2.0 | 11/08/2019| Updated installation process to latest version.
+`Infra Team` | 4biz-helium-BETA-1 | 28/04/2020| Updated installation process to latest version.
