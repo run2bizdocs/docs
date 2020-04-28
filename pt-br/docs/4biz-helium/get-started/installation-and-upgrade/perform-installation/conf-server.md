@@ -19,7 +19,7 @@ Conecte-se ao jboss-cli (considerando-se que o servidor esteja rodando) executan
 Em seguida execute os seguintes comandos substituindo o conteúdo das variáveis pela configuração do seu ambiente. Você deverá ter como resposta `{"outcome" => "success"}`
 
 ``` shell
-/system-property=mongodb.host:add(value="citmongo")
+/system-property=mongodb.host:add(value="127.0.0.1")
 
 /system-property=mongodb.port:add(value="27017")
 
@@ -88,7 +88,7 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo
 
  ``` xml
  <system-properties>
-     <property name="mongodb.host" value="citmongo"/>
+     <property name="mongodb.host" value="127.0.0.1"/>
      <property name="mongodb.port" value="27017"/>
      <property name="mongodb.user" value="admin"/>
      <property name="mongodb.password" value="admin"/>
