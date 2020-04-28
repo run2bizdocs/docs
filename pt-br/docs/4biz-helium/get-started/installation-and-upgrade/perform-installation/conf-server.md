@@ -29,7 +29,7 @@ Em seguida execute os seguintes comandos substituindo o conteúdo das variáveis
 
 /system-property=citsmart.protocol:add(value="http")
 
-/system-property=citsmart.host:add(value="my.citsmart.com")
+/system-property=citsmart.host:add(value="my.cloud4biz.com")
 
 /system-property=citsmart.port:add(value="8080")
 
@@ -39,9 +39,9 @@ Em seguida execute os seguintes comandos substituindo o conteúdo das variáveis
 
 /system-property=citsmart.password:add(value="senhaConsultor")
 
-/system-property=citsmart.inventory.id:add(value="citsmartinventory")
+/system-property=citsmart.inventory.id:add(value="inventory")
 
-/system-property=citsmart.evm.id:add(value="citsmartevm")
+/system-property=citsmart.evm.id:add(value="evm")
 
 /system-property=citsmart.evm.enable:add(value=true)
 
@@ -73,7 +73,7 @@ Para editar o arquivo XML utilizado pelo wildfly na mão, entre no diretório:
 ``` shell
 cd /opt/wildfly/standalone/configuration
 ```
-E edite o arquivo stantalone-full.xml e inclua a configuração XML do CITSmart logo após a clausula abaixo:
+E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo após a clausula abaixo:
 
 ``` xml
 <server xmlns="urn:jboss:domain:6.0">
@@ -93,13 +93,13 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do CITSmart 
      <property name="mongodb.user" value="admin"/>
      <property name="mongodb.password" value="admin"/>
      <property name="citsmart.protocol" value="http"/>
-     <property name="citsmart.host" value="my.citsmartcloud.com"/>
+     <property name="citsmart.host" value="my.cloud4biz.com"/>
      <property name="citsmart.port" value="8080"/>
      <property name="citsmart.context" value="4biz"/>
      <property name="citsmart.login" value="4biz.local\\\consultor"/>
      <property name="citsmart.password" value="senhaConsultor"/>
-     <property name="citsmart.inventory.id" value="citsmartinventory"/>
-     <property name="citsmart.evm.id" value="citsmartevm"/>
+     <property name="citsmart.inventory.id" value="inventory"/>
+     <property name="citsmart.evm.id" value="evm"/>
      <property name="citsmart.evm.enable" value="false"/>
      <property name="citsmart.inventory.enable" value="false"/>
      <property name="rhino.scripts.directory" value=""/>
