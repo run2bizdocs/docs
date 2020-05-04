@@ -21,9 +21,9 @@ Entre no jboss-cli e execute os comandos abaixo:
 
 /subsystem=undertow/server=default-server/https-listener=https:write-attribute(name=max-parameters,value="3000")
 
-/subsystem=undertow/configuration=filter/rewrite=citsmart:add(target="/4biz")
+/subsystem=undertow/configuration=filter/rewrite=4biz:add(target="/4biz")
 
-/subsystem=undertow/server=default-server/host=default-host/filter-ref=citsmart:add(predicate="regex('\^/?\$') and equals(/4biz)")
+/subsystem=undertow/server=default-server/host=default-host/filter-ref=4biz:add(predicate="regex('\^/?\$') and equals(/4biz)")
 
 /subsystem=undertow/server=default-server/host=default-host/setting=access-log:add
 
