@@ -3,7 +3,7 @@ Description: Descreve O que há de novo no 4biz Helium
 
 # O que há de novo no 4biz?
 
-## Versão 8.0.2.0
+## Versão Helium 
  
 ### CENTRO DE EXPERIÊNCIA
 
@@ -36,7 +36,7 @@ Description: Descreve O que há de novo no 4biz Helium
 - Melhorias de performance e funcionalidades no Smartchat que permite além da comunicação entre atendente e solicitante, a comunicação entre atendentes;
 
 
-## Versão 8.0
+## Versão Helium 
 
 Uso da Logomarca e Login
 ------------------------
