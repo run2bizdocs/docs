@@ -55,6 +55,6 @@ Anexo
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>1/30/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
     
 [1]:/pt-br/4biz-helium/additional-features/mobile-and-field-service/report/images/km-por-analista.citreport  

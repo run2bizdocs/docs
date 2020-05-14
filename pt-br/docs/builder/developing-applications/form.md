@@ -130,5 +130,5 @@ Permite a construção de interfaces de usuário através da combinação de com
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>03/13/2019 - Anna Martins  
+    <b>Updated:</b>11/03/2020 
 

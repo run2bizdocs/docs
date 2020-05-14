@@ -22,7 +22,7 @@ Related
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/09/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
 
 
 [1]:/en-us/4biz-helium/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html

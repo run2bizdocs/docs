@@ -49,5 +49,5 @@ There are two ways of interface Builder with a Ticket:
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>03/12/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
 

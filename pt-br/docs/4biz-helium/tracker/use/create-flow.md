@@ -65,6 +65,6 @@ Relacionado
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>02/21/2019 – Larissa Lourenço
+    <b>Updated:</b>11/03/2020
 
 [2]:/pt-br/4biz-helium/tracker/configuration/expressions-creator.html

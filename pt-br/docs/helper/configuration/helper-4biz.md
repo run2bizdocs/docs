@@ -23,4 +23,4 @@ A Helper já se integra nativamente ao 4biz, então é muito fácil adicioná-la
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>04/07/2019 - Anna Martins
+    <b>Updated:</b>11/03/2020

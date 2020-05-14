@@ -130,7 +130,7 @@ Na criação do conhecimento o 4biz estabelecerá sempre a versão "1.0" e, quan
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>12/26/2019 – Education Team
+    <b>Updated:</b>11/03/2020
     
 [1]:https://en.wikipedia.org/wiki/WYSIWYG
 [2]:/pt-br/4biz-helium/initial-settings/access-settings/profile/create-profile-access.html

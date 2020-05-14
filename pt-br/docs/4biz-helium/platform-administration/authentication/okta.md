@@ -144,6 +144,6 @@ Concluída a integração do Okta com o 4biz, alguns parâmetros do 4biz podem s
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>05/30/2019 – Larissa Lourenço
+    <b>Updated:</b>11/03/2020
 
 [1]: https://www.okta.com/

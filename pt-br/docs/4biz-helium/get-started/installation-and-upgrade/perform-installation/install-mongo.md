@@ -2,7 +2,7 @@ Title: Instalando o MongoDB
 
 # Instalando o MongoDB
 
-A instalação do MongoDB pode ser feita via repositório do yum disponível no endereço https://repo.mongodb.org/. A versão homologada pelo CITSmart é a 3.4. Considerando que o servidor seja CentOS versão 7, crie um arquivo no `/etc/yum.repos.d/` chamado mongo.repo, e inclua o conteúdo abaixo. Lembre-se de trocar o `baseurl` pelo URL de acordo com sua versão de sistema operacional. No exemplo abaixo o repositório escolhido foi para um CentOS 7:
+A instalação do MongoDB pode ser feita via repositório do yum disponível no endereço https://repo.mongodb.org/. A versão homologada pelo Run2biz é a 3.4. Considerando que o servidor seja CentOS versão 7, crie um arquivo no `/etc/yum.repos.d/` chamado mongo.repo, e inclua o conteúdo abaixo. Lembre-se de trocar o `baseurl` pelo URL de acordo com sua versão de sistema operacional. No exemplo abaixo o repositório escolhido foi para um CentOS 7:
 
 ``` shell
 [mongodb-org-3.4]
@@ -97,7 +97,7 @@ Reinicie o serviço do mongo:
 ``` shell
 systemctl restart mongod
 ```
-Conecte no mongodb para criar o banco de dados do CITSmart e configurar a senha de admin:
+Conecte no mongodb para criar o banco de dados do Run2biz e configurar a senha de admin:
 ``` shell
 mongo
 ```

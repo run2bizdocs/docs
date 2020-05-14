@@ -26,4 +26,4 @@ Esta funcionalidad es una buena alternativa para la creación de flujos de traba
 !!! tip "Sobre"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles
+    <b>Updated:</b>11/03/2020

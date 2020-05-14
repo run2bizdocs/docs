@@ -28,6 +28,6 @@ Relacionado
 
 !!! tip "About"
     <b>Product/Verssion:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/24/2019 – Anna Martins 
+    <b>Updated:</b>11/03/2020 
 
 

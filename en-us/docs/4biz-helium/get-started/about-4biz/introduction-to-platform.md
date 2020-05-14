@@ -82,4 +82,4 @@ That´s the new mindset for the new Companies and our 4biz - Enterprise
 Services Platform will help changes those corporates perspective.
 
 !!! tip "About"
-    <b>Updated:</b>12/31/2018 - Andre Luiz de Oliveira Fernandes
+    <b>Updated:</b>11/03/2020

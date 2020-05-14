@@ -21,5 +21,5 @@ Es posible importar un rango de datos al 4biz Platform, esto puede ayudar en el 
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles  
+    <b>Updated:</b>11/03/2020 
 	

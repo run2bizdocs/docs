@@ -19,7 +19,7 @@ Relacionado
 !!! tip "Sobre"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 – Renato Aragao
+    <b>Updated:</b>11/03/2020
 
 [1]:/pt-br/4biz-helium/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html
 [2]:/pt-br/4biz-helium/initial-settings/access-settings/user/user-data.html

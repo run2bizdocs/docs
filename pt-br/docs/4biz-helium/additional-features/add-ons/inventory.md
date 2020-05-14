@@ -43,5 +43,5 @@ Para testar o Inventory, [configurar][4] as conexões na instância 4biz.
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles  
+    <b>Updated:</b>11/03/2020  
 	

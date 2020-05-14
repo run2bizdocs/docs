@@ -49,5 +49,5 @@ In this environment, you will be able to add and review knowledge to Helper, you
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>04/07/2019 - Anna Martins
+    <b>Updated:</b>11/03/2020
 

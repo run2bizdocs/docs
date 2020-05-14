@@ -55,7 +55,7 @@ As permissões em pastas são aplicadas em duas perspectivas: perfil de acesso e
 
 !!! tip "About"
     <b>Product/Verssion:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>12/23/2019 – Education Team
+    <b>Updated:</b>11/03/2020
 
 [1]:/pt-br/4biz-helium/processes/knowledge/use/create-knowledge.html
 [2]:/pt-br/4biz-helium/initial-settings/access-settings/user/register-groups.html

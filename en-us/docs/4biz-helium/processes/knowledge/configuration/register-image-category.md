@@ -18,6 +18,6 @@ This feature provides a variety of actions, such as including, changing, and del
 
 !!! tip "About"
     <b>Product/Verssion:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>12/28/2018 – João Pelles Junior 
+    <b>Updated:</b>11/03/2020
 
 

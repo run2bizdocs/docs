@@ -32,6 +32,6 @@ Para que a Indexação de conhecimento funcione corretamente é necessário:
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>06/25/2019
+    <b>Updated:</b>11/03/2020
 
 [1]:/pt-br/4biz-helium/get-started/installation-and-upgrade/download-software.html#servidor-de-indexacao-apache-solr_1

@@ -33,7 +33,7 @@ To test the Inventory, [configure][4] the connections in the 4biz instance.
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019
+    <b>Updated:</b>11/03/2020
 
 
 [1]:/en-us/4biz-helium/additional-features/add-ons/event-monitor.html

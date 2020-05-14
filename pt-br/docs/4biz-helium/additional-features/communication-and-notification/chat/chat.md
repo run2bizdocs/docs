@@ -130,4 +130,4 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz ESP | Helium &nbsp;&nbsp;
-    <b>Updated:</b>07/04/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020

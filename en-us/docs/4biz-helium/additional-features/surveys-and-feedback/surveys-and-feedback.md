@@ -20,5 +20,5 @@ The platform has mechanisms to measure the satisfaction of users who use a servi
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles  
+    <b>Updated:</b>11/03/2020
 	

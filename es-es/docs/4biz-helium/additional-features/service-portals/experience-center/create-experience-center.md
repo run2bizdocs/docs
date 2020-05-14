@@ -190,7 +190,7 @@ Relacionado
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/25/2019 – Larissa Lourenço
+    <b>Updated:</b>11/03/2020
 
 [1]:images/creat-experience-center.png
 [2]:images/permission-experiece-center.png

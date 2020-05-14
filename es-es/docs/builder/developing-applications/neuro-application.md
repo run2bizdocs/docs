@@ -43,5 +43,5 @@ Figura 1 - Aplicación Builder
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>03/20/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
 

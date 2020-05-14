@@ -2,7 +2,7 @@ Title: Instalando certificado SSL
 
 # Instalando certificado SSL
 
-A instalação de um certificado SSL é obrigatória para funcionamento da ferramenta CITSmart. Existem duas formas de configurar um certificado SSL em nossos cenários:
+A instalação de um certificado SSL é obrigatória para funcionamento da ferramenta Run2biz. Existem duas formas de configurar um certificado SSL em nossos cenários:
 
 * Gerando e utilizando auto assinado.
 * Utilizando um certificado válido com uma cadeia de certificação válida.
@@ -10,7 +10,7 @@ A instalação de um certificado SSL é obrigatória para funcionamento da ferra
 
 ## Gerando e utilizando um certificado auto assinado pelo Java
 
-A forma como você acessa o CITSmart altera a maneira de geração do certificado SSL. Existem duas possibilidades de acessar o URL do sistema:
+A forma como você acessa o Run2biz altera a maneira de geração do certificado SSL. Existem duas possibilidades de acessar o URL do sistema:
 
 * Através de endereçamento IP no formato https://ENDERECO_IP
 * Através de DNS no formato https://4biz.exemplo.com
@@ -70,7 +70,7 @@ The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS
 Abaixo o comando para se gerar um certificado SSL para um acesso feito diretamente por IP, por exemplo `192.168.0.40`. Lembre-se de alterar os seguintes parâmetros abaixo:
 
 * **KEY_NAME:** Um nome para chave/arquivo. Exemplo 4bizV1.
-* **192.168.0.40:** Altere para o endereço IP que está respondendo o CITSmart.
+* **192.168.0.40:** Altere para o endereço IP que está respondendo o Run2biz.
 * **validity 365:** Tempo de validade da chave em dias. Dependendo do requisito de segurança interno de sua instituição, defina esse valor. Após atingido o limite de tempo, o certificado irá se expirar e será necessário gerar outro. Definia o tempo que achar melhor apropriado. No exemplo o certificado vale por 1 ano 365 dias).
 * **PASSWORD:** Uma senha para o certificado. Exemplo password123456
 

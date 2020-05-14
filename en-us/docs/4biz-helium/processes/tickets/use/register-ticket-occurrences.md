@@ -38,6 +38,6 @@ the ticket) and click on the "Add" icon. It is possible to allow this informatio
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>06/26/2019
+    <b>Updated:</b>11/03/2020
 
 

@@ -51,4 +51,4 @@ Figura 4 - Pantalla de registro
 6- La conexión puede estar vinculada a un proceso de negocio registrado.    
 
 !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>11/03/2020

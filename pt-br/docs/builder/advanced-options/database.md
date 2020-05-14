@@ -58,4 +58,4 @@ Figura 2 - Tela de listagem de banco de dados
 
 
 !!! tip "About"
-    <b>Updated:</b>07/02/2019 - João Pelles Junior
+    <b>Updated:</b>11/03/2020

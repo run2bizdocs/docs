@@ -126,4 +126,4 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz ESP | Helium &nbsp;&nbsp;
-    <b>Updated:</b>07/04/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020

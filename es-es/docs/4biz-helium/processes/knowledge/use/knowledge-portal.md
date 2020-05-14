@@ -102,4 +102,4 @@ También permite que el mismo registre un nuevo conocimiento para tonar el porta
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>02/27/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020

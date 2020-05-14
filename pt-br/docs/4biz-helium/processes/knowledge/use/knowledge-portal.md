@@ -108,6 +108,5 @@ conhecimento na Base de Conhecimento
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>02/27/2019 – Anna Martins
-
+    <b>Updated:</b>11/03/2020
  

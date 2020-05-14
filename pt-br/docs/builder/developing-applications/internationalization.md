@@ -45,4 +45,4 @@ Figura 2 - Dados da internacionalização
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>03/13/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020

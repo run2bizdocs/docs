@@ -45,7 +45,7 @@ For each area above, we have technical security processes and measures that ensu
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 - João Pelles  
+    <b>Updated:</b>11/03/2020
 
 [2]:images/4biz-on-premises.jpg
 [3]:images/4biz-inv-evm.jpg

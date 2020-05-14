@@ -78,7 +78,7 @@ Relacionado
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/25/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
     
 [1]:/es-es/4biz-helium/processes/tickets/images/rotina-verificar-email.docx
   

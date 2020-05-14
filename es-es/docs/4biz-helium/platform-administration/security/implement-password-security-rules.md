@@ -67,7 +67,7 @@ Procedimiento
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 - Anna Martins
+    <b>Updated:</b>11/03/2020
 
 [1]:/es-es/4biz-helium/initial-settings/access-settings/user/users.html
 [2]:/es-es/4biz-helium/initial-settings/access-settings/user/user-data.html

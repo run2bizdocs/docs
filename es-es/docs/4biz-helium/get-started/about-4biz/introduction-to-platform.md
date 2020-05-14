@@ -82,4 +82,4 @@ Esta es la nueva mentalidad para las nuevas empresas y nuestra 4biz -
 Enterprise Services Platform ayudará a cambiar la perspectiva de estas corporaciones.
 
 !!! tip "About"
-    <b>Updated:</b>01/17/2018 - Andre Luiz de Oliveira Fernandes
+    <b>Updated:</b>11/03/2020

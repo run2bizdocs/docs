@@ -55,4 +55,4 @@ Figura 2 - Tela de listagem
 6. A conexão pode ser vinculada a um processo de negócio cadastrado.    
 
 !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>11/03/2020

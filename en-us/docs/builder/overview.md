@@ -37,4 +37,4 @@ the business demands, these business rules are created in a practical way and
 can be reused, avoiding waste.
 
 !!! tip "About"
-    <b>Updated:</b>12/31/2018 - Andre Luiz de Oliveira Fernandes
+    <b>Updated:</b>11/03/2020

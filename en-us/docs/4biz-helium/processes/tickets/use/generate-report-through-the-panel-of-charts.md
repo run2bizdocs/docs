@@ -194,5 +194,5 @@ This report allows to verify the information of service products and requests.
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>01/02/2019 – Anna Martins
+    <b>Updated:</b>11/03/2020
 

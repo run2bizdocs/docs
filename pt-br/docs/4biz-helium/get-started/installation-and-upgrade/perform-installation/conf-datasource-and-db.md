@@ -113,13 +113,13 @@ Se o banco de dados estiver rodando em outro servidor é necessário liberar a c
 host forbiz_db forbizdbuser WILDFLY_IP_ADDRESS/32 md5
 ```
 
-## Configurando o datasource para o citsmart
+## Configurando o datasource para o Run2biz
 
 Existem oito entradas de datasource para o forbiz_db, sendo que quatro são para o CITSmart e quatro para o CITSmart Neuro. O usuário e senha é forbizdbuser e SUA_SENHA criados no passo anterior. Caso tenha criado usuário, senha e banco de nomes diferentes, altere nos comandos abaixo.
 
 Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhum erro na execução, execute cada comando separadamente:
 
-### Datasource citsmart
+### Datasource Run2biz
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmart":add(jndi-name="java:/jdbc/citsmart",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -137,7 +137,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
-### Datasource citsmartFlow
+### Datasource Run2bizFlow
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":add(jndi-name="java:/jdbc/citsmartFluxo",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -155,7 +155,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
-### Datasourece citsmart_reports
+### Datasourece Run2biz_reports
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":add(jndi-name="java:/jdbc/citsmart_reports",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -173,7 +173,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
-### Datasource citsmartBpmEventos
+### Datasource Run2bizBpmEventos
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":add(jndi-name="java:/jdbc/citsmartBpmEventos",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -191,7 +191,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=idle-timeout-minutes,value=5
 ```
 
-### Datasource citsmart-neuro
+### Datasource Run2biz-builder
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro":add(jndi-name="java:/env/jdbc/citsmart-neuro",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -207,7 +207,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
-### Datasource citsmart-neuro-app1
+### Datasource Run2biz-builder-app1
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app1":add(jndi-name="java:/env/jdbc/citsmart-neuro-app1",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -223,7 +223,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
-### Datasource citsmart-neuro-app2
+### Datasource Run2biz-builder-app2
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app2":add(jndi-name="java:/env/jdbc/citsmart-neuro-app2",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -239,7 +239,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
-### Datasource citsmart-neuro-app3
+### Datasource Run2biz-builder-app3
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app3":add(jndi-name="java:/env/jdbc/citsmart-neuro-app3",driver-name="postgres",connection-url="jdbc:postgresql://127.0.0.1:5432/forbiz_db",user-name="forbizdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
@@ -257,7 +257,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 
 Caso ocorra algum erro na criação de algum datasource, use o comando `remove` para removê-lo e inicie novamente a criação:
 
-Exemplo, no caso abaixo iremos remover o datasource citsmart
+Exemplo, no caso abaixo iremos remover o datasource Run2biz
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmart":remove
