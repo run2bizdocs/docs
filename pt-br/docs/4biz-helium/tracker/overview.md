@@ -1,9 +1,9 @@
 Title: Introdução ao Tasker do 4biz
 Description: Visão geral de como criar e gerenciar um fluxo de trabalho no 4biz .
 
-# Introdução ao Tasker do 4biz
+# Introdução ao Tracker do 4biz
 
-Fluxos são representações visuais de algo que se move continuamente. Assim, fluxos podem ser usados para representar graficamente um processo ou qualquer ação. Eles podem ser materializados em um papel (documento físico) ou em uma ferramenta eletrônica. No 4biz, a funcionalidade de tasker tem a finalidade de modelar seus objetivos de negócio, descrevendo os passos que precisam ser executados para atingir esses objetivos através de um fluxo digital inteligente. É possível criar fluxos de trabalho para auxiliar na gestão de serviços, problemas, mudanças, liberações, ações de continuidade, requisições de viagens e compras. Sendo assim, o fluxo de trabalho possui interação com os principais processos do 4biz.
+Fluxos são representações visuais de algo que se move continuamente. Assim, fluxos podem ser usados para representar graficamente um processo ou qualquer ação. Eles podem ser materializados em um papel (documento físico) ou em uma ferramenta eletrônica. No 4biz, a funcionalidade de Tracker tem a finalidade de modelar seus objetivos de negócio, descrevendo os passos que precisam ser executados para atingir esses objetivos através de um fluxo digital inteligente. É possível criar fluxos de trabalho para auxiliar na gestão de serviços, problemas, mudanças, liberações, ações de continuidade, requisições de viagens e compras. Sendo assim, o fluxo de trabalho possui interação com os principais processos do 4biz.
 
 Os fluxos de trabalho automatizados dão vida às atividades do sistema, proporcionando que as atividades da sua organização sejam digitalizadas e automatizadas. Assim, você pode criar fluxos com controle de tarefas, adicionar notificações, subprocessos e estabelecer comunicação direta com outras aplicações, como é o caso do Builder – que é um framework para a geração de aplicações.
 
@@ -14,7 +14,7 @@ Você vai perceber que tarefas do dia a dia, como realizar um pedido, registrar 
 
 Antes de qualquer coisa você precisa se familiarizar com os conceitos básicos, regras de negócio e interface de utilização. A visualização da funcionalidade do menu do 4biz depende de permissões atribuídas a um perfil de acesso, verifique se você tem essa permissão. Caso não tenha esse acesso liberado um administrador pode conceder esse acesso.
 
-Para saber se seu perfil tem essa permissão, acesso o menu lateral superior à esquerda da tela, e verifique se a primeira opção de acesso é o Menu principal **Tasker**;
+Para saber se seu perfil tem essa permissão, acesso o menu lateral superior à esquerda da tela, e verifique se a primeira opção de acesso é o Menu principal **Tracker**;
 
 
 ![Tasker menu 4biz][1]
