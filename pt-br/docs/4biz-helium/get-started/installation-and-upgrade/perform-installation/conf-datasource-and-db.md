@@ -188,7 +188,7 @@ Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhu
 
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 
-/subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=idle-timeout-minutes,value=5
+/subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
 ### Datasource Run2biz-builder
