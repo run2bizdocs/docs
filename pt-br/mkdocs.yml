@@ -239,7 +239,6 @@ nav:
       - Processamento Batch:
         - 4biz-helium/platform-administration/configuring-automatic-actions/batch-batch-processing.md
       - Cadastrar ação automática:
-        - 4biz-helium/platform-administration/configuring-automatic-actions/overview.md
         - 4biz-helium/platform-administration/configuring-automatic-actions/email-create-automatic-action-via-email.md
         - 4biz-helium/platform-administration/configuring-automatic-actions/notification-create.md
         - 4biz-helium/platform-administration/configuring-automatic-actions/problem-automatic-action.md
