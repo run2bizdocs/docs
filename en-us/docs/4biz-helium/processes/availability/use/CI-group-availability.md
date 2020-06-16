@@ -1,19 +1,16 @@
-title: Verify CI group availability
+title: Verifying CI group availability
 
 Description: This functionality is intended to verify the CIs availability group.
-# Verify CI group availability
+# Verifying CI group availability
+
 This functionality is intended to verify the CIs availability group.
 
-Before getting started
---------------------------
+## Before getting started
 
-The verification of this availability requires the previous registration of the
-availability group. It is also necessary to link the calendar, the service level
-agreement of type "availability" and the cost per hour of unavailability to the:
-configuration item, the configuration item group and the service contract.
+- [x] Previous registration of the availability group. 
+- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, the configuration item group and the service contract.
 
-Procedure
--------------
+## Procedure
 
 1.  Access the functionality through the main menu Processes \> Availability
     Management \> Availability;
@@ -25,11 +22,23 @@ Procedure
 
 4.  It can be added several items, the amount you want, to the verification;
 
-5.  Verify the information in Availability per period, total availability and
-    unavailability occurrence, through the period filters;
+5.  Once you add the CI group, you can update the charts presented after this field by clicking on "Update Charts".
 
-6.  To download the total availability table and/or the unavailability
-    occurrence, click on "Save table" available in each area.
+6.  Verify the information in **Availability per period**. You can set the period you want and click on "Update" to view it. 
+
+7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the followin information:
+
+|Information|Description|
+|-----------|-----------|
+|Name|The name of the CI group|
+|Availability|The total number of the CI group availability|
+|Availability Agreement|It presents the total of the available agreement|
+|Availability difference|It presents the total difference for the availability|
+|Unavailability time|The time of unavailability|
+|Unavailability cost by hour|It presents the cost of unavailability|
+|Total cost of unavailability|The total for the cost of unavailability|
+
+8.  Verify the information in **Unavailability Occurrences**. You can set the period you want and click on "Update" to view it. It's also possible to download it by clicking on "Save table".
 
 Related
 -----------
