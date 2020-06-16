@@ -9,7 +9,21 @@ Each global event manager contains an EPL for *Information*, *Warning*, and/or
 *Exception*. EPL is an event correlation language used by Esper (Espertech). In
 the initialization of 4biz Event Monitor, these EPLs are imported into the
 Esper engine so that a new correlated event will be created each time the
-condition set in the EPL is satisfied. Example of an EPL that correlates between
+condition set in the EPL is satisfied. 
+
+Events and alerts related to 
+
+- Business Processes, Service Level Requirements 
+
+- Awareness of similar and multiple events per CI or Service, 
+
+- Connection to Incident prioritisation codes and categorizations,
+
+- Control action, 
+
+- Access to information on supporting and dependent CIs, the Change schedule, and known error information from vendors
+
+Example of an EPL that correlates between
 4biz Inventory and Nagios events: \@Description ('For any Nagios event that
 occurs after any Inventory event in the last 10 minutes) select \* from pattern
 [every a = EventCheckInventory- \> b = EventServiceNagios where timer: within
@@ -57,6 +71,7 @@ Procedure
 
 
 1.  Click on "Save".
+
 
 Related
 -------
