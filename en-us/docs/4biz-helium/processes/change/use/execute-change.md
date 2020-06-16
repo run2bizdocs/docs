@@ -1,25 +1,28 @@
-title: Close change
+title: Execute change
 Description: It allows to execute the change 
-# Close change 
+# Execute change 
 
 This functionality allows to close the change, explaining all the facts that have occurred in the lifecycle of the change, thus favoring the reexamination and inspection of the change created in order to reduce costs and risks for the organization.
 
-Before getting started
-----------------
+## Before getting started
 
 It's necessary the pre-existence of a change.
 
-Procedure 
--------------
+## Procedure 
 
 1.  Access the main menu Processes \>
     Change Management \> Change;
 
 2.  Find the change you want to plan the activity, click on "Open"
-    and then on "Reversion plan”;
 
 3.  In the tab "Review", it's necessary to select the option that defines if the
     change was successfully done;
+
+    !!! Abstract "NOTE"
+    
+        When you inform the change committee that the change is ready for development, the change will be forwarded to the voting area
+
+        In the change management area in the upper left corner of the menu, change the option to change to voting, after performing the vote the change will be available to be finalized.
 
 4.  It'll be possible to create a Kanban to manage the activities registered.
     Just click on “+Workspace” and complete the data available, for example:
