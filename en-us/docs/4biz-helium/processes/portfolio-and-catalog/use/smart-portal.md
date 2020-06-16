@@ -71,7 +71,13 @@ Procedure
 
     !!! Abstract "NOTES"  
 
-        The knowledge avilable in the tab "Knowldege" of the "Service" item can be defined
+        The user will be able to choose services from the service catalog based on his permissions
+
+
+
+    !!! Abstract "NOTES"  
+
+        The knowledge available in the tab "Knowldege" of the "Service" item can be defined
         in two levels:
 
         -   The knowledge linked to the portfolio that will be presented in the item 
