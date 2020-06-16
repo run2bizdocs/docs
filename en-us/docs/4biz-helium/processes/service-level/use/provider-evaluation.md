@@ -1,8 +1,10 @@
 title: Provider evaluation
 
 Description: It's possible to graphically verify the provider performance by service registered.
+
 # Provider evaluation
-With the service level management, it's possible to graphically verify the provider performance by service registered.
+
+It's the monitoring of Operational Level Agreement and Supplier performance metrics.
 
 Before getting started
 --------------------------
