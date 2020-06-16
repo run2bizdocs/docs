@@ -33,6 +33,9 @@ Procedure
     for reclassification** field so that all the people involved in the process
     are registered, the updates regarding changes related to it.
 
+!!! Abstract "ATTENTION"
+
+    When reclassifying the ticket, the priority can be changed by changing the impact and urgency.
 
 !!! Abstract "RULE"
 
@@ -48,7 +51,6 @@ What to do next
 -----------
 
 Verify in the page of related tickets if it has the reclassification.
-
 
 Related
 -----------
