@@ -7,7 +7,7 @@ This functionality is intended to locate an event in the Event Management.
 Before getting started
 --------------------------
 
-To locate the information necessary, it's necessary to previously register an
+- [x] To locate the information necessary, it's necessary to previously register an
 event collected by the monitoring tool.
 
 Procedure
@@ -17,7 +17,11 @@ Procedure
     \> Event;
 
 2.  Click on the field "Search here" and enter the information (it can be the
-    occurrence ID, host name or monitoring tool name) to make a quick search;
+    occurrence ID, host name, status or monitoring tool name) to make a quick search;
+    
+!!! tip
+
+    The search for status facilitates the tool search for archiving closed records
 
 3.  Click on the icon symbolized by the down arrow in the search field to make
     an advanced search and use the filters available;
