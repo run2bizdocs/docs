@@ -2,7 +2,9 @@ Title: Surveys and Feedback
 
 # Surveys and Feedback
 
-The platform has mechanisms to measure the satisfaction of users who use a service. The Search functionality enables to apply surveys to users in different contexts. Moreover, it's possible to promote searches by sending notifications via email or in the Service Portal (Smart Portal).
+The platform has mechanisms to measure the satisfaction of users who use a service.  
+The Search functionality enables to apply surveys to users in different contexts. Moreover, it's possible to promote searches by sending notifications via email or in the Service Portal (Smart Portal).  
+This will facilitate gathering customer feedback for customer satisfaction
 
 ## Related
 
