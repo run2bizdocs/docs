@@ -9,7 +9,7 @@ Generate report of knowledge base
 -------------------------------------
 
 This report aims to present the information about the knowledge in the knowledge
-base.
+base. The reports presents the Usage information, Access, and all possible trends
 
 1.  Access the functionality through the main menu Reports \> Knowledge
     Management \> Knowledge Base;
