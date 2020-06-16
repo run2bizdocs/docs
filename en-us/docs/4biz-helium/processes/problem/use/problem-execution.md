@@ -1,6 +1,6 @@
 title: Execute problem
 Description: It allows to execute problem.
-# Execute problem
+# Executing problem
 
 This functionality allows to execute the problem. In this step, it's made the classification of the problem and the designation of the appropriate area to handle the problem according to the IT Service Catalog. It's necessary to link the problem to existing incidents and register the problem to facilitate prioritization of problem solving, evaluate the impact on business, and determining the urgency of the solution. This evaluation determines the classification of the problem.
 
@@ -46,6 +46,10 @@ Procedure
     responsible team, and the diffusion of your solution for the ones interested.
     Therefore, it's necessary in the "Known Error" tab, click on "Add
     Workaround” and describe the relevant information;
+    
+    !!! Abstract "NOTE"
+    
+        If the known error option is selected, the system will present a field to define which environment this knowledge should be linked to (Production or Development).
     
     !!! Abstract "NOTE"
     
