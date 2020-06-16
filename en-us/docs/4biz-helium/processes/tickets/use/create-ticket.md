@@ -1,66 +1,73 @@
-title:  Creating ticket
-Description: Creating a ticket means opening a call within the system.
+title:  Creating ticket - Incident or Service Request
 
-# Creating ticket
+Description: Creating a ticket means opening an Incident or Service Request within the system.
 
-Creating a ticket means opening a call within the system, with possibility to monitor its attendance history with view of all actions sent to it.
+# Creating ticket - Incident or Service Request
+
+Creating a ticket means opening an Incident or Service Request  within the system, with possibility to monitor its attendance history with view of all actions sent to it.
 
 ## Before getting started
 
-1.	It's necessary to have permission to access the desktop of Service Desk;
-2.	It's necessary to have a catalog of services registered and configured (Portfolio, services, activities, groups, flow, SLA linked to the contract);
-3.	Have permission for the group linked to the service catalog to view and register.
+- [X] It's necessary to have permission to access the Ticket (Incident or Service Request) portal;
+- [X] Have a catalog of services registered and configured (Portfolio, services, activities, groups, flow, SLA linked to the contract);
+- [X] Have permission for the group linked to the service catalog to view, attend and register tickets(Incident or Service Request).
 
 
 ## Procedure
 
-1.	Access the main menu Processes > Ticket Management > Ticket;
+1.	Access the main menu Processes > Ticket Management > Ticket(Incident or Service Request);
 2.	Click on "Actions" and then on "Register";
-
 3.	Enter the requester's data;
 
-![procedure ticket 4biz][1]
+## Identification Fields 
+| Field                | Description                                         |
+|----------------------|-----------------------------------------------------|
+| **Requester(\*)**    | Name of requester (can be searchable with %%)       |
+| **E-mail (\*)**      | Add an e-mail for the requester                     |
+| **Unit**             | Unit of the requester                               |
+| **Contact's origin** | Service Desk, Email, Facebook, Twitter among others |
 
-**1: Full name** - of the requester;
+(*) Indicate mandatory field
 
-**2: Email** – of requester;
+!!! Abstract "NOTE"
 
-**3: Unit** – where the requester wants attendance;
-
-**4: Requester history** – it presents all the requester relationship with the ticket;
-
-**5: Satisfaction**;
-
-**6: Phone** – of requester;
-
-**7: Edit** – it allows to edit the name, email, phone and unit of the requester;
+    After filling the requestes  the systrem will retreive the requester history with No. of calls,Calls resolved on time, Delayed calls, Calls still open, Calls running and delayed, and the level of Satisfaction.
 
 ### Selecting the service
 
-![Select service ticket 4biz][2]
+The user will select the Incident or Service request to be registered 
 
-**1: Portfolio**;
+| Field            | Description                              |
+|------------------|------------------------------------------|
+| **Portfolio**    | The portfolios that the user are linked; |
+| **Service**      | The services of the selectes portfolio;  |
+| **Activity**     | The activities os the selected service;  |
+| **Contract(\*)** | Contracts linked to the portfolio;       |
+| **Impact**       | Impact of the activity;                  |
+| **Urgency**      | Urgency of the activity;                 |
 
-**2: Service**;
+(Portfolio/Service/Activity are mandatory)
 
-**3: Activity**;
+(*) Indicate mandatory field
 
-**4: Contract** – Linked to the portfolio;
+!!! Abstract "NOTE"
 
-**5: Impact** – of activity;
+    The priority is calculated by crossing the impact and urgency fields, being: High High - priority 1; High Medium - priority 2; Medium Medium - priority 3; Medium Low - priority 4; Low Low - priority 5.
 
-**6: Urgency** – of activity;
+!!! Abstract "NOTE"
 
+    After selecting the Portfolio/Service/Activity the system will retreive the SLA to the Incident or Service Request.
 
-### Describing the service
+### Describing the Incident or Service Request
 
-![Description service 4biz][3]
+The user will describe the Incident or Service Request
 
-**1: Description** – space to describe the need for the ticket;
+| Field               | Description                                                             |
+|---------------------|-------------------------------------------------------------------------|
+| **Description(\*)** | Will describe the needs for the ticket;                                 |
+| **Send email**      | Select which types and email the user will receive;                     |
 
-**2: Send email** – it's possible to select which types and email the user will receive;
-
-**3: Questionnaire** – information that complements the understanding/purposes of the service;
+(*) Indicate mandatory field
 
 !!! Abstract "TIP"
 
@@ -72,31 +79,40 @@ Creating a ticket means opening a call within the system, with possibility to mo
     and others) to assist in the service process. The format limitation is set by the system 
     manager.
 
+### Defining Situation of the Incident or Service Request
+
+| Field             | Description                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------------------|
+| **Situation**     |  The situation for the Incident or Service Request (Registered/In Progress, Solved or Canceled) |
+
+(One of the situations have to be selected)
+
+### Addind attachments
+
+Access the Paper clip icon on the top of the screen to add attachments.
+
 ### Linking additional items
 
-Access the small black button in the upper right side of the screen, below the menu bar, to view and interact with the desired functions.
+Access the small black Arrow button in the upper right side of the screen, below the menu bar, to perform the desired functions.
 
-•	**Knowledge**
+| Function           | Description                                                                                          |
+|--------------------|------------------------------------------------------------------------------------------------------|
+| **Knowledge**      | Search and link Knowledges to the Incident or Service Request                                        |
+| **Project**        | Search and link a Project to the Incident or Service Request                                         |
+| **Schedule**       | Create an Activities Schedule for the Incident or Service Request                                    |
+| **Email reading**  | Search and read e-mails                                                                              |
+| **Requester CI**   | Search and select the Requester's configuration items                                                |
+| **Release**        | Search releases to link to the Incident or Service reques, also can create and link the Release      |
 
-**Project**;
 
-**Schedule**;
-
-**Email reading**.
-
-•	**IT Options**
-
-**Requester CI**;
-
-**Release**.
-
-### Saving request
+### Saving 
 
 At the end of the page, you will find a floating button with the functions of:
 
-**Back** – to get back to the desktop of the Service Desk;
-
-**Save** – to save the ticket and create the number for tracking and monitoring.
+| Function           | Description                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------|
+| **Back**           | To get back to the desktop of the Service Desk                                                      |
+| **Save**           | To save the Incident or Service Request and create the number for tracking and monitoring           |
 
 
 When creating the ticket for attendance, the user will see a new option (located at the top side of the screen) called *Layout*, this option allows the user to parametrize how the screen will be presented to the attendant, who can choose from the following possibilities:
@@ -108,31 +124,10 @@ When creating the ticket for attendance, the user will see a new option (located
 **100%** - The system presents the screen without division.
 
 
-4.  Complete the other necessary data.
-
-
-
 !!! note "NOTE"
 
     In this version of the functionality, on the right side of the screen, you will see the *Toogle*, which allows the side menus
     (formerly on the left side of the screen) to expand or reduce as needed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 What to do next
 -------------------
