@@ -1,5 +1,6 @@
 title: Overview
 Description: Availability management defines, analyses, plans, measures and improves all aspects of the availability of IT services
+
 # Overview
 
 Presentation
@@ -16,6 +17,17 @@ costeffective and timely manner. Availability management defines, analyses,
 plans, measures and improves all aspects of the availability of IT services, and
 ensures that all IT infrastructures, processes, tools, roles etc. are
 appropriate for the agreed service level targets for availability".
+
+Within the availability process it is possible to check the tab options within the dashboard:
+
+|Tabs|Description|
+|-|-|
+|Configuration Item|The system generates a configuration item report of: **Availability by period**, **Total Availability**, **Unavailability occurrences**|
+|Configuration Item Group|The system generates a Configuration Item Group report of: **Availability by period**, **Total Availability**, **Unavailability occurrences**|
+|Avaibility Group|The system generates a Avaibility Group report of: **Availability by period**, **Total Availability**, **Unavailability occurrences**|
+|Service|The system generates a service report of: **Availability by period**, **Total Availability**, **Unavailability occurrences**|
+
+In the Projected Service Outage, the information from the tabs came from Change/Release/Incident, and the unavailability will be get for event process, and the report will be displayed in Availability process regarding type of CI, or Service Group.
 
 Use
 -------
