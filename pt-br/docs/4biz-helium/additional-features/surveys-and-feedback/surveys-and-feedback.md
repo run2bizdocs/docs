@@ -2,7 +2,8 @@ Title: Pesquisas e Feedback
 
 # Pesquisas e Feedback
 
-A plataforma possui mecanismos para medir a satisfação dos usuários que usam um serviço. A funcionalidade de pesquisa permite aplicar pesquisas a usuários em diferentes contextos. Além disso, é possível promover buscas enviando notificações via e-mail ou no Portal de Serviços (Smart Portal).
+A plataforma possui mecanismos para medir a satisfação dos usuários que usam um serviço. A funcionalidade de pesquisa permite aplicar pesquisas a usuários em diferentes contextos. Além disso, é possível promover buscas enviando notificações via e-mail ou no Portal de Serviços (Smart Portal).  
+Isso irá facilitar a coleta de feedback do cliente para a satisfação do cliente.
 
 ## Relacionado
 
@@ -11,7 +12,6 @@ A plataforma possui mecanismos para medir a satisfação dos usuários que usam 
 [Cadastrar notificação][2]
 
 [Cadastrar notificação via e-mail][3]
-
 
 !!! tip "About"
 
