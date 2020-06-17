@@ -10,7 +10,21 @@ Cada gerente de eventos global contém uma EPL para *Information* (informação)
 correlação de eventos utilizada pelo Esper (Espertech). Na inicialização do
 4biz Event Monitor, estes EPL são importados para a engine do Esper, de modo
 que um novo evento correlacionado será criado toda vez que a condição definida
-na EPL for satisfeita. Exemplo de uma EPL que faz correlação entre os eventos do
+na EPL for satisfeita. 
+
+Eventos e alertas relacionados a 
+
+- Processo de Negócios, Requisitos de Nível de Serviço, 
+
+- Consciência de eventos semelhantes e múltiplos por IC ou Serviço, 
+
+- Conexão com códigos e categorizações de priorização de Incidentes,
+
+- Ação de controle, 
+
+- Acesso a informações sobre ICs dependentes e de suporte, programação de alterações e informações de erro conhecidas de fornecedores
+
+Exemplo de uma EPL que faz correlação entre os eventos do
 4biz Inventory e Nagios: \@Description ('Para qualquer evento do Nagios que
 ocorrer depois de um evento qualquer do Inventory, nos últimos 10 minutos)
 select \* from pattern [every a=EventoCheckInventory-\>b=EventoServicoNagios
@@ -58,7 +72,7 @@ Procedimento
             Eventos - EPL. Clicar no botão "Validar EPL de Exception" para validar a
             EPL informada.
 
-1.  Clicar no botão "Gravar".
+3.  Clicar no botão "Gravar".
 
 
 
