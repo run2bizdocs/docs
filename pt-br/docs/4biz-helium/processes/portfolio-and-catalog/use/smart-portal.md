@@ -73,6 +73,10 @@ Procedimento
     as solicitações disponibilizadas ao clicar na aba “Avaliações” e ter acesso
     as notícias referente a solicitação em questão ao apertar a aba “Campanhas
     ativas”;
+    
+    !!! Abstract "NOTA"
+    
+        O usuário poderá escolher serviços do catálogo de serviços com base em suas permissões.
 
     !!! Abstract "NOTAS"  
 

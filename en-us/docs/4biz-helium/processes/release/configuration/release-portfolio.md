@@ -1,32 +1,50 @@
 title: Create a release portfolio
 Description: This functionality is intended to create a release portfolio to speed the creation of a new release when grouping it by specific criteria.
-# Create a release portfolio
+# Creating a release portfolio
 
 This functionality is intended to create a release portfolio to speed the creation of a new release when grouping it by specific criteria.
 
-Procedure
--------------
+## Procedure
 
 1.  Access the functionality through the main menu Processes \> Release
     Management \> Release Portfolio;
 
-2.  Click on "New portfolio";
+2.  Click on "New portfolio" and complete the fields
 
-3.  Complete the data necessary and add an image to represent the portfolio;
+|Field|Description|
+|-----|-----------|
+|**Name(\*)**|Identify the release portfolio by a name|
+|**Description**|A description for the portfolio|
+|**Icon**|Select an image for the portfolio|
 
-4.  Select the portfolio you just created and click on "Advance";
+(\*)Indicate mandatory fields.
 
-5.  Click on "New model" and complete the fields available;
+### New model
 
-    !!! Abstract "NOTE"  
+After creating the portfolio, select it and click on "Adavnce". Then, click on "New model" and complete the fields:
 
-        This new version of the functionality supports the link to flows created
-        by the user, modified to represent their scenario.
+|Field|Description|
+|-----|-----------|
+|**Icon**|Set a imagem to represent the portfolio|
+|**Name (\*)**|Name of the portfolio|
+|**Description**|Describe the portfolio|
+|**Flow (\*)**|Select a flow to the portfolio|
+|**Executor Group (\*)**|Select the group responsible to execute the portfolio|
+|**Calendar (\*)**|Select the type of Calendar to the portfolio|
+|**Email Creation (\*)**|Select the template for Email Creation|
+|**Email Completion (\*)**|Select the template for Email Completion|
+|**Email Actions (\*)**|Select the template for Email Actions|
+|**Impact (\*)**|Set the degree of Impact|
+|**Urgency (\*)**|Set the degree of Urgency|
+|**Category(\*)**|Select the category for the portfolio|
+|**Status(\*)**|Set the status of this model as New, Active or Retired|
+|**Contract**|Link a contract|
 
-        It's necessary to select the "Active" status to make use of the portfolio
-        created.
+!!! abstract "NOTE"
 
-6.  Click on "Save".
+    According to the status, the model, when you advance the portfolio, will appear on the tab New, Active or Retired and it's possible to edit it or delete it. 
+
+After complete all the fields, click on "Save".
 
 !!! tip "About"
 

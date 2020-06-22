@@ -1,25 +1,28 @@
-title: Encerrar a mudança
+title: Executar mudança
 Description: Permite executar a mudança 
-# Encerrar a mudança 
+# Executar mudança 
 
 Esta funcionalidade permite encerrar a mudança, explanando todos os fatos ocorridos no ciclo de vida da mudança, favorecendo assim o reexame e fiscalização da alteração criada a fim de reduzir custos e riscos para a organização.
 
-Antes de começar
-----------------
+## Antes de começar
 
-É imprescindível a pré-existência de uma mudança.  
+É necessário a pré-existência de uma mudança.  
 
-Procedimento 
--------------
+## Procedimento 
 
 1.  Acessar a funcionalidade através da navegação no menu principal Processos \>
     Gerência de Mudança \> Mudança;
 
 2.  Localizar a mudança da qual deseja planejar atividade, clicar no botão
-    “Abrir” e em seguida na área “Plano de reversão”;
+    “Abrir”;
 
 3.  Na aba “Revisão”, é preciso selecionar a opção que define se a mudança foi
     realizada com sucesso;
+    
+    !!! Abstract "NOTA"
+    
+        Quando você informar ao comitê de mudança que a mudança está pronta para desenvolvimento, a mudança será encaminhada para a área de votação.  
+        Na área de gerenciamento de mudança, no canto superior esquerdo do menu, altere a opção de mudar para votação. Após a votação, a mudança estará disponível para ser finalizada.
 
 4.  Será possível criar um quadro Kanban para gerenciar as atividades
     registradas. Basta apertar no botão “+Workspace” e preencher os dados

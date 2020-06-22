@@ -1,13 +1,12 @@
-title: Register continuity template
+title: Registering continuity template
 Description: Is intended to register the continuity template, which will be used to customize the test registration screen.
-# Register continuity template
+# Registering continuity template
 
 This functionality is intended to register the continuity template, which will be used to customize the test registration screen.
 
-Before getting started
---------------------------
+## Before getting started
 
-It's necessary to previously register a questionnaire.
+- [x] It's necessary to previously register a questionnaire.
 
 Procedure
 -------------
@@ -15,12 +14,32 @@ Procedure
 1.  Access the functionality through the main menu Processes \> Continuity
     Management \> Template;
 
-2.  In the **Register** tab, complete the fields necessary;
+2.  In the **Register** tab, complete the fields:
 
-3.  Click on "Save".
+|Field|Description|
+|-----|-----------|
+|**Name(\*)**|Give a name to the continuity template|
+|**Identification of the continuity template(\*)**| The identification for the template|
+|**Type of template(\*)**|Select the type of template available|
+|**Dto class name**|Give the name of the dto class|
+|**Action class name**|Give the name of the action class|
+|**Service class name**|Give the name of the service class|
+|**Recovery url**|Give the recovery url|
+|**Div height**|Set the div height|
+|**Questionnaire**|Select the questionnaire for the template|
+|**Script after recovery**|Detail the script after recovery|
 
-Related
------------
+( * ) Indicate mandatory field
+
+3.  For the saving part, we have the following actions:
+
+|Action|Description|
+|------|-----------|
+|**Save**|To save the template being created|
+|**Delete**|When editing a template, it's possible to delete it|
+|**Clear**|To return the fields as the default|
+
+## Related
 
 [Register questionnaire](/en-us/4biz-helium/platform-administration/questionnaires/questionaires-management/register-questionnaire.html)
 

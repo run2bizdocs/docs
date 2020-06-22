@@ -42,6 +42,10 @@ Procedure
     -  **Incidents**: This activity follows the same principle of registration of 
          requests, for the link of an incident to the successful service contract, 
          just follow the guidelines described in the previous item.  
+         
+    !!! Abstract "NOTE"
+    
+        On the Request and Incident activities, when you link it or edit it, it's possible to set the "Cost of Service" for each one of them.
 
     -  **Procedure**: This activity follows the same principle of registration of 
          requests and incidents, to link a procedure to the successful service contract, 

@@ -86,7 +86,7 @@ Procedimento
     tomadas para corrigir o problema e as melhorias a serem implantadas para
     evitar a ocorrência posterior do mesmo, dentre outros;
 
-    -   Na aba “Simple”, é liberado a criação do quadro Kanban;
+    -   Na aba “Tasker”, é liberado a criação do quadro Kanban;
 
     -   Em “Lições aprendidas”, ao clicar no botão “Adicionar”, será possível
     selecionar e vincular um conhecimento para dizimar as instruções a fim

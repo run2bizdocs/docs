@@ -30,7 +30,7 @@ Procedure
 
 2.  Click on “Workspace” and give a name to create the new Workspace;
 
-    ![sprint screen](images/figure-01-tasker.png) 
+    ![sprint screen](images/figure-01-simple.png) 
 
     Figure 1 - Workspace Screen
 
@@ -133,7 +133,7 @@ Procedure
 
 2.  To create a new list, click on "+List”, name it and "Save”.
 
-    ![list screen](images/figure-2-tasker.png)
+    ![list screen](images/figure-2-simple.png)
     
     Figure 2 - List screen
 
@@ -156,7 +156,7 @@ Procedure
 
 ### Creating tasks
 
-   ![task screen](images/figure-3-tasker.png)
+   ![task screen](images/figure-3-simple.png)
     
    Figure 3 - Task screen
 
@@ -179,7 +179,7 @@ and management.
 
 1.  Each card has devices of control and information:
 
-     ![card screen](images/figure-4-tasker.png)
+     ![card screen](images/figure-4-simple.png)
     
       Figure 4 - Card screen
 
@@ -218,7 +218,8 @@ and management.
 
 5.  The tabs available present:
 
-    -   **Checklist**: adding a checklist will create an item on this tab. To name it,
+    -   **Checklist**: adding a checklist will create an item on this tab. Checklists also works as
+    handover activitiews and acceptance criteria. To name it,
     place the mouse on "Add item...", click on add "+" to add new item. To indicate
     the completion of an item inside the checklist, select the checkbox;
 

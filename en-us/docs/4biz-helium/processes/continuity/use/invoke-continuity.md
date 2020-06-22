@@ -12,6 +12,8 @@ Before getting started
 It assumes the existence of a defined service in a Portfolio and Catalog
 Management process.
 
+The tool integrate with Service Level Management trough the Service Catalog and Portfolio Management to track business process / service criticality, time period criticality (e.g. time of day / week / month / year when disruption would be most severe), and service level recovery targets. This information can be configurated in CMDB&Asset Management in attributes of CI.
+
 It's fundamental to firstly have registered the Continuity Registration, the
 policy and the project of service continuity already defined, in addition to
 having the scope, vital functions, business impact analysis, risk evaluation,

@@ -5,8 +5,7 @@ Description: Presents the service level reports.
 Generate report of SLA control
 ----------------------------------
 
-This report has the objective of present the deadlines of service request
-attendance.
+The tool provides Service Level Management reports with historical data thus enabling, improvement actions in the process
 
 1.  Access the functionality through the main menu Reports \> Service Level
     Management \> SLA Control;

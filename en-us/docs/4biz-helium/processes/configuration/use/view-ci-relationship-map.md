@@ -24,6 +24,18 @@ The visualization of the relationship map is conditioned to the following scenar
 |Level| from 1 to 4 |
 |Icons| **Arrow**: it allows to drag the map; **Magnifying glass**: it allows to increase or decrease the zoom in the map.
 
+## View total CI capacity
+
+It's possible to see the total of capacity and its indicators through the CI relationship map.
+Moreover, The user will be able to forecast the capacity of the related CIs.The platform captures and shows all CI response times and if the total exceeds the configured limit, a notification can be sent to the user or published on the portal. 
+By clicking on **View total capacity**, we have the following information:
+
+| Field | Description |
+|-------|-----------|
+|Feature| The related configuration item|
+|Indicator| It presents the indicators for the capacity configured by its total and medium |
+|Measured| The amount measured by the tool, taking into consideration the indicators. It also presents the total and medium, however, with the addition of a visual representation of the amount used |
+|Forecast| Here it's possible to forecast the total capacity, that is, you can set a percentage to inform you when a certain amount is reached. The tool will report if the current capacity is okay or if it's reaching it's fully capacity.|
 
 ## Related
 
