@@ -3,7 +3,7 @@ Description: Introdução ao produto 4biz
 
 # O que é 4biz?
 
-O 4biz, desenvolvido pela 4biz Corporation®, é uma **plataforma que
+O 4biz, desenvolvido pela Run2biz Corporation®, é uma **plataforma que
 conecta pessoas e recursos digitais para otimizar o trabalho e amplificar os
 resultados do negócio.**
 
