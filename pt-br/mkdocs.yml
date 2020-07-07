@@ -711,17 +711,18 @@ nav:
   - Neuro FAQ:
     - builder/builder-faq.md
 - Helper:
-  - helper/overview.md
-  - helper/release-helper.md
-  - Configuração:
-    - helper/configuration/helper-4biz.md
-    - helper/configuration/context-helper.md
-    - helper/configuration/interact-helper.md
-    - helper/configuration/store-dialog-helper.md
-  - Uso:
-    - helper/use/teach-helper.md
-    - helper/use/trainning-helper.md
-    - helper/use/monitoring-helper.md
+  - helper/what_is_helper.md
+  - helper/dialogues.md
+  - helper/create_edit_intent.md
+  - helper/skills.md
+  - helper/themes.md
+  - helper/context.md
+  - helper/analytics.md
+  - helper/third_party_API.md
+  - helper/integrations.md
+  - helper/trainings.md
+  - helper/users.md
+  - helper/settings.md
 - Ajuda:
   - faq.md
   - glossary.md
