@@ -60,8 +60,9 @@ Esta área permite que utilize o case ou cenário construído no IBM Watson no H
 
 6.  A aba Histórico de Importações apresentará o nome do workspace importado, a data de importação e status da importação.
 
-!!! note "Texto"
-Pode ocorrer do tipo de frase ou opção não ser compatível com o Helper e por este motivo a importação, somente deste item, não ocorrerá. Neste caso será necessária a conferência e criação manual do trecho não importado.
+!!! warning  "Atenção"
+
+    Pode ocorrer do tipo de frase ou opção não ser compatível com o Helper e por este motivo a importação, somente deste item, não ocorrerá. Neste caso será necessária a conferência e criação manual do trecho não importado.
 
 # Importação/Exportação
 
@@ -97,11 +98,12 @@ Continua sendo necessário agendar um treinamento após a importação dos diál
 
 5.  Clique o botão Importar.
 
-!!! note "Texto"
--   Somente poderão ser importadas respostas em formato texto. As demais opções (botão, imagem e carrossel) ainda não estão disponíveis nesta funcionalidade;
--   Caso queira refinar diálogos existentes, exporte, ajuste, e importe novamente. A importação substitui o conteúdo, então, caso você retire alguma frase existente na planilha que foi exportada, quando for importada o     sistema irá apagar a(s) frase(s) retiradas da planilha.
+!!! info "Observação"
+
+    -   Somente poderão ser importadas respostas em formato texto. As demais opções (botão, imagem e carrossel) ainda não estão disponíveis nesta funcionalidade;
+    -   Caso queira refinar diálogos existentes, exporte, ajuste, e importe novamente. A importação substitui o conteúdo, então, caso você retire alguma frase existente na planilha que foi exportada, quando for importada o     sistema irá apagar a(s) frase(s) retiradas da planilha.
 
 
-!!! dica "Texto"
+!!! success "Dica"
 
-Utilize o procedimento de atendimento (FAQ ou SAC) que sua organização já possui (caso possua) em formato de perguntas e respostas para montar essa planilha. Aproveite o conhecimento que já existe no seu ambiente para aprimorar seu assistente virtual.
+    Utilize o procedimento de atendimento (FAQ ou SAC) que sua organização já possui (caso possua) em formato de perguntas e respostas para montar essa planilha. Aproveite o conhecimento que já existe no seu ambiente para aprimorar seu assistente virtual.

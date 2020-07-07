@@ -32,12 +32,12 @@ Acontece quando um usuário quer que o assistente virtual realize uma habilidade
 
 4.  Preencha os campos da tela, atentando-se ao tipo da habilidade:   
 
--   **Padrão**: será utilizada para representar habilidades que são respondidas através de uma resposta de texto pré-definida. Podem ser atribuídas várias frases pré-definidas de respostas sempre visando responder a mesma pergunta; 
+**- Padrão**: será utilizada para representar habilidades que são respondidas através de uma resposta de texto pré-definida. Podem ser atribuídas várias frases pré-definidas de respostas sempre visando responder a mesma pergunta; 
 
--   **Personalizada**: será utilizada quando, para responder a um interesse do usuário, o Helper precisar buscar informações em um outro sistema.   
+**- Personalizada**: será utilizada quando, para responder a um interesse do usuário, o Helper precisar buscar informações em um outro sistema.   
 
--   **Botão**: Será utilizada sempre que for necessário limitar as respostas do usuário a uma determinada interação do Helper. Ao utilizar essa opção, o Helper responderá a interação do usuário exibindo botões. Um botão é definido por seu Nome e Valor.  No campo nome, é definido o botão que aparecerá para o usuário. No campo valor, é definido para o assistente como ele deve interpretar o interesse do usuário ao clicar o botão; 
+**- Botão**: Será utilizada sempre que for necessário limitar as respostas do usuário a uma determinada interação do Helper. Ao utilizar essa opção, o Helper responderá a interação do usuário exibindo botões. Um botão é definido por seu Nome e Valor.  No campo nome, é definido o botão que aparecerá para o usuário. No campo valor, é definido para o assistente como ele deve interpretar o interesse do usuário ao clicar o botão; 
 
--   **Imagem**: Pode ser utilizada quando desejar responder o usuário utilizando texto e imagem. A imagem associada a resposta será exibida na janela do chat.
+**- Imagem**: Pode ser utilizada quando desejar responder o usuário utilizando texto e imagem. A imagem associada a resposta será exibida na janela do chat.
 
 5.  Clique em “Salvar” para finalizar o cadastro.

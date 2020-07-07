@@ -25,16 +25,16 @@ Para aumentar a acurácia em situações de homônimos e evitar a repetição de
 
 4.  Ao selecionar um dos tipos, clique o botão “Adicionar”, será exibida a opção de cadastro relacionada ao tipo:
 
--   **Text**: adicione um “Valor” e um “Sinônimo”;
+**- Text**: adicione um “Valor” e um “Sinônimo”;
 
--   **Boolean**: serão adicionadas opções de Sim e Não;
+**- Boolean**: serão adicionadas opções de Sim e Não;
 
--   **Categorical**: adicione um “Valor”, para adicionar mais itens à lista clique o botão “Adicionar” novamente;
+**- Categorical**: adicione um “Valor”, para adicionar mais itens à lista clique o botão “Adicionar” novamente;
 
--   **Float**: adicione um “Valor Mínimo” e um “Valor Máximo”.
+**- Float**: adicione um “Valor Mínimo” e um “Valor Máximo”.
 
 5.  Clique em “Salvar” para adicionar o novo contexto ou voltar para cancelar a criação.
 
-!!! note "Texto"
+!!! note "Nota"
 
-É necessário vincular os contextos às frases do Interesse/Intent dentro do Diálogo, para que a informação seja processada pelo seu assistente virtual. 
+    É necessário vincular os contextos às frases do Interesse/Intent dentro do Diálogo, para que a informação seja processada pelo seu assistente virtual. 

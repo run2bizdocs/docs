@@ -20,7 +20,8 @@ O único pré-requisito para agendar um treinamento da sua assistente virtual é
 
 4.  Informe o dia e horário em que o treinamento deverá ser realizado.
 
->   Observação: Lembre-se de escolher datas e horários que irão ter menos impactos nos atendimentos em andamento, caso haja.
+    > Observação: Lembre-se de escolher datas e horários que irão ter menos impactos nos atendimentos em andamento, caso haja.
 
-!!! note "Texto"
- O tempo de duração de cada treinamento vai variar de acordo com o volume de fluxos de conversação construídos, mas não se preocupe, assim que for concluído sua assistente está automaticamente pronta para atuar, seja no teste de conversa dentro da plataforma ou no ambiente de produção.
+!!! note "Informação"
+
+    O tempo de duração de cada treinamento vai variar de acordo com o volume de fluxos de conversação construídos, mas não se preocupe, assim que for concluído sua assistente está automaticamente pronta para atuar, seja no teste de conversa dentro da plataforma ou no ambiente de produção.

@@ -29,9 +29,9 @@ Localize e preencha os seguintes parâmetros:
 | 442 Helper Assistant - Parameters API   | http://[nome-servidor][sigla-idioma].helperassistant.com/conversations/        |
 
 
-!!! info "Texto"
+!!! info "Importante"
 
-**Importante:** Os valores a serem preenchidos nos parâmetros acima dependerão do valor apresentado na ferramenta Helper. Para isso, acesse o seu assistente virtual e selecione “Integrações”. Para integrar com a plataforma, selecione “4biz” e serão apresentados os valores para copiar e colar no valor na própria plataforma 4biz. Esses parâmetros não podem ser alterados pelo cliente.
+    Os valores a serem preenchidos nos parâmetros acima dependerão do valor apresentado na ferramenta Helper. Para isso, acesse o seu assistente virtual e selecione “Integrações”. Para integrar com a plataforma, selecione “4biz” e serão apresentados os valores para copiar e colar no valor na própria plataforma 4biz. Esses parâmetros não podem ser alterados pelo cliente.
 
 ## Facebook Messenger
 
@@ -62,30 +62,28 @@ E os formatos necessários para integração:
 
 -   Formato de envio de mensagem ao bot:
 
-!!! exemple "Texto"
-{"sender": "joao","message": "conte-me algumas coisas sobre você"}
+!!! exemple "Exemplo"
+    {"sender": "joao","message": "conte-me algumas coisas sobre você"}
 
 
 -   Formato de retorno da mensagem do bot em texto:
 
-!!! exemple "Texto"
-{"recipient_id": "joao", "text": "Eu posso ajudá-lo a trabalhar de maneira mais inteligente, em vez de
-mais"}
+!!! exemple "Exemplo"
+    {"recipient_id": "joao", "text": "Eu posso ajudá-lo a trabalhar de maneira mais inteligente, em vez de mais"}
 
 
 -   Formato de retorno da mensagem do bot em botão:
 
-!!! exemple "Texto"
-{"recipient_id": "joao",
-"text": "Você poderia avaliar o meu atendimento?","buttons": [{"title": "Sim", "payload": "sim"},{"title": "Não","payload": "não"}]}
+!!! exemple "Exemplo"
+    {"recipient_id": "joao", "text": "Você poderia avaliar o meu atendimento?","buttons": [{"title": "Sim", "payload": "sim"},{"title": "Não","payload": "não"}]}
 
 
 
 -   Formato de retorno da mensagem do bot em imagem:
 
-!!! exemple "Texto"
-{"image": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
+!!! exemple "Exemplo"
+    {"image": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
 
-Ou
+    Ou
 
-{"attachment":"https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
+    {"attachment":"https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
