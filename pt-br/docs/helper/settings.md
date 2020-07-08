@@ -56,7 +56,7 @@ Esta área permite que utilize o case ou cenário construído no IBM Watson no H
 
 4.  Selecione o Workspace que seja importar;
 
-5.  Clique o botão Salvar.
+5.  Clique o botão Salvar;
 
 6.  A aba Histórico de Importações apresentará o nome do workspace importado, a data de importação e status da importação.
 

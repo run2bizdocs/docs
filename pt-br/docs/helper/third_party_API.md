@@ -83,9 +83,9 @@ Aqui iremos definir as configurações da requisição que irão influenciar no 
 
 2\.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
 
-    \- Mensagem do chatbot para conteúdo não encontrado;
+   \- Mensagem do chatbot para conteúdo não encontrado;
 
-    \- Mensagem do chatbot para falha na requisição;
+   \- Mensagem do chatbot para falha na requisição;
 
 3\.  Definir se a API sendo criada é uma API de autenticação.
 
