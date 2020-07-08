@@ -30,7 +30,7 @@ Acontece quando um usuário quer que o assistente virtual realize uma habilidade
 | Esta é uma habilidade estendida?| Selecione se esta habilidade é uma habilidade estendida ou não.|
 | Deseja predefinir o comportamento do bot com base na última interação com o usuário? | Selecione se essa habilidade deve predefinir um comportamento do bot com base na última interação com o usuário final, selecione o “**Contexto**” e o “**Diálogo**” |
 
-4.  Preencha os campos da tela, atentando-se ao tipo da habilidade:   
+4\.  Preencha os campos da tela, atentando-se ao tipo da habilidade:   
 
 **- Padrão**: será utilizada para representar habilidades que são respondidas através de uma resposta de texto pré-definida. Podem ser atribuídas várias frases pré-definidas de respostas sempre visando responder a mesma pergunta; 
 
@@ -40,4 +40,4 @@ Acontece quando um usuário quer que o assistente virtual realize uma habilidade
 
 **- Imagem**: Pode ser utilizada quando desejar responder o usuário utilizando texto e imagem. A imagem associada a resposta será exibida na janela do chat.
 
-5.  Clique em “Salvar” para finalizar o cadastro.
+5\.  Clique em “Salvar” para finalizar o cadastro.

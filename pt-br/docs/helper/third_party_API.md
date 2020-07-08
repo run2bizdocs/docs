@@ -33,7 +33,7 @@ Essa função permite adicionar valores necessários para o cabeçalho da requis
 
 \- Valor.
 
-2.  Clique em Salvar.
+2\.  Clique em Salvar.
 
 ## Corpo
 
@@ -49,7 +49,7 @@ No corpo é possível montar o conteúdo que será enviado no corpo da requisiç
 
     \- Valor: o valor irá depender do tipo selecionado.
 
-2.  Clique em Salvar.
+2\.  Clique em Salvar.
 
 ## Respostas
 
@@ -65,7 +65,7 @@ Em respostas vamos configurar o que a gente espera dessa API.
 
 \- Identificação.
 
-2.  Clique em Salvar.
+2\.  Clique em Salvar.
 
 ## Configurações
 
@@ -81,12 +81,12 @@ Aqui iremos definir as configurações da requisição que irão influenciar no 
 
     \* As opções apresentadas para esses campos são pré-definidas pelo sistema.
 
-2.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
+2\.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
 
     \- Mensagem do chatbot para conteúdo não encontrado;
 
     \- Mensagem do chatbot para falha na requisição;
 
-3.  Definir se a API sendo criada é uma API de autenticação.
+3\.  Definir se a API sendo criada é uma API de autenticação.
 
-4.  Clique em Salvar.
+4\.  Clique em Salvar.

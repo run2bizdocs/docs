@@ -76,7 +76,7 @@ E os formatos necessários para integração:
 -   Formato de retorno da mensagem do bot em botão:
 
 
-` { "recipient_id": "joao", "text": "Você poderia avaliar o meu atendimento?", "buttons": [ { "title": "Sim",         "payload": "sim" }, {"title": "Não","payload": "não" } ] }`
+` { "recipient_id": "joao", "text": "Você poderia avaliar o meu atendimento?", "buttons": [ { "title": "Sim", "payload": "sim" }, {"title": "Não","payload": "não" } ] }`
 
 
 

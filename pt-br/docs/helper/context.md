@@ -23,7 +23,7 @@ Para aumentar a acurácia em situações de homônimos e evitar a repetição de
 | Tipo| Selecione as opções entre Text, Boolean, Categorical e Float.|
 | Descrição | Utilize esse campo para descrever um resumo para identificar o contexto.|
 
-4.  Ao selecionar um dos tipos, clique o botão “Adicionar”, será exibida a opção de cadastro relacionada ao tipo:
+4\.  Ao selecionar um dos tipos, clique o botão “Adicionar”, será exibida a opção de cadastro relacionada ao tipo:
 
 **- Text**: adicione um “Valor” e um “Sinônimo”;
 
@@ -33,7 +33,7 @@ Para aumentar a acurácia em situações de homônimos e evitar a repetição de
 
 **- Float**: adicione um “Valor Mínimo” e um “Valor Máximo”.
 
-5.  Clique em “Salvar” para adicionar o novo contexto ou voltar para cancelar a criação.
+5\.  Clique em “Salvar” para adicionar o novo contexto ou voltar para cancelar a criação.
 
 !!! note "Nota"
 

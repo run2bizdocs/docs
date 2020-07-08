@@ -17,4 +17,4 @@ Os temas estão ligados diretamente com os diálogos, intents e habilidades. Os 
 | Nome| Identifique o tema utilizando um nome |
 | Descrição | Descreva o tema criado|
 
-4.  Clique em “Salvar”.
+4\.  Clique em “Salvar”.
