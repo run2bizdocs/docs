@@ -2,29 +2,21 @@ title: Business Object
 Description: Business object
 # Business Object
 
+Business Objects are Builder abstractions to application Data Entities. Each Business Object represents the data model, is linked to a table in a relational database and may have one or more Forms associated to it. 
 
-Business Object are the link between Builder and a Data Entity of the
-applications. In this way the Business Object will represent the data model and
-may reach one or more forms.
 
-Each business object created represents a table in the database.
+## Before getting started
 
-Before getting started
-----------------------
-
-Must have a DB Connection and Builder Application created.
+In order to create a Business Object, you must a Database Connection configured and Builder Application created.
 
 ## General data
 
-1.  Access the functionality through navigation in the menu Builder \> Management \> Business Object;
+1.	Access the Business Object configuration through navigation in the menu Builder > Management > Business Object;
 
-2.  Click on "New";
+2.	Click on the "New" button;
 
-3.  Complete the fields available for “Identification” Tab;
+3.	Fill in the fields on the "Identification" tab, selecting the Application for which the Business Object is being created, giving it a Name and a Description, and informing the purpose of the Business Object.
 
-4.  Select the **Application** for which the business object is created, give
-    the Business Object a Name and a Description, also inform the purpose of the
-    Business Object;
 
 ![business](images/builder-9.jpg)
 
@@ -33,17 +25,14 @@ Figure 1 - Identification
 
 ## Database Information
 
-1.	Complete the fields available for “Database” Tab, this tab refers to the database structure of the application. Since each business object represents a database table, this tab defines the database columns as well as their relationships, business rules, and SQL commands (if necessary).
+The “Database” tab contains the reference to application  database structures. Since each Business Object represents a database table, the information in this tab defines table columns,  relationships among tables, business rules, and SQL commands (if necessary).
 
-2.	Fill the information with:
+1.	Fill in the information with:
+    - Database Connection to be used for the Business Object;
+    - Database Scheme name;
+    - Type of database element, being Table or View;
+    - 	Name of the table/view to which the business object is linked.
 
-    1.	The Database Connection created;
-
-    2.	The Database Scheme name;
-
-    3.	Type, whether view or table;
-
-    4.	The Name in Database of the business object.
 
 
 ![business](images/builder-10.jpg)
@@ -53,29 +42,21 @@ Figure 2 - Database
 
 ## Columns
 
-1.  Add the columns of the table, indicating
+1.	Add business object / table columns, informing for each of them:
+- **Column name in DB**;
+- **Type** of the column (the system will automatically correlate to the corresponding type in the database;);
+- **Object attribute name** (it defaults to the column name in the table);
+- **Label** for the column to be shown in forms and grids;
+- If the column is part of the **Primary Key** for the table;
+- If the column is **Required** (mandatory).
 
-    1.  Inform the **Column name in DB**;
+2.	Click on the "Save” button.
 
-    2.  Select the **Type** of the Column, the system will make the correlation
-        automatically to the **Type in DB**;
-
-    3.  Give the **Name object attribute**, if you don´t change it will take the
-        same name as the column name;
-
-    4.  Set the **Label** for the form and grid;
-
-    5.  Select **Primary key** if the column is the Primary key for the table;
-
-    6.  Select **Required** if the column is mandatory;
-
-    7.  Click on "Save”.
 
 
 !!! Abstract "NOTE"
 
-    After the “Save”, you´ll be able to inform Domain key and type and assign the
-    Relationship if it´s needed.
+    After saving you’ll be able to inform Domain key and assign Relationships if it’s needed.
 
 ![business](images/builder-11.jpg)
 
@@ -86,31 +67,22 @@ Figure 3 - Columns list
 Figure 4 - Adding new columns
 
 !!! Abstract "ATTENTION"
-
-    On each change of database or by the time of the creation of the business
-    object you must run the correspondent DDL to run the creation/change in the
-    Database.
+    
+    For each change in the information in the database/table or when creating the Business Object, you must execute the corresponding DDL to reflect the creation/changes in the database.
 
 ## Relationship
 
-1.  If necessary, you can add Relationships at this tab;
+If necessary, use the Relationships tab to create relationships between Business Objects.
 
-2.  Define:
+1.	Provide the following information:
+-	Whether the relationship **type** is One to Many (1 x N) or Many to One (N x 1);
+-	The **Relationship** **name** and the **Label** as it should appear on the form;
+-	The **Referenced object** that will be linked to column being edited;
+-	**Column for auto-complete** which is the column in the referenced object that must be presented in the form instead of the value of the column being edited;
+-	If it is **Required** (mandatory) field;
+-	If it is to use **Delegation**, that is to use Generalization/Specialization concepts for the Relationship;
+-	Set the **Object column in edition** that will be part of the relationship.
 
-    1.  **Type** (1 x N, N x 1);
-
-    2.  Inform the **Relationship name** and the **Label** (to the form);
-
-    3.  The **Referenced object** that will be linked;
-
-    4.  The **Column for auto-complete**;
-
-    5.  Set If it is **Required** field;
-
-    6.  **Delegation** use when you want to use Generalization/Specialization
-        concepts for the Relationship;
-
-    7.  Set with Business object Colum will be part of the relationship.
     
 ![business](images/builder-13.jpg)
 
@@ -119,7 +91,7 @@ Figure 5 - Relationship
 
 ## Business Rules
 
-1.	Select the Business Rule assigned for insert, change or delete action on the Business Object;
+1. Select the Business Rule to be executed when insert, change or delete actions are triggered on the Business Object.
 
 
 ![business](images/builder-14.jpg)
@@ -128,11 +100,12 @@ Figure 6 - Business rules
     
 ## SQLs 
 
-1.	You can create SQL´s related to the business object to be used in the flow, for example: 
+You can create SQLs queries for the Business Object to be run on specific situations according to your process/business needs. For example:
 
-a)	In a task for request of enrollment in courses you can create a SQL (it will be considered as a function)  to get the number of student enrolled in a course;
+- In an ITSM service request flow for enrolling in a particular course, an SQL query can be used to obtain the number of students already enrolled in that course and make an automatic decision to allow or not the application for enrollment, or send the request to a waiting list.
 
-b)	The SQL will run under an ESI Flow and will be call by the SM Flow (using the component for integration with ESI Flow).  
+- During the registration of an item in the Business Object table, an SQL query, which joins several tables, can be executed to validate information being input in the form.
+ 
     
 ![business](images/builder-15.jpg)
 
@@ -140,7 +113,7 @@ Figure 7 - SQL
 
 ## Form (CRUD & Custom)
 
-1.	You can change the attribute labels through the Labels tab, and you can edit the grid fields using the Grid tab.
+1.	It’s possible to change labels names using the Labels tab, and edit the grid fields using the Grid tab.
 
     ![business](images/builder-16.jpg)
 
@@ -151,7 +124,7 @@ Figure 7 - SQL
 
     Figure 9 - Grid
 
-2.	Clicking the Edit Form button in the screen header will generate a form for this business object. If there is no form for this business object, the Fields sidebar will be displayed. If there is already a previously registered form linked to this form, the Screen Drawing tab for this form will be opened.
+2\.	When you click Edit Form in the screen header, a form for that Business Object will be generated and the Fields sidebar will be displayed. If there is already a registered form previously linked to this Business Object, the Design View tab for this form will open.
 
 
 

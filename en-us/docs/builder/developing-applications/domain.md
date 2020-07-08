@@ -2,26 +2,23 @@ title: Domain
 Description: Domain
 # Domain
 
-Builder allows to define domains that will be used by all application of the
-institution. The identifier (Key) groups the Domain items.
+Domains allow you to define key/value pairs that can be used throughout the system, maintaining consistency of information across all Builder applications.
 
-Procedure
----------
+**Steps**
 
-1.  Access the functionality through navigation in the menu Builder \> Configuration \> Domain;
+1.	Access Domain configuration page through navigation in the menu Builder > Configuration > Domain;
 
-2.  Click on "New";
+2.	Click on the "New" button;
 
-3.  Complete the fields available for “Register Domains”;
+3.	Provide the required information to create a new Domain:
 
+- **Key** (domain name) to group the items of the same domain;
+- **Code** to uniquely identify the domain item;
+- **Domain** **name**;
+- **Description**.
 
-    !!! Abstract "NOTE"
+4\.	Click on the "Save" button.
 
-        Create the **Key** (domain name) to group the items, the **Code** (to
-        uniquely identify the domain item) the **name** of the domain item and the
-        **description** of it (you can save one key as default.).
-
-1.  Click on "Save”.
 
 
 ![search](images/builder-7.png)

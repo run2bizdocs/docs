@@ -2,30 +2,24 @@ title: Internationalization
 Description: Internationalization
 # Internationalization
 
-Builder uses labels (Keys) to perform the internationalization of the forms each
-field assigned at the form can use a label and those labels are attached to an
-internationalization key, the keys are connected to the Builder Application.
+Builder uses internationalization keys to provide forms internationalization. Each field on a form has a label that can be attached to an internationalization key and that label will be presented in the language chosen by the user at run time.
 
-Before getting started
-----------------------
+## Before getting started
 
-Must have the Builder Application created.
 
-Procedure
----------
+The Builder Application must have been created.
 
-1.  Access the functionality through navigation in the menu:
+**Steps**
 
-    1.  Builder \> Configuration \> Internationalization.
 
-2.  Click on "New";
+1.	Access the internationalization configuration page through navigation in the menu Builder > Configuration > Internationalization;
 
-3.  Complete the fields available for “Internationalization”;
+2.	Click on the "New" button;
 
-4.  Select the **Application** and the **language** you are creating the Key,
-    then inform the **Key** (Label) and its **value**;
+3.	Fill in the requested information for the Application, the Language you are creating the internationalization key, the Key itself and the Value (text) to be presented on the form for the chosen language;
 
-5.  Click on "Save”.
+4.	Click on the "Save” button.
+
 
 !!! Abstract "ATTENTION"
 

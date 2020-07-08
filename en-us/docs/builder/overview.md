@@ -1,4 +1,4 @@
-title: Builder Overview
+Title: Builder Overview
 
 description: connects data, solutions and people, empowering departments and companies. is an agile and uncomplicated business process automation platform. It allows for rapid customization and integration with other applications whether legacy or home grown. BUILDER is also CODELESS!
 
@@ -6,35 +6,18 @@ description: connects data, solutions and people, empowering departments and com
 
 ## Overview 
 
-4biz Builder allows fast development of applications, adapting process and business changes in real time.
-Builder is a product that has been 100% ready and adequate within 4biz, this product is very powerful and allows to build new functionalities, applications and integrations. It is very close to RPA (Robotics process automation) products, but it brings different possibilities, such as the natural integration with the Service Management framework (SLAs, knowledge, portfolio, tickets, service portal, among others). 
-We understand that the concepts of Service Management is very powerful and can go beyond IT, allowing interesting gains to the business. 
-Builder runs with the concept of Dynamic Application & Hot Deploy where there´s no need to restart the server or system on any deploy.
+Builder is an application development platform fully integrated with 4Biz that provides a fast and reliable way to adapt the organization IT management environment to the changes in operational processes and business needs.
 
-4biz Builder connects data, solutions and people, empowering departments and companies. is an agile and uncomplicated business process automation platform. It allows for rapid customization and integration with other applications whether legacy or home grown. **BUILDER is also CODELESS!**
+Built based on mature Web development technologies, on the concepts of dynamic application & hot deploy, where there is no need to restart the server or system, and out of the box  integration with the Service Management structure (SLAs, knowledge, portfolio, tickets, services portal), Builder offers different possibilities for improvement and expansion of the 4Biz environment, from codeless CRUDs to complex integrations with legacy or third-party systems.
 
-With Builder we can create automated workflows in minutes eliminating errors due manual inputs while operating in a secure environment.
-
--   Quick Customization
--   Interchangeable
--   Intelligent Integration
--   Create and Design Automated Trackers
--   Reduce Risks
--   Eliminate Incorrect Data
 
 ## Why adopt it? 
 
 
-Application development can often be time-consuming and expensive, as well as
-exposing a high risk to the business. 4biz Builder presents intelligent
-dynamics of business process automation and drag and drop screen construction,
-meaning you can drag pre-defined elements to create the screens in a flexible,
-secure and agile way. In addition, it has a very high level of interoperability,
-allowing you to integrate your new application with any other legacy system. As
-the business rules of these applications change constantly in
-organizations/systems, the solution is prepared to work with the dynamism that
-the business demands, these business rules are created in a practical way and
-can be reused, avoiding waste.
+Application development can often be time consuming and expensive, as well as exposing the business to high risk. Builder uses an intelligent dynamic for automating business processes and building user interfaces (UI) with drag and drop features, where you can drag predefined elements to create the UI visuals in a flexible, safe and quick way.
+
+With a high interoperability level, Builder provides a REST interface that enables simple and secure access to legacy applications that were developed not having the Web in consideration.
+
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020

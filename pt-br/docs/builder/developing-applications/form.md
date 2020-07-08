@@ -2,41 +2,28 @@ title: Formulário
 Description: Formulário
 # Formulário
 
-
-Permite a construção de interfaces de usuário através da combinação de componentes Drag and Drop previamente definidos e o uso de recursos CSS, Angular JS e JavaScript.
+É através do formulário que o usuário interage com a aplicação. Ele é criado combinando componentes drag and drop de interface de usuário, recursos CSS e código JavaScript e AngularJS.
 
 ## Características
 
-   * Cada formulário pode conter uma ou mais páginas e cada página tem um HTML, um JS de controlador angular e uma coleção de dependências (o layout da tela é comum a todas as páginas);
+- Cada formulário pode conter uma ou mais páginas e cada uma possui código HTML, um controlador AngularJS e uma coleção de dependências;
 
-   * O desenho da tela contém uma coleção de linhas e cada linha do desenho da tela pode ter um ou mais componentes (com uma ou mais propriedades);
+- O layout da tela é comum a todas as páginas de formulário e é construído arrastando e soltando componentes da interface do usuário;
 
-   * Páginas previamente configuradas no sistema:
+- O layout da tela, desenhado na guia Desenho da tela, contém uma coleção de linhas, em que cada linha pode ter um ou mais componentes da interface do usuário;
 
-     -  **Página padrão**
+- Páginas previamente configuradas no sistema:
 
-       *   Página usada para iniciar o serviço SM, pesquisar os dados dentro do banco
-           de dados e registrar diretamente nele.
+    - **Página de CRUD** – Página configurada automaticamente pelo sistema, durante a criação do Objeto de Negócios, que fornece a funcionalidade CRUD (criar, ler, atualizar e excluir) ao Objeto de Negócios;
 
-     -  **Página CRUD**
+    - **Página padrão** - Página usada para fornecer dados do usuário durante a criação de uma solicitação de serviço do 4Biz;
 
-       *   Página criada automaticamente pelo Objeto de negócio, com as funções
-           básicas.
+    - **Página de processo** - Página usada para iniciar um Processo de Negócios do Builder;
 
-     -  **Página de processo**
+    - **Página de tarefa** - Página que renderiza um formulário do Builder na tela de ticket de um workflow do 4Biz Tracker;
 
-       *   Página para processos do sistema SM associados a processos de negócios,
-           usados para iniciar um Processo de Negócio Builder.
+    - **Página de relatório** - Página para integração do fomrulário com os relatórios gerados pelo sistema, incluindo dependências específicas para a execução de um relatório JASPER.
 
-     -  **Página de tarefa**
-
-       *   Execução de um projeto de fluxo de trabalho/Desenho ESI, renderizando um
-           formulário Builder na tela do ticket.
-
-     -  **Página de relatório**
-
-       *   Página de relatório para relatórios gerados pelo aplicativo, inclui
-           dependências específicas para a execução de um relatório JASPER.
 
 ## Antes de começar
 
@@ -44,16 +31,18 @@ Permite a construção de interfaces de usuário através da combinação de com
 
 ## Procedimento
 
-1.  Acessar a funcionalidade pelo menu de navegação Builder \> Gerenciamento \> Formulário;
+1.	Acessar a funcionalidade pelo menu de navegação Builder > Gerenciamento > Formulário;
 
-2.  Clicar em “Cadastrar”;
+2.	Clicar em “Cadastrar”;
 
-3.  Completar os campos disponíveis em “Dados Básicos”. Nesta aba, o usuário
-    deve informar os dados básicos dos formulários, como a **Aplicação** a qual
-    o formulário pertence, o **Nome**, **Descrição**, **Regras de Negócio**
-    (para Validação e para SM, se houver) e a **Pasta**, que é um agrupamento de
-    formulários no servidor, para fins de organização e marca se o Formulário é
-    para ser **Mostrado como um widget de SM**;
+3.	Completar os campos disponíveis na aba “Identificação":
+
+- Nome da Aplicação Builder a qual o formulário pertence
+- Nome do formulário
+- Descrição do formulário
+- Regra de negócio de validação, se necessário
+- Pasta onde as configurações do formulário serão armazenadas
+
     
     ![form](images/builder-18.jpg)
 
@@ -92,39 +81,30 @@ Permite a construção de interfaces de usuário através da combinação de com
 
     Figura 5 - Controlador
     
-
-    •	Dependências: as dependências da aplicação são reportadas. O nome da dependência e o caminho no qual ela está localizada devem ser     inseridos. O usuário também deve informar se será injetado no controlador.
+    -    Se o formulário precisar de código externo, esse código deverá ser registrado como uma dependência. O nome da dependência, caminho em que está localizada e se deve ser injetada no controlador também deve ser informados.
 
     ![form](images/builder-23.jpg)
 
     Figura 6 - Dependências
 
 
-1.  Desenhar a tela. Para criar o design da tela, clique em Editar tela ou
-    navegue até a guia do sistema Desenhar Tela, que se abre automaticamente.
+6. Desenhar a tela. Para criar o design da tela, clique em Editar tela ou navegue até a guia do sistema Desenhar Tela, que se abre automaticamente.
+    
+    - Arraste os componentes localizados na paleta do lado esquerdo e solte-os no centro da tela. Os componentes são organizados em linhas e colunas, cada linha tendo uma largura de 12 colunas.
 
-    *   Arraste os componentes localizados na paleta esquerda para o centro da tela
-    de acordo com a forma que você deseja criar o formulário. Os componentes são
-    organizados em linhas e colunas, e as linhas têm uma largura de 12 colunas.
-    Isso significa que em cada linha você pode inserir até 2 componentes com
-    largura 6, ou até 3 componentes com largura 4, por exemplo. Não é
-    obrigatório preencher a fileira inteira.
-
-    *   Você também pode criar guias nos formulários. Para isso, vá para o menu de
-    guias e escolha as guias horizontalmente ou verticalmente. As guias serão
-    adicionadas na tela e você pode criar a tela com os componentes em cada
-    guia.
+    - Você pode criar guias para os formulários. Para fazer isso, vá para o menu da guia e escolha as guias na organização horizontal ou vertical. Arraste e solte componentes nas guias, conforme explicado acima.
 
     ![form](images/builder-24.jpg)
 
     Figura 7 - Design
 
-7.	Clique em Salvar para executar as alterações. Você pode salvá-lo na versão original (versão atual) ou em uma nova versão.
+7.	Clique em Salvar para efetivar as alterações. Você pode salvá-lo na versão original (versão atual) ou em uma nova versão.
 
 
-!!! Abstract "JS para visualização"
+!!! Abstract "JS para teste"
+    
+    Nessa guia, é possível incluir variáveis para testar o código JavaScript do controlador. Mais informações podem ser encontradas em Desenvolvendo aplicativos.
 
-    Essa guia tem a capacidade de adicionar variáveis no escopo do JavaScript na tela que é aberta quando você clica em Exibir         Tela. Mais informações podem ser encontradas em Desenvolver Aplicações
 
 
 !!! tip "About"

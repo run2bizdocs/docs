@@ -1,53 +1,38 @@
 Title: Package
-Description: When you produce a set of application items through the Builder, it is possible that this set is clustered in a package that can be imported / exported between Builder environments.  
+Description: A package is a collection of Builder artifacts (applications, business objects, forms, flows) that can be copied between environments through export and import procedures.
 # Package  
 
-When you produce a set of application items through the Builder, it is possible that this set is clustered in a package that can be imported / exported between Builder environments.  
+A package is a collection of Builder artifacts (applications, business objects, forms, flows) that can be copied between environments through export and import procedures.
 
 ## How to access
 
-1. Access the functionality through navigation in the main menu Builder > Management > Package.  
+1.	To access Package configuration page go to menu Builder > Management > Package.
 
-## Preconditions 
+## Prerequisites
 
 1. No applicable.  
 
-## Filters 
+## Managing packages 
 
-1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:  
-     * Keyword or enter.  
+1.	To register a new package, click on the "New" button;
 
 ![Screenshot](images/Package-Search.png)
 
 Figure 1 - Package search screen  
 
-## Items list 
+2.	Fill in the package Name and Description. Then add elements that will be part of the package.;
 
-1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Name, Description and Version.  
+3.	Click on the "Save" button to create the package and click on the "Search" to go back to the main screen;
 
-![Screenshot](images/Package-listing.png)
+4.	To export a package, select it and then click on the "Export" button. Packages are exported in JSON format;
 
-Figure 2 - Package listing screen  
+5.	To import a package, click on the “Import” button, inform whether version of the package to be imported should override elements with same identifier, and whether the create/modify Business Objects DDL should be executes. Select a JSON import for a previously exported package and click on the “Import” button.
 
-## Filling in the registration fields
-
-1. To change a package already registered, click "Edit", make the modifications and then click "Save";  
-2. To create a package, click "New". Enter the Package Name and Description. Then select the elements that will be part of the package. All these elements must have been previously registered in Builder;  
-
-    ![Screenshot](images/Package-Registration.png) 
+!!! info "Atenção"
     
-    Figure 3 - Package registration / edit screen  
+    To ensure compatibility, it is recommended that the Builder version that is importing a package is the same version that has exported it.
 
-3. You can select **Applications, Parameters, Labels, Images, CSS, Java Scripts, HTML Pages,  Reports, Business rules, Flows, Business object, Components, Form pages, Forms, Business Processes, Notifications** and **User Groups** to compose the package;  
-4. Click "Save" to create the package. Click "Search" to go back to the previous screen;  
-5. To export a saved package, select it and then click "Export". Packages are exported in .json format;  
-6. To import a package into a Builder, click Import, select whether this version of the package should override elements that have the same identifier, whether the DDL should be run, and select the .json import file;  
 
-    !!! Abstract "ATTENTION"  
-
-        To ensure compatibility, it is strongly recommended that the Builder version that created exported package be the same as                 the Builder that will import it.  
-
-7. To view an item, select the item and click "View".  
 
 
 !!! tip "About"

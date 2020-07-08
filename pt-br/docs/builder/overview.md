@@ -1,4 +1,4 @@
-title: Visão geral  
+Title: Visão geral  
 
 description: conecta dados, soluções e pessoas, capacitando departamentos e empresas. é uma plataforma de automação de processos de negócios ágil e descomplicada. Ele permite personalização e integração rápida com outros aplicativos, sejam eles legados ou desenvolvidos internamente. O Builder também é CODELESS!  
 
@@ -6,25 +6,17 @@ description: conecta dados, soluções e pessoas, capacitando departamentos e em
 
 ## Visão geral
 
-4biz Builder permite o rápido desenvolvimento de aplicações, adaptando mudanças de processos e negócios em tempo real. 
-Builder é um produto 100% pronto e adequado no 4biz, este produto é muito poderoso e permite construir novas funcionalidades, aplicações e integrações. É muito próximo dos produtos RPA (automação de processos de robótica), mas traz diferentes possibilidades, como a integração natural com a estrutura de Service Management (SLAs, conhecimento, portfólio, tickets, portal de serviços, entre outros). 
-Entendemos que os conceitos de Service Management são muito poderosos e podem ir além da TI, permitindo ganhos interessantes para as unidades de negócio. 
-Builder é executado com o conceito de Dynamic Application & Hot Deploy, onde não há necessidade de reiniciar o servidor ou sistema em qualquer implantação.
- 
-O 4biz Builder conecta dados, soluções e pessoas, capacitando departamentos e empresas. É uma plataforma de automação de processos de negócios ágil e descomplicada. Ele permite personalização e integração rápida com outros aplicativos, sejam eles legados ou desenvolvidos internamente. O Builder também é CODELESS!
+O Builder é uma plataforma de desenvolvimento de aplicações totalmente integrada ao 4Biz que permite uma adaptação rápida e segura do ambiente de gerenciamento de TI às mudanças dos processos operacionais e das necessidades do negócio. 
 
-Com o Builder, podemos criar fluxos de trabalho automatizados em minutos, eliminando erros devido a entradas manuais durante a operação em um ambiente seguro.  
+Construído com base em tecnologias maduras de desenvolvimento web, sobre os conceitos de dynamic application & hot deploy, onde não há necessidade de reiniciar o servidor ou sistema, e com integração natural com a estrutura de Service Management (SLAs, conhecimento, portfólio, tickets, portal de serviços), o Builder proporciona diferentes possibilidades de aperfeiçoamento e expansão do ambiente 4Biz, desde de CRUDs codeless até integrações complexas com sistemas legados ou de terceiros.
 
--   Personalização rápida  
--   Intercambiável
--   Integração inteligente
--   Cria e projeta fluxos de trabalho automatizados
--   Reduz riscos
--   Elimina dados incorretos
 
 ## Por que adotá-lo? 
 
-O desenvolvimento de aplicações pode muitas vezes ser lento e caro, além de expor um alto risco ao negócio. O 4biz Builder apresenta uma dinâmica inteligente de automação de processos de negócio e construção de telas com recursos de drag and drop, ou seja, pode-se arrastar elementos pré-definidos para criar as telas de forma flexível, segura e ágil. Além disso, possui um altíssimo nível de interoperabilidade, permitindo integrar sua nova aplicação com qualquer outro sistema legado. Como as regras do negócio dessas aplicações mudam constantemente nas organizações/sistemas, a solução está preparada para trabalhar com o dinamismo que o negócio exige, essas regras de negócio são criadas de forma prática e podem ser reutilizadas, evitando desperdícios.  
+O desenvolvimento de aplicações pode muitas vezes ser lento e caro, além de expor um alto risco ao negócio. O Builder apresenta dinâmica inteligente de automação de processos de negócio e construção de telas com recursos drag and drop, ou seja, pode-se arrastar elementos pré-definidos para criar as telas de forma flexível, segura e ágil. 
+
+Com alto nível de interoperabilidade, o Builder disponibiliza uma interface REST, habilitando o acesso simples e seguro a aplicações legadas que não foram desenvolvidas com conceitos web.
+ 
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020

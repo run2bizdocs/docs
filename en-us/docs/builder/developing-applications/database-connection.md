@@ -1,42 +1,38 @@
 title: Database Connection
 Description: Database Connection
+
 # Database Connection
 
-Builder requires Database connections to interfaces with database.
+Builder requires setting up a database connection to interface with database tables.
 
-It´s a good practice to create one DB Connection per Builder Application.
+## Before getting started
 
-Before getting started
-----------------------
+You must have a working database driver in your operating environment before setting up a Builder Database Connection.
 
-Must have the Driver to Access the desired type of database.
+**Steps**
 
-Procedure
----------
 
-1.  Access the functionality through navigation in the menu Builder \> Configuration \> Database Connection;
+1.	Access the Database Connection configuration page through navigation in the menu Builder > Configuration > Database Connection;
 
-2.  Click on "New";
+2.	Click on the "New" button;
 
-3.  Complete the fields available;
+3.	Fill in the information for the fields Name, Description and Type;
 
-4.  **Type of connection** can be (JNDI or Direct Connection):
+4.	Type can be either JNDI Connection or Direct Connection:
 
-    1.  For JNDI connection, enter the **JNDI Context**, and the **JNDI Name**;
+- For JNDI connection, enter the JNDI name as configured in the operating environment;
+- For direct connection, enter Database type, JDBC Path  and database credentials (User and Password).
 
-    2.  For direct connection, enter **JDBC Path**, **User**, and **database
-        Password**.
-
-5.  Click on "Save".
-
-!!! Abstract "NOTE"
-
-    All the fields in the Items list will be used as filter to restrict the items listed.
+5\.	Click on the "Save" button.
 
 
 ![app](images/builder-3.png)    
 
 Figure 1 - Application   
+
+
+## MS SQL SERVER CONNECTION
+Since Builder uses the jtds driver to connect to MS SQL Server databases, the connection URL must follow the pattern jdbc:jtds:sqlserver://{server}:{port};DatabaseName = {name of the database}. In addition, the driver name for the Integration Flow connector must be net.sourceforge.jtds.jdbc.Driver.
 
 
 !!! tip "About"

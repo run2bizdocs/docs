@@ -1,62 +1,30 @@
 title: CSS  
-Description: O Builder permite que a manutenção de arquivos CSS dentro da ferramenta. Esses arquivos poderão ser usados em Formulário como dependência.   
+Description: A apresentação visual dos formulários Builder pode ser customizada através de uso de CSS (Cascading Style Sheets), que são associados aos formulários como dependências (ver a documentação sobre Formulário para mais detalhes sobre dependências).   
+
 # CSS
 
-O Builder permite que a manutenção de arquivos CSS dentro da ferramenta. Esses arquivos poderão ser usados em Formulário como dependência.     
+A apresentação visual dos formulários Builder pode ser customizada através de uso de CSS (Cascading Style Sheets), que são associados aos formulários como dependências (ver a documentação sobre Formulário para mais detalhes sobre dependências).  
 
-!!! Abstract "ATENÇÃO"  
+## Como acessar    
 
-    A pasta é um agrupador físico dos arquivos no servidor, para fins de organização. A pasta configurada não interfere no funcionamento     do sistema.  
+1. Acesse a funcionalidade através da navegação no menu Builder > Recursos > CSS.  
 
-##Como acessar    
-
-1.  Acesse a funcionalidade através da navegação no menu Builder > Recursos > CSS.    
-
-##Pré-condições    
+## Pré-condições    
 
 1.  Não se aplica.  
 
-##Filtros  
+## Cadastrar um novo CSS
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:   
+1. Para cadastrar um novo arquivo CSS, clique no botão "Cadastrar”;
 
-    * Palavra chave    
-
-![Screenshot](images/CSS-Filters.png)  
+    ![Screenshot](images/CSS-Filters.png)  
 
 Figura 1 - Tela de pesquisa de CSS  
 
-##Listagem de itens
+2.	Preencha as informações necessárias para Nome, Descrição e Pasta para armazenar o Conteúdo do CSS. Observe que a pasta é usada apenas para fins de organização e não interfere na operação do sistema;
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Recurso, Nome, Descrição e Versão.      
+3.	Clique o botão "Salvar".
 
-![Screenshot](images/CSS-Item-List.png)
-
-Figura 2 - Tela de listagem de CSS  
-
-##Preenchimento dos campos cadastrais 
-
-1. Para cadastrar um novo arquivo CSS, clique em "Cadastrar", conforme ilustrado na figura abaixo:   
-
-    ![Screenshot](images/CSS-Filling.png)
-    
-    Figura 3 - Tela inicial do CSS    
-
-2. Nesta tela também é permitido ao usuário outras ações. São elas:
-
-   - Para editar um item criado, selecione o item desejado, clique em "Editar" (a versão atual ou a versão anterior), faças as alterações e clique em "Salvar";
-   
-   - Para visualizar um item, selecione o mesmo e clique em "Visualizar";
-   
-   - Para remover um item criado, selecione o item desejado, clique em "Remover" e confirme a exclusão.  
-
-3. Ao clicar em "Cadastrar", será apresentada a seguinte tela:    
- 
-    ![Screenshot](images/CSS-registration.png)   
-    Figura 4 - Tela de cadastro de CSS    
-
-4. Informe uma descrição, o caminho da pasta do CSS e faça o upload do arquivo. Os campos de nome e versão são auto incrementados pelo sistema.   
-5. Clique em "Salvar" para armazenar o arquivo. Clique em "Pesquisar" para voltar para a tela anterior.    
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020

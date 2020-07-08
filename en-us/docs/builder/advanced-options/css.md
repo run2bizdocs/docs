@@ -1,62 +1,29 @@
 title: CSS
-Description: The Builder allows the maintenance of CSS files within the tool. These files can be used on Forms as a dependency.
+Description: The visual presentation of forms in Builder can be customized through the use of CSS (Cascading Style Sheets), which are associated with the forms as dependencies (please see the documentation on Form for more details about dependencies).
 # CSS
 
-The Builder allows the maintenance of CSS files within the tool. These files can be used on Forms as a dependency.  
+The visual presentation of forms in Builder can be customized through the use of CSS (Cascading Style Sheets), which are associated with the forms as dependencies (please see the documentation on Form for more details about dependencies). 
 
-!!! Abstract "ATTENTION"
+## How to access  
 
-    The folder is a physical grouper of the files on the server, for organization purposes. The configured folder does not interfere         with system operation.
+1.	To access the CSS configuration page go to menuBuilder > Resources > CSS.  
 
-##How to access  
-
-1.  Access the feature by navigating the menu Builder > Resources > CSS.  
-
-##Preconditions  
+## Prerequisites
 
 1.  Not applicable
 
-##Filters  
+## Register a new CSS
 
-1.  The following filter enables the user to restrict the participation of items
-    in the standard feature listing, making it easier to find the desired items:  
+1.	To register a new CSS file, click on the "New" button;
 
-     * Keyword   
 
 ![Screenshot](images/CSS-Filters.png)  
 
 Figure 1 - CSS Search Screen  
 
-##Items list
+2\.	Fill in the required information for CSS Name, Description, and the Folder to store the CSS Content. Notice that the folder is just used for organization purposes and does not interfere with system operation;
 
-1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature listing: Resource, Name, Description and Version.    
-
-![Screenshot](images/CSS-Item-List.png) 
-
-Figure 2 - CSS listing screen  
-
-##Filling in the registration fields
-
-1. To register a new CSS file, click "New" as shown in the figure below:  
-
-    ![Screenshot](images/CSS-Filling.png) 
-    
-    Figure 3 - CSS home screen  
-
-2. On this screen the user is also allowed other actions. They are:  
- 
-     - To edit a created item, select the desired item, click Edit (the current version or the previous version), make the changes, and      click "Save".  
-     - To view an item, select the item and click "View".  
-     - To remove a created item, select the item you want, click "Remove", and confirm the deletion.  
-
-3. When you click Next, the following screen will appear:  
- 
-    ![Screenshot](images/CSS-registration.png)
-    
-    Figure 4 - CSS registration screen  
-
-4. Enter a description, the path of the CSS folder and upload the file. The fields name and version are auto-incremented by the system.  
-5. Click "Save" to store the image. Click Search to return to the previous screen.  
+3\.	Click on the "Save" button.
 
 
 !!! tip "About"

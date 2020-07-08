@@ -1,55 +1,38 @@
 Title: Pacote
-Description: Quando se produz um conjunto de itens de aplicação através do Builder, é possível que esse conjunto seja aglomerado em um pacote que pode ser importado/exportado entre ambientes do Builder.    
+Description: Um pacote é uma coleção de artefatos Builder (aplicações, objetos de negócio, formulários, fluxos) que pode ser que pode ser transportada entre ambientes através de exportação e importação.
+
+
 # Pacote  
 
-Quando se produz um conjunto de itens de aplicação através do Builder, é possível que esse conjunto seja aglomerado em um pacote que pode ser importado/exportado entre ambientes do Builder.    
+Um pacote é uma coleção de artefatos Builder (aplicações, objetos de negócio, formulários, fluxos) que pode ser que pode ser transportada entre ambientes através de exportação e importação.
 
 ## Como acessar 
 
-1. Acesse a funcionalidade através da navegação no menu Builder > Gerenciamento > Pacote.    
+1.	Acesse a funcionalidade através da navegação no menu Builder > Gerenciamento > Pacote.   
 
-## Pré-condições 
+## Pré-requisitos 
 
 1. Não se aplica.    
 
-## Filtros
+## Gerenciando pacotes
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:    
- 
-     * Palavra chave ou enter.      
+1.	Para cadastrar um novo pacote clique no botão "Cadastrar";
 
 ![Screenshot](images/Package-Search.png)
 
 Figura 1 - Tela de pesquisa de pacotes    
 
-## Listagem de itens
+2.	Informe o **Nome** e a **Descrição** do pacote. Em seguida, adicione os **Elementos** que farão parte do pacote.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Nome, Descrição e Versão.    
+3.	Clique no botão "Salvar" para finalizar o cadastro do pacote e no botão "Pesquisar" para voltar à tela principal;
 
-![Screenshot](images/Package-listing.png) 
+4.	Para exportar um pacote, selecione o pacote e clique no botão "Exportar". Os pacotes são exportados em formato JSON;
 
-Figura 2 - Tela de listagem de pacotes   
+5.	Para importar um pacote, clique no botão "Importar", informe se a versão do pacote a ser importado deverá substituir os elementos que possuírem o mesmo identificador e se a DDL de criação/alteração de Objetos de Negócio deverá ser executada.  Selecione o arquivo referente a um pacote previamente exportado e clique no botão “Importar”.
 
-## Preenchimento dos campos cadastrais 
-
-1. Para alterar um pacote já cadastrado, clique em "Editar", faça as modificações e depois clique em "Salvar";   
-2. Para criar um pacote, clique em "Cadastrar". Informe o Nome e a Descrição do pacote. Em seguida, selecione os elementos que farão parte do pacote. Todos estes elementos foram cadastrados previamente no Builder;    
-
-    ![Screenshot](images/Package-Registration.png)
+!!! info "Atenção"
     
-    Figura 3 - Tela de cadastro/edição de pacotes   
-
-3. Poderão ser selecionadas Aplicações, Parâmetros, Labels, Imagens, CSS, Java Scripts, Páginas HTML, Relatórios, Regras de negócio, Fluxos, Objetos de negócio, Componentes, Páginas de formulário, Formulários, Processos de negócio, Notificações e Grupos de usuário para compor o pacote;    
-4. Clique em "Salvar" para criar o pacote. Clique em "Pesquisar" para voltar para a tela anterior;   
-5. Para exportar um pacote salvo, selecione o pacote, e clique em "Exportar". Os pacotes são exportados em formato .json;    
-6. Para importar um pacote para um Builder, clique em "Importar", selecione se esta versão do pacote deverá substituir os elementos que possuírem o mesmo identificador, se a DDL deverá ser executada, e selecione o arquivo de importação .json.    
-
-    !!! Abstract "ATENÇÃO"  
-
-        Para garantir a compatibilidade, é altamente recomendável que a versão do Builder que realizou a exportação de um pacote seja a           mesma do Builder que realizará a importação do mesmo pacote.   
-
-7. Para visualizar um item, selecione o mesmo e clique em "Visualizar".    
-
+    Para garantir a compatibilidade, é recomendável que a versão do Builder que realizará a importação de um pacote seja a mesma versão que realizou a exportação.
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020
