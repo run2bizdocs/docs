@@ -4,7 +4,7 @@ Title: Temas
 
 Os temas estão ligados diretamente com os diálogos, intents e habilidades. Os temas servem para identificar qual o assunto o assistente virtual deve tratar, ou seja, quando um diálogo for iniciado ele vai ser identificado pelo tema,assim o Helper vai utilizar suas habilidades cadastradas para poder atender o pedido ou o objetivo do usuário.
 
-## Novo contexto
+## Novo Tema
 
 1.  Após acessar a plataforma, acesse o menu “Temas”. Nele será possível editar, excluir e criar um tema;
 

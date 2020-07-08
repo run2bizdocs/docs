@@ -10,7 +10,8 @@ Helper usa inteligência artificial para realizar diálogos com usuários de for
 
 Ele atende aos 5 conceitos principais das plataformas de construção de assistentes virtuais:
 
-**- Build:** Construção de fluxos de conversação (diálogos) do assistente com possíveis interações humanas, para que ela esteja preparada para reagir e responder de forma fluida e correta;
+**- Build:** Construção de fluxos de conversação (diálogos) do assistente com possíveis interações humanas, para que ela esteja preparada
+para reagir e responder de forma fluida e correta;
 
 **- Train:** Treinamento do assistente para que ele passe a considerar todos os exemplos de diálogos construídos e suas interações. O Helper utiliza inteligência artificial para compreender o que o usuário quis dizer ou solicitar, então no momento de construção dos diálogos não é necessário escrever exatamente o que um usuário dirá a ele;
 

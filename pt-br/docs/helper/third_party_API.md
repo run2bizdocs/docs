@@ -79,7 +79,7 @@ Aqui iremos definir as configurações da requisição que irão influenciar no 
 
 -   Status htpp de não encontrado.
 
->   *\* As opções apresentadas para esses campos são pré-definidas pelo sistema.*
+ *\* As opções apresentadas para esses campos são pré-definidas pelo sistema.*
 
 2.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
 
