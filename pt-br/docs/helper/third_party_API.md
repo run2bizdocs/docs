@@ -12,7 +12,7 @@ O nosso assistente virtual Helper disponibiliza uma área para integrar API exte
 
 3.  Caso queira procurar por uma API específica, utilize o campo de busca e clique o botão “Buscar”;
 
-4.  Para registrar uma nova API, clique em “Novo”. Aparecerão os seguintes campos para serem preenchidos:
+4. Para registrar uma nova API, clique em “Novo”. Aparecerão os seguintes campos para serem preenchidos:
 
 | **Campo**   | **Definição** |
 |-|-|
@@ -29,9 +29,9 @@ Essa função permite adicionar valores necessários para o cabeçalho da requis
 
 1.  Clique o botão “+” para adicionar o cabeçalho com as informações para:
 
--   Chave;
+\- Chave;
 
--   Valor.
+\- Valor.
 
 2.  Clique em Salvar.
 
@@ -41,13 +41,13 @@ No corpo é possível montar o conteúdo que será enviado no corpo da requisiç
 
 1.  Clicar o botão “+” para adicionar o corpo com as informações de:
 
--   Formato do corpo: JSON;
+    \- Formato do corpo: JSON;
 
--   Nome;
+    \- Nome;
 
--   Tipo: texto, número, booleano, lista, objeto, contexto, histórico do chat, última mensagem do chat, identificação do usuário, valor indefinido e valor vazio;
+    \- Tipo: texto, número, booleano, lista, objeto, contexto, histórico do chat, última mensagem do chat, identificação do usuário, valor indefinido e valor vazio;
 
--   Valor: o valor irá depender do tipo selecionado.
+    \- Valor: o valor irá depender do tipo selecionado.
 
 2.  Clique em Salvar.
 
@@ -57,13 +57,13 @@ Em respostas vamos configurar o que a gente espera dessa API.
 
 1.  Clicar o botão “+” para adicionar as informações com para:
 
--   Formato da resposta: pode ser em JSON ou Text;
+\- Formato da resposta: pode ser em JSON ou Text;
 
--   Nome;
+\- Nome;
 
--   Tipo: texto, número, booleano, lista, objeto ou contexto;
+\- Tipo: texto, número, booleano, lista, objeto ou contexto;
 
--   Identificação.
+\- Identificação.
 
 2.  Clique em Salvar.
 
@@ -73,19 +73,19 @@ Aqui iremos definir as configurações da requisição que irão influenciar no 
 
 1.  Selecione o código desejado para definir os campos:
 
--   Status htpp de sucess;
+    \- Status htpp de sucess;
 
--   Status htpp de não autorizado;
+    \- Status htpp de não autorizado;
 
--   Status htpp de não encontrado.
+    \- Status htpp de não encontrado.
 
- *\* As opções apresentadas para esses campos são pré-definidas pelo sistema.*
+    \* As opções apresentadas para esses campos são pré-definidas pelo sistema.
 
 2.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
 
--   Mensagem do chatbot para conteúdo não encontrado;
+    \- Mensagem do chatbot para conteúdo não encontrado;
 
--   Mensagem do chatbot para falha na requisição;
+    \- Mensagem do chatbot para falha na requisição;
 
 3.  Definir se a API sendo criada é uma API de autenticação.
 

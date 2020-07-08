@@ -37,13 +37,13 @@ Localize e preencha os seguintes parâmetros:
 
 Também é possível de integrar o assistente virtual Helper ao chat do Facebook Messenger. Nesse caso as instruções são fornecidas pelo próprio Facebook e fornecemos as informações necessárias para realizar a integração:
 
--   Callback URL
+- Callback URL
 
--   Verify Token
+-  Verify Token
 
--   Secret
+-  Secret
 
--   Page Access Token
+-  Page Access Token
 
 
 ## API Rest
@@ -62,32 +62,29 @@ E os formatos necessários para integração:
 
 -   Formato de envio de mensagem ao bot:
 
-!!! exemple "Exemplo"
 
-    {"sender": "joao","message": "conte-me algumas coisas sobre você"}
+` {"sender": "joao", "message": "conte-me algumas coisas sobre você" } `
+
 
 
 -   Formato de retorno da mensagem do bot em texto:
 
-!!! exemple "Exemplo"
+` { "recipient_id": "joao", "text": "Eu posso ajudá-lo a trabalhar de maneira mais inteligente, em vez de mais" }`
 
-    {"recipient_id": "joao", "text": "Eu posso ajudá-lo a trabalhar de maneira mais inteligente, em vez de mais"}
 
 
 -   Formato de retorno da mensagem do bot em botão:
 
-!!! exemple "Exemplo"
 
-    {"recipient_id": "joao", "text": "Você poderia avaliar o meu atendimento?","buttons": [{"title": "Sim", "payload": "sim"},{"title": "Não","payload": "não"}]}
+` { "recipient_id": "joao", "text": "Você poderia avaliar o meu atendimento?", "buttons": [ { "title": "Sim",         "payload": "sim" }, {"title": "Não","payload": "não" } ] }`
 
 
 
 -   Formato de retorno da mensagem do bot em imagem:
 
-!!! exemple "Exemplo"
+` {"image": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png",   "recipient_id": "joao"} `
 
-    {"image": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
+Ou
 
-    Ou
+` {"attachment": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"} `
 
-    {"attachment":"https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"}
