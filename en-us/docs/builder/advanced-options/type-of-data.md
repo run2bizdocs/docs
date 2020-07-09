@@ -1,59 +1,26 @@
 Title: Type of data
 Description:The data type register has the functionality of linking an abstract type of data to a form component.  
-# Type of data  
+# Data type  
 
-The data type register has the functionality of linking an abstract type of data to a form component.  
-This field is selected when you create a new attribute for a business object. More information can be found in the technical documentation.  
+The base Builder installation provides a variety of data types for Business Object attributes. However, if necessary, new data types can be added to the system.
 
+For more information please refer to Developing Applications documentation.
+ 
 ## How to access  
 
-1. Access the feature by navigating the menu Builder > Configuration > Data type.    
+1.	To access the Data type configuration page go to menu Builder > Configuration > Data type.
 
-## Preconditions
+## Prerequisites
 
 1. Not applicable  
  
-## Filters  
+## Register a new data type
 
-1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:  
+1.	To register a new data type, click on the "New” button;
 
-    * Keyword  
+2.	Fill in the required information **Name**, **Description** and **Java Class** for the type of data being registered, as well as choose the options **It requires size**, **Allows value assigned by the database**, **It requires** **precision** and **Allow self increase**. Optionally, enter the form **Component** and default **Width (bootstrap)**;
 
-![Screenshot](images/Data-type-fig01.png)
-
-Figure 1 - Data type search screen  
-
-## Items list  
-
-1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature listing: **Name, Description** and **Component**.  
-
-![Screenshot](images/Data-type-fig02.png) 
-
-Figure 2 - Data type list screen  
-
-## Filling in the registration fields  
-
-1. To register a new data type, click "New", as shown in the figure bellow:  
-
-    ![Screenshot](images/Data-type-fig03.png)
-    
-    Figure 3 - Data type home screen  
-
-2. On this screen the user is also allowed other actions. They are:  
-
-    - To edit a created item, select the desired item, click "Edit", make the changes, and click "Save".  
-    - To view an item, select the item and click "View".  
-    - To remove a created item, select the item you want, click "Remove", and confirm the deletion.  
-
-3. When you click Next, the following screen will appear:  
-
-    ![Screenshot](images/Data-type-fig04.png)
-    
-    Figure 4 - Data type register screen
-
-4. Fill in the fields;  
-5. Click "Save" to store the file. Click "Search" to return to the previous screen.  
-
+3.	Click on the "Save" button.
 
 
 !!! tip "About"

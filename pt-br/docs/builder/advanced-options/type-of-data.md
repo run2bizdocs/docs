@@ -3,57 +3,26 @@ Description:O cadastro de tipo de dado tem a funcionalidade de vincular um tipo 
 
 # Tipo de dado  
 
-O cadastro de tipo de dado tem a funcionalidade de vincular um tipo abstrato de dado à um componente de formulário.    
-Este campo é selecionado quando se cria um novo atributo de um objeto de negócio. Mais informações podem ser encontradas no documento de Desenvolvendo Aplicações.   
+A instalação base do Builder fornece uma variedade de tipos de dados para atributos do Objeto de Negócios. No entanto, se necessário, novos tipos de dados podem ser adicionados ao sistema.
+
+Para obter mais informações, consulte a documentação de Desenvolvendo Aplicações.
+   
 
 ## Como acessar   
 
-1. Acesse a funcionalidade através da navegação no menu Builder > Configuração > Tipo de dado.    
+1.	Acesse a funcionalidade através da navegação no menu Builder > Configuração > Tipo de dado.
 
-## Pré-condições  
+## Pré-requisitos
 
 1. Não se aplica.    
  
-## Filtros   
+## Cadastrar um novo tipo de dados
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:   
+1.	Para cadastrar um novo tipo de dados clique no botão “Cadastrar”;
 
-    * Palavra chave   
+2.	Preencha o **Nome**, a **Descrição** e o **Classe Java** para o tipo de dado sendo cadastrado, bem como escolha as opções **Exige tamanho**, **Permite valor atribuído pelo banco**, **Exige precisão** e **Permite auto incremento**. Opcionalmente, informe o **Componente** de formulário e a **Largura (bootstrap)** default;
 
-![Screenshot](images/Data-type-fig01.png) 
-
-Figura 1 - Tela de pesquisa de tipo de dado    
-
-## Listagem de itens  
-
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Nome, Descrição e Componente.
-
-![Screenshot](images/Data-type-fig02.png)
-
-Figura 2 - Tela de listagem de tipo de dado    
-
-## Preenchimento dos campos cadastrais  
-
-1. Para cadastrar uma propriedade de componente, clique em Cadastrar, conforme ilustrado na figura abaixo:   
-
-    ![Screenshot](images/Data-type-fig03.png) 
-    
-    Figura 3 - Tela inicial de tipo de dado   
-
-2. Nesta tela também é permitido ao usuário outras ações. São elas:   
-
-    - Para editar um item criado, selecione o item desejado, clique em "Editar", faças as alterações, e clique em "Salvar".  
-    - Para visualizar um item, selecione o mesmo e clique em "Visualizar".  
-    - Para remover um item criado, selecione o item desejado, clique em "Remover" e confirme a exclusão.   
-
-3. Ao clicar em "Cadastrar", será apresentada a seguinte tela:    
-
-    ![Screenshot](images/Data-type-fig04.png)
-    
-    Figura 4 - Tela de cadastro de tipo de dado  
-
-4. Preencha os campos;    
-5. Clique em "Salvar" para armazenar o arquivo. Clique em "Pesquisar" para voltar para a tela anterior.  
+3.	Clique o botão “Salvar”.
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020
