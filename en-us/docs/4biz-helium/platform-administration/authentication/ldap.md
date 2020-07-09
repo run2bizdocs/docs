@@ -21,7 +21,7 @@ If you want to automatically set up and synchronize the users, it's necessary to
 
 ### Configuring connection
 
-1.  Access the menu Acessar o menu Parametrization > LDAP Configuration;
+1.  Access the menu Parametrization > LDAP Configuration;
 2.  Click on "New";
 3.  Complete all the fields available;
 

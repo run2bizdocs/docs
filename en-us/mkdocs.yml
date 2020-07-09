@@ -691,10 +691,10 @@ nav:
     - builder/advanced-options/itsm-connection.md
     - builder/advanced-options/package.md
     - builder/advanced-options/parameters.md
-    - builder/advanced-options/process-integration-flow.md
+    - builder/advanced-options/process-integration-tracker.md
     - builder/advanced-options/report-file.md
     - builder/advanced-options/report-setup.md
-    - builder/advanced-options/service-integration-flow.md
+    - builder/advanced-options/service-integration-tracker.md
     - builder/advanced-options/type-of-data.md
     - builder/advanced-options/variables.md
   - Add-Ons:

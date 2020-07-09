@@ -1,89 +1,53 @@
 Title: Configuração de relatório    
-Description:Essas informações são preenchidas automaticamente a partir do cadastro do arquivo de relatório. Podem ser editados o nome, a descrição, e a pasta agrupadora do projeto no servidor.   
+Description:Em Configuração de relatório é onde são realizadas, se necessário, as configurações de execução dos relatórios cadastrados no sistema através da opção Arquivo de Relatório.  
 
 # Configuração de relatório   
 
-Essas informações são preenchidas automaticamente a partir do cadastro do arquivo de relatório. Podem ser editados o nome, a descrição, e a pasta agrupadora do projeto no servidor.   
+Em Configuração de relatório é onde são realizadas, se necessário, as configurações de execução dos relatórios cadastrados no sistema através da opção Arquivo de Relatório.     
 
 ## Como acessar 
 
-1. Acesse a funcionalidade através do menu Builder > Gerenciamento > Relatório.
+Acesse a funcionalidade através do menu Builder > Gerenciamento > Relatório.
 
-## Pré-condições
+## Pré-requisitos
 
-1. O formulário deve ser previamente cadastrado no Formulário. 
+O relatório a ser configurado deve ter sido previamente cadastrado no menu Builder > Recursos > Upload de relatório.
 
-## Filtros 
+## Configurando um relatório 
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:   
+1. Escolher um item da lista de relatórios e clicar no botão “Editar”.  
 
-    * Palavra chave ou enter.    
+## Dados do relatório
 
-![Screenshot](images/Report-setup-fig01.png)
-
-Figura 1 -Tela de pesquisa de relatórios     
-
-## Listagens de itens
-
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Aplicação, Recurso, Nome, Descrição e Versão.  
-
-![Screenshot](images/Report-setup-fig02.png)
-
-Figura 2 -Tela de listagem de relatórios    
-
-## Preenchimento dos campos cadastrais  
-
-### Dados do relatório
-
-1. Essas informações são preenchidas automaticamente a partir do cadastro do arquivo de relatório. Podem ser editados o nome, a descrição, e a pasta agrupadora do projeto no servidor.    
-
-![Screenshot](images/Report-setup-fig03.png)
-
-Figura 3 - Cadastro/edição de configuração de relatório, aba Dados do Relatório    
+1.	Os valores de Aplicação, Nome, Descrição e Pasta são preenchidos com base no cadastro do arquivo de relatório e podem ser alterados nessa tela. 
 
 ## Data source
 
-1. Refere-se à fonte de dados do relatório. Informe o tipo da fonte de dados, que pode ser:   
+1.	**Data source** refere-se à fonte de dados para a execução do relatório. Informe o **Tipo** da fonte de dados, dentre as opções:
+    •	**Nenhum**: caso o relatório não realize buscas no banco de dados.
+    •	**Conexão de dados:** caso a fonte de informações esteja em banco de dados. Neste caso, informe também a respectiva Conexão de Banco (cadastrada no menu Builder > Configuração > Conexão de Banco de Dados).
+    •	**Objeto de dados**: caso a fonte de informações seja um objeto de banco de dados cadastrado na aplicação Builder.
+    •	**Fluxo ESI:** caso a fonte de informações seja um fluxo de integração cadastrado na aplicação Builder. Neste caso, informe também o nome do Fluxo (cadastrado no menu Builder > Gerenciamento > Fluxo de Integração).
+    •	**Script:** caso a fonte de dados seja um script, codifique o script Rhino a ser utilizando.
 
-    - Nenhum: caso o arquivo não realize uma busca no banco de dados.    
-    - Conexão de dados: caso a fonte de informações seja uma conexão com banco de dados, informe também a conexão de banco respectiva       (cadastrável no menu Conexão de banco).   
-    - Objeto de dados: caso a fonte de informações seja um objeto de banco de dados cadastrado na aplicação. Informe o objeto de negócio      que será a fonte de dados (cadastrável no menu Objeto de negócio).    
-    - Fluxo ESI: caso a fonte de informações seja um fluxo ESI cadastrado na aplicação. Informe o fluxo que será a fonte de dados           (cadastrável no menu Design Workflow/ESI).    
-    - Script: caso a fonte de dados seja um script, codifique o script utilizando a linguagem Rhino.    
 
-![Screenshot](images/Report-setup-fig04.png)
+## Parâmetros
 
-Figura 4 - Cadastro/edição de configuração de relatório, aba Data source    
-
-## Parâmetros   
-
-1. Esta aba refere-se ao cadastro de parâmetros fixos para compor o relatório. Você poderá inserir uma imagem como parâmetro para definir a logotipo do relatório, por exemplo.   
-
-    - Clique em "Adicionar" para incluir um novo parâmetro;    
-    - Informe o nome do parâmetro, o tipo, e o objeto do parâmetro;   
-    - Clique em "Salvar" para incluir o parâmetro na lista;  
-    - Para editar um parâmetro da lista, clique em "Editar";   
-    - Para remover um parâmetro da lista, clique em "Remover".  
-
-![Screenshot](images/Report-setup-fig05.png)
-
-Figura 5 - Cadastro/edição de configuração de relatório, aba Parâmetros    
-
+1. Esta aba refere-se ao cadastro de parâmetros necessários à execução do relatório.
+    •	Clique em "Adicionar" para incluir um novo parâmetro;
+    •	Informe o **Nome** do parâmetro, o **Tipo** e os dados relativos ao tipo;
+    •	Clique em "Salvar" para incluir o parâmetro na lista;
+    •	Para editar um parâmetro da lista, clique em "Editar";
+    •	Para remover um parâmetro da lista, clique em "Remover".
+ 
 ## Formulário
 
-Esta aba representa o formulário a ser exibido quando o usuário for gerar o relatório.    
+Esta aba representa o formulário a ser exibido quando o usuário for gerar o relatório.
 
-1. Informe o nome do formulário cadastrado, informe se deverão ser exibidas abas, o título do formulário, e o menu associado ao mesmo;    
-2. No formulário selecionado, por padrão, serão acrescentadas opções para gerar o relatório em PDF, Excel e HTML;    
-3. Para alterar o padrão, edite o código fonte apresentado na tela;  
-4. Clique em "Salvar" para executar as alterações. Clique em "Pesquisar" para voltar para a tela anterior;   
-5. Para editar um item criado, selecione o item desejado, clique em "Editar" (a versão atual ou a versão anterior), faças as alterações, e clique em Salvar;   
-6. Para visualizar um item, selecione o mesmo e clique em "Visualizar;.   
-7. Para remover um item criado, selecione o item desejado, clique em "Remover" e confirme a exclusão.    
+1.	Informe o Título do Formulário e se deverão ser exibidas abas;
 
-![Screenshot](images/Report-setup-fig06.png)
+2.	Se desejado, faça alterações nos códigos HTML e Javascript do formulário.
 
-Figura 6 - Cadastro/edição de configuração de relatório, aba Formulário  
 
 
 !!! tip "About"

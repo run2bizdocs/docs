@@ -1,88 +1,49 @@
 Title: Report setup  
-Description:The information is automatically populated from the report file. The name, description, and grouper folder on the server can be edited.  
+Description:Report setup is where you can configure execution settings, if needed, for the reports added to the system through the Report File option. 
+
 # Report setup  
 
-The information is automatically populated from the report file. The **name, description**, and grouper **folder** on the server can be edited.  
+**Report** **setup** is where you can configure execution settings, if needed, for the reports added to the system through the **Report File** option.
 
 ## How to access 
 
-Access the functionality through the menu Builder > Management > Report. 
+To access the Report setup configuration page, go to menu Builder > Management > Report.
 
-## Preconditions 
+## Prerequisites 
 
-The form must be previously registered in the Form.  
+The report to be set up must have been registered through the menu Builder > Resources > Report upload.
 
-## Filters 
+## Filling in the registration fields
 
-1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:  
+Choose an item from the list of reports and click the "Edit" button.
 
-     * Keyword or enter.  
+## Report
 
-![Screenshot](images/Report-setup-fig01.png) 
-
-Figure 1 - Report configuration search screen   
-
-## Items list 
-
-1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: **Application, Resource, Name, Description** and **Version.**  
-
-![Screenshot](images/Report-setup-fig02.png)
-
-Figure 2 - Report configuration lisitng screen  
-
-## Filling in the registration fields  
-
-### Report data
-
-1. This information is automatically populated from the report file. The **name, description**, and **project** folder on the server can be edited, however the engine and version fields can not be changed.  
-
-![Screenshot](images/Report-setup-fig03.png)
-
-Figure 3 - Register/edit report configuration, Report tab  
+1.	The values for Application, Name, Description and Folder are filled in based on the report registration data and can be changed on the Report screen.
 
 ## Data source
 
-1. Refers to the data source of the report. Enter the **type** of the data source, which can be:  
+1.	Configure the Data source from where the report will get its data. Enter the type of the data source, which can be:
+    •	None: if the report does not get data from a database;
+    •	Data connection if the information source is in a database. In this case, also enter the respective Database Connection (created in the menu Builder > Configuration > Database Connection);
+    •	Data object: if the information source is a database object configured in the Builder application;
+    •	ESI flow: if the source of information is an integration flow configured in the Builder application. In this case, also enter the name of the Flow (created in the menu Builder > Management> Integration Flow);
+    •	Script: if the data source is a script, enter the Rhino script code to be used.
 
-    - **None**: if the file does not search the database.  
-    - **Data connection**: if the information source is a database connection, also inform the respective database connection (register in the Database connection menu).  
-    - **Data object**: if the information source is a database object registered in the application. Enter the **data object** that will be the data source (registerable in the Business Object menu).  
-    - **ESI flow**: if the source of information is an ESI flow registered in the application. Enter the **flow** that will be the data source (registered in the Workflow/ESI Design menu).  
-    - **Script**: if the data source is a script, code the script using the Rhino language.  
+## Parameters
 
-![Screenshot](images/Report-setup-fig04.png)
-
-Figure 4 - Register/edit report configuration, Data source tab  
-
-## Parameters 
-
-1. This tab refers to the registration of fixed parameters for the report. You can enter an image as a parameter to define the report logo, for example.  
-
-- Click "Add" to add a new parameter.  
-- Enter the parameter **name, type**, and parameter **object**.  
-- Click "Save" to add the parameter to the list.  
-- To edit a parameter in the list, click "Edit".  
-- To remove a parameter from the list, click "Remove".  
-
-![Screenshot](images/Report-setup-fig05.png) 
-
-Figure 5 - Register/edit Report configuration, Parameters tab  
+1.	User this tab to register parameters necessary for the report execution 
+    •	Click on the "Add" button to add a new parameter;
+    •	Enter the parameter Name, Type  and  any type related data;
+    •	Click the "Save" button to add the parameter to the list;
+    •	To edit a parameter in the list, click on the "Edit" button;
+    •	To remove a parameter from the list, click on the "Remove" button.
 
 ## Form
 
-This tab represents the form to be displayed when the user generates the report.  
-
-1. Enter the **name** of the registered form, state whether tabs should be displayed, the **title** of the form, and the **menu** associated with to it.  
-2. In the selected form, by default, options will be added to generate the report in PDF, Excel and HTML.  
-3. To change the default, edit the source code displayed on the screen.  
-4. Click "Save" to run the changes. Click "Search" to return to the previous screen.  
-5. To edit a created item, select the desired item, click "Edit" (the current version or the previous version), make the changes, and click "Save".  
-6. To view an item, select the item and click "View".  
-7. To remove a created item, select the item you want, click "Remove", and confirm the deletion.  
-
-![Screenshot](images/Report-setup-fig06.png)
-
-Figure 6 - Register/edit report configuration, Form tab  
+In this tab if the form configuration for the report.
+1.	Fill in the Form Title and check whether tabs should be displayed;
+2.	Optionally adjust HTML e JavaScript codes used in the form.
 
 
 
