@@ -1,14 +1,14 @@
 Title: Set system URL  
 # Set system URL  
 
-This functionality is intended to configure the system URL.  
+This setting records the URL, or web address, from which users will access the system.
 
-## Procedure  
+It is used by several functionalities that need this reference to indicate internal links correctly.
 
-1. Access the functionality through the main menu Parameterization > 4biz parameter;  
-2. Search parameter id 33, set URL for your instance:
-    ``` sh
-    https://127.0.0.1:8080
-	```
+## Procedure
+1.	Access the configuration through the Navigation Menu > Parameterization > 4biz Parameters.
 
-3. Click on "Save".
+2.	Search for the parameter with ID 33 and then register the URL or web address. For example:
+https://www.example.com/4biz
+
+3.	Click on "Save".

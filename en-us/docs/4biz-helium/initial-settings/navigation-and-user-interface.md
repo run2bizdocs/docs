@@ -1,109 +1,70 @@
 Title: Navigation and user interface
 # Navigation and user interface
 
-The user interface is the easiest way for the user to interact with
-applications and information in a 4biz instance.
+The user interface is the primary way to interact with products, features and information in a 4biz instance. 
 
-![4biz homepage Scree](images/navigation-1.png)
 
-Figure 1 – 4biz homepage Screen
+1. Taskbar: in the upper area of the system, the taskbar contains navigation items and tools, such as:
 
--   **1 - Banner frame**: in the internal area of the system, the taskbar contains navigation items and tools. As the main menu, with all the 4biz functionalities, buttons with VoIP integration, the virtual assistant Helper and information about the user login, environment version and also their language change;
+    •	The main menu with all 4biz functionality;
+    •	Experience Center;
+    •	Notifications;
+    •	Chat;
+    •	The virtual assistant Helper;
+    •	The Quick Access menu;
+    •	Information about the user's profile.
 
--   **2 - Navigation in applications**: access to 4biz's 13 certified processes,
-    basic registration functionalities, creation and emission of reports, parameters,
-    access to 4biz Builder (application engine), in addition to functionalities 
-    of the platform management;
+2. Navigation menu: the left side menu gives access to:
 
--   **3 - User panel**: determines the layout of the user panel presentation (Smart
-    Decision) available on the 4biz home page. It allows to put
-    quick accesses such as links, reports and widgets.
+    •	All 4biz certified processes;
+    •	Basic registration features;
+    •	Creating and issuing reports;
+    •	System parameters;
+    •	Access to the 4biz Builder application engine;
+    •	Additional 4biz management features.
+
+3. Smart Decisions panel: Provides shortcuts to available features, processes, Smart Decisions reports and widgets.
 
 ## User Interface Tour
- 
 
-### Banner Frame
-
-![banner frame](images/navigation-2.png)
-
-Figure 2 - Banner frame
+### Taskbar
 
 The taskbar, located at the top, contains navigation items and tools:
 
--   **1**: main navigation menu, contains all the processes and functionalities of 4biz;
+1.	navigation menu, containing all 4biz processes and features.
+2.	shortcut to the main screen Home.
+3.	shortcut to the Experience Center.
+4.	system notifications to the user with the number of unread items.
+5.	chat available to service group agents.
+6.	access to the virtual assistant Helper.
+7.	quick access menu for the main system applications.
+8.	user profile menu. It is possible to change the user's data and the system language, manage the status in the chat, the support contacts for 4biz and information about the system version.
 
--   **2**: when browsing the system and want to return to the home screen, click on "Home";
+### Navigation menu
 
--   **3**: system notifications to the user, which is evidenced by the quantity existing;
-
--   **4**: VOIP call service;
-
--   **5**: attendance chat (visible to attendance group users);
-
--   **6**: shortcut to the main system applications;
-
--   **7**: user information, as well as providing system language change, manage
-    chat status, 4biz support media, and installed version environment
-    data.
-
-### Navigation in Applications
-
-![main menu](images/navigation-3.png)
-
-Figure 3 – Main menu screen
-
-Clicking on the main navigation menu, it'll present all the features that 
-4biz offers.
-
--   **1**: search bar of the functionality, accessible via menu;
-
--   **2**: access to settings for maintaining flows;
-
--   **3**: it has all 13 Certified Processes of the 4biz;
-
--   **4**: the integrated management has functionalities that help in the management
-    of the processes;
-
--   **5**: it presents basic registers to start 4biz, such as users, location, besides 
-    being able to register and edit menus within the system;
-
--   **6**: it has data to manage the Experience Center, which is portal customizable 
-    for the user;
-
--   **7**: provides several types of reports that the system can generate with the
-    data of the main functionalities, therefore, making possible the information
-    to be better analyzed, besides allowing the creation of customized reports;
-
--   **8**: configuration of access and permission in the system;
-
--   **9**: configuration of the application and system parameters;
-
--   **10**: functionalities to manage the CISTmar;
-
--   **11**: access to 4biz Builder (engine of applications).
+1.	the feature's search bar;
+2.	settings for workflows;
+3.	all processes supported on the 4biz Platform;
+4.	integrated management features that assist in the management of processes;
+5.	basic 4biz registrations, such as users and locations. You can also register and edit menus within the system;
+6.	management of the Experience Center. A customizable portal for users;
+7.	configuration of several types of reports that can be generated with data from the main functionalities;
+8.	configuration of access and permissions;
+9.	configuration of application and system parameters;
+10.	4biz Platform administration features;
+11.	access to the 4biz Builder application engine.
 
 ### User Panel (Smart Decision)
 
-![smart decision](images/navigation-4.png)
+The Smart Decision panel is displayed on the system's home page. It organizes a set of dashboards with quick access to links, reports and widgets.
 
-Figure 4 – Smart Decision Screen
+Widgets are components that can be included and used in different areas of 4biz. They are usually used to simplify actions or display information.
 
-Customization of the User Panel (Smart Decision) displayed on the system
-homepage, where you can place quick accesses such as links, reports and widgets.
+1.	vertical bar containing registered dashboards. The bar elements can be reordered to suit the user's needs;
+2.	components to edit a dashboard;
+3.	components for editing widgets on a dashboard;
+4.	example of a Link type widget. Links can be internal and external.
 
--   **1**: vertical bar containing the registered panels. Bar items can be shifted to fit the user's need;
-
--   **2**: items to edit a dashboard;
-
--   **3**: items to edit widgets in a dashboard;
-
--   **4**: example of widget of type "link", that can be internal or external.
-
-
-Related
-----------
-
-[Customize management panel(Smart Decision)](/en-us/4biz-helium/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html)
 
 
 
