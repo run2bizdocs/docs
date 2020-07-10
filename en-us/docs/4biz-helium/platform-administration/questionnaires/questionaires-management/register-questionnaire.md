@@ -1,35 +1,24 @@
 title: Register questionnaire
 Description: This feature provides a variety of actions, such as including, changing, and deleting questionnaires (forms) in a very generic, multi-purpose and easy to be used in other system routines 
+
 # Register questionnaire
 
-This feature provides a variety of actions, such as including, changing, and deleting questionnaires (forms) in a very generic, multi-purpose and easy to be used in other system routines.It's possible to import a completed questionnaire. To ensure greater productivity, the button "Copy from another questionnaire" allows the Manager to import Questionnaires built in both the previous form and the current form.
+This feature allows the Manager to add, change and delete questionnaires (forms) in a very generic, multi-purpose and easy way for them to be used in system routines inside 4biz. It will also allow them to import a previously saved questionnaire. The button "Copy from another questionnaire" allows the Manager to import Questionnaires.
 
-Before getting started
---------------------------
 
-It's necessary to previously register the questionnaire category.
+## Before getting started
 
-Procedure
--------------
+Registering the questionnaire category is a prerequisite.
 
-1.  Access the functionality through the main menu System \> Visions and
-    Metadata \> Questionnaire \> Register;
+## Procedure
 
-2.  Click on "New";
+1.	Access the functionality through the main menu System > Visions and Metadata > Questionnaire > Register;
+2.	Click on "New";
+3.	Complete the fields available;
+4.	Create the questions;
+5.	Click on "Save";
+6.	The button "Export" allows to locally save the questionnaire file which can later be copied/imported.
 
-3.  Complete the fields available;
-
-4.  Create the questions;
-
-5.  Click on "Save";
-
-6.  The button "Export" allows to save in a disk an electronic file with all
-    characteristics of the questionnaire selected.
-    
-Related
---------------------------
-
-[Register questionnaire category](/en-us/4biz-helium/platform-administration/questionnaires/questionaires-management/questionnaire-category.html)
 
 !!! tip "About"
 

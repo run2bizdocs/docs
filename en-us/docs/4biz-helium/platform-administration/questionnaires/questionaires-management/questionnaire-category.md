@@ -1,20 +1,18 @@
 title: Register questionnaire category
-Description: Provides a variety of actions, such as including, changing, and deleting questionnaire categories that will be used to filter and organize the register in the base.
+Description: This feature allows you to add, change and delete questionnaire categories. These categories can be used to filter and organize the registered questionnaires.
+
+
 # Register questionnaire category
 
-This feature provides a variety of actions, such as including, changing, and deleting questionnaire categories that will be used to filter and organize the register in the base.
+This feature allows you to add, change and delete questionnaire categories. These categories can be used to filter and organize the registered questionnaires.
 
-Procedure
--------------
+## Procedure
 
-1.  Access the functionality through the main menu System \> Visions and
-    Metadata \> Questionnaire \> Questionnaire Category;
+1.	Access the functionality through the main menu System > Visions and Metadata > Questionnaire > Questionnaire Category;
+2.	Click on "New";
+3.	Fill in the available fields;
+4.	Click on "Save".
 
-2.  Click on "New";
-
-3.  Complete the field available;
-
-4.  Click on "Save".
 
 !!! tip "About"
 

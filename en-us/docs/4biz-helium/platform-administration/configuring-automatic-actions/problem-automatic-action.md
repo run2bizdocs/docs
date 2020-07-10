@@ -1,26 +1,20 @@
 title: Register problem automatic action
 Description: This feature provides a variety of actions, such as including, changing, and deleting problem type automatic actions. 
+
 # Register problem automatic action
 
-Some events will present a situation where the appropriate action will need to be addressed by the problem management process, that is, this functionality is intended to register the problem type automatic actions. This registration will be associated with the automatic actions, where it will be used in the 4biz event manager registration of Nagios, Zabbix, Inventory and Correlated Events.
-This feature provides a variety of actions, such as including, changing, and deleting problem type automatic actions.
+Some events will present a situation where the appropriate action will need to be addressed by the problem management process. This functionality allows the Manager to register automatic actions for Problem Management. This registration is associated with the automatic actions, where it will be used in the 4biz event manager registration of Nagios, Zabbix, Inventory and Correlated Events. This feature provides a variety of actions, such as adding, changing, and deleting problem type automatic actions.
 
-Before getting started
---------------------------
+## Before getting started
 
-To register an automatic action of change, it's necessary to previously register
-the group, unit, requester (employee), contract being linked to the employee and
-unit, problem category being linked to the flow about the problem.
+To register an automatic action for Problem Management, it is necessary to previously register the group, unit, requester (employee), contract being linked to the employee and unit, problem category being linked to the Problem’s workflow.
 
-Procedure
--------------
+**Procedure**
 
-1.  Access the functionality through the main menu System \> Automatic Actions
-    \> Problem Actions;
+1.	Access the functionality through the main menu System > Automatic Actions > Problem Actions;
+2.	Fill in the available fields;
+3.	Click on "Save".
 
-2.  Complete the fields available;
-
-3.  Click on "Save".
 
 Related
 -----------

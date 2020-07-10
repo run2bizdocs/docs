@@ -1,26 +1,21 @@
 title: Create automatic action via email
 Description: Intended to program the automatic opening of a service request through email.
+
 # Create automatic action via email
 
-This functionality is intended to program the automatic opening of a service
-request through email.
-This feature provides a variety of actions, such as including, changing, and deleting an automatic action via email.
+This functionality is intended to program the automatic opening of a service request through email. It allows the Manager to add, change and delete automatic actions via email.
 
-Before getting started
---------------------------
+## Before getting started
 
-The automatic creation via email requires the previous registration of the
-automatic action of incident/request/procedure.
+The automatic creation via email requires the previous registration of the automatic action of incident/request/procedure.
 
-Procedure
--------------
+## Procedure
 
-1.  Access the functionality through the main menu System \> Settings \>
-    Automatic Action Setting Via Email;
 
-2.  Complete the fields available;
+1.	Access the functionality through the main menu System > Settings > Automatic Action Setting Via Email;
+2.	Fill in the available fields;
+3.	Click on "Save".
 
-3.  Click on "Save".
 
 Related
 -------

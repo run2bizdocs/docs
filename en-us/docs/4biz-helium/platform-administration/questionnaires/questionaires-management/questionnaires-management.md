@@ -2,13 +2,7 @@ Title: Questionnaires Management
 
 # Questionnaires Management
 
-Questionnaires are instruments that can be used to collect information. In 4biz Platform, they can be used to capture information at the beginning of an attendance (Ticket Management) and serve as resources for applying checklists in the processes of Change, Release and Problem.
-
-## Related
-
-[Register questionnaire][1]
-
-[1]:/en-us/4biz-helium/platform-administration/questionnaires/questionaires-management/register-questionnaire.html
+Questionnaires can be used to collect information from the users inside 4biz. Thanks to them you can capture information at the beginning and end of a request/incident (Ticket Management) and also use them as resources to set up checklists in the processes of Change, Release and Problem.
 
 
 !!! tip "About"
