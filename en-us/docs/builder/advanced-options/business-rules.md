@@ -1,105 +1,65 @@
-title: Business rules  
+    title: Business rules  
 Description: Business rules define how your business works, and can cover a variety of issues such as your policies, interests, objectives, ethical and social commitments, contractual obligations, strategic decisions, laws and regulations, among others  
 
 # Business rules
 
-Business rules define how your business works, and can cover a variety of issues such as your policies, interests, objectives, ethical and social commitments, contractual obligations, strategic decisions, laws and regulations, among others.  
-In Builder, business rules can be built through the Drools language, by drawing a flow, or through a Script.    
+As regras de negócio criadas são bloqueadas por padrão. Isso significa que a regra não poderá ser utilizada a menos que seja desbloqueada. Para desbloquear selecione a regra desejada e clique na opção Desbloquear.     
 
-##How to access 
+## How to access 
 
-1.	Access the functionality through navigation in the main menu Builder > Management > Business Rule.    
+1. To access the  Business Rule configuration page go to menu Builder > Management > Business Rule.    
 
-##Preconditions
+## Prerequisites
 
 1.	No applicable.  
 
-##Filters
+## Register a new business rule
 
-1.	The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:  
+1.	To register a new database, click on the "New” button;
 
-    +   Keyword or enter.  
+2.	Business Rules are built by designing flow or coding a Rhino script.
 
-![Screenshot](images/business-rule-filter.png) 
+## Create Flow type business rule
 
-Figure 1 - Business rules search screen  
+1.	On the Basic data tab, fill in the business rule Name and Description, inform the Builder Application to which it will be associated, and choose Flow Type.
 
-##Items list
+2.	On the Variables tab click on the "Add" button. The following screen will be displayed:
 
-The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Name, Description, Application, Version and Block date.  
+3.	Fill in the fields in the Variable section:
+    •	Variable name
+    •	Description
+    •	Store in the database: whether the variable should be stored internally, in the Builder data model.
+    •	Return variable: whether the variable should be included in the output JSON object returned at the end of the business rule flow's execution.
+    •	Values list: Whether the variable contains a values list
+    •	Mandatory entry variable in execution: this option must be selected if the execution of the flow depends on the existence of the variable before the execution starts.
+    •	Variable type
+    •	Variable Initial value, which can be a constant value, or a value returned by script execution.
 
-![Screenshot](images/business-rule-item.png)
+4.	Click on the “Include” button to finish creating the variable;
 
-Figure 2 - Business rules listing screen
+5.	On the Actions tab click on the "Add" button. The following screen will be displayed:
 
-##Filling in the registration fields 
+6.	Fill in the fields in the Action section;
 
-1. To edit a created item, select the item you want, click "Edit", make changes, and click "Save".  
-2. To create a new business rule, click the "New button";  
-3. To remove a created item, select the item you want, click  on the Edit → Remove and confirm the deletion.  
-4. The business rules you enter by default are created locked. This means that the rule will not be used unless you unlock it. To unlock    the rule, select the desired item, and click the "Unlock" option on the top menu. A Business Rule can be used in a form, within a          business object, in a business process or in a flow;  
-5. Further information regarding the use of a business rule can be found in the Developing Applicantions.  
+    1.	Identifier: it is how the action will be associated to the flow diagram.
+    2.	Name: this is the name by which the action will be referenced in the flow diagram.
+    3.	Rhino Script to be executed when the action is triggered.
 
+7.	Click on the “Include” button to finish creating the action;
 
-##Create business rules using Drools type
+8.	To edit the diagram, click on the corresponding tab. The following screen will be presented:
 
-1. Drools is a set of tools that allow us to separate and reason about the logic and data found within business processes. The two       important keywords we have to realize are Logic and Data. Go to https://www.drools.org/ for more information;  
-2. To create a business rule using Drools, you must first create the DSL and DSLR through the Builder > Configuration > Domain;  
-3. After these registrations have been made, access the menu Builder > Management > Business rule, Click on the New button. Fill in the   fields by entering the  Name, Description, Type (fill in with Drools), and the respective Application that has been registered (Builder   ® Management ®  Application), finally inform Drools DSLR that was registered in the previous step;  
-4. In addition, variables that complement business rules may be inserted.  
+## Create Script type business rule
 
-    ![Screenshot](images/business-rule-drools.png)
+1.	On the Basic data tab, fill in the business rule Name and Description, inform the Builder Application to which it will be associated, and choose Flow Script:
+
+2.	Code the Rhino script that implements the business rule and, if necessary, add variables as explained in the section Variables of type Flow;
+
+3.	When finishing editing the script, click on the “Save” button on the top bar.
+
+!!! info "ATTENTION"
     
-    Figure 3 - Drools business rule registration / editing screen - Basic data tab  
-
-5. In the Variables tab click Add and fill in the following fields as shown below:
-
-    ![Screenshot](images/business-rule-variables.png) 
-    
-    Figure 4 - Drools business rule registration / editing screen - Basic data tab (continued)  
-
-##Create business rules using Flow type
-
-1. To create a business rule using Flow, a diagram should be drawn using the components provided in the tool. To learn more about the components, visit the documentation for the components provided by Builder;  
-2. In the Basic Data tab, fill in all the fields (as shown in the figure below), when selecting the Flow Type, two new tabs will appear (Actions and Diagram);  
-
-    ![Screenshot](images/business-rule-flow.png)
-    
-    Figure 5 - Business rule registration / editing screen - Flow Type  
-
-3. In the Variables tab click "Add" and fill in the following fields as shown below:  
-
-    ![Screenshot](images/business-rule-flowType.png)
-    
-    Figure 6 - Business rule registration / editing screen - Flow Type (continued)  
-
-4. On the Actions tab click "Add" and fill in the following fields as shown below:  
-
-    ![Screenshot](images/business-rule-flowType2.png) 
-    
-    Figure 7 - Business rule registration / editing screen - Flow type (continued)  
-
-5.  On the Diagram tab, draw the flow and click "Save", as shown below:  
-
-    ![Screenshot](images/business-rule-flowType3.png)
-    
-    Figure 8 - Business rule registration / editing screen - Flow Type (continued)  
-
-##Create business rules using Script type  
-
-1. To create a business rule using Script, go to the New option, enter the Name, Description, Type (complete with Script), and the respective Application that has been registered:  
-
-    ![Screenshot](images/business-rule-script.png)
-    
-    Figure 9 - Business rule registration / editing screen - Script type  
-
-2. Code your business rule script in the Script field, and add variables in the variables tab, if necessary. Scripts are accepted in the Rhino language.  
-
-    ![Screenshot](images/business-rule-script2.png) 
-    
-    Figure 10 - Business rule registration / editing screen - Script type (continued)  
-
-3. Click "Save" to run the changes.  
+    New business rules are blocked by default. This means that the rule cannot be used unless it is unblocked. To unblock select the desired rule and click on the Unblock option
 
 
 !!! tip "About"

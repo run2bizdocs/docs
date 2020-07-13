@@ -3,102 +3,67 @@ Description: As regras de negócio definem como o seu negócio funciona, e podem
 
 # Regras de negócio  
 
-As regras de negócio definem como o seu negócio funciona, e podem abranger diversos assuntos como suas políticas, interesses, objetivos, compromissos éticos e sociais, obrigações contratuais, decisões estratégicas, leis e regulamentações entre outros.    
-No Builder, as regras de negócio podem ser construídas através do desenho de um fluxo, ou através de Script.      
+As Regras de Negócio do Builder servem para realizar validações que reflitam as regras de negócio das aplicações. Podem ser usadas para validação de formulários e/ou associadas a operações de inclusão, alteração e exclusão de objetos de negócio.      
 
-##Como acessar  
+## Como acessar  
 
-1.	Acesse a funcionalidade através da navegação no menu principal Builder > Gerenciamento > Regra de Negócio.      
+1.	1.	Acesse a funcionalidade através da navegação no menu principal Builder > Gerenciamento > Regra de Negócio.    
 
-##Pré-condições
+## Pré-requisitos
 
 1.	Não se aplica.    
 
-##Filtros
+## Cadastrar uma nova regra de negócio
 
-1.	O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
+1.	Para criar uma nova regra de negócio, clique no botão "Cadastrar";
 
-    *  Palavra chave ou enter    
+2.	As Regras de Negócio são construídas através de desenho de um fluxo ou script Rhino.
 
-![Screenshot](images/business-rule-filter.png)
+## Criar regras de negócio tipo Fluxo
 
-Figura 1 - Tela de pesquisa de regras de negócio    
+1.	Na aba Dados básicos, preencha o **Nome** e a **Descrição** da regra de negócio, a **Aplicação** a qual ela está associada e escolha o **Tipo** Fluxo;
 
-##Listagem de itens    
-Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Nome, Descrição, Aplicação, Versão e Data de bloqueio.    
+2.	Na aba Variáveis clique em "Adicionar". A seguinte tela será apresentada:
 
-![Screenshot](images/business-rule-item.png) 
+3.	Preencha os campos da seção Variável:
+  •	Nome da variável
+  •	Descrição
+  •	Armazena no banco de dados: se a variável deve ser armazenada internamente, no modelo de dados do Builder.
+  •	Variável de retorno: se a variável deve ser incluída no objeto JSON de saída retornado ao final da execução do fluxo da regra de negócio.
+  •	Lista de valores: Se a variável contém uma lista de valores.
+  •	Variável de entrada obrigatória na execução: essa opção deve ser selecionada caso a execução do fluxo da regra de negócio dependa da existência da variável antes do início da execução.
+  •	Tipo da variável
+  •	Valor inicial da variável, que pode ser uma constante ou um valor retornado pela execução de script.
 
-Figura 2 - Tela de listagem de regras de negócio  
+4.	Clique no botão “Incluir” para incluir a variável;
 
-##Preenchimento dos campos cadastrais
+5.	Na aba Ações clique em "Adicionar". A seguinte tela será apresentada:
 
-  1. Para editar um item criado, selecione o item desejado, clique em "Editar", faças as alterações, e clique em "Salvar";    
-  2. Para criar nova regra de negócio, clique no botão "Cadastrar";    
-  3. Para remover um item criado, selecione o item desejado, clique em "Editar" > "Remover" e confirme a exclusão;    
-  4. As regras de negócio inseridas, por padrão são criadas bloqueadas. Isso significa que a regra não será utilizada a menos que você a Desbloqueie. Para que o desbloqueio da regra ocorra, selecione o item desejado, e clique na opção Desbloquear, localizada no menu superior.; de negócio, em um processo de negócio ou em um fluxo;    
-  5. Mais informações sobre o uso de uma regra de negócio podem ser encontradas no Desenvolvendo aplicações.    
+6.	Preencha os campos da seção Ação:
 
+  •	Identificador: como a ação será associada ao diagrama do fluxo.
+  •	Nome:  nome pelo qual a ação será referenciada no diagrama do fluxo.
+  •	Script Rhino a ser executado quando a ação for acionada.
 
-##Criar regras de negócio usando tipo Drools
+7.	Clique no botão “Incluir” para incluir a ação;
 
-  1. O Drools é um conjunto de ferramentas que permite separar e raciocinar sobre a lógica e os dados encontrados nos processos de negócios. As duas palavras-chave importantes que tem que executar são lógica e dados. Vá para https://www.drools.org/ para mais informações.    
-  2. Para criar uma regra de negócios usando o Drools, deve-se primeiro criar o DSL e DSLR através do menu Builder > Configuração > Domínio;    
-  3. Após o cadastro de domínio, acesse a o menu Builder > Gerenciamento > Regra de Negócio, clique em "Cadastrar".  Preencha os campos inserindo o Nome, Descrição, Tipo (preencha com Drools), e a respectiva Aplicação que foi cadastrada (Builder > Gerenciamento > Aplicação), informe finalmente ao Drools DSLR que foi registrado na etapa anterior;    
-  4. Além disso, as variáveis que complementam as regras de negócios podem ser inseridas.    
+8.	Para editar o diagrama clique na aba correspondente. A seguinte tela será apresentada:
 
-   ![Screenshot](images/business-rule-drools.png)
-   
-   Figura 3 - Tela de cadastro/edição de regras de negócio do tipo Drools - aba Dados básicos    
+9.	Os elementos que podem ser adicionados ao fluxo, se encontram na paleta no canto esquerdo da tela. Para incluir um elemento no fluxo, selecione-o e arraste-o para a página de desenho. Uma janela pop-up com as propriedades do elemento será exibido na tela. Preencha as informações de acordo com o elemento escolhido;
 
-  5. Na aba Variáveis clique em "Adicionar" e preencha os seguintes campos conforme figura abaixo:  
+10.	Ao término da edição do diagrama, clique no botão “Salvar” na barra superior.
 
-![Screenshot](images/business-rule-variables.png)
+## Criar regras de negócio tipo Script
 
-Figura 4 - Tela de cadastro/edição de regras de negócio do tipo Drools - aba Dados básicos (continuação)  
+1.	Na aba Dados básicos, preencha o **Nome** e a **Descrição** da regra de negócio, a **Aplicação** a qual ela está associada e escolha o **Tipo** Script:
 
-##Criar regras de negócio usando tipo Fluxo
+2.	Codifique o script Rhino que implementa a regra de negócio e, se necessário, adicione variáveis conforme explicado na seção Variáveis do tipo Fluxo. 
 
-  1. Para criar uma regra de negócio utilizando tipo Fluxo, um diagrama deverá ser desenhado utilizando os componentes previstos na ferramenta. Para conhecer mais sobre os componentes, acesse a documentação dos componentes comportados pelo Builder;    
-  2. Na aba Dados básicos, preencha todos os campos (conforme mostrado na figura abaixo), ao selecionar o Tipo Fluxo, duas novas abas aparecerão (Ações e Diagrama);  
+3.	Ao término da edição do script, clique no botão “Salvar” na barra superior.
 
-   ![Screenshot](images/business-rule-flow.png)  
-    
-   Figura 5 - Tela de cadastro/edição de regra de negócio - Tipo Fluxo  
+!!! info "Atenção"
 
-  3. Na aba Variáveis clique em "Adicionar" e preencha os seguintes campos conforme figura abaixo:    
-
-   ![Screenshot](images/business-rule-flowType.png)
-   
-   Figura 6 - Tela de cadastro/edição de regra de negócio - Tipo Fluxo (continuação)   
-
-  4. Na aba Ações clique em "Adicionar" e preencha os seguintes campos conforme figura abaixo:    
-
-   ![Screenshot](images/business-rule-flowType2.png)
-    
-   Figura 7 - Tela de cadastro/edição de regra de negócio - Tipo Fluxo (continuação)    
-
-  5. Na aba Diagrama desenhe o fluxo e clique em Salvar, conforme figura abaixo:  
-
-![Screenshot](images/business-rule-flowType3.png)
-
-Figura 8 - Tela de cadastro/edição de regra de negócio - Tipo Fluxo (continuação)  
-
-##Criar regras de negócio usando tipo Script    
-
-  1. Para criar uma regra de negócio utilizando Script, acesse a opção Cadastrar, informe o Nome, Descrição, Tipo (preencha com Script), e a Aplicação respectiva que foi cadastrada:    
-
-   ![Screenshot](images/business-rule-script.png)
-    
-   Figura 9 - Tela de cadastro/edição de regra de negócio - Tipo Script    
-
-  2. Codifique o script de regra de negócio no campo Script, e adicione variáveis na aba de variáveis, caso necessário. São aceitos scripts na linguagem de programação Rhino:  
-
-   ![Screenshot](images/business-rule-script2.png)
-    
-   Figura 10 - Tela de cadastro/edição de regra de negócio - Tipo Script (continuação)    
-
-  3. Clique em Salvar para executar as alterações.    
+  As regras de negócio criadas são bloqueadas por padrão. Isso significa que a regra não poderá ser utilizada a menos que seja desbloqueada. Para desbloquear selecione a regra desejada e clique na opção Desbloquear. 
 
 !!! tip "About"
     <b>Updated:</b>11/03/2020
