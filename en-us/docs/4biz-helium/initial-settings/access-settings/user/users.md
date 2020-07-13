@@ -2,44 +2,60 @@ title: Registering user
 Description: This feature provides a variety of actions, such as including, changing, and deleting an user. 
 # Registering user
 
-In order for the employee to access the system, it's necessary to create a user. By registering it, it's possible that user's data (login and password) are sent to the email of employee. To do this, set parameter 455 indicating the email template (ID) created for this purpose. The email template should contain the keys ${LOGIN} and $ {NEWPASSWORD}.
+Some employees may need to access the system, in which case it is necessary to create a user account. This account will allow the employee access through a login, a password and an access profile that consolidates their rights and permissions in the system.
 
-This feature provides a variety of actions, such as including, changing, and deleting an user.
+Note that the employee needs to be registered previously, which makes this procedure simplified.
 
-!!! warning "ATTENTION"
+The maintenance of the user's account involves the inclusion, alteration and exclusion. In particular, the system administrator can change an employee's login and password.
 
-    The sending of login and password, when registering the new user, doesn't include users 
-    imported via AD or LDAP.
 
-## Before getting started
+## Before you start
 
-To register an user, it's necessary to:
+To register an user, it is necessary to:
 
-- [X] Register the Employee;
+- [X] Register the employee in advance;
 
-- [X] Have at least an Access Profile;
+- [X] Have at least one Access Profile registered in the system.
 
-To send the Login and Password to the Employee's email:
+When creating or changing a user's data, the system checks whether sending an email with access data is set. The following parameters must be configured to activate this functionality:
 
-- [X] Configuring parameter 33 and correctly indicating the instance's URL;
+- [X] Configure the parameter 33 and correctly indicating the URL to access the 4biz platform;
 
-- [X] Configuring parameter 455 with the email template ID created to send the access data;
+- [X] Configure the parameter 455 with the email template ID created to send the access data. The chosen model must contain the keys $ {LOGIN} and $ {NEWPASSWORD}.
 
 !!! note "EXAMPLE"
 
-    Basic template: "Dear user, here's the access data. Username: ${LOGIN} and Password: ${NEWPASSWORD}"
+    Email template: "Dear user, here's the access data. User: $ {LOGIN} and Password: $ {NEWPASSWORD}"
+
+!!! warning "ATTENTION"
+
+    It is not possible to send login and password information when registering a new user imported from Microsoft Active Directory® or LDAP.
+
 
 ## Procedure
 
-1.  Access the main menu General Registration \> Personnel Management \> User;
+1. Access the functionality through the Navigation Menu> General Registration> Personnel Management> User;
 
-2.  Complete the fields available;
+2. Indicate the employee through the search box presented by clicking on the “Employee” text box;
 
-3.  Click on "Save".
+3. Fill in login and password, repeating the password in the password confirmation box;
+
+4. Select an Access Profile for the user;
+
+5. If necessary, add corresponding User Groups;
+
+6. Click on "Save".
+
 
 !!! info "INFORMATION"
 
-    The system checks if there is an email template for the new employee that has the password key to send via email. The system manager registers or changes an employee login and password on the user screen. The system checks whether: the system uses the password policy and whether the user is LDAP or not. The system allows to enter a new password. After saving, the system sends by email the new data to the employee.
+    To complete an operation to create, change or delete a user record, the system checks whether a password policy is in place and whether the user has been imported from an LDAP directory.
+
+    In this way, the completion of the operation can be prevented. Because it is not possible to change the password for a user imported from an LDAP directory. Likewise, the password must follow the defined complexity policy.
+
+
+Active Directory is a registered trademark of Microsoft Corporation.
+
 
 
 Related

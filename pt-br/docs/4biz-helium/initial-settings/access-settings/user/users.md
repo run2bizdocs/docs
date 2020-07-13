@@ -1,44 +1,60 @@
 title: Cadastrar usuário
 Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir um usuário.
 
-# Cadastrar usuário
+# Cadastro de usuário
 
-Para que o colaborador possa acessar o sistema é necessário criar um usuário. Ao registrá-lo é possível que os dados do usuário (login e senha) sejam enviados para o e-mail do colaborador. Para isso, configure o parâmetro 455 indicando o template de e-mail (ID) criado para esta finalidade. No template de e-mail devem constar as chaves ${LOGIN} e ${NOVASENHA}.
+Alguns colaboradores podem precisar acessar o sistema e nesse caso é necessário criar uma conta de usuário. Esta conta permitirá o acesso do colaborador através de um login, uma senha e um perfil de acesso que consolida os seus direitos e permissões no sistema.
 
-Esta funcionalidade disponibiliza ações diversas, tais como, incluir, alterar e
-excluir um usuário.
+Note que o colaborador precisa estar cadastrado anteriormente, o que torna este procedimento simplificado.
 
-!!! warning "ATENÇÃO"
-    O envio de login e senha ao cadastrar novo usuário não engloba usuários importados via AD ou LDAP.
+A manutenção do cadastro do usuário envolve a inclusão, alteração e exclusão. Em particular, o administrador do sistema pode alterar o login e a senha de um colaborador.
+
 
 ## Antes de começar
 
 Para cadastrar um usuário é necessário:
 
-- [X] Registrar o Colaborador;
+- [X] Registrar previamente o colaborador;
 
-- [X] Possuir no mínimo um Perfil de Acesso;
+- [X] Relacionar um Perfil de Acesso;
 
-Para enviar o Login e a Senha do usuário para o e-mail do Colaborador:
+Na criação ou alteração dos dados de um usuário, o sistema verifica se envio de e-mail com os dados de acesso está configurado. Os seguintes parâmetros precisam estar configurados para ativar essa funcionalidade:
 
-- [X] Configurar o parâmetro 33 e indicar corretamente a URL da instância;
+- [X] Configurar o parâmetro 33 e indicar corretamente a URL de acesso a plataforma 4biz;
 
-- [X] Configurar o parâmetro 455 com o ID do modelo de e-mail criado para enviar os dados de acesso;
+- [X] Configurar o parâmetro 455 com o ID do modelo de e-mail criado para enviar os dados de acesso. O modelo escolhido precisa conter as chaves ${LOGIN} e ${NOVASENHA}.
 
 !!! note "EXEMPLO"
-    Modelo básico: "Prezado usuário, seguem dados de acesso. Usuário: ${LOGIN} e Senha: ${NOVASENHA}"
+
+    Modelo de e-mail: "Prezado usuário, seguem os dados de acesso. Usuário: ${LOGIN} e Senha: ${NOVASENHA}"
+
+!!! warning "ATENÇÃO"
+
+    Não é possível enviar o login e a senha ao cadastrar usuários importados do Microsoft Active Directory® ou LDAP.
+
 
 ## Procedimento
 
-1.  Acessar a funcionalidade através da navegação no menu principal Cadastros
-    Gerais \> Gerência de Pessoal \> Usuário;
+1.	Acessar a funcionalidade através do Menu de Navegação > Cadastros Gerais > Gerência de Pessoal > Usuário;
 
-2.  Preencher os campos disponibilizados;
+2.	Indicar o colaborador através da caixa de pesquisa apresentada ao clicar na caixa de texto “Colaborador”;
 
-3.  Clicar em "Gravar".
+3.	Preencher login e senha, repetindo a senha na caixa de confirmação de senha;
+
+4.	Selecionar o Perfil de Acesso para o usuário;
+
+5.	Se necessário, adicionar Grupos de Usuário correspondentes;
+
+6.	Clicar em "Gravar".
+
 
 !!! info "INFORMAÇÃO"
-    O sistema verifica se existe um template de e-mail para novo colaborador que possua a chave de senha para envio via e-mail. O administrador do sistema cadastra ou altera um login e senha de um colaborador na tela de usuário. O sistema verifica se: o sistema utiliza a política de senha e o se usuário é LDAP ou não. O sistema permite a entrada de uma nova senha. Ao gravar o sistema envia por e-mail os novos dados ao colaborador.
+   Para concluir uma operação de criação, alteração ou exclusão de um cadastro de usuário, o sistema verifica se há uma política de senha implementada e o se usuário foi importado de um diretório LDAP.
+    Desta forma, a conclusão da operação pode ser impedida. Pois não é possível alterar a senha um usuário importado de um diretório LDAP. Assim como, a senha deve seguir a política de complexidade definida.
+
+
+Active Directory é uma marca registrada da Microsoft Corporation.
+
 
 ## Relacionado
 

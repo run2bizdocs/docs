@@ -1,32 +1,31 @@
 title: Editar Informação da Conta
 Description: Tem por objetivo editar informações sobre o perfil do usuário.
-# Editar Informação da Conta
 
-Esta funcionalidade tem por objetivo permitir editar as informações da conta de usuário.
+# Editar Perfil
+
+Usuários podem alterar seus dados de contato, unidade de trabalho e sua foto utilizando a edição de perfil.
 
 !!! Abstract "ATENÇÃO"
 
-    Os dados alterados nesta tela serão modificados também na tela de cadastro
-    do colaborador.
-
-    Esta configuração de edição não está disponível para usuários LDAP.
+    Os dados apresentados nesta tela são os mesmos registrados no cadastro do colaborador. Assim, as alterações salvas serão refletidas no cadastro.
+    A edição de dados de perfil não está disponível para usuários LDAP.
 
 
-Antes de começar
---------------------
 
-Para editar o perfil é necessário estar autenticado.
+## Antes de começar
 
-Procedimento
-----------------
+O usuário precisar estar autenticado para editar o seu perfil.
 
-1. Na barra de navegação, clicar no ícone de usuário;
+**Procedimento**
 
-2. Clicar em "Editar perfil";
+1.	Na barra de tarefas, clicar no ícone de usuário;
 
-3. Atualizar as informações;
+2.	Clicar em "Editar perfil";
 
-4. Clicar em "Salvar".
+3.	Atualizar as informações;
+
+4.	Clicar em "Salvar".
+
 
 
 Relacionado

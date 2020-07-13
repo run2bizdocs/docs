@@ -1,31 +1,31 @@
 title: Edit Account Information
 Description: It is intended to edit the information about the user profile.
-# Edit Account Information
 
-This functionality is intended to edit the information about the user account.
+# Edit profile
+
+Users can change their contact details, work unit and photo using profile editing.
 
 !!! warning "ATTENTION"
 
-    The changed data in this screen will also be modified in the employee registration screen.
-    
-    This edit setting is not available for LDAP users.
+    The data presented on this screen are the same as those registered in the employee's registration. Therefore, any saved change will be reflected in the user's registration.
+    Editing profile data is not available for LDAP users.
 
 
-Before getting started
---------------------------
 
-To edit the profile you must be authenticated.
+## Before you start
 
-Procedure
--------------
+The user must be authenticated to edit the profile.
 
-1. In navigation bar, click on user profile icon;
+**Procedure**
 
-2. Click on Edit Profile;
+1. On the taskbar, click on the user icon;
 
-3. Update info;
+2. Click on "Edit profile";
+
+3. Update the information;
 
 4. Click on "Save".
+
 
 Related
 -------

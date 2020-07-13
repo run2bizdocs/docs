@@ -1,44 +1,30 @@
 title: Cadastrar um colaborador
 Description: Permite cadastrar cada pessoa que possui algum tipo de vínculo com a organização, tais como: um funcionário, um parceiro, etc.
+
 # Cadastrar um colaborador
 
-Esta funcionalidade permite cadastrar cada pessoa que possui algum tipo de
-vínculo com a organização, tais como: um funcionário, um parceiro, etc.
+As ações no 4biz sempre envolvem a participação de uma ou mais pessoas. É preciso que o seu cadastro de colaborador seja previamente feito, para que elas interajam com a plataforma e entre si.
 
-Esta funcionalidade disponibiliza ações diversas, tais como, incluir, alterar e
-excluir um colaborador.
+Assim, antes de ter um ticket registrado, um atendimento concluído ou um acesso liberado, todos devem ter seus dados registrados no 4biz. Dados e cadastros podem ser incluídos, alterados ou excluídos, refletindo a situação da pessoa perante a organização.
 
-Antes de começar
---------------------
+Importante destacar que todo usuário precisa primeiro ser registrado como um colaborador.
 
-- [X] Para registrar um colaborador é necessário cadastrar anteriormente uma unidade e um cargo.
 
-Procedimento
----------
+## Antes de começar
 
-1.  Acesse a funcionalidade através do menu principal Cadastros Gerais \>
-    Gerência de Pessoal \> Colaborador;
-    
-2. Clique na aba desejada (Cadastro/Pesquisa), e nas ações;
+- [X] Para registrar um colaborador é obrigatório relacionar uma unidade e um cargo. Caso precise, é possível cadastrar unidades e cargos a partir do próprio formulário de cadastro de colaborador. 
 
-|Função|Descrição|
-|-|-|
-|Gravar|Salvar o novo SLA|
-|Excluir|Deletar o SLA editado|
-|Limpar|Limpar todos os campos do formulário|
+**Procedimento**
 
-## Pesquisar
+1.	Acessar a funcionalidade através do Menu de Navegação > Cadastros Gerais > Gerência de Pessoal > Colaborador;
+2.	Clicar na aba de Cadastro para incluir um novo colaborador ou na aba de Pesquisa para buscar um colaborador já registrado. É possível pesquisar por nome, CPF ou pela situação do colaborador, ou seja, se está ativo ou inativo.
+3.	Preencher os campos do formulário com os dados apropriados, ou alterar os dados previamente registrados.
+4.	Então clicar em “Gravar” para salvar os dados e concluir.
 
-**Selecione o colaborador para pesquisar:**
+Também pode-se usar o botão “Excluir” para remover o cadastro de um colaborador. Ou o botão “Limpar” para limpar todos os valores preenchidos no formulário.
 
-|Filtro|Descrição|
-|-|-|
-|Nome|Nome do colaborador para pesquisa|
-|CPF|CPF do colaborador|
-|Situação|Selecione entre: "Ativo" e "Inativo" para pesquisar|
-|Grid|Opções de pesquisar e limpar|
+As tabelas a seguir descrevem os campos do formulário.
 
-3.  Preencha os campos necessários;
 
 ### Informação de usuário
 
@@ -53,7 +39,7 @@ Procedimento
 |Unidade (\*)|Definir a unidade do colaborador|
 |Cargos (\*)|Definir o cargo do colaborador|
 
-(*) Indicar campo obrigatório
+(*) Campo obrigatório
 
 ### Informações de Pagamento
 
@@ -93,7 +79,6 @@ Procedimento
 |Nome da mãe|Definir o nome da mãe do colaborador|
 |Observação|Colocar uma observação sobre o funcionário, se houver alguma informação necessária|
 
-3.  Clicar em "Gravar".
 
 
 Relacionado

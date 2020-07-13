@@ -1,24 +1,26 @@
 title: Define smart decision access permission
 Description: Is intended to allow the Smart Decision access permission to set who will have access to the widgets to insert in the dashboard.
+
 # Define smart decision access permission
 
-This functionality is intended to allow the Smart Decision access permission to
-set who will have access to the widgets to insert in the dashboard, which will
-be presented in the system main screen.
+Widgets are components that can be included and used in different areas of 4biz. They are usually used to simplify actions or present information.
 
-Procedure
--------------
+As the information presented by a Widget can be sensitive or exclusive to certain user groups, permission to be included in Smart Decisions panels can be assigned or denied to the user groups individually.
 
-1.  Access the functionality through the main menu Access and Permission \>
-    SmartDecisions;
+By default, only user groups explicitly indicated will be allowed to use a specific Widget. Thus, when linking a user group, access will be allowed.
 
-2.  Select the item you want to set the permission and click on "Edit";
+**Procedure**
 
-3.  Click on "Link group";
+1.	Access the configuration through the Navigation Menu> Access and Permission> Smart Decisions;
 
-4.  Search and select the group you want and click on "Send" to link it;
+2.	Select the Widget you want to set the permission for and click "Edit";
 
-5.  Click on "Save".
+3.	Click on the "Link group" button;
+
+4.	Search and select the desired group and click on "Send" to link;
+
+5.	Click "Save" to conclude.
+
 
 
 !!! tip "About"

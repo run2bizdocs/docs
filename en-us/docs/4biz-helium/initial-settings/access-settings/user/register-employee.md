@@ -1,47 +1,34 @@
 title: Register employee
 Description: Allows to register each person that has any type of link with the organization, such as: an employee, partner, and others.
-# Register employee
 
-This functionality allows to register each person that has any type of link with
-the organization, such as: an employee, partner, and others.
 
-This feature provides a variety of actions, such as including, changing, and
-deleting an employee.
+# Employee registration
 
-Before getting started
-----------------------
+Actions at 4biz always involve the participation of one or more individuals. Their employee registration must be previously done for them to interact with the platform and with each other.
 
-- [X] To register an employee, it's necessary to previously register an unit and a
-work position.
+So, before having a ticket registered, a service completed or access granted, everyone must have their data registered in 4biz. Data and registrations can be included, changed or deleted, reflecting the person's situation before the organization.
 
-Procedure
----------
+Note that every user must first be registered as an employee.
 
-1.  Access the functionality through the main menu General Registration \>
-    Personnel Management \> Employee;
-    
-2. Click on the desired Tab (Search / Register) and action;
 
-|Function|Description|
-|-|-|
-|Save|Save the new SLA|
-|Delete|Delete the SLA Edited|
-|Clear|Clear all Form Fields|
+## Before getting started
 
-## Search
+- [X] To register an employee, it is mandatory to designate a unit and a position. If necessary, it is possible to register units and positions from the employee registration form itself.
 
-**Select the employee to search for:**
+**Procedure**
 
-|Filter|Description|
-|-|-|
-|Employee Title|Title to search|
-|Taxpayers' Registry number| Company number os employee search|
-|Situation|Select between: "Active" and "Inactive" to search|
-|Grid|SLA searched with the criteria with A selection radio button, SLA Title|
+1. Access the functionality through the Navigation Menu> General Records> Personnel Management> Employee;
 
-3.  Complete all mandatory fields;
+2. Click on the Employee Registration tab to add a new employee or on the Search Employee tab to search for an already registered one. It is possible to search by the name, the taxpayers' registry number or by the employee's register situation, that is, whether it is active or inactive.
 
-### User information
+3. Fill in the form fields with proper data or change the previously registered data.
+
+4. Then click on “Save” to save the data and finish.
+You can also use the “Delete” button to exclude the employee's register. Additionally, use the “Clear” button to clear all values filled in the form.
+The following tables describe the fields on the form.
+
+
+### Employee information
 
 |Fields|Description|
 |-|-|
@@ -54,7 +41,7 @@ Procedure
 |Unit (\*)|Set the unit of employee|
 |Position (\*)|Set the position of employee|
 
-(*) Indicate mandatory field
+(*) Mandatory field
 
 ### Payment Information
 
@@ -94,7 +81,7 @@ Procedure
 |Mother's Name|Set the employee mother´s name|
 |Note|Put a note about the employee, if you have any necessary information|
 
-3.  Click on "Save".
+
 Related
 -------
 
