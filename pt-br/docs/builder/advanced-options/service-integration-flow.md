@@ -4,150 +4,73 @@ Description:Os fluxos de integração de serviços, como o próprio nome diz, en
 
 # Fluxo de integração de serviços 
 
-Os fluxos de integração de serviços, como o próprio nome diz, envolvem workflows executados com base em serviços de sistema, como integrações e conversões, por exemplo.   
+Os fluxos de integração de serviços permitem integrar aplicações Builder a sistemas externos, sejam eles do ambiente 4Biz ou de terceiros. É uma ótima alternativa para integração com sistemas legados.  
 
 ## Como acessar    
 
-1. Acesse a funcionalidade através do menu Builder > Gerenciamento > Fluxo de Integração.     
+1.	Acesse a funcionalidade através do menu Builder > Gerenciamento > Fluxo de Integração ou menu Tracker > Fluxo de Integração;    
 
-## Pré-condições    
+## Pré-requisitos    
 
 1. Não se aplica.   
 
-## Filtros  
+## Cadastro de um novo fluxo de integração
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:   
+Para cadastrar um novo fluxo de integração, clique no botão "Cadastrar.
 
-    * Palavra chave  
+## Dados do fluxo
 
-![Screenshot](images/Service-Integration-Flow-fig01.png)
+1.	Na guia Dados de fluxo preencha Nome e Descrição do fluxo de integração e informe a Aplicação Builder a qual ele será associado. Marque a caixa de seleção Exibe como componente se o fluxo de integração deve ser disponibilizado com componente para os fluxos 4Biz Tracker.
 
-Figura 1 - Tela de pesquisa    
+## Variáveis
 
-## Listagem de itens    
+Nesta aba são configuradas as variáveis que serão utilizadas no fluxo de integração. Variáveis são objetos capazes de reter e representar um valor ou expressão durante o tempo de execução do fluxo.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Nome, Descrição, Aplicação do fluxo, Versão e Data de bloqueio.   
+1.	Para adicionar uma variável clique no botão "Adicionar". A seguinte tela será apresentada:
 
-![Screenshot](images/Service-Integration-Flow-fig02.png)
+2.	Preencha os campos:
+    •	Nome da variável
+    •	Descrição
+    •	Armazena no banco de dados: se a variável deve ser armazenada internamente, no modelo de dados do Builder.
+    •	Variável de retorno: se a variável deve ser incluída no objeto JSON de saída retornado ao final da execução do fluxo.
+    •	Lista de valores: Se a variável contém uma lista de valores.
+    •	Variável de entrada obrigatória na execução: essa opção deve ser selecionada caso a execução do fluxo dependa da existência da variável antes do início da execução.
+    •	Tipo da variável
+    •	Valor inicial da variável, que pode ser uma constante ou um valor retornado pela execução de script.
 
-Figura 2 - Tela de listagem     
+3.	Clique no botão “Incluir” para incluir a variável.
 
-## Preenchimento dos campos cadastrais - dados do fluxo   
-
-Através dessa aba, são definidas informações básicas do fluxo que será desenhado.   
-
-1. Para adicionar um novo fluxo, clique em Cadastrar > Fluxo de serviços de integração, conforme ilustrado na figura abaixo:   
-
-    ![Screenshot](images/Service-Integration-Flow-fig03.png)   
-    Figura 3 - Tela de registro   
-
-2. Para cadastrar um novo dados do fluxo, clique em "Adicionar".   
-3. Será apresentada a seguinte tela:    
-
-    ![Screenshot](images/Service-Integration-Flow-fig04.png)
+!!! Abstract "Atenção"
     
-    Figura 4 - Tela de cadastro/edição do workflow, aba de Dados do fluxo    
+    Para salvar as alterações definitivamente é necessário clicar no botão “Salvar” na barra superior.
 
-4. Informe um nome para o fluxo, uma descrição, qual formulário dará início ao fluxo (caso se aplique), e se persiste ou não a execução do fluxo. Caso o campo “Persiste a execução do fluxo” for marcado, o Builder persistirá no banco de dados de toda instância da execução deste fluxo.    
+## Ações
 
-5. O campo versão é incrementado automaticamente pelo sistema sempre que uma nova versão do workflow for criada.    
+Ações são rotinas escritas em Rhino que implementam as regras e lógicas de negócio no fluxo de integração. 
 
-## Variáveis  
+1.	Para adicionar uma variável clique no botão "Adicionar". A seguinte tela será apresentada:
 
-Nesta aba são configuradas as variáveis que serão utilizadas no fluxo desenhado. As variáveis são objetos capazes de reter e representar um valor ou expressão. As variáveis são associadas a "nomes", chamados identificadores, durante o tempo de execução do fluxo.  
+2.	Preencha os campos:
+    •	Identificador: como a ação será associada ao diagrama do fluxo.
+    •	Nome:  nome pelo qual a ação será referenciada no diagrama do fluxo.
+    •	Script Rhino a ser executado quando a ação for acionada.
 
-1. Para adicionar uma variável, selecione a sua aba referente e clique em "Adicionar".  
-2. Será apresentada a seguinte tela:    
+3.	Clique no botão “Incluir” para incluir a ação.
 
-    ![Screenshot](images/Service-Integration-Flow-fig05.png)
-    
-    Figura 5 - Tela de cadastro/edição do workflow, aba de Variáveis     
+!!! Abstract "Atenção"
 
-3. Preencha os campos:
+    Para salvar as alterações definitivamente é necessário clicar no botão “Salvar” na barra superior.
 
-    * Nome da variável;  
-    * Descrição;  
-    * Se será armazenada no banco de dados;  
+## Diagrama
 
-	  * Esta opção irá armazenar o valor da variável internamente, dentro do modelo de dados do Builder, assim ela irá reter o valor               durante a execução das tarefas.  
+O diagrama é a modelagem do processo de integração sendo implementado pelo fluxo de integração.
 
-    * Se é uma variável de retorno;  
+1.	Para editar o diagrama clique no clique na aba correspondente. A seguinte tela será apresentada:
 
-	  * Esta opção irá fazer que o Builder retorne a variável no final da execução do fluxo.  
+2.	Os elementos que podem ser adicionados ao fluxo, se encontram na paleta no canto esquerdo da tela. Para incluir um elemento no fluxo, selecione-o e arraste-o para a página de desenho. Uma janela pop-up com as propriedades do elemento será exibido na tela. Preencha as informações de acordo com o elemento escolhido;
 
-    * Se é uma lista de valores;  
-    * Se é uma variável de entrada na interface do fluxo;  
+3.	Ao término da edição do diagrama, clique no botão “Salvar” na barra superior.
 
-	  * Esta opção permite que a variável seja “injetada” no processo de negócio vinculado a este fluxo.  
-
-    * Se é uma variável de saída na interface do fluxo;  
-
-	  * Esta opção faz que a variável tenha o valor preenchida quando o processo de negócio vinculado à estre fluxo for executado.  
-
-    * O tipo da variável;  
-
-	  * Se for um objeto Java, informe a classe Java correspondente;  
-	  * Se for um objeto de negócio, informe qual sua aplicação respectiva e qual o nome cadastrado do objeto de negócio.  
-
-    * O valor inicial da variável, se constante ou script.  
-
-	  * Se o valor for uma constante, este nunca será alterado durante a execução do fluxo, independente das operações realizadas             pelo usuário.  
-
-4. Para editar uma variável, selecione a variável desejada, clique em "Editar", faça as alterações necessárias e clique em "Atualizar" para concluir a edição.  
-
-5. Para remover uma variável do fluxo, selecione a variável desejada, clique em "Remover" e confirme a exclusão.    
-
-!!! Abstract "ATENÇÃO"  
-
-    Para salvar efetivamente as alterações, clique em Salvar na barra superior.  
-
-## Ações  
-
-Por meio deste menu, é possível cadastrar as ações que serão executadas no workflow.   
-
-As ações são baseadas em scripts programados na linguagem Rhino.   
-
-1. Para adicionar uma ação, selecione sua aba referente e clique em "Adicionar".   
-2. Será apresentada a seguinte tela:  
-
-    ![Screenshot](images/Service-Integration-Flow-fig06.png) 
-    
-    Figura 6 - Tela de cadastro/edição do workflow, aba de Ações   
-
-3. Preencha os campos:   
-
-    - Um identificador para a ação;    
-    - O nome literal para a mesma;   
-    - O script que será executado quando a ação for acionada.    
-
-4. Para editar uma ação, selecione a ação desejada, clique em "Editar", faça as alterações necessárias e clique em "Atualizar" para concluir a edição.  
-
-5. Para remover uma ação, selecione a mesma, clique em "Remover" e confirme a exclusão.   
-
-!!! Abstract "ATENÇÃO"  
-
-    Para salvar efetivamente as alterações, clique em "Salvar" na barra superior.  
-
-## Diagrama  
-
-O diagrama de um fluxo de serviços não possui os mesmos componentes de “Tarefa” de um fluxo de processo. Não é possível utilizar aqui os componentes de “Tarefa humana” e “Sub processo workflow”.  
-
-Para um processo de negócio, possuímos a mais as seções de componentes:   
-
-- Conectores: componentes utilizados para a execução de operações relacionadas à banco de dados.  
-- Componentes: componentes variados para a execução de diversas tarefas.  
-- Transformadores: componentes para a conversão de tipos de variáveis.  
-- 4biz ITSM: componentes utilizados para integração com um sistema 4biz ITSM externo.   
-
-Os demais componentes presentes na paleta se assemelham aos componentes de um “Fluxo de Processo”. Mais informações a respeito da funcionalidade e utilização de cada um dos componentes podem ser encontradas no Desenvolvendo Aplicações.    
-
-1. Para desenhar o diagrama, escolha a aba refente ao mesmo.  
-2. A seguinte tela será exibida:  
-
-
-![Screenshot](images/Service-Integration-Flow-fig07.png)
-
-Figura 7 - Tela de cadastro/edição do workflow, aba de Diagrama  
 
 
 !!! tip "About"
