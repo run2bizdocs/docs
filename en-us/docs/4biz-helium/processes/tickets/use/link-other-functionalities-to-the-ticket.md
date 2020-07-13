@@ -1,92 +1,67 @@
 title: Link other functionalities to the ticket
 Description: It's possible to link other functionalities to the ticket.
+
 # Link other functionalities to the ticket
-It's possible to link other functionalities to the ticket, such as: problems, change, project, and others to include more information when attending the request.
 
-Before getting started
---------------------------
+It's possible to link other functionalities to the ticket, such as: Problems, Changes, Projects, and others to include more information when attending the request.
 
-To link, it's necessary to previously register the problem, change, release,
-configuration item, projects, knowledge, in addition to the configuration of
-parameters 9, 23, 24, 25, 26, 27, 28, 72 and 385.
+## Before getting started
 
-Procedure
--------------
+To link other functionalities, it's necessary to have them previously registered, in addition to the configuration of parameters 9, 23, 24, 25, 26, 27, 28, 72 and 385.
 
-1.  Access the functionality by the main menu Processes \> Ticket
-    Management \> Ticket;
+**Procedure**
 
-2.  To inform the ticket (request/incident) complementary data, check the option
-    of capture or view;
+1.	Access the functionality by the main menu Processes > Ticket Management > Ticket;
 
-3.  To link **Sub-tickets**, click on the toogle button (placed in the upper righ side
-    of the screen) and then on "Create sub-ticket" to create a new request, or click on
-    "Create sub-ticket by copy" to register a new request with the same date of the
-    original request;
+2.	To check on the ticket’s (request/incident) complementary data, check the option of capture or view;
 
-4.  To link **Related Tickets**, click on the area of same name, and then on
-    "Search Ticket", press the request you want and then on "Link Tickets".
+3.	To link Sub-tickets, click on the toggle button (placed in the upper right side of the screen) and then on "Create sub-ticket" to create a new request, or click on "Create sub-ticket by copy" to register a new request with the same date of the original request;
 
-5.  To link a configuration item of the requester, click on **Requester CI** and
-    then on the icon “Link configuration item” to perform the operation;
+4.	To link Related Tickets, click on the area of same name, and then on "Search Ticket", press the request you want and then on "Link Tickets";
 
-6.  To link a **Related Configuration Item**, click on "Related CI" and then on
-    "Search Configuration Item". Search for the item you want and then click on
-    "Select";
+5.	To link a configuration item of the requester, click on Requester CI and then on the icon “Link configuration item”;
+
+6.	To link a Related Configuration Item, click on "Related CI" and then on "Search Configuration Item". Search for the item you want and then click on "Select";
+
     
     !!! note "NOTE"
     
-        When a CI is linked to the ticket and it has a valid license, the user will be informed 
-        by the system before taking action.
+        When a CI is linked to the ticket and it has a valid license, the user will be informed by the system before taking any action.
 
-7.  To link a **Project**, click on the area with same name and then in the
-    field project. Link the item you want;
+7.  To link a Project, click on the area with same name and then in the field project;
 
-8.  To view the periodic activities, click on **Agenda**;
+8.	To view the periodic activities, click on Agenda;
 
-9.  To verify the e-mails received about the request, click on the area **Email
-    Reading** and then "Verify e-mails". Note that the e-mail reading will be
-    only used if the parameters are correctly configured;
+9.	To verify the e-mails received about the request, click on the area Email Reading and then "Verify e-mails". Note that the e-mail reading will be only used if the parameters are correctly configured;
 
-10. To view the physical position of the attendant, click on **Monitoring**;
+10.	To view the physical position of the attendant, click on Monitoring;
 
-11. To link a **Knowledge**, click on the corresponding tab, in the button
-    "Search Knowledge", search and click on the knowledge you want to link it;
+11.	To link a Knowledge, click on the corresponding tab, in the button "Search Knowledge", search and click on the knowledge you want to link;
 
-12. To link a **Problem**, click on the corresponding tab and link the item with
-    the functionality you want. If you want to register a new item, click on
-    "Problem Registration";
+12.	To link a Problem, click on the corresponding tab and link the item with the pertinent existing Problem. If you want to register a new item, click on "Problem Registration";
+
     
     !!! Abstract "NOTE"
     
-        When linking a problem to the ticket, the "Workaround" registered in them
-        will be available in the ticket on the left side. When click on it, it'll
-        be possible to view each one of them in order to select the most suitable solution
-        to the incident, click then on "Copy", the incident will automatically change
-        the status to "Solved" and will complete the data of items "Cause Detail" and
-        "Answer Soluction" with the data registered in the problem linked.
+        When linking a problem to the ticket, the "Workaround" registered in them will be available in the ticket on the left side. When clicking on it, it'll be possible to view each one of them in order to select the most suitable solution for the Incident or Request. By clicking on "Copy", the incident will automatically change the status to "Solved" and will complete the data of items "Cause Detail" and "Answer Solution" with the data registered in the problem linked.
         
-        The "Cause Detail" will be completed with the data of "Root Cause" described in
-        the problem linked, and the "Answer Solution" will be completed with the information
-        inscribed in the "Workaround" you've chose.
+        The "Cause Detail" will be completed with the data of "Root Cause" described in the problem linked, and the "Answer Solution" will be completed with the information inscribed in the "Workaround" you've chosen.
+
         
     !!! Abstract "RULE"
     
-         When opening a service request, a certain amount of "Workarounds" may appear due
-         to the following rules:
+         When opening a service request, a certain amount of "Workarounds" may appear due to the following rules:
          
-         * workarounds related to the service request problems;
-         * workarounds linked to the business service problems of the request;
-         * workarounds related to problems that have the configuration item of this request.
+         •	workarounds related to the service request problems;
+         •	workarounds linked to the business service problems of the request;
+         •	workarounds related to problems that have the configuration item of this request.
+
     
 
-13. To link a **Change**, click on the corresponding tab and link the item with
-    the functionality you want. If you want to register a new item, click on
-    "Change Registration";
+13.	To link a Change, click on the corresponding tab and link the item with the pertinent available Change. If you want to register a new item, click on "Change Registration";
 
-14. To link a **Release**, click on the corresponding tab and link the item with
-    the functionality you want. If you want to register a new item, click on
-    "Release Registration".
+14.	To link a Release, click on the corresponding tab and link the item with the pertinent available Release. If you want to register a new item, click on "Release Registration".
+
 
 Related
 -----------

@@ -1,32 +1,25 @@
 title: Register change automatic actions
 Description: This registration will be associated with the automatic actions, where it will be used in the 4biz Nagios, Zabbix, Inventory and Correlated Events event managers' registers.
-# Register change automatic actions
 
-Some events will present a situation where the appropriate action will need to
-be addressed by the change management process, that is, this functionality is
-intended to register automatic actions of the type change. This registration
-will be associated with the automatic actions, where it will be used in the
-4biz Nagios, Zabbix, Inventory and Correlated Events event managers'
-registers.
+# Register automatic actions for the Change Management Process 
 
-This feature provides a variety of actions, such as including, changing, and
-deleting automatic actions of the type change.
+Some events will present a situation in which the most appropriate action will be to handle them with the Change Management process. This functionality is intended to register the automatic actions for the change management process. This registration will be associated with the automatic actions, where it will be used in the registration of 4biz event managers Nagios, Zabbix, Inventory and Correlated Event.
+This feature provides a variety of actions, such as including, changing, and deleting automatic actions of the type change.
 
-Before getting started
-----------------------
-To register the change automatic actions, it's necessary to previously register
-the unit, requester (employee), contract linked to the employee and unit; the
-Change Advisory Board (group) and configure the parameters 47, 279 and 280 about the change.
 
-Procedure
----------
+## Before getting started
 
-1.  Access the functionality through the main menu System \> Automatic Actions
-    \> Automatic Actions;
+To register the change automatic actions, it's necessary to previously register the unit, requester (employee), contract linked to the employee and unit; the Change Advisory Board (group) and configure the parameters 47, 279 and 280 about the change.
 
-2.  Complete the fields available;
+**Procedure**
 
-3.  Click on "Save".
+
+1.	Access the functionality through the main menu System > Automatic Actions > Automatic Actions;
+
+2.	Fill in the available fields;
+
+3.	Click on "Save".
+
 
 Related
 -------

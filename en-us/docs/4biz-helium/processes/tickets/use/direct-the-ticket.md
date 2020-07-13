@@ -3,30 +3,22 @@ title: Direct the ticket
 Description: This functionality allows to direct the request/incident attendance to a group you want.
 
 # Direct the ticket
-This functionality allows to direct the request/incident attendance to a group you want.
+This functionality allows the current attendant of the ticket to direct the request/incident to another group capable of attending it. 
 
-Before getting started
---------------------------
+## Before getting started
 
-To direct the attendance of the ticket, it's necessary to previously register of
-a ticket and have permission to execute it.
+To direct the attendance of the ticket, it's necessary to have the permissions to execute it.
 
-Procedure
--------------
+**Procedure**
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-2.  Click on the ticket you want and then on the icon “Open”;
+2.	Click on the ticket you want and then on the icon “Open”;
 
-3.  In the field **Direct to group**, select the group to which the ticket will
-    be directed to be attended;
+3.	In the field Direct to group, select the group to which the ticket will be directed to be attended;
 
-4.  Click on button “Operations” and then on “Save and Forward Flow” to save and
-    advance the flow, where the ticket will be directed to the attendance phase.
-    However, if you want to save only the information registered about the
-    validation of the ticket and keep the current task, click on “Save and Keep
-    the Current Task”.
+4.	Click on button “Operations” and then on “Save and Forward Flow” to save and advance the flow, where the ticket will be directed to the attendance phase. However, if you want to save only the information registered about the validation of the ticket and keep the current task, click on “Save and Keep the Current Task”.
+
 
 Related
 ------------

@@ -2,23 +2,19 @@ title: Register escalation automatic action
 Description: Provides a variety of actions, such as including, changing, and deleting escalation automatic action.
 # Register escalation automatic action
 
-This functionality has the objective the action scheduling. It will be the
-complement to create an escalation rule.
+This functionality allows the Manager to add, change and delete scheduled actions triggered by escalations. This complements the creation of an escalation rule.
 
-This feature provides a variety of actions, such as including, changing, and
-deleting escalation automatic action.
+**Procedure**
 
-Procedure
--------------
 
-1.  To access click on the main menu System \> Automatic Actions \> Escalation
-    Actions;
+1.	To access click on the main menu System > Automatic Actions > Escalation Actions;
 
-2.  Click on "New";
+2.	Click on "New";
 
-3.  Complete the fields available;
+3.	Fill in the available fields;
 
-4.  Click on "Save".
+4.	Click on "Save".
+
 
 Related
 -------

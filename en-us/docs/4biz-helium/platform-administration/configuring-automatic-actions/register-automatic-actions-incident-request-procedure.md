@@ -1,39 +1,28 @@
 title: Register automatic actions of incident/request/procedure
 Description: This registration will be associated to the automatic actions, where it will be used in the registrations of 4biz event managers Nagios, Zabbix, Inventory and Events Correlated.
-# Register automatic actions of incident/request/procedure
 
-Some events will present a status where the action appropriate will need to be
-treated by the incident management process, that is, this functionality is
-intended to register the automatic actions of incident/request/procedure. This
-registration will be associated to the automatic actions, where it will be used
-in the registrations of 4biz event managers Nagios, Zabbix, Inventory and
-Events Correlated.
+# Register automatic actions for the Incident / Request Management Process
 
-The event management supports the incident management process, because it's
-possible to detect early failures in the service and quickly work to avoid a
-service unavailability to the en user.
+Some events will present a situation in which the most appropriate action will be to handle them with the incident management process. This functionality is intended to register the automatic actions for the incident/request process. This registration will be associated with the automatic actions, where it will be used in the registration of 4biz event managers Nagios, Zabbix, Inventory and Correlated Event.
 
-This feature provides a variety of actions, such as including, changing, and
-deleting automatic actions of incident/request/procedure.
+The event management supports the incident management process because it allows for the detection and prompt solution of early failures in a service, therefore avoiding service unavailability for the end user.
 
-Before getting started
---------------------------
+This feature provides a variety of actions, such as adding, changing, and deleting incident/request process automatic actions.
 
-To register an automatic action of request/incident/procedure, it's necessary to
-previously register the unit, group, contract, link group to contract,
-associating the requester (employees) already related to this group, to be
-listed the contracts and request related in the request screen, define the
-service portfolio, the time of attendance and periodic activity group.
 
-Procedure
--------------
+## Before getting started
 
-1.  Access the functionality through the main menu System \> Automatic Actions
-    \> Incident/Request/Procedure Actions;
+To register an automatic action for the request/incident process, it's necessary to previously register the unit, group, contract, link group to contract, associating the requester (employees) already related to this group, to list the contracts and request related in the request screen, define the service portfolio, the time of attendance and periodic activity group.
 
-2.  Complete the fields available;
+**Procedure**
 
-3.  Click on "Save".
+
+1.	Access the functionality through the main menu System > Automatic Actions > Incident/Request/Procedure Actions;
+
+2.	Fill in the available fields;
+
+3.	Click on "Save".
+
 
 Related
 -------

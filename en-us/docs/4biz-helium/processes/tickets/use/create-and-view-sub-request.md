@@ -1,53 +1,41 @@
 title: Create and view sub-ticket
 Description: It's possible to create sub-ticket through the main request and view them after created.
+
 # Create and view sub-ticket
 
-This functionality allows to register a ticket with activities related to the original ticket.
+This functionality allows the attendant to register a new ticket with activities related to the origina lone.
 
-Before getting started
---------------------------
+## Before getting started
 
-It's necessary to previously register the employee, contract and unity. It's
-also necessary to link the group to the contract, unit to the contract and
-contract to the service.
+It's necessary to previously register the employee, contract and unit. It's also necessary to link the group to the contract, unit to the contract and contract to the service.
 
-Register the portfolio with services and activities of request and incident. Set
-the time of attendance for the activities of request and incident.
+Register the portfolio with services and activities of request and incident. Set the time of attendance for the activities of request and incident.
 
-Link the activities of request and incident to the service contract. Set the
-parameter 385 with value 'Y'.
+Link the activities of request and incident to the service contract. Set the parameter 385 with value 'Y'.
 
-Procedure
--------------
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Ticket Management \> Ticket;
+**Procedure**
 
-2.  Click on the ticket you want and select "Create sub-ticket" in the
-    options menu;
+1.	Access the functionality Ticket Management through the main menu Processes > Ticket Management > Ticket;
 
-3.  Complete all mandatory fields and click on "Save'. The sub-ticket will
-    be directed to the executor group defined in the activity link registration,
-    to the executor group defined in the parameter 9;
+2.	Click once on the ticket you want and select "Create sub-ticket" in the options menu;
 
-4.  Note that the system will send notification e-mail about the creation,
-    escalation, capture, close and other changes in the related tickets to the
-    executor group of the main ticket.
-    
-5.  To search for tickets related, it'll be necessary to select the filter "Show related" in ,
-    the search area in the main screen of the functionality.
+3.	Complete all mandatory fields and click on "Save”. The sub-ticket will be directed to the executor group defined in the activity link registration defined in the parameter 9;
+
+4.	Note that the system will send notification e-mail about the creation, escalation, capture, close and other changes in the related tickets to the executor group of the main ticket;
+
+5.	To search for tickets related, it'll be necessary to select the filter "Show related" in the search area in the main screen of the functionality.
+
 
 
         
 !!! Abstract "NOTE"
     
-    The sub-ticket has its own flow, therefore, it's not finished along with the
-    closure of the origin ticket. It should, then, be executed and closed autonomously.
+    The sub-ticket will have its own flow, therefore, it won’t be marked as finished along with the closure of the original ticket. It should, then, be executed and closed separately.
     
 !!! Abstract "NOTE"
     
-    The sub-ticket can be reopened at any time, regardless of the status of the parent 
-    request (whether it's reopened or closed).
+    The sub-ticket can be reopened at any time, regardless of the status of the parent Incident or Request (whether it's reopened or closed).
 
 Related
 -----------
