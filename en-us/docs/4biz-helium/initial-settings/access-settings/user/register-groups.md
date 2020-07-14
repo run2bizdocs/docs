@@ -5,76 +5,86 @@ Description: This functionality registers the groups and links with users, profi
 
 A group is a set of one or more employees with the same related objectives and its functions.
 
-The two most common usages for the groups created are:
+The two most common usages for groups are:
 
-1.	Security/secrecy management of access to various types of registries (e.g.: knowledge base folders, service portfolios, etc.).
+1.	Security/secrecy management of access to various types of registries. Per example: knowledge base folders and service portfolios.
 
-2.	Automatic notification scheduling based on some specific event/situation;
+2.	Automatic notification scheduling based on some specific event/situation.
 
-
-This functionality registers the groups and links with users, profile, contracts and notification e-mails.
-
-This feature provides a variety of actions, such as including, changing, and deleting a group.
+This functionality registers the groups and links with users, profile, contracts and notification e-mails templates. Also, it is possible to change and delete a group.
 
 ## Before getting started
 
-To register a group, it's necessary to previously register the employee profile
-access.
+It is necessary to have at least one access profile and one or more collaborators, before creating a group.
 
-## Procedure
+**Procedure**
 
-1.  Access the functionality Group through the main menu Access and Permission
-    \> Group;
+1.	Access the functionality Group through the main menu Access and Permission > Group;
 
-2.  Click on "New";
+2.	Click on "New";
 
-3.  Complete all mandatory fields;
+3.	Complete all mandatory fields;
+
 
     - **Basic Informations**
 
     |Field|Description|
     |-|-|
-    |Name *	|[Name of Group]|
-    |Acronym *	|[NG]|
-    |Group ID|[01] - Automatically created|
-    |Leader|[Name of Leader] - Used to identify the group manager|
-    |Profile Access *	|[Profile] - Inherited access profile|
-    |Service Desk Group|[Yes/No] - If the group makes attendance (= YES), otherwise, the group will not appear in the group list for ticket direction/delegation|
-    |Chat Requester|[Yes/No] - If members of the group can open tickets via chat|
-    |Change Advisory Board|[Yes/No] - If the group is part of a CAB (Change Management)|
-    |Suspension/Reactivation |Parameter to allow tickets to be suspended/reactivated regardless of workflow permissions (reactivate/suspend)|
-    |Mandatory email notifications (Opening, Progress and Closing)|If enabled, it makes the sending of email - coming from the various actions of the flows - mandatory (not configurable by the attendant). When it is disabled, the attendant can configure the options of email sending.|
-    |Description |Details to help identify the group|
+    |Access Profile*|The associated access profile.|
+    |Acronym *|Acronym by which the group is known.|
+    |Calendar|If necessary, choose a calendar related to the group's work routine.|
+    |Change Advisory Board|[Yes/No] - Indicate if the group is part of a CAB. It is related to Change Management.|
+    |Chat Requester|[Yes/No] - Indicate whether group members can open tickets via chat.|
+    |Description|Description of details about the group.
+    |Field|	Description|
+    |Group ID|Automatically produced.|
+    |Leader|The group leader identification.|
+    |Mandatory email notifications| (Opening, Progress and Closing)	If enabled, activates e-mail notifications sending. It comes from the various workflow's actions and in this case, it is not configurable by the service agent. If disabled, the service agent can set the options for sending e-mail individually.|
+    |Name *|	Group name.|
+    |Service Desk Group	|[Yes/No] - Indicate if the group handles service requests and incidents, select Yes. Only then, the group will appear in the list of groups for directing or delegating tickets.|
+    |Suspension/Reactivation|Indicate whether the group can suspend or reactivate tickets regardless of permissions in the workflow.|
+    |TimeZone|If necessary, choose a time zone related to the group's standard working time.|
 
-    - **Contracts:** Agreements that the group will have access (to register a service, attend and others).
+
+    - **Contracts:** Contracts list that the group can relate to when registering a service, performing a service and other actions in the system.
+
+    - **Permissions on workflows**
+    
+        • Name: The list of workflows in which the group operates;
+        
+        • Actions: The list of actions the group is allowed to perform in the workflow. Select only the required permissions for the group to work.
+
 
     - **Permissions on workflows**
 
-    |Actions```*```| Description|
-	  |-|-|
-	  |Create|Permission to register ticket/activity|
-	  |Execute|Permission to execute ticket/activity|
-    |Delegate|Permissino to delegate ticket/activity|
-	  |Suspend|Permission to suspend ticket/activity|
-    |Reactivate|Permission to reactivate ticket/activity|
-    |Change SLA|Permission to change the SLA of a ticket/activity|
-	  |Reopen|Permission to reopen ticket/activity|
+    |Actions|Description|
+    |-|-|
     |Cancel|Permission to cancel ticket/activity|
+    |Change SLA|Permission to change the SLA of a ticket/activity|
+    |Create|Permission to register ticket/activity|
+    |Delegate|Permission to delegate ticket/activity|
+    |Execute|Permission to execute ticket/activity|
+    |Reactivate|Permission to reactivate ticket/activity|
     |Reclassify|Permission to reclassify ticket/activity|
+    |Reopen|Permission to reopen ticket/activity|
+    |Suspend|Permission to suspend ticket/activity|
 
-    ```*```Select only the permissions specific to the context of the action.
+  
 
-    - **Employees (System users):** members of the group.
-    - **E-mail:** email addresses that will receive notifications originating from a workflow. This option is very useful when it is necessary to make a person "informed" of the group's interactions without participating in the group.
+    - **Collaborators** 
+        
+        Name: List of group members.
+        
+        E-mail: Indication of whether the group member will receive notification e-mails.
 
-4.  Define the necessary configurations;
-5.  Click on "Save".
+    - **E-mail:** List of email addresses that will receive the group's notifications. It is very useful to keep a non-group member informed of the group interactions.
+
+4.	When you are finished, click "Save".
 
 
 !!! Abstract "RULE"
 
-    The group exclusion depends on there being no portfolios, employees and
-    contracts linked to it.    
+    Before deleting a group, unlink all portfolios, employees, and contracts.    
 
 Related
 -----------
