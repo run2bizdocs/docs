@@ -1,30 +1,24 @@
 title: Schedule problems activities
 Description: It allows to create and view activities schedule about the problem
+
 # Schedule problems activities
 
-This functionality allows to create and view activities schedule about the problem.
+This functionality allows the executing team of a problem to create and view activities schedules around the problem.
 
-Before getting started
-----------------
+## Before getting started
 
-Before register a problem activity, it's necessary to create a problem to
-control their incidence by implementing management measures and solutions
-to known problems. It's also essential to create the groups of periodic activity
-that will be responsible to execute the activities elaborated.
+Before registering a problem activity, it's necessary to create a problem to control their incidence by implementing management measures and solutions. It is also essential to create the groups of periodic activities that will be responsible to execute the activities elaborated.
 
-Procedure
-------------
+**Procedure**
 
-1.  Access the main menu Process \>
-    Problem Management \> Problem;
+1.	Access the main menu Process > Problem Management > Problem;
 
-2.  Find the problem you want to suspend, click on "More Options" and then on
-    "Schedule Activity”;
+2.	Find the problem you want to suspend, click on "More Options" and then on "Schedule Activity”;
 
-3.  In the tab **Create Schedule**, inform the data registered (Group of activities
-    Technical Guidance, Schedule and Estimated duration);
+3.	In the tab Create Schedule, fill in the available fields (Group of activities Technical Guidance, Schedule and Estimated duration);
 
-4.  Click on "Save".
+4.	Click on "Save".
+
 
 Related
 ------------
