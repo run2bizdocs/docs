@@ -3,24 +3,18 @@ title: Verify my tickets
 Description: Allows to provide a summary of the service requests (tickets) made by the user.
 
 # Verify my tickets
-This functionality allows to provide a summary of the service requests (tickets) made by the user.
-The access to the user requests can be done in the Smart Portal, making the query quicker, without the need to enter in the system.
-This screen has the timer called “Activate/Deactivate timer” that, when activated with a click, present a timer about the time spent and the time left to finish the request attendance in the field Remaining item list time.
 
-Before getting started
---------------------------
+This functionality provides a summary of the tickets created by the end user. The access to the user requests can be found in the Smart Portal, making the query quicker, without the need to go into the system. This screen has a “Activate/Deactivate timer” which, when activated with a click, presents a timer indicating the time spent and the time left to finish the ticket in the field Remaining item list time.
 
-To verify the your tickets, it's necessary to previously register the service
-request and the configuration item. The CI should be linked to the request.
+## Before getting started
 
-Procedure
--------------
+To verify your tickets, it's necessary to previously register the service request and the configuration item. The CI should be linked to the request.
 
-1.  Access the functionality My Requests through the main menu Processes \>
-    Request and Incident Management \> My Requests;
+**Procedure**
 
-2.  Enter a specific configuration item or click on "Search" to present the list
-    of all items registered.
+1.	Access the functionality My Requests through the main menu Processes > Request and Incident Management > My Requests;
+
+2.	Enter a specific configuration item or click on "Search" to present the list of all items registered.
 
 Related
 -----------

@@ -1,30 +1,28 @@
 title: Suspend ticket
  
 Description: It's possible to manage its steps, including suspending the attendance, making the process more efficient.
+
 # Suspend ticket
-After create a ticket, it's possible to manage its steps, including suspending the attendance, making the process more efficient.
 
-Before getting started
---------------------------
+After a ticket is created, it's possible to manage its steps, including suspending the attendance, making the process more efficient.
 
-To effect the suspension, the user should have permission to this action, in
-addition to have previously registered the justification of suspension.
+## Before getting started
 
-Procedure
--------------
+For the ticket suspension to be enabled the attendant should have permission to execute this action, in addition to have previously registered the justification of the suspension.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Select or search for the ticket;
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Click on the ticket, select the button “More Options” and choose the option
-    "Suspend".
+2.	Select or search for the ticket;
 
-What to do next
--------------------
+3.	Click on the ticket, select the button “More Options” and choose the option "Suspend".
 
-Verify in page the tickets related if it has the status "suspended".
+
+## What to do next
+
+Verify in Service Desk ticket list page that the ticket has the status "Suspended".
+
 
 Related
 -----------
