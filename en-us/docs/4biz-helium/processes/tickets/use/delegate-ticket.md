@@ -1,27 +1,25 @@
 title: Delegate ticket
 
 Description: The option of Delegate Ticket allows to charge the execution of a ticket to a user or group you want. 
+
 # Delegate ticket
-The option of Delegate Ticket allows to charge the execution of a ticket to a user or group you want. Obligatory, it will be only possible to delegate the responsibility to groups which the person who is delegating belongs to, which occurs when opting for a user (it'll be only authorized for member of the groups to which the incumbent is part of).
 
-Before getting started
---------------------------
+The option of Delegate Ticket allows the current attendant to change group or user in charge for its execution. It will be only possible to delegate the responsibility to groups which the person who is delegating belongs.
 
-To delegate a ticket, it's necessary to have permission to execute it and
-configure the option of Delegation in the flow linked to the ticket.
+## Before getting started
 
-Procedure
--------------
+To delegate a ticket, it's necessary to have permission to execute this action and to configure the option of Delegation in the flow linked to the ticket.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket you want, select the button “More Options” and then on
-    "Delegate";
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Select the user/group;
+2.	Click on the ticket you want, select the button “More Options” and then on "Delegate";
 
-4.  Justify your choice.
+3.	Select the user/group;
+
+4.	Justify the delegation.
+
 
 Related
 -----------

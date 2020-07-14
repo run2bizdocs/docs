@@ -2,78 +2,51 @@ title: Validate and close the ticket
 Description: After attend the ticket, its execution should be validated and the ticket closed.
 
 # Validate and close the ticket
-After attend the ticket, its execution should be validated and the ticket closed.
 
-Before getting started
---------------------------
+After a ticket is attended, its execution should be validated and the ticket closed.
 
-It's necessary to previously register the ticket and have permission to validate
-it.
+## Before getting started
 
-Procedure
--------------
+It's necessary to previously register the ticket and have permission to validate it.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Ticket Management \> Ticket;
+**Procedure**
+1.	Access the functionality Ticket Management through the main menu Processes > Ticket Management > Ticket;
 
-2.  Click on the ticket you want and then in the icon “Open”;
+2.	Click on the ticket you want and then in the icon “Open”;
 
-3.  Certify the ticket attendance was done according to what was requested;
+3.	Certify the ticket attendance was done according to what was requested;
 
-4.  In the "Status" area, choose the option "Solved", complete the data to close
-    the ticket;
+4.	In the "Status" area, choose the option "Solved", complete the data to close the ticket;
 
-    - If the type of request is "Incident":
-    
-         * Solution Category: select the category of the incident solution;
-         
-         * Cause Detail: describe the details of the incident cause;
-         
-         * Answer Solution: describe the details of the solution made to the 
-           incident attendance;
-         
-         * Save Solution/Answer in the Knowledge Base: in order to the checkbox "Save Solution/Answer 
-           in the Knowledge Base" is visible, check the parametrization of the Knowledge Management process;
+    •	If the type of request is "Incident":
 
-        !!! abstract "NOTE"
-        
-            To reduce the options for the "Cause" and "Solution Category" fields, presented when closing the ticket,  
-            the tool provides the Cause and Solution Category link to specific services.
-            For this, it's necessary to create a "Cause", where is possible to link to other related causes. It's 
-            also necessary to create the "Solution Category", where is possible to link a cause and depending on it, 
-            it will bring all the causes related to the main one
-            Then, in Service Portfolio you want, you will link the Causes and Solution Category in the service you 
-            find most appropriate.
-            When executing the ticket, completing the closing fields, the options for "Cause" and "Solution Category" 
-            will be in accordance with what was linked to the service within the Portfolio, reducing so the options 
-            available, focusing only on the necessary
-         
+        • Solution Category: select the category of the incident solution;
+        • Cause Detail: describe the details of the incident cause;
+        • Answer Solution: describe the details of the solution for the ticket;
+        • Save Solution/Answer in the Knowledge Base: in order to the checkbox "Save Solution/Answer in the Knowledge Base" is visible, check the parametrization of the Knowledge Management process;
+
+           
         !!! Abstract "ATTENTION"
            
-             In order for the "Save Solution / Knowledge Base Answer" option to be available by 
-             checking the "Resolved" option of the ticket, it is necessary to configure parameters 
-             182 and 192.
+             In order for the "Save Solution / Knowledge Base Answer" option to be available by checking the "Resolved" option of the ticket, it is necessary to configure parameters 182 and 192.
              
            
-         * Justification of SLA expired: the visibility of this field is conditioned to the SLA 
-           status expired for the attendance question;
-           
-         * Temporary Solution: indicate if the activity performed to attend the incident was a temporary solution.
+         • Justification of SLA expired: this field will only be visible is the status of the ticket has moved to “Expired”;
+         •	Temporary Solution: indicate if the activity performed to attend the incident was a temporary solution.
+
          
-    - If the type of request is "Request", complete the field ""Answer Solution"", describe what 
-      was made to attend the service request. 
+    - If the type of request is "Request", complete the field "Answer Solution", by describing what was done to attent it.
       
     !!! Abstract "ATTENTION"
     
-        The steps to solve the Ticket steps can be the suggestion of a new knowledge, being evaluated 
-        beforehand to be effective. It is also possible to suggest a name for this new knowledge in the 
-        field "Knowledge Base Title".
+        The steps to solve the Ticket can be the suggested as a new knowledge article, being evaluated beforehand to be effective. It is also possible to suggest a name for this new knowledge in the field "Knowledge Base Title".
 
-5.  Click on the "Option" button and definy the next step:
+5.	Click on the "Option" button and define the next step:
 
-    -  "Save changes";
-    
-    -  "Send ticket".
+    •	"Save changes";
+
+    •	"Send ticket".
+
 
 Related
 -----------

@@ -3,25 +3,21 @@ title: Change SLA of a ticket
 Description: Change the SLA of the ticket means modify its time of attendance, by extending or shortening the period of execution.
 
 # Change SLA of a ticket
-Change the SLA of the ticket means modify its time of attendance, by extending or shortening the period of execution.
 
-Before getting started
---------------------------
+Changing the SLA of a ticket means to modify its time of attendance, it can be either to extend or shorten the period of execution.
 
-To change the SLA, it's necessary to previously register the ticket
-justification and calendar.
+## Before getting started
 
-Procedure
--------------
+To change the SLA, it's necessary to have a ticket registered previously, a justification and a calendar.
 
-1.  Access the functionality Ticket Management through the main menu Process \>
-    Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket you want, select the button "More Options" and the option "Change SLA";
+1.	Access the functionality Ticket Management through the main menu Process > Request and Incident Management > Service Request and Incident;
 
-3.  Set the type of SLA, the time (deadline) of attendance, the calendar to
-    count this time, the justification and its complement regard the time
-    change.
+2.	Click on the ticket you want, select the button "More Options" and the option "Change SLA";
+
+3.	Set the type of SLA, the time (deadline) of attendance, the calendar to count this time, the justification for it and its complement regarding the time change.
+
 
 Related
 -----------

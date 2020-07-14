@@ -3,31 +3,25 @@ title: Cancel ticket
 Description: This functionality allows to cancel the ticket.
 
 # Cancel ticket
-This functionality allows to cancel the ticket.  
 
-Before getting started
---------------------------
+This functionality allows the attendant to cancel a ticket. 
 
-It's necessary to previously register the ticket and have permission to cancel
-the ticket.
+## Before getting started
 
-Procedure
--------------
+It's necessary to have a ticket registered previously and have the permissions to cancel it.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket you want and then on the icon “Open”;
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Change the status of the ticket to "Canceled" by clicking on it;
+2.	Click on the ticket you want and then on the icon “Open”;
 
-4.  In the **Solution Response** field, describe the reasons to be canceled;
+3.	Change the status of the ticket to "Canceled" by clicking on it;
 
-5.  Click on the options button “Operations” and then on “Save and Forward
-    Flow” to save and advance the flow, so the ticket will be canceled. However,
-    if you want only to save the information registered about the ticket
-    cancellation and keep the current task, click on the button “Save and Keep
-    the Current Task” .
+4.	In the Solution Response field, describe the reasons for the ticket to be canceled;
+
+5.	Click on the options button “Operations” and then on “Save and Forward Flow” to save and advance the flow. This way, the ticket will be canceled. However, if you want only to save the information registered about the ticket cancellation and keep the current task, click on the button “Save and Keep the Current Task”.
+
 
 Related
 -----------
