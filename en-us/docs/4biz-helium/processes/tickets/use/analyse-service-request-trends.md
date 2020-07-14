@@ -2,53 +2,52 @@ title: Analyze Incident or Service Request trends
 
 Description: Aims to make an analysis of the Incident or Service Request, based on the critical amount, to identify which items will influence on the launch of a new request.  
 
-# Analyze Incident or Service Request trends  
-This functionality aims to make an analysis of the Incident or Service Request, based on the critical amount, to identify which items will influence on the launch of a new request.  
+# Analyze Incident or Service Request Trends
 
-Before getting started
---------------------------
+This functionality allows managers to make an analysis of the Incident or Request Services based on certain available metrics, to identify current and future behavior of tickets. 
+
+## Before getting started
 
 - [X] It's necessary to previously register an Incident or Service Request (ticket) linked to a contract, in addition to an active contract.
 
-Procedure
--------------
+**Procedure**
 
-1.  Access the main menu Processes \> Ticckets(Incident or Service Request) \> Trend
-    Analysis, the tab **Incident / Service Requests**;
+1.	Access the main menu Processes > Tickets (Incident or Service Request) > Trend Analysis, the tab Incident / Service Requests;
 
-2.  Complete the desired search fields;
+2.	Filter by using the available search fields;
 
-| Field                             | Description                                                     |
-|-----------------------------------|-----------------------------------------------------------------|
-| Period **Start date**             | The system will suggest the first day of the current month/year |
-| Period **End date**               | The system will suggest the current date                        |
-| **Contract**                      | Available contracts                                             |
-| **Department/Result Center/Unit** | Available Departments / Result Centers / Units                  |
-| **Type**                          | Incident or Service Request                                     |
+|Field|Description|
+|-|-|
+|Contract|Available contracts|
+|Department/Result Center/Unit|Available Departments / Result Centers / Units|
+|Period **End date**|The system will suggest the current date|
+|Period **Start date**|The system will suggest the first day of the current month/year|
+|Type|Incident or Request Service|
 
-3.  Click on "Create Report";
 
-4.  The system will, based on the filters selected, present in the top of the report the **Number of records:** (retrieved from the total search) and at the bottom of the grid the **Total cost** (sum of the cost of all Incidents or Service Rquests listed), for each Incidents or Service Requests will show the information below : 
+3\.  Click on "Create Report";
 
-| Report Field     | Description                                                            |
-|------------------|------------------------------------------------------------------------|
-| **Ticket**       | Incident or Service Request identification number                      |
-| **Service**      | The Service related to the Incident or Service Request                 |
-| **Type**         | (i) Incident or (R) Service Request                                    |
-| **Cost**         | The Cost of the Incident or Service Request, indicated on the activity |
-| **Date**         | Date/Time of the Attendance of the Incident or Service Request         |
-| **Create date**  | Date/Time of the creation of the Incident or Service Request           |
-| **Capture time** | Time of capture of the Incident or Service Request                     |
-| **End date**     | Date/Time the Incident or Service Request ended                        |
-| **SLA**          | Assigned SLA to the Incident or Service Request                        |
-| **SLA on time**  | If the Incident or Service Request is “On Time” (Based on the SLA)     |
-| **Priority**     | Priority of the Incident or Service Request                            |
-| **Requester**    | Requester of the Incident or Service Request                           |
-| **Closed by**    | Who solved/Close the Incident or Service Request                       |
-| **Group**        | Execution Group assigned to the Incident or Service Request            |
-| **Created by**   | Creator of the Incident or Service Request                             |
-| **Unit**         | Unit assigned to the Incident or Service Request                       |
-| **Locality**     | Locality of the Incident or Service Request Execution                  |  
+4\. The system, based on the filters selected, will present in the top of the report the **Number of records** retrieved from the total search and at the bottom of the grid the **Total cost** (sum of the costs of all Incidents Request Services listed). For each Incidents or Service Requests will show the information below:
+
+|Report Field|Description|
+|-|-|
+|Capture time|Time of capture of the Incident or Request Service|
+|Closed by|Who solved/Close the Incident or Request Service|
+|Cost|The Cost of the Incident or Request Service, indicated on the activity|
+|Create date|Date/Time of the creation of the Incident or Request Service|
+|Created by|Creator of the Incident or Request Service|
+|Date|Date/Time of the Attendance of the Incident or Request Service|
+|End date|Date/Time the Incident or Request Service ended|
+|Group|Execution Group assigned to the Incident or Request Service|
+|Locality|Locality of the Incident or Request Service Execution|
+|Priority|Priority of the Incident or Request Service|
+|Requester|Requester of the Incident or Request Service|
+|Service|The Service related to the Incident or Request Service|
+|SLA|Assigned SLA to the Incident or Request Service|
+|SLA on time|If the Incident or Request Service is “On Time” (Based on the SLA)|
+|Ticket|Incident or Request Service identification number|
+|Type|(i) Incident or (R) Request Service|
+|Unit|Unit assigned to the Incident or Request Service|
 
  
 Related

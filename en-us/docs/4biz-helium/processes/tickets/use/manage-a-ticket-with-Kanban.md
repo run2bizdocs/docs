@@ -1,27 +1,25 @@
 title: Manage team with Kanban
 
 Description: Allows to help managers in the detail monitoring of the tickets attendance list, using the management technique called Kanban
+
 # Manage team with Kanban
-This option allows to help managers in the detail monitoring of the tickets attendance list, using the management technique called Kanban. Kanban uses cards (post-it and others) to indicate the attendance of production flows.
-In these cards, indications are given about a certain task, for example: "to execute" / "in execution" / "done", and whenever the flow advances its positioning changes to the right in the frame.
 
-Before getting started
---------------------------
+This option allows the team managers to monitor the details of the tickets’ attendance with the help of a Kanban styled table of users and responsibilities. Kanban uses cards to indicate the attendance of production flows. In these cards, indications are given about a certain task, for example: "to execute" / "in execution" / "done", and whenever the flow advances its positioning changes to the right in the frame.
 
-To movement the Kanban, it's necessary to have at least one ticket registered,
-in addition to have an access profile with such permission.
+## Before getting started
 
-Procedure
--------------
+It's necessary to have at least one ticket registered, in addition to have an access profile with the permission to access, execute and delegate tickets.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket view in the Attendant mode, through the button "Per attendant";
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Filter the cards view;
+2.	Click on the ticket view in the Attendant mode, through the button "Per attendant";
 
-4.  Manage the cards.
+3.	Filter the cards view;
+
+4.	Manage the cards according to what’s needed.
+
 
 Related
 -----------
