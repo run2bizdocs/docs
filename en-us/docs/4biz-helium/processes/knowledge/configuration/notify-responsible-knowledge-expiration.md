@@ -1,42 +1,28 @@
 title: Notify responsible for the knowledge expiration
 Description: Configure the e-mail notification to notify the responsible (creator and publisher) about the expiration of knowledge.
+
 # Notify responsible for the knowledge expiration
 
-This knowledge is intended to configure the e-mail notification to notify the
-responsible (creator and publisher) about the expiration of knowledge.
+This knowledge is intended to guide into the configuration of the e-mail notification to notify the responsible (creator and publisher) about the expiration of knowledge article.
 
-Before getting started
---------------------------
+## Before getting started
 
 It's necessary to have at least one knowledge registered in the knowledge base.
 
-Procedure
--------------
+**Procedure**
 
-1.  Configure the parameter 78 with the amount of the days previous to the
-    knowledge expiration, which is intended to notify the responsible for the
-    knowledge;
+1. Configure the parameter 78 with the amount of the days previous to the knowledge expiration, which is intended to notify the responsible for the knowledge;
 
-2.  Create a routine for the batch processing notification:
+2.	Create a routine for the batch processing notification:
+        •	Access the functionality through the main menu System > Batch Processing and click on "New";
+        •	Define the routine description, select the type "Java Class" and put the situation as "Active";
+        •	Select the appointment as "Daily" and indicate the time at which the routine process will happen;
+        •	In the area "Content", copy the script below:
+        •	br.com.4biz.citcorpore.quartz.job.VerificaValidadeBaseConhecimento
+        •	Click on "Save".
 
-    -   Access the functionality through the main menu System \> Batch
-        Processing and click on "New";
+3.	It's possible to customize the email template. Just access the functionality through the main menu System > Settings > Email template, select the email template with ID = "7" and make the needed change.
 
-    -   Define the routine description, select the type "Java Class" and put the
-        situation as "Active";
-
-    -   Select the appointment as "Daily" and indicate the time in with will be
-        processed the routine;
-
-    -   In the area "Content", copy the script below:
-
-        -   br.com.4biz.citcorpore.quartz.job.VerificaValidadeBaseConhecimento
-
-    -   Click on "Save".
-
-3.  If you want, it's possible to customize the email template. Just access the
-    functionality through the main menu System \> Settings \> Email template,
-    select the email template with ID = "7" and make the change.
 
 Related
 -------
@@ -45,8 +31,6 @@ Related
 
 [Create knowledge](/en-us/4biz-helium/processes/knowledge/use/create-knowledge.html)
 
-
-<i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROOaL7DsS86sLx4ilNgruEc)'
 
 !!! tip "About"
 

@@ -2,23 +2,16 @@ title: Register synonym
 Description: Intended to maintain the registration of synonyms for searches purpose in the knowledge base.
 # Register synonym
 
-This functionality is intended to maintain the registration of synonyms for searches purpose in the knowledge base.
-This feature provides various actions, such as including, changing and deleting synonyms.
+This functionality is intended to keep the registration of synonyms up to date. These can be used for searching purposes in the knowledge base. This feature provides various actions, such as adding, changing and deleting synonyms.
 
-Procedure
--------------
+**Procedure**
 
-1.  Access the functionality through the main menu Processes \> Knowledge
-    Management \> Synonym;
-
-2.  Click on "New";
-
-3.  Complete the fields available;
-
-4.  Click on "Save".
+1.	Access the functionality through the main menu Processes > Knowledge Management > Synonym;
+2.	Click on "New";
+3.	Complete the available fields;
+4.	Click on "Save".
 
 
-<i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROOaL7DsS86sLx4ilNgruEc)'
 
 !!! tip "About"
 
