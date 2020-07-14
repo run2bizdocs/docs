@@ -1,22 +1,22 @@
 title: Reactivate a ticket suspended
 Description: This functionality allows to reactivate a ticket suspended. 
-# Reactivate a ticket suspended
-This functionality allows to reactivate a ticket suspended.
 
-Before getting started
---------------------------
+# Reactivate a suspended Ticket
 
-It's necessary to have permission to reactivate a ticket suspended.
+This functionality allows the attendant to reactivate a suspended ticket.
 
-Procedure
--------------
+## Before getting started
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+It's necessary to have permission to reactivate a suspended ticket.
 
-2.  Click on the ticket and select "Reactivate" in the options menu;
+**Procedure**
 
-3.  Confirm the reactivation of the ticket.
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
+
+2.	Click on the ticket and select "Reactivate" in the options menu;
+
+3.	Confirm the reactivation of the ticket.
+
 
 Related
 -----------

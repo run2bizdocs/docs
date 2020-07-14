@@ -3,27 +3,23 @@ title:  Schedule ticket activity
 Description: This functionality schedules the activities from the ticket.
  
 # Schedule ticket activity
-This functionality schedules the activities from the ticket.
 
-Before getting started
---------------------------
+This functionality allows the current attendant to schedule an activities from the ticket.
 
-It's necessary to have previously registered the periodic activities groups to
-schedule the ticket activities.
+## Before getting started
 
-Procedure
--------------
+It's necessary to have previously registered the periodic activity groups to be able to schedule activities for a ticket.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket you want and select the option "Schedule activity" in
-    the options menu;
+1.	Access the Ticket Management process through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Click on the tab **Create Schedule** and complete the data necessary;
+2.	Click on the ticket you want and select the option "Schedule activity" in the options menu;
 
-4.  Click on "Save'. Note that the activities scheduled can be viewed
-    in **Agenda**, placed in the internal menu of the ticket.
+3.	Click on the tab Create Schedule and complete the necessary data;
+
+4.	Click on "Save'. Note that the scheduled activities can be viewed in Agenda, placed in the internal menu of the ticket.
+
 
 Related
 -----------
