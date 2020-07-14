@@ -1,31 +1,27 @@
 title: Hierarchical escalation in the attendance
 
 Description: It's possible to escalate the attendance to another hierarchical level.
+
 # Hierarchical escalation in the attendance
-The attendant, when solving a user problem, identifies that its demand is out of his/her policy and all the action possible to execute it, so, it's possible to escalate the attendance to another hierarchical level.
 
-Before getting started
---------------------------
+When working on any type of service, the attendant must first make sure that he/she will be able to attend it. If the ticket is outside his/her capabilities, 4biz offer the possibility to escalate it to another hierarchical level.
 
-To the hierarchical escalation of a ticket, it's necessary to have permission in
-the group to which the attendant belongs to.
+## Before getting started
 
-Procedure
--------------
+To correctly escalate a ticket, it's necessary for the attendant to have the right permission in the group.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Double click on the ticket;
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  Choose to which group the ticket will be directed in the field "Direct to
-    group".
+2.	Double click on the ticket;
 
-What to do next
--------------------
+3.	Choose to which group the ticket will be directed in the field "Direct to group".
 
-Verify in the home page of ticket list, if in the column "Current Group" the
-ticket was escalated to the right group.
+
+## What to do next
+
+You can verify in the Service Desk ticket list, if in the column "Current Group" the ticket was escalated to the right group.
 
 Related
 -----------

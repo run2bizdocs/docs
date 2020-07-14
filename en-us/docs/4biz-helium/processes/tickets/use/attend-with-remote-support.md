@@ -4,35 +4,28 @@ Description: The ticket attendance, sometimes, can be with the user that cannot 
 
 # Attend with remote support  
 
-The ticket attendance, sometimes, can be with the user that cannot solve only with the attendance guidance, so, the product makes available the remote support, helping to find some question.
-With the remote attendance, it's possible to see the attendance history of this type, helping with the information to a possible audit process.
+Sometimes it is necessary to take an extra step to support your end users and help them by directly connecting to their equipment. That’s why 4biz offers the possibility to do remote support. With the remote attendance feature, it is possible to see the attendance history, and to retrieve information about any connection in case an audit is necessary.
 
-Before getting started
---------------------------
+## Before getting started
 
-To begin with, the Configuration Management needs to be implemented and the inventory 
-process must be defined. In addition, the Remote Access feature must be configured.
-Finally, the attendant must have access to the requester's Configuration Item.
+To begin with, the Configuration Management needs to be implemented and the inventory process must be defined. In addition, the Remote Access feature must be configured. Finally, the attendant must have access to the requester's Configuration Item.
 
-Procedure  
--------------
+**Procedure**
 
-1.  Access the functionality through the main menu Processes \> Ticket Management
-    \> Ticket;
+1.	Access the functionality through the main menu Processes > Ticket Management > Ticket;
 
-2.  Select the ticket and click on it and then on “Open” to
-    capture it;
+2.	Select the ticket and click on it and then on “Open” to capture it;
 
-3.  Click on the toogle button (placend in upper right side of the screen) and then on
-    the Related CI tab;
+3.	Click on the toggle button (placed at the upper right side of the screen) and then on the Related CI tab;
 
-4.  Search for the configuration item and click on "Select";
+4.	Search for the configuration item and click on "Select";
 
-5.  Click on the information button “Info”;
+5.	If further information about the CI is needed click on the information button “Info”;
 
-6.  Click on the icon “Remote access”;
+6.	Click on the icon “Remote access”;
 
-7.  Start the remote attendance.
+7.	Start the remote attendance.
+
 
 Related
 -----------
