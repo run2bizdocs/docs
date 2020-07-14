@@ -3,56 +3,38 @@ title:  Register ticket execution
 Description: This functionality allows to register the ticket execution.
 
 # Register ticket execution
-This functionality allows to register the ticket execution.
 
-Before getting started
---------------------------
+This functionality allows the attendant to register the ticket execution.
 
-To execute the ticket, it's necessary to have permission to perform the
-operation and previously register the cause of incident and the solution
-category. It's necessary to first enable parameter 298 (set to "S").
 
-IT's necessary to also enter in parameter 253 the e-mail ID chosen to register
-occurrence and the notification e-mail template ID in parameter 251.
+## Before getting started
+
+In order to execute the ticket, it's necessary for the attendant to have permission to perform the operation and to previously register the cause of incident and the solution category. It's also necessary to enable parameter 298 (set to "S") first.
+Lastly, it's necessary to also enter the e-mail ID chosen to register occurrence in parameter 253 and the notification e-mail template ID in parameter 251.
+
 
 !!! Abstract "ATTENTION"  
-    So that the option "Write Solution / Response in the Knowledge Base" is
-    available by checking the "Resolved" option of the ticket, you must
-    configure parameters 182 and 192
 
-Procedure
--------------
+    The option "Write Solution / Response in the Knowledge Base" will be available by checking the "Resolved" option of the ticket only after configuring parameters 182 and 192.
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+**Procedure**
 
-2.  Click on the ticket you want and then on the icon “Open”;
+1.	Access the functionality Ticket Management through the main menu Processes > Request and Incident Management > Service Request and Incident;
 
-3.  In "Execution", click on the "Add note" icon and complete the necessary
-    fields (make a pertinent comment, register the date and time spent in the
-    execution of the ticket). You can allow this information to be viewed by the
-    requester when you select the "Visible to Applicant" field. Therefore, click
-    on "Save".
+2.	Click on the ticket you want and then on the icon “Open”;
+
+3.	In "Execution", click on the "Add note" icon and complete the necessary fields (make a pertinent comment, register the date and time spent in the execution of the task or ticket). You can allow this information to be viewed by the requester when you select the "Visible to Applicant" field. Click on "Save";
+
 
     !!! Abstract "NOTE"
 
-        The registration of occurrences related to the ticket is done through the
-        button "Add note". The history of all ticket instances can be viewed by
-        clicking the icon  “History” , located in the upper right corner of the
-        screen.  
+        The registration of occurrences related to the ticket is done through the button "Add note". The history of all ticket instances can be viewed by clicking the “History” icon, located in the upper right corner of the screen. 
 
-4.  If you have completed the ticket service, in the "Closure" area, change the
-    status of the ticket to "Solved", just click on the situation to change.
-    Also inform the data on the solution performed:
+4.  4.	If you have completed the service, in the "Closure" area, change the status of the ticket to "Solved”, this will change it’s status and also inform the data on the solution performed;
     
-    -   If the ticket type is Incident or Request, complete the required fields
-    (Cause, Solution Category, Cause Detail, Response Solution, Set whether the
-    "Answer Solution" in the Knowledge Base and whether the solution is
-    temporary). If you chose to "Save the Solution/Response in the Knowledge
-    Base", when you save the ticket, the knowledge is created and linked to the
-    ticket;
+    - If the ticket type is Incident or Request, complete the required fields (Cause, Solution Category, Cause Detail, Response Solution, Set whether the "Answer Solution" is in the Knowledge Base and whether the solution is temporary). If you chose to "Save the Solution/Response in the Knowledge Base", when you save the ticket, a new knowledge article will be created and linked to the ticket;
 
-5.  Click on the options button and then "Save" to complete the operation.
+5. Click on the options button and then "Save" to complete the operation.
 
 
 Related
