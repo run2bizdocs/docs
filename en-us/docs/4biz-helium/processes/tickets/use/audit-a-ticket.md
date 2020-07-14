@@ -1,38 +1,31 @@
 title: Audit a ticket
 Description: Allows to audit the tickets created. 
+
 # Audit a ticket
+
 This functionality allows to audit the tickets created.
 
-Before getting started
---------------------------
+## Before getting started
 
-It's necessary to previously register the tickets and have access permission.
+It's necessary to previously have some tickets registered and for the auditing user to have the pertinent access permission.
 
-Procedure
--------------
+**Procedure**
 
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Ticket Management \> Ticket;
+1.	Access the functionality Ticket Management through the main menu Processes > Ticket Management > Ticket;
 
-2.  Click on the first button located in the upper left side of the screen and then
-    on "Audit";
+2.	Click on the first button located in the upper left side of the screen and then on "Audit";
 
-3.  Complete the filters to audit the tickets you want;
+3.	Complete the filters to audit the tickets you want;
 
-4.  Click on the icon symbolized by a magnifying glass to define the filters
-    necessary to verify the ticket instances history to audit.
+4.	Click on the magnifying glass icon to define the filters necessary to verify the ticket instances history to audit.
+
 
 !!! Abstract "ATTENTION"
 
-    In the Ticket Management interface, specifically in the item "Auditing",
-    when trying to configure the audit of an open ticket (define the start and
-    end dates in the filter), the following error may occur: the system will
-    display the "Invalid Date" message. This is because the functionality
-    requires that the language set in the system and browser used be the same.
+    In the Ticket Management interface, specifically in the item "Auditing", when trying to configure the audit of an open ticket (define the start and end dates in the filter), the following error may occur: the system will display the "Invalid Date" message. This is because the functionality requires that the language set in the system and browser used be the same.
+    
+    If this requirement is not covered and this difference occurs in the languages, when auditing the tickets, the system will display a message and will not be able to retrieve the report you want.
 
-    If this requirement is not observed and this difference occurs in the
-    languages, when auditing the tickets, the system will display a message and
-    will not be able to receive the report you want.
 
 
 

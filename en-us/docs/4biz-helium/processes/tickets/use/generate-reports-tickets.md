@@ -1,243 +1,194 @@
 title: Generate reports - Request and Incident management  
 Description: It allows you to generate reports in various ways about request and indent management
+
 # Generate reports - Request and Incident management
 
-##Generate reports of causes and solutions
+## Generate reports of causes and solutions
 
-This report has the objective to present the causes and solution of the service
-requests.  
+This report has the objective to present the causes and solution of the service requests.
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Managment \> Causes and Solutions Control;
+1.	Access the functionality through the main menu Reports > Incident/Request Managment > Causes and Solutions Control;
 
-2.  Set the filters as needed;
+2.	Set the filters as needed;
 
-3.  To generate a graphic report, click on "Generate chart PDF" to create the
-    report in PDF and/or on "Generate XLS chart" to create the report in Excel;
+3.	To generate a report with graphs, click on "Generate chart PDF" to create the report in PDF and/or on "Generate XLS chart" to create the report in Excel;
 
-4.  To generate report with detailed information, click on "Generate Analytical
-    Report PDF" to create the detailed report in PDF and/or on "Generate
-    Analytical Report XLS" to create the detailed report in Excel.
+4.	To generate report with detailed information, click on "Generate Analytical Report PDF" to create the detailed report in PDF and/or on "Generate Analytical Report XLS" to create the detailed report in Excel.
 
-##Generate report Gantt
+## Generate report Gantt
 
-This report has the objective of present the service incidents and requests in
-Gantt chart.
+This report has the objective of presenting the service Incidents and Requests in a Gantt chart.
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Gantt;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Gantt;
 
-2.  Set the filters as needed;
+2.	Set the filters as needed;
 
-3.  Click on "Filter" to generate the Gantt chart.
+3.	Click on "Filter" to generate the Gantt chart.
 
-##Generate workload report
 
-This report has the objective of present the calculation of hours worked for
-each employee and/or group.
+## Generate workload report
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Workload Report;
+This report has the objective of presenting the calculation of hours worked for each employee and/or group.
 
-2.  Set the filters as needed;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Workload Report;
 
-3.  Click on "Generate PDF" to create the report in PDF and/or click on
-    "Generate XLS" to create report in Excel.
+2.	Set the filters as needed;
+
+3.	Click on "Generate PDF" to create the report in PDF and/or click on "Generate XLS" to create report in Excel.
+
 
     !!! Abstract "ATTENTION"
         
-        When a person "captures" a request, or click on "save and keep task", the time starts to be counted to this person, because the]
-        date, time and user information is stored, stopping only when the request is paused, canceled, completed, or when another person 
-        captures that request.
+        When a person "captures" a request, or click on "save and keep task", the time starts to be counted to this person, because the date, time and user information is stored, stopping only when the request is suspended, canceled, completed, or when another person captures that request.
 
-##Generate quantitative report
+## Generate quantitative report
 
-This report has the objective of present the amount of service requests
-according to the status entered.
+This report has the objective of presenting the amount of service requests according to the status entered.
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Quantitative;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Quantitative;
 
-2.  Set the filters as needed;
+2.	Set the filters as needed;
 
-3.  Click on "Generate PDF" to create the report in PDF and/or click on
-    "Generate XLS" to create the report in Excel.
+3.	Click on "Generate PDF" to create the report in PDF and/or click on "Generate XLS" to create the report in Excel.
+
     
     !!! Abstract "NEW"
     
-        Now the report also prints a table with the quantitative per unit 
-        and another with the quantitative per unit and service
+        Now the report also prints a table with the quantity per unit and another with the quantity per unit and service
 
-##Generate report quantitative by services completed (synthetic)
 
-This report has the objective of present the report of requests/incidents
-(services) completed.
+## Generate report quantitative by services completed (synthetic)
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Quantitative by Services Completed (Synthetic);
+This report has the objective of presenting the report of completed Requests/Incidents (services).
 
-2.  Set the filters as needed;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Quantitative by Services Completed (Synthetic);
 
-3.  Click on "Generate PDF" to create the report in PDF and/or on "Generate XLS"
-    to create the report in Excel.
+2.	Set the filters as needed;
 
-##Generate report of services completed (analytical)
+3.	Click on "Generate PDF" to create the report in PDF and/or on "Generate XLS" to create the report in Excel.
 
-This report has the objective of present the report of request/incident
-(services) completed.
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Quantitative of Services Completed (Analytical);
+## Generate report of services completed (analytical)
 
-2.  Set the filters as needed;
+This report has the objective of present the report of completed Requests/Incidents (services).
 
-3.  Click on "Generate PDF" to create the report in PDF and/or on "Generate XLS"
-    to create a report in Excel.
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Quantitative of Services Completed (Analytical);
 
-##Generate report of satisfaction survey
+2.	Set the filters as needed;
 
-This report has the objective of present the information about the satisfaction
-survey in relation to the attendance of the service requests.
+3.	Click on "Generate PDF" to create the report in PDF and/or on "Generate XLS" to create a report in Excel.
+
+
+## Generate report of satisfaction survey
+
+This report has the objective of presenting the information about the satisfaction surveys in relation to the attendance of the service requests.
 
 ### Before getting started
 
-It's necessary to have opened and closed call that have the satisfaction survey
-linked.  
+It's necessary to have at least one ticket gone through all it’s cycle so that a satisfaction survey is generated and linked to it.
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Search Satisfaction;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Search Satisfaction;
 
-2.  Set the filters as needed;
+2.	Set the filters as needed;
 
-3.  Select how to create the report when click on "Generate PDF", "Generate XLS"
-    or "Export CSV".
+3.	Select how to create the report when click on "Generate PDF", "Generate XLS" or "Export CSV".
 
-##Generate service requests report
 
-This report has the objective of present the registration history of the service
-request.
+## Generate service requests report
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Search Incident/Request;
+This report has the objective of presenting the registration history of Request Services.
 
-2.  Set the filters as needed and click on "Search". It will appear the
-    requests;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Search Incident/Request;
+
+2.	Set the filters as needed and click on "Search";
+
 
     !!! Abstract "ATTENTION"
 
-        The amount of requests listed, by page, is regarding the amount set
-        in the parameter "261 - amount of registers returned in the advanced
-        search".
+        Parameter 261 “Amount of registers returned in the advanced search", allows to set the amount of requests listed, by page.
 
-3.  In the requests presented in the list, it is possible to perform the
-    following actions: consult ticket history, view request/incident, view
-    attachments and reopen the ticket;
+3.	In the requests presented in the list, it is possible to perform the following actions: consult ticket history, view request/incident, view attachments and reopen the ticket;
 
-4.  If you want to generate the report with summary information of the research
-    that was performed, click the "Generate XLS" button to generate the report
-    in Excel format;
+4.	If you want to generate the report with summary information of the research that was performed, click the "Generate XLS" button to generate the report in Excel format;
 
-5.  If you want to generate the report with detailed information about the
-    research that was performed, click the "Generate PDF Detailed Report" button
-    to generate the detailed report in PDF format and / or the "Generate XLS
-    Detailed Report" button to generate the detailed Excel report .
-
-##Generate request report per executor
-
-This report has the objective of present the service request per executor.
-
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Request per executor;
-
-2.  Set the filters as needed;
-
-3.  Click on “Generate PDF” to create the report in PDF and/or on “Generate XLS”
-    to create the report in Excel.
-
-##Generate request approval report
-
-This report has the objective of present the service requests that were and were
-not approved.
-
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Search Approval Requests;
-
-2.  Set the filters as needed;
-
-3.  Click on “Generate PDF” to create report in PDF and/or click on “Generate
-    XLS” to create report in Excel.
-
-##Generate request execution report
-
-This report has the objective of present the responsible for executing the
-service request.
-
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Request Execution Report;
-
-2.  Set the filters as needed;
-
-3.  Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to
-    create the report in Excel.
-
-##Generate report of reopened request
+5.	If you want to generate the report with detailed information about the research that was performed, click the "Generate PDF Detailed Report" button to generate the detailed report in PDF format and / or the "Generate XLS Detailed Report" button to generate the detailed Excel report .
 
 
-This report has the objective of present all request that were reopened in a
-period.
+## Generate request report per executor
 
-1.  Access the functionality through the main menu Reports \> Incident/Request
-    Management \> Reopened Request;
+This report has the objective of presenting the Request services per executor.
 
-2.  Set the filters as needed;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Request per executor;
 
-3.  Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to
-    create the report in Excel.
+2.	Set the filters as needed;
 
-##Generate top 10 report of incidents/requests
+3.	Click on “Generate PDF” to create the report in PDF and/or on “Generate XLS” to create the report in Excel.
 
 
-This report has the objective of present the top 10 incidents/requests according
-to the filters choose by the user.  
+## Generate request approval report
 
-1.  Access the functionality through the main menu Reports \> Incidents/Requests
-    Management \> Top 10 Report of Incidents/Requests;
+This report has the objective of presenting the Request services based on their approval status.
 
-2.  Set the filters as needed;
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Search Approval Requests;
+
+2.	Set the filters as needed;
+
+3.	Click on “Generate PDF” to create report in PDF and/or click on “Generate XLS” to create report in Excel.
+
+
+## Generate request execution report
+
+This report has the objective of presenting the tickets by the responsible for executing them.
+
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Request Execution Report;
+
+2.	Set the filters as needed;
+
+3.	Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to create the report in Excel.
+
+
+## Generate report of reopened request
+
+This report has the objective of presenting all tickets that were reopened in a defined period.
+
+1.	Access the functionality through the main menu Reports > Incident/Request Management > Reopened Request;
+
+2.	Set the filters as needed;
+
+3.	Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to create the report in Excel.
+
+
+## Generate top 10 report of incidents/requests
+
+This report has the objective of present the top 10 incidents/requests according to the filters chosen by the user.
+
+1.	Access the functionality through the main menu Reports > Incidents/Requests Management > Top 10 Report of Incidents/Requests;
+
+2.	Set the filters as needed;
+
 
     !!! Abstract "ATTENTION"
 
-        When the user wants to analysis all requests, setting the value to
-        “All” for the filter “Top List”, it can exists difference between the number
-        of requests of the “Top 10 report of locations that opened more
-        requests/incidents”, with the number that was found in other reports, due
-        the no obligation of a request being linked to a location.
+        When the user wants to analyze all tickets, setting the value to “All” for the filter “Top List”, could result in a difference between the number of requests of the “Top 10 report of locations that opened more requests/incidents” and the number that was found in other reports, due the fact that there’s no obligation of a request being linked to a location.
 
-        The field “finish date” will be used to filter the period of the
-        “Top 10 report of execution groups that solved more requests/incidents”, so,
-        it can vary in the number of requests opened in the period.
-
-        The system will present all unities and services actives, regarding
-        the contract selected.
-
-3.  Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to
-    create the report in Excel.
-
-##Generate report of incident/request by service
+        The field “finish date” will be used to filter the period of the “Top 10 report of execution groups that solved more requests/incidents”, so, it can vary in the number of requests opened in the period.
+        
+        The system will present all Active units and services, regarding the contract selected.
 
 
-This report has the objective of present the amount of request and incident that
-were requested, regarding the service catalog and portfolio.
+3.	Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to create the report in Excel.
 
-1.  Access the functionality through the main menu Reports \> Quantitative
-    Report of Incidents/Requests by Portfolio and Service Request;
 
-2.  Set the filters as needed;
+## Generate report of incident/request by service
 
-3.  Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to
-    create the report in Excel.
+This report has the objective of presenting the amount of tickets that were requested, regarding the service catalog and portfolio.
 
-<i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RNemh0QXhtOXntvZ6G6o2B_)'
+1.	Access the functionality through the main menu Reports > Quantitative Report of Incidents/Requests by Portfolio and Service Request;
+
+2.	Set the filters as needed;
+
+3.	Click on “Generate PDF” to create report in PDF and/or on “Generate XLS” to create the report in Excel.
+
 
 !!! tip "About"
 
