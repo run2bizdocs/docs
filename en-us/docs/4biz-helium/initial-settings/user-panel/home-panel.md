@@ -1,15 +1,9 @@
 title: Home panel
 Description: It's possible to add dashboards from a template or selecting manually.
-# Home panel
 
-The home panel in the system main screen. In this panel, it's possible to
-add dashboards from a template or selecting manually. In this area, it's also
-available resources to create shortcuts (links), view reports and dashboards. Contains relevant information.
-
-* Change Account Info
-* Create Shortcuts
-* Create your Dashboard
-* Add widgets to your Dashboard
+# Smart Decision panel
+ 
+The Smart Decision panel is displayed on the system's home page. It organizes a set of dashboards with quick access to links, reports and widgets. Dashboards can be completely new or created using templates.
 
 
 Related
