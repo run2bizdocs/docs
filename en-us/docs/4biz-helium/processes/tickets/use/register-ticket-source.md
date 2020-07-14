@@ -3,19 +3,17 @@ title:  Register ticket source
 Description: Provides a variety of actions, such as including, changing, and deleting several types of teams or areas that can create a ticket
 
 # Register ticket source
-This feature provides a variety of actions, such as including, changing, and deleting several types of teams or areas that can create a ticket
 
-Procedure
--------------
+This feature provides a variety of actions, such as adding, changing, and deleting which types of sources are allowed for ticket creation.
 
-1.  Access the functionality Ticket Source through the main menu Processes \>
-    Request and Incident Management \> Source of Requests;
+**Procedure**
 
-2.  Complete the mandatory field;
+1.	Access the functionality Ticket Source through the main menu Processes > Request and Incident Management > Source of Requests;
 
-3.  Click on "Save".
+2.	Complete the mandatory fields;
 
-<i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RNrJnhiXj3dbmgsm9-quhfz)'
+3.	Click on "Save".
+
 
 !!! tip "About"
 

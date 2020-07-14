@@ -1,43 +1,36 @@
 title: Create escalation rule
 
 Description: Allows to create escalation rules in order provide a perspective of impact to the company by managing the attendance of tickets (and its requests and incidents) within a pre-established adequate time
+
 # Create escalation rule
-This functionality allows to create escalation rules in order provide a perspective of impact to the company by managing the attendance of tickets (and its requests and incidents) within a pre-established adequate time. When creating rules for the notification of the responsible when the ticket is at critical level of rupture of its SLA, is possible to avoid this through preventive actions and escalate this service to other executor groups and thus respect their time of attendance.
-This feature provides a variety of actions, such as including, changing, and deleting the escalation rule.
 
-Before getting started
---------------------------
+This functionality allows the Administrator to create escalation rules so that notifications are sent and, if needed, to escalate tickets to another executor group for its timely and proper attendance, therefore preventing any delay. This feature provides a variety of actions, such as adding, changing, and deleting escalation rules.
 
-To create escalation rules, it's necessary to set the parameter **190** with
-value **Y**, and previously register the contracts, employees, groups, services
-portfolios and the automatic action of escalation type.
+## Before getting started
 
-In the file **4biz.cfg**, it's necessary configure the
-properties **START\_MONITORA\_INCIDENTES** informing the parameter TRUE
-(only the operating system administrator of the application server makes this
-adjustment).
+To create escalation rules, it's necessary to set the parameter 190 with value Y, and previously register the contracts, employees, groups, services portfolios and the automatic action of escalation type.
 
-Procedure
--------------
+In the file 4biz.cfg, it's necessary configure the properties START_MONITORA_INCIDENTES informing the parameter TRUE (only the operating system administrator of the application server makes this adjustment).
 
-1.  Access the functionality Escalation Rules through the main menu Processes \>
-    Request and Incident Management \> Escalation rules;
 
-2.  Click on "New";
+**Procedure**
 
-3.  Enter the general data of the Escalation Rule (Title, Status, Requester, the
-    attendance Executor Group, Portfolio and Contract to be linked to rule, and
-    impact and urgency of ticket attendance);
+1. Access the functionality Escalation Rules through the main menu Processes > Request and Incident Management > Escalation rules;
 
-4.  Enter the specific data about the Escalation Rule:  
+2.	Click on "New";
 
-| **Field** |                                                **Objective**                                               |
-|:---------:|:----------------------------------------------------------------------------------------------------------:|
-|    Time   |                      Enter the deadline for the escalation/notification of the ticket                      |
-|   Format  |    Enter if the rule is regarding to minutes (time of the rule) or percentage (regarding the time o SLA)   |
-| Condition | Select the mark of escalation/notification (if it will happen before or after the rupture of the deadline) |
-|    Date   |   Select the date of reference rule (the date of its creation, date of last occurrence or its limit date)  |
-|   Action  |                              Link the type of automatic action to the new rule                             |
+3.	Enter the general data of the Escalation Rule (Title, Status, Requester, the attendance Executor Group, Portfolio and Contract to be linked to rule, and impact and urgency of ticket attendance);
+
+4.	Enter the specific data about the Escalation Rule:
+
+|Field|Objective|
+|-|-|
+|Action|Link the type of automatic action to the new rule|
+|Condition|Define if the time set is before or after the SLA time mark is met|
+|Date|Select the date of reference rule (the date of its creation, date of last occurrence or its limit date)|
+|Format|Enter if the rule is applied based on minutes passed or percentage of total SLA time|
+|Time|Enter the deadline for the escalation/notification of the ticket|
+
 
 Related
 -----------
