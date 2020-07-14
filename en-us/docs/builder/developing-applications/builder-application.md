@@ -1,42 +1,32 @@
 title: Builder Application
 Description: Builder Application
+
 # Builder Application
 
-Builder Application is a composition of elements that interact with each other in order to compose a set of functionalities integrated with 4biz and legacy systems. 
+A Builder Application is a set of elements that, combined, provide functionalities that can be used stand-alone, integrated with 4biz or with legacy systems.
 
-The main elements of the 4biz Builder are Business object, Business Rules, Forms, Flows and Business Processes
-
-Before getting started
-----------------------
-
-Must have the DB Connection created.
-
-Procedure
---------
-
-1.	Access the functionality through navigation in the menu Builder > Management > Application;
-
-2.	Click on "New";
-
-3.	Complete the fields available for “Application”; 
-
-4.	Click on "Save” (the left Treview will be filled);
-
-5.	Create either Business Object, Business Rules, Forms, Flows and Business Processes(the right area will open the registration for each element (on its context);
-
-6.	Save each one separately;
-
-7.	Click on "Save” on Application.
+The elements of a Builder application are Business Objects, Business Rules, Forms, Integration Flows and Business Processes.
 
 
-!!! Abstract "ATTENTION"
+## Before getting started
 
-    All the fields in the Items list will be used as filter to restrict the items listed.
+A Builder Database Connection must exist.
 
 
-![APP BUILDER](images/builder-4.png)
+**Procedure**
 
-Figure 1 - Builder application
+1.	Access Builder Application configuration page through navigation in the menu Builder > Management > Application;
+
+2.	Click on the "New" button;
+
+3.	Fill in requested fields in the “Identification” tab;
+
+4.	Click on the "Save” button.  The left side of the screen will be populated with Builder elements menus for the new application;
+
+5.	Create, if necessary, Business Object, Business Rules, Forms, Flows and Business Processes. Note that none of these elements are mandatory but an application must have at least one of them, the most common of which are business objects and forms;
+
+6.	Save each element separately.
+
 
 
 !!! tip "About"

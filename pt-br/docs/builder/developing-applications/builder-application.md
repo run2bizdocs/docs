@@ -1,38 +1,32 @@
 title: Aplicação Builder
 Description:Aplicação Builder
+
 # Aplicação Builder
 
+Uma Aplicação Builder é um conjunto de elementos que, integrados, proveem funcionalidades que podem ser utilizadas de forma individualizada (stand-alone), integradas ao 4biz ou a sistemas legados.
+
+Os elementos de uma aplicação Builder são Objetos de Negócio, Regras de Negócio, Formulários, Fluxos de Integração e Processos de Negócio.
 
 
-A Aplicação Builder é uma composição de elementos que interagem entre si para
-compor um conjunto de funcionalidades integradas ao 4biz e sistemas legados.
+## Antes de começar
 
-Os principais elementos do 4biz Builder são Objetos de Negócio, Regras de
-Negócio, Formulários, Fluxos e Processos de Negócio.
+É necessário ter criado uma Conexão de Banco de Dados.
 
-Antes de começar
---------------
+**Procedimento**
 
-É necessário ter criado a Conexão DB.
+1.	Acessar a funcionalidade pelo menu de navegação Builder > Gerenciamento > Aplicação;
 
-Procedimento
------------
+2.	Clicar em “Cadastrar”;
 
-1.  Acessar a funcionalidade pelo menu de navegação Builder \> Gerenciamento \> Aplicação;
 
-2.  Clicar em “Cadastrar”;
+3.	Preencher os campos solicitados na aba “Identificação”;
 
-3.  Preencher os campos disponíveis para “Aplicação”;
+4.	Clicar em “Salvar”. O lado esquerdo da tela será populado com os menus dos elementos para a nova aplicação;
 
-4.  Clicar em “Salvar” (a Treeview esquerda será preenchida);
+5.	Criar, se necessário, Objeto de Negócio, Regras de Negócio, Formulários, Fluxos e Processos de Negócio. Note que nenhum desses elementos é obrigatório mas uma aplicação deve ter ao menos um deles, sendo os mais comuns objeto de negócio e formulário;
 
-5.  Criar Objeto de Negócio, Regras de Negócio, Formulários, Fluxos e Processos
-    de Negócio (a área direita abrirá o registro para cada elemento em seu
-    contexto);
+6.	Salvar cada elemento separadamente.
 
-6.  Salvar cada uma separadamente;
-
-7.  Clicar em “Salvar” na Aplicação.
 
 
 !!! Abstract "ATENÇÃO"
@@ -40,10 +34,8 @@ Procedimento
     Todos os campos na lista de Itens serão usados como filtro para restringir
     os itens listado.
     
-   
-![APP Builder](images/builder-4.png)
+  
 
-Figura 1 - Aplicação Builder
 
 !!! tip "About"
 
