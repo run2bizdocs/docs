@@ -1,35 +1,35 @@
 title: Register menu
 Description: This feature provides a variety of actions, such as including, changing, and deleting a menu. 
-# Register menu
 
-This functionality is intended to allow the users to configure the menu items according to their preferences. Provide better usability in accessing menus, where items can be arranged as your needs.
-This feature provides a variety of actions, such as including, changing, and deleting a menu.
+# Menu registration
 
-Procedure
--------------
+It is possible to customize the 4biz navigation menus layout to adapt their usability to the needs of each organization. The options and features default position can be rearranged to create a new presentation.
 
-1.  Access the functionality through the main menu General Registration \> Menu;
+!!! info "Important"
 
-2.  Complete the fields available;
+    Changing menu entries will affect all users.
 
-3.  The "Generate XML" button is to generate a file in ".xml" of menus;
 
-4.  The "Update Menus" button is to update the menu;
+**Procedure**
 
-5.  Be careful about running the "Update Menus" button, because all the
-    registration changes of the menus will be lost since the last generation of
-    XML. It's recommended, therefore, the following execution sequence: 
-    
-    (1) "Generate XML" button 
-    
-    (2) "Update Menus".
+!!! warning "Attention"
 
-6.  Click on "Save".
+    Be very careful when executing the "Update Menus" button. All previous changes will be lost. Therefore, it is recommended to always follow the next sequence of execution:
+    (1) "Generate XML" button
+    (2) "Update Menus" button.
 
-What to do next
--------------------
 
-Access the main menu to verify the menu created.
+
+1. Access the functionality through the Navigation Menu> General Settings> Menu;
+
+2. Fill in the available fields;
+
+3. Click on "Generate XML" to create the file in the XML format including the new menu configuration. This file is hosted on the server and is not available for download;
+
+4. Click on "Update Menus" to update the menu structure;
+
+5. Click on "Save".
+
 
 !!! tip "About"
 
