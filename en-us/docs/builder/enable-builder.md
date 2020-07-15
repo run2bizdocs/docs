@@ -2,13 +2,17 @@ Title: Enable Builder
 
 # Enable Builder
 
-For 4biz/Builder integration to work:
+The requisites for enabling Builder in 4Biz are:
 
-- The 4biz version is 8.0.0.0 or higher
-- 4biz configured for HTTPS access: //
-- The integration parameters are configured in the 4biz 
+- 4biz version is Helium or higher;
 
-![Builder Conection][1]
+- 4biz configured for HTTPS access;
+
+- Configure the following parameters.
+
+
+--
+
 
 - **Parameter 309:**
 
@@ -22,10 +26,12 @@ For 4biz/Builder integration to work:
     https://localhost:8443/cit-esi-web
     ```
 
+Note that if Builder does not reside on the same machine as 4Biz, localhost must be changed to the server name on which Builder is installed.
+
 - **Parameter 311:**
 
     ```sh
-    4biz.local\builder.user
+    domain\username
     ```
 
-[1]:images/builder-conection.png
+For the integration to work correctly it is necessary that the configuration of Builder username contains the identification of the domain which it belongs. For example: **4biz.local\builder**.

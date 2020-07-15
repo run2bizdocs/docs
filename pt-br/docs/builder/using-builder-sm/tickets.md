@@ -1,46 +1,36 @@
 title: Usando aplicativos Builder em Tickets
 Description: Usando aplicativos Builder em Tickets
+
 # Usando aplicativos Builder em Tickets
 
-Existem duas formas de interface Builder com um Ticket:
+Existem duas formas de usar formulários Builder em Tickets:
 
-1.  Você pode criar um **formulário que será uma fonte de informação para o processo de uma solicitação**, assim você poderá:
+1.	Para inserir um **formulário no processo de solicitação de serviço**:
 
-  a)  Criar um formulário para o objeto de negócio;
+  a)  Criar um formulário Builder ou editar um formulário existente;
 
-  b)  Criar um template SM;
-    
-   ![create](images/builder-sm-1.jpg)
-
-   Figura 1 - Criar template SM
+  b)  Clicar no botão “Criar template para portfólio” e escolher o tipo de página;
+  
+  --
     
   c)  Vincular o template para a requisição/incidente;
     
-   ![create](images/builder-sm-2.jpg)
-
-   Figura 2 - Vincular template
+  --
     
-  d)  Usar o template na requisição/incidente.
+  d)  O template será inserido na tela de solicitação de serviços de requisição ou incidente.
     
-   ![create](images/builder-sm-3.jpg)
-
-   Figura 3 - Template use
+  --
     
 
-2.  Você pode **usar um formulário durante a resolução (etapas) do fluxo de processo** na requisição/incidente;
+2\. Para **usar um formulário durante a resolução (etapas) do fluxo de processo** de requisição/incidente;
 
-  a)  Selecionar usuário de tarefa
-    
-   ![create](images/builder-sm-4.png)
+  a) Selecionar usuário de tarefa;
+   
+  --
 
-   Figura 4 - Vincular template
-    
-
-  b)  Vincular o formulário a uma etapa do Fluxo SM na guia "Interface" de uma tarefa de usuário
-    
-   ![create](images/builder-sm-13.png)
-
-   Figura 5 - Interface
+  b)  Vincular o formulário a uma etapa do Fluxo ITSM na guia "Interface" de uma tarefa de usuário.
+  
+  --
     
 
 !!! tip "About"

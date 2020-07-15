@@ -3,47 +3,34 @@ Description: Use Builder functionalities in Tickets
 
 # Use Builder functionalities in Tickets
 
-There are two ways of interface Builder with a Ticket:
+There are two ways to use Builder forms in Tickets:
 
-1.  You can create a **form that will be a source of information for the
-    process** of a request so you will:
+1.	To insert a **form in a service request**:
 
-   a)  Create a form for the business object;
+   a)  Create a new Builder form or edit an existing one;
 
-   b)  Create the SM template;
+   b) Click on the “Create portfolio template” button and select the type of page;
     
-   ![create](images/builder-sm-1.jpg)
+   --
 
-   Figure 1 - Create SM template
-    
    c)  Link the template to a request/Incident;
-    
-   ![create](images/builder-sm-2.jpg)
 
-   Figure 2 - Link template
+   --
+     
+   d)  The template will be inserted in the request/incident service request screen.
     
-   d)  Use the template on a request/Incident.
-    
-   ![create](images/builder-sm-3.jpg)
-
-   Figure 3 - Template use
+   --
     
 
-2.  You can **use a form during the resolution (steps) of the process flow** in
-    the request/incident:
+2.  To **use a form during the resolution (steps) of a process flow** in the request/incident:
 
    a)  Select a User Task.
     
-   ![create](images/builder-sm-4.png)
-
-   Figure 4 - Link template
+   --
     
-
-   b)  Link the form to a SM Flow step in the “Interface” tab of a User Task.
+   b)  Link the form to an ITSM Flow step in the “Interface” tab of a User Task.
     
-   ![create](images/builder-sm-5.png)
-
-   Figure 5 - Interface
+   --
     
 
 !!! tip "About"
