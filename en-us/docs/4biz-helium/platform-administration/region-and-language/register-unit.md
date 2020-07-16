@@ -1,19 +1,15 @@
 title: Register unit
 Description: This functionality is intended to register the unities where the employees are placed. 
+
 # Register unit
 
-This functionality is intended to register the unities where the employees are placed.
-This feature provides a variety of actions, such as including, changing, and deleting an unit.
+This functionality is intended to register the unities where the employees are placed. This feature provides a variety of actions, such as including, changing, and deleting an unit.
 
+## Before getting started
 
-Before getting started
---------------------------
+To register the unit, it’s necessary to load the countries and configure parameters 254 and 331.
 
-To register the unit, it's necessary to load the countries and configuration of
-parameters 254 and 331.
-
-Procedure
--------------
+**Procedure**
 
 1.  Access the functionality through the main menu General Registration \>
     Personnel Management \> Unit;
@@ -25,8 +21,7 @@ Procedure
 
 !!! Abstract "NOVELTY"
 
-    In this version you can edit the information in the Latitude and Longitude
-    fields.
+    In this version you can edit the information in the Latitude and Longitude fields.
 
 
 Related

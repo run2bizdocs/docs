@@ -1,18 +1,13 @@
 title: Configure parametrization - problem
 Description: Allow the execution/use of this process, it may be possible to define the default flow name for the problem, to define whether the responsible party and the executing group will be notified when the time to workaround the problem has expired , among other viable actions.
+
 # Configure parametrization - problem
 
+Problem management manages the lifecycle of all problems from the first identification, through investigation, documentation and eventual removal. 
 
-Problem management manages the lifecycle of all problems from the first
-identification, through to investigation, documentation and eventual removal.
-The "Problem" parametrization must be made to allow the execution/use of this
-process, it may be possible to define the default flow name for the problem, to
-define whether the responsible party and the executing group will be notified
-when the time to workaround the problem has expired , among other viable
-actions.
+The "Problem" parametrization must be made to allow the execution/use of this process, it may be possible to define the default flow name for the problem, to define whether the responsible part and the executing group will be notified when the time to workaround the problem has expired , among other viable actions.
 
-Procedure
---------
+**Procedure**
 
 1.  Access the functionality through the main menu Parametrization \> Problem
     Management;
