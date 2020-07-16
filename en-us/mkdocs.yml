@@ -248,8 +248,6 @@ nav:
       - 4biz-helium/platform-administration/logs-and-auditing/audit040-configure.md
       - 4biz-helium/platform-administration/logs-and-auditing/system-log.md
       - 4biz-helium/platform-administration/logs-and-auditing/system-audit.md
-    - Mobile:
-      - 4biz-helium/platform-administration/mobile/webservice.md
   - Tracker:
     - 4biz-helium/tracker/overview.md
     - Create a tracker:

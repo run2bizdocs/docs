@@ -200,8 +200,6 @@ nav:
       - 4biz-helium/platform-administration/logs-and-auditing/audit040-configure.md
       - 4biz-helium/platform-administration/logs-and-auditing/system-log.md
       - 4biz-helium/platform-administration/logs-and-auditing/system-audit.md
-    - Mobile:
-      - 4biz-helium/platform-administration/mobile/webservice.md
     - Parámetros:
       - 4biz-helium/platform-administration/parameters-list/configuration-parametrization-mobile.md
       - 4biz-helium/platform-administration/parameters-list/configure-parametrization-change.md
