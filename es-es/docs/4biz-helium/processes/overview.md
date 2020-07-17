@@ -2,7 +2,7 @@ title: Visión General
 
 # ¿Qué es 4biz?
 
-4biz, desarrollado por 4biz Corporation®, es una **plataforma que
+4biz, desarrollado por Run2biz Corporation®, es una **plataforma que
 conecta personas y recursos para optimizar el trabajo y ampliar los resultados
 del negocio**.
 
@@ -30,7 +30,7 @@ como:
 *   Comunicación, Marketing y otros.
 
 Además, siguiendo las mejores prácticas de gestión de servicios, sobre la base de la biblioteca 
-de mejores prácticas de ITIL, 4biz tiene nativamente 13 procesos automatizados:
+de mejores prácticas de ITIL, 4biz tiene nativamente 16 procesos automatizados:
 
 *   Gestión de Portafolio
 *   Catálogo de Servicios
