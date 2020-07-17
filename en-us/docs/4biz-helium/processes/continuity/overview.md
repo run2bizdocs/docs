@@ -78,10 +78,3 @@ Configuration
 - [Register risk category](/en-us/4biz-helium/processes/continuity/configuration/risk-category.html)
 
 - [Register continuity template](/en-us/4biz-helium/processes/continuity/configuration/continuity-template.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
