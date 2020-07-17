@@ -1,9 +1,8 @@
-Title: Download and installation of programs
+Title: Installing 4biz Platform
 
-# Download and installation of programs
+# Installing 4biz Platform
 
-As previously stated, the installation steps in local environments consist of downloading and installing several programs. For all the steps below, we assume that the server has Internet access. We also recommend that the installation process be performed by a professional with at least intermediate knowledge of Linux. Follow the installation steps below:
-
+The installation steps in local environments consist of downloading and installing several programs. For all the steps below we recommend that the installation process be performed by a professional with at least intermediate knowledge of Linux. Follow the installation steps below:
 
 1.	Java JDK;
 2.	Wildfly;
