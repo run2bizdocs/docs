@@ -1,4 +1,4 @@
-Title: Create Reports
+Title: Creating Reports
 Description: Create Reports
 
 # Creating Capacity Reports
