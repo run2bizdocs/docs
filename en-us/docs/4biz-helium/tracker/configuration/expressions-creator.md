@@ -23,8 +23,3 @@ Procedure
 5.  Each type of expression opens a screen with different fields;
 
 6.  Click on "Save".
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
