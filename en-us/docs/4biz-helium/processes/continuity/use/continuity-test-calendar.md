@@ -1,28 +1,26 @@
-title: Continuity test calendar
+title: Continuity tests calendar
 
 Description: Allows to view the events of service continuity tests. 
 # Continuity test calendar
 
-The Continuity Registration is a process that pass through several phases. The forth phase of this is called Continuous Operation, where it'll be defined the continuity Awareness (education and training), Review and continuity audit, the Tests about the continuity and its Invocation. This functionality allows to view the events of service continuity tests.
+The Continuity Registration is a process that pass through several phases. The forth phase is called Continuous Operation, where it'll be defined the continuity Awareness (education and training), Review and audit, Tests and Invocation. This functionality allows to view the events of service continuity tests.
 
 Before getting started
 --------------------------
 
-Assumes the existence of a defined service in a Portfolio and Catalog Management
+- [x] The existence of a defined service in the Portfolio and Catalog Management
 process.
 
-It is fundamental to firstly have registered the Continuity Registration, the
-policy and the project of continuity of service already defined, in addition to
-having the scope, vital functions, business impact analysis, risk evaluation,
-strategy, plan , organizational planning, the strategy of tests of continuity
-awareness already registered and the audit and review of the continuity already
-done.
+- [x] It is necessary to have registered the Continuity Registration, the
+policy and the project of continuity of service, in addition to
+have the scope, vital functions, business impact analysis, risk evaluation,
+strategy plan, organizational planning, strategy of tests, awareness, 
+audit and review.
 
-It is necessary to previously register the threat and threat category both
-linked to each other. It's also essential to have registered the risk and risk
-category.
+- [x] It's also necessary to have registered the threat and threat category both
+linked to each other, besides the risk and risk category.
 
-It's equally essential to have register the automatic actions to incident,
+- [x] It's equally essential to have register the automatic actions to incident,
 request and procedure about the Event Management.
 
 Procedure
@@ -35,36 +33,21 @@ Procedure
 
 3.  In **Continuous Operation**, click on "Test";
 
-4.  It'll be presented a calendar with events of tests, created during the
-    implementation, which we'll call it tests. These events ca be viewed by
-    month, seek or day. To set the type of view, click on one of the buttons
-    above the calendar: "Month", "Week" or "Day";
+4.  Select one day in the calendar and complete the fields for the tabs:
 
-5.  Click on the test event and:
+|Tab|Description|
+|---|-----------|
+|**Main informations**|Describe the test information, completing the fields: Event Name, Start Date/Time, End Date/Time and Details|
+|**Group**|Add a group|
+|**Employee**|Add an employee|
+|**Test evidence**| Select or create a test evidence|
+|**Test plans**|Add a test plan|
 
-    1.  Complete the fields abou the main information of event;
+!!! abstract "NOTE"
 
-    2.  Click on the tab "Group" and then on "Add Group" to search and link the
-        group you want;
-
-    3.  Click on the tab "Employee" and then on "Add Employee" to search and
-        link the employee you want;
-
-    4.  Click on the tab "Test Evidence" and then on "Add test evidence" to
-        search and link a test evidence already existed or click on "Create test
-        evidence" to create a new knowledge, detailing the evidence;
-
-    5.  Click on the tab "Test Plan" and then on "Add test plan" to search and
-        link a test plan.
-
-6.  Click on "Save" of the test calendar to apply the changes made.
-
-What to do next
--------------------
-
-After verify the continuity test calendar, it's possible to execute the
-following action, if necessary: invocate the continuity, action of the forth
-phase of the complete registration of continuity, called Continuous Operation.
+    Those informations and tests are used to predict the services and generate predictive reports.
+    
+6.  Click on "Save".
 
 Related
 -------
@@ -109,9 +92,3 @@ Related
 
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
