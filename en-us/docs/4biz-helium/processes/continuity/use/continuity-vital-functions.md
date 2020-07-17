@@ -1,24 +1,23 @@
-title: Register service continuity vital functions
+title: Registering service continuity vital functions
 Description:Allows to register the vital function.
-# Register service continuity vital functions
+# Registering service continuity vital functions
 
 The Continuity Registration is a process that pass through several phase. The second phase of this process is the Requirements and Strategy, where it'll be defined the vital functions, business impact analysis, risks evaluation and continuity strategy. This functionality allows to register the vital function.
-The vital function is part of a business process that is critical to the business success.
+The vital function is a part of the business process that is critical to the business success.
 
 Before getting started
 --------------------------
 
-Assumes the existence of a defined service in a Portfolio and Catalog Management
+- [x] The existence of a defined service in the Portfolio and Catalog Management
 process.
 
-It's necessary to firstly register the Continuity Registration, and defined the
-policy and continuity project, in addition to have registered the continuity
-scope.
+- [x] It's necessary to have registered the Continuity Registration, and defined the
+policy, scope and project.
 
-It's fundamental to have registered the threat and threat category, both linked
+- [x] It's fundamental to have registered the threat and threat category, both linked
 to each other. In addition to previously register the risk and risk category.
 
-It's equally necessary to previously register the automatic actions of Incident,
+- [x] It's equally necessary to previously register the automatic actions of Incident,
 Request and Procedures about the Event Management.
 
 Procedure
@@ -35,18 +34,11 @@ Procedure
 4.  Click on "Add Vital Function" to select a process and click on "Send" to
     complete the link;
 
-5.  To attach some file, click on "Attach" and then on "Add file" to link the
+5.  To attach a file, click on "Attach" and then on "Add file" to link the
     file;
 
 6.  Click on "Save".
 
-What to do next
--------------------
-
-After register the service continuity vital functions, it's necessary to execute
-the following action: register the continuity business impact analysis, being
-this action part of the second phase of the complete registration of continuity,
-called Requirements and Strategy.
 
 Related
 -----------
@@ -72,9 +64,3 @@ Related
 [Register automatic actions of incident/request/procedure](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-actions-incident-request-procedure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
