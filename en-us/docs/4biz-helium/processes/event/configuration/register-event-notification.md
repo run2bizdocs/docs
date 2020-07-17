@@ -15,7 +15,7 @@ deleting an event notification.
 Before getting started
 --------------------------
 
-To register the event notification, it's necessary to previously register the
+- [x] To register the event notification, it's necessary to have registered the
 recipient, email template, notification template and EPL template.
 
 Procedure
@@ -24,7 +24,7 @@ Procedure
 1.  Access the functionality through the main menu Processes \> Event Management
     \> Business Monitor \> Notification Events Configuration;
 
-2.  Complete the fields available in each area;
+2.  Complete the fields available in each area: Basic data, Check - EPL, Notification via Email, Notification on Screen;
 
 3.  On the Notification on Screen area:
 
@@ -32,7 +32,7 @@ Procedure
 
     * click on "Link group" to link group to the notification on screen.
 
-1.  Click on "Save".
+4.  Click on "Save".
 
 
 !!! Abstract "RULE"
@@ -51,9 +51,3 @@ Related
 [Register EPL template](/en-us/4biz-helium/processes/event/configuration/register-epl-template.html)
 
 [Register notification template](/en-us/4biz-helium/additional-features/communication-and-notification/notification/configuration/template-create.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
