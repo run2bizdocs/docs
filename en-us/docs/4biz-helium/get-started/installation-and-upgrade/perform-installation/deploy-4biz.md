@@ -6,9 +6,9 @@ Download the 4biz and Builder WAR package from the partner portal. Send to serve
 
 1. Deploy 4biz Tracker package
 2. Deploy Builder package
-3. Perform initial setup of 4biz Tracker
+3. Start 4Biz setup
 
-Unzip the 4biz Workflow package if it's in .zip format:
+Unzip the 4biz Platform package if it's in .zip format:
 
 ``` shell
 [root@server /tmp]# unzip 4bizITSM-Enterprise-8.0.2.0.war.zip
@@ -39,7 +39,7 @@ Note the log `/opt/wildfly/standalone/log/server.log` with the option `tail -f` 
 
 ## Accessing 4biz for the first time
 
-After deploying, access 4biz through the URL: if a domain has been set, go to https://DOMINIO/4biz, If you have configured via IP, access https://ENDERECO_IP/4biz.
+After deploying, access 4biz through the URL: if a domain has been set, go to https://DOMAIN/4biz, If you have configured via IP, access https://IP_ADDRESS/4biz.
 
 !!! info "Supported Browsers"
     For the proper functioning of the system, you should use the following minimum versions of the main browsers: **Microsoft EDGE** (Edge 42.17134.0 / Microsoft EdgeHTML 17.17134 or higher); **Google Chrome** (version 76.0.3809.132 or higher); **Mozila Firefox** (version 69.0 or higher).
