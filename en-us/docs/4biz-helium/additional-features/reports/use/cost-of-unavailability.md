@@ -1,12 +1,12 @@
 title: Report about cost of unavailability of a service
-Description: Is intended to verify the report that demonstrates the cost per hour of unavailability of a service
+Description: It's intended to verify the report that demonstrates the cost per hour of unavailability of a service
 # Report about cost of unavailability of a service
 
 This document is intended to verify the report that demonstrates the cost per hour of unavailability of a service, where:
 
 •	Time Available: time (within the working day) that incidents of the service became available in the period;
 
-•	Time of Unavailability: time in hours (within the working day) that service incidents became unavailable during the period;
+•	Time of Unavailability: time in hours (within the working day) that service incidents became unavailable;
 
 •	Number of breakdowns: number of service incidents;
 
@@ -19,14 +19,14 @@ This document is intended to verify the report that demonstrates the cost per ho
 Before getting started
 --------------------------
 
-In a service portfolio, a service must have the attribute **Incident** with the
+- [x] In the service portfolio, a service must have the attribute **Incident** with the
 field "Cause of unavailability" set as "YES".
 
-In the attribute **Contract** of a service chose, the incident must be linked,
+- [x] In the attribute **Contract** of a service, the incident must be linked,
 as well as define the Cost of Unavailability, Availability Agreement and also
 link the Calendar.
 
-The report available in the attachment should be imported in the Smart Report
+- [x] The report available in the attachment should be imported in the Smart Report
 Creator.
 
 Procedure
@@ -57,7 +57,7 @@ Procedure
 3.  Choose the service you want and click on "Advance";
 
 4.  Click on the attribut **Incidents**, then on "New Incident" (the field "Type
-    of Demand" must be Incident, as well as the field "Cause Unavailability"
+    of Demand" must be Incident, as well as the field "Cause of Unavailability"
     must be "YES");
 
 5.  Click on "Save";
@@ -73,7 +73,7 @@ Procedure
 3.  Click on the attribute **Incidents** of the contract and then on "Link
     Incident";
 
-4.  Complete the fields available adding the incident created previously;
+4.  Complete the fields available adding the incident previously created;
 
 5.  Click on "Save";
 
@@ -81,7 +81,7 @@ Procedure
     click on "Save";
 
 7.  Click on the attribute **Availability Agreement**, click on "Link
-    Availability Agreement" and define a SLA;
+    Availability Agreement" and define the SLA;
 
 8.  Click on the attribute **Calendar**, click on "Link Calendar" and define a
     calendar.
@@ -119,9 +119,6 @@ Attachment
 
 [Download-Reliability][1]
 
-!!! tip "About"
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
 
 [1]:/en-us/4biz-helium/additional-features/reports/use/images/reliability.citreport
