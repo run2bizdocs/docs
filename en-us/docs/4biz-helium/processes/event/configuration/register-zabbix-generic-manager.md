@@ -18,7 +18,7 @@ deleting a Zabbix generic manager.
 Before getting started
 --------------------------
 
-To register the Global manager, it's necessary to previously register the
+- [x] To register the Global manager, it's necessary to previously register the
 4biz Event Monitor connection, the 4biz Inventory connection, the time,
 occurrence category, automatic action and connection.
 
@@ -30,7 +30,7 @@ Procedure
 
 2.  Click on "New";
 
-3.  Complete the fields available;
+3.  Complete the fields available: Title, Connection and Situation;
 
 4.  Click on "Save";
 
@@ -55,9 +55,3 @@ Related
 [Register time](/en-us/4biz-helium/processes/event/configuration/register-time.html)
 
 [Set Inventory connection](/en-us/4biz-helium/processes/event/configuration/set-inventory-connection.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
