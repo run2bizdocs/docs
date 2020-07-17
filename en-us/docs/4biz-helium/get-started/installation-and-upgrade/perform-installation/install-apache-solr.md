@@ -58,12 +58,12 @@ Import 4biz settings into the SOLR. To do this, send via scp to the server the b
 ``` shell
 [root@server /tmp]# unzip base_conhecimento_configs.zip -d /opt/solr-6.4.2/
 ```
-Faça login com usupário do SOLR:
+Login with SOLR user:
 
 ``` shell
 [root@server /tmp]# su - solr -s /bin/bash
 ```
-E execute o comando abaixo:
+Run the command below:
 
 ``` shell
 [root@server /tmp]# /opt/solr/bin/solr create -c base_conhecimento -d /opt/solr/base_conhecimento_configs -s 2 -rf 2
