@@ -3,7 +3,7 @@ Description: Provides a variety of actions, such as including, changing, and del
 # Register occurrence category
 
 This feature provides a variety of actions, such as including, changing, and
-deleting the occurrence category, that is, through it, it is possible to group
+deleting the occurrence category, that is, it's possible to group
 occurrences of events of the same type. This registration will be associated
 with each item in the 4biz Inventory, Nagios, or Zabbix event manager
 registry.
@@ -16,15 +16,10 @@ Procedure
 
 2.  Click on the tab **Occurrence category registration**;
 
-3.  Complete the fields available;
+3.  Complete the fields available: Name and Event Type Group;
 
 4.  Click on "Create/Edit group" to register, edit and delete the event group
     registration;
 
 5.  Click on "Save".
 
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
