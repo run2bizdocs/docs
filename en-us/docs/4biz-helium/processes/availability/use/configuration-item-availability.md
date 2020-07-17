@@ -1,10 +1,10 @@
 title: Verifying Availability Process
 
-Description: This functionality is intended to verify the availability of CI.
+Description: This functionality is intended to verify the availability of the CI.
 
 # Verifying Availability Process
 
-This functionality is intended to verify the availability of CI.   
+This functionality is intended to verify the availability of the CI.   
 
 The Availability process captures incidents, releases, changes and events information to make the projection of services and events availability.  
 
@@ -20,7 +20,7 @@ The reports created in the availability process are:
 
 ***All reports can be exported to Excel***.
 
-In addition to the reported reports, there are also management reports that are made available by the BI of 4biz.
+In addition to the reports mentioned early, there are also management reports made available by the BI of 4biz.
 
 -   Mean time to repair (downtime)  
 -   Mean time between failures (uptime)  
@@ -33,7 +33,7 @@ In addition to the reported reports, there are also management reports that are 
 ## Before getting started
 
 - [x] Previous registration of the availability group. 
-- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, the configuration item group and the service contract.
+- [x] It's also necessary to link the calendar, service level agreement of type "availability" and cost per hour of unavailability to the: configuration item, configuration item group and service contract.
 
 ## Procedure
 
@@ -42,14 +42,14 @@ In addition to the reported reports, there are also management reports that are 
 
 2.  Click on the Configuration Item tab;
 
-3.  Click on “+” symbol located on the Filters area, to search for the CI
+3.  Click on the “+” symbol located on the Filters area, to search for the CI
     you want;
 
 4.  It can be added several items, the amount you want, to the verification;
 
 5.  Once you add the CI, you can update the charts presented after this field by clicking on "Update Charts".
 
-6.  Verify the information in **Availability per period**. You can set the period you want and click on "Update" to view it. 
+6.  Verify the information in **Availability by period**. You can set the period you want and click on "Update" to view it. 
 
 7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the followin information:
 
@@ -81,9 +81,3 @@ Related
 [Register cost per hour of unavailability](/en-us/4biz-helium/processes/configuration/use/cost-per-hour-unavailability.html) 
 
 [Register availability group](/en-us/4biz-helium/processes/availability/configuration/register-availability-group.html)
-  
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
