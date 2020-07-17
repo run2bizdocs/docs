@@ -1,22 +1,22 @@
-title: Define service continuity project
+title: Defining service continuity project
 
-Description: Allows to set the policy. 
-# Define service continuity project
+Description: Allows to set the continuity project. 
+# Defining service continuity project
 
-The Continuity Registration is a process that pass through several phases. The first phase of this process, called Initiation, is where it's set the policy, scope and IT service continuity project. This functionality allows to set the policy.
+The Continuity Registration is a process that pass through several phases. The first phase of this process, called Initiation, is where it's set the policy, scope and IT service continuity project. This functionality allows to set the project.
 
 Before getting started
 --------------------------
 
-It assumes the existence of a defined service in a Portfolio and Catalog
+- [x] The existence of a defined service in the Portfolio and Catalog
 Management process.
 
-It's necessary to firstly have registered the Continuity Registration.
+- [x] It's necessary to have registered the Continuity Registration, besides the policy and scope in the Initiation tab.
 
-It's necessary to have registered the threat and threat category, both linked to
+- [x] It's necessary to have registered the threat and threat category, both linked to
 each other. It's also necessary to register the risk and risk category.
 
-It's equally essential to have registered the automatic actions of incident,
+- [x] It's equally essential to have registered the automatic actions of incident,
 request and procedure about the Event Management.
 
 Procedure
@@ -27,23 +27,21 @@ Procedure
 
 2.  Find the continuity you want to link the project and click on "Advance";
 
-3.  In **Initiation**, click on "Project"*;*
+3.  In **Initiation**, click on "Project";
 
 4.  Click on "Link Project" to relate a project already existed in the
     continuity;
 
-5.  To register a project form this screen, click on "Create New Project" and
-    complete the fields necessary;
+5.  To register a project from this screen, click on "Create New Project" and
+    complete the fields available:
+    
+|Function|Description|
+|--------|-----------|
+|**Link Project**|To link a project already existed|
+|**Create New Project**|To create a new project to the continuity, complete the fields: Name, abbreviation, contract, emergency, severity, name of manager, change, release, status, value for project execution, detail/supplementary instructions. Moreover, it's necessary to add other information, they are: Resources, Subscriptions and Approvals, Work Order and Baseline|
 
 6.  Click on "Save".
 
-What to do next
--------------------
-
-After set the service continuity project, it's necessary to execute the
-following action: register the service continuity vital functions, being this
-action part of the second phase of the complete registration of the continuity,
-called Requirements and Strategy.
 
 Related
 -----------
@@ -68,10 +66,3 @@ Related
 
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
-
