@@ -1,5 +1,5 @@
 Title: Glossary
-Description: Glossary 4biz
+Description: 4biz Glossary
 
 # Glossary
 
