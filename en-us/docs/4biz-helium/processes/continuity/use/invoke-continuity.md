@@ -3,28 +3,27 @@ title: Invoke continuity
 Description: This functionality invokes the service continuity.
 # Invoke continuity
 
-The Continuity Registration is a process that pass through several phases. The fourth phase is the Continuous Operation, where it'll be defined the continuity Awareness (education and training), Review and continuity audit, the continuity tests and its Invocation. This functionality invokes the service continuity.
-The trigger to have an invocation is the opening of an incident of critical type. The incident have to be approved to be presented in the Invocation screen.
+The Continuity Registration is a process that pass through several phases. The fourth phase is the Continuous Operation, where it'll be defined the continuity Awareness (education and training), Review and audit, tests and Invocation. This functionality invokes the service continuity.
+The trigger to have an invocation is the opening of an incident of critical type. The incident has to be approved to be presented in the Invocation screen.
 
 Before getting started
 --------------------------
 
-It assumes the existence of a defined service in a Portfolio and Catalog
+- [x] The existence of a defined service in the Portfolio and Catalog
 Management process.
 
-The tool integrate with Service Level Management trough the Service Catalog and Portfolio Management to track business process / service criticality, time period criticality (e.g. time of day / week / month / year when disruption would be most severe), and service level recovery targets. This information can be configurated in CMDB&Asset Management in attributes of CI.
+- [x] Have the tool integrate with Service Level Management trough the Service Catalog and Portfolio Management to track business process / service criticality, time period criticality (e.g. time of day / week / month / year when disruption would be most severe), and service level recovery targets. This information can be configurated in CMDB&Asset Management in attributes of CI.
 
-It's fundamental to firstly have registered the Continuity Registration, the
+- [x] It's fundamental to have registered the Continuity Registration, the
 policy and the project of service continuity already defined, in addition to
-having the scope, vital functions, business impact analysis, risk evaluation,
-strategy, plan , organizational planning, the strategy of tests of continuity
-awareness already registered and the audit and review of the continuity already
-performed. It is even recommended to check the continuity testing calendar.
+the scope, vital functions, business impact analysis, risk evaluation,
+strategy plan, organizational planning, the strategy of tests,and the audit and review.
+It is even recommended to check the continuity testing calendar.
 
-It's necessary to have registered the threat and threat category both linked to
+- [x] It's necessary to have registered the threat and threat category both linked to
 each other. It is also essential to have registered the risk and risk category.
 
-It's equally essential to have previously registered the automatic actions of
+- [x] It's equally essential to have previously registered the automatic actions of
 incident, request and procedure about the Event Management.
 
 Procedure
@@ -42,18 +41,18 @@ Procedure
     Action.
 
 5.  Click on "Start Main Continuity Plan" to start the continuity main
-    procedure, that should be registered the implementation phase of the
+    procedure, that should be registered in the implementation phase of the
     continuity plan;
 
 6.  Click on "Start Auxiliary Continuity Plan" to start the auxiliary procedures
     of the continuity;
 
-7.  To verify the request procedure of the continuity, just click on
+7.  To verify the request procedure of the continuity, click on
     "Description";
 
-8.  To view the procedure request of the continuity, just click on "View";
+8.  To view the procedure request of the continuity, click on "View";
 
-9.  To capture a continuity procedure request to be executed, just click on
+9.  To capture a continuity procedure request to be executed, click on
     "Capture task";
 
 10. To execute the continuity procedure request, click on "Execute", it'll be
@@ -103,9 +102,3 @@ Related
 [Register automatic actions of incident/request/procedure](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-actions-incident-request-procedure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
