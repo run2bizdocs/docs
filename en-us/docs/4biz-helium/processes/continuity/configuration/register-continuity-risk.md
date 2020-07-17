@@ -1,13 +1,13 @@
-title: Register continuity risk
+title: Registering continuity risk
 Description: This functionality is intended to register the risks that will be used during the Continuity registration.
-# Register continuity risk
+# Registering continuity risk
 
 This functionality is intended to register the risks that will be used during the Continuity registration.
 
 Before getting started
 --------------------------
 
-It's necessary to previously register the threat and risk category.
+- [x] It's necessary to have registered the threat and risk category.
 
 Procedure
 -------------
@@ -21,7 +21,7 @@ Procedure
 
 3.  To link threats to the risk, click on "Link Threat" to search and link the
     threat. If you want to create a new threat from this screen, click on "New
-    Threat" and complete the fields necessary;
+    Threat";
 
 4.  Click on "Save".
 
@@ -33,8 +33,3 @@ Related
 [Register risk category](/en-us/4biz-helium/processes/continuity/configuration/risk-category.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
