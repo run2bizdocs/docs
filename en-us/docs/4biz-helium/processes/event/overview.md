@@ -5,17 +5,17 @@ Description: This functionality is intended to present some functionalities to t
 Presentation
 ----------------
 
-According to ITIL "is the process responsible to manage events through its
-lifecycle. The event management is one of the main operation activities of the
-IT".
+According to ITIL "the event management is responsible for monitoring the events 
+that occur through changes and improvements in IT infrastructure. Doing this lets 
+normal operations to continue".
 
-The event is defined as "A state change that has significance for the management
+The event is defined as "a significant change in the management
 of a configuration item or IT service. Event is also the term used for when an
 alert or notification is created by any IT service, configuration item, or
 monitoring tool. Events often require action from the IT operations team and can
-sometimes lead to incident generation and registration."
+lead sometimes to the registration of an incident."
 
-This functionality is intended to present some functionalities to the even
+This functionality is intended to present some functionalities to the event
 management.
 
 Use
@@ -75,11 +75,4 @@ Configuration
 Reports
 -----------
 
-- [Generate reports - event management](/en-us/4biz-helium/processes/event/use/generate-reports-event-management.html)  
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-	
-
+- [Generate reports - event management](/en-us/4biz-helium/processes/event/use/generate-reports-event-management.html)
