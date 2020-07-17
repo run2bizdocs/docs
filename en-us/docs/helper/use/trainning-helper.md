@@ -36,8 +36,3 @@ Related
 [How to teach Helper](/en-us/helper/use/teach-helper.html)
 
 [Monitor Helper interactions](/en-us/helper/use/monitoring-helper.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020

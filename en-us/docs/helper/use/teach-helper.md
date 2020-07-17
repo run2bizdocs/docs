@@ -12,7 +12,7 @@ Procedure
 
 1.	Access the menu “Dialogues”;
 
-2.	Click on "New" and select one of the options: Tasker (only an Interest-Ability interaction) or Complex (when joining multiple simple dialogues);
+2.	Click on "New";
 
 3.	Inform the Theme related to the Dialogue, this will help you to categorize them, later. A new theme can be registered in the "Theme" menu;
 
@@ -27,6 +27,8 @@ Procedure
 	   - Button: it will be used whenever it is necessary to limit user responses to a particular Helper interaction. When                using this option, Helper will respond to user interaction by displaying buttons. A button is defined by its Name and              Value. In the name field, the button that will appear for the user is defined. In the value field, it is defined to              Helper how it should interpret the user's interest by clicking on the button;
 
 	   - Image: it can be used when you want to respond to the user using text and image. The image associated with the                  response will be displayed in the chat window.
+	   
+	   - Carousel: Through images it's possible to pass the value to dialog triggers in the system. 
 
 
 6. Click on "Save".
@@ -49,11 +51,4 @@ Related
 --------
  
 [How to train Helper](/en-us/helper/use/trainning-helper.html)
- 
- 
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-    
