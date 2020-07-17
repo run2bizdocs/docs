@@ -1,6 +1,6 @@
 title: Register Nagios/Zabbix connection
 Description: Register the Nagios/Zabbix tools that will be linked to the Event Management to monitor the various configuration items.
-#Register Nagios/Zabbix connection
+# Register Nagios/Zabbix connection
 
 This functionality is intended to register the Nagios/Zabbix tools that will be
 linked to the Event Management to monitor the various configuration items.
@@ -19,7 +19,7 @@ Procedure
 1.  Access the functionality through the main menu Processes \> Event Management
     \> Connections \> Monitoring Tools;
 
-2.  Complete the fields available;
+2.  Complete the fields available: Name, EVM - Connecting the 4biz Event Monitor, Tool, Address, Port and Status;
 
 3.  Click on "Test Connection";
 
@@ -31,7 +31,3 @@ Related
 [Register Event Monitor Connection](/en-us/4biz-helium/processes/event/configuration/register-event-monitor-connection.html)
 
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
