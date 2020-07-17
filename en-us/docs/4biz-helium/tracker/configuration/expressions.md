@@ -10,10 +10,3 @@ Expressions are resources used in system flows to allow the construction of seve
 
 
 [1]:/en-us/4biz-helium/tracker/configuration/expressions-creator.html
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020  
-	
