@@ -3,8 +3,8 @@ Description: Intended to shcedule tasks.
 # Register time
 
 This functionality is intended to shcedule tasks. It will choose the filters of
-date and time, and it will be created a Creon Expression to create triggers
-schedule to be periodically used in the time and date established. For example,
+date and time, and will be created a Creon Expression for creating triggers
+scheduled to be periodically used in the time and date established. For example,
 to make an inventory in the network, it's necessary to previously select a
 schedule, so the system will execute this inventory as the time chosen.
 
@@ -19,12 +19,6 @@ Procedure
 
 2.  Click on "New";
 
-3.  Complete the fields available;
+3.  Complete the fields available: Name and Appointment;
 
 4.  Click on "Save".
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
