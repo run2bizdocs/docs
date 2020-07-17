@@ -45,10 +45,3 @@ For installation of Apache SOLR, we recommend the following configurations:
 
 !!! tip
      The **SOLR** and **MongoDB** services can be installed on the same server as the 4biz application. We recommend for production environments that you separate the database server from the application server.
-
-	 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-	
