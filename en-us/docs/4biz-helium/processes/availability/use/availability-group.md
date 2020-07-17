@@ -5,12 +5,12 @@ Description: Is intended to verify the availability group.
 
 This functionality is intended to verify the availability group.
 
-The groups can be used to measure the availability of internal services and external providers jointly, it's the Provider Service ability
+The groups can be used to measure both availability of internal services and external providers.
 
 ## Before getting started
 
 - [x] Previous registration of the availability group. 
-- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, the configuration item group and the service contract.
+- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, configuration item group and service contract.
 
 ## Procedure
 
@@ -19,16 +19,16 @@ The groups can be used to measure the availability of internal services and exte
 
 2.  Click on the tab Availability Group;
 
-3.  Click on “+” symbol located on the Filters area, to search for the availability group
+3.  Click on the “+” symbol, located on the Filters area, to search for the availability group
     you want;
 
-4.  It can be added several groups, the amount you want, to the verification;
+4.  It can be added several groups, the amount you want, for the verification;
 
 5.  Once you add the Availability group, you can update the charts presented after this field by clicking on "Update Charts".
 
-6.  Verify the information in **Availability per period**. You can set the period you want and click on "Update" to view it. 
+6.  Verify the information in **Availability by period**. You can set the period you want and click on "Update" to view it. 
 
-7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the followin information:
+7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the following information:
 
 |Information|Description|
 |-----------|-----------|
@@ -58,10 +58,3 @@ Related
  [Register cost per hour of unavailability](/en-us/4biz-helium/processes/configuration/use/cost-per-hour-unavailability.html)   
 
  [Register availability group](/en-us/4biz-helium/processes/availability/configuration/register-availability-group.html) 
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
