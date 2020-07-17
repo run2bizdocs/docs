@@ -1,11 +1,10 @@
-title: Customize management panel (Smart Decision)
+title: Customizing management panel (Smart Decision)
 Description: It's possible to add dashboards from a template or selecting manually.
-# Customize management panel (Smart Decision)
+# Customizing management panel (Smart Decision)
 
-The management panel in the system main screen. In this panel, it's possible to
+The Smart Decision is the management panel in the system main screen. In this panel, it's possible to
 add dashboards from a template or selecting manually. In this area, it's also
-available resources to create shortcuts (links), view reports and dashboards. It
-has relevant information.
+available resources to create shortcuts (links), view reports and dashboards.
 
 In the default management panel, it's available only the resources of
 type *Quick Access* (links).
@@ -13,14 +12,14 @@ type *Quick Access* (links).
 Before getting started
 --------------------------
 
-To create shortcuts (links), it's not necessary any special permission, however,
-the elements use of type widget and smart reports need permissions defined by
+- [x] To create shortcuts (links), it's not necessary any special permission, however,
+the elements of type widget and smart reports need permissions defined by
 the tool manager.
 
 Procedure
 -------------
 
-***Use a template to customize the user panel***
+***Using a template to customize the user panel***
 
 1.  To view the templates available, click on the “Show/Hide menu” icon;
 
@@ -32,7 +31,7 @@ Procedure
 
 4.  To delete a dashboard, click on the “Remove dashboard” icon.
 
-***Enter elements manually***
+***Entering elements manually***
 
 1.  To add elements with links, smart reports or widgets, click on the “Enable
     edit mode” icon and then on “Add new widget” icon:
@@ -41,11 +40,11 @@ Procedure
 
         +   Click on *Links*:
 
-            +   Click on the “Edit widget configuration” icon about the *Links* box;
+            +   Click on the “Edit widget configuration” icon in the *Links* box;
 
             +   Complete the fields available and click on "Add" to set the *Type*,
-                if "Internal", select the system Menu (e.g.: Processes \> Portfolio
-                and Catalog Management \> Smart Portal), if "External" define the
+                if it's "Internal" select the system Menu (e.g.: Processes \> Portfolio
+                and Catalog Management \> Smart Portal), if it's "External" define the
                 Title/Key and add the URL;
 
             +   Click on "Apply".
@@ -57,7 +56,7 @@ Procedure
 
     + *Widgets*:
 
-        + choose the type widget that will be in the management panel.
+        + choose the type of widget that will be in the management panel.
 
 2.  To set the display mode of the elements in the dashboard, click on "Layout" and choose an option;
 
@@ -71,10 +70,3 @@ Related
 -------
 
 [Configure Smart Decision template](/en-us/4biz-helium/additional-features/reports/create/dashboard/use/create-template.html)
-
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
