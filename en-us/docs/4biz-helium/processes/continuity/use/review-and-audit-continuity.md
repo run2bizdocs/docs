@@ -7,19 +7,19 @@ The Continuity Registration is a process that pass through several phases. The f
 Before getting started
 --------------------------
 
-It assumes the existence of a defined service in a Portfolio and Catalog
+- [x] The existence of a defined service in the Portfolio and Catalog
 Management process.
 
-It's fundamental to firstly have registered the Continuity Registration, the
-policy and the service continuity project already defined, in addition to have
-the scope, vital functions, business impact analysis, risk assessment, strategy,
-plan , organizational planning, testing strategy and awareness of continuity
+- [x] It's necessary to have registered the Continuity Registration, the
+policy and the service continuity project, in addition to have
+the scope, vital functions, business impact analysis, risk assessment, strategy
+plan, organizational planning, testing strategy and awareness of continuity
 already registered.
 
-It's necessary to have registered the threat and threat category both linked to
-each other. It is also essential to have registered the risk and risk category.
+- [x] It's necessary to have registered the threat and threat category both linked to
+each other. It's also essential to have registered the risk and risk category.
 
-It's equally essential to have previously registered the automatic actions of
+- [x] It's equally essential to have registered the automatic actions of
 incident, request and procedure about the Event Management.
 
 Procedure
@@ -32,22 +32,17 @@ Procedure
 
 3.  In **Continuous Operation**, click on "Review and Audit";
 
-4.  Click on the tab "Audit Registered" to make a specific search of the changes
-    made in the continuity registry when informing the period you want, select
-    the category and click on "Search";
+4.  On the Registered Audits tab, you can search for an audit already created 
+    by Period and Category. It'll appear the audits in the list;
 
-5.  To verify more details about the change made, just click on "Expand";
+5.  To register an audit, complete the fields:
 
-6.  Click on the tab "Audito Registration" to register the details of the audit
-    made. Complete the fields necessary and click on "Save".
+|Field|Description|
+|-----|-----------|
+|**Category(\*)**|Select the category of the audit|
+|**Description(\*)**|Describe the audit|
 
-What to do next
--------------------
-
-After review and audit the service continuity, it's necessary to execute the
-following action: verify the continuity test calendar, action part of the fourth
-phase of the complete registration of the continuity, called Continuous
-Operation.
+6.  Click on "Save".
 
 Related
 -----------
@@ -89,9 +84,3 @@ Related
 [Register automatic actions of incident/request/procedure](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-actions-incident-request-procedure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
