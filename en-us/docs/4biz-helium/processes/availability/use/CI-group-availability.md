@@ -1,14 +1,14 @@
 title: Verifying CI group availability
 
-Description: This functionality is intended to verify the CIs availability group.
+Description: This functionality is intended to verify the availability of the CI group.
 # Verifying CI group availability
 
-This functionality is intended to verify the CIs availability group.
+This functionality is intended to verify the availability of the CI group.
 
 ## Before getting started
 
 - [x] Previous registration of the availability group. 
-- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, the configuration item group and the service contract.
+- [x] It's also necessary to link the calendar, the service level agreement of type "availability" and the cost per hour of unavailability to the: configuration item, configuration item group and service contract.
 
 ## Procedure
 
@@ -20,13 +20,13 @@ This functionality is intended to verify the CIs availability group.
 3.  Click on “+” symbol located on the Filters area, to search for the CI group
     you want;
 
-4.  It can be added several items, the amount you want, to the verification;
+4.  It can be added several items, the amount you want, for the verification;
 
 5.  Once you add the CI group, you can update the charts presented after this field by clicking on "Update Charts".
 
-6.  Verify the information in **Availability per period**. You can set the period you want and click on "Update" to view it. 
+6.  Verify the information in **Availability by period**. You can set the period you want and click on "Update" to view it. 
 
-7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the followin information:
+7.  Verify the information in **Total Availability**. You can set the period you want and click on "Update" to view it. You can also download it by clickin on "Save table". You can click on the slices of the chart to see the details about the CI's time distribution: Available, Unavailable and Scheduled change. In the chart, at the end, there're the following information:
 
 |Information|Description|
 |-----------|-----------|
@@ -39,6 +39,7 @@ This functionality is intended to verify the CIs availability group.
 |Total cost of unavailability|The total for the cost of unavailability|
 
 8.  Verify the information in **Unavailability Occurrences**. You can set the period you want and click on "Update" to view it. It's also possible to download it by clicking on "Save table".
+
 
 Related
 -----------
@@ -55,10 +56,4 @@ Related
 
    [Register cost per hour of unavailability](/en-us/4biz-helium/processes/configuration/use/cost-per-hour-unavailability.html)
 
-  [Register availability group](/en-us/4biz-helium/processes/availability/configuration/register-availability-group.html) 
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
+  [Register availability group](/en-us/4biz-helium/processes/availability/configuration/register-availability-group.html)
