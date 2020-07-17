@@ -17,10 +17,4 @@ This will facilitate gathering customer feedback for customer satisfaction
 
 [1]:/en-us/4biz-helium/processes/portfolio-and-catalog/configuration/register-satisfaction-survey.html
 [2]:/en-us/4biz-helium/additional-features/communication-and-notification/notification/use/notification.html
-[3]:/en-us/4biz-helium/additional-features/communication-and-notification/email/register-email-notification.html  
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-	
+[3]:/en-us/4biz-helium/additional-features/communication-and-notification/email/register-email-notification.html
