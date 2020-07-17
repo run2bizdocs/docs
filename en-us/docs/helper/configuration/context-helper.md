@@ -18,10 +18,3 @@ Procedure
 
     It is necessary to link the contexts to the sentences of Interest within the Dialogue, 
     so that the information is processed by Helper
-    
-    
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-   
