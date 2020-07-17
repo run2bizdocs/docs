@@ -45,9 +45,3 @@ In this environment, you will be able to add and review knowledge to Helper, you
 [How to train Helper](/en-us/helper/use/trainning-helper.html)
 
 [Monitor interactions of Helper](/en-us/helper/use/monitoring-helper.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
