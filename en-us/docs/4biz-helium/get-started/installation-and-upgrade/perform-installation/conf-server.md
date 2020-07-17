@@ -8,7 +8,7 @@ administrator. Below are both configuration examples.
 
 !!! Warning "ATTENTION"
 
-    Pay attention to the variables to change them to suit your environment settings.
+    Pay attention to the variables to change them according with your environment settings.
 
 ## Configuring server via jboss-cli
 
@@ -72,13 +72,12 @@ After the settings, to exit the CLI, type `quit`
 ```
 ## Configuring the server via XML
 
-To edit the XML file used by the wildfly by hand, enter the directory:
+To edit the XML file used by the wildfly access the directory:
 
 ``` shell
 [root@server /tmp]# /opt/wildfly/standalone/configuration
 ```
-Edit the stantalone-full.xml file and include the 4biz logo XML configuration right after 
-the clause below:
+Edit the standalone-full.xml file and include the 4biz logo XML configuration right after the clause below:
 
 ``` xml
 <server xmlns="urn:jboss:domain:6.0">
@@ -89,7 +88,7 @@ the clause below:
 </extensions>
 ```
 
- After the coniguration closure `</extensions>` include the extract below:
+ After the configuration tag close </extensions> include the parameters below:
 
  ``` xml
  <system-properties>
