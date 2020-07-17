@@ -24,16 +24,10 @@ Procedure
     a) Answers in memory: In this case, the value returned by the API is associated with the selected attribute;
  
     b) Answers in text: Returns a text message to the user.
-  
+
+7. If it's necessary to forget a context, in the Forget Value field, it's possible to delete the information in the bot's memory, so that the chatbot doesn't use this value at another time
   
 !!! Abstract "NOTE"
 
     The integration needs to be homologated by 4biz, so after setting up this skill, you need 
     to open a ticket for us to do the homologation of the integration.
-    
-    
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-   
