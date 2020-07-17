@@ -1,6 +1,6 @@
-title: Configure BI solution (Smart Analytics) via Docker
-Description: This document is intended to configure the BI in the 4biz instance.
-# Configure BI solution (Smart Analytics) via Docker
+title: Configuring BI solution (Smart Analytics) via Docker
+Description: This document is intended to configure BI in the 4biz instance.
+# Configuring BI solution (Smart Analytics) via Docker
 
 4biz Analytics is a solution of Business Intelligence (BI) for analyzing the data
 from 4biz. The BI solution uses resources of the tools [Saiku
@@ -12,7 +12,7 @@ Docker, following the installation configuration.
 Before getting started
 ----------------
 
-The user must have Docker previously installed.
+- [x] The user must have Docker previously installed.
 
 Procedure
 ------------
@@ -23,7 +23,7 @@ Procedure
 
     ftp://ftpgo.4biz.com.br/10104_DIRETORIA_DE_SOLUCOES/PUBLICO/citBI/citbi-1.0.0/citbi-1.0.0.zip and then unzip
 
-1.  Enter the command and then unzip:
+2.  Enter the command and then unzip:
 
     
     cd /citbi/files/
@@ -39,7 +39,7 @@ Procedure
     docker build -t registry.4bizcloud.com/templates/bi .
     ```
     
-1.  In the folder /citbi/composes, configure the database:
+3.  In the folder /citbi/composes, configure the database:
     ```sh
     vi /citbi/composes/
     [docker-compose.yml](/citbi/src/master/composes/docker-compose.yml)
@@ -78,7 +78,7 @@ Procedure
     cat /citbi/composes/docker-compose.yml
     ```
 
-1.  In the folder /citbi/composes:
+4.  In the folder /citbi/composes:
 
 Build and start container:
 
@@ -114,19 +114,19 @@ docker logs -f citBI
     docker ps
     ```
 
-1.  Verify inactive containers:
+2.  Verify inactive containers:
     
     ```
     docker ps -a
     ```
 
-1.  Stop container:
+3.  Stop container:
     
     ```
     docker stop citBI
     ```
 
-1.  Remove container:
+4.  Remove container:
     ```
     docker rm citBI
     ```
@@ -154,10 +154,3 @@ Related
 -----------
 
 [Using Smart Analytcs (BI) to generate reports](/en-us/4biz-helium/additional-features/smart-analytics/use-bi-solution.html)
-
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
