@@ -1,8 +1,8 @@
-title: Register periodic activity group
-Description:Provides a variety of actions, such as including, changing, and deleting the group of periodic activities, which are responsible for execute periodic activities.
-# Register periodic activity group
+title: Registering periodic activity group
+Description:Provides a variety of actions, such as including, changing, and deleting the group of periodic activities.
+# Registering periodic activity group
 
-This feature provides a variety of actions, such as including, changing, and deleting the group of periodic activities, which are responsible for execute periodic activities.
+This feature provides a variety of actions, such as including, changing, and deleting the group of periodic activities, which are responsible for executing periodic activities.
 
 Procedure
 -----------
@@ -11,13 +11,8 @@ Procedure
     Integrated Management \> Automation of Operations \> Periodic Activity
     Group;
 
-2.  Complete the fields available;
+2.  Complete the fields available: Name, Description and Start date;
 
 3.  Click on "Save".
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROEeoHh3EbsZJxjr9hJSLIV)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
