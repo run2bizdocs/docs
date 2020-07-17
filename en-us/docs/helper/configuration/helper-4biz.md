@@ -18,9 +18,3 @@ Helper is already natively integrated with 4biz, so it is easy to add it to your
     
     For the acronym of the languages, use EN (English) and PT (Portuguese-Brazil).
     If these parameters are not available, upgrade your version of 4biz.
-   
- 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
