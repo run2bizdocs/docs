@@ -1,12 +1,12 @@
 title: Registering availability group
-Description: Provides a variety of actions, such as including, changing, and deleting the group configuration items to generate availability index.
+Description: Provides a variety of actions, such as including, changing, and deleting the group of configuration items to generate the availability index.
 # Registering availability group
 
-This feature provides a variety of actions, such as including, changing, and deleting the group configuration items to generate availability index.
+This feature provides a variety of actions, such as including, changing, and deleting the group of configuration items to generate the availability index.
 
 ## Before getting started
 
-- [x] It's necessary to previously register the calendar.
+- [x] It's necessary to have registered the calendar.
 
 ## Procedure
 
@@ -24,7 +24,7 @@ This feature provides a variety of actions, such as including, changing, and del
 
 ( * ) Indicate mandatory field
 
-3.  To link a configuration item, click on "Search Configuration Item" and it'll present a box where you can find a CI you want.
+3.  To link a configuration item, click on "Search Configuration Item" and it'll present a box where you can find the CI you want.
 
 After select the CI, you'll have the following options:
 
@@ -41,8 +41,6 @@ After select the CI, you'll have the following options:
 |**Delete**|To delete an availability group already registered|
 |**Clear**|To return the fields according to the default|
 
-( * ) Indicate mandatory field
-
 5. On the **Search** tab it's possible to search for an availability group already registered.
 
 You'll have the following actions:
@@ -54,10 +52,11 @@ You'll have the following actions:
 
 !!! Abstract "NOTE"
 
-    When you search for an availability group, it'll be listed bellow the actions buttons. By clickin on it, it'll get back to the "Register" tab, being possible to edit it.
+    When you search for an availability group, it'll be listed with its actions buttons. By clickin on it, it'll get back to the "Register" tab, being possible to edit it.
 
 
-!!! tip "About"
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+Related
+-------
+
+[Create calendar](/en-us/4biz-helium/platform-administration/time/create-calendar.html)
