@@ -1,7 +1,7 @@
-title: Register service continuity
+title: Registering service continuity
 Description: Allows to register the continuity of a certain service.
 
-# Register service continuity
+# Registering service continuity
 
 The Continuity Management focuses on the recovery of IT services and its components in face of an event of disaster.
 This functionality allows to register the continuity of a certain service.
@@ -10,7 +10,7 @@ This functionality allows to register the continuity of a certain service.
 
 - [x] The existence of a defined service in a Portfolio and Catalog Management process.
 
-- [x] It's necessary to previously register the threat and threat category, both
+- [x] It's necessary to have registered the threat and threat category, both
 linked to each other, in addition to previously register the risk and risk
 category.
 
@@ -55,8 +55,8 @@ In the initiation phase, set the fields for the tabs Policy, Scope and Project.
 |Field|Description|
 |-----|-----------|
 |**Executive summary(\*)**|Detail the executive summary|
-|**Description(\*)**|Describe the informations about the scope|
-|**Expiry date(\*)**|The date that'll expire the scope|
+|**Description(\*)**|Describe the information about the scope|
+|**Expiry date(\*)**|The date that will expire the scope|
 |**Attach**|To add files for the scope|
 
 (\*)Indicate mandatory fields.
@@ -66,13 +66,13 @@ In the initiation phase, set the fields for the tabs Policy, Scope and Project.
 |Function|Description|
 |--------|-----------|
 |**Link Project**|To link a project already existed|
-|**Create New Project**|To create a new project to the continuity, complete the fields: Name, abbreviation, contract, emergency, severity, name of manager, change, release, status, value for project execution, detail/supplementary instructions. It's necessary to add other information, they are: Resources, Subscriptions and Approvals, Work Order and Baseline|
+|**Create New Project**|To create a new project to the continuity, complete the fields: Name, abbreviation, contract, emergency, severity, name of manager, change, release, status, value for project execution, detail/supplementary instructions. Moreover, it's necessary to add other information, they are: Resources, Subscriptions and Approvals, Work Order and Baseline|
 
 ### Requirements and Strategy
 
 In the requirements and strategy phase, set the fields for the tabs Vital Functions, Business Impact Analysis, Risk Assessment and IT Service Continuity. 
 
-Choose the service on the list of service by criticality, than, choose the viatal function.
+Choose the service on the list of service by criticality, than, choose the vital function.
 
 **Vital Functions**
 
@@ -88,7 +88,7 @@ Once selected the Vital Function, click on the icon "+" and complete the fields.
 
 |Field|Description|
 |-----|-----------|
-|**Possible impacts**|Select the possible impacts for that|
+|**Possible impacts**|Select the possible impacts|
 |**Gravity**|Set the degree of severity for this vital function|
 |**Recovery point purpose**|Set the recovery point|
 |**Purpose of recovery time**|Set the time of recovery|
@@ -99,12 +99,12 @@ Once selected the Vital Function, click on the icon "+" and complete the fields.
 
 **Risk Assessment**
 
-On the Risk assessment phase, it'll be made the evaluation of the risk. Here you can add possible scenerios for the risks. We have the following functions:
+On the Risk assessment phase, it'll evaluate the risk. Here you can add possible scenarios for the risks. We have the following functions:
 
 |Function|Description|
 |--------|-----------|
-|**Add scenary**| To add a possible scenary of risk. Complete the mandatory fields: Name and vital function|
-|**Add service**|To add a service available for your profile to the risk. You can delete it too|
+|**Add scenery**| To add a possible scenery of risk. Complete the mandatory fields: Name and vital function|
+|**Add service**|To add a service (available for your profile) to the risk. You can delete it too|
 |**Add risk**|Select the risk you want to link. Once linked the risk, it's possible to **Select threat** or **Add Threat**. When adding a threat, complete the mandatory fields: Threat Name and Threat Category. Next the Treats tab, there's the **Treatment Plans** to add a treatment plan for the risk|
 
 **IT Service Continuity**
@@ -117,7 +117,7 @@ On the Risk assessment phase, it'll be made the evaluation of the risk. Here you
 
 *Critical Service*
 
-The tool will present a list of critical services associated with vital business functions. This information is also available in the [BI report](https://documentation.run2biz.com/en-us/4biz-helium/additional-features/smart-analytics/use-bi-solution.html).
+The tool will present a list of critical services associated with vital business functions. This information is also available in the [BI report](https://docs.run2biz.com/en-us/4biz-helium/additional-features/smart-analytics/use-bi-solution.html).
 
 ### Implementation
 
@@ -234,9 +234,6 @@ Related
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
 
-!!! tip "About"
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
 
 
