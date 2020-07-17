@@ -6,7 +6,7 @@ Presentation
 ----------------
 
 According to ITIL, the capacity can be defined as "The maximum throughput that a
-configuration item or IT service can deliver. For some types of CIs, the
+configuration item or IT service can deliver. For some types of CI, the
 capacity may be the size or the volume - for example, a disk drive".
 
 The capacity management can be defined as "The process responsible for ensuring
@@ -21,9 +21,4 @@ Use
 
 - [Register capacity indicators](/en-us/4biz-helium/processes/capacity/use/register-capacity-indicators.html)
 
-- [Import capacity indicators data](/en-us/4biz-helium/processes/capacity/use/capacity-indicators-data.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+- [Register capacity indicators Type](/en-us/4biz-helium/processes/capacity/use/register-capacity-indicators-type.html)
