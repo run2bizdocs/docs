@@ -1,18 +1,18 @@
-title: Configure Smart Decision template
-Description: Intended to determine the presentation layout of the Smart Decision that is presented in the CISTmart home.
-# Configure Smart Decision template
+title: Configuring Smart Decision template
+Description: Intended to determine the presentation layout of the Smart Decision presented in the 4biz home.
+# Configuring Smart Decision template
 
 This functionality is intended to determine the presentation layout of the Smart
-Decision that is presented in the CISTmart home. It allows to put quick access
-as links, reports and widgets.
+Decision that is presented in the 4biz home. It allows to put quick access,
+for example, links, reports and widgets.
 
-This feature provides various actions, such as including, changing and deleting
-the Smart Decision that is presented in the CISTmart home.
+This feature provides several actions, such as including, changing and deleting
+the Smart Decision.
 
 Procedure
 -------------
 
-1.  Access the functionality through the main menu System \> Templates \> Smart
+1.  Access the functionality through the main menu System \> Settings \> Templates \> Smart
     Decisions;
 
 2.  Click on "Add";
@@ -39,8 +39,3 @@ Related
 -------
 
 [Customize management panel (Smart Decision)](/en-us/4biz-helium/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
