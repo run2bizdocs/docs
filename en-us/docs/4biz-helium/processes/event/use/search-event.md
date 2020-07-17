@@ -2,12 +2,12 @@ title: Search event
 Description:Is intended to locate an event in the Event Management. 
 # Search event
 
-This functionality is intended to locate an event in the Event Management.
+This functionality is intended to find an event in the Event Management.
 
 Before getting started
 --------------------------
 
-- [x] To locate the information necessary, it's necessary to previously register an
+- [x] To find the information, it's necessary to have registered an
 event collected by the monitoring tool.
 
 Procedure
@@ -21,9 +21,9 @@ Procedure
     
 !!! tip
 
-    The search for status facilitates the tool search for archiving closed records
+    The search for status facilitates for the tool to search for archived and closed records
 
-3.  Click on the icon symbolized by the down arrow in the search field to make
+3.  Click on the down arrow icon in the search field to make
     an advanced search and use the filters available;
 
 4.  Complete the filters necessary and click on the button symbolized by a
