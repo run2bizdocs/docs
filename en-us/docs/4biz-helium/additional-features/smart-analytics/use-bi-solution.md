@@ -1,5 +1,5 @@
 title: Using Smart Analytcs (BI) to generate reports
-Description: Analyze data in your instance where you can elaborate countless possibilities of graphs, panels and tables with measurable data information.
+Description: Analyze data in your instance, where you can elaborate countless possibilities of graphs, panels and tables with measurable data information.
 # Using Smart Analytics (BI) to generate reports
 
 According to Wikipedia, Business Inteligence "comprises the strategies and 
@@ -7,14 +7,14 @@ technologies used by enterprises for the data analysis of business information.
 BI technologies provide historical, current and predictive views of business 
 operations".
 
-4biz Analytics is the BI solution for 4biz data analysis.
-With this feature you can create numerous graphs, dashboards and tables with
+4biz Analytics is the BI solution of 4biz data analysis.
+With this feature you can create several graphs, dashboards and tables with
 data information registered in the instance.
 
 Before getting started
 ----------------
 
-It's necessary to have the BI application installed, configured, and communicable 
+- [x] It's necessary to have the BI application installed, configured, and communicable 
 with your 4biz instance.
 
 Procedure
@@ -22,7 +22,7 @@ Procedure
 
 1.  Access the main menu \> Reports \> Smart Analytics \> Smart Analytics;
 
-2.  Select one potion in the tab **Cubes** (default: Change Requests, Releases,
+2.  Select one option in the tab **Cubes** (default: Change Requests, Releases,
     Tickets);
 
 3.  In the tab **Measures** select a type of measure to use in the report, when
@@ -40,11 +40,11 @@ Procedure
 
 2.  On the right side of the dashboard you can configure the report in several table and chart formats;
 
-3.  To change the position of the measurement units in the tabl/graph, click on the detail button available in each dashboard      measurement box;
+3.  To change the position of the measurement units in the table/graph, click on the detail button available in each dashboard      measurement box;
 
 4.  To export the report, click on "Export" and select the format (PNG and PDF);
 
-5.  After finish the report, click on “Save query”.
+5.  After finishing the report, click on “Save query”.
 
 
 
@@ -66,10 +66,3 @@ Procedure
 |            Technical            |                          It presents the technical name                           |
 |          Ticket Status          |                     It present the code/ID and ticket status                      |
 |              Unity              |                   It presents code/ID and the unit of the requester               |
-
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
