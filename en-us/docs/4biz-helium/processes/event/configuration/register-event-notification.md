@@ -1,53 +1,46 @@
-title: Register event notification
-Description: Establish which rules will define a notification event.
-# Register event notification
+title: Register EPL template
+Description: Allows to create and maintain the EPL templates to be used in the EPL creation.
+# Register EPL template
 
-This functionality aims to establish which rules will define a notification
-event, that is, perform the notification setting that will be triggered when the
-EPL conditions are met.
+This functionality allows to create and maintain the EPL templates to be used
+in the EPL creation.
 
 It's necessary to have knowledge in the event processing language. For further
-information, go to:<http://www.espertech.com/esper> .
+information go to: <http://www.espertech.com/esper/esper-documentation/>.
 
 This feature provides a variety of actions, such as including, changing, and
-deleting an event notification.
+deleting the EPL templates.
 
-Before getting started
---------------------------
+The correlation of events can be done through the configuration of parameters and scripts that support the integration of Event Management tools for component failure event correlation, and potential Problem identification within the context of the EPL. It serves to identify two or more simultaneos events and create another event that contains both scenarios. This can be easily configurated through the following fields:
 
-- [x] To register the event notification, it's necessary to have registered the
-recipient, email template, notification template and EPL template.
+. Name: name of correlation  
+. Source: the source of event  
+. Type of connection: external correlation or file  
+. Category: category of event created
+
+Actions:
+. For Information, which action, urgency, impact and business rules.
+
+![Basic-data][1]
+ 
+. For Warning, which action, urgency, impact and business rules.
+
+![Warnning][2]
+
+. For Exception, which action, urgency, impact and business rules.
+
+![exception][3]
 
 Procedure
 -------------
 
 1.  Access the functionality through the main menu Processes \> Event Management
-    \> Business Monitor \> Notification Events Configuration;
+    \> Business Monitor \> Model of EPL;
 
-2.  Complete the fields available in each area: Basic data, Check - EPL, Notification via Email, Notification on Screen;
+2.  Complete the fields available: Description, Operators, EPL Template;
 
-3.  On the Notification on Screen area:
+3.  Click on "Save".
 
-    * click on "Link user" to link the user to the notification on screen;
-
-    * click on "Link group" to link group to the notification on screen.
-
-4.  Click on "Save".
-
-
-!!! Abstract "RULE"
-
-    At the time of writing, the system does a validation of the EPL syntax.
-
-
-
-Related
--------
-
-[Configure email templates](/en-us/4biz-helium/platform-administration/email-settings/email-templates-configure-email-template.html)
-
-[Register notification recipient](/en-us/4biz-helium/processes/event/configuration/register-notification-recipient.html)
-
-[Register EPL template](/en-us/4biz-helium/processes/event/configuration/register-epl-template.html)
-
-[Register notification template](/en-us/4biz-helium/additional-features/communication-and-notification/notification/configuration/template-create.html)
+[1]:images/basic-data.png
+[2]:images/warnnig.png
+[3]:images/exception.png
