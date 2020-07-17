@@ -2,21 +2,19 @@ Title: Implementing Remote Access
 
 # Implementing Remote Access
 
-The remote access functionality allows computers to be accessed remotely from your 4biz instance. In this sense, we use the Virtual Network Computing (VNC) protocol resources through the Apache Guacamole - web-based remote access gateway - to make this operation feasible. In addition to being able to remotely access a configuration item, all sessions are saved and made available to the CI information. This ensures better control over the actions taken by providing a reliable and auditable environment.
+The remote access functionality allows the computers to be accessed remotely from your 4biz instance. In this sense, we use the Virtual Network Computing (VNC) protocol resources through the Apache Guacamole - web-based remote access gateway - to make this operation feasible. In addition to being able to remotely access a configuration item, all sessions are saved and made available to the CI information. This ensures better control over the actions taken by providing a reliable and auditable environment.
 
 This functionality is an add-on to the Configuration Management and depends on the inventory process to make viable remote access to a CI.
 
 
 ## Before getting started
 
-The following requirements precede the effective use of this functionality:
-
 * [x] Having the inventory process defined and functional using the 4biz Inventory;
 * [x] Having inventoried the configuration items; 
 
 ## Procedure
 
-1. Install the GuaCD using the [official documentation][1] or download the container provided by 4biz. It is not necessary to install 
+1. Install the GuaCD using the [official documentation][1] or download the container provided by 4biz. It's not necessary to install 
 the guacamole-client, since 4biz only uses the Guacamole daemon, that is, the GuaCD;
 
 2. After installation, set up the logs;
@@ -60,4 +58,3 @@ With GuaCD service active and communicable, the next step is to remotely access 
 [4]:/en-us/4biz-helium/processes/configuration/configuration/configure-remote-access.html
 [5]:/en-us/4biz-helium/processes/configuration/overview.html
 [6]:https://docs.run2biz.com/en-us/4biz-helium/additional-features/add-ons/inventory.html
-
