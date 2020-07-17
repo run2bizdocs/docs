@@ -469,7 +469,6 @@ nav:
           - 4biz-helium/processes/configuration/use/CI-captured-by-inventory.md
       - Reports:
         - 4biz-helium/processes/configuration/use/generate-report-configuration-management.md
-        - 4biz-helium/processes/configuration/use/generate-reports-charts-panel-ic.md
       - Media Library:
         - 4biz-helium/processes/configuration/configuration/register-definitive-media.md
       - Configuration:
