@@ -31,7 +31,7 @@ if [ "x$JAVA_OPTS" = "x" ]; then
 	JAVA_OPTS="$JAVA_OPTS -XX:InitiatingHeapOccupancyPercent=50"
 	JAVA_OPTS="$JAVA_OPTS -Djava.net.preferIPv4Stack=true"
 	JAVA_OPTS="$JAVA_OPTS -Dorg.jboss.resolver.warning=true"
-	JAVA_OPTS="$JAVA_OPTS -Duser.timezone="America/Sao_Paulo""
+	JAVA_OPTS="$JAVA_OPTS -Duser.timezone="YOUR_TIME_ZONE""
 	JAVA_OPTS="$JAVA_OPTS -Djboss.modules.system.pkgs=$JBOSS_MODULES_SYSTEM_PKGS"
 	JAVA_OPTS="$JAVA_OPTS -Djava.awt.headless=true"
 	JAVA_OPTS="$JAVA_OPTS -Djboss.server.default.config=standalone-full-ha.xml"
