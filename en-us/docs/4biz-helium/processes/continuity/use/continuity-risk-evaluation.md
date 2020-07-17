@@ -1,24 +1,24 @@
-title: Register continuity risk evaluation
+title: Registering continuity risk evaluation
 Description: Allows to register the risk evaluation. 
-# Register continuity risk evaluation
+# Registering continuity risk evaluation
 
-The Continuity Registration is a process that passes through several phases. The second phase of this process, called Requirements and Strategies, will be set the vital functions, business impact analysis, risks evaluation and continuity strategy. This functionality allows to register the risk evaluation.
+The Continuity Registration is a process that passes through several phases. The second phase of this process is called Requirements and Strategies, where it'll be set the vital functions, business impact analysis, risks evaluation and continuity strategy. This functionality allows to register the risk evaluation.
 
 Before getting started
 --------------------------
 
-It's necessary the existence of a service defined in the process of Portfolio
+- [x] It's necessary the existence of a service defined in the process of Portfolio
 and Catalog Management.
 
-It's also necessary to previously register the Continuity Registration, policy
+- [x] It's also necessary to have registered the Continuity Registration, policy
 and continuity project of a service already defined, in addition to have
 registered the scope, vital functions and impact analysis of continuity
 business.
 
-You will need to previously register the threat, threat category and link the
-threat category to the category registered.
+- [x] You'll need to previous register the threat, threat category and link both
+of them.
 
-Besides, previously register the automatic action of Incident, request and
+- [x] Besides, have registered the automatic action of Incident, request and
 procedure about the Event Management.
 
 Procedure
@@ -30,36 +30,17 @@ Procedure
 2.  Find the continuity you want to link the risks evaluation and click on
     "Advance";
 
-3.  In **Requirements and Strategies**, click on "Risks assessment";
+3.  In **Requirements and Strategies**, click on "Risks assessment". Here you 
+    can add possible scenarios for the risks. We have the following functions:
 
-4.  Click on "Add Scenario" and then on the icon “+” to complete the necessary
-    fields;
+|Function|Description|
+|--------|-----------|
+|**Add scenery**| To add a possible scenery of risk. Complete the mandatory fields: Name and vital function|
+|**Add service**|To add a service (available for your profile) to the risk. You can delete it too|
+|**Add risk**|Select the risk you want to link. Once linked the risk, it's possible to **Select threat** or **Add Threat**. When adding a threat, complete the mandatory fields: Threat Name and Threat Category. Next the Treats tab, there's the **Treatment Plans** to add a treatment plan for the risk|
 
-5.  To add services to the risk evaluation, click on "Add service" to search and
-    link the service you want;
+4.  Click on "Save".
 
-6.  To add the risk to the risk evaluation, click on Add risk to search and link
-    the risk you want;
-
-7.  After add the risk, click on the icon “+” and click on "Select Threat"
-    and/or "Add Threat" to complete the necessary fields to link the threat. To
-    enter the threat treatment plan:
-
-    a.Open the tab "Treatment Plans", then on "Add Treatment" and enter the name
-    of the plan. Then, click on the icon “+” to complete the others fields;
-
-    b.After register the data of the treatment plan, click on the icon “Risk
-    evaluation chart” if you want to verify the risk evaluation chart.
-
-8.  Click on "Save".
-
-What to do next
--------------------
-
-After register the continuity risks evaluation, it's necessary to execute the
-following action: register the service continuity strategy, being this action
-part of the second phase of the complete registration of continuity, called
-Requirements and Strategies.
 
 Related
 -----------
@@ -89,9 +70,3 @@ Related
 [Register automatic actions of incident/request/procedure](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-actions-incident-request-procedure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
