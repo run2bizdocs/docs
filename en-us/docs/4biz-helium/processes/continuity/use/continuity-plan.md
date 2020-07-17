@@ -1,24 +1,24 @@
-title: Register continuity plan
+title: Registering continuity plan
 Description: Allows to register the continuity plan.
-# Register continuity plan
+# Registering continuity plan
 
-The Continuity Registration is a process that pass through several phases. The third phase of this process is called Implementation, where it'll be defined the Continuity Plan, Planning and Test Strategy. This functionality allows to register the continuity plan.
+The Continuity Registration is a process that pass through several phases. The third phase of this process is called Implementation, where it'll be defined the Continuity Plan, Organizational Planning and Test Strategy. This functionality allows to register the continuity plan.
 
 Before getting started
 --------------------------
 
-Assumes the existence of a defined service in a Portfolio and Catalog Management
+- [x] The existence of a defined service in the Portfolio and Catalog Management
 process.
 
-It's necessary to firstly register the Continuity Registration, the policy and
+- [x] It's necessary to have registered the Continuity Registration, the policy and
 service continuity project defined, besides, have registered the scope, vital
-functions and business impact analysis , risk evaluation, strategy and
+functions, business impact analysis, risk evaluation, strategy and
 continuity plan.
 
-It's also necessary to previously register the threat and threat category linked
+- [x] It's also necessary to have registered the threat and threat category linked
 to each other. In addition, have registered the risk and risk category.
 
-It's equally essential to have registered the automatic actions for incident,
+- [x] It's equally essential to have registered the automatic actions for incident,
 request and procedure about the Event Management.
 
 Procedure
@@ -32,26 +32,30 @@ Procedure
 
 3.  In **Implementation**, click on "Continuity Plan";
 
-4.  Complete the fields necessary;
+4.  Complete the fields available:
 
-5.  To link a knowledge, click on "Relate Knowledge" to search and link the
-    knowledge you want;
+|Fields|Description|
+|------|-----------|
+|**Title(\*)**|The title for the continuity plan|
+|**Version**|The version for the continuity plan|
+|**Status(\*)**|Set the status of the plan|
+|**Description**|Describe the plan|
+|**Continuity Procedure(\*)**|Add the continuity procedure|
+|**Assignment(\*)**|Assign the people for this plan|
+|**Validity(\*)**|The date for the expiration of the plan|
+|**Authorization(\*)**|Set if is authorized or not|
+|**Related Change**|Relate a change for the plan|
 
-6.  To link recovery measures to the continuity plan, click on "Relate Recovery
-    Measures" to search and link the measures you want;
+(\*)Indicate mandatory fields.
 
-7.  To attach some file, click on "Attach" and then on "Add file" to link the
-    file;
+|Action|Description|
+|------|-----------|
+|**Relate Knowledge**|To link a document to the plan|
+|**Relate Recovery Measures**|To link recovery measures|
+|**Attachments**|To add files|
 
-8.  Click on "Save".
+5.  Click on "Save".
 
-What to do next
--------------------
-
-After register the continuity plan, it's necessary to execute the following
-action: register the continuity organizational planning, being this action part
-of the third phase of the complete register of continuity, called
-Implementation.
 
 Related
 -----------
@@ -86,9 +90,3 @@ Related
 
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
