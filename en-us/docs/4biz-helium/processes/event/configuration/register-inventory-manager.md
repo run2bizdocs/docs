@@ -9,7 +9,7 @@ will be responsible for the occurrences of events captured from 4biz Inventory.
 
 It allows the user to indicate how much time the Manager will be processed, what
 configuration items it will manage, the checks that will be applied and the
-actions to be taken automatically.
+actions to be automatically taken.
 
 This feature provides a variety of actions, such as including, changing, and
 deleting Inventory manager.
@@ -22,7 +22,7 @@ deleting Inventory manager.
 Before getting started
 ----------------------
 
--   To register the Inventory manager, it's necessary to previously register the
+- [x]  To register the Inventory manager, it's necessary to previously register the
     4biz Event Monitor connection, time, occurrence category, automatic action
     and the 4biz Inventory connection.
 
@@ -30,16 +30,16 @@ Procedure
 ---------
 
 1.  Access the functionality through the main menu Processes \> Event Management
-    \> Inventory Management \> Inventory Manager;
+    \> Inventory Monitor \> Inventory Manager;
 
-2.  Click on the desired Tab (Search / Register) and action;
+2.  Click on the desired Tab (Search / Register) and function;
 
 | Function   | Description               |
 |------------|---------------------------|
 | **Add**    | Add Managers to the grids |
 | **Save**   | Save the Managers         |
 | **Delete** | Delete the Manager Edited |
-| **Clear**  | Clear all Form Fields     |
+| **Clear**  | Clear all fields from the Form |
 
 Search
 ------
@@ -79,7 +79,7 @@ Register
 
 | **Data Fields**                                                 |
 |-----------------------------------------------------------------|
-| Configuration Type(Specific Configuration,    General Settings) |
+| Configuration Type(Specific Configuration, General Settings) |
 
 ### CONFIGURATION ITEM PARENT
 
@@ -95,13 +95,13 @@ Register
 | Generate Down occurrences? ( Yes /  No ) |
 | Action for down (Only register event)    |
 | Urgency (Low/ Medium / High)             |
-| Impact0                                  |
+| Impact                                   |
 
 ### CONFIGURATION ITEM CHILD  OR  TYPE OF CONFIGURATION ITEM
 
 | **Data Fields**                                                               |
 |-------------------------------------------------------------------------------|
-| Configuration Type ( Configuration item child /   Type of Configuration Item) |
+| Configuration Type ( Configuration item child/Type of Configuration Item)     |
 | Configuration item child                                                      |
 | Check                                                                         |
 | Category of occurrence group                                                  |
@@ -121,7 +121,7 @@ Register
 | Action for exception                                                          |
 | Urgency (Low/ Medium / High)                                                  |
 | Impact (Low/ Medium / High)                                                   |
-| Configuration Type Configuration item child     Type of Configuration Item    |
+| Configuration Type: Configuration item child or Type of Configuration Item    |
 | Configuration item child                                                      |
 | Check                                                                         |
 | Category of occurrence group                                                  |
@@ -179,9 +179,3 @@ Related
 [Register time](/en-us/4biz-helium/processes/event/configuration/register-time.html)
 
 [Set Inventory connection](/en-us/4biz-helium/processes/event/configuration/set-inventory-connection.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
