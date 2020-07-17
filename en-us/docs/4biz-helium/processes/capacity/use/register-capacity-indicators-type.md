@@ -1,13 +1,13 @@
-title: Register Type of capacity indicators 
-Description: Is intended to maintain types of capacity indicators.
+title: Registering type of capacity indicators 
+Description: It's intended to maintain the types of capacity indicators.
 
-# Register type of capacity indicators
+# Registering type of capacity indicators
 
-This functionality is intended to maintain types of capacity indicators.
+This functionality is intended to maintain the types of capacity indicators.
 
 ## Before getting started
 
-It's necessary to have defined the access permission to the functionalities of the Capacity Management and have permission of usage the functionality.
+- [x] It's necessary to have defined the access permission to the functionalities of the Capacity Management and have permission to use the functionality.
 
 ## Procedure
 
@@ -15,7 +15,7 @@ It's necessary to have defined the access permission to the functionalities of t
 
 -   The system will present a screen with the types of Capacity Indicators registered and a filter with Name, Category and Status;
 
--   The user can select the option "**New**" to create a new type of Capacity Indicator or for each type listed the user can select:
+-   The user can select the option "**New**" to create a new type of Capacity Indicator or, for each type listed, the user can select:
 
     1.  **Edit** - to Change the Capacity Type
 
@@ -28,9 +28,9 @@ It's necessary to have defined the access permission to the functionalities of t
 
 | Field         | Description                                                                                  |
 |---------------|----------------------------------------------------------------------------------------------|
-| Name  (*)     | Name of the capacity indicator type                                                          |
-| Category  (*) | Choose one of the pre-defined categories                                                     |
-| Status  (*)   | Indicates usage availability (Active/Inactive)                                               |
+| Name  ( * )   | Name of the capacity indicator type                                                          |
+| Category ( * ) | Choose one of the pre-defined categories                                                     |
+| Status  ( * ) | Indicates usage availability (Active/Inactive)                                               |
 
 (*) Indicate mandatory field
 
