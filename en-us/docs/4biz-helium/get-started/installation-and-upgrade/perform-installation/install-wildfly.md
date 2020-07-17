@@ -1,6 +1,6 @@
 # Wildfly Installation
 
-Wildfly can be downloaded directly from the community site in your download area at https://wildfly.org/downloads/. The version should be the same as suggested by the documentation in [Requisitos do sistema][1]. In this case, the tgz package should be downloaded `Java EE Full & Web Distribution`.
+Wildfly can be downloaded directly from the community site in your download area at https://wildfly.org/downloads/. The version should be the same as suggested by the documentation in [System Requirements][1]. In this case, the tgz package should be downloaded `Java EE Full & Web Distribution`.
 
 ```sh
 [root@server /tmp]# cd /tmp
