@@ -66,10 +66,3 @@ Related
 
 [Register ticket
 template](/en-us/4biz-helium/platform-administration/questionnaires/ticket-template.html)
-
-!!! tip "About"
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-<b>Updated:</b>02/21/2019 – Larissa Lourenço
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
