@@ -1,6 +1,6 @@
-title: Emit report using Smart Report
+title: Issuing report with Smart Report
 Description: allows to issue custom reports created from the "Smart Report Creator".
-# Emit report using Smart Report
+# Issuing report with Smart Report
 This functionality allows to issue custom reports created from the "Smart Report Creator".
 
 Procedure
@@ -22,9 +22,3 @@ Related
 -------
 
 [Build and maintain smart reports](/en-us/4biz-helium/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
