@@ -1,26 +1,25 @@
-title: Register continuity awareness
-
+title: Registering continuity awareness
 Description: Allows to register the Awareness (education and training) of the service continuity.
-# Register continuity awareness
+# Registering continuity awareness
 
-The Continuity Registration is a process that pass through several phase. The fourth phase of this process is the Continuous Operation, where it'll be defined the continuity awareness (education and training), Review, continuity audit, tests of the contunity and its Invocation. This functionality allows to register the Awareness (education and training) of the service continuity.
+The Continuity Registration is a process that pass through several phases. The fourth phase of this process is the Continuous Operation, where it'll be defined the continuity awareness (education and training), Review and audit, tests and Invocation. This functionality allows to register the Awareness (education and training) of the service continuity.
 
 Before getting started
 --------------------------
 
-It's necessary the existence of a service defined in the process of Portfolio
+- [x] The existence of a service defined in the process of Portfolio
 and Catalog Management.
 
-It's essential to firstly have the Continuiry Registration already registered,
+- [x] It's necessary to have registered the Continuiry Registration,
 as well as the policy and service continuity project defined, in addition to
 have previously registered the scope, vital functions, business impact analysis,
 risks evaluation, strategy, plan, organizational plan and the continuity
 strategy tests.
 
-It's necessary to also have the previously registration of threat and threat
+- [x] It's also necessary to also have registered the threat and threat
 category linked to each other, the risk and risk category.
 
-It's equally fundamental to register automatic actions of Incident, Request and
+- [x] It's equally fundamental to register the automatic actions of Incident, Request and
 Procedure about the Event Management.
 
 Procedure
@@ -34,20 +33,17 @@ Procedure
 
 3.  In **Continuous Operation**, click on "Awareness (Education and Training)";
 
-4.  Complete the data necessary;
+4.  After describe the Executive summary, which is mandatory, it's possible to complete the Training Registries. Click on Add Register and complete the fields:
 
-5.  Click on "Add Register" to complete the data about the training. It's
-    possible, if necessary, to add a file to the training registration, just
-    click on the “clip symbol” icon and then on "Add file";
+|Field|Description|
+|-----|-----------|
+|**Critical Analysis of Action(\*)**|Make a critical analysis of the action|
+|**Type of Activity(\*)**|Select the type of activity|
+|**Status(\*)**|Select the status of the activity|
 
-6.  Click on "Save".
+(\*)Indicate mandatory fields.
 
-What to do next
--------------------
-
-After register the awareness of continuity, it's necessary to execute the
-following action: review and audit the continuity, action comes from the fourth
-phase of the complete registration of continuity, called Continuous Operation.
+5.  Click on "Save".
 
 Related
 -----------
@@ -87,9 +83,3 @@ Related
 [Register automatic actions of incident/request/procedure](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-actions-incident-request-procedure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
