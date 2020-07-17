@@ -475,7 +475,6 @@ nav:
         - Configuration Item:
           - 4biz-helium/processes/configuration/configuration/register-characteristics.md
           - 4biz-helium/processes/configuration/configuration/register-type-ic.md
-          - 4biz-helium/processes/configuration/configuration/create-configuration-item-related-ic.md
         - 4biz-helium/processes/configuration/configuration/configure-remote-access.md
         - 4biz-helium/processes/configuration/configuration/register-financial-value-ic.md
         - 4biz-helium/processes/configuration/configuration/register-software-blacklist.md
