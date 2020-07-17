@@ -1,6 +1,7 @@
-title: Configure user activity in the tasker Description: This document is
-intended to configure the activity within the tasker, called user task. \#
-Configure user activity in the tasker
+title: Configure user activity in the tasker 
+Description: This document is intended to configure the activity within the tasker, called user task. 
+
+# Configure user activity in the tasker
 
 When designing a workflow, it is possible to insert several elements, among
 them, the User Activity. This document is intended to guide the configuration of
@@ -11,14 +12,6 @@ Before getting started
 
 To use the "User Activity" element, it's necessary to have, at least, a
 registered workflow in the tool, with the event elements: "start" and "end".
-
-!!! Abstract "NOTE"
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Within the *Interface* tab, choosing the "Builder Form" Interaction Type: have 2 distinct Builder 
-forms configured for the creation form to be displayed next to the monitoring form. 
-It is also necessary to create the Ticket Template for each of the forms.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Procedure
 ---------
@@ -154,11 +147,4 @@ The main purpose of linking this knowledge is to allow the attendant of a reques
 As soon as the workflow arrives at the activity of the flow linked to a knowledge, the button "Knowledge" is shown in 
 the upper right corner of the Request/Incident screen, to give read access to the content, for that, such knowledge is 
 usually written in the form of a step by step.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-!!! tip "About"
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-<b>Updated:</b>04/22/2019 – Anna Martins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
