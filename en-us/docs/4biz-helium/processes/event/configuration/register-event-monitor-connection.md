@@ -12,7 +12,7 @@ deleting all priorities about the 4biz Event Monitor connection.
 Before getting started
 --------------------------
 
-The functionality configuration requires a server with EVM and Mongo application
+- [x] The functionality configuration requires a server with EVM and Mongo application
 functional and communicable with ITSM.
 
 Procedure
@@ -22,14 +22,9 @@ Procedure
     \> Connections \> Event Monitor Connections;
 
 2.  In the tab 4biz Event Monitor Connection Registration, complete the
-    fields available;
+    fields available: Name, Identifier, IP, Port and Context. All the fields
+    are mandatory;
 
 3.  Click on "Test Connection";
 
 4.  Click on "Save".
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
