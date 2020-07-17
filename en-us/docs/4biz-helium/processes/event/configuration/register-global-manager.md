@@ -1,5 +1,6 @@
 title: Register Global manager
-Description: 
+Description: This functionality is intended to create rules to monitor several types of
+events
 # Register Global manager
 
 This functionality is intended to create rules to monitor several types of
@@ -7,11 +8,11 @@ events.
 
 Each global event manager contains an EPL for *Information*, *Warning*, and/or
 *Exception*. EPL is an event correlation language used by Esper (Espertech). In
-the initialization of 4biz Event Monitor, these EPLs are imported into the
+the start of 4biz Event Monitor, these EPL are imported into the
 Esper engine so that a new correlated event will be created each time the
 condition set in the EPL is satisfied. 
 
-Events and alerts related to 
+Events and alerts related to: 
 
 - Business Processes, Service Level Requirements 
 
@@ -21,7 +22,7 @@ Events and alerts related to
 
 - Control action, 
 
-- Access to information on supporting and dependent CIs, the Change schedule, and known error information from vendors
+- Access to information on supporting and dependent CI, the Change schedule and known error information from vendors
 
 Example of an EPL that correlates between
 4biz Inventory and Nagios events: \@Description ('For any Nagios event that
@@ -47,31 +48,30 @@ Procedure
 
 2.  Complete the fields available in each area:
 
-       - Enter the data of **Action to Information**:
+       - Enter the data of **Action for Information**:
 
          - Select the action that will be triggered when there is an event of type
            *information*, the degree of urgency and impact. The rules for this action
            are defined using the Event Processing Language (EPL). Click
            the *Validate EPL Information* button to validate the informed EPL.
 
-       - Enter the data of **Action to Warning**:
+       - Enter the data of **Action for Warning**:
 
          - Select the action that will be triggered when there is an event of type
            *warning*, the degree of urgency and impact. The rules for this action are
            defined using the Event Processing Language (EPL). Click on
            the *Validate EPL from Warning* button to validate the informed EPL.
 
-       - Enter the data of **Action to Exception**:
+       - Enter the data of **Action for Exception**:
 
          - Select the action that will be triggered when there is an event
            occurrence of type *exception*, the degree of urgency and impact. The
            rules for this action are defined using the Event Processing Language
-           (EPL). Click the *Validate EPL of Exception* button to validate the EPL
+           (EPL). Click the *Validate EPL from Exception* button to validate the EPL
            entered.
 
 
-1.  Click on "Save".
-
+3.  Click on "Save".
 
 Related
 -------
@@ -85,10 +85,3 @@ Related
 [Set Inventory connection](/en-us/4biz-helium/processes/event/configuration/set-inventory-connection.html)
 
 [Register automatic action](/en-us/4biz-helium/additional-features/automation-of-operation/configuration/register-automatic-action.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
- 
