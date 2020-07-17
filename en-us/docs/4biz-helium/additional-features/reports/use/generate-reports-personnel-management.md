@@ -1,6 +1,6 @@
-title: Generate reports - personnel management
+title: Generating reports - personnel management
 Description: Intended to present the information of employees by unit.
-# Generate reports - Personnel management
+# Generating reports - Personnel management
 
 This report is intended to present the information of employees by unit.
 
@@ -10,7 +10,12 @@ Procedure
 1.  Access the functionality through the main menu Reports \> Personnel
     Management \> Employee Unit Report;
 
-2.  Define the filters as needed;
+2.  Define the filters:
+
+    - Contract
+    - Unit
+    - Contributor
+    - Employee
 
 
     !!! Abstract "NOTE"
@@ -21,8 +26,3 @@ Procedure
 
 3.  Click on "Generate PDF" to create the report in PDF and/or click on
     "Generate XLS" to create the report in Excel.
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
