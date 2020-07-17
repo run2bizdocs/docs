@@ -1,6 +1,6 @@
-title: Register threat
+title: Registering threat
 Description:Provides a variety of actions, such as including, changing, and deleting the threat. 
-# Register threat
+# Registering threat
 
 This functionality is intended to register the threats that will be used during the Continuity registration.
 This feature provides a variety of actions, such as including, changing, and deleting the threat.
@@ -8,7 +8,7 @@ This feature provides a variety of actions, such as including, changing, and del
 Before getting started
 --------------------------
 
-It's necessary to previously register the threat category.
+- [x] It's necessary to have registered the threat category.
 
 Procedure
 -------------
@@ -28,9 +28,3 @@ Related
 [Register threat category](/en-us/4biz-helium/processes/continuity/configuration/threat-category.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RPwpIsGu97d5LVHeTNzpTMC)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
