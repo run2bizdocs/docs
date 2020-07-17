@@ -1,8 +1,8 @@
 title: Register cost per hour of unavailability
-Description: Is intended to establish the cost per hour of unavailability of a configuration item.
+Description: Is intended to establish the Configuration Item cost per hour of unavailability.
 # Register cost per hour of unavailability
 
-This functionality is intended to establish the cost per hour of unavailability of a configuration item.
+This functionality is intended to establish the Configuration Item cost per hour of unavailability.
 
 Before getting started
 --------------------------
@@ -27,9 +27,3 @@ Related
 -----------
 
 [Register configuration item](/en-us/4biz-helium/processes/configuration/use/register-CI.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-

@@ -1,12 +1,9 @@
-title: Verify processes related to the configuration item
+title: Verify Configuration Itens related processes
 
 Description: Allows to verify the processes related to the CI
-# Verify processes related to the configuration item
+# Verify Configuration Itens related processes
 
 This functionality allows to verify the processes related to the CI, in addition to the general information.
-
-Before getting started
---------------------------
 
 To verify the processes, it's necessary to previously register the configuration
 item and have related it.
@@ -29,7 +26,3 @@ Related
 
 [Register configuration item](/en-us/4biz-helium/processes/configuration/use/register-CI.html)
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020

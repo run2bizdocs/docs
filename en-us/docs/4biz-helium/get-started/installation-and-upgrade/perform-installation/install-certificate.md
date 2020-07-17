@@ -12,7 +12,7 @@ Installing an SSL certificate is required for the 4biz tool to work. There are t
 
 How you access 4biz changes the way the SSL certificate is created. There are two ways to access the system URL:
 
-* Through IP addressing in the format https://ENDERECO_IP
+* Through IP addressing in the format https://IP_ADDRESS
 * Through the DNS in format https://4biz.exemplo.com
 
 The certificate creation in both cases is slightly different. Below is the procedure valid for both cases.

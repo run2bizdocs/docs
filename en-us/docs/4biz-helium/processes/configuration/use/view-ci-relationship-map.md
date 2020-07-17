@@ -1,6 +1,6 @@
-Title: See map of relationship of a CI
+Title: See CI Relationship Map
 
-# See map of relationship of a CI
+# See CI Relationship Map
 
 The relationship map is the place where you can visually have an overview of the relationship tree that exists between CIs and CIs and Services. There you can use several filters to shape the type of result that will be presented.
 
@@ -37,10 +37,16 @@ By clicking on **View total capacity**, we have the following information:
 |Measured| The amount measured by the tool, taking into consideration the indicators. It also presents the total and medium, however, with the addition of a visual representation of the amount used |
 |Forecast| Here it's possible to forecast the total capacity, that is, you can set a percentage to inform you when a certain amount is reached. The tool will report if the current capacity is okay or if it's reaching it's fully capacity.|
 
+
+
+
 ## Related
 
 [Relating Configuration Item to a service][1]
+[Verify processes related to the configuration item][3]
 
 [1]:/en-us/4biz-helium/processes/configuration/use/create-ic-relationship.html
 
 [2]:/en-us/4biz-helium/processes/configuration/use/create-ic-relationship.html
+
+[3]:/en-us/4biz-helium/processes/configuration/use/CI-processes-related.html

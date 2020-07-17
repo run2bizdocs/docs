@@ -1,14 +1,9 @@
-title: Change group of configuration item
+title: Change the Configuration Item Group
 
 Description: Has the objective of modify the information in the configuration item group
-# Change group of configuration item
+# Change the Configuration Item Group
 
 This functionality has the objective of modify the information in the configuration item group. This field only will be active if it's created a group in the CMDB screen.
-
-Before getting started
---------------------------
-
-It's necessary to previously register a group of configuration item.
 
 Procedure
 -------------
@@ -28,9 +23,3 @@ Related
 -----------
 
 [Register configuration item group](/en-us/4biz-helium/processes/configuration/configuration/register-configuration-item-group.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020

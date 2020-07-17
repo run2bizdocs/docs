@@ -1,6 +1,6 @@
-title: Verify execution status of CI inventory
+title: Verify CI Inventory Status
 Description: Allows to view the current status of the inventory execution through the application of 4biz Inventory.
-# Verify execution status of CI inventory
+# Verify CI Inventory Status
 
 This functionality allows to view the current status of the inventory execution
 through the application of 4biz Inventory.
@@ -8,8 +8,7 @@ through the application of 4biz Inventory.
 Before getting started
 --------------------------
 
-To view, it's necessary to previously register the configuration item and
-configure the Event Monitor.
+Necessary previously register the configuration item and configure the Inventory Module.
 
 Procedure
 -------------
@@ -26,9 +25,3 @@ Related
 ----------
 
 [Implement 4biz Inventory](/en-us/4biz-helium/additional-features/add-ons/inventory.html)
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020

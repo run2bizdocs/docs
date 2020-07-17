@@ -1,6 +1,6 @@
-title: Delete group of configuration item
+title: Delete Configuration Item Group
 Description: Only can be deleted the group that does not have item related
-# Delete group of configuration item
+# Delete Configuration Item Group
 
 Only can be deleted the group that does not have item related (groups and/or configuration item).
 
@@ -25,8 +25,3 @@ Related
 -----------
 
 [Register configuration item group](/en-us/4biz-helium/processes/configuration/configuration/register-configuration-item-group.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020

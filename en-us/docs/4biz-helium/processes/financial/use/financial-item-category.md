@@ -13,7 +13,7 @@ Description:Financial Item Category
 
 |Function| Description|
 |-|-|
-|**Save**|Save the new SLA|
+|**Save**|Save the new financial category|
 |**Clear**|Clear all Form Fields|
 |**View**|View the fields without being able to change|
 |**Edit**|Edit the Financial Item Category fields|

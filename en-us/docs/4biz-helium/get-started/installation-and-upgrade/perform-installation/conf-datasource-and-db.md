@@ -1,13 +1,9 @@
-Title: Configuring Datasource and Drives of bank
+Title: Configure Datasource and Database Server Drivers
 
-Configuring Datasource and Drives of bank
+Configure Datasource and Database Server Drivers
 ===========================================
 
-Before creating a datasource, it's necessary to add a database module to the system. Each base 
-has its own connection driver, but all settings are based on the same principle: download the 
-driver from the manufacturer, copy it to wildfly and configure on the system. The settings will 
-be made via jboss-cli, but they can all be made via XML in the standalone-full.xml file if you 
-wish for it.
+Before creating a datasource, it's necessary to add a database module connector to the system. Each database has its own connection driver, but all settings are based on the same principle: download the driver from the manufacturer, copy it to wildfly and configure on the system. The settings will be made via jboss-cli, but they can all be made via XML in the standalone-full.xml file if you wish for it.
 
 In the example below we'll use the PostgreSQL driver. Each database has its own configuration 
 method, we recommend looking in the database manufacturer's documentation of your choice if it 
