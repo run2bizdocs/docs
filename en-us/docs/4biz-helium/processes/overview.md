@@ -273,7 +273,3 @@ British government, aiming to improve internal processes. ITIL is a framework
 that recommends best practices for IT service management and provides resources
 to meet ISO/IEC 20000, incorporating the best recommendations contained in CMMI,
 PMBOK, COBIT, Six Sigma and ISO 20000.
-
-!!! tip "About"
-    <b>Updated:</b>11/03/2020
-
