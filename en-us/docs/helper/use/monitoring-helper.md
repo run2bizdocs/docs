@@ -13,7 +13,14 @@ Procedure
 -----------
 1. Access the main menu Analytics;
 
-2. Access one of the options available.
+2. Access one of the modules available:
+
+|Module|Description|
+|------|-----------|
+|List conversation| It presents all the conversations in the period selected|
+|Intents ranking| It presents the most and less used intents|
+|Answers ranking| It presents the most and less used answers|
+|Fallback ranking| It presents the answers with most fallback. With that, we can take actions to improve the accuracy of these answers| 
 
 
 !!! Abstract "NOTE"
@@ -21,9 +28,3 @@ Procedure
     When accessing the list of conversations, click on each sentence of the dialog to see the percentage of 
     assertiveness with which Helper understood the user's interest, indices lower than twenty percent make 
     Helper use the fallback ability.
-    
-    
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
