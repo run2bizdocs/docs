@@ -1,6 +1,6 @@
-title: Define access permission to continuity management
+title: Defining access permission to continuity management
 Description: Intended to define who will have access to the continuity management functionalities, and which type of access is allowed (reading, saving and/or deleting).
-# Define access permission to continuity management
+# Defining access permission to continuity management
 
 This functionality is intended to define who will have access to the continuity
 management functionalities, and which type of access is allowed (reading, saving
@@ -9,7 +9,7 @@ and/or deleting).
 Before getting started
 --------------------------
 
-Before define the access permission to the module Continuity Management, it's
+- [x] Before define the access permission to the module Continuity Management, it's
 necessary to create a profile access.
 
 Procedure
@@ -23,7 +23,7 @@ Procedure
 3.  Search and select the profile you want;
 
 4.  To each functionality of the continuity management, it's necessary to define
-    the actions (search, save and/or delete) the profile will be able to make;
+    the actions (search, save and/or delete) the profile will be able to perform;
 
 5.  Click on "Save".
 
@@ -31,8 +31,3 @@ Related
 -------
 
 [Create profile access](/en-us/4biz-helium/initial-settings/access-settings/profile/create-profile-access.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
