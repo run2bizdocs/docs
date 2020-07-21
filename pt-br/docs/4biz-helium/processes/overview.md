@@ -192,7 +192,7 @@ outros serviços da sua organização.
     gerenciamento de campo com mobile, entre outros.
 
 -   Operações de TI: Tickets e Service Desk, Gerenciamento de Problemas, Conhecimento,
-    Evento, Continuidade, Ativos de TI, Mudança, Liberação, Disponibilidade, entre outros (13
+    Evento, Continuidade, Ativos de TI, Mudança, Liberação, Disponibilidade, entre outros (16
     processos baseados nas melhores práticas de ITIL)
 
 -   Assistente Virtual e Conhecimento: integração com os principais sistemas de IA do
