@@ -26,7 +26,7 @@ Procedimento
 4.  A lista abaixo apresenta os parâmetros do "Conhecimento" e a finalidade de
     cada um deles:
 
-|#|Nome||Finalidade|Orientações complementares|
+|#|Nome|Finalidade|Orientações complementares|
 |-|-|-|-|
 |78| Avisar, com antecedência, a quantidade de dias que restam para a expiração do conhecimento. (Default: 90 dias)|Definir com quantos dias de antecedência da data de expiração do conhecimento, o autor e aprovador serão notificados. Na criação de um conhecimento na tela “Base de Conhecimento”, deve ser informada a data de expiração, ou seja, a data em que o conhecimento irá expirar. Será notificado ao autor e aprovador do conhecimento, com antecedência de N dias (definido neste parâmetro) da data de expiração do conhecimento| Não se aplica|
 |79|ID do modelo de e-mail para envio de notificação de criação de pasta|Informar o número de identificação (ID) do modelo de e-mail de notificação de criação de pasta. Ao criar uma pasta na tela de “Cadastro de Pasta”, será utilizado para o envio da notificação de criação da pasta o modelo de e-mail definido neste parâmetro. Essa notificação será enviada para o grupo e/ou usuário associado à pasta. Esse ID do modelo de e-mail é definido na tela de “Modelo de E-mail”.|Caso não informe o número de identificação (ID) do modelo de e-mail, há possiblidade de não enviar o e-mail correto.|
