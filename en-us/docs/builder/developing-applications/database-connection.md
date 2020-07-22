@@ -26,11 +26,6 @@ You must have a working database driver in your operating environment before set
 5\.	Click on the "Save" button.
 
 
-![app](images/builder-3.png)    
-
-Figure 1 - Application   
-
-
 ## MS SQL SERVER CONNECTION
 Since Builder uses the jtds driver to connect to MS SQL Server databases, the connection URL must follow the pattern jdbc:jtds:sqlserver://{server}:{port};DatabaseName = {name of the database}. In addition, the driver name for the Integration Flow connector must be net.sourceforge.jtds.jdbc.Driver.
 

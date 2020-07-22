@@ -30,10 +30,6 @@ Procedimiento
 
     Todos los campos de la lista de elementos se utilizarán como filtro para restringir los elementos listados.
     
-
-![app](images/builder-3.png)
-
-Figura 1 - Aplicación
     
 
 !!! tip "About"

@@ -30,9 +30,6 @@ Procedimento
     Todos os campos na lista de Itens serão usados como filtro para restringir os itens listados.
     
 
-![app](images/builder-3.png)
-
-Figura 1 - Aplicação
     
 
 !!! info "SQL SERVER CONNECTION"
