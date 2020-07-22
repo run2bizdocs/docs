@@ -28,14 +28,6 @@ Procedimiento
     Crear una clave para cada idioma.
 
 
-![internationalization](images/builder-5.png)
-
-Figura 1 - Internacionalización
-
-
-![internationalization](images/builder-6.png)
-
-Figura 2 - Datos del internacionalización
 
 
 !!! tip "About"

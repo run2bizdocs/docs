@@ -26,15 +26,6 @@ The Builder Application must have been created.
     Create one key for each language.
 
 
-![internationalization](images/builder-5.png)
-
-Figure 1 - Internationalization
-
-
-![internationalization](images/builder-6.png)
-
-Figure 2 - Internationalization data
-
 
 !!! tip "About"
 

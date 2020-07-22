@@ -32,14 +32,6 @@ Procedimento
     Criar uma chave para cada idioma.
 
 
-![internationalization](images/builder-5.png)
-
-Figura 1 - Internacionalização
-
-
-![internationalization](images/builder-6.png)
-
-Figura 2 - Dados da internacionalização
 
 
 !!! tip "About"
