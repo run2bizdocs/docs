@@ -4,94 +4,59 @@ Description: Describe los ciclos de lanzamiento y actualización de los Producto
 # Política de Liberación y Actualización de los Productos 4biz
 
 ## Visión General
-El objetivo de esta política es describir los ciclos de liberación y actualización
-de los Productos 4biz, notificaciones al cliente y otra información relevante.
+El propósito de esta política es describir los ciclos de liberación y actualización de los productos Run2biz, notificaciones a los clientes y otras informaciones relevantes.
 
-Las directrices de la política se aplican a todos nuestros productos, ya estén
-utilizando el modelo SaaS u On-Premise.
+Las pautas de la política son aplicables a todos nuestros productos, sea en el modelo SaaS u On-Premises.
 
 ## Ciclos de Liberación y Actualización
-Nuestra propuesta de liberación y actualización de productos fue definida para
-proporcionar estabilidad, respuesta rápida a problemas, además de suministro continuo
-de nuevos recursos y experiencias.
+Nuestra propuesta de liberación y actualización de productos fue diseñada para proporcionar estabilidad, una respuesta rápida a los problemas, así como un suministro continuo de nuevos recursos y experiencias.
 
-Los productos 4biz, generalmente, siguen 3 tipos de liberación, como se
-muestra en la siguiente tabla:
+Los productos 4biz, normalmente, siguen 4 tipos de liberación, como se detalla en la siguiente tabla:
 
-| **Tipo Liberación**     | **Alcance**                                                                                                                 | **Frecuencia**                      | **Notificación**                                                                                  |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------|
-| *Major Release*        | Nuevas funcionalidades y killer features para el producto.                                                                    | Típicamente, dos veces al año     | Típicamente, un mes antes del lanzamiento, con una segunda notificación 20 días después del envío de la 1ª. |
-| *Minor Release*        | Incluye, pero no se limita a pequeñas mejoras, actualizaciones de seguridad y generalmente no implica cambios arquitectónicos. | Típicamente, una vez cada 2 meses |                                                                                                  |
-| *Hotfix* **Planificada** | Actualizaciones incluyendo corrección de errores, aplicaciones y ajustes puntuales.                                                  | Típicamente, una vez al mes        |                                                                                                  |
-| *Hotfix* **Crítica**   | Correcciones de emergencia para garantizar la estabilidad y la seguridad del sistema                                                 | Siempre que sea necesario               | Pocas horas antes, preferentemente 48h antes                                                  |
+|**Tipo de Liberación**|**Alcance**|**Frecuencia**|**Notificación**|
+|*Major Version*|Recomendada para todos los clientes, esta actualización puede incluir nuevas funcionalidades y killer features. Normalmente con cambios significativos en la aplicación o arquitectura.|Anual|En el mes anterior a la liberación, con una segunda notificación 20 días después de enviar la primera.|
+|*Stable Release*|Recomendada para todos los clientes, esta actualización puede incluir nuevas funcionalidades, mejoras, actualizaciones de seguridad, ajustes y correcciones.|Trimensual|En el mes anterior a la liberación, con una segunda notificación 10 días antes de la liberación.|
+|*Beta Release*|Normalmente dirigido a socios Beta Users y con un alcance específico, puede incluir mejoras, actualizaciones, ajustes y correcciones.|Bimestral|Diez días antes de la liberación.|
+|*Hotfix*|Recomendada para todos los clientes, esta actualización puede incluir soluciones de emergencia para garantizar la estabilidad y seguridad del sistema.|Siempre que sea necesario, siguiendo los criterios de autorización y urgencia a definir|Algunas horas antes, preferiblemente 48 horas antes.|
+(*) El momento y la frecuencia de las liberaciones están sujetos a cambios, a exclusivo criterio de Run2biz. En caso de cambios en este programa, los clientes deben ser notificados con anticipación.
 
-4biz se refiere a cada Feature Release, y sus Hotfix asociados, como una
-"Serie". Por ejemplo, la Versión 7.6.5.4 forma parte de la Serie 7. Las series son
-actualizaciones de versión, la mayoría de las veces, con cambios significativos en la
-aplicación o en la arquitectura.
+Los productos 4biz utilizan el siguiente estándar para la identificación de versiones:
 
-Por lo tanto, los productos 4biz utilizan el siguiente estándar de versión:
+Versión: **Series**
+Release: **Stable Release**.**Beta Release**.**Hotfix**
 
-**Series \> Major Release \> Minor Release \> Hotfix**
+Dónde: 
+- **Series** identifica la Major Release, por ejemplo: Helium.
+- **Stable Release** identifica la Stable Release asociada
+- **Beta Release** identifica la Beta Release asociada, o cero cuando no hay Beta Release asociada.
+- **Hotfix** identifica la *Hotfix* asociada, o cero cuando no hay *Hotfix* asociada.
 
-Por ejemplo: En la versión 7.6.5.4, 7 es la serie, 6 es la Major Release, 5 es la Minor
-Release y 4 es el HotFix asociado.
+Por ejemplo:
 
-Calendario de Liberación para 4biz:
-
-| **Mes de Liberación** | **Tipo de Liberación**             | **Número de Versión**                |
-|-----------------------|------------------------------------|--------------------------------------|
-| **Enero**             | **Hot-fix Planificada**            | **<series\>.x.1.1**                 |
-| **Febrero**           | **Minor Release**                  | **<series\>.x.2.0**                 |
-| **Marzo**             | **Hot-fix Planificada**            | **<series\>.x.2.1**                 |
-| **Abril**             | **New Series o Major Release**     | **SERIE.0.0.0/ <series\>.X.0.0**    |
-| **Mayo**              | **Hot-fix Planificada**            | **<series\>.x.0.Y**                 |
-| **Junio**             | **Minor Release**                  | **<series\>.x.1.0**                 |
-| **Julio**             | **Hot-fix Planificada**            | **<series\>.x.1.Y**                 |
-| **Agosto**            | **Minor Release**                  | **<series\>.x.2.0**                 |
-| **Septiembre**        | **Hot-fix Planificada**            | **<series\>.x.2.Y**                 |
-| **Octubre**           | **New Series o Major Release**     | **SERIE.0.0.0/ <series\>.X.0.0**    |
-| **Noviembre**         | **Hot-fix Planificada**            | **<series\>.x.0.Y**                 |
-| **Diciembre**         | **Minor Release**                  | **<series\>.x.1.0**                 |
-
-(\*) El tiempo y la frecuencia de los lanzamientos están sujetos a cambios, a criterio
-exclusivo de 4biz. En el caso de cambios de este cronograma, los clientes deberán
-ser previamente notificados.
+Helium
+Release: 1.2.3 se refiere a:
+- **Series**: Helium.
+- **Stable Release**: 1
+- **Beta Release**:  2
+- **Hotfix**: 3
 
 ## Versiones Soportadas
+Nuestra política actual es ofrecer soporte a la última versión y la versión anterior.
 
-Nuestra política actual es ofrecer soporte a la Serie más reciente. La serie
-anterior será soportada hasta 6 meses después del lanzamiento de la nueva
-serie.
+Run2biz generalmente realiza una grande liberación por año, por lo que el cliente deberá actualizar aproximadamente una vez cada dos años para permanecer en una versión soportada. Run2biz proporciona actualizaciones (por ejemplo: correcciones y *hotfixes*) solo para la versión soportada.
 
-4biz generalmente hace dos grandes lanzamientos al año, siendo así, el
-cliente necesitará actualizar, aproximadamente, una vez al año para permanecer en
-una versión con soporte. 4biz proporciona actualizaciones (por ejemplo:
-correcciones y hotfixes) sólo para la versión soportada.
+## Informaciones Adicionales de la Actualización
+Los Procedimientos de Actualización dependen del modelo de la solución adquirida (SaaS u On-Premises), para cada uno, siga las recomendaciones a continuación:
 
-## Informaciones Adicionales Sobre la Actualización
+### Cliente SaaS
+Los clientes pueden programar actualizaciones de software cuando sea necesario, enviando una nueva solicitud de servicio a través de nuestro sitio web de soporte. En esta solicitud, el cliente informa la fecha deseada para la actualización, la versión deseada y el tipo de entorno (producción o no producción). Los tiempos de interrupción se definen para minimizar la interrupción del negocio del cliente. Todo el proceso de actualización lo realiza el equipo de soporte de Run2biz.
+
+Después de todas las pruebas, el cliente debe firmar el formulario de cumplimiento de homologación, asegurándose de haber realizado todas las pruebas necesarias y de esta manera autoriza la aplicación de la actualización en producción, de acuerdo con la ventana de cambio previamente programada. Sin este documento firmado, la actualización no se realizará.
+
+### Cliente On-Premises
+En ese caso, los clientes son responsables de actualizar el software (o a través de un socio de Run2biz contratado para este propósito). Recomendamos que los clientes prueben la funcionalidad y las personalizaciones en el entorno de no producción antes de actualizar al entorno de producción. En las Notas de Versión, encontrará orientaciones sobre cómo actualizar o usar nuevas funciones.
+
+Si tiene alguna pregunta sobre los procedimientos de actualización, envíenos una solicitud de servicio a través de nuestro sitio web de soporte.
 
 
-Los Procedimientos de Actualización dependen del modelo de la solución
-adquirida (SaaS o On-Premise), para cada una de ellas, siga las siguientes
-recomendaciones:
 
-**Clientes SaaS**
-
-Los clientes pueden programar actualizaciones de software, cuando sea necesario,
-enviando una nueva solicitud de servicio a través de nuestro sitio de soporte.
-En esta solicitud, el cliente informa la fecha deseada para la actualización, la versión
-deseada y el tipo de entorno (no producción o producción). Los tiempos de interrupción
-se definen para minimizar la interrupción de los negocios del cliente. Todo el proceso de
-actualización es hecho por el equipo de soporte de 4biz.
-
-**Clientes On-Premise**
-
-En este caso, los clientes son responsables por la actualización del software.
-Recomendamos que los clientes prueben funcionalidades y personalizaciones en el
-entorno de no producción antes de actualizar el ambiente de producción. Las
-orientaciones sobre cómo actualizar o utilizar nuevas funcionalidades estarán
-disponibles en las Notas de la Versión.
-
-Si tiene alguna duda sobre los procedimientos de actualización, por favor,
-envíenos una solicitud de servicio a través de nuestro sitio de soporte.
