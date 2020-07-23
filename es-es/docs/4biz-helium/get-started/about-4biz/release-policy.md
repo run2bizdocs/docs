@@ -14,6 +14,7 @@ Nuestra propuesta de liberación y actualización de productos fue diseñada par
 Los productos 4biz, normalmente, siguen 4 tipos de liberación, como se detalla en la siguiente tabla:
 
 |**Tipo de Liberación**|**Alcance**|**Frecuencia**|**Notificación**|
+|----------------------|-----------|--------------|----------------|
 |*Major Version*|Recomendada para todos los clientes, esta actualización puede incluir nuevas funcionalidades y killer features. Normalmente con cambios significativos en la aplicación o arquitectura.|Anual|En el mes anterior a la liberación, con una segunda notificación 20 días después de enviar la primera.|
 |*Stable Release*|Recomendada para todos los clientes, esta actualización puede incluir nuevas funcionalidades, mejoras, actualizaciones de seguridad, ajustes y correcciones.|Trimensual|En el mes anterior a la liberación, con una segunda notificación 10 días antes de la liberación.|
 |*Beta Release*|Normalmente dirigido a socios Beta Users y con un alcance específico, puede incluir mejoras, actualizaciones, ajustes y correcciones.|Bimestral|Diez días antes de la liberación.|
