@@ -74,4 +74,4 @@ Após todos os testes, o cliente deverá assinar o termo de conformidade de homo
 
 Nesse caso, os clientes são responsáveis pela atualização de software (ou através de um parceiro Run2biz contratado para este fim). Recomendamos que os clientes testem funcionalidades e customizações no ambiente de não produção antes de realizar a atualização no ambiente de produção. Orientações sobre como atualizar ou usar novos recursos estarão disponíveis nas Notas da Versão.
 
-Se você tiver alguma dúvida sobre os procedimentos de atualização, envie-nos uma solicitação de serviço, por meio do nosso site de suporte
+Se você tiver alguma dúvida sobre os procedimentos de atualização, envie-nos uma solicitação de serviço, por meio do nosso site de suporte.
