@@ -69,11 +69,6 @@ Caso deseje vincular uma caixa de e-mail a um fluxo de trabalho, siga o procedim
 5\.	Clicar no botão "Gravar" para efetuar a operação.
 
 
-
-Por padrão, todo fluxo utiliza primariamente a caixa de e-mail de saída do sistema. Portanto, só é necessário indicar uma caixa de e-mail específica, se for preciso satisfazer um requisito particular de um fluxo de trabalho.
-
-
-
 !!! note "Texto"
     
     Por padrão, todo fluxo utiliza primariamente a caixa de e-mail de saída do sistema. Portanto, só é necessário indicar uma caixa de e-mail específica, se for preciso satisfazer um requisito particular de um fluxo de trabalho.
