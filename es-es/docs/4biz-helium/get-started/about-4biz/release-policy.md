@@ -19,6 +19,7 @@ Los productos 4biz, normalmente, siguen 4 tipos de liberación, como se detalla 
 |*Stable Release*|Recomendada para todos los clientes, esta actualización puede incluir nuevas funcionalidades, mejoras, actualizaciones de seguridad, ajustes y correcciones.|Trimensual|En el mes anterior a la liberación, con una segunda notificación 10 días antes de la liberación.|
 |*Beta Release*|Normalmente dirigido a socios Beta Users y con un alcance específico, puede incluir mejoras, actualizaciones, ajustes y correcciones.|Bimestral|Diez días antes de la liberación.|
 |*Hotfix*|Recomendada para todos los clientes, esta actualización puede incluir soluciones de emergencia para garantizar la estabilidad y seguridad del sistema.|Siempre que sea necesario, siguiendo los criterios de autorización y urgencia a definir|Algunas horas antes, preferiblemente 48 horas antes.|
+
 (*) El momento y la frecuencia de las liberaciones están sujetos a cambios, a exclusivo criterio de Run2biz. En caso de cambios en este programa, los clientes deben ser notificados con anticipación.
 
 Los productos 4biz utilizan el siguiente estándar para la identificación de versiones:
