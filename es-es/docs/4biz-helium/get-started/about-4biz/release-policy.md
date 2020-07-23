@@ -24,7 +24,8 @@ Los productos 4biz, normalmente, siguen 4 tipos de liberación, como se detalla 
 
 Los productos 4biz utilizan el siguiente estándar para la identificación de versiones:
 
-Versión: **Series**
+Versión: **Series**  
+
 Release: **Stable Release**.**Beta Release**.**Hotfix**
 
 Dónde: 
