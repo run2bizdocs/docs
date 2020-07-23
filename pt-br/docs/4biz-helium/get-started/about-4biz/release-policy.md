@@ -7,7 +7,7 @@ Description: Descrever os ciclos de lançamento e atualização de produtos 4biz
 
 O objetivo desta política é descrever os ciclos de liberação e atualização dos Produtos Run2biz , notificações ao cliente e outras informações relevantes.
 
-As diretrizes da política são aplicáveis a todos os nossos produtos, estejam eles usando o modelo SaaS ou On-Premise.
+As diretrizes da política são aplicáveis a todos os nossos produtos, estejam eles usando o modelo SaaS ou On-Premises.
 
 ## Ciclos de Liberação e Atualização
 
@@ -62,7 +62,7 @@ A Run2biz geralmente realiza um grande lançamento por ano, sendo assim, o clien
 
 ## Informações Adicionais Sobre Atualização
 
-Os Procedimentos de Atualização dependem do modelo da solução adquirida (SaaS ou On-Premise), para cada uma delas, siga as recomendações abaixo:
+Os Procedimentos de Atualização dependem do modelo da solução adquirida (SaaS ou On-Premises), para cada uma delas, siga as recomendações abaixo:
 
 ### Cliente SaaS
 
@@ -70,7 +70,7 @@ Os clientes podem agendar atualizações de software quando necessário, enviand
 
 Após todos os testes, o cliente deverá assinar o termo de conformidade de homologação, garantindo que realizou todos os testes necessários e desta forma autoriza a aplicação da atualização em produção conforme janela de mudança previamente agendada. Sem este documento assinado, a atualização não será efetuada.
 
-### Clientes On-Premise
+### Clientes On-Premises
 
 Nesse caso, os clientes são responsáveis pela atualização de software (ou através de um parceiro Run2biz contratado para este fim). Recomendamos que os clientes testem funcionalidades e customizações no ambiente de não produção antes de realizar a atualização no ambiente de produção. Orientações sobre como atualizar ou usar novos recursos estarão disponíveis nas Notas da Versão.
 
