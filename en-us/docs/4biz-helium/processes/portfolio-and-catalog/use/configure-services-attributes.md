@@ -7,23 +7,23 @@ Business/IT Service and Support/Technical Service
 
 The service attributes are configuration features within the portfolio.
 
-The guidance described in this knowledge can be followed to configure the
-attributes of both portfolio types, Business/IT Service and Support/Technical
-Service, within Portfolio and Catalog Management.
+The guidance described in this knowledge can be followed to configure the attributes of both Business/IT Service and Support/Technical Service Portfolio types, within Portfolio and Catalog Management.
+
 
 ## Before getting started
 
--   [X] It's necessary to have designed Service (Pipeline);
+-   [X] It's necessary to have designed a Service (Pipeline).
 
 ## Procedure
 
-1.  Access the main menu Processes \> Portfolio and Catalog Management \> Portfolio;
+1.	Access the main menu Processes > Portfolio and Catalog Management > Portfolio;
 
-2.  Access the Service Portfolio you want and click on "Advance";
+2.	Access the Service Portfolio you want and click on "Advance";
 
-3.  Click on "Advance" in the service to access it;
+3.	Click on "Advance" in the service to access it;
 
-4.  On the left side, it's presented the different attributes that can be configured.
+4.	The different attributes that can be configured will be presented on the left side.
+
 
 ## Service Attributes
 
@@ -32,8 +32,8 @@ Service, within Portfolio and Catalog Management.
 !!! tip " "
 
     Place where all service parameters must be configured, such as Name, Status, Criticality, Categories, among others.
-
-The Tabs / Fields / Buttons of this function are described at the [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html) documentation.
+    
+    The Tabs / Fields / Buttons of this function are described at the  [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html) documentation.
 
 ### Service Level Requirements
 
@@ -46,7 +46,7 @@ The Tabs / Fields / Buttons of this function are described at the [Register / Ed
 | Field              | Description                                   |
 |--------------------|-----------------------------------------------|
 | Creation date(\*)  |  Date of the creation of the Service          |
-| Service start date |  Date that the Service is about to be release |
+| Service start date |  Release date for the Service                 |
 | Service Owner      |  Select the Owner of the Service              |
 
 (*) Indicate mandatory field
@@ -55,7 +55,7 @@ The Tabs / Fields / Buttons of this function are described at the [Register / Ed
 
 | Field              | Description                                    |
 |--------------------|------------------------------------------------|
-| Specification      | Specify the Sercice in a Usefulness view       |
+| Specification      | Specify the Service in a useful view           |
 | Context            | Describe the context of usage of the Service   |
 | Essential Features | Specify the essentials features of the Service |
 
@@ -105,15 +105,17 @@ The Following Functions are available
 
 !!! tip
 
-    Relationship with financial process. Placeholder for link aportionment by Result Center, Departments.  
-    Including all information about CAPEX, OPEX, Direct Value and others.  
-    The System distinguish and differentiate between Service Cost and Service Price
+    Relationship with financial process. Placeholder to link apportionment by Result Center, Departments. 
+    Including all information about CAPEX, OPEX, Direct Value and others.
+    The System distinguish and differentiates between Service Cost and Service Price.
+
 
 !!! note
 
-    The system perform a hierarchical service-based costing model by the distribution of the cost model created in the financial process "Financial Item" and "Financial Cost Calculation" respecting the cost of each service and making the distribution based on the cost model.    
-     The amounts will be linked to the CI automatically based on the business rules.  
-     All history of cost and price variation of the service will be presented in this financial tab.  
+    The system performs a hierarchical service-based costing model by the distribution of the cost model created in the financial process "Financial Item" and "Financial Cost Calculation" respecting the cost of each service and making the distribution based on the cost model.
+    The amounts will be linked to the CI automatically based on the business rules.
+        All history of cost and price variation of the service will be presented in this financial tab.
+ 
      
 
 | Field          | Description                          |
@@ -122,7 +124,7 @@ The Following Functions are available
 | Type(\*)       | Select Cost or Revenue               |
 | Classification | Only appears if type equal to “Cost” |
 | Value(\*)      | Put the value of the Service         |
-| Cycle          | Setect the cycle                     |
+| Cycle          | Select the cycle                     |
 
 (*) Indicate mandatory field
 
@@ -178,8 +180,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    Responsible for link all CIs, Services Version, Service Map, components and service real capacity trought the map.
-    Moreover, through its visualization, it's possible to see all the components, use and cost of the service
+    Responsible for the linking of all CIs, Services Version, Service Map, components and service real capacity throughout the map. Moreover, through its visualization, it is possible to see all the components, use and cost of the service
     
 | Components                    | Description                                            |
 |-------------------------------|--------------------------------------------------------|
@@ -211,7 +212,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    All support services that provide support for the mais service, such as 3rd party services.
+    All support services that provide support to the main service, such as 3rd party services.
 
 | Function                   | Description     |
 |----------------------------|-----------------|
@@ -223,7 +224,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    Service Owner, person or group responsbile for design and evaluate the service.
+    Service Owner, person or group responsible for designing and evaluating the service.
 
 | Function                         | Description            |
 |----------------------------------|------------------------|
@@ -262,7 +263,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    All aplicattions that sustain or runs linked with service.
+    All applications that sustain or runs linked with service.
     
 | Function                      | Description     |
 |-------------------------------|-----------------|
@@ -275,7 +276,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    All data schema and technical informations about the service.
+    All data schema and technical information about the service.
 
 | Field       | Description                           |
 |-------------|---------------------------------------|
@@ -320,8 +321,9 @@ The Following Functions are available
 
 !!! tip " "
 
-    Contracts that use/provide the service. Could be customers, departments, external providers, etc.   
+    Contracts that use/provide the service. Could be customers, departments, external providers, etc.
     The sales price based on the Gold, Silver and Bronze SLA should also be defined or configured based on the cost of service.
+
     
 | Function                   | Description     |
 |----------------------------|-----------------|
@@ -347,7 +349,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    All articles linked with service to provide information for all analysts and end users.
+    All articles linked with the service to provide information for all analysts and end users.
 
 | Function                    | Description     |
 |-----------------------------|-----------------|
@@ -360,7 +362,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    Specific skill that the resource needs hold to provide/sustain the service.
+    Specific skill that the human resources need to provide/sustain the service.
     
 | Function                      | Description     |
 |-------------------------------|-----------------|
@@ -373,7 +375,7 @@ The Following Functions are available
 
 !!! tip " "
 
-    All information about capacity plan to sustain or desing the service.
+    All information about capacity plan to sustain or design the service.
 
 | Function                                         | Description   |
 |--------------------------------------------------|---------------|
