@@ -214,7 +214,6 @@ nav:
     - Customizar campos:
       - 4biz-helium/platform-administration/customizable-fields/label-customize-system.md
       - 4biz-helium/platform-administration/customizable-fields/labels-configure-mandatory-fields.md
-      - 4biz-helium/platform-administration/customizable-fields/labels-configure-views.md
       - 4biz-helium/platform-administration/customizable-fields/register-domain-item.md
       - 4biz-helium/platform-administration/customizable-fields/register-domain.md
     - Indexação de dados:

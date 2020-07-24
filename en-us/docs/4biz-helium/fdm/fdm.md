@@ -9,72 +9,16 @@ Fast Deployment Methodology (FDM)
 What is FDM?
 --------------
 
-Fast Deployment Methodology (FDM) is a methodology created by 4biz Corporation,
-developed to provide the deployment of 4biz products quickly, tailored to customer's 
-needs and according to the standards required in the market, that is, high value delivery 
-for simplicity. 
+Fast Deployment Methodology (FDM) é uma metodologia criada pela Run2biz para habilitar uma rápida implementação do 4biz. A FDM foi desenvolvida utilizando técnicas de frameworks como Agile e SCRUM, bem como a experiência prática de nossos especialistas e muitas lições aprendidas.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KOobnLXaTMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-Stages for deployment
-------------------------
+A FDM está baseada em 2 modelos de informação. O primeiro modelo, chamado de Data Discovery Model, guia os técnicos e analistas envolvidos na implantação do 4biz em uma sequência de quadros e passos que os levarão desde a informação mais básica conhecida até os detalhes organizacionais dos serviços.
 
-For greater effectiveness, FDM steps were developed organized and based on fundamental 
-management:
+O segundo modelo, chamado Product Implementation Model, organiza o relacionamento das informações descobertas na construção do primeiro modelo para que através de sucessão de configurações, o 4biz esteja pronto para ser usado.
 
--   **Organizational Change**
+A metodologia é constantemente revisada, considerando os resultados obtidos ao final dos projetos, para garantir a sua eficiência, eficácia e praticidade. 
 
-People are the main pillar of any institution and changes can often be uncomfortable
-for most. Therefore, it is important to map the key users of the new system and engage 
-them to become internal disseminators of new solution.
+A Run2biz oferece treinamento na metodologia FDM para seus clientes e parceiros através da sua plataforma de treinamento (https://training.run2biz.com/en-us/index.html).
 
--   **Communication**
 
-It is important that communication happens in the right time and be directed to the
-right people, so bottlenecks, risks and any other negative impact factor can be 
-treated and mitigated proactively.
-
--   **Deployment Project**
-
- For project management we use and are inspired by the agile and project
- management methodologies already consolidated in the market.
- 
-FDM Structure
-----------------
- 
- FDM is organized to work on a flexible model where different teams can
- execute their work using several management structures and standards 
- while maintaining synchronization with the customer's objectives. 
- 
- ![Structure](img/us-fdm-fig-03@2x.png)
- 
-FDM Artifacts
-----------------
- 
- The document templates used and artifacts generated in the FDM application
- listed below, are essential for the traceability and measurement of results
- achieved using the methodology. 
- 
-| Artifact                                  | Date       | Version |
-|-------------------------------------------|------------|--------|
-| Methodology Checklist                     | 05/21/2019 | V.1    |
-| Lessons Learned (template)                | 05/21/2019 | V.1    |
-| Communication Matrix (template)           | 05/21/2019 | V.1    |
-| Communication Plan (template)             | 05/21/2019 | V.1    |
-| Project Plan (template)                   | 05/21/2019 | V.1    |
-| Meeting Registration (template)           | 05/21/2019 | V.1    |
-| Request for Change (template)             | 05/21/2019 | V.1    |
-| KickOff Meeting (template)                | 05/21/2019 | V.1    |
-| Test Roadmap (template)                   | 05/21/2019 | V.1    |
-| Status Report (template)                  | 05/21/2019 | V.1    |
-| Delivery Acceptance Term (template)       | 05/21/2019 | V.1    |
-| Workbook (template)                       | 05/21/2019 | V.1    | 
- 
-!!! warning "ATTENTION"
-
-    Artifacts and Fast Deployment Methodology (FDM) are available to our 
-    partners through [MY.4biz](https://my.4bizcloud.com)
- 
- 
 
  
