@@ -4,153 +4,154 @@ Description: Provides a variety of actions, such as including, changing, and del
 
 # Registering service activity
 
-This feature provides a variety of actions, such as including, changing, and deleting the activities of a service (request and/or incident).
+This feature provides a variety of actions, such as adding, changing, and deleting the activities of a Service (request and/or incident).
 
 ## Before getting started
 
-- [x] it's necessary to previously register the
-portfolio, group, configuration items, contract and calendar.
+- [x] It's necessary to previously register the portfolio, group, configuration items, contract and calendar.
 
 ## Procedure
 
-1.  Access the main menu Processes \> Portfolio and Catalog Management \>
-    Portfolio;
+1.	Access the main menu Processes > Portfolio and Catalog Management > Portfolio;
 
-2.  Choose the Service Portfolio and click on "Advance";
+2.	Choose the Service Portfolio and click on "Advance";
 
-3.  In the **Service Catalog** tab, choose a service and click on "Advance";
+3.	In the Service Catalog tab, choose a service and click on "Advance".
+
 
 ## Requests
 
-To link or create an activity of Request, click on the tab **Requests**. It'll be presented the following functions:
+To link or create a Request type Activity, click on the tab **Requests**. The following functions will be presented:
 
 |Function|Description|
 |--------|-----------|
-|**New Service Request**| To create a new request|
-|**Link Service Request**|To link a request already created|
-|**Search area**| To search for an specific request|
-|**Grid with Linked Services Requests**|Once you link a service request, they'll be presented in a list, with the options: Edit and Unlink|
+|New Service Request| To create a new request|
+|Link Service Request|To link a previously created request|
+|Search area| To search for an specific request|
+|Grid with Linked Services Requests|Once you link a service request, they will be presented in a list, with the options: Edit and Unlink|
 
-If you want to create a new service request from here, click on "New Service Request" and complete the fields available.
+If you want to create a new service request from here, click on "New Service Request" and complete the available fields.
 
 **Main Tab**
 
 |Field|Description|
-|-----|-----------|
-|**Activity Name(\*)**|The name for the request|
-|**Acronym/Abbreviation**|Set an acronym for the request|
-|**Activity Status(\*)**|Select the status you want: Active, Under analysis, In creation, In design or Inactive|
-|**Type of Demand(\*)**|Select the type of demand available|
-|**Category(\*)**|Select the category of the request|
-|**Date of Deployment(\*)**|Set the day which is being deployed|
-|**Template of View**|Select one of the templates available|
-|**Tracking Template**|Select a tracking template available|
-|**Creation Template**|Select a creation template available|
-|**Detail**|Space to give all the details about the request|
-|**Objective**|Space to give the objectives of the request|
-|**Type of Event**|Set frequency of the type of event|
-|**SCRIPT Guidance**|Search and select one script from the konowledge base to the request|
-|**Type of Activity**|Select the type of activity|
-|**Importance of Activity to the Business**|Select the degree of importance of this activity for the business|
-|**Place of Execution of Activities**|Set if it's external, internal or both|
+|-|-|
+|Acronym/Abbreviation|Set an acronym for the request|
+|Activity Name(*)|The name for the request|
+|Activity Status(*)|Select the status you want: Active, Under analysis, In creation, In design or Inactive|
+|Category(*)|Select the category of the request|
+|Creation Template|Select a creation template available|
+|Date of Deployment(*)|Set the day which is being deployed|
+|Detail|Space to give all the details about the request|
+|Importance of Activity to the Business|Select the degree of importance of this activity for the business|
+|Objective|Space to give the objectives of the request|
+|Place of Execution of Activities|Set if the Services is external, internal or both|
+|SCRIPT Guidance|Search and select one script from the knowledge base|
+|Template of View|Select one of the templates available|
+|Tracking Template|Select a tracking template available|
+|Type of Activity|Select the type of activity|
+|Type of Demand(*)|Select the type of demand available|
+|Type of Event|Set frequency of the type of event|
 
 (\*) Indicate mandatory field
 
 **Presentation Tab**
 
 |Field|Description|
-|-----|-----------|
-|**Available on portal(\*)**|If it'll appear on the portal or not|
-|**Available on chat(\*)**|If it'll be available through chat|
-|**Show field to select impact/urgency(\*)**| If in the service portal the impact/urgency field will be possible to select|
-|**Show field to select a configuration item(\*)**|If in the service portal the configuration item field will be possible to select|
-|**Show field for description(\*)**|If in the service portal it'll be available the field to give a description|
-|**Show field to add an attachment(\*)**|If in the service portal it'll be available the field to attach a file|
-|**Display priority(\*)**|If in the service portal it'll be available to show the priority|
-|**Display deadline(\*)**|If in the portal it'll be available to show the deadline|
-|**Select an image(\*)**|Select the image that will represent the request|
-|**Name(\*)**|Give the name for the request that will be presented in the service portal|
-|**Description**|Describe the request being created|
+|-|-|
+|Available on chat(*)|Indicate if it will be available through chat|
+|Available on portal(*)|Indicate if it will appear on the portal or not|
+|Description|Describe the request being created|
+|Display deadline(*)|Indicate if the Deadline (date and time) should be shown when opening a Ticket|
+|Display priority(*)|Indicate if the Priority of the service should be shown when a ticket is opened|
+|Name(*)|Give the name that will be presented for this Request in the service portal|
+|Select an image(*)|Select the image that will represent the request|
+|Show field for description(*)|Indicate if a text box for Description is available when opening a ticket|
+|Show field to add an attachment(*)|Indicate if a field for attachments should be available|
+|Show field to select a configuration item(*)|If in the service portal the configuration item will be available for selection|
+|Show field to select impact/urgency(*)|Impact/urgency fields can or cannot be modified in the Portal|
+
 
 (\*) Indicate mandatory field
 
 **Access Permission Tab**
 
-Once you set the request as Available in the portal in the Presentation tab, it'll appear the tab of Access Permission with the following fucntions:
+Once you set the request as Available in the portal in the Presentation tab, the tab of Access Permission with the following functions will be available:
 
 |Function|Description|
 |--------|-----------|
-|**Link Groups**|To link the groups that will have permission to access the request|
-|**Grid with Linked Groups**|Once you link the groups for the request, they'll appear in a list with an option to unlink it|
+|Link Groups|To link the groups that will have permission to access the request|
+|Grid with Linked Groups|Once you link the groups for the request, they will appear in a list with an option to unlink them|
 
-After complete all the information in the tabs for register/edit request activity, you'll be able to: Save, Delete or Clear.
+After completing all the information in the tabs for register/edit request activity, you will be able to: Save, Delete or Clear.
 
 ## Incidents
 
-To link or create an activity of Incident, click on the tab **Incidents**. It'll be presented the following functions:
+To link or create an activity of Incident, click on the tab **Incidents**. The following functions will be presented:
 
 |Function|Description|
 |--------|-----------|
-|**New Incident**| To create a new incident|
-|**Link Incident**|To link an incident already created|
-|**Search area**| To search for an specific incident|
-|**Grid with Linked Incidents**|Once you link an incident, they'll be presented in a list, with the options: Edit and Unlink|
+|New Incident| To create a new incident|
+|Link Incident|To link an incident already created|
+|Search area| To search for a specific incident|
+|Grid with Linked Incidents|Grid with Linked Incidents	Once you link an incident, they will be presented in a list, with the options: Edit and Unlink|
 
 If you want to create a new incident from here, click on "New Incident" and complete the fields available.
 
 **Main Tab**
 
 |Field|Description|
-|-----|-----------|
-|**Activity Name(\*)**|The name for the incident|
-|**Acronym/Abbreviation**|Set an acronym for the incident|
-|**Activity Status(\*)**|Select the status you want: Active, Under analysis, In creation, In design or Inactive|
-|**Type of Demand(\*)**|Select the type of demand available|
-|**Category(\*)**|Select the category of the incident|
-|**Date of Deployment(\*)**|Set the day which is being deployed|
-|**Template of View**|Select one of the templates available|
-|**Tracking Template**|Select a tracking template available|
-|**Creation Template**|Select a creation template available|
-|**Detail**|Space to give all the details about the incident|
-|**Objective**|Space to give the objectives of the incident|
-|**Type of Event**|Set frequency of the type of event|
-|**SCRIPT Guidance**|Search and select one script from the konowledge base to the incident|
-|**Type of Activity**|Select the type of activity|
-|**Importance of Activity to the Business**|Select the degree of importance of this activity for the business|
-|**Place of Execution of Activities**|Set if it's external, internal or both|
-|**Critical**|Set if the incident is critical or not|
-|**Cause Unavailability**|Set yer or no|
+|-|-|
+|Acronym/Abbreviation|Set an acronym for the incident|
+|Activity Name(*)|The name for the incident|
+|Activity Status(*)|Select the status you want: Active, Under analysis, In creation, In design or Inactive|
+|Category(*)|Select the category of the incident|
+|Cause Unavailability|Set yes or no|
+|Creation Template|Select a creation template available|
+|Critical|Set if the incident is critical or not|
+|Date of Deployment(*)|Set the day which is being deployed|
+|Detail|Space to give all the details about the incident|
+|Importance of Activity to the Business|Select the degree of importance of this activity for the business|
+|Objective|Space to give the objectives of the incident|
+|Place of Execution of Activities|Set if the Services is external, internal or both|
+|SCRIPT Guidance|Search and select one script from the knowledge base|
+|Template of View|Select one of the templates available|
+|Tracking Template|Select a tracking template available|
+|Type of Activity|Select the type of activity|
+|Type of Demand(*)|Select the type of demand available|
+|Type of Event|Set frequency of the type of event|
 
 (\*) Indicate mandatory field
+
 
 **Presentation Tab**
 
 |Field|Description|
-|-----|-----------|
-|**Available on portal(\*)**|If it'll appear on the portal or not|
-|**Available via chat(\*)**|If it'll be available through chat|
-|**Show field to select impact/urgency(\*)**| If in the service portal the impact/urgency field will be possible to select|
-|**Show field to select a configuration item(\*)**|If in the service portal the configuration item field will be possible to select|
-|**Show field for description(\*)**|If in the service portal it'll be available the field to give a description|
-|**Show field to add an attachment(\*)**|If in the service portal it'll be available the field to attach a file|
-|**Display priority(\*)**|If in the service portal it'll be available to show the priority|
-|**Display deadline(\*)**|If in the portal it'll be available to show the deadline|
-|**Select an image(\*)**|Select the image that will represent the incident|
-|**Name(\*)**|Give the name for the incident that will be presented in the service portal|
-|**Description**|Describe the incident being created|
+|-|-|
+|Available on chat(*)|Indicate if it will be available through chat|
+|Available on portal(*)|Indicate if it will appear on the portal or not|
+|Description|Describe the incident being created|
+|Display deadline(*)|Indicate if the Deadline (date and time) should be shown when opening a Ticket|
+|Display priority(*)|Indicate if the Priority of the service should be shown when a ticket is opened|
+|Name(*)|Give the name that will be presented for this Request in the service portal|
+|Select an image(*)|Select the image that will represent the request|
+|Show field for description(*)|Indicate if a text box for Description is available when opening a ticket|
+|Show field to add an attachment(*)|Indicate if a field for attachments should be available|
+|Show field to select a configuration item(*)|If in the service portal the configuration item will be available for selection|
+|Show field to select impact/urgency(*)|Impact/urgency fields can or cannot be modified in the Portal|
 
 (\*) Indicate mandatory field
 
 **Access Permission Tab**
 
-Once you set the incident as Available in the portal in the Presentation tab, it'll appear the tab of Access Permission with the following fucntions:
+Once you set the request as Available in the portal in the Presentation tab, the tab of Access Permission with the following functions will be available:
 
 |Function|Description|
 |--------|-----------|
-|**Link Groups**|To link the groups that will have permission to access the incident|
-|**Grid with Linked Groups**|Once you link the groups for the incident, they'll appear in a list with an option to unlink it|
+|Link Groups|To link the groups that will have permission to access the request|
+|Grid with Linked Groups|Once you link the groups for the request, they will appear in a list with an option to unlink them|
 
-After complete all the information in the tabs for register/edit request activity, you'll be able to: Save, Delete or Clear.
+After completing all the information in the tabs for register/edit request activity, you will be able to: Save, Delete or Clear.
 
 Related
 -----------
