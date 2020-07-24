@@ -1,35 +1,34 @@
 title: Verify service audit
 Description: This functionality allows to verify the service history to its audit. The guidance described in this knowledge can be followed to verify the history of IT/Business Service and Support/Technical Service.
+
 # Verify service audit
 
-This functionality allows to verify the service history to its audit. The guidance described in this knowledge can be followed to verify the history of IT/Business Service and Support/Technical Service.
+This functionality allows to verify the service history for it to be audited. The guidance described in this knowledge can be followed to verify the history of IT/Business Service and Support/Technical Service.
 
-Before getting started
--------------------------
-To verify the service audit history, it's necessary to have the portfolio
-defined.
+## Before getting started
 
-Procedure
--------------
-1.  Access the functionality through the main menu Processes \> Portfolio and
-    Catalog Management \> Portfolio;
+To verify the service audit history, it's necessary to have a portfolio defined.
 
-2.  Access the Service Portfolio and click on "Advance";
+**Procedure**
 
-3.  Click on "Advance" in the service;
+1.	Access the functionality through the main menu Processes > Portfolio and Catalog Management > Portfolio;
 
-4.  Click on **Service Audit**;
+2.	Access the Service Portfolio and click on "Advance";
 
-5.  Enter the date range you're looking for or select the category;
+3.	Click on "Advance" in the service that needs to be audited;
 
-6.  Click on "Search";
+4.	Click on Service Audit;
 
-7.  If is necessary to register the details of the audit, click on the
-    tab **Register Occurrences**;
+5.	Enter the date range you're looking for or select the category;
 
-8.  Complete all mandatory fields;
+6.	Click on "Search";
 
-9.  Click on "Save".
+7.	If it is necessary to register the details of the audit, click on the tab Register Occurrences;
+
+8.	Complete all mandatory fields;
+
+9.	Click on "Save".
+
 
 Related
 ------------

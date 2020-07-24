@@ -1,43 +1,35 @@
 title: Manage my requests through Smart Portal
 
 Description: Allows to control the requests opened by the users.
+
 # Manage my requests through Smart Portal
 
 This functionality allows to control the requests opened by the users, where they can check the history of occurrence, the description of the task, exchange messages with the executor of the ticket, among other actions.
 
-Before getting started
---------------------------
+## Before getting started
 
-It's necessary to have registered by the users the service request. It's also
-necessary to configure the parameters about Smart Portal.
+It is necessary that the user has a ticket previously registered. It is also necessary to configure the parameters about Smart Portal.
 
-It's necessary to set in the parameter 253, the email ID chose to register the
-occurrence and email template ID of the notification in the parameter 251.
+It is necessary to set in the parameter 253, the email ID chosen to register the occurrence and email template ID of the notification in the parameter 251.
 
-Procedure
--------------
 
-1.  Access the functionality through the Smart Portal main menu, click on the
-    menu button  and then click on "My Requests";
+**Procedure**
 
-2.  To exchange messages with the request attendant, just click on the icon "Message to the attendant".
-    The attendant will receive the message in the ticket desktop, where he/she
-    can register the answer. This answer will be available when clicking once
-    again in this same icon.
+1.	Access the functionality through the Smart Portal main menu, click on the menu button and then click on "My Requests";
 
-    !!! Abstract "NOTE"  
+2.	To exchange messages with the attendant, just click on the icon "Message to the attendant". The attendant will receive the message in the ticket list screen, where he/she can register the answer. This answer will be available to review when clicking once again in this icon.
 
-        To the correct performance of this application, it's necessary that the
-        parameter 299 (about the Smart Portal) to be set on "Y".
+!!! note "Note"
 
-3.  To comment the request or to report some occurrence about it, click on the
-    icon "Add note". The attendant will receive the comment on the ticket desktop, where
-    he/she can solve any question about the request.
+    For the correct performance of this application, it is necessary that the parameter 299 (about the Smart Portal) is set on "Y".
 
-4.  To view the request history, just click on the icon "History";
+3.	To add a comment to the request or to report some occurrence about it, click on the icon "Add note". The attendant will receive the comment on the ticket list screen, where he/she can answer any questions about the request.
 
-5.  Though this interface, it's also possible to view the description, the files
-    attached to the request, among other actions.
+4.	To view the request history, just click on the icon "History";
+
+5.	Through this interface, it's also possible to view the description, the files attached to the request, among other actions.
+
+
 
 Related
 -----------
