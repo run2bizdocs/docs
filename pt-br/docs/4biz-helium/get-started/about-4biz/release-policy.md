@@ -5,7 +5,7 @@ Description: Descrever os ciclos de lançamento e atualização de produtos 4biz
 
 ## Visão Geral
 
-O objetivo desta política é descrever os ciclos de liberação e atualização dos Produtos Run2biz , notificações ao cliente e outras informações relevantes.
+O objetivo desta política é descrever os ciclos de liberação e atualização dos Produtos Run2biz, notificações ao cliente e outras informações relevantes.
 
 As diretrizes da política são aplicáveis a todos os nossos produtos, estejam eles usando o modelo SaaS ou On-Premises.
 
