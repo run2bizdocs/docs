@@ -3,7 +3,7 @@ Description:Configurar o envio e o recebimento de e-mail a partir de diferentes 
 
 # Configurar uma caixa de e-mail
 
-Como uma plataforma ominichannel, o 4biz conecta com múltiplos canais de comunicação. A variedade se apresenta tanto nos tipos e formatos dos canais, como em sua quantidade. Desta maneira, o 4biz habilita o uso simultâneo e conectado de diversos canais de comunicação facilitando o contato entre provedor e consumidor de serviços.
+Como uma plataforma omnichannel, o 4biz conecta com múltiplos canais de comunicação. A variedade se apresenta tanto nos tipos e formatos dos canais, como em sua quantidade. Desta maneira, o 4biz habilita o uso simultâneo e conectado de diversos canais de comunicação facilitando o contato entre provedor e consumidor de serviços.
 
 Dentre as opções de comunicação, o e-mail é uma das formas mais ativas e populares. O 4biz é capaz de realizar o envio e o recebimento de e-mail a partir de diversas contas diferentes, mesmo que estejam em servidores de correio eletrônico separados. Assim, o fluxo de informação pode ser construído para atender as necessidades de negócio.
 
