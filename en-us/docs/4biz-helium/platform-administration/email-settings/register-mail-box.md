@@ -1,66 +1,81 @@
-title: Register mailbox
-Description: This functionality is designed to configure the sending and receiving of email from different servers in order to meet different contracts 
-# Register mailbox
+title: Configuring a mailbox
+Description:Configure the sending and receiving of e-mail from different servers in order to meet different contracts, so that the same 4biz can serve different clients and each one will have its own mailbox.
 
-This functionality is designed to configure the sending and receiving of email from different servers in order to meet different contracts, so a 4biz can serve different clients and each one will have its own mailbox. In this case, you can use a send/read email account (e.g.: email@company.com) on an XPTO company contract, and another email account belonging to a different business agreement (e.g.: email@company2.com).
+# Configuring a mailbox
 
-Procedure
--------------
+As an omnichannel platform, 4biz connects with multiple communication channels. The variety is presented both in types and formats of the channels, as well as in their quantity. In this way, 4biz enables the simultaneous and connected use of several communication channels, facilitating contact between service provider and consumer.
 
-1.  Access the functionality through the main menu Parametrization \> Mailbox;
+Among the communication options, email is one of the most active and popular ways. 4biz is capable of sending and receiving email from several different accounts, even if they are on separate email servers. Therefore, the information flow can be built to meet business needs.
 
-2.  Click on "New";
+For example: Configuring a different email account for each contract managed by 4biz, where each mailbox is hosted on the corresponding client's email server.
 
-3.  Choose the type of box. If you opt for the type "Input" (it means that the
-    user will parameterize a route where the emails that need to be read will
-    arrive), it will open new registration fields, such as: server, server port,
-    user (email address), password, provider and inbox folder, therefore it's
-    necessary to fill in the fields;
+In this configuration, we have the following advantages:
+- Communication with clients is facilitated by using an email address familiar to their organization.
+- The impact of unavailability on communication is reduced once the loss of access to a server affects only the related contract.
+- Messages are properly stored and grouped by contract.
 
-4.  If you opt for the type "Output" (it means that the user will parameterize a
-    route where the emails that need to be sent from the system will exit),
-    it'll open new registration fields, such as: server, server port, user,
-    password, sender, set whether TSL/SSL authentication is required (both are
-    security protocols) and user authentication is therefore necessary to fill
-    in the fields;
 
-5.  Click on "Save";
+## Procedure to register the mailbox
 
-6.  Link the email box to the contract. To do so: access the functionality
-    Processes \> Portfolio and Catalog Management \> Contract and link the
-    previously registered email box in the "Email" field and click on "Save";
-
-7.  Link the email box to a flow. Therefore:
-
-    -   Access the functionality System \> Flow Maintenance and when
-        registering/editing a flow, find in the "Diagram" filed the
-        figure figure representing an email in the flow and click on edit;
-
-    -   In the option "Configure outbox email", opened when clicking on the tab
-        "Message", select the option "Specific" to use the mailbox configured in
-        the contract;
-
-    -   Complete the flow parametrization, including the selected "Recipients";
-
-    -   The use of different email outbox can be noticed after a service request
-        is opened, which has parameterized the flow that has the selected
-        mailbox.
-
-    -   Click on "Save".
+1.	Access the functionality through the navigation menu > Parametrization > Mailbox;
+2.	Click on "New";
+3.	Complete the field "Description" to identify the email connection;
+4.	Choose the type of mailbox. Each one has a different purpose, which is:
     
-!!! Abstract "NOTE"
+    4.1\. The "Input" type means that emails that arrive in the specified mailbox will be read and processed. Use this option to indicate where the users' messages will arrive. 
+    
+    In this case, new registration fields will be opened, such as:
 
-    Linking to the mailbox is not a required step. This functionality will
-    only be necessary when registering the flow, the user feels the need to
-    direct the email to an output box different from the default. The system's
-    default email outbox will continue to function even if this setting is not
-    done.
+        - Server (host address or server IP);
+        - Server port (Connection port);
+        - User (Email address);
+        - Password;
+        - Provider (Connection protocol, which can be imaps, pops, imap or pop);
+        - Inbox folder where emails will be stored (usually inbox).
+
+    4.2\. The "Output" type indicates the connection that will be used by 4biz to send emails originating from system actions. For example: confirmation for the opening of a request, approval request or completion of a service. 
     
+    In this case, new registration fields will be opened, such as: 
+       
+        - Server (host address or server IP);
+        - Server port (Connection port - usually the value is 25);
+        - Sender (Identification that will be presented to the recipient);
+        - Indicate whether secure TLS/SSL authentication is required;
+        - Indicate whether connection user authentication is required. If so, you will be required to complete the corresponding user and password fields.
+
+5\.	Click on "Save" to perform the operation.
+
+## Procedure to link a mailbox to a contract
+
+If you want to link one of the previously registered mailboxes to a contract, follow the procedure:
+
+1.	Access the navigation menu > Processes > Portfolio and Catalog Management > Contract Registration;
+2.	Then link in the "E-mail Outbox" field the mailbox you want to. The mailbox must be previously registered;
+3.	Click on  "Save" to perform the operation.
+
+## Procedure to link a mailbox to a workflow
+
+If you want to link a mailbox to a workflow, follow the procedure below:
+
+1.	Access the navigation menu > Tracker > Flow Design;
+2.	When creating or editing a flow, find the "Diagram" tab. Add or edit a "Send message - email" connector;
+3.	In the "Message" tab, in the "Email Outbox Configuration" field there are 2 options:
+
+    3.1. Choose the option "Contract" so that the component uses the mailbox indicated in the contract related to the flow.
+   
+    3.2. Choose the option "Specific" to indicate the mailbox you want to.
+
+4\.	Complete the parametrization of the email sending indicating in the "Recipients" tab, the users or groups that will be the recipients of the messages;
+5\.	Click on "Save" to perform the operation.
+
+
+!!! note "Text"
     
+    By default, every flow primarily uses the output system mailbox. Therefore, it's only necessary to indicate a specific mailbox, if it's necessary to satisfy a particular requirement of a workflow.
+
+
+
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
-
-
+    <b>Updated:</b>03/11/2020
