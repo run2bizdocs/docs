@@ -109,8 +109,6 @@ nav:
       - 4biz-helium/get-started/about-4biz/whats-new-helium.md
       - 4biz-helium/get-started/about-4biz/introduction-to-platform.md
       - 4biz-helium/get-started/about-4biz/release-policy.md
-      - What´s New:
-        - 4biz-helium/get-started/about-4biz/release-notes/version-8.0.0.0.md
     - Architecture:
       - 4biz-helium/get-started/architecture/architecture.md
     - Installation and Upgrade:
