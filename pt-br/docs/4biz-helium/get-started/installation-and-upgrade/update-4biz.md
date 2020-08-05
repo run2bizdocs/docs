@@ -1,18 +1,18 @@
 Title: Atualização do 4biz on-premisses
 
-# Atualização do 4biz on-premisses
+# Atualização do 4biz/builder
 
-Este procedimento tem por objetivo demonstrar o passo-a-passo da atualização do produto 4biz em servidores de aplicação Wildfly.
+Este procedimento tem por objetivo demonstrar o passo-a-passo da atualização do produto 4biz/Builder em servidores de aplicação Wildfly.
 
 Para efeito desde documento, iremos utilizar como exemplo o seguinte cenário:
 
-Atualizar o 4biz da versão `4bizITSM-Enterprise-0.0.war` para a versão `4bizITSM-Enterprise-1.0.war` e builder da versão `4biz-builder-web-1.3.3.0.war` para `4biz-builder-web-1.3.4.0.war`. Note que você não precisa realizar o deploy de todos os pacotes de uma vez, você poderá atualizar apenas um dos componentes. De toda forma, verifique a versão correta do(s) pacote(s) em seu servidor e use os comandos abaixo apontando para as respectivas versões.
+Atualizar o 4biz da versão `4biz-Helium-1.0.0.war.zip` para a versão `4biz-Helium-1.0.1.war.zip` e builder da versão `4biz-builder-1.3.5.0.war.zip` para `4biz-builder-1.3.5.1.war.zip`. Note que você não precisa realizar o deploy de todos os pacotes de uma vez, você poderá atualizar apenas um dos componentes. De toda forma, verifique a versão correta do(s) pacote(s) em seu servidor e use os comandos abaixo apontando para as respectivas versões.
 
 ## Pré-requisito
 
 - [X] Ter instalado o servidor de aplicação Wildfly com base no documento [Instalação on-premisses][1].
 
-- [X] Ter realizado o download dos pacotes ***4bizITSM-Enterprise-8.0.1.0.war*** e builder ***4biz-builder-web-1.3.4.0.war*** diretamente do portal do parceiro.
+- [X] Ter realizado o download dos pacotes ***4biz-Helium-1.0.1.war.zip*** e builder ***4biz-builder-1.3.5.1.war.zip*** diretamente do portal do parceiro.
 
 ## Procedimento
 
@@ -33,12 +33,12 @@ ps aux | grep java
 Transfira os novos pacotes via sftp o diretório `tmp` do seu servidor Linux. Logo após realize a extração:
 
 ```sh
-unzip 4bizITSM-Enterprise-1.0.war.zip
+unzip 4biz-Helium-1.0.1.war.zip
 ```
 O arquivo extraído estará neste formato:
 
 ```sh
-[root@server]# 4bizITSM-Enterprise-1.0.war
+[root@server]# 4biz-Helium-1.0.1.war
 ```
 
 **3 - Remova o(s) deploy(s) antigo(s)**
@@ -52,11 +52,11 @@ cd /opt/wildfly/standalone/deployments
 Remova o(s) pacote(s) que sera(m) substituído(s)
 
 ```sh
-rm -Rf 4bizITSM-Enterprise-0.0.war*
+rm -Rf 4biz-Helium-1.0.0.war*
 ```
 
 ```sh
-rm -Rf 4biz-builder-web-1.3.3.0.war*
+rm -Rf 4biz-builder-1.3.5.0.war*
 ```
 
 !!! warning "ATENÇÃO"
@@ -102,11 +102,11 @@ sysctl vm.drop_caches=3
 **7 - Copie o(s) novo(s) pacote(s) WAR para o diretório Deployments**
 
 ```sh
-cp 4bizITSM-Enterprise-1.0.war /opt/wildfly/standalone/deployments/
+cp 4biz-Helium-1.0.1.war /opt/wildfly/standalone/deployments/
 ```
 
 ```sh
-cp 4biz-builder-web-1.3.4.0.war /opt/wildfly/standalone/deployments/
+cp 4biz-builder-1.3.5.1.war /opt/wildfly/standalone/deployments/
 ```
 
 **8 - Inicie o serviço do Wildfly**
