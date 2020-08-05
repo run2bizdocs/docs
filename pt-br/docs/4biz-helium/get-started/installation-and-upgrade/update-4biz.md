@@ -12,7 +12,7 @@ Atualizar o 4biz da versão `4biz-Helium-1.0.0.war.zip` para a versão `4biz-Hel
 
 - [X] Ter instalado o servidor de aplicação Wildfly com base no documento [Instalação on-premisses][1].
 
-- [X] Ter realizado o download dos pacotes ***4biz-Helium-1.0.1.war.zip*** e builder ***4biz-builder-1.3.5.1.war.zip*** diretamente do portal do parceiro.
+- [X] Ter realizado o download dos pacotes diretamente do portal do parceiro.
 
 ## Procedimento
 
