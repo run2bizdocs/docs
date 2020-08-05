@@ -1,4 +1,4 @@
-Title: Atualização do de Pacotes
+Title: Atualização de Pacotes
 
 # Atualização de Pacotes
 
