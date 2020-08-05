@@ -1,6 +1,6 @@
-Title: Atualização do 4biz on-premisses
+Title: Atualização do de Pacotes
 
-# Atualização do 4biz/builder
+# Atualização de Pacotes
 
 Este procedimento tem por objetivo demonstrar o passo-a-passo da atualização do produto 4biz/Builder em servidores de aplicação Wildfly.
 
