@@ -109,8 +109,8 @@ Agora você pode criar um fluxo de trabalho, pense em uma necessidade de negóci
 ## Relacionado
 [Conceitos básicos][7]
 
-[1]:images/workflow-menu-4biz.png
-[2]:images/workflow-management-4biz.png
+[1]:images/tracker-menu-4biz.png
+[2]:images/tracker-management-4biz.png
 [3]:images/fist-button-4biz.jpg
 [4]:images/second-button-4biz.png
 [5]:images/flow-data-4biz.png
