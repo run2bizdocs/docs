@@ -109,10 +109,10 @@ Agora você pode criar um fluxo de trabalho, pense em uma necessidade de negóci
 ## Relacionado
 [Conceitos básicos][7]
 
-[1]:images/tasker-menu-4biz .png
-[2]:images/tasker-management-4biz .png
-[3]:images/fist-button-4biz .jpg
-[4]:images/second-button-4biz .png
-[5]:images/flow-data-4biz .png
-[6]:images/diagram-4biz .png
+[1]:images/tasker-menu-4biz.png
+[2]:images/tasker-management-4biz.png
+[3]:images/fist-button-4biz.jpg
+[4]:images/second-button-4biz.png
+[5]:images/flow-data-4biz.png
+[6]:images/diagram-4biz.png
 [7]:/pt-br/4biz-helium/tasker/basic-concepts.html
