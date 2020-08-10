@@ -598,8 +598,6 @@ nav:
         - 4biz-helium/additional-features/contract-management/configuration/register-subscription.md
         - 4biz-helium/additional-features/contract-management/configuration/subscription-group.md
         - 4biz-helium/additional-features/contract-management/configuration/work-order-formula.md
-      - Relatório:
-        - 4biz-helium/additional-features/contract-management/report/control-contract.md
     - Comunicação e notificação:
       - Chat:
         - 4biz-helium/additional-features/communication-and-notification/chat/chat.md

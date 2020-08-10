@@ -561,8 +561,6 @@ nav:
         - 4biz-helium/additional-features/contract-management/configuration/register-subscription.md
         - 4biz-helium/additional-features/contract-management/configuration/subscription-group.md
         - 4biz-helium/additional-features/contract-management/configuration/work-order-formula.md
-      - Informe:
-        - 4biz-helium/additional-features/contract-management/report/control-contract.md
       - Uso:
         - 4biz-helium/additional-features/contract-management/use/manage-contracts.md
         - 4biz-helium/additional-features/contract-management/use/register-contract.md
