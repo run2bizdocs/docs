@@ -44,61 +44,26 @@ The Builder Application must have been created.
     - Folder where the form configuration should be stored.
 
 
-
-    ![form](images/builder-18.jpg)
-
-    Figure 1 - Form
-
     !!! Abstract "ATTENTION"
 
        The version number of the form is automatically incremented by the system whenever a new version of the form is saved.
 
-4. Add page
-
-    ![form](images/builder-19.jpg)
-
-    Figure 2 - Add page
+1. Add page
     
-
-5. The generated tabs will have the following structure:
+2. The generated tabs will have the following structure:
 
     * Properties: General data
 
-    ![form](images/builder-20.jpg)
-
-    Figure 3 - General data
-    
-
     * HTML: page HTML structure
-
-    ![form](images/builder-21.jpg)
-
-    Figure 4 - HTML
     
-
     * Controller code for the form
-
-    ![form](images/builder-22.jpg)
-
-    Figure 5 - Controller
-    
 
     - Dependencies: If the form needs external code, that code must be registered as a dependency. The name of the dependency, the path in which it is located and whether it should be injected into the controller must also be informed.
 
-    ![form](images/builder-23.jpg)
-
-    Figure 6 - Dependencies
-
-
-6. Design the screen on the Screen design tab:
+3. Design the screen on the Screen design tab:
     * Drag the components located on the left side palette and drop them in the center of the screen. Components are organized into rows and columns, each row having a width of 12 columns;
 
     * You can create tabs for the forms. To do this, go to the tab menu and choose the tabs in the horizontal or vertical arrangement. Drag and drop components ifor the tabs as explained above.
-
-
-    ![form](images/builder-24.jpg)
-
-    Figure 7 - Design
 
 7.	Click the "Save" button. You can save the form in the current version or in a new version.
 

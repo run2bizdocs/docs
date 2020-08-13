@@ -9,18 +9,11 @@ Experience Centers
 
 2.	In the “ID” tab, check the option **Show as Workflow widget**;
 
-
---
-
 3.  Link the form to an Experience Center.
 
 4.  Selecting a Form
 
---
-
 5. Using Experience center to input data:
-
---
 
 
 !!! tip "About"

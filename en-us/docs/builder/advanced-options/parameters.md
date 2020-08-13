@@ -17,10 +17,6 @@ Registration of parameters used by the Builder.
 
 1.	To register a new parameter, click "New” button;
 
-![Screenshot](images/Parameters-search.png) 
-
-Figure 1 - Parameter search screen  
-
 2.	Fill in the required information for parameter Name, Type, and Description. The system will offer a Value field according to the selected type:
 
 3.	Click "Save" button.
