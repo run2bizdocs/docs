@@ -2,82 +2,82 @@ Title: Analytics
 
 # Analytics
 
-Após treinar as interações e diálogos do Helper, é preciso monitorar as interações da sua assistente com os usuários para garantir que ela está sendo efetiva no atendimento às solicitações e assim garantir a sua qualidade e assertividade. 
+After training Helper's interactions and dialogues, it's necessary to monitor your assistant's interactions with users to ensure that it's being effective in attending the requests, ensuring its quality and assertiveness. 
 
-Essas interações podem ser visualizadas na opção Analytics. É a sessão da plataforma responsável por visualizar relatórios e indicadores. Os módulos estão divididos da seguinte forma: Lista de Conversação, Rankings de Intents, Ranking de Respostas e Ranking de Fallback.
+These interactions can be viewed in the Analytics option. It's the session of the platform responsible for viewing reports and indicators. The modules are divided as: Conversation List, Rankings of Intents, Ranking of Responses and Fallback Ranking.
 
-**Antes de começar**
+## Before getting started
 
-- É necessário ter realizado pelo menos um treinamento;
+- It's necessary to have performed at least one training;
 
-- E ter realizado ao menos uma interação com o assistente virtual.
+- Have performed at least one interaction with the virtual assistant.
 
-**Procedimento**
+## Procedure
 
-1.  Após acessar a plataforma, acesse o menu “Analytics”;
+1.  After access the platform, go to the menu “Analytics”;
 
-2.  Selecione um dos módulos disponíveis: Listar Conversas, Rankings de Intents, Ranking de Respostas e Ranking de Fallback.
+2.  Select one of the modules available: Conversation List, Rankings of Intents, Ranking of Responses and Fallback Ranking.
 
-## Listar conversas
+## Conversation List
 
-Neste módulo é possível visualizar todas as conversas realizadas pelo chatbot durante um intervalo de tempo selecionado. O sistema apresentará informações relativas as conversas realizadas nesse período.
+In this module it's possible to view all conversations performed by the chatbot during a selected time. The system will present information regarding the conversations held during that period.
 
-Após clicar em “Listar conversa”, primeiramente, é obrigatório a definição de um período de tempo no campo “Intervalo”.
+After clicking on "List conversation", first, it's mandatory to define a period of time in the "Interval" field.
 
-Depois de definir um tempo, clique em “Filtrar”.
+After setting a time, click on "Filter”.
 
-A ferramenta apresentará as informações de conversação dependendo do tempo de sua escolha.
+The tool will present the conversation information depending on the time of your choice.
 
-Teremos as seguintes informações para análise:
+We'll have the following information for analysis:
 
-|Campo|Descrição|
+|Field|Description|
 |-|-|
-| Data e hora| A data e hora que foi realizada a conversa entre um usuário e o assistente.|
-| Versão| A versão vai variar de acordo com a maturidade do chatbot. Isso significa que a versão do assistente muda de acordo com a quantidade de informação que recebe e os treinamentos a qual é submetido. |
-| Canal| O canal que o usuário utilizou para a conversa. Podendo ser de canais diferentes, conforme os configurados na plataforma Helper. Por exemplo: Facebook, Twitter, Smart Chat entre outros.|
-| Identificação do usuário | A identificação do usuário que conversou com o assistente.|
+| Date and time| The date and time that the conversation between a user and the assistant was performed.|
+| Version| The version will vary according to the maturity of the chatbot. This means that the version of assistant changes according to the amount of information it receives and the training it's submitted to.|
+| Channel| The channel the user used for the conversation. It can be from different channels, as configured on the Helper platform. For example: Facebook, Twitter, Smart Chat and others.|
+| User identification | The identification of the user who chatted with the assistant.|
 
 
-Além dessas informações, também apresenta duas opções:
+In addition to this information, it also presents two options:
 
-|Campo|Descrição|
+|Field|Description|
 |-|-|
-| Ver| Nessa opção é possível ver o detalhamento da conversa entre o usuário e o assistente. O balão de cor azul é a mensagem do usuário. Podemos ver que abaixo dele existe uma porcentagem, que significa a acurácia da assistente e, ao lado, a intent que foi entendida pelo Helper. Caso queira incluir essa frase do usuário à intent entendida, basta clicar nela que você será redirecionado para a página de diálogos. Já o balão de cor branca é a mensagem enviada pelo assistente. Abaixo dele a habilidade que foi cadastrada para esse tipo de intent. Caso queira incluir algo novo dessa conversa para a habilidade, basta clicar nela e você também será redirecionado para a página de diálogos. Além disso, também são apresentadas as opções “Atualizar”, caso a conversa ainda esteja acontecendo e você queira receber as novas mensagens; “Exportar” para realizar o download dessa conversa; e “Voltar” para voltar a página anterior. |
-| Download | É possível baixar a conversa em formato xls, onde você poderá ver as interações entre usuário e chatbot.|
+| See | In this option it's possible to see the details of the conversation between the user and the assistant. The blue balloon is the user's message. We can see that below it there's a percentage, which means the accuracy of the assistant and, next to it, the intent that was understood by Helper. If you want to include this user phrase to the understood intent, just click on it and you will be redirected to the dialog page. The white balloon is the message sent by the assistant. Below it there's the skill that was registered for this type of intent. If you want to include something new in this conversation for the skill, just click on it and you will also be redirected to the dialogs page. In addition, it also presents the options: “Update”, in case the conversation is still happening and you want to receive the new messages; “Export” to download this conversation; and “Back” to return to the previous page. |
+| Download | It's possible to download the conversation in xls format, where you can see the interactions between user and chatbot.|
 
 
-## Ranking de intents
+## Ranking of intents
 
-Nesta modalidade é permitido verificar em formato de gráfico quais intents estão sendo mais utilizadas pelos usuários do sistema, ou seja, o que os usuários estão mais perguntando e/ou demandando do assistente.
+In this modality, it's allowed to check in chart format which intents are being used most by system users, that is, what users are asking and/or demanding most from the assistant.
 
-Após clicar em “Ranking de intents”, primeiramente, é obrigatório a definição de um período de tempo no campo “Intervalo”. Depois de definir um tempo, clique em “Filtrar”.
+After clicking on “Ranking of intents”, first, it's mandatory to define a period of time in the “Interval” field. After setting a time, click on “Filter”.
 
-Será apresentado um gráfico com as principais intents de acordo com o período selecionado. No lado esquerdo está o gráfico em si, em dias, e no lado direito a legenda do que representam as cores e suas determinadas intents.
+A chart will be displayed with the main intents according to the selected period. On the left side there's the chart itself, in days, and on the right side, the subtitle about what the colors represent and their particular intents.
 
-Ao final de cada intent existe uma lupa. Ao clicar nessa lupa, você será direcionado para a página de lista de conversa dessa intent, que mostrará a lista dependendo do período informado para o gráfico.
+At the end of each intent there is a magnifying glass. When clicking on this magnifying glass, you'll be taken to the conversation list page for that intent, which will show the list depending on the period reported for the chart.
 
-Além disso, ao clicar em alguma intent da legenda, você será direcionado para apágina de diálogo relacionada, onde é possível analisar se as frases estão corretas ou fazer alguma alteração.
+In addition, when you click on any intent in the subtitle, you will be directed to the related dialog page, where you can analyze whether the phrases are correct or make any changes.
 
-## Ranking de respostas
+## Ranking de responses
 
-Funciona de forma parecida ao ranking de intents. Nesta modalidade é permitido verificar quais habilidades estão sendo mais utilizadas pelos usuários do sistema, ou seja, o que o assistente mais responde durante a interação com o usuário.
+It works similar to the ranking of intents. In this modality it's allowed to check which skills are being used most by the users of the system, that is, what the assistant responds most during the interaction with a user.
 
-Após clicar em “Ranking de respostas”, primeiramente, é obrigatório a definição de um período de tempo no campo “Intervalo”. Depois de definir um tempo, clique em “Filtrar”.
+After clicking on "Ranking of responses", first, it's mandatory to define a period of time in the "Interval" field. After setting a time, click on “Filter”.
 
-Será apresentado um gráfico com as principais habilidades de acordo com o período selecionado. No lado esquerdo está o gráfico em si, em dias, e no lado direito a legenda do que representa as cores e suas determinadas habilidades.
+A chart will be displayed with the main skills according to the selected period. On the left side there's the chart itself, in days, and on the right side, there's the subtitle about what the colors represent and their specific skills.
 
-No final de cada habilidade existe uma lupa. Ao clicar nessa lupa, você será direcionado para a página de lista de conversa dessa habilidade, que mostrará a lista dependendo do período informado para o gráfico.
+At the end of each skill there is a magnifying glass. When clicking on this magnifying glass, you'll be taken to the conversation list page for this skill, which will show the list depending on the period reported for the chart.
 
-Além disso, ao clicar em alguma habilidade da legenda, você será direcionado para a página de diálogo relacionada, onde é possível analisar se as frases estão corretas ou fazer alguma alteração.
+In addition, when clicking on a skill in the subtitle, you'll be taken to the related dialog page, where you can analyze whether the phrases are correct or make any changes.
 
-## Ranking fallback
+## Ranking of fallback
 
-Nesta modalidade podemos verificar quais são as intents que o sistema não conseguiu entender, ou seja, quais interações com usuário que foram insatisfatórias pois a assistente não conseguiu entender o objetivo da mensagem.
+In this modality, we can check which are the intents that the system was unable to understand, that is, which interactions with the user were unsatisfactory because the assistant was unable to understand the purpose of the message.
 
-O fallback, para o sistema, é uma habilidade previamente cadastrada que apresenta uma mensagem como resposta ao usuário, criada por um administrador da plataforma a fim de informar ao usuário que a assistente não tem conhecimentos,cadastrados e treinados, suficientes para atender à solicitação.
+The fallback, for the system, is a previously registered skill that presents a message as a response to the user, created by a platform administrator in order to inform the user that the assistant does not have registered and trained knowledge sufficient to meet the request.
 
-Após clicar em “Ranking fallback”, primeiramente, é obrigatório a definição de um período de tempo no campo “Intervalo”. Depois de definir um tempo, clique em “Filtrar”.
+After clicking on “Ranking of fallback”, firstly, it's mandatory to define a period of time in the “Interval” field. After setting a time, click on “Filter”.
 
-Será apresentado um gráfico com a habilidades de fallback que não foi entendida pelo assistente, de acordo com o período selecionado. No lado esquerdo está o gráfico em si, em dias, e no lado direito a legenda com a habilidade de fallback.
+A chart will be presented with the fallback skills that was not understood by the assistant, according to the selected period. On the left side there's the chart itself, in days, and on the right side, there's the subtitle with the fallback skill.
 
-Ao clicar na legenda do fallback, você será direcionado para a página de lista de conversa dessa habilidade dependendo dos dias selecionados no filtro de intervalo. Ao ver essas conversas, o analista pode verificar se a falta de compreensão da assistente é correto, ou seja, se o usuário está demandando algo fora do escopo de criação dela ou se é uma carência, e nesse caso o administrador pode melhorar sua interação e acurácia, construindo novos fluxos de conversação ou refinando os existentes.
+Clicking on the fallback subtitle will take you to the conversation list page for that skill depending on the days selected in the filter. When viewing these conversations, the analyst can verify if the assistant's lack of understanding is correct, that is, if the user is demanding something outside the scope of her creation or if it's a deficiency, in which case the administrator can improve the interaction and accuracy, building new conversation flows or refining existing ones.
