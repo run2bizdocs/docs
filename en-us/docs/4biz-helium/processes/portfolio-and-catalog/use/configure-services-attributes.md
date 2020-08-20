@@ -44,7 +44,7 @@ Theme related to the basic attributes of the service, such as Name, Status,
 Criticality, Category, and others.
 
 The tabs, form fields and actions available on this topic are described in the
-document *Registering/Editing a service*.
+document [Registering/Editing a service*](https://docs.run2biz.com/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html).
 
 ### Service Level Requirements
 
