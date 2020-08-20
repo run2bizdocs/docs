@@ -1,4 +1,7 @@
-Setting service attribute *¶*
+Title: Setting service attribute
+Description: At 4biz, service attributes are configured from the Service Portfolio.
+
+# Setting service attribute
 
 Every service has a set of attributes that characterize it and differentiate it
 from others. The individual characteristics are varied and can be related to the
@@ -8,12 +11,11 @@ delivery or operation.
 
 At 4biz, service attributes are configured from the Service Portfolio.
 
-Before getting
-started[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#antes-de-comecar)
+## Before getting started
 
--   It's necessary to have previously configured the Service Pipeline.
+- [x]   It's necessary to have previously configured the Service Pipeline.
 
-Procedure*¶*
+## Procedure
 
 To access the configuration screen for the attributes of a service, follow the
 procedure below.
@@ -34,9 +36,9 @@ procedure below.
 
 >   Next, there are the service attribute themes available in 4biz.
 
-Service Attributes*¶*
+## Service Attributes
 
-Details*¶*
+**Details**
 
 Theme related to the basic attributes of the service, such as Name, Status,
 Criticality, Category, and others.
@@ -44,7 +46,7 @@ Criticality, Category, and others.
 The tabs, form fields and actions available on this topic are described in the
 document *Registering/Editing a service*.
 
-Service Level Requirements*¶*
+### Service Level Requirements
 
 This theme groups the attributes related to the service level management
 process, such as the utility and guarantee of the service. The utility of the
@@ -122,7 +124,7 @@ The following functions are available:
 | Clear     | Clean the fields                                                 |
 | Delete    | Delete the file                                                  |
 
-Financial Attributes
+### Financial Attributes
 
 These are the attributes that describe the relationship between the financial
 management process and the service.
@@ -158,7 +160,7 @@ configuration item with the following information:
 | Value          | The value of service                                             |
 | Cycle          | The financial cycle                                              |
 
-Business Cases
+### Business Cases
 
 This section contains the strategic information related to the business cases
 prepared for the project and development of the service.
@@ -197,8 +199,7 @@ The following functions are available:
 | Save      | Save the attribute                                               |
 | Clear     | Clean the fields                                                 |
 
-Configuration
-Items[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#itens-de-configuracao)
+### Configuration Items
 
 This section of attributes presents the relationship map of the configuration
 items that make part of the service.
@@ -206,8 +207,7 @@ items that make part of the service.
 Changes in the relationship between configuration items are made within the
 Configuration Management process & ITAM.
 
-Business
-Processes[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#processos-de-negocio)
+### Business Processes
 
 Services are always linked to business processes, whether to operationalize,
 support or enable their execution. It's important to understand this
@@ -226,7 +226,7 @@ The following functions are available:
 | Search here                | Search between the linked processes                   |
 | List of business processes | It allows to view details and unlink                  |
 
-Support Services*¶*
+### Support Services
 
 Services can be primary, intensifying, or supportive.
 
@@ -251,7 +251,7 @@ The following functions are available:
 |              |                                     |
 |              |                                     |
 
-Business Owner*¶*
+### Business Owner
 
 The business owner is the person or group that is responsible for defining the
 business vision and roadmap that should be supported by the service.
@@ -269,7 +269,7 @@ The following functions are available:
 | Search here | Search between linked individuals and groups |
 | Unlink      | Unlink the listed business owner             |
 
-Business User*¶*
+### Business User
 
 Business users are the people who use the service during their work.
 
@@ -286,7 +286,7 @@ The following functions are available:
 | Search here | Search between the linked users and groups |
 | Unlink      | Unlink the listed user or group            |
 
-Requests*¶*
+### Requests
 
 In this attributes section, all requests activities that make up the service are
 linked. These activities are the main point of contact of users with the service
@@ -304,7 +304,7 @@ The following functions are available:
 | Search here          | Search between the linked requests                             |
 | Unlink               | Unlink the listed activity                                     |
 
-Applications[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#apicacoes)
+### Applications
 
 Services are supported or operated using applications or information systems. In
 this section, all applications related to the service are associated and
@@ -319,8 +319,7 @@ The following functions are available:
 | Search here      | Search between the linked applications                  |
 | Unlink           | Unlink the listed application                           |
 
-Service design
-package[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#esquema-de-dados)
+### Service design package
 
 This section contains all technical documentation of the service, such as
 software requirements, contract templates, service level agreements, operational
@@ -348,7 +347,7 @@ The following functions are available for attaching documents:
 | Add file               | Select the file to be attached. |
 | List of attached files | Open and delete attached files. |
 
-Incidents*¶*
+### Incidents
 
 In this section of attributes, all incident activities that make part of the
 service are linked. The registration of these activities allows the quick
@@ -365,7 +364,7 @@ The following functions are available:
 | Unlink                 | Unlink the listed activity                                     |
 |                        |                                                                |
 
-Continuity procedures
+### Continuity procedures
 
 Continuity procedures are used to respond to an exceptional situation that
 severely impacts the service, such as a crisis or disaster. In these cases, an
@@ -384,7 +383,7 @@ The following functions are available:
 | Search here    | Search between the linked procedures                 |
 | Unlink         | Unlink the listed procedure                          |
 
-Contracts[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#contratos)
+### Contracts
 
 The relationship between services and contracts is one of 4biz's most important
 configurations. The flexibility to organize this relationship allows you to
@@ -400,8 +399,7 @@ The following functions are available:
 | Search here   | Search between the linked contracts                 |
 | Unlink        | Unlink the listed contract                          |
 
-Service
-owner[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#proprietarios-ti)
+### Service owner
 
 Service owner presents the service to the organization. Has great knowledge
 about the service and participates in strategic decisions. The owner also acts
@@ -419,7 +417,7 @@ The following functions are available:
 | Search here | Search between the linked users and groups |
 | Unlink      | Unlink the listed user or group            |
 
-Knowledge base*¶*
+### Knowledge base
 
 Knowledge is a fundamental tool for the design, development, delivery and use of
 a service. The more people are knowledgeable about the service, the greater the
@@ -435,7 +433,7 @@ The following functions are available:
 | Search here    | Search between the linked knowledge records                 |
 | Unlink         | Unlink the listed knowledge record                          |
 
-Skill/Resource*¶*
+### Skill/Resource
 
 To put knowledge into practice, the people involved in the service need skills
 and resources to perform the actions. Indicate the requirements for using the
@@ -454,7 +452,7 @@ The following functions are available:
 | Search here     | Search between the linked capabilities                |
 | Unlink          | Unlink the listed capability record                   |
 
-Planned Capacity*¶*
+### Planned Capacity
 
 When designing a service, the manager must plan how to meet current and future
 capacity needs. This long-term vision for the service will allow to make the
@@ -470,7 +468,7 @@ The following functions are available:
 | Link capacity/performance indicators | Allows to search and link a capacity or performance indicator to the service |
 | Unlink                               | Unlink the listed capacity or performance indicator                          |
 
-Attribute of Demand*¶*
+### Attribute of Demand
 
 The lack of capacity of a service causes unavailability and the excess is a
 waste of investments. For this reason, the demand for a service needs to be
@@ -485,8 +483,7 @@ The following functions are available:
 | Link demand attributes | Allows to search and link a service demand attribute |
 | Unlink                 | Unlink the listed demand attribute                   |
 
-Service Evaluations
-[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#avaliacoes-do-servico)
+### Service Evaluations
 
 This section lists all service delivery evaluations. To facilitate the viewing,
 it's possible to filter the records using dates to limit the period of listing.
@@ -505,8 +502,7 @@ The following functions are available:
 | Search   | List the evaluations considering the defined filter |
 | Clear    | Clean the dates defined in the filter               |
 
-Service
-Audit[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#auditoria-do-servico)
+### Service Audit
 
 This section presents the occurrences of actions related to the service. These
 can be changing attributes or details, registering incidents and requests,
