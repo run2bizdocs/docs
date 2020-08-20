@@ -1,5 +1,4 @@
-Configurar atributos de
-serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#configurar-atributos-de-servico)
+# Configurar atributos de serviço
 
 Todo serviço possui um conjunto de atributos que o caracterizam e o diferencia
 dos outros. As características individuais são variadas e podem estar
@@ -10,12 +9,11 @@ envolvidas na sua entrega ou operação.
 No 4biz, os atributos de serviço são configurados a partir do Portfólio do
 Serviço.
 
-Antes de
-começar[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#antes-de-comecar)
+## Antes de começar
 
--   É necessário ter configurado previamente o Funil de Serviços.
+- [x]   É necessário ter configurado previamente o Funil de Serviços.
 
-Procedimento[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#procedimento)
+## Procedimento
 
 Para acessar a tela de configuração dos atributos de um serviço, siga o
 procedimento abaixo.
@@ -35,23 +33,20 @@ procedimento abaixo.
 5.  Clicar no tema do atributo a ser definido para acessar a sua página de
     configuração.
 
->   A seguir, estão descritos os temas de atributos de serviço disponíveis no
->   4biz.
+>   A seguir, estão descritos os temas de atributos de serviço disponíveis no 4biz.
 
-Atributos do
-Serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#atributos-do-servico)
+## Atributos do Serviço
 
-Detalhes[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#detalhes)
+**Detalhes**
 
 Tema relacionado com os atributos básicos do serviço, como Nome, Status,
 Criticidade, Categoria, entre outros.
 
 As guias, os campos do formulário e as ações disponíveis neste tema estão
 descritas no documento de [Cadastrar/Editar um
-serviço](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html).
+serviço](https://docs.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html).
 
-Requisitos de Nível de
-Serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#requisitos-de-nivel-de-servico)
+### Requisitos de Nível de Serviço
 
 Este tema agrupa os atributos relacionados com o processo de gerenciamento de
 nível de serviço, como a utilidade e garantia do serviço. A utilidade do serviço
@@ -130,7 +125,7 @@ As seguintes funções estão disponíveis:
 | Limpar             | Limpar os campos                                           |
 | Excluir            | Exclui o arquivo                                           |
 
-Atributos Financeiros
+### Atributos Financeiros
 
 São os atributos que descrevem o relacionamento do processo de gerenciamento
 financeiro com o serviço.
@@ -166,7 +161,7 @@ correspondente apresentando as seguintes informações:
 | Valor         | O valor do serviço                                      |
 | Ciclo         | O ciclo financeiro                                      |
 
-Casos de Negócios
+### Casos de Negócios
 
 Nesta seção estão registradas as informações estratégicas relacionadas com os
 casos de negócio elaborados para o projeto e desenvolvimento do serviço.
@@ -205,8 +200,7 @@ As seguintes funções estão disponíveis:
 | Gravar             | Salvar o atributo                                          |
 | Limpar             | Limpar os campos                                           |
 
-Itens de
-Configuração[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#itens-de-configuracao)
+### Itens de Configuração
 
 Nesta seção de atributos é apresentado o mapa de relacionamento dos itens de
 configuração que compõe o serviço.
@@ -214,8 +208,7 @@ configuração que compõe o serviço.
 Alterações relacionamento entre os itens de configuração são realizadas dentro
 do processo de Gerência de Configuração & ITAM.
 
-Processos de
-Negócio[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#processos-de-negocio)
+### Processos de Negócio
 
 Serviços sempre estão ligados a processos de negócio, seja para operacionalizar,
 suportar ou viabilizar a sua execução. É importante compreender esta relação
@@ -234,8 +227,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui                 | Pesquisa entre os processos vinculados                |
 | Lista de processos de negócio | Permite visualizar detalhes e desvincular             |
 
-Serviços de
-Apoio[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#servicos-de-apoio)
+### Serviços de Apoio
 
 Serviços podem ser principais, intensificadores ou de apoio.
 
@@ -258,11 +250,8 @@ As seguintes funções estão disponíveis:
 |------------------|---------------------------------------|
 | Vincular serviço | Vincule um serviço de apoio.          |
 | Pesquise aqui    | Pesquisa entre os serviços vinculados |
-|                  |                                       |
-|                  |                                       |
 
-Dono do
-Negócio[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#dono-do-negocio)
+### Dono do Negócio
 
 O dono do negócio é a pessoa ou grupo que é responsável pela definição da visão
 e do roadmap de negócio que deve ser suportado pelo serviço.
@@ -280,8 +269,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui     | Pesquisa entre os indivíduos e grupos vinculados |
 | Desvincular       | Desvincule o dono do negócio listado.            |
 
-Usuário do
-Negócio[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#usuario-do-negocio)
+### Usuário do Negócio
 
 Usuários do negócio são as pessoas que utilizam do serviço durante do seu
 trabalho.
@@ -300,7 +288,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui     | Pesquisa entre os usuários e grupos vinculados |
 | Desvincular       | Desvincule o usuário ou grupo listado          |
 
-Requisições[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#requisicoes)
+### Requisições
 
 Nesta seção de atributos são vinculadas todas as atividades de requisição que
 compõe o serviço. Estas atividades são os principais ponto de contato dos
@@ -319,7 +307,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui                    | Pesquisa entre as requisições vinculadas                         |
 | Desvincular                      | Desvincule a atividade listada                                   |
 
-Aplicações[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#apicacoes)
+### Aplicações
 
 Serviços são suportados ou operacionalizados pelo uso de aplicativos ou sistemas
 de informação. Nesta seção, são associadas e apresentadas todas as aplicações
@@ -334,8 +322,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui      | Pesquisa entre as aplicações vinculadas               |
 | Desvincular        | Desvincule a aplicação listada                        |
 
-Pacote de desenho do
-serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#esquema-de-dados)
+### Pacote de desenho do serviço
 
 Nesta seção está registrada toda documentação técnica do serviço, como os
 requisitos de software, modelos de contrato, acordos de nível de serviço,
@@ -363,7 +350,7 @@ As seguintes funções estão disponíveis para anexar documentos:
 | Adicionar arquivo        | Selecione o arquivo a ser anexado.       |
 | Lista de arquivos anexos | Abrir e excluir arquivos anexados.       |
 
-Incidentes[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#incidentes)
+### Incidentes
 
 Nesta seção de atributos são vinculadas todas as atividades de incidentes que
 compõe o serviço. O registro destas atividades permite o rápido direcionamento
@@ -379,7 +366,7 @@ As seguintes funções estão disponíveis:
 | Desvincular                     | Desvincule atividade listada                                     |
 |                                 |                                                                  |
 
-Procedimentos de continuidade
+### Procedimentos de continuidade
 
 Os procedimentos de continuidade são usados para responder a uma situação
 excepcional que impacta severamente o serviço, como uma crise ou desastre.
@@ -399,7 +386,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui         | Pesquisa entre os procedimentos vinculados              |
 | Desvincular           | Desvincule o procedimento listado                       |
 
-Contratos[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#contratos)
+### Contratos
 
 O relacionamento entre serviços e contratos é uma das configurações mais
 importantes do 4biz. A flexibilidade para organizar esta relação permite
@@ -415,8 +402,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui     | Pesquisa entre os contratos vinculados              |
 | Desvincular       | Desvincule o contrato listado                       |
 
-Dono do
-serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#proprietarios-ti)
+### Dono do serviço
 
 Dono do serviço presenta o serviço perante a organização. Possui grande
 conhecimento sobre o serviço e participa de decisões estratégicas. O dono também
@@ -435,8 +421,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui     | Pesquisa entre os usuários e grupos vinculados |
 | Desvincular       | Desvincule o usuário ou grupo listado          |
 
-Base de
-Conhecimento[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#base-de-conhecimento)
+### Base de Conhecimento
 
 Conhecimento é uma ferramenta fundamental para o design, desenvolvimento,
 entrega e uso de um serviço. Quanto mais as pessoas forem conhecedoras sobre o
@@ -453,7 +438,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui         | Pesquisa entre os registros de conhecimento vinculados              |
 | Desvincular           | Desvincule um registro de conhecimento listado                      |
 
-Habilidade/Recurso[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#habilidaderecurso)
+### Habilidade/Recurso
 
 Para colocar o conhecimento em prática, as pessoas envolvidas no serviço
 precisam de habilidades e recursos para executar as ações. Indicar quais são os
@@ -472,8 +457,7 @@ As seguintes funções estão disponíveis:
 | Pesquise aqui       | Pesquisa entre as habilidades vinculadas               |
 | Desvincular         | Desvincule um registro de habilidade listado           |
 
-Capacidade
-Planejada[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#capacidade-planejada)
+### Capacidade Planejada
 
 Ao projetar um serviço, o responsável deve planejar como irá atender as
 necessidades atuais e futuras de capacidade. Essa visão de longo prazo para o
@@ -490,8 +474,7 @@ As seguintes funções estão disponíveis:
 | Vincular indicadores de capacidade/performance | Permite pesquisar e vincular um indicador de capacidade ou performance ao serviço |
 | Desvincular                                    | Desvincule um indicador de capacidade ou performance listado                      |
 
-Atributo de
-Demanda[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#atributo-de-demanda)
+### Atributo de Demanda
 
 A falta de capacidade de um serviço causa indisponibilidades e o excesso é um
 desperdício de investimentos. Por isto, a demanda por um serviço precisa ser
@@ -506,8 +489,7 @@ As seguintes funções estão disponíveis:
 | Vincular atributos de demanda | Permite pesquisar e vincular um atributo de demanda do serviço |
 | Desvincular                   | Desvincule um atributo de demanda listado                      |
 
-Avaliações do
-Serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#avaliacoes-do-servico)
+### Avaliações do Serviço
 
 Nesta seção estão listadas todas as avaliações da entrega do serviço. Para
 facilitar a visualização, é possível filtrar os registros utilizando datas para
@@ -527,8 +509,7 @@ As seguintes funções estão disponíveis:
 | Pesquisar | Listar as avaliações considerando o filtro definido |
 | Limpar    | Limpar as datas definidas no filtro                 |
 
-Auditoria do
-Serviço[¶](https://documentation.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/configure-services-attributes.html#auditoria-do-servico)
+### Auditoria do Serviço
 
 Nesta seção estão apresentadas as ocorrências das ações relacionadas ao serviço.
 Estas podem ser a alteração de atributos ou detalhes, o registro de incidentes e
