@@ -17,12 +17,6 @@ In order to create a Business Object, you must a Database Connection configured 
 
 3.	Fill in the fields on the "Identification" tab, selecting the Application for which the Business Object is being created, giving it a Name and a Description, and informing the purpose of the Business Object.
 
-
-![business](images/builder-9.jpg)
-
-Figure 1 - Identification
-
-
 ## Database Information
 
 The “Database” tab contains the reference to application  database structures. Since each Business Object represents a database table, the information in this tab defines table columns,  relationships among tables, business rules, and SQL commands (if necessary).
@@ -32,12 +26,6 @@ The “Database” tab contains the reference to application  database structure
     - Database Scheme name;
     - Type of database element, being Table or View;
     - 	Name of the table/view to which the business object is linked.
-
-
-
-![business](images/builder-10.jpg)
-
-Figure 2 - Database
 
 
 ## Columns
@@ -58,14 +46,6 @@ Figure 2 - Database
 
     After saving you’ll be able to inform Domain key and assign Relationships if it’s needed.
 
-![business](images/builder-11.jpg)
-
-Figure 3 - Columns list
-
-![business](images/builder-12.jpg)
-
-Figure 4 - Adding new columns
-
 !!! Abstract "ATTENTION"
     
     For each change in the information in the database/table or when creating the Business Object, you must execute the corresponding DDL to reflect the creation/changes in the database.
@@ -83,20 +63,11 @@ If necessary, use the Relationships tab to create relationships between Business
 -	If it is to use **Delegation**, that is to use Generalization/Specialization concepts for the Relationship;
 -	Set the **Object column in edition** that will be part of the relationship.
 
-    
-![business](images/builder-13.jpg)
-
-Figure 5 - Relationship 
-
 
 ## Business Rules
 
 1. Select the Business Rule to be executed when insert, change or delete actions are triggered on the Business Object.
 
-
-![business](images/builder-14.jpg)
-
-Figure 6 - Business rules
     
 ## SQLs 
 
@@ -106,23 +77,12 @@ You can create SQLs queries for the Business Object to be run on specific situat
 
 - During the registration of an item in the Business Object table, an SQL query, which joins several tables, can be executed to validate information being input in the form.
  
-    
-![business](images/builder-15.jpg)
 
-Figure 7 - SQL
 
 ## Form (CRUD & Custom)
 
 1.	It’s possible to change labels names using the Labels tab, and edit the grid fields using the Grid tab.
 
-    ![business](images/builder-16.jpg)
-
-    Figure 8 - Labels
-
-
-    ![business](images/builder-17.jpg)
-
-    Figure 9 - Grid
 
 2\.	When you click Edit Form in the screen header, a form for that Business Object will be generated and the Fields sidebar will be displayed. If there is already a registered form previously linked to this Business Object, the Design View tab for this form will open.
 

@@ -20,16 +20,6 @@ Domains allow you to define key/value pairs that can be used throughout the syst
 4\.	Click on the "Save" button.
 
 
-
-![search](images/builder-7.png)
-
-Figure 1 - Search domain
-
-
-![search](images/builder-8.png)
-
-Figure 2 - Register domain
-
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;

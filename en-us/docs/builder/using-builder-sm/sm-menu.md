@@ -9,9 +9,6 @@ Description: Create menu item via Builder
     1.	The menu item Description;
     2.	Which will be the Parent menu and the Order (position in the menu) where form will be placed.
 
-
---
-
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;

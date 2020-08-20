@@ -1,465 +1,530 @@
-title: Configure Incident or Service Request attributes
+Title: Setting service attribute
+Description: At 4biz, service attributes are configured from the Service Portfolio.
 
-Description: Configure the Incident or Service Request attributes of both
-Business/IT Service and Support/Technical Service
+# Setting service attribute
 
-# Configuring Service attributes
+Every service has a set of attributes that characterize it and differentiate it
+from others. The individual characteristics are varied and can be related to the
+provision of the service, its relationship with different management processes,
+its relationship with other services and with the parties involved in its
+delivery or operation.
 
-The service attributes are configuration features within the portfolio.
-
-The guidance described in this knowledge can be followed to configure the attributes of both Business/IT Service and Support/Technical Service Portfolio types, within Portfolio and Catalog Management.
-
+At 4biz, service attributes are configured from the Service Portfolio.
 
 ## Before getting started
 
--   [X] It's necessary to have designed a Service (Pipeline).
+- [x]   It's necessary to have previously configured the Service Pipeline.
 
 ## Procedure
 
-1.	Access the main menu Processes > Portfolio and Catalog Management > Portfolio;
+To access the configuration screen for the attributes of a service, follow the
+procedure below.
 
-2.	Access the Service Portfolio you want and click on "Advance";
+1.  Access the main menu Processes \> Portfolio and Catalog Management \>
+    Portfolio.
 
-3.	Click on "Advance" in the service to access it;
+2.  Find the Service Portfolio that has the service to be detailed and click on
+    the "Advance".
 
-4.	The different attributes that can be configured will be presented on the left side.
+3.  Find the service in the Service Portfolio list and click on the "Advance";
 
+4.  On the left side of the screen are presented the different themes where the
+    attributes that can be configured are grouped.
+
+5.  Click on the theme of the attribute to be defined to access its
+    configuration page.
+
+>   Next, there are the service attribute themes available in 4biz.
 
 ## Service Attributes
 
-### Details
+**Details**
 
-!!! tip " "
+Theme related to the basic attributes of the service, such as Name, Status,
+Criticality, Category, and others.
 
-    Place where all service parameters must be configured, such as Name, Status, Criticality, Categories, among others.
-    
-    The Tabs / Fields / Buttons of this function are described at the  [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html) documentation.
+The tabs, form fields and actions available on this topic are described in the
+document [Registering/Editing a service](https://docs.run2biz.com/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html).
 
 ### Service Level Requirements
 
-!!! tip " "
+This theme groups the attributes related to the service level management
+process, such as the utility and guarantee of the service. The utility of the
+service is its purpose for which it was created, and which customer needs it
+intends to meet. The service guarantee is the conditions that determine that the
+service is suitable for usage.
 
-    All SLA setup and relationship with other process such as Capacity, Incident, Request, etc.
+Clearly, service level requirements are related to the service level management
+process. However, they can also be associated with other processes, such as
+incident, problem and change management.
 
-***Service level Requirements Tab***
+*Tab of Service Level Requirements*
 
-| Field              | Description                                   |
-|--------------------|-----------------------------------------------|
-| Creation date(\*)  |  Date of the creation of the Service          |
-| Service start date |  Release date for the Service                 |
-| Service Owner      |  Select the Owner of the Service              |
+| Field              | Description                                         |
+|--------------------|-----------------------------------------------------|
+| Creation date (\*) | Date the service was created.                       |
+| Service start date | Date the service was or will be released for usage. |
+| Service owner      | Indication of service owner.                        |
 
-(*) Indicate mandatory field
+(\*) Mandatory field
 
 -   SERVICE USEFULNESS
 
-| Field              | Description                                    |
-|--------------------|------------------------------------------------|
-| Specification      | Specify the Service in a useful view           |
-| Context            | Describe the context of usage of the Service   |
-| Essential Features | Specify the essentials features of the Service |
+| Field                     | Description                                                                                                                                           |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Specification (\*\*)      | Describe the purpose of the service, that is, why the service exists and what it must do to meet the needs of its customers.                          |
+| Context (\*\*)            | Describe the context of use of the service, that is, by whom, when, where and how the service will be used.                                           |
+| Essential Features (\*\*) | List the essential features of the service. These are the items that the service depends on to work and whose failure would cause its unavailability. |
+
+(\*\*) Fields that accept attaching files
 
 -   SERVICE WARRANTY
 
-| Field                 | Description                                  |
-|-----------------------|----------------------------------------------|
-| Safety                | Describe warranties to Safety                |
-| Availability          | Describe warranties to Availability          |
-| Capacity              | Describe warranties to Capacity              |
-| Business Continuity   | Describe warranties to Business Continuity   |
-| Performance           | Describe warranties to Performance           |
-| Planned Interruptions | Describe warranties to Planned Interruptions |
+| Field                        | Description                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Safety (\*\*)                | Describe the information security requirements and what are the mechanisms that the service must perform to ensure the security of the data, such as: Secure storage and data disposal, access and permission profiles, information classification, and others.                                                                              |
+| Availability (\*\*)          | Describe the availability requirements and what are the mechanisms that the service must perform to ensure its availability of access, such as: deployment and maintenance of equipment, high-availability technologies such as clusters and others.                                                                                         |
+| Capacity (\*\*)              | Describe the capacity requirements and what are the mechanisms that the service must perform to ensure the delivery of adequate capacity, such as: Dynamic allocation of processing, monitoring of service usage, metrics for measuring capacity and demand, and others.                                                                     |
+| Business Continuity (\*\*)   | Describe the service continuity requirements and what mechanisms the service should have in place to ensure that the service can operate within minimum acceptable levels, even in a crisis situation, such as: redundant data center availability, disaster response plans, service recovery tests, and others.                             |
+| Performance (\*\*)           | Describe the performance requirements and what are the mechanisms that the service must have to ensure that its performance will meet customer expectations, such as: expected and acceptable times to complete each stage of the service, and others.                                                                                       |
+| Planned interruptions (\*\*) | Describe the requirements for planned service interruptions and how service management needs to ensure that agreed rules are followed, such as: Maximum time for a planned service interruption, the frequency at which the service can be interrupted, mechanisms for requesting, approving and managing planned interruptions, and others. |
+
+(\*\*) Fields that accept attaching files
 
 -   SERVICE SUPPORT
 
-| Field               | Description                                                      |
-|---------------------|------------------------------------------------------------------|
-| Incident Management | Describe support requirements to the Incident Management process |
-| Problem Management  | Describe support requirements to the Problem Management process  |
-| Change management   | Describe support requirements to the Change Management process   |
+| Field               | Description                                                                                                                                                                                                                                                     |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Incident Management | Describe the requirements for the incident management process. Items such as: Classification of incidents, their severity and priority, acceptable times to identify an incident, its registration, investigation, and restoration of normal service operation. |
+| Problem Management  | Describe the requirements for the problem management process. Items such as: Expected times for identifying, recording, and investigating a problem.                                                                                                            |
+| Change Management   | Describe the requirements for the change management process. Items such as: Types of changes, procedures for recording, analyzing, approving, and reviewing changes. Also, preferred windows for maintenance and periods to stop change.                        |
 
 -   CONFORMITY
 
-| Field    | Description                                           |
-|----------|-------------------------------------------------------|
-| Internal | Describe internals requirements to service conformity |
-| External | Describe externals requirements to service conformity |
+| Field           | Description                                                                                                                                                                                                                                                                                                      |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal (\*\*) | Describe the internal governance and risk requirements that must be observed and met during the service lifecycle and its operation. They are usually related to management policies determined by the organization's board of directors to preserve investments and the organization from a bad administration. |
+| External (\*\*) | Describe the external governance and risk requirements that must be observed and met during the service lifecycle and its operation. It usually involves complying with regulations, ordinances, laws and regulatory frameworks to which the organization is subject.                                            |
 
+(\*\*) Fields that accept attaching files
 
-***Attached Documents Tab***
+*Tab of Attached Documents*
 
-| Components                    | Description                   |
-|-------------------------------|-------------------------------|
-|  Type of Attachment to Select | Select the type of attachment |
-|  Add File Button              | Add                           |
-|  Grid with Attachments        | View / Delete                 |
+| Component                    | Description                                            |
+|------------------------------|--------------------------------------------------------|
+| Select subject of attachment | Select the subject to which the attachment is related. |
+| Table of files               | List of attached files.                                |
 
-The Following Functions are available
+The following functions are available:
 
-| Function                    | Description        |
-|-----------------------------|--------------------|
-| Save                        | Save the Attribute |
-| Clear                       | Clear the Fields   |
+| Functions | Description                                                      |
+|-----------|------------------------------------------------------------------|
+| Add File  | Enter the indicated file as an attachment to the indicated topic |
+| Save      | Save the attribute                                               |
+| Clear     | Clean the fields                                                 |
+| Delete    | Delete the file                                                  |
 
 ### Financial Attributes
 
-!!! tip
+These are the attributes that describe the relationship between the financial
+management process and the service.
 
-    Relationship with financial process. Placeholder to link apportionment by Result Center, Departments. 
-    Including all information about CAPEX, OPEX, Direct Value and others.
-    The System distinguish and differentiates between Service Cost and Service Price.
+The financial attributes indicate the service's relationship with the Result
+Centers, Departments and with the financial values of CAPEX, OPEX, Direct Value
+and others.
 
+This information can be used to present the current financial situation of a
+service, as well as the entire history of cost and price variation.
 
-!!! note
+The registration or changes in the financial information are performed within
+the Financial Management process.
 
-    The system performs a hierarchical service-based costing model by the distribution of the cost model created in the financial process "Financial Item" and "Financial Cost Calculation" respecting the cost of each service and making the distribution based on the cost model.
-    The amounts will be linked to the CI automatically based on the business rules.
-        All history of cost and price variation of the service will be presented in this financial tab.
- 
-     
+**Tip**
 
-| Field          | Description                          |
-|----------------|--------------------------------------|
-| Category(\*)   | Select the category                  |
-| Type(\*)       | Select Cost or Revenue               |
-| Classification | Only appears if type equal to “Cost” |
-| Value(\*)      | Put the value of the Service         |
-| Cycle          | Select the cycle                     |
+4biz differentiates between service cost and service price.
 
-(*) Indicate mandatory field
+**Note**
 
-The Following Functions are available
+4biz, using the hierarchical cost model, lists the registered financial items
+and calculates the values corresponding to each service. This allows identifying
+the cost distribution among the different registered services.
 
-| Function                    | Description                                          |
-|-----------------------------|------------------------------------------------------|
-| Add to the Service          | Add Attribute to Service                             |
-| Add/Edit Financial Category | Create/Edit category                                 |
-| Import                      | Import File with Financial Attributes to the service |
+In addition, the values will be automatically linked to the corresponding
+configuration item with the following information:
+
+| Field          | Description                                                      |
+|----------------|------------------------------------------------------------------|
+| Category       | The financial registration category.                             |
+| Type           | Indication of the type of registration, that is, cost or revenue |
+| Classification | The cost classification                                          |
+| Value          | The value of service                                             |
+| Cycle          | The financial cycle                                              |
 
 ### Business Cases
 
-!!! tip " "
+This section contains the strategic information related to the business cases
+prepared for the project and development of the service.
 
-    All Business Case reference. Information about all service strategy should be configurated in this tab.
+*Business Cases Guide*
 
-***Business Case Tab***
+| Campo                      | Descrição                                                                       |
+|----------------------------|---------------------------------------------------------------------------------|
+| Business Case (\*)         | Name of business case                                                           |
+| Executive summary (\*\*)   | Present the executive summary of the business case                              |
+| Stakeholder/Entity         | Indicate stakeholders for the business case                                     |
+| Scenarios (\*\*)           | Describe the business scenarios considered in the development of business cases |
+| Problem/Opportunity (\*\*) | Describe the problem to be solved or the opportunity to be taken advantage of   |
+| Proposed solution (\*\*)   | Specify the proposed solutions                                                  |
+| Financial analysis (\*\*)  | Report on the performed financial analysis                                      |
+| Risk analysis (\*\*)       | Describe the risks considered in the analysis of the case                       |
+| Technical viability (\*\*) | Indicate technical considerations about the case                                |
+| Conclusion (\*\*)          | Specify the conclusion reached by the case analysis                             |
 
-| Field               | Description                                                |
-|---------------------|------------------------------------------------------------|
-| Business Case(\*)   | Business case name                                         |
-| Executive summary   | Write or attach the executive summary of the business case |
-| Stakeholder/Entity  | Define the stakeholders for business case                  |
-| Scenarios           | Define the business scenarios                              |
-| Problem/Opportunity | Define the problem to be resolved                          |
-| Proposed Solution   | Define solutions to the problems                           |
-| Financial analysis  | Write about financial analysis on the business case        |
-| Risk analysis       | Write about the risks envolving the case                   |
-| Technical viability | Write a tech view about the solution                       |
-| Conclusion          | Write a conclusion for the business case                   |
+(\*) Mandatory fields
 
+(\*\*) Fields that accept attaching files
 
-(*) Indicate mandatory field
+*Attached Documents Guide*
 
-***Attached Documents Tab***
+| Component                    | Description                                           |
+|------------------------------|-------------------------------------------------------|
+| Select subject of attachment | Select the subject to which the attachment is related |
+| Table of files               | Lista of attached files                               |
 
-| Components                    | Description                   |
-|-------------------------------|-------------------------------|
-|  Type of Attachment to Select | Select the type of attachment |
-|  Add File Button              | Add                           |
-|  Grid with Attachments        | View / Delete                 |
+The following functions are available:
 
-The Following Functions are available
-
-| Function                    | Description        |
-|-----------------------------|--------------------|
-| Save                        | Save the Attribute |
-| Clear                       | Clear the Fields   |
-
+| Functions | Description                                                      |
+|-----------|------------------------------------------------------------------|
+| Add file  | Enter the indicated file as an attachment to the indicated topic |
+| Save      | Save the attribute                                               |
+| Clear     | Clean the fields                                                 |
 
 ### Configuration Items
 
-!!! tip " "
+This section of attributes presents the relationship map of the configuration
+items that make part of the service.
 
-    Responsible for the linking of all CIs, Services Version, Service Map, components and service real capacity throughout the map. Moreover, through its visualization, it is possible to see all the components, use and cost of the service
-    
-| Components                    | Description                                            |
-|-------------------------------|--------------------------------------------------------|
-|  Support Services             | Select Support Services to Drag to the Drawing area    |
-|  Configuration items          | Select Configuration items to Drag to the Drawing area |
-|  Drawing Area                 |  Map Area                                              |
-
-The Following Functions are available
-
-| Function                    | Description        |
-|-----------------------------|--------------------|
-| Save                        | Save the Attribute |
-| Print                       | Print the Map      |
+Changes in the relationship between configuration items are made within the
+Configuration Management process & ITAM.
 
 ### Business Processes
 
-!!! tip " "
+Services are always linked to business processes, whether to operationalize,
+support or enable their execution. It's important to understand this
+relationship to properly evaluate the risks and impacts of unavailability, as
+well as investment and business opportunities.
 
-    All business process that must be linked with the specific service.
+In this section of attributes, register and link the organization's business
+processes with the services provided.
 
-| Function                     | Description                    |
-|------------------------------|--------------------------------|
-| Linking Business Process     | Search / Link                  |
-| New Business Process         | Create New                     |
-| Search Area                  | Search the Grid                |
-| Grid with Business Processes | View / Unlink                  |
+The following functions are available:
+
+| Function                   | Description                                           |
+|----------------------------|-------------------------------------------------------|
+| Linking business process   | Associates a business process record with the service |
+| New business process       | Records a new business process                        |
+| Search here                | Search between the linked processes                   |
+| List of business processes | It allows to view details and unlink                  |
 
 ### Support Services
 
-!!! tip " "
+Services can be primary, intensifying, or supportive.
 
-    All support services that provide support to the main service, such as 3rd party services.
+Primary services are those that are created and supported to deliver the
+expected results. They are perceived directly by their customers through
+interaction and obtaining value.
 
-| Function                   | Description     |
-|----------------------------|-----------------|
-| Linking Service            | Search / Link   |
-| Search Area                | Search the Grid |
-| Grid with Support Services | View / Unlink   |
+Intensifying services are not essential for delivering value to the customer.
+However, they encourage customers to use the contracted services more and
+differentiate the service provider from its competitors.
+
+Support services that provide support for the primary service. They are not used
+directly by customers and users, however they are critical to delivering value.
+Most common examples are data backup and equipment monitoring.
+
+The following functions are available:
+
+| Function     | Description                         |
+|--------------|-------------------------------------|
+| Link service | Link a support service.             |
+| Search here  | Search between the linked services. |
+|              |                                     |
+|              |                                     |
 
 ### Business Owner
 
-!!! tip " "
+The business owner is the person or group that is responsible for defining the
+business vision and roadmap that should be supported by the service.
 
-    Service Owner, person or group responsible for designing and evaluating the service.
+This information is important to speed up the negotiation of changes, escalation
+of incidents, reporting of service levels and other management actions involving
+business areas.
 
-| Function                         | Description            |
-|----------------------------------|------------------------|
-| Link Business Owner - Employee   | Search / Link Employee |
-| Link Business Owner - Group      | Search / Link Group    |
-| Search Area                      | Search the Grid        |
-| Grid with Linked Business Owners | View / Unlink          |
+The following functions are available:
+
+| Function    | Description                                  |
+|-------------|----------------------------------------------|
+| Link users  | Link someone as business owner               |
+| Link groups | Link a group as business owner               |
+| Search here | Search between linked individuals and groups |
+| Unlink      | Unlink the listed business owner             |
 
 ### Business User
 
-!!! tip " "
+Business users are the people who use the service during their work.
 
-    Main person or users group that uses the service.
+This information is relevant to actions, such as: communicating about the
+service's operation, identifying opportunities for improvement, understanding
+the demand and other management actions that involve the use of the service.
 
-| Function                        | Description         |
-|---------------------------------|---------------------|
-| Link user                       | Search / Link User  |
-| Link user group                 | Search / Link Group |
-| Search Area                     | Search the Grid     |
-| Grid with Linked Business Users | View / Unlink       |
+The following functions are available:
+
+| Function    | Description                                |
+|-------------|--------------------------------------------|
+| Link users  | Link an individual as user                 |
+| Link groups | Link a group as user                       |
+| Search here | Search between the linked users and groups |
+| Unlink      | Unlink the listed user or group            |
 
 ### Requests
 
-!!! tip " "
+In this attributes section, all requests activities that make up the service are
+linked. These activities are the main point of contact of users with the service
+since their orders are formalized through their records.
 
-    All requests provided by the service catalog.
+Availability for registering a request depends on its link to the service and
+the permission set.
 
-| Function                           | Description     |
-|------------------------------------|-----------------|
-| New Service Request                | Create New      |
-| Link Service Request               | Search / Link   |
-| Search Area                        | Search the Grid |
-| Grid with Linked Services Requests | View / Unlink   |
+The following functions are available:
+
+| Function             | Description                                                    |
+|----------------------|----------------------------------------------------------------|
+| New service request  | Register an activity of request                                |
+| Link service request | Allows to search and link a registered activity to the service |
+| Search here          | Search between the linked requests                             |
+| Unlink               | Unlink the listed activity                                     |
 
 ### Applications
 
-!!! tip " "
+Services are supported or operated using applications or information systems. In
+this section, all applications related to the service are associated and
+presented.
 
-    All applications that sustain or runs linked with service.
-    
-| Function                      | Description     |
-|-------------------------------|-----------------|
-| Link Application              | Search / Link   |
-| New Application               |  Create New     |
-| Search Area                   | Search the Grid |
-| Grid with Linked Applications | View / Unlink   | 
+The following functions are available:
 
-### Data schema
+| Function         | Description                                             |
+|------------------|---------------------------------------------------------|
+| Link application | Allows to search and link an application to the service |
+| New application  | Create a record for an application                      |
+| Search here      | Search between the linked applications                  |
+| Unlink           | Unlink the listed application                           |
 
-!!! tip " "
+### Service design package
 
-    All data schema and technical information about the service.
+This section contains all technical documentation of the service, such as
+software requirements, contract templates, service level agreements, operational
+level agreements, service transition plans, data schema, data network topology,
+and others.
 
-| Field       | Description                           |
-|-------------|---------------------------------------|
-| Details(\*) | Detail the Data Schema of the Service |
+It's required to note the technical details of the service and files can be
+attached. Since the content of the service design package can vary widely
+between different organizations, each attached file can receive its own
+description.
 
-***Attached Documents***
+| Field        | Description                                  |
+|--------------|----------------------------------------------|
+| Details (\*) | Notes of the service design package details. |
 
-| Components                    | Description             |
-|-------------------------------|-------------------------|
-|  Attachment Description       | Describe the attachment |
-|  Add File Button              | Add                     |
-|  Grid with Attachments        | View / Delete           |
+(\*) Mandatory field
+
+*Attached Documents*
+
+The following functions are available for attaching documents:
+
+| Functionality          | Description                     |
+|------------------------|---------------------------------|
+| Attachment description | Subject of the attached file.   |
+| Add file               | Select the file to be attached. |
+| List of attached files | Open and delete attached files. |
 
 ### Incidents
 
-!!! tip " "
+In this section of attributes, all incident activities that make part of the
+service are linked. The registration of these activities allows the quick
+targeting of the incident attendance, as well as its evaluation, diagnosis, and
+resolution.
 
-    All incident provided by the service catalog.
-    
-| Function                   | Description     |
-|----------------------------|-----------------|
-| New Incident               | Create New      |
-| Link Incident              | Search / Link   |
-| Search Area                | Search the Grid |
-| Grid with Linked Incidents | View / Unlink   |
+The following functions are available:
 
-### Procedures
+| Function               | Description                                                    |
+|------------------------|----------------------------------------------------------------|
+| New incident activity  | Register an activity of incident.                              |
+| Link incident activity | Allows to search and link a registered activity to the service |
+| Search here            | Search between the linked incidents                            |
+| Unlink                 | Unlink the listed activity                                     |
+|                        |                                                                |
 
-!!! tip " "
+### Continuity procedures
 
-    Procedures used by Continuity process for keep the service running in disaster recovery need.
-    
-| Function                     | Description     |
-|------------------------------|-----------------|
-| New Service Procedure        | Create New      |
-| Link Procedure Service       | Search / Link   |
-| Search Area                  | Search the Grid |
-| Grid with Service Procedures | View / Unlink   |
+Continuity procedures are used to respond to an exceptional situation that
+severely impacts the service, such as a crisis or disaster. In these cases, an
+action plan to continue the service delivery must be triggered and followed for
+a quick response. This plan consists of a set of procedures.
 
+In this section of attributes, all the necessary procedures for the restoration
+of normal service operation are listed.
+
+The following functions are available:
+
+| Function       | Description                                          |
+|----------------|------------------------------------------------------|
+| New procedure  | Register a new procedure                             |
+| Link procedure | Allows to search and link a procedure to the service |
+| Search here    | Search between the linked procedures                 |
+| Unlink         | Unlink the listed procedure                          |
 
 ### Contracts
 
-!!! tip " "
+The relationship between services and contracts is one of 4biz's most important
+configurations. The flexibility to organize this relationship allows you to
+manage multiple contracts and offer different levels of quality for the same
+service, such as Gold, Silver and Bronze.
 
-    Contracts that use/provide the service. Could be customers, departments, external providers, etc.
-    The sales price based on the Gold, Silver and Bronze SLA should also be defined or configured based on the cost of service.
+The following functions are available:
 
-    
-| Function                   | Description     |
-|----------------------------|-----------------|
-| Link Contract              | Search / Link   |
-| New Contract               | Create New      |
-| Search Area                | Search the Grid |
-| Grid with Linked Contracts | View / Unlink   |
+| Function      | Description                                         |
+|---------------|-----------------------------------------------------|
+| New contract  | Register a new contract                             |
+| Link contract | Allows to search and link a contract to the service |
+| Search here   | Search between the linked contracts                 |
+| Unlink        | Unlink the listed contract                          |
 
-### IT Owners
+### Service owner
 
-!!! tip " "
+Service owner presents the service to the organization. Has great knowledge
+about the service and participates in strategic decisions. The owner also acts
+as a point of contact within the escalation process for incidents and requests.
 
-    Owner of IT Service.
-    
-| Function                   | Description         |
-|----------------------------|---------------------|
-| Link user                  | Search / Link User  |
-| Link user group            | Search / Link Group |
-| Search Area                | Search the Grid     |
-| Grid with Linked IT Owners | View / Unlink       |
+In this section of attributes, there are listed the users and groups that are
+indicated as owners of the service.
+
+The following functions are available:
+
+| Function    | Description                                |
+|-------------|--------------------------------------------|
+| Link users  | Link someone as service owner              |
+| Link groups | Link a group as service owner              |
+| Search here | Search between the linked users and groups |
+| Unlink      | Unlink the listed user or group            |
 
 ### Knowledge base
 
-!!! tip " "
+Knowledge is a fundamental tool for the design, development, delivery and use of
+a service. The more people are knowledgeable about the service, the greater the
+chances of getting value from its usage.
 
-    All articles linked with the service to provide information for all analysts and end users.
+This section lists all knowledge records related to the service.
 
-| Function                    | Description     |
-|-----------------------------|-----------------|
-| Link Knowledge              | Search / Link   |
-| Search Area                 | Search the Grid |
-| Grid with Linked Knowledges | View / Unlink   |
+The following functions are available:
+
+| Function       | Description                                                 |
+|----------------|-------------------------------------------------------------|
+| Link knowledge | Allows to search and link a knowledge record to the service |
+| Search here    | Search between the linked knowledge records                 |
+| Unlink         | Unlink the listed knowledge record                          |
 
 ### Skill/Resource
 
+To put knowledge into practice, the people involved in the service need skills
+and resources to perform the actions. Indicate the requirements for using the
+service facilitates the process of hiring people, organizing teams and training
+and qualification.
 
-!!! tip " "
+This section lists the skills and resources needed to use and maintain the
+service.
 
-    Specific skill that the human resources need to provide/sustain the service.
-    
-| Function                      | Description     |
-|-------------------------------|-----------------|
-| Link Capability               | Search / Link   |
-| New Capability                | Create New      |
-| Search Area                   | Search the Grid |
-| Grid with Linked Capabilities | View / Unlink   | 
+The following functions are available:
 
-### Planed Capacity
+| Function        | Description                                           |
+|-----------------|-------------------------------------------------------|
+| Link capability | Allows to search and link a capability to the service |
+| New capability  | Register a new capability                             |
+| Search here     | Search between the linked capabilities                |
+| Unlink          | Unlink the listed capability record                   |
 
-!!! tip " "
+### Planned Capacity
 
-    All information about capacity plan to sustain or design the service.
+When designing a service, the manager must plan how to meet current and future
+capacity needs. This long-term vision for the service will allow to make the
+appropriate investments and in time to ensure the availability of capacity.
 
-| Function                                         | Description   |
-|--------------------------------------------------|---------------|
-| Link capacity/performance indicators             | Search / Link |
-| Grid with Linked capacity/performance indicators | View / Unlink | 
+This section of attributes lists the service's capacity or performance
+indicators.
+
+The following functions are available:
+
+| Function                             | Description                                                                  |
+|--------------------------------------|------------------------------------------------------------------------------|
+| Link capacity/performance indicators | Allows to search and link a capacity or performance indicator to the service |
+| Unlink                               | Unlink the listed capacity or performance indicator                          |
 
 ### Attribute of Demand
 
-!!! tip " "
+The lack of capacity of a service causes unavailability and the excess is a
+waste of investments. For this reason, the demand for a service needs to be
+understood to adequately plan the capacity to attend it.
 
-    Demands that can be provided in service.
-    
-| Function                           | Description   |
-|------------------------------------|---------------|
-| Link demand attributes             | Search / Link |
-| Grid with Linked demand attributes | View / Unlink | 
+In this section, the demand attributes are related to the service.
+
+The following functions are available:
+
+| Function               | Description                                          |
+|------------------------|------------------------------------------------------|
+| Link demand attributes | Allows to search and link a service demand attribute |
+| Unlink                 | Unlink the listed demand attribute                   |
 
 ### Service Evaluations
 
-!!! tip " "
+This section lists all service delivery evaluations. To facilitate the viewing,
+it's possible to filter the records using dates to limit the period of listing.
 
-    Service evaluation records.
+The following functions are available:
 
-| Filter                   | Description                                |
-|--------------------------|--------------------------------------------|
-|  Register Period - Start | Set a Start date to search the evaluations |
-|  Register Period - End   | Set an End date to search the evaluations  |
+| Filter                  | Description                              |
+|-------------------------|------------------------------------------|
+| Register period – Start | The start date to filter the evaluations |
+| Register period – End   | The final date to filter the evaluations |
 
-The Following Functions are available
+The following functions are available:
 
-| Function                    | Description            |
-|-----------------------------|------------------------|
-| Search                      | Search with the period |
-| Clear                       | Clear the Filter       |
+| Function | Description                                         |
+|----------|-----------------------------------------------------|
+| Search   | List the evaluations considering the defined filter |
+| Clear    | Clean the dates defined in the filter               |
 
 ### Service Audit
 
-!!! tip " "
+This section presents the occurrences of actions related to the service. These
+can be changing attributes or details, registering incidents and requests,
+configuring relationship with contracts, and others.
 
-    Service Audit Trail.
-    
-***Recorded events***
+The following functions are available:
 
-| Object                  | Description                 |
-|-------------------------|-----------------------------|
-|  Opening Period - Start | Set a Start date to opening |
-|  Opening Period - End   | Set an End date of opening  |
-|  Category               | Select a Category of event  |
-|  Search Button          | Search with the filters     |
-|  Clear Button           | Clear the Filter            |
-|  Events Grid            | View                        |
+| Field          | Description                                 |
+|----------------|---------------------------------------------|
+| Opening period | Sets the start and end date for the listing |
+| Category       | Filters the listing by the chosen category  |
+| Search         | Searches with defined filters               |
+| Clear          | Clean the filters                           |
+| Expand         | Presents more details                       |
 
-***Register occurrences***
+*Tab of register occurrences*
 
-| Object            | Description                |
-|-------------------|----------------------------|
-|  Category (\*)    | Select a Category of event |
-|  Description (\*) | Describe the event         |
-|  Save Button      | Save                       |
-|  Clear Button     | Clear fields               |
+| Object           | Description                           |
+|------------------|---------------------------------------|
+| Category (\*)    | Defines the category to be registered |
+| Description (\*) | Specifies the registration details    |
+| Save             | Saves the completed data              |
+| Clear            | Clean the completed fields            |
 
-(*) Indicate mandatory field
-
-## Related
-
-[Register a contract](/en-us/4biz-helium/additional-features/contract-management/use/register-contract.html)
-
-[Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)
-
-[Create the portfolio](/en-us/4biz-helium/processes/portfolio-and-catalog/use/create-the-portfolio.html)
-
-[Register group](/en-us/4biz-helium/initial-settings/access-settings/user/register-groups.html)
-
-[Create cycle](/en-us/4biz-helium/platform-administration/time/create-cycle.html)
-
-[Register configuration item](/en-us/4biz-helium/processes/configuration/use/register-CI.html)
-
-[Create calendar](/en-us/4biz-helium/platform-administration/time/create-calendar.html)
-
-[Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RNx1eXRaihDR_bxXjGhgFut)'
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
-
+(\*) Mandatory field

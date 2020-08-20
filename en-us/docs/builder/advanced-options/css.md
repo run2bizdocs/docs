@@ -16,11 +16,6 @@ The visual presentation of forms in Builder can be customized through the use of
 
 1.	To register a new CSS file, click on the "New" button;
 
-
-![Screenshot](images/CSS-Filters.png)  
-
-Figure 1 - CSS Search Screen  
-
 2\.	Fill in the required information for CSS Name, Description, and the Folder to store the CSS Content. Notice that the folder is just used for organization purposes and does not interfere with system operation;
 
 3\.	Click on the "Save" button.

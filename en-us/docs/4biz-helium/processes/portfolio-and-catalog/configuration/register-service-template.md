@@ -23,20 +23,6 @@ Procedure
 
 3.  In the field **Type of Template**, with each option chosen (JSP, Questionnaire or Builder) the fields to fill will be changed:
 
-    ![figura1](images/template-1.jpg)
-
-     Figure 1 - JPS template
-
-
-    ![figura1](images/template-2.jpg)
-
-     Figure 2 - Questionnaire template
-
-
-    ![figura1](images/template-3.jpg)
-
-     Figure 3 - Builder template
-
 4.  Click on "Save"
 
 Related

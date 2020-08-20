@@ -17,10 +17,6 @@ Not applicable
 
 1.	To register a new database, click on the "New” button;
  
- ![Screenshot](images/Data-Search.png) 
- 
- Figure 1 - Database search screen    
- 
 2\.	Fill in the required information for database Type, database Driver path, and the Data type, which are pre-configured in Builder. To learn more about registering data types, please refer to the relevant documentation;
 
 3\.	Click on the "Save" button.

@@ -74,7 +74,7 @@ Além disso, ao clicar em alguma habilidade da legenda, você será direcionado 
 
 Nesta modalidade podemos verificar quais são as intents que o sistema não conseguiu entender, ou seja, quais interações com usuário que foram insatisfatórias pois a assistente não conseguiu entender o objetivo da mensagem.
 
-O fallback, para o sistema, é uma habilidade previamente cadastrada que apresenta uma mensagem como resposta ao usuário, criada por um administrador da plataforma a fim de informar ao usuário que a assistente não tem conhecimentos,cadastrados e treinados, suficientes para atender à solicitação.
+O fallback, para o sistema, é uma habilidade previamente cadastrada que apresenta uma mensagem como resposta ao usuário, criada por um administrador da plataforma a fim de informar ao usuário que a assistente não tem conhecimentos cadastrados e treinados suficientes para atender à solicitação.
 
 Após clicar em “Ranking fallback”, primeiramente, é obrigatório a definição de um período de tempo no campo “Intervalo”. Depois de definir um tempo, clique em “Filtrar”.
 
