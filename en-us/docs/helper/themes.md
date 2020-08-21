@@ -6,15 +6,15 @@ The themes are directly linked to the dialogues, intents and skills. The themes 
 
 ## New Theme
 
-1.  After access the platform, go to the menu "Themes". It'll be possible to edit, delete and create a theme;
+1.  After access the platform, go to the menu "Themes". It's where you can edit, delete and create a theme;
 
-2.  Clique em “Novo” para cadastrar um contexto;
+2.  Click on "New" to register a context;
 
-3.  Preencha os campos conforme necessidade:
+3.  Complete the fields as needed:
 
-|Campo |Descrição|
+|Field |Description|
 |-|-|
-| Nome| Identifique o tema utilizando um nome |
-| Descrição | Descreva o tema criado|
+| Name| Identify the theme by a name |
+| Description | Describe the theme created|
 
-4\.  Clique em “Salvar”.
+4\.  Click on "Save”.
