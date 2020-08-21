@@ -1,22 +1,22 @@
-Title: Usuários
+Title: Users
 
-# Usuários
+# Users
 
-Neste menu podem ser gerenciadas as pessoas que terão acesso à plataforma de administração do Helper.
+In this menu can be managed the people who will have access to the Helper administration platform.
 
-1.  Após acessar a plataforma, acesse o menu Usuários;
+1.  After access the platform, go to the menu "Users";
 
-2.  É possível visualizar os usuários já cadastrados, editá-los ou excluí-los;
+2.  It's possible to see the users already registered, in addition to edit and delete them;
 
-3.  Para adicionar clique o botão Novo no canto superior direito da tela;
+3.  To add a user, click on "New";
 
-4.  Estarão disponíveis os seguintes campos:
+4.  The following fields will be available:
 
-|Campo|Descrição|
+|Field|Description|
 |-|-|
-| Usuário|Identificador desta pessoa na plataforma de administração do assistente virtual.|
-| E-mail| Todas as comunicações da plataforma com esta pessoa serão enviadas a este e-mail.|
-| Nome| Primeiro nome da pessoa que está sendo cadastrada.|
-| Último nome| Último nome da pessoa que está sendo cadastrada, a fim de evitar homônimos (nomes idênticos).|
-| Senha e confirme a senha | Senha inicial ofertada à pessoa. Após o acesso ela poderá realizar a alteração para a senha que preferir. |
-| Ativo| Informação se esta pessoa está ativa ou não na plataforma de administração do assistente.|
+| User|Identifier of this person in the virtual assistant administration platform.|
+| Email| All communications from the platform to this person will be sent to this email.|
+| Name| First name of the person being registered.|
+| Last name| Last name of the person being registered, in order to avoid homonyms (identical names).|
+| Password and password confirmation | Initial password offered to the person. After accessing it, it's possible to change the password. |
+| Active| Information if this person is active or not on the assistant's administration platform.|
