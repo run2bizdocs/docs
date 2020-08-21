@@ -139,15 +139,15 @@ service, as well as the entire history of cost and price variation.
 The registration or changes in the financial information are performed within
 the Financial Management process.
 
-**Tip**
+!!! note "Tip"
 
-4biz differentiates between service cost and service price.
+    4biz differentiates between service cost and service price.
 
-**Note**
+!!! note "Note"
 
-4biz, using the hierarchical cost model, lists the registered financial items
-and calculates the values corresponding to each service. This allows identifying
-the cost distribution among the different registered services.
+    4biz, using the hierarchical cost model, lists the registered financial items
+    and calculates the values corresponding to each service. This allows identifying
+    the cost distribution among the different registered services.
 
 In addition, the values will be automatically linked to the corresponding
 configuration item with the following information:
