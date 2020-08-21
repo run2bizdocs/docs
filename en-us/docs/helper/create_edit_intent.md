@@ -36,7 +36,7 @@ The themes and identifications will depend on the needs of your company, so ever
 
 |Field|Description|
 |-|-|
-| Link context | A opção de vincular contexto é utilizada para cadastrar sinônimos a uma determinada frase. Por exemplo, na saudação “Bom dia”, podemos vincular um contexto de saudações, onde para “Bom dia” teremos os sinônimos “Boa tarde” e “Boa noite”. Ou seja, podemos aprimorar ainda mais os acertos da assistente virtual ao vincularmos mais contextos para uma frase. Ao clicar em vincular contexto, aparecerão as opções “Contexto” e “para o texto”, onde iremos procurar pelo contexto correspondente já cadastrado na ferramenta e depois colocaremos as frases sinônimas da que será utilizada nessa intent.|
+| Link context | The option to link context is used to register synonyms for a given phrase. For example, in the greeting "Good morning", we can link a context of greetings, where for "Good morning" we'll have the synonyms "Good afternoon" and "Good night". That is, we can further improve the successes of the virtual assistant by linking more contexts to a sentence. When clicking on link context, the options “Context” and “for the text” will appear, where we will search for the corresponding context already registered in the tool and then we'll put the synonymous phrases of the one that will be used in that intent.|
 | Remove| To remove the registered phrase.|
 
 6\.  To save the new intent, click on "Save", or if you want to return to the Intents home screen, click on "Back".
