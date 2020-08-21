@@ -140,15 +140,15 @@ de um serviço, bem como todo o histórico de variação do custo e preço.
 O registro ou alterações nas informações financeiras são realizadas dentro do
 processo de Gerência Financeira.
 
-**Tip**
+!!! note "Tip"
 
-O 4biz realiza a diferenciação entre o custo de serviço e o preço de serviço.
+    O 4biz realiza a diferenciação entre o custo de serviço e o preço de serviço.
 
-**Note**
+!!! note "Nota"
 
-O 4biz, através do modelo hierárquico de custo, relaciona os itens financeiros
-registrados e calcula os valores correspondentes a cada serviço. Isto permite
-identificar a distribuição do custo entre os diferentes serviços cadastrados.
+    O 4biz, através do modelo hierárquico de custo, relaciona os itens financeiros
+    registrados e calcula os valores correspondentes a cada serviço. Isto permite
+    identificar a distribuição do custo entre os diferentes serviços cadastrados.
 
 Além disto, os valores serão vinculados automaticamente ao item de configuração
 correspondente apresentando as seguintes informações:
