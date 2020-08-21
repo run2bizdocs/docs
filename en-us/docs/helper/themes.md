@@ -1,12 +1,12 @@
-Title: Temas
+Title: Themes
 
-# Temas
+# Themes
 
-Os temas estão ligados diretamente com os diálogos, intents e habilidades. Os temas servem para identificar qual o assunto o assistente virtual deve tratar, ou seja, quando um diálogo for iniciado ele vai ser identificado pelo tema,assim o Helper vai utilizar suas habilidades cadastradas para poder atender o pedido ou o objetivo do usuário.
+The themes are directly linked to the dialogues, intents and skills. The themes are used to identify which subject the virtual assistant should deal with, that is, when a dialogue is started it'll be identified by the theme, so Helper will use its registered skills to be able to meet the user's request or objective.
 
-## Novo Tema
+## New Theme
 
-1.  Após acessar a plataforma, acesse o menu “Temas”. Nele será possível editar, excluir e criar um tema;
+1.  After access the platform, go to the menu "Themes". It'll be possible to edit, delete and create a theme;
 
 2.  Clique em “Novo” para cadastrar um contexto;
 
