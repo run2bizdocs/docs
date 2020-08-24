@@ -1,4 +1,4 @@
-Title: Introduction to 4biz Tracker
+   Title: Introduction to 4biz Tracker
 Description: Overview about the creation and management of a 4biz workflow.
 
 # Introduction to 4biz Tracker
@@ -109,9 +109,9 @@ Now you can create a workflow, think about a business need and the actors involv
 ## Related
 [Basic concepts](https://docs.run2biz.com/en-us/4biz-helium/tracker/basic-concepts.html)
 
-[1]:images/tracker-menu-citsmart.png
-[2]:images/tracker-management-citsmart.png
-[3]:images/fist-button-citsmart.jpg
-[4]:images/second-button-citsmart.jpg
-[5]:images/flow-data-citsmart.png
-[6]:images/diagram-citsmart.png
+[1]:images/tracker-menu-4biz.png
+[2]:images/tracker-management-4biz.png
+[3]:images/fist-button-4biz.jpg
+[4]:images/second-button-4biz.jpg
+[5]:images/flow-data-4biz.png
+[6]:images/diagram-4biz.png

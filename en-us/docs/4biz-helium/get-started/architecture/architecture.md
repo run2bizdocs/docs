@@ -22,11 +22,11 @@ A basic overview of how the 4biz cloud works can be seen in the diagram below:
 
 ### On-premises
 
-![On-premisses 4biz][2]
+![On-premisses 4biz](images/4biz-on-premises.jpg)
 
 ### INV/EVM
 
-![INV/EVM 4biz][3]
+![INV/EVM 4biz](images/4biz-inv-evm.jpg)
 
 ## 4biz Cloud Security
 
@@ -47,5 +47,4 @@ For each area above, we have technical security processes and measures that ensu
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
     <b>Updated:</b>11/03/2020
 
-[2]:images/4biz-on-premises.jpg
-[3]:images/4biz-inv-evm.jpg
+

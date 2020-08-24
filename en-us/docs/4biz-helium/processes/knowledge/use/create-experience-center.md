@@ -47,16 +47,23 @@ The objective of the Experience Center (EC) is to provide a portal that users ca
 #### Visual Customization
 
 5\.  By using these tools, you can customize the Experience Center view
+
 6\.	Change logo – Allows to change the EC logo. Recommended size:
+
 7\.	Change header – Allows to change the EC header image. Recommended size:
+
 8\.	Reset structure – Allows to set the whole structure as if it were the first access, removing all changes;
+
 9\.	Grid style – Allows to change how to visualize the Experience Center,
 
         •	Fixed Width: Keeps the EC fixed at center of screen;
 
         •	Full Width: Leaves the EC completely distributed in the size of your browser;
+
 10\.	Logo size – Allows to increase the logo size up to 100% of its original size.
+
 11\.	Theme color – Allows to change the color of the drop down menu (using colors in code, e.g.: # 777)
+
 12\.	Menu icon – Allows to change the color of menu sections, links, and icons (using colors in code, e.g.: # 777)
 
 

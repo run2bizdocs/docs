@@ -4,13 +4,45 @@ Title: Builder Elements
 
 A Builder application is built with a combination of the following elements.
 
+![Builder Elements](images/builder-elements.png)
+
 ## Business Object
 
 Business Objects are Builder abstractions to application data entities. Each Business Object represents the data model and is linked to a table or a view in a relational database.
 
+![Builder Elements](images/builder-9.jpg)
+
+![Builder Elements](images/builder-10.jpg)
+
+![Builder Elements](images/builder-11.jpg)
+
+![Builder Elements](images/builder-12.jpg)
+
+![Builder Elements](images/builder-13.jpg)
+
+![Builder Elements](images/builder-14.jpg)
+
 ## Form
 
 A Builder Form is the way how users interact with the application, executing operations for creating, reading, updating, or deleting data in a Business Objects, or providing information for flow executions.
+
+![Builder Elements](images/builder-16.jpg)
+
+![Builder Elements](images/builder-17.jpg)
+
+![Builder Elements](images/builder-18.jpg)
+
+![Builder Elements](images/builder-19.jpg)
+
+![Builder Elements](images/builder-20.jpg)
+
+![Builder Elements](images/builder-21.jpg)
+
+![Builder Elements](images/builder-22.jpg)
+
+![Builder Elements](images/builder-23.jpg)
+
+![Builder Elements](images/builder-24.jpg)
 
 ## Integration Flow
 

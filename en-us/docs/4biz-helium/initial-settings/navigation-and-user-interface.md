@@ -31,6 +31,8 @@ The user interface is the primary way to interact with products, features and in
 
 The taskbar, located at the top, contains navigation items and tools:
 
+![Taskbar](images/navigation-2.png)
+
 1.	navigation menu, containing all 4biz processes and features.
 2.	shortcut to the main screen Home.
 3.	shortcut to the Experience Center.
@@ -41,6 +43,8 @@ The taskbar, located at the top, contains navigation items and tools:
 8.	user profile menu. It is possible to change the user's data and the system language, manage the status in the chat, the support contacts for 4biz and information about the system version.
 
 ### Navigation menu
+
+![Taskbar](images/navigation-3.png)
 
 1.	the feature's search bar;
 2.	settings for workflows;
@@ -59,6 +63,8 @@ The taskbar, located at the top, contains navigation items and tools:
 The Smart Decision panel is displayed on the system's home page. It organizes a set of dashboards with quick access to links, reports and widgets.
 
 Widgets are components that can be included and used in different areas of 4biz. They are usually used to simplify actions or display information.
+
+![Taskbar](images/navigation-4.png)
 
 1.	vertical bar containing registered dashboards. The bar elements can be reordered to suit the user's needs;
 2.	components to edit a dashboard;
