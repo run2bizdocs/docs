@@ -1,109 +1,109 @@
-Title: Configurações
+Title: Settings
 
-# Configurações
+# Settings
 
-## Parâmetros
+## Parameters
 
-## O que é acurácia?
+## What is accuracy?
 
-Podemos entendê-la como o nível de entendimento do que o usuário está dizendo ao assistente, se o texto digitado pelo usuário precisa estar exatamente igual ao construído ou se a partir de certo ponto de compreensão do texto o assistente já pode seguir o fluxo de conversação planejado.
+We can understand it as the level of understanding of what the user is saying to the assistant, if the text typed by the user needs to be exactly the same as the one built or if after a certain point of understanding of the text, the assistant can already follow the conversation flow planned.
 
-O assistente somente dará continuidade no diálogo se acurácia de entendimento dele em relação a frase digitada pelo usuário for maior que o valor cadastrado nesta página. Caso contrário o assistente virtual iniciará o fluxo  cadastrado de fallback.
+The assistant will only continue the dialogue if the accuracy of understanding of the phrase entered by the user is greater than the value registered on this page. Otherwise, the virtual assistant will start the registered fallback flow.
 
-**Exemplo:** Supondo que no diálogo foi construída a saudação “Bom dia!” e a acurácia está marcada para 100%. Se o usuário escrever “bom dia?” o seu assistente não vai compreender o que foi dito e apresentará mensagem de fallback. Somente será dada continuidade no fluxo de conversa se o usuário digitar “Bom dia!”, exatamente como foi construído.
+**Example:** Let's suppose that in the dialogue it was created the greeting “Good morning!” and its accuracy is set to 100%. If the user writes "good morning?" your assistant will not understand what was said and will display a fallback message. The conversation flow will only be continued if the user types “Good morning!”, exactly as it was created.
 
-Quanto melhor seus exemplos de diálogos e cadastros de intenções, melhor será seu assistente. Então é importante definir qual o cenário que o assistente irá atuar antes de definir o nível de acurácia. Veja abaixo o motivo:
+The better your examples of dialogues and records of intentions, the better your assistant will be. So it's important to define what scenario the assistant will act on before defining the level of accuracy. See the reason below:
 
-## Níveis de acurácia:
+## Levels of accuracy:
 
-|Nível de acurácia|Riscos|
+|Level of accuracy|Risks|
 |-|-|
-| Entre 0% e 30%   | Em geral consideramos baixo e, portanto, há pouca certeza de que os diálogos irão corresponder ao planejado. Quando se tratarem de validações de identidade e login o risco é elevado para sua organização. |
-| Entre 30% e 70%  | São considerados médios, apresenta risco moderado. Dependendo do nível de informações que irão validar, podem valer a pena.|
-| Entre 70% e 100% | Representa baixo risco e chances maiores de precisão das informações.|
+| Between 0% and 30%   | In general we consider it low, and therefore, there is little certainty that the dialogues will correspond to what was planned. When it comes to identity and login validations the risk is high for your organization. |
+| Between 30% and 70%  | They are considered medium, presents moderate risk. Depending on the level of information they will validate, it may be worthwhile.|
+| Between 70% and 100% | Represents low risk and greater chances of accuracy of the information.|
 
-## Notificações
+## Notifications
 
-Área para gerenciamento de quais administradores do sistema precisam receber as notificações de atualização do assistente.
+Area for managing which system administrators need to receive notifications about the assistant updateArea for managing which system administrators need to receive notifications about the assistant update.
 
-São enviados três tipos de notificações:
+Three types of notifications are sent:
 
-|Tipo|Descrição|
+|Type|Description|
 |-|-|
-|Agendamento iniciado| E-mail enviado para notificar que o treinamento agendado foi iniciado.|
-|Treinamento concluído | Enviado quando o treinamento foi concluído com sucesso e o assistente está disponível com os novos aprendizados.|
-| Falha no processo| Notifica o administrador da plataforma que a atualização não pôde ser realizada, o motivo e a solução. Exemplo: Treinamento não realizado. Você precisa cadastrar mais três frases na intent, pois o mínimo de frases para atualização acontecer são quatro frases.|
+|Scheduling started| Email sent to notify that the scheduled training has started.|
+|Training completed | Sent when training has completed successfully and the assistant is available with the new learnings.|
+|Failure in the process| Notifies the platform administrator that the update could not be performed, the reason and the solution. Example: Training not performed. You need to register three more phrases in the intent, as the minimum of phrases to update is four phrases.|
 
-**Procedimento**
+**Procedure**
 
-1.  No campo “Digite para adicionar um e-mail” digite o e-mail que receberá as notificações;
+1.  In the “Type to add an email” field, type the email that will receive notifications;
 
-2.  Clique o botão Adicionar;
+2.  Click on Add;
 
-3.  Depois de adicionado, é possível excluir o e-mail.
+3.  Once added, it's possible to delete the email.
 
-## Migrações
+## Migrations
 
-Esta área permite que utilize o case ou cenário construído no IBM Watson no Helper, sem a necessidade de reconstrução dos fluxos de conversação nesta plataforma.
+This area allows you to use the case or scenario built in IBM Watson on Helper, without the need to reconstruct the conversation flows on this platform.
 
-**Procedimento**
+**Procedure**
 
-1.  Clique na opção IBM Watson;
+1.  Click on the IBM Watson option;
 
-2.  Na aba Configurações preencha os campos Chave da API, URL, Usuário, Senha e Versão com estes dados fornecidos na plataforma IBM Watson;
+2.  On the Settings tab, complete the fields API Key, URL, User, Password and Version with this data provided on the IBM Watson platform;
 
-3.  Serão apresentados na aba Importações os Workspaces disponíveis para importação da plataforma IBM Watson;
+3.  The Workspaces available for importing from the IBM Watson platform will be displayed on the Imports tab;
 
-4.  Selecione o Workspace que seja importar;
+4.  Select the Workspace you want to import;
 
-5.  Clique o botão Salvar;
+5.  Click on Save;
 
-6.  A aba Histórico de Importações apresentará o nome do workspace importado, a data de importação e status da importação.
+6.  The Import History tab will show the name of the imported workspace, the date of import and status of the import.
 
-!!! warning  "Atenção"
+!!! warning  "Attention"
 
-    Pode ocorrer do tipo de frase ou opção não ser compatível com o Helper e por este motivo a importação, somente deste item, não ocorrerá. Neste caso será necessária a conferência e criação manual do trecho não importado.
+    It may happen that the type of phrase or option is not compatible with the Helper and for this reason the importation of this item only will not occur. In this case it'll be necessary to check and manually create the non-imported section.
 
-# Importação/Exportação
+## Importat/Export
 
-Nesta área é possível importar diálogos por intent e exportar os diálogos existentes no seu assistente também.
+In this area it's possible to import dialogs by intent and export the existing dialogs in your assistant as well.
 
-Continua sendo necessário agendar um treinamento após a importação dos diálogos para que o Helper aprenda esses diálogos importados também.
+It's still necessary to schedule a training after importing the dialogs so that Helper learns these imported dialogs too.
 
-## Procedimento de exportação
+### Procedure to export
 
-1.  Clique o botão exportar;
+1.  Click on export;
 
-2.  O sistema irá iniciar o processo de download do arquivo, que será entregue em formato .xlsx.
+2.  The system will start the file download process, which will be delivered in .xlsx format.
 
-## Procedimento de importação
+### Procedure to import
 
-1.  Em uma planilha de formato .xlsx, crie três colunas nesta ordem: Intent, User Says, Text Response;
+1.  In an .xlsx spreadsheet, create three columns in this order: Intent, User Says, Text Response;
 
-|Coluna|O que preencher|
+|Column|What to complete|
 |-|-|
-|Intent| Nome da intenção cadastrada no Helper. Exemplo: 1.0 Saudações ao Usuário Logado|
-| User says | O que a pessoa que está sendo atendida pelo assistente pode dizer. Sendo cada hipótese em uma linha diferente. Exemplo: Olá, boa noite|
-| Text Response | O que o assistente deve responder a esta fala. Exemplo: Olá, eu sou o Helper, seu novo assistente virtual. Estou aqui para simplificar o seu processo de atendimento e ajudá-lo em suas necessidades. Basta digitar o que precisa que eu vou te ajudar!|
+|Intent| Name of the intention registered in the Helper. Example: 1.0 Greetings to the Logged User|
+| User says | What the person being assisted by the assistant can say. Each hypothesis being on a different line. Example: Hello, good night|
+| Text Response | What the assistant must respond to this speech. Example: Hello, I'm Helper, your new virtual assistant. I'm here to simplify your service process and help you with your needs. Just write what you need and I'll help you!|
 
-**Exemplo:**
+**Example:**
 
-1.  Salve a planilha;
+1.  Save the spreadsheet;
 
-2.  De volta a página de Importação/Exportação clique o botão Importar;
+2.  Back to the Import/Export page, click on Import;
 
-3.  Clique o botão Escolher arquivo;
+3.  Click on choose file;
 
-4.  Localize a planilha salva;
+4.  Find the spreadsheet saved;
 
-5.  Clique o botão Importar.
+5.  Click on Import.
 
-!!! info "Observação"
+!!! info "Observation"
 
-    -   Somente poderão ser importadas respostas em formato texto. As demais opções (botão, imagem e carrossel) ainda não estão disponíveis nesta funcionalidade;
-    -   Caso queira refinar diálogos existentes, exporte, ajuste, e importe novamente. A importação substitui o conteúdo, então, caso você retire alguma frase existente na planilha que foi exportada, quando for importada o     sistema irá apagar a(s) frase(s) retiradas da planilha.
+    -   Only responses in text format can be imported. The other options (button, image and carousel) are not yet available in this functionality;
+    -   If you want to refine existing dialogs, export, adjust, and import again. The import replaces the content, so if you remove any existing sentence in the spreadsheet that was exported, when it's imported the system will delete the phrase (s) removed from the spreadsheet.
 
 
-!!! success "Dica"
+!!! success "Tip"
 
-    Utilize o procedimento de atendimento (FAQ ou SAC) que sua organização já possui (caso possua) em formato de perguntas e respostas para montar essa planilha. Aproveite o conhecimento que já existe no seu ambiente para aprimorar seu assistente virtual.
+    Use the service procedure (FAQ) that your organization already has (if you have one) in question and answer format to assemble this spreadsheet. Take advantage of the knowledge that already exists in your environment to enhance your virtual assistant.
