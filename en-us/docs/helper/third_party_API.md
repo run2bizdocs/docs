@@ -1,92 +1,92 @@
-Title: API de terceiros
+Title: Third party API
 
-# API de terceiros
+# Third party API
 
-O nosso assistente virtual Helper disponibiliza uma área para integrar API externas ao chatbot. Com isso você poderá utilizar API de terceiros com todos os recursos do Helper. Essa integração é realizada através de requisição REST e necessita de alguns passos para ser configurada.
+Our virtual assistant Helper provides an area to integrate external API with the chatbot. With this you can use third party API with all Helper resources. This integration is performed through a REST request and requires some steps to be configured.
 
-**Procedimento**
+## Procedure
 
-1.  Após acessar a plataforma, acesse o menu “APIs de terceiros”;
+1.  After access the platform, go to the menu "third party API”;
 
-2.  A tela apresentará as APIs já cadastrados anteriormente, caso haja algum, com as opções de Edição e Exclusão;
+2.  The screen will present the API previously registered, if any, with the Edit and Delete options;
 
-3.  Caso queira procurar por uma API específica, utilize o campo de busca e clique o botão “Buscar”;
+3.  If you want to search for a specific API, use the search field and click on "Search";
 
-4. Para registrar uma nova API, clique em “Novo”. Aparecerão os seguintes campos para serem preenchidos:
+4. To register a new API, click on “New”. The following fields will appear to be completed:
 
-| **Campo**   | **Definição** |
+| **Field**   | **Definition** |
 |-|-|
-| Nome| Definir o nome característico da API que está sendo registrada.|
-| Dependência | Se necessário, identificar se essa API que está sendo criado necessita anteriormente da execução de uma outra API.|
-| Método| Selecionar qual método htpp será utilizado pela API: POST, GET, PUT, DELETE ou PATCH.|
-| URL | Definir a URL do novo API. Caso queira incluir na URL um contexto já cadastrado no assistente virtual, colocar o valor entre {}.|
+| Name| Define the characteristic name of the API being registered.|
+| Dependency | If necessary, identify whether that API being created previously requires the execution of another API.|
+| Methode| Select which htpp method will be used by the API: POST, GET, PUT, DELETE or PATCH.|
+| URL | Set the URL for the new API. If you want to include in the URL a context already registered in the virtual assistant, put the value between {}.|
 
-Uma vez preenchidos os campos de identificação, vamos preencher os atributos necessários para dar continuidade as requisições REST: cabeçalho, corpo, respostas e configurações.
+Once the identification fields are completed, we will complete the necessary attributes to continue the REST requests: header, body, responses and settings.
 
-## Cabeçalhos
+## Headers
 
-Essa função permite adicionar valores necessários para o cabeçalho da requisição REST.
+This function allows adding necessary values for the REST request header.
 
-1.  Clique o botão “+” para adicionar o cabeçalho com as informações para:
+1.  Click on “+” to add the header with the information to:
 
-\- Chave;
+\- Key;
 
-\- Valor.
+\- Value.
 
-2\.  Clique em Salvar.
+2\.  Click on Save.
 
-## Corpo
+## Body
 
-No corpo é possível montar o conteúdo que será enviado no corpo da requisição.
+In the body it's possible to assemble the content that will be sent in the body of the request.
 
-1.  Clicar o botão “+” para adicionar o corpo com as informações de:
+1.  Click on “+” to add the body with the information to:
 
-    \- Formato do corpo: JSON;
+    \- Format of body: JSON;
 
-    \- Nome;
+    \- Name;
 
-    \- Tipo: texto, número, booleano, lista, objeto, contexto, histórico do chat, última mensagem do chat, identificação do usuário, valor indefinido e valor vazio;
+    \- Type: text, number, boolean, list, object, context, chat history, last chat message, user ID, undefined value and empty value;
 
-    \- Valor: o valor irá depender do tipo selecionado.
+    \- Value: the value will depend on the type selected.
 
-2\.  Clique em Salvar.
+2\.  Click on Save.
 
-## Respostas
+## Responses
 
-Em respostas vamos configurar o que a gente espera dessa API.
+In responses we'll configure what we expect from this API.
 
-1.  Clicar o botão “+” para adicionar as informações com para:
+1.  Click on “+” to add the information to:
 
-\- Formato da resposta: pode ser em JSON ou Text;
+\- Format of response: it can be in JSON or Text;
 
-\- Nome;
+\- Name;
 
-\- Tipo: texto, número, booleano, lista, objeto ou contexto;
+\- Type: text, number, boolean, list, object or context;
 
-\- Identificação.
+\- Identification.
 
-2\.  Clique em Salvar.
+2\.  Click on Save.
 
-## Configurações
+## Settings
 
-Aqui iremos definir as configurações da requisição que irão influenciar no entendimento do assistente.
+Here we will define the request settings that will influence the assistant's understanding.
 
-1.  Selecione o código desejado para definir os campos:
+1.  Select the desired code to define the fields:
 
-    \- Status htpp de sucess;
+    \- Successful htpp status;
 
-    \- Status htpp de não autorizado;
+    \- Htpp status of unauthorized;
 
-    \- Status htpp de não encontrado.
+    \- Htpp status of not found.
 
-    \* As opções apresentadas para esses campos são pré-definidas pelo sistema.
+    \* The options presented for these fields are pre-defined by the system.
 
-2\.  Depois, definir as mensagens que aparecerão na tela do chatbot para os seguintes casos:
+2\.  Then, define the messages that will appear on the chatbot screen for the following cases:
 
-   \- Mensagem do chatbot para conteúdo não encontrado;
+   \- Chatbot message for content not found;
 
-   \- Mensagem do chatbot para falha na requisição;
+   \- Chatbot message for request failure;
 
-3\.  Definir se a API sendo criada é uma API de autenticação.
+3\.  Define whether the API being created is an authentication API.
 
-4\.  Clique em Salvar.
+4\.  Click on Save.
