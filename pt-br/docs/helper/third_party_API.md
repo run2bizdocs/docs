@@ -73,7 +73,7 @@ Aqui iremos definir as configurações da requisição que irão influenciar no 
 
 1.  Selecione o código desejado para definir os campos:
 
-    \- Status htpp de sucess;
+    \- Status htpp de sucesso;
 
     \- Status htpp de não autorizado;
 
