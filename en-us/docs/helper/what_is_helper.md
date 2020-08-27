@@ -1,28 +1,27 @@
-Title: O que é o Helper
+Title: What is Helper
 
-# O que é o Helper?
+# What is Helper?
 
-É o primeiro recurso disponibilizado pela Run2biz de inteligência artificial. O Helper é um assistente virtual, um chatbot que se comunica e interage com pessoas através de mensagens de texto automatizadas.
+It's the first resource made available by Run2biz of artificial intelligence. Helper is a virtual assistant, a chatbot that communicates and interacts with people through automated text messages.
 
-Helper usa inteligência artificial para realizar diálogos com usuários de forma cada vez mais aperfeiçoada em diferentes plataformas, além de interagir com usuários e capaz de integrar-se com outros sistemas para obter respostas a questionamentos, recuperando dados através de APIs.
+Helper uses artificial intelligence to dialog with users in an increasingly improved way on different platforms, in addition to interacting with users and able to integrate with other systems to obtain answers to questions, recovering data through API.
 
-## Funcionalidades do Helper
+## Helper Functionalities
 
-Ele atende aos 5 conceitos principais das plataformas de construção de assistentes virtuais:
+It meets the 5 main concepts of virtual assistant construction platforms:
 
-**- Build:** Construção de fluxos de conversação (diálogos) do assistente com possíveis interações humanas, para que ela esteja preparada
-para reagir e responder de forma fluida e correta;
+**- Build:** Building the assistant's conversation flows (dialogs) with possible human interactions, so that it's prepared to react and respond fluidly and correctly;
 
-**- Train:** Treinamento do assistente para que ele passe a considerar todos os exemplos de diálogos construídos e suas interações. O Helper utiliza inteligência artificial para compreender o que o usuário quis dizer ou solicitar, então no momento de construção dos diálogos não é necessário escrever exatamente o que um usuário dirá a ele;
+**- Train:** Assistant training to consider all examples of builded dialogs and their interactions. Helper uses artificial intelligence to understand what the user wanted to say or request, so when building dialogs it's not necessary to write exactly what a user will say to it;
 
-**- Code:** Possibilidade de conexão com API externas, que permitem acesso de dados necessários para as respostas;
+**- Code:** Possibility of connection with external API, which allow access of data needed for responses;
 
-**- Connect:** Possibilidade de integração com diversos canais de comunicação (plataformas prontas ou canais customizados). O Helper fornece API facilmente conectável e uma conversão dentro do 4biz para que as escolhas (sejam em botões ou não) cheguem para o Helper como texto dando assim a tratativa correta no fluxo de diálogo. Disponibilizamos hoje integração com o smartchat da plataforma 4biz e com o Facebook, os demais canais mais utilizados, como Twitter e Whatsapp podem ser integrados através do 4biz;
+**- Connect:** Possibility of integration with several communication channels (ready-made platforms or customized channels). Helper provides easily connectable API and a conversion within 4biz so that the choices (whether on buttons or not) reach Helper as text, thus giving the correct treatment in the dialog flow. We offer integration with the smartchat of the 4biz platform and Facebook, the other most used channels, such as Twitter and Whatsapp can be integrated through 4biz;
 
-**- Monitor:** Monitoramento que disponibiliza ao responsável pela administração do Helper os dados para análise de como o assistente tem se comportado, perguntas mais frequentes feitas a ele, respostas mais utilizadas entre outras informações para que as os fluxos existentes possam ser aprimorados ou sejam percebidas as necessidades de construção de novos fluxos e assim, novo treinamento do assistente.
+**- Monitor:** Monitoring that provides the Helper administration manager with data for analysis of how the assistant has been behaving, frequently asked questions, most used answers, among other information so that existing flows can be improved or noted the need to build new flows and new training for the assistant.
 
-## Acessando o Helper
+## Accessing Helper
 
-Após a liberação do ambiente Helper, acessar a instância de configuração através do link disponibilizado, exemplo: http://[nome-servidor].helperassistant.com.
+After releasing the Helper environment, access the configuration instance through the link provided, for example: http://[server-name].helperassistant.com.
 
-Neste ambiente, é possível adicionar e revisar conhecimentos para o Helper, agendar treinamentos, acompanhar as interações realizadas pelo Helper e realizar testes de interação para validar se interações estão sendo efetivas.
+In this environment, it's possible to add and review knowledge for the Helper, schedule training, monitor the interactions performed by Helper and perform interaction tests to validate whether interactions are being effective.
