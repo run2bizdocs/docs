@@ -1,29 +1,25 @@
-Title: Novas versões Helper
-# Release notes Helper
+Title: New Versions of Helper
+# Helper release notes
 
-# Bem-vindo a nova Build 1.0.0.0 do Helper Platform.
+# Welcome to the new Build 1.0.0.0 of Helper Platform.
 
-Esta nova versão conta com as melhorias abaixo listadas que vão oferecer
-uma experiência mais completa para os clientes, além de mais performance e
-flexibilidade para exportar e importar dados, fique a vontade para explorar as
-novas melhorias e claro, sempre que quiser nos envie feedbacks sobre elas.
+This new version has the improvements listed below that will offer a more complete experience for customers, in addition to more performance and flexibility to export and import data. Feel free to explore the new improvements and, of course, whenever you want, send us your feedback.
 
-|Código|Funcionalidade|
+|Code|Functionality|
 |--------------|------------------|
-|6380|Importação de “intents e frases” do workspace do Watson.|
-|6941|Exportação de conversas do bot em planilhas.|
-|6945|Parametrização de percentual de acurácia de intenções e diálogos para o chatBot.|
-|6942|Cadastro de e-mails para envio de notificações de treinamentos e implantações.|
-|5228|Importação e Exportação de diálogos cadastrados do Helper no formato de planilhas.|
-|6944|Permitir o uso de links nas actions. (adicionar http ou https nos links dos sites)|
-|6831|Cadastro e administração de novos usuários.|
-|6943|Atualização para nova versão do ElasticSearch para melhora de algoritmo de IA e performance de busca de dados.|
+|6380|Importing “intents and phrases” from Watson workspace.|
+|6941|Exporting bot conversations in spreadsheets.|
+|6945|Parameterization of accuracy percentage of intentions and dialogs for the chatBot.|
+|6942|Registration of emails to send notifications of training and deployments.|
+|5228|Import and Export of registered Helper dialogues in spreadsheet format.|
+|6944|Allow the use of links in actions (add http or https in website links)|
+|6831|Registration and administration of new users.|
+|6943|Update to new version of ElasticSearch to improve AI algorithm and data search performance.|
 
-Além das melhorias acima esta nova Build leva algumas correções identificadas que
-seguem listadas abaixo.
+In addition to the improvements above, this new Build takes some corrections identified, which are listed below.
 
-|Código|Funcionalidade|
+|Code|Functionality|
 |--------------|------------------|
-|6864|Erro no componente de agendamento causando erro no ato de agendamento de treinamento.|
-|6602|Erro no comportamento dos cadastros de diálogos impedindo que dados incompletos sejam enviados para o treinamento do bot causando muitos fallbacks.|
-|6832|Erro de estouro de memória nos servidores responsáveis pelo treinamento do bot causando falha nos treinamentos do bot.|
+|6864|Scheduling component error causing training scheduling error.|
+|6602|Error in the behavior of the dialog entries preventing incomplete data from being sent to the bot training, causing many fallbacks.|
+|6832|Memory overflow error on servers responsible for bot training causing bot training failure.|
