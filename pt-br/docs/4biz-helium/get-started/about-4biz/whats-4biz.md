@@ -48,7 +48,7 @@ processos automatizados, sendo eles:
 História do 4biz
 --------------------
 
-O 4biz é um produto que teve sua construção inicial para atender as necessidades do ITSM (Gerenciamento de Serviços de TI), principalmente para o cumprimento dos requisitos do ITIL, pregado pela instituição Pink Elephant, através da certificação PinkVerify. Atualmente, o 4biz atende 13 processos dos 16 possíveis. As principais funcionalidades são Gestão de Tickets (incidentes e requisições), Portfólio de Catálogo e Serviços, Base de Conhecimento, Mudança e CMDB. O público atual da 4biz são as empresas com departamentos de TI, bem como as necessidades da solução ITSM para administar suas TIs.
+O 4biz é um produto que teve sua construção inicial para atender as necessidades do ITSM (Gerenciamento de Serviços de TI), principalmente para o cumprimento dos requisitos do ITIL, pregado pela instituição Pink Elephant, através da certificação PinkVerify. Atualmente, o 4biz atende todos os processos da certificação. As principais funcionalidades são Gestão de Tickets (incidentes e requisições), Portfólio de Catálogo e Serviços, Base de Conhecimento, Mudança e CMDB. O público atual da 4biz são as empresas com departamentos de TI, bem como as necessidades da solução ITSM para administar suas TIs.
 
 Evolução
 ------------

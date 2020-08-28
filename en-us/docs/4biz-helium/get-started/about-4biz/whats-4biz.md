@@ -48,12 +48,7 @@ practice library, 4biz natively has 13 automated processes, they are:
 4biz History
 --------------------
 
-4biz is a product that had its initial construction to meet the needs of ITSM (IT Service Management),
-mainly for the fulfillment of the ITIL requirements, preached by the institution Pink Elephant, through
-PinkVerify certification. Nowadays, 4biz meets 13 processes out of the 16 possible. The main
-functionalities are Ticket Management (incidents and requests), Service Portfolio and Catalog, Knowledge
-Base, SLA, Changes and CMDB.
-The current 4biz target audience are companies that have IT departments, as well as the need of
+4biz is a product that had its initial construction to meet the needs of ITSM (IT Service Management), mainly for the fulfillment of the ITIL requirements, preached by the institution Pink Elephant, through PinkVerify certification. Currently, 4biz meets all the certification processes. The main functionalities are Ticket Management (incidents and requests), Service Portfolio and Catalog, Knowledge Base, SLA, Changes and CMDB. The current 4biz target audience are companies that have IT departments, as well as the need of
 ITSM solutions to manage their ITs.
 
 Evolution
