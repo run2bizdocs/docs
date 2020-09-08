@@ -5,6 +5,11 @@ Description: Fornecer a relação dos campos chave disponíveis para o cadastro 
 Este documento tem o objetivo de fornecer a relação dos campos chave disponíveis
 para o cadastro de modelo de e-mail de Solicitação de serviço.
 
+## Antes de começar
+
+O disparo de e-mail ocorre somente após configuração da caixa de e-mail.
+
+
 ## Relação dos Campos Chave
 
 São relacionadas abaixo os campos chave disponíveis para inserção no cadastro de
