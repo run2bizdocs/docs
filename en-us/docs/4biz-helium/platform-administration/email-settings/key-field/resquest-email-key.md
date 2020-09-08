@@ -5,6 +5,10 @@ Description:This document is intended to provide the available fields to referen
 
 This document is intended to provide the available fields to reference information in Service Request Management and insert it into the email templates.
 
+## Before getting started
+
+- [x] E-mail triggering occurs only after setting the email box 
+
 ## List of key fields
 
 The key fields available for insertion in the e-mail template file related to the Service Request are listed below:
@@ -47,6 +51,8 @@ The key fields available for insertion in the e-mail template file related to th
 |${SLATOAGREE}|SLA "To Combine". Informs if the SLA is to match.|
 |${STARTDATETIME}|Start date and time of request record. Informs the date and time when the service/incident request was recorded.|
 |${URGENCY}|Urgency of the Request. Informs the identification of the urgency of the service request.|
+|$(CURRENTRESPONSIBLE)| Use for Delegation emails - Key that returns the name of the user who was delegated on a ticket|
+|${NOTE}| Use in emails triggered when adding, replying or editing an occurrence - Key that returns the description of an occurrence|
 
 Table 1 - List os key fields
 
