@@ -18,7 +18,7 @@ O 4biz disponibiliza, na tela de Gerenciamento de Itens de Configuração, diver
 
 3.  Para filtros específicos de pesquisa, clicar no ícone simbolizado por uma “seta para baixo”, localizado na caixa de pesquisa:
 
-*Filtro por grupo*
+**Filtro por grupo**
 
 Permite visualizar os itens de configuração de um determinado grupo;
 
@@ -26,7 +26,7 @@ Permite visualizar os itens de configuração de um determinado grupo;
 
 2.  Clicar no ícone “Pesquisar”.
 
-*Filtro por tipo*
+**Filtro por tipo**
 
 Permite visualizar o tipo de item de configuração;
 
@@ -34,7 +34,7 @@ Permite visualizar o tipo de item de configuração;
 
 2.  Clicar no ícone “Pesquisar”;
 
-*Filtro por processo*
+**Filtro por processo**
 
 Permite visualizar os itens de configuração relacionados com os processos: Requisição, Incidente, Problema, Mudança e Liberação;
 
