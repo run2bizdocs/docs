@@ -56,8 +56,3 @@ The key fields available for insertion in the e-mail template file related to th
 
 Table 1 - List os key fields
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
