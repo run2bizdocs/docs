@@ -1,67 +1,51 @@
 title: Pesquisar item de configuração
-Description: É permitido realizar consultas de ICs de diversas formas no campo de busca.
+Description: É permitido realizar consultas de IC de diversas formas no campo de busca.
 # Pesquisar item de configuração
 
-Na tela de Gerenciamento de Itens de Configuração, é permitido realizar consultas de ICs de diversas formas no campo de busca.
+O banco de dados de gerenciamento da configuração pode facilmente conter centenas ou mesmo milhares de itens dos mais diferentes tipos. Por esta razão, a capacidade de encontrar a informação é crucial para a adequada execução do processo.  
+O 4biz disponibiliza, na tela de Gerenciamento de Itens de Configuração, diversas formas pesquisar entre os itens de configuração e seus atributos.
+
 
 !!! Abstract "NOTA"  
 
-    A primeira chave na tela ao ser acionada, ativa a pesquisa para trazer
-    resultados com itens de configuração filhos. Caso a chave não esteja
-    acionada serão mostrados apenas os itens de configuração pai.
+    A pesquisa pode ser limitada somente a identificação dos itens de configuração, bem como estendida aos seus componentes e atributos. A opção é configurada pelo uso da chave ao lado da caixa de pesquisa.
 
-Antes de começar
---------------------
+## Procedimento
 
-Para pesquisar itens de configuração são necessários o cadastro prévio de um
-item de configuração e o tipo de item de configuração.
+1.  Acessar a funcionalidade através do Menu de Navegação > Processos > Gerência de Configuração & ITAM > CMDB;
 
-Procedimento
-----------------
+2.  Clicar no campo de pesquisa e digitar o texto a ser procurado.
 
-1.  Acessar a funcionalidade através da navegação no menu principal Processos \>
-    Gerência de Configuração \> CMDB ;
+3.  Para filtros específicos de pesquisa, clicar no ícone simbolizado por uma “seta para baixo”, localizado na caixa de pesquisa:
 
-2.  Clicar no campo de pesquisa e a busca poderá ser por nome específico do item
-    de configuração ou do tipo de item de configuração;
+*Filtro por grupo*
 
-3.  Para filtros específicos, clicar no ícone simbolizado por uma “seta para
-    baixo”:
+Permite visualizar os itens de configuração de um determinado grupo;
 
-*Por Grupo*
+1.  Clicar no botão "Grupo" e escolher um grupo de itens de configuração. Somente itens de configuração do grupo selecionado serão listados;
 
-1.  Permite visualizar os itens de configuração de um determinado grupo;
+2.  Clicar no ícone “Pesquisar”.
 
-2.  Clicar no botão "Grupo" e escolher o grupo a ser pesquisado;
+*Filtro por tipo*
 
-3.  Clicar no ícone “Pesquisar”;
+Permite visualizar o tipo de item de configuração;
 
-4.  Para retornar a tela inicial clicar no ícone do símbolo “seta para
-    esquerda”.
+1.  Clicar no botão "Tipo" e escolher o tipo de item de configuração. Somente itens de configuração do tipo escolhido serão listados;
 
-*Por tipo*
+2.  Clicar no ícone “Pesquisar”;
 
-1.  Permite visualizar o tipo de item de configuração;
+*Filtro por processo*
 
-2.  Clicar no botão "Tipo" e escolher o tipo de item de configuração a ser
-    pesquisado;
+Permite visualizar os itens de configuração relacionados com os processos: Requisição, Incidente, Problema, Mudança e Liberação;
 
-3.  Clicar no ícone “Pesquisar”;
+1.  Clicar no botão "Processo" e escolher o processo desejado. Somente itens de configuração associados com itens do processo escolhido serão listados;
 
-4.  Para retornar a tela inicial clicar no ícone do símbolo “seta para
-    esquerda”.
+2.  Clicar no ícone “Pesquisar”;
 
-*Por alerta*
+!!! tip "TIP"
 
-1.  Permite visualizar os itens de configuração relacionados com os processos:
-    Requisição, Incidente, Problema, Mudança e Liberação;
+    Para retornar a tela inicial clicar no ícone do símbolo “seta para esquerda”.
 
-2.  Clicar no botão "Alerta" e escolher o tipo de processo a ser pesquisado;
-
-3.  Clicar no ícone “Pesquisar”;
-
-4.  Para retornar a tela inicial clicar no ícone do símbolo “seta para
-    esquerda”.
 
 Relacionado
 ----------------
@@ -71,7 +55,3 @@ Relacionado
 [Cadastrar tipo de item de configuração](/pt-br/4biz-helium/processes/configuration/configuration/register-type-ic.html)
 
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
