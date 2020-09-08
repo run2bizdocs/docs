@@ -7,7 +7,7 @@ para o cadastro de modelo de e-mail de Solicitação de serviço.
 
 ## Antes de começar
 
-O disparo de e-mail ocorre somente após configuração da caixa de e-mail.
+- [x] O disparo de e-mail ocorre somente após configuração da caixa de e-mail.
 
 
 ## Relação dos Campos Chave
