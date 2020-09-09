@@ -118,8 +118,7 @@ Para incluir os serviços a serem utilizados no Centro de Experiência:
 
 !!! note "NOTA"
 
-    1.	Se o parâmetro 293 - Habilita permissão de acesso para grupos de usuário no portal - Valores: "S" ou "N" Default: "N", estiver setado em Sim, o Serviço adicionado ao Centro de Experiência deverá possuir permissão de acesso para o público informado no Centro de Experiência.
-    2.	Se o parâmetro 293 - Habilita permissão de acesso para grupos de usuário no portal - Valores: "S" ou "N" Default: "N", estiver setado em Sim, o sistema retorna somente Serviços que o usuário logado possui acesso.
+    1.	Se o parâmetro 293 - Habilita permissão de acesso para grupos de usuário no portal - Valores: "S" ou "N" Default: "N", estiver definido como Sim, o Serviço adicionado ao Centro de Experiência deverá possuir permissão de acesso para o público informado no Centro de Experiência. Além disso, o sistema retornará somente Serviços que o usuário logado possuir acesso.
 
 
 **Tipo: Link**
