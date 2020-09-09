@@ -101,6 +101,7 @@ Na Área de desenho você pode construir o conteúdo que será publicado no Cent
 - Após selecionar o layout desejado, é possível escolher funções do 4biz em forma de Widgets (Ver tabela de Widgets);
 
 !!! note "NOTA"
+    
     - Deseja definir está página como inicial ao abrir o centro de experiência pela primeira vez? - tem a função de transformar esse menu na página principal do seu Centro de Experiência.
     - Herdar os grupos do Centro de Experiência - permite selecionar quais os grupos que terão permissão a esse menu, os grupos que estão disponíveis para gerenciamento são os grupos que tiveram permissão na guia “Permissões”;
 
