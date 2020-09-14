@@ -5,6 +5,11 @@ Description: Fornecer a relação dos campos chave disponíveis para o cadastro 
 Este documento tem o objetivo de fornecer a relação dos campos chave disponíveis
 para o cadastro de modelo de e-mail de Solicitação de serviço.
 
+## Antes de começar
+
+- [x] O disparo de e-mail ocorre somente após configuração da caixa de e-mail.
+
+
 ## Relação dos Campos Chave
 
 São relacionadas abaixo os campos chave disponíveis para inserção no cadastro de
@@ -48,6 +53,9 @@ modelo de e-mail relacionado à Solicitação de serviço:
 |   ${SOLICITANTEUNIDADE}   |               Nome do Solicitante e Unidade.Informa o nome do solicitante e a unidade em que o mesmo é alocado.               |
 |     ${TELEFONECONTATO}    |                 Telefone do Solicitante para Contato.Informa o número de telefone do solicitante para contato.                |
 |        ${URGENCIA}        |                     Urgência da Solicitação.Informa a identificação da urgência da solicitação de serviço.                    |
+|$ (RESPONSAVELATUAL)| Utilizar para e-mails de Delegação - Chave que retorna o nome do usuário que foi delegado em um ticket.|
+|${NOTA}| Utilizar em e-mails disparados na inclusão, resposta ou edição de uma ocorrência – Chave que retorna a descrição de uma ocorrência|
+
 
 Tabela 1 - Lista de campos chave
 
