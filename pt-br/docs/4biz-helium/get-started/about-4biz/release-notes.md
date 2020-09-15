@@ -67,12 +67,12 @@ Bem-vindos ao Builder 1.3.5.0
 A versão apresentada possui a(s) seguinte(s) correção(ões):
 
 |Número|Tipo|Descrição|
-|--------|---------|---------|---------|
+|--------|---------|---------|
 |7814|Corretiva|Refactory da integração com ITSM para permitir a flexibilidade da URL externa do Builder|
 |8416|Corretiva|Correção do erro ao utilizar fluxo ESI como componente no workflow|
 
 |Número|Tipo|Descrição|
-|--------|---------|---------|---------|
+|--------|---------|---------|
 |7751|Melhoria|Ajustar nomes de propriedades componentes em Português para Inglês|
 |7774|Melhoria|Erro de tradução no BUILDER --> ESI|
 
