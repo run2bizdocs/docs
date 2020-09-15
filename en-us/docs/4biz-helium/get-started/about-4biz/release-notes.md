@@ -63,8 +63,7 @@ Welcome to 4biz Helium Version 1.1.1. This version presents the following items:
 |8835|Improvement|Webservice|Create webservice that lists the ticket contact source|
 |8426|Improvement||Place the name of the customer who has licensed the environment at the end of the page|
 
-Welcome to Builder 1.3.5.0
-The version presented has the following correction(s):
+Welcome to Builder 1.3.5.0. The version presented has the following correction(s):
 
 |Number|Type|Description|
 |--------|---------|---------|
