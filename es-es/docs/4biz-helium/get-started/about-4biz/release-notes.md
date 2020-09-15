@@ -4,7 +4,7 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 # Notas de Release
 
 ## Versión Helium 1.1.1 (2020/09/14)
-Bienvenido a 4biz Helium Versión 1.1.1 Esta versión incluye los siguientes elementos:
+Bienvenido a 4biz Helium Versión 1.1.1. Esta versión incluye los siguientes elementos:
 
 |Número|Tipo|Funcionalidad|Descripción|
 |--------|---------|---------|---------|
