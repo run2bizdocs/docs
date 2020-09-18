@@ -63,6 +63,8 @@ Bem-vindos ao 4biz Helium Versão 1.1.1 Esta versão apresenta os seguintes iten
 |8835|Melhoria|Webservice|Criar webservice que lista a Origem de contato do ticket|
 |8426|Melhoria||Colocar no final da página o nome do cliente que foi licenciado o ambiente|
 
+Antes de baixar esta versão, verifique as orientações presentes no documento [1][Guia de orientações 4biz Helium versão 1.1.1]
+
 Bem-vindos ao Builder 1.3.5.0
 A versão apresentada possui a(s) seguinte(s) correção(ões):
 
@@ -85,3 +87,6 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 |8968|Corretiva|Centro de Experiência|Correção no retorno da lista de Portfólios quando o parâmetro 293 que filtra o portfólio por grupos de acesso está habilitado|
 |4818|Corretiva|Tempo de Atendimento|Correção na marcação de uma atividade para vincular ao SLA cadastrado|
 
+
+
+[1]:/pt-br/docs/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium111.zip
