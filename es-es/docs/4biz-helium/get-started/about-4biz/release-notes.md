@@ -35,7 +35,7 @@ Bienvenido a 4biz Helium Versión 1.1.1. Esta versión incluye los siguientes el
 
 !!! note "NOTA"
 
-    Para mais informações, veja o documento de [Notas de release](/about-4biz/Notas de Release Versao 9 ou Helium R-1.1.1.docx)
+    Para mais informações, veja o documento de ![Notas de release](about-4biz/Notas de Release Versao 9 ou Helium R-1.1.1.docx)
 
 |Número|Tipo|Funcionalidad|Descripción|
 |--------|---------|---------|---------|
