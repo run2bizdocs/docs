@@ -63,7 +63,7 @@ Bem-vindos ao 4biz Helium Versão 1.1.1 Esta versão apresenta os seguintes iten
 |8835|Melhoria|Webservice|Criar webservice que lista a Origem de contato do ticket|
 |8426|Melhoria||Colocar no final da página o nome do cliente que foi licenciado o ambiente|
 
-Antes de baixar esta versão, verifique as orientações presentes no documento [1][Guia de orientações 4biz Helium versão 1.1.1]
+Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.1.1][1]
 
 Bem-vindos ao Builder 1.3.5.0
 A versão apresentada possui a(s) seguinte(s) correção(ões):
