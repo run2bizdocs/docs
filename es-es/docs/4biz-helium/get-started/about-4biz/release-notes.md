@@ -33,6 +33,10 @@ Bienvenido a 4biz Helium Versión 1.1.1. Esta versión incluye los siguientes el
 |4861|Corrección|G. Ticket|Duplicación de ticket reclasificado|
 |4668|Corrección|G. Ticket|Duplicación de la tarea de flujo en la delegación|
 
+!!! note "NOTA"
+
+    Para mais informações, veja o documento de [Notas de release](/about-4biz/Notas de Release Versao 9 ou Helium R-1.1.1.docx)
+
 |Número|Tipo|Funcionalidad|Descripción|
 |--------|---------|---------|---------|
 |9201|Mejora|G. Ticket|Inclusión de flag en el elemento de trabajo de flujo para aumentar el rendimiento de la aplicación|
