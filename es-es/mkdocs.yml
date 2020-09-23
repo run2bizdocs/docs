@@ -656,8 +656,8 @@ nav:
     - builder/advanced-options/type-of-data.md
   - Add-Ons:
     - builder/addons/addons-list.md
-  - Diccionario de datos:
-    - builder/database-dictionary.md
+#  - Diccionario de datos:
+#    - builder/database-dictionary.md
   - Builder FAQ:
     - builder/builder-faq.md
 - Helper:

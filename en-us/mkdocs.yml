@@ -667,8 +667,8 @@ nav:
     - builder/advanced-options/variables.md
   - Add-Ons:
     - builder/addons/addons-list.md
-  - Database Dictionary:
-    - builder/database-dictionary.md
+#  - Database Dictionary:
+#    - builder/database-dictionary.md
   - Builder FAQ:
     - builder/builder-faq.md
 - Helper:
