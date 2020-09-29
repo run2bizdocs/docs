@@ -3,7 +3,7 @@ Decription: Visão técnica dos metadados dos relatórios 4biz
 
 # Visão Técnica dos Metadados dos Relatórios 4biz
 
-Todas as views técnicas com os metadados para os relatórios da plataforma 4bizmart se encontram no documento a seguir. Por favor, faça o download dessa [planilha][1] para as infromações necessárias.
+Todas as views técnicas com os metadados para os relatórios da plataforma 4biz se encontram no documento a seguir. Por favor, faça o download dessa [planilha][1] para as infromações necessárias.
 
 !!! warning "ATENÇÃO"
 
