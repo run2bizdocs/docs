@@ -528,6 +528,8 @@ nav:
   - Recursos adicionales:
     - Introducción:
       - 4biz-helium/additional-features/introduction.md
+    - Views:
+      - 4biz-helium/additional-features/metadata-technical-view-report.md        
     - Add-ons:
       - 4biz-helium/additional-features/add-ons/event-monitor.md
       - 4biz-helium/additional-features/add-ons/inventory.md
