@@ -609,6 +609,7 @@ nav:
           - 4biz-helium/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.md
           - 4biz-helium/additional-features/reports/create/smart-reports/configuration/configure-report-view-attendance-data.md
           - 4biz-helium/additional-features/reports/create/smart-reports/configuration/create-smart-report.md
+          - 4biz-helium/additional-features/reports/create/smart-reports/configuration/smart-report.md
       - General:
         - 4biz-helium/additional-features/reports/use/cost-of-unavailability.md
         - 4biz-helium/additional-features/reports/use/generate-reports-personnel-management.md
