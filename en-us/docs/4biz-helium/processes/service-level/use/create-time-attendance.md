@@ -107,6 +107,24 @@ This feature provides a variety of actions, such as including, changing, and del
 
 (\*) Indicate mandatory field
 
+!!! note "NOTE"
+    
+    1.	To calculate the SLA, the system performs the following verifications:
+    
+        a.	If the servicexcontract is in more than one type of SLA, note that:
+
+            i.	The Specific SLA type takes priority over the types: Customer and Global
+
+            ii.	The SLA Client type takes priority over the type: Global
+
+        b.	The system still considers for the SLA assignment:
+
+            i.	Impact and urgency – This attribute being identified for more than one type of servicexcontract for the same Type of SLA, always takes into account the priority with the least impact, that is, note 5;
+
+        c.	The system considers for the SLA assignment:
+
+            i.	Users, groups or Special Units, known as VIP, in these cases, it's normal for the manager to register Global SLA with low priority and include users, units and groups that can receive SLA with higher priority.
+
 !!! faq "Do You Know"
 
     Target is a place where the user will identify their main targets for using the SLA  
