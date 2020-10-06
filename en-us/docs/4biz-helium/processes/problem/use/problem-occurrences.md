@@ -16,7 +16,8 @@ This functionality allows to register any occurrences related to the problem.
 
 !!! note "NOTE"
     
-    It's possible to register a new category and origin that fit the best to the occurrence, by clicking on the “+” icon and completing the necessary fields.
+    It's possible to register a new category and origin that fit the best to the occurrence, by clicking on the “+” icon and completing the necessary fields.  
+    All actions taken from creation to closure are recorded in the history, serving as Audit
 
 5\.	Click on "Save".
 
