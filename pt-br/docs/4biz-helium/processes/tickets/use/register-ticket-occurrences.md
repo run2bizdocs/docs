@@ -36,7 +36,7 @@ parâmetros 251, 252, 253 e 298.Para o envio do comentário via e-mail é necess
 <!-- <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROn4Xs6UdH84Ujzta2iJ6Ei)
 -->
 
-[1]:/pt-br/4biz-helium/additional-features/communication-and-notification/notification/configuration/enable-messaging-within-4biz .html
+[1]:/pt-br/4biz-helium/additional-features/communication-and-notification/notification/configuration/enable-messaging-within-4biz.html
 
 !!! tip "About"
 
