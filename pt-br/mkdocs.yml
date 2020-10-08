@@ -111,6 +111,7 @@ nav:
     - Arquitetura:
       - 4biz-helium/get-started/architecture/architecture.md
       #- 4biz-helium/get-started/architecture/on-premise.md
+      - 4biz-helium/get-started/architecture/operational-limits.md
     - Instalação e atualização:
       - 4biz-helium/get-started/installation-and-upgrade/overview.md
       - 4biz-helium/get-started/installation-and-upgrade/system-requirements.md
