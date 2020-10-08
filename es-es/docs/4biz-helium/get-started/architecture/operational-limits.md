@@ -1,24 +1,24 @@
-Title: Limites Operacionais
-Description: Limites operacionais da plataforma 4biz.
+Title: Límites Operacionales
+Description: Límites operacionales de la plataforma 4biz.
 
-# Limites Operacionais
+# Límites Operacionales
 
-Atualmente o 4biz opera adequadamente dentro dos seguintes limites de uso, considerando as configurações de hardware recomendadas descritas no documento de [Requisitos de Sistema](https://docs.run2biz.com/pt-br/4biz-helium/get-started/installation-and-upgrade/system-requirements.html#aplicacao-e-banco-de-dados-no-mesmo-servidor).
+Actualmente, 4biz funciona correctamente dentro de los siguientes límites de uso, considerando las configuraciones de hardware recomendadas descritas en el documento de [Requerimientos del Sistema](https://docs.run2biz.com/es-es/4biz-helium/get-started/installation-and-upgrade/system-requirements.html#aplicacao-e-banco-de-dados-no-mesmo-servidor).
 
-## Recomendações e limites para instalação on-premisses:
+## Recomendaciones y límites para la instalación on-premises:
 
 ### Tickets:
 
-- [x] Abertura de até 200 tickets (incidentes ou requisições) por minuto (por nó de cluster*).
+- [x] Apertura de hasta 200 tickets (incidentes o solicitudes) por minuto (por nodo de clúster*).
 
 !!! note "NOTA"
 
-    Recomendamos a instalação ou ampliação de ambiente clusterizado caso a sua operação ultrapasse os limites indicados acima.
+    Recomendamos instalar o expandir un entorno agrupado si su operación excede los límites indicados anteriormente.
 
-### Usuários:
+### Usuarios:
 
-- [x] Até 100 usuários operando simultaneamente (por nó de cluster*). 
+- [x] Hasta 100 usuarios operando simultáneamente (por nodo de clúster*). 
 
 !!! note "NOTA"
 
-    Recomendamos a instalação ou ampliação de ambiente clusterizado caso a sua operação ultrapasse os limites indicados acima.
+    Recomendamos instalar o expandir un entorno agrupado si su operación excede los límites indicados anteriormente.
