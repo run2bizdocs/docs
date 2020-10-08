@@ -1,7 +1,7 @@
 Title: Limites Operacionais
 Description: Limites operacionais da plataforma 4biz.
 
-#Limites Operacionais
+# Limites Operacionais
 
 Atualmente o 4biz opera adequadamente dentro dos seguintes limites de uso, considerando as configurações de hardware recomendadas descritas no documento de [Requisitos de Sistema](https://docs.run2biz.com/pt-br/4biz-helium/get-started/installation-and-upgrade/system-requirements.html#aplicacao-e-banco-de-dados-no-mesmo-servidor).
 
