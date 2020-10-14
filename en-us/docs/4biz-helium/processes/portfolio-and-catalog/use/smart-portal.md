@@ -10,7 +10,7 @@ The Smart Portal is a feature of the solution that makes the Service Catalog (Bu
 - Accessing the knowledge about the tickets to clarify potential doubts.
 
 
-Figure 1 - Smart Portal
+![Smart Portal][1]
 
 - 1: Menu Button - clicking this button allows you to hide/display the Smart Portal menu
 - 2: Knowledge Portal - shortcut to access the Knowledge Portal, allows the user to perform the search of information generated within the organization
@@ -66,3 +66,4 @@ It's necessary to have a contract previously registered, the definition of the t
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
     <b>Updated:</b>11/03/2020
    
+[1]:images/smartportal.png
