@@ -1,26 +1,32 @@
-title:  Add comments in the ticket execution
+title:  Register ticket occurrences
 Description: It allows to register possible occurrences about the execution of a ticket.
 
-# Add comments in the ticket execution
+# Register ticket occurrences
 
-This functionality allows to register comments within any step of the execution of a ticket.
+The functionality allows to record in comments all the steps of the ticket execution (its occurrences).In this new version of the ticket functionality, a "Text editor" will be made available for the insertion of the relevant comments to the occurrences.
+
+!!! warning "ATTENTION"
+
+    Comments on occurrences may be changed, deleted or searched (for their content), in the area entitled "Comments".
+    
+!!! note "NOTE"
+    
+    The history of all ticket comments can be viewed by clicking on the "History" tab in 
+    the upper right side of the screen. All actions taken from creation to closure are recorded in the history, serving as Audit.
+
 
 ## Before getting started
 
-It is a prerequisite to take the ticket in addition to have the permissions to perform the operation, it is advised to make sure parameters 251, 252, 253 and 298 are enabled. To send comments via email, it is necessary to [Configure the messaging service][1].
+To execute the ticket in addition to the permission to perform the operation and the previous registration, it is necessary to first enable the parameter 251, 252, 253 e 298.
+To send comments via email, it is necessary to [Configure the messaging service][1].
 
-**Procedure**
+## Procedure
 
-1.	Access the functionality through the main menu Processes > Ticket Management > Ticket;
-
-2.	Find the ticket you want, click on it and then on the "Open" option;
-
-3.	In the "Comments" area, fill in the necessary fields (write the pertinent comment, register date and time spent in the execution of the ticket) and click on the "Add" button. It is possible to allow this information to be viewed by the requester when selecting the "Public" field, in addition to being able to send the comment by email.
-
-
-!!! note "NOTE"
-    
-    The history of all ticket comments can be viewed by clicking on the "History" tab in the upper right side of the screen.
+1. Access the funcionality through the main menu Processes > Ticket Management > Ticket;
+2. Find the ticket you want, click on it and then on the "Open" icon;
+3. In the "Comments" area, complete the necessary fields (write the pertinent comment, register date and time spent in the execution of
+the ticket) and click on the "Add" icon. It is possible to allow this information to be viewed by the requester when selecting the
+"Public" field, in addition to being able to send the comment by email.
 
 ## Related
 

@@ -66,7 +66,8 @@ La interfaz de registro/gestión de la base de conocimiento tiene las siguientes
 
     
 !!! note "NOTA"
-    Tenga en cuenta que las pestañas "Comentarios", "Historial", "Ítem de configuración" y "Versiones" solo aparecen después de registrar la información, ya que están relacionadas con el proceso de gestión del conocimiento.
+    
+    Tenga en cuenta que las pestañas "Comentarios", "Historial", "Ítem de configuración" y "Versiones" solo aparecen después de registrar la información, ya que están relacionadas con el proceso de gestión del conocimiento. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría.
   
 
 ### Datos de Registro

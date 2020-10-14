@@ -104,6 +104,7 @@ nav:
         - 4biz-helium/get-started/about-4biz/release-notes/version-8.0.0.0.md
     - Arquitectura:
       - 4biz-helium/get-started/architecture/architecture.md
+      - 4biz-helium/get-started/architecture/operational-limits.md
     - Instalación y atualización:
       - 4biz-helium/get-started/installation-and-upgrade/overview.md
       - 4biz-helium/get-started/installation-and-upgrade/system-requirements.md
@@ -613,6 +614,7 @@ nav:
         - 4biz-helium/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.md
         - 4biz-helium/additional-features/reports/create/smart-reports/configuration/configure-report-view-attendance-data.md
         - 4biz-helium/additional-features/reports/create/smart-reports/configuration/create-smart-report.md
+        - 4biz-helium/additional-features/reports/create/smart-reports/configuration/smart-report.md
 #          - Uso:
 #            - 4biz-helium/additional-features/reports/create/smart-reports/use/use.md
         - Uso:
