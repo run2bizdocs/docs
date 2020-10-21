@@ -23,7 +23,9 @@ It is possible to perform different actions, such as adding, changing and deleti
 
 4\. Also, indicate whether the user profile will allow access to the system, through login and password;
 
-5\. Click on "Save".
+5\. If you use the functionalities of Work Order or Invoice, make the appointments to authorize access to the user profile to certain situations of Work Order or Invoice;
+
+6\. Click on "Save".
 
 
 
