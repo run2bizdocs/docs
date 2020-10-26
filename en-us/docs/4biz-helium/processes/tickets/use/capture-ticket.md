@@ -99,8 +99,30 @@ The user can write a comment and perform the following actions
 |Public|By marking this the requester will be able to read the Comment. If this is left unmarked, the comment will only be visible by the team attending it|
 |Send email|Mark to send the Comment in an e-mail|
 
+It is possible to view and interact with all comments made within the ticket (Edit - Delete - Reply the comment).
 
-It is possible to view and interact with all comments made within the ticket (Edit - Delete - Reply the comment)
+
+Another option for commenting and viewing comments is through the Quick Search on the Service Desk Interface. 
+
+1. To access this functionality go to the menu Processes > Ticket Management > Ticket;
+
+2. Click on "Search here" and enable the option **"Tickets with comment permission"**;
+
+3. The system will then turn the field "Number" as mandatory to perform the search, where you will enter the ticket number you wish to comment on. After entering the number, click on "Search";
+
+4. The system will return in the list the ticket you entered previously. Click once on it to present the options available for that ticket. One of the options presented for this ticket will be **"View and Comment"**;
+
+5. When clicking on "View and Comment", the system will open the ticket in preview mode. Without the possibility of viewing any attachments on the ticket, you can create and view only the comments on that ticket;
+
+6. After adding the comment, close the ticket preview page.
+
+!!! note "NOTE"
+
+    For this functionality to work, enable the following parameter and permission:
+    
+    - Enable the parameter: 298 - Display the occurrences of the Ticket (Values: "Y" or "N" Default: "N").
+    
+    - Enable Comment permission on the Group screen.
 
 ### Assignment and Action
 
