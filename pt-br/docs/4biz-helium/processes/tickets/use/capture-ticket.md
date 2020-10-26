@@ -105,7 +105,7 @@ Outra opção para comentar e visualizar os comentários é através da Pesquisa
 
 3. O sistema então habilitará como obrigatório para realizar a pesquisa o campo "Número", onde você informará o número do ticket que deseja comentar. Após informar o número, clique em "Pesquisar";
 
-4. O siterma retornará na lista o ticket que você informou anteriormente. Clique uma vez sobre ele para mostrar as opções disponíveis para esse ticket. Uma das opções apresentadas para esse ticket será de **"Visualizar e Comentar"**;
+4. O sistema retornará na lista o ticket que você informou anteriormente. Clique uma vez sobre ele para mostrar as opções disponíveis para esse ticket. Uma das opções apresentadas para esse ticket será de **"Visualizar e Comentar"**;
 
 5. Ao clicar em "Visualizar e Comentar", o sistema irá abrir o ticket em modo de visualização. Sem a possibilidade de visualização de eventuais anexos do ticket, você poderá inserir e visualizar apenas os comentários desse ticket;
 
