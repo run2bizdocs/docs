@@ -1,138 +1,175 @@
-title:  Capturar ticket 
-Description: Capturar el ticket significa asumir la responsabilidad de producir una solución satisfactoria para el llamado.
-# Capturar ticket
+Title: Captura de incidentes o solicitud de servicio
+Description: Capturar el incidente o la solicitud de servicio significa asumir la responsabilidad de producir una solución satisfactoria al ticket.
 
-Capturar el ticket significa asumir la responsabilidad por su atención o contribuir con su solución.
+# Captura de incidentes o solicitud de servicio
+
+Capturar el incidente o la solicitud de servicio significa asumir la responsabilidad de manejar un ticket o contribuir a su resolución.
 
 ## Antes de empezar
 
-- [X] Para capturar un ticket se necesita tener uno abierto.
-- [X] Debe tener permiso para ver, capturar y realizar posibles acciones dentro del ticket.
+- [X] Para realizar la captura se requiere al menos un ticket abierto.
+- [X] Se requiere permiso para ver, capturar y realizar posibles acciones dentro del ticket.
 
 ## Procedimiento
 
-1. Para ir a la Intefaz de Atención, acceda al menú Procesos > Gestión de ticket > Ticket > Abrir
+1. Para acceder a la funcionalidad de la interfaz de servicio, acceda al menú Procesos > Gestión de tickets > Ticket > Abrir
 
-2. Localice un ticket presionando una vez para abrir las acciones y seleccionando el botón "Abrir", o haciendo doble clic para abrirlo directamente.
+2. Busque el ticket deseado y presione una vez para abrir las acciones. Después seleccione el botón “Abrir” o haga doble clic para abrirlo directamente.
+
+## Información sobre el incidente o solicitud de servicio
+
+Después de abrir la solicitud de servicio o incidente, el sistema recuperará la información de la solicitud o incidente.
+
+### Campos
+
+|Campo|Descripción|
+|-----|---------|
+|**Solicitante**|Nombre del solicitante (se puede buscar con %%)|
+|**E-mail**|Agregar un correo electrónico al solicitante|
+|**Unidad**|Unidad del solicitante|
+|**Origen del contacto**|Service Desk, E-mail, Facebook, Twitter, otros|
+|**Historial del solicitante**|El historial del solicitante con el número de tickets, tickets resueltos a tiempo, tickets retrasados, tickets aún abiertos, tickets en ejecución y retrasados, además del nivel de satisfacción|
+|**Portafolio**|Los portafolio a los que está vinculado el usuario| 
+|**Servicio**|Los servicios del portafolio seleccionado|
+|**Actividad**|Las actividades del servicio seleccionado|
+|**Contrato**|Contratos vinculados al portafolio|
+|**Impacto**|Impacto de la actividad|
+|**Urgencia**|Urgencia de la actividad|
+|**Descripción**|Describe las necesidades del ticket|
+|**Enviar e-mail**|Seleccione qué tipos y correo electrónico recibirá el usuario|
+
+## Capture el incidente o la solicitud de servicio
+
+Para hacerse responsable de la incidencia o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Responsable" para hacerse responsable de la misma.
+
+## Ítems de la barra de herramientas
+
+| Ítem                 | Descripción                                                     |
+|----------------------|-----------------------------------------------------------------|
+| **Volverr**          | Volver al espacio de trabajo del Service Desk                   |
+| **Número**           | Identificador del incidente o solicitud de servicio             |
+| **Tarea**            | Paso de flujo de servicio                                       |
+| **Grupo actual**     | El grupo responsable de la solución                             |
+| **Responsable**      | La persona responsable del incidente o solicitud de servicio    |
+| **SLA**              | Tiempo total para resolución                                    |
+| **Tiempo limite**    | Fecha y hora límite para el servicio                            |
+|**Archivos adjuntos** | Ver archivos adjuntos existentes o adjuntar un nuevo objeto     |
+| **Ver flujo**        | Mostrar flujo de servicio                                       |
+| **Scripts**          | Mostrar scripts para asistir el servicio                        |
+| **Conocimiento**     | Aparece cuando hay conocimiento vinculado al paso del flujo     |
+| **Layout**           | Activa la edición del diseño de la página (30% - 70%, 50% - 50% y 100%)|
+
+### Opciones del Ticket
+
+En las opciones tenemos:
+
+| Opción                       | Descripción                                                                       |
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Capturar solicitud**       | Hacerse responsable del incidente o solicitud de servicio                         |
+| **Delegar**                  | Delegar el incidente o solicitud de servicio a otro asistente                     |
+| **Suspender**                | Suspender la atención de incidentes o solicitud de servicio                       |
+| **Cambiar SLA**              | Cambiar el SLA asignado al incidente o solicitud de servicio                      |
+| **Reclasificar**             | Reclasificar el portafolio/servicio/actividad del incident o solicitud de servicio|
+| **Crear sub-ticket**         | Crear un subincidente o una solicitud de servicio para atención                   |
+| **Crear ticket relacionado** | Vincular una solicitud de servicio o incidente relacionado con la atención        |
+| **Programar actividad**      |Puede crear un programa de actividades para el incidente o la solicitud de servicio|
+| **Imprimir**                 | Imprimir información de solicitud de servicio o incidente                         |
+
+## Asistir a un incidente o solicitud de servicio
+
+El inicio efectivo del servicio ocurre desde la captura del incidente o solicitud de servicio hasta el final o remisión a otra área.  
+El analista puede utilizar varias funciones: comentarios, historial, notificación por correo electrónico y registro de tiempo.
+
+### Agregar comentarios/ver historial
+
+El usuario puede escribir un comentario y realizar las siguientes acciones:
+
+| Opción             | Descripción                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------|
+| **Comentarios**    |Área de comentarios para las personas que accedan a este ticket, con opción a tener el formato de edición|
+| **Historial**      | Ver el historial de incidentes o solicitudes de servicio                                            |
+| **Cancelar**       | Cancelar el comentario                                                                              |
+| **Público**        | Compruebe si el equipo de servicio y el usuario final pueden ver                                    |
+|**Horas publicadas**| Posibilidad de informar las horas dedicadas a una tarea                                             |
+| **Enviar e-mail**  | Marque para enviar el comentario como un correo electrónico                                         |
+| **Agregar**        | Agregue el comentario al incidente o solicitud de servicio                                          |
+
+Después de agregar el comentario, también puede ver e interactuar con todos los comentarios hechos en el ticket (Editar - Eliminar - Responder al comentario).
 
 
-### Capturar ticket
+Otra opción para comentar y ver comentarios es a través de la Búsqueda Rápida en la interfaz de servicio. 
 
-Para hacerse responsable del ticket, puede encontrar en la barra de menú la opción "Capturar ticket" (elemento 5) para hacerse responsable de él, otra forma de poder capturarlo es mediante las opciones de ticket (elemento 13) - en la barra superior.
+1. Para acceder a esta funcionalidad vaya al menú Procesos > Gestión de ticket > Ticket;
 
-#### Elementos de la barra de herramientas
+2. Haga clic en "Buscar aquí" y habilite la funcionalidad **"Tickets con permiso de comentario"**;
 
-![Menu bar ticket 4biz][1]
+3. El sistema habilitará entonces el campo "Número" como obligatorio para realizar la búsqueda, donde ingresarás el número del ticket que deseas comentar. Después de ingresar el número, haga clic en "Buscar";
 
-**1: Volver** - Volver para el area de servicio de la Service Desk;
+4. El sistema devolverá en la lista el ticket informado anteriormente. Haga clic en él una vez para mostrar las opciones disponibles para ese ticket. Una de las opciones presentadas para este ticket será **"Ver y Comentar"**;
 
-**2: Número** - Identificador del ticket;
+5. Al hacer clic en "Ver y Comentar", el sistema abrirá el ticket en modo de vista previa. Sin la posibilidad de ver los archivos adjuntos del ticket, puede insertar y ver solo los comentarios en ese ticket;
 
-**3: Tarea** - solicitada;
+6. Después de agregar el comentario, cierre la página de vista previa del ticket.
 
-**4: Grupo actual** – responsable por la solución;
+!!! note "NOTA"
 
-**5: Responsable** – la persona responsable actualmente por la solución del ticket;
+    Para que esta funcionalidad funcione, habilite el siguiente parámetro y permiso:
+    
+    - Habilitar el parámetro: 298 - Presenta las ocurrencias del Ticket (Valores: "S" o "N" Predeterminado: "N").
+    
+    - Habilitar el permiso de Comentar en la pantalla de Grupo.
 
-**6: SLA** – tiempo total para la solución;
+### Atribución y Acción
 
-**7: Tiempo limite** – presenta la fecha y hora limite para la atención;
+Puede **Direccionar al grupo** (identificando el grupo que será dirigido dentro del flujo) o Realizar acciones (las acciones están definidas por el flujo de Servicio y solo aparecerán si el paso del flujo lo dirige).
 
-**8: Adjuntar archivo** – ver los adjuntos existentes o adjuntar un nuevo archivo;
 
-**9: Ver flujo**;
+### Definir situación del incidente o la solicitud de servicio
 
-**10: Scripts**;
+| Campo             | Descripción                                                                                        |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| **Situación**     | La situación del incidente o solicitud de servicio (registrado/en marcha, resuelto o cancelado)    |
 
-**11: Conocimiento de la tarea** – aparece cuando hay conocimiento vinculado al flujo;
 
-**12: Layout** – permite la edición del diseño de página (30% - 70%, 50% - 50% y 100%);
+**Situación** – Situación del incidente o solicitud de servicio:
 
-**13: Opciones**.
+-   **Registrada/En Marcha** – el ticket no está listo para ser cerrado;
 
-### Opción del ticket
+-   **Resuelto** – generar solución de respuesta para finalizar el ticket;
 
-![tickets option ticket 4biz][2]
+-   **Canceledo** – justificar por qué se cancela la actividad;
 
-En las opciones, tenemos:
+### Vincular ítems adicionales
 
-**1: Delegar**;
+Acceda al pequeño botón de flecha negra en la parte superior derecha de la pantalla, debajo de la barra de menú, para realizar las funciones deseadas.
 
-**2: Suspender**;
+|Función|Descripción|
+|-------|-----------|
+|**Sub-ticket**|Ver o crear un subincidente o una solicitud de servicio para su cumplimiento|
+|**Tickets relacionados**|Vincular una solicitud de servicio o incidente relacionado con la atención|
+|**Solución temporal**|Ver y mantener soluciones alternativas relacionadas con este incidente o solicitud de servicio|
+|**Conocimiento**|Puede buscar y vincular el conocimiento al incidente o solicitud de servicio|
+|**Proyecto**|Puede buscar y vincular un proyecto al incidente o solicitud de servicio|
+|**Agenda**|Puede crear un programa de actividades para el incidente o la solicitud de servicio|
+|**Lectura de los e-mails**|Puede buscar y leer correos electrónicos|
+|**IC do solicitante**|Puede buscar y seleccionar los ítems de configuración del solicitante|
+|**IC relacionado**|Puede buscar y seleccionar los ítems de configuración para el incidente o solicitud de servicio|
+|**Problema**|Puede buscar problemas para vincularlos al incidente o solicitud de servicio, también puede crear y vincular el problema|
+|**Cambio**|Puede buscar Cambios para vincular al incidente o solicitud de servicio, también puede crear y vincular el Cambio|
+|**Liberación**|Puede buscar liberaciones para vincular al incidente o solicitud de servicio, también puede crear y vincular la liberación|
 
-**3: Cambiar SLA**;
 
-**4: Reclasificar**;
+### Guardar 
 
-**5: Crear Sub-ticket por copia**;
+En la parte inferior de la página, encontrará un botón flotante con las funciones de:
 
-**6: Crear ticket relacionado**;
-
-**7: Programar actividad**;
-
-**8: Imprimir**;
-
-### Atención
-
-El inicio efectivo de la atención ocurre desde la captura del ticket para finalizar o direccionar el ticket a otra área. El analista puede utilizar varias funciones: comentarios, historial, notificación por correo electrónico y lanzamiento de hora.
-
-![Attendance ticket 4biz][3]
-
-**1: Comentarios** – área propia para hacer comentarios a las personas que accedan a este ticket, teniendo la opción de:
-
-**Privacidad**:
-
-•	**Privado** – solo el equipo de atención puede ver;
-
-•	**Público** – el equipo de atención y el usuario final pueden ver;
-
-**Lanzar horas**: posibilidad de informar las horas dedicadas a una tarea determinada;
-
-**Enviar e-mail**;
-
-**Cancelar**;
-
-**Agregar**;
-
-![Attendance ticket 4biz][4]
-
-**2: Histórico** – donde puede ver e interactuar con todos los comentarios realizados dentro del ticket;
-
-#### Atribuição e Situação
-
-![Assignment and Situation ticket 4biz][5]
-
-**3: Dirigir para grupo** – Identificador del grupo que se lo va direccionar dentro del flujo;
-
-**4: Situación** – del ticket;
-
-- **Registrada/En marcha** – ticket no está listo para ser finalizado;
-
-- **Resuelto** – generar una solución de respuesta para finalizar el ticket;
-
-- **Cancelado** – justificar por qué se cancela la actividad;
-
-**5: Volver** – vuelve para el área de servicio de la Service Desk;
-
-**6: Grabar** - guarda y mantiene el estado actual - del flujo;
-
-**7: Grabar y enviar** - guarda y avanza para el próximo estado - del flujo;
+|Función|Descripción|
+|------|---------|
+|**Volver**|Para volver al espacio de trabajo del Service Desk|
+|**Grabar**|Para guardar el incidente o solicitud de servicio y crear el número para seguimiento y monitoreo|
+|**Grabar y enviar**|Para guardar el incidente o solicitud de servicio. Crea el número para seguimiento y monitoreo y sigue el flujo de servicio|
 
 Relacionado
------------
+------------
 
-[Configurar permiso de acceso de la gestión de solicitudes/incidentes](/es-es/4biz-helium/processes/tickets/configuration/access-ticket-management.html)
-
-<i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROfIFL9F-3s-gomHNzudBEy)'
-
-[1]:images/menu-bar-ticket-citsmart.png
-[2]:images/tickets-option-ticket.png
-[3]:images/attendance-ticket-comment.png
-[4]:images/attendance-ticket-history.png
-[5]:images/assignment-and-situation-ticket.png
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
+[Configurar el permiso de acceso para la gestión de solicitud/incidente](/es-es/4biz-helium/processes/tickets/configuration/access-ticket-management.html)
