@@ -1,0 +1,28 @@
+title: Checking system log
+Description: Checking the system log for the audit trail.
+# Checking system log
+
+This functionality is intended to check the system log for the audit trail.
+
+!!! Abstract "NOTE"
+
+    Caso os nomes das tabelas não estejam atualizados, acessar a
+    funcionalidade Parâmetros 4biz e definir o nome do banco de dados
+    utilizado no parâmetro ' DB - nome do SHEMA do banco de dados '. Após isto,
+    acessar funcionalidade Carrega Meta Dados e atualizar todas as tabelas.
+
+Procedimento
+-----------
+
+1.  Acessar a funcionalidade através da navegação no menu principal Sistema \>
+    Trilha de Auditoria \> Logs do Sistema;
+
+2.  Preencher os filtros disponibilizados;
+
+3.  Clicar no botão "Pesquisar" para exibir o log do sistema conforme os dados
+    informados;
+
+4.  Para gerar o relatório do log do sistema, clicar no botão "Gerar Relatório".
+
+
+!!! tip "About"
