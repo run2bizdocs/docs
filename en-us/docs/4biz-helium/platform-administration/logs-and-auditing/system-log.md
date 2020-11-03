@@ -6,23 +6,19 @@ This functionality is intended to check the system log for the audit trail.
 
 !!! Abstract "NOTE"
 
-    Caso os nomes das tabelas não estejam atualizados, acessar a
-    funcionalidade Parâmetros 4biz e definir o nome do banco de dados
-    utilizado no parâmetro ' DB - nome do SHEMA do banco de dados '. Após isto,
-    acessar funcionalidade Carrega Meta Dados e atualizar todas as tabelas.
+    If the table names are not updated, access the 4biz Parameters functionality and define the name of the database used in the parameter 'DB - name of the database SCHEMA'. After that, access the Load Metadata functionality and update all tables.
 
-Procedimento
+Procedure
 -----------
 
-1.  Acessar a funcionalidade através da navegação no menu principal Sistema \>
-    Trilha de Auditoria \> Logs do Sistema;
+1.  Access the functionality through the main menu System \>
+    Audit Trail \> System Log;
 
-2.  Preencher os filtros disponibilizados;
+2.  Complete the filters available;
 
-3.  Clicar no botão "Pesquisar" para exibir o log do sistema conforme os dados
-    informados;
+3.  Click on the "Search" button to display the system log according to the data entered;
 
-4.  Para gerar o relatório do log do sistema, clicar no botão "Gerar Relatório".
+4.  To generate the system log report, click on the "Generate Report" button.
 
 
 !!! tip "About"
