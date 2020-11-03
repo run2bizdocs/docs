@@ -21,4 +21,3 @@ Procedure
 4.  To generate the system log report, click on the "Generate Report" button.
 
 
-!!! tip "About"
