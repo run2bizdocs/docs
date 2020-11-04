@@ -157,4 +157,4 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 
 
 [1]:/pt-br/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium111.zip
-[2]:/pt-br/4biz-helium/get-started/about-4biz/Orientações%20sobre%20a%20versão%204biz%20Helium%201.2.10.zip
+[2]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.10.zip
