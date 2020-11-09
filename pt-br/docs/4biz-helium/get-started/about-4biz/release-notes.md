@@ -17,12 +17,12 @@ Bem-vindos ao 4biz Helium Versão 1.2.13 Esta versão apresenta os seguintes ite
 |10005|Corretiva|Sistema|Correções na Auditoria|
 |10008|Corretiva|G. Ticket|Correção na visualização do SLA a Combinar|
 |10011|Corretiva|Webservice|Melhoria no webservice de telefonia quanto à sessão de usuário|
-|10012|Corretiva|G. Ticket|Correção na renderização de formulários Builder/Neuro|
+|10012|Corretiva|G. Ticket|Correção na renderização de formulários Builder|
 |10013|Corretiva|G. Ticket|Correção na visualização de um ticket|
 |10019|Corretiva|G. Ticket|Correção ao atualizar lista Sem Responsável|
 |10022|Corretiva|G. Ticket|Correção na recuperação de tickets para comentários|
 |10023|Corretiva|Webservice|Correção do mecanismo para websocket telefonia com Builder|
-|10031|Corretiva|G. Ticket||Correção nos registros de comentários Reclassificados
+|10031|Corretiva|G. Ticket|Correção nos registros de comentários Reclassificados|
 |10034|Corretiva|G. Ticket|Correção na visualização de informações do solicitante do ticket|
 |10035|Corretiva|Webservice|Incluir informações sobre o ticket criado na nova modal de telefonia|
 |10044|Corretiva|Chat|Correção para avançar fluxo de chatcall de ticket cancelado/fechado|
