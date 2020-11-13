@@ -3,6 +3,68 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 1.2.13 (2020/11/03)
+
+!!! warning "ATENCIÓN"
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 1.2.13][2]
+
+Bienvenido a 4biz Helium Versión 1.2.13. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|10005|Corrección|Sistema|Correcciones en la Auditoría|
+|10008|Corrección|G. de Ticket|Corrección en la visualización del SLA a combinar|
+|10011|Corrección|Webservice|Mejora en el webservice de telefonía en cuanto a la sesión del usuario|
+|10012|Corrección|G. de Ticket|Corrección en la representación de formularios Builder|
+|10013|Corrección|G. de Ticket|Corrección en la visualización de un ticket|
+|10019|Corrección|G. de Ticket|Corrección al actualizar la lista Sin Responsable|
+|10022|Corrección|G. de Ticket|Corrección en la recuperación de tickets para comentarios|
+|10023|Corrección|Webservice|Corrección del mecanismo de telefonía websocket con Builder|
+|10031|Corrección|G. de Ticket|Corrección en registros de comentarios reclasificados|
+|10034|Corrección|G. de Ticket|Corrección en la visualización de la información del solicitante del ticket|
+|10035|Corrección|Webservice|Incluir información sobre el ticket creado en el nuevo modal de telefonía|
+|10044|Corrección|Chat|Corrección para avanzar el flujo de chatcall de ticket cancelado/cerrado|
+|10047|Corrección|G. de Ticket|[My 5540] – Corrección en el envío de correo electrónico al finalizar el servicio|
+|10051|Corrección|G. de Ticket|[My 5317] - Problema con la consulta que no se filtra por grupo|
+|10052|Corrección|G. de Ticket|No se esta enumerando los tickets para el usuario que solo tiene el permiso "Puedo comentar"|
+|10056|Corrección|G. de Ticket|[My 5405] - Error intermitente al intentar la aprobación vía token|
+|10057|Corrección|G. de Portafolio|[My 5351] - Problema con el botón de grabación al editar un Portafolio|
+|10058|Corrección|G. de Ticket|[My 5339] - Error al crear ticket mediante la lectura de correo electrónico|
+|10061|Corrección|Chat|[My 5450] - Error al iniciar una conversación vía chat|
+|10065|Corrección|G. de Ticket|Compruebe si hay errores al buscar por la búsqueda avanzada|
+|10083|Corrección|G. de Ticket|Corrección cde clave internacionalizada de tipo SLA en caso de solicitud|
+|10093|Corrección|G. de Ticket|Manejar transacciones de cierre en transacitionControlerIMPL|
+|10097|Corrección|G. de Ticket|Corrección del mensaje "Espere, cargando ..." en la auditoría|
+|10098|Corrección|G. de Ticket|Tratar null pointer en la clase OcorrenciaSolicitacaoBuilder|
+|10178|Corrección|Flujo|Creación de campos para programar ejecuciones de Rhino Script|
+|10204|Corrección|G. de Portafolio|Corrección en la exclusión de Causa Incidente en el Portafolio|
+|10211|Corrección|Sistema|Corrección al agregar una imagen a la galería de imágenes|
+|10216|Corrección|G. de Portafolio|Corrección en el campo obligatorio del Portafolio|
+|8542|Corrección|G. de Ticket|Visualización de respuestas a comentarios en la exportación CSV|
+|8589|Corrección|G. de Ticket|Mostrar los nombres de los archivos adjuntos en el historial de creación de tickets|
+|9320|Corrección|G. de Ticket|Incluir en las ocurrencias información sobre inclusión y exclusión de los procesos de negocio|
+|9826|Corrección|Sistema|Eliminación del SequenceBlock|
+|9839|Corrección|G. de Problema|[My 5160] - Error al agregar el Portafolio de Problema|
+|9890|Corrección|G. de Ticket|[My 5408] - Corrección de error al mostrar el nombre del contrato al ver el ticket|
+|9915|Corrección|G. de Problema|Error al desvincular el contrato del Portafolio de Problema|
+|9955|Corrección|G. de Ticket|[My 5403] -Verifique la falla de auditoría al informar la reclasificación de tickets|
+|9949|Corrección|G. de Ticket|[MY 5352] - Verificar el historial de delegación que no se muestra en la pestaña del historial de ticket|
+|9965|Corrección|G. de Ticket|Verificar que no muestra el motivo de la reclasificación en el historial|
+|9968|Corrección|Sistema|[My 5338] - Entorno VNS lento al enumerar la cola de tickets|
+|9957|Corrección|G. de Ticket|[My 5121- 5180 - 5163] Error al insertar el adjunto en el subticket creado por copia|
+|9959|Corrección|G. de Ticket|[My 5172]- La paginación de la pantalla del ticket va a cero|   
+
+Bienvenido a Builder 1.3.5.1
+
+La versión presentada tiene las siguientes correcciones:
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|100175|Corrección|Corrección en la internacionalización en un ambiente clusterizado|
+|10049|Corrección|[My 5357]- No se pudieron validar los permisos del botón, incluso con el usuario con permiso|
+|9751|Corrección|[My 5153] - Verifique que los archivos que tienen nombres con caracteres especiales no se cargan|
+
 ## Versión Helium 1.1.1 (2020/09/14)
 Bienvenido a 4biz Helium Versión 1.1.1. Esta versión incluye los siguientes elementos:
 
@@ -83,3 +145,5 @@ Bienvenido a 4biz Helium Versión 1.0.2 Esta versión incluye los siguientes ele
 |--------|---------|---------|---------|
 |8968|Corrección|Center|Corrección en la devolución de la lista de Portafolios cuando se habilita el parámetro 293 que filtra el portafolio por grupos de acceso|
 |4818|Corretiva|Tiempo de Atención|Corrección en la programación de una actividad para vincular al SLA registrado|
+
+[2]:/es-es/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
