@@ -16,6 +16,10 @@ Procedimiento
 
 2.  Al abrir la funcionalidad, como estándar, se abrirá en la pestaña de registro del calendario;
 
+!!! nota "NOTA"
+
+    Al indicar la opción *sí*, en el campo SE Considera Día Festivo, esto significa que los días festivos serán consideradas como un día libre en el calendario. Por lo tanto, si el equipo relacionado con el calendario trabaja durante los días festivos, elija la opción *no*.
+
 3.  Comience a crear el calendario completando los campos provistos de la mejor manera;
 
 4.  En la parte de excepciones, haga clic en el ícono "+", se abrirá una ventana donde se pueden insertar excepciones para días libres o e trabajo;
