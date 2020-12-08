@@ -566,6 +566,8 @@ nav:
   - Additional Features:
     - Introduction:
       - 4biz-helium/additional-features/introduction.md
+    - Views:
+      - 4biz-helium/additional-features/metadata-technical-view-report.md 
     - Simple Agile Management:
       - 4biz-helium/additional-features/project-management/simple-agile-management/simple-agile-management.md
     - Contract Management:
