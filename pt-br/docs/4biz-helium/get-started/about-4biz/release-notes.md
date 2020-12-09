@@ -3,7 +3,7 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
-## Versão Helium 9.2.0.0 (2020/12/14)
+## Versão Helium 2.0.0 (2020/12/14)
 
 Bem-vindos ao 4Biz Helium Versão 2.0.0. Esta versão apresenta os seguints itens:
 
