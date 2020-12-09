@@ -5,6 +5,10 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 ## Versão Helium 2.0.0 (2020/12/14)
 
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 2.0.0][3]
+
 Bem-vindos ao 4Biz Helium Versão 2.0.0. Esta versão apresenta os seguints itens:
 
 |Número|Tipo|Descrição|
@@ -241,3 +245,4 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 
 [1]:/pt-br/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium111.zip
 [2]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.13.zip
+[3]:/pt-br/4biz-helium/get-started/about-4biz/Guia-de-orientações-4biz-Helium-versão-2.0.0.zip
