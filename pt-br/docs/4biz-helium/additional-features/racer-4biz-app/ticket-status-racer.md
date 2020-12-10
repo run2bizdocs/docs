@@ -73,4 +73,24 @@ O administrador deverá habilitar os seguintes parâmetros para receber notifica
     - 353 - Habilita o envio de notificações para celulares durante a atualização de solicitações informando atendimentos próximos;  
     - 460 - Habilita o envio de notificações para celulares durante a atualização de solicitações.
 
+## Procedimento
+
+Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, vamos selecionar um dos tickets na fila. Para as ações a seguir iremos abordar o caso de um ticket **em andamento**.
+
+### Capturar ticket
+
+!!! warning "ATENÇÃO"
+
+    Para capturar um ticket, ele deve estar aberto e checado. O usuário pode realizar check-in em mais de um ticket. Mostraremos mais adiante nesse documento como relaizar o check-in.
+    
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Capturar Ticket".  
+3. Ao selecionar essa opção, irá abrir um pop-up com a mensagem: Capturar ticket número #0000. Você pode cancelar a captura e voltará para a tela do ticket selecionado, ou você pode confirmar a captura e salvar essa informação. O ticket então estará sob sua responsabilidade.  
+
+!!! note "NOTA"
+
+        O usuário pode realizar a captura de mais de um ticket por vez.
+
+
+
 
