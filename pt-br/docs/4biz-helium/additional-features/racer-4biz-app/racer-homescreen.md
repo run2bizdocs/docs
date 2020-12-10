@@ -54,3 +54,19 @@ Depois que salvar sua conexão, você será levado para a tela de "Selecionar Co
 Caso queira criar novas conexões, clique no símbolo "+" e preencha os mesmos campos apresentados anteriormente.  
 Para editar ou excluir uma conexão existente, clique nos três pontinhos do lado da conexão e selecione "Editar conexão" ou "Excluir conexão".
 
+## Iniciar Sessão
+
+Para iniciarmos sessão, vamos selecionar primeiramente a conexão desejada para acessar o sistema, pode ser a que você configurou como padrão, como qualquer outra que exista cadastrada no aplicativo.
+
+Depois, em "Usuário", clique para inserir as informações necessárias para iniciar a sessão:
+
+1. Se o usuário estiver no domínio: O login será o cadastrado na aplicação;  
+2. Se o usuário estiver fora do domínio: O login será o cadastrado na aplicação com o seu domínio. Por exemplo: exemplo.com\login  
+
+Em "Senha", você irá informar a senha do usuário cadastrado na aplicação. No ícone de olho, quando ele está marcado, irá exibir a senha sendo digitada e, quando desmarcado, a senha aparecerá oculta, toda em ponto  
+
+Já o botão "Disponível para atendimento", você pode marcar ou não para configurar se sua localização será compartilhada em tempo real. Essa opção é utilizada para informar aos gestores que um agente está disponível para atendimento e para que o agente compartilhe a sua localização.
+
+Antes de iniciar a sessão, será necessário clicar em "Ir para os termos de uso", para você concordar ou não com os nossos termos de segurança. 
+
+Caso concorde com os termos, será apresentado então a opção para entrar no aplicativo, basta clicar em "Entrar".
