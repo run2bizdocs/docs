@@ -13,4 +13,26 @@ Vamos começar conhecendo um pouco mais o que tem na nossa tela inicial do aplic
 
 ## Procedimento  
 
-Após abrir o aplicativo Racer 4biz no celular, vamos configurar primeiramente o idioma a ser utilizado pelo sistema.
+Após abrir o aplicativo Racer 4biz no celular, vamos realizar as primeiras configurações para acessar o sistema.
+
+### Alterar idiomas
+
+A primeira configuração será escolher o idioma que será utilizado na aplicação.  
+Na tela de "Selecionar Idioma" apresentamos as seguintes opções:
+
+|Opção|Descrição|
+|-----|---------|
+|Padrão do sistema|É o idioma do padrão do celular do usuário (marcada como default)|
+|Inglês| Configura o idioma do aplicativo para o inglês|
+|Espanhol|Configura o idioma do aplicativo para o espanhol|
+|Português do Brasil|Configura o idioma do aplicativo para português do Brasil|
+
+!!! note "NOTA"
+
+    Caso o idioma padrão de sistema do seu celular seja diferente dessas três línguas, o sistema escolhera o idioma inglês como default.
+    
+No início da tela de seleção de idiomas há uma seta para retornar para tela anterior de início de sessão.
+
+### Selecionar conexão
+
+Vamos agora selecionar a conexão que utilizaremos para acessar o aplicativo
