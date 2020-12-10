@@ -129,3 +129,32 @@ Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, 
         - Se o campo causa não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a Causa e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
         - Se o campo solução não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a solução e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
         - Se estiver tudo correto e a ação for concluída, voltamos para a tela de ticket com a situação do ticket como concluída.
+        
+### Cancelar ticket        
+
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Cancelar Ticket".  
+3. Ao selecionar a opção de cancelar ticket é aberta uma nova tela com os campos:
+
+- Campo para selecionar causa;
+- Campo para selecionar a solução. A lista só é carregada após a seleção do campo causa;
+- Campo opcional para inserir um comentário.
+
+4. Após preencher os campos necessário, clique em Salvar.
+
+!!! warning "ATENÇÃO"
+
+        - Se o campo causa não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a Causa e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.
+        - Se o campo solução não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a solução e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.
+        - Se estiver tudo correto e a ação for concluída, voltamos para a tela de ticket com a situação do ticket como cancelada.
+        
+### Realizar check-in        
+
+
+
+
+
+
+
+
+
