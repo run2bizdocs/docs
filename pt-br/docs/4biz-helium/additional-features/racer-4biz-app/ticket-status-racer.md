@@ -91,6 +91,25 @@ Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, 
 
         O usuário pode realizar a captura de mais de um ticket por vez.
 
+### Suspender ticket
 
+!!!note "NOTA""
 
+        Para efetivar a suspensão o usuário deverá ter permissão para tal ação, além de possuir uma justificativa de suspensão previamente cadastrada.
 
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Suspender Ticket".  
+3. Ao selecionar a opção de suspender ticket é aberta uma nova tela com os campos:
+
+- Campo para selecionar justificativa;  
+- Campo para inserir um comentário.
+
+4. Após preencher os campos necessário, clique em Salvar.
+
+!!!warning "ATENÇÃO"
+
+        - Se o campo justificativa não for preenchido é apresentado um pop-up com o texto: Por favor, você deve selecionar uma justificativa para a suspensão do ticket. ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se o campo comentário não for preenchido é apresentado um pop-up com o texto: Por favor, você deve informar um complemento para a suspensão do ticket. ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se estiver tudo correto e apresentado uma mensagem no final da tela com o texto: Suspensão realizada. Id: 0000000. Botão Ok que volta para a tela do ticket.
+        
+### Concluir ticket        
