@@ -95,6 +95,13 @@ Após as opções de filtrar por situação do ticket, ainda temos as seguintes 
 |Solicitante|Ao informar o nome do solicitante, em um campo que ao digitar o nome desejado ele carrega uma lista com os solicitantes cadastrados seleção, é apresentada uma tela com uma lista com os tickets do solicitante selecionado|
 |Unidade|Essa opção apresentará uma lista com todos as unidades cadastradas. Ao selecionar uma das unidades a tela ticket apresentará uma lista apenas com os tickets da unidade selecionada|
 
+No final da página temos então duas opções de aplicar ou não os filtros:
 
+|Opção|Descrição|
+|-----|---------|
+|Apagar filtros| Opção para apagar todos os filtros que você configurou. Todas as modificações voltarão ao padrão do sistema|
+|Filtrar|Realiza o filtro da lista conforme parâmetro selecionado|
+
+## Relacionados
 
 
