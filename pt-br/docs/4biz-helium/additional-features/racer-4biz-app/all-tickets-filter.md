@@ -85,8 +85,15 @@ Ao selecionar os tickets resolvidos, é apresentado uma lista com os tickets nes
     7. O número do ticket;
     8. O nome da prioridade atribuída ao ticket. Ex: alto;
     
-    
+Após as opções de filtrar por situação do ticket, ainda temos as seguintes opções:
 
+|Filtro|Descrição|
+|------|---------|
+|Número|Ao informar um número de ticket válido nesse campo é apresentada uma tela apenas com o ticket informado. Caso seja informado um número não existente na base, será apresentada uma tela com a informação “Não há nenhum ticket na lista” e um botão “Adicionar ticket” que abrirá a tela de adicionar ticket|
+|Grupo executor|Essa opção apresentará uma lista com todos os grupos executores cadastrados. Ao selecionar um dos grupos a tela de ticket apresentará uma lista apenas com os tickets do grupo executor selecionado|
+|Responsável|Ao informar o nome do responsável, em um campo que ao digitar o nome desejado ele carrega uma lista com os responsáveis cadastrados para seleção, é apresentada uma tela com uma lista com os tickets do responsável selecionado|
+|Solicitante|Ao informar o nome do solicitante, em um campo que ao digitar o nome desejado ele carrega uma lista com os solicitantes cadastrados seleção, é apresentada uma tela com uma lista com os tickets do solicitante selecionado|
+|Unidade|Essa opção apresentará uma lista com todos as unidades cadastradas. Ao selecionar uma das unidades a tela ticket apresentará uma lista apenas com os tickets da unidade selecionada|
 
 
 
