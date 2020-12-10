@@ -106,10 +106,26 @@ Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, 
 
 4. Após preencher os campos necessário, clique em Salvar.
 
-!!!warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
         - Se o campo justificativa não for preenchido é apresentado um pop-up com o texto: Por favor, você deve selecionar uma justificativa para a suspensão do ticket. ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
         - Se o campo comentário não for preenchido é apresentado um pop-up com o texto: Por favor, você deve informar um complemento para a suspensão do ticket. ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
         - Se estiver tudo correto e apresentado uma mensagem no final da tela com o texto: Suspensão realizada. Id: 0000000. Botão Ok que volta para a tela do ticket.
         
-### Concluir ticket        
+### Concluir ticket  
+
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Concluir Ticket".  
+3. Ao selecionar a opção de suspender ticket é aberta uma nova tela com os campos:
+
+- Campo para selecionar a causa;  
+- Campo para selecionar a solução. A lista só é carregada após a seleção do campo causa;
+- Campo opcional para inserir um comentário.
+
+4. Após preencher os campos necessário, clique em Salvar.
+
+!!! warning "ATENÇÃO"
+
+        - Se o campo causa não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a Causa e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se o campo solução não for selecionado é apresentado um pop-up com o título: Atenção. Mensagem: Por favor, selecione a solução e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se estiver tudo correto e a ação for concluída, voltamos para a tela de ticket com a situação do ticket como concluída.
