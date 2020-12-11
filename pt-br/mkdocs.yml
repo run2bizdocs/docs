@@ -581,7 +581,12 @@ nav:
     - Introdução:
       - 4biz-helium/additional-features/introduction.md
     - Views:
-      - 4biz-helium/additional-features/metadata-technical-view-report.md      
+      - 4biz-helium/additional-features/metadata-technical-view-report.md
+    - Racer 4Biz:
+      - 4biz-helium/additional-features/racer-4biz-app/racer-homescreen.md
+      - 4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.md
+      - 4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.md
+      - 4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.md
     - Tasker agile management:
       - 4biz-helium/additional-features/project-management/tasker-agile-management/tasker-agile-management.md
     - Portal de Serviço:
