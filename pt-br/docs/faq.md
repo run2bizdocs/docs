@@ -3,6 +3,16 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
 # Perguntas Frequentes - FAQ
 
+## 4Biz
+
+!!! Question "O 4biz é seguro?"
+
+	O 4biz segue diretrizes de padrões de segurança de informação como a ISO 27001 e bem como de normatização de segurança de dados pessoais LGPD/GDPR, usando como referência a Lei Federal Nº 13.709/2018 (LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS).
+	
+!!! Question "O 4biz tem funções de reconhecimento facial?"
+
+	O 4biz possibilita acoplamento com API externas de softwares de reconhecimento facial e também possibilita via Builder, o desenvolvimento de funcionalidades de segurança para esse fim.
+
 ## Processos
 
 ### Gestão de Tickets
