@@ -256,6 +256,8 @@ Ao selecionar a opção de avaliar atendimento é aberta uma nova tela com:
     
 Se estiver tudo correto, clique em "Enviar avaliação". A avaliação é enviada e volta para a tela do ticket.  
 
+### Reativar ticket
+
 
 
 
