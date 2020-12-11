@@ -150,10 +150,70 @@ Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, 
         
 ### Realizar check-in        
 
+O check-in é o meio utilizado para identificar o caminho percorrido para o atendimento de um ticket aberto de Requisição/Incidente. Para utilizá-lo é necessário que o usuário tenha habilitado a opção disponível para atendimento.
 
+!!! note "NOTA"
 
+       O check-in não é obrigatório para o atendimento do ticket pelo agente 
 
+Ao selecionar a opção realizar check-in é apresentado um Pop-up com a mensagem: "Tem certeza que deseja realizar check-in neste ticket?". Caso queira continuar com o check-in, clique em "Salvar". Caso queira cancelar o check-in, clique em "Cancelar".
 
+### Realizar checkout
+
+O check-out é o meio utilizado para identificar o encerramento do caminho percorrido para o atendimento de um ticket aberto de Requisição/Incidente. Para utilizá-lo é necessário que o agente possua permissão de execução no ticket.
+
+!!! note "NOTA"
+
+        O checkout (desbloqueio) não é obrigatório para o encerramento do atendimento do ticket pelo agente
+        
+!!! note "NOTA"
+
+        Caso seja necessário, um atendente com acesso à aplicação web poderá realizar o checkout (desbloqueio) do atendimento
+        
+ Ao selecionar a opção realizar checkout é apresentado um Pop-up com a mensagem: "Tem certeza que deseja realizar checkout neste ticket?". Caso queira continuar com o checkout, clique em "Salvar". Caso queira cancelar o checkout, clique em "Cancelar".
+ 
+### Atribuit ticket
+
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Atribuir Ticket".  
+3. Ao selecionar a opção de cancelar ticket é aberta uma nova tela com os campos:
+
+- Campo para selecionar a usuário;  
+- Campo para selecionar o grupo;  
+- Campo para inserir uma justificativa.
+
+4. Após preencher os campos necessário, clique em Salvar.
+
+!!! warning "ATENÇÃO"
+
+        - Se o campo solução não for selecionado, é apresentado um pop-up com o Texto: Por favor, selecione o grupo para a atribuição do ticket e o botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se o campo justificativa não for preenchido é apresentado um pop-up com o Texto: Por favor, informe uma justificativa para a atribuição do ticket e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela
+        - Se estiver tudo correto e apresentado uma mensagem no final da tela com o texto: Atribuição realizada com sucesso. Botão Ok que volta para a tela do ticket.
+        
+### Reclassificar ticket
+
+1. Quandro clicar em um ticket da lista, irá apresentar a tela com os detalhes dessa requisição. No topo da tela, existe um botão com 3 pontinhos onde serão apresentados as opções do ticket.  
+2. Selecione "Reclassificar Ticket".  
+3. Ao selecionar a opção de reclassificar ticket é aberta uma nova tela com os campos:
+
+- Campo para selecionar portfólio;  
+- Campo para selecionar serviço. A lista só é carregada após a seleção do campo portfólio;  
+- Campo para selecionar atividade. A lista só é carregada após a seleção do campo serviço;  
+- Campo para selecionar contrato. A lista só é carregada após a seleção do campo atividade;  
+- Campo para inserir justificativa.
+
+!!! note "NOTA"
+
+        - Se um dos campos não estiver preenchido, é apresentado um pop-up com o Texto: Atenção! A Atividade e o Contrato devem ser selecionados e o botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se o campo justificativa não for preenchido é apresentado um pop-up com o Texto: Por favor, você deve informar uma justificativa para a Reclassificação do ticket e botão ok. Não permitindo salvar a ação e permanecendo na mesma tela.  
+        - Se estiver tudo correto, é apresentado o pop-up com o Texto: Deseja se manter como responsável pelo ticket? E os Botões Não e Sim. Se o botão Não for selecionado o aplicativo permanece na mesma tela.  
+        - Se o botão Sim for selecionado, é apresentada uma mensagem no final da tela com o texto: Ticket reclassificado com sucesso. Botão Ok que volta para a tela do ticket.
+        
+!!! warning "ATENÇÃO"
+
+        - O grupo do usuário deverá possuir a permissão de reclassificar no fluxo da atividade;  
+        - O ticket a ser reclassificado deverá estar na situação Aberto ou Em Andamento.
+        
 
 
 
