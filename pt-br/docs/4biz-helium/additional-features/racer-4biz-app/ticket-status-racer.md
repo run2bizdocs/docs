@@ -214,6 +214,31 @@ O check-out é o meio utilizado para identificar o encerramento do caminho perco
         - O grupo do usuário deverá possuir a permissão de reclassificar no fluxo da atividade;  
         - O ticket a ser reclassificado deverá estar na situação Aberto ou Em Andamento.
         
+### Reabrir ticket
+
+Caso o ticket já esteja fechado, você terá a opção de reabri-lo através do botão de 3 pontinhos do ticket, onde aparecerá a opção "Reabrir ticket.
+
+!!! note "NOTA"
+
+    - O aplicativo não exibe a opção de reabertura em dois casos: quando o usuário não possui permissão no fluxo para reabrir o ticket e quando o prazo limite para reabertura do chamado estiver expirado.  
+    - O ticket deverá estar fechado.  
+    - Não é permitido reabrir um ticket com situação Cancelado.
+    
+Ao selecionar a opção de reabrir ticket é aberta uma nova tela com:  
+
+- Campo para inserir motivo da reabertura;  
+- Botão de "Reabrir".
+
+!!! note "NOTA"
+
+    - Se o campo não for preenchido é apresentado um Pop-up com o Texto: Você deve informar um motivo para a Reabertura do ticket e botão ok.  
+    - Se estiver tudo correto e apresentado é apresentada uma mensagem no final da tela com o texto: Reabertura realizada. ID 0000. Botão Ok que volta para a tela do ticket.
+    
+### Avaliar atendimento    
+
+
+
+
 
 
 
