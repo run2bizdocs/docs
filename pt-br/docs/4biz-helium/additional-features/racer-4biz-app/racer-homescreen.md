@@ -70,3 +70,11 @@ Já o botão "Disponível para atendimento", você pode marcar ou não para conf
 Antes de iniciar a sessão, será necessário clicar em "Ir para os termos de uso", para você concordar ou não com os nossos termos de segurança. 
 
 Caso concorde com os termos, será apresentado então a opção para entrar no aplicativo, basta clicar em "Entrar".
+
+## Relacionado
+
+[Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
+
+[Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
+
+[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
