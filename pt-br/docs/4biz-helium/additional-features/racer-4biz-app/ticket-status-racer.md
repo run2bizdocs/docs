@@ -236,9 +236,25 @@ Ao selecionar a opção de reabrir ticket é aberta uma nova tela com:
     
 ### Avaliar atendimento    
 
+Caso o ticket já esteja fechado, você pode avaliar o atendimento do serviço requisitado.
 
+!!! note "NOTA"
 
+    - O ticket deverá estar fechado;  
+    - O ticket não poderá ter sido cancelado.
+    
+Existem dois tipos de avaliação de atendimento:  
+1. Padrão – Configurando no serviço x contrato o campo E-mail de Finalização = Solicitação Atendida (ID2 do modelo de e-mail).  
+   - A opção Padrão permite que se reabra o ticket pela pesquisa de satisfação, configurando o parâmetro: 295 - Reabrir Solicitação Pela Pesquisa de Satisfação (Valores possíveis: S ou N, Default: N);  
+   - Configurar o parâmetro 139 - Prazo em dias para responder pesquisa de satisfação referente às solicitações de serviço (Ex.: 7) com a quantidade de dias para responder a pesquisa de satisfação após o encerramento do atendimento.  
+   
+2. Pelo cadastro de pesquisa – Cadastrando uma pesquisa do tipo Atividade/Satisfação e vinculando a pesquisa a uma atividade. O cadastro da pesquisa possui data de finalização, portanto, o parâmetro 139 é desconsiderado nesse caso.    
 
+Ao selecionar a opção de avaliar atendimento é aberta uma nova tela com:  
+-  4 carinhas que representam uma escala de muito insatisfeito até muito satisfeito. As carinhas são do tipo botões para serem selecionados e, ao clicar, cada uma apresenta um nome;  
+- Campo para inserir comentário.  
+    
+Se estiver tudo correto, clique em "Enviar avaliação". A avaliação é enviada e volta para a tela do ticket.  
 
 
 
