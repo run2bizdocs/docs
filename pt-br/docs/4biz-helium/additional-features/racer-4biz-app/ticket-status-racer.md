@@ -258,6 +258,15 @@ Se estiver tudo correto, clique em "Enviar avaliação". A avaliação é enviad
 
 ### Reativar ticket
 
+Caso um ticket esteja suspenso, você pode reativa-lo para poder ralizar as ações normais de um ticket.  
+Para isso, encontre o ticket e aperte no botão com 3 pontinhos e selecione a opção "Reativar ticket".  
+Ao selecionar a opção reativar ticket é apresentado um Pop-up com o Título: R'eativar ticket #00000". Você tem a opção de confirmar ou cancelar a reativação.  
+Uma vez reativado, você terá as ações disponíveis para tratamento da requisição em questão.
+
+
+
+
+
 
 
 
