@@ -104,4 +104,10 @@ No final da página temos então duas opções de aplicar ou não os filtros:
 
 ## Relacionados
 
+[Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
+
+[Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
+
+[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
+
 
