@@ -7,7 +7,7 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 !!! warning "ATENÇÃO"
 
-    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.2.22][2]
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.2.22][3]
 
 Bem-vindos ao 4biz Helium Versão 1.2.22. Esta versão apresenta os seguintes itens:
 
