@@ -264,9 +264,10 @@ Ao selecionar a opção reativar ticket é apresentado um Pop-up com o Título: 
 Uma vez reativado, você terá as ações disponíveis para tratamento da requisição em questão.
 
 
+## Relacionado
 
+[Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
 
+[Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
 
-
-
-
+[Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
