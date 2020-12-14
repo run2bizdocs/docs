@@ -40,6 +40,28 @@ Agora que o Facebook foi configurado, podemos preencher as informações necess�
 
 ### Configuração 4biz
 
+Para acessar a funcionalidade do Omnichannel no 4biz, vá até Menu > Sistema > Configurações > Interações Omnichannel. Clique em “Novo”.  
+Preencher os campos que irão aparecer:
+
+|Campo|	Descrição|
+|-----|----------|
+|Identificador|	Este código o 4biz já traz preenchido, e não pode ser alterado|
+|Nome|	O usuário que for realizar o cadastro poderá colocar qualquer Nome desejado|
+|Canal de interação|	Selecionar o canal de interação desejável. Nesse caso, a opção “Facebook-Messenger”|
+|Unidade default|	Unidade utilizada na criação do colaborador/solicitante do Facebook-Messenger|
+|Grupo default|	Grupo que será configurado o colaborador/solicitante do serviço Facebook-Messenger|
+|Atividade default|	Atividade a ser disponibilizada para a criação de tickets relacionados ao Facebook-Messenger|
+|Origem do contato|	Configurar de onde virá o contato, nesse caso, Facebook|
+|Habilitar interceptação com Helper|	Habilitar esta opção somente quando quiser que o usuário/Solicitante do Facebook-Messenger tenha interação com o chatbot|
+|Token de acesso|	Copiar a informação disponível no próprio Facebook Messenger, conforme apresentado na configuração do Facebook Messenger|
+|Chave secreta do aplicativo|	Copiar a informação disponível no próprio Facebook Messenger, conforme apresentado na configuração do Facebook Messenger|
+|Token de verificação|	O usuário pode colocar qualquer token desejado (nome, número, etc.)|
+|URL de retorno de chamada|	Este campo já vem preenchido pelo 4biz com a URL e não pode ser alterado|  
+
+Caso deseje editar ou excluir uma interação, vá até a página inicial de Interações do Omnichannel, selecione uma das interações existentes para editar, ou clique em “Ações” e selecione a opção “Excluir”.
+
+
+
 
 
 
