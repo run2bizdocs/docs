@@ -47,7 +47,21 @@ Para realizar a integração através de direct message do Twitter é necessári
   !!! note "NOTA"
   
     Note que aparecerá um pop-up com os tokens de acesso para ser copiado, pois, uma vez fechada essa janela, os dados do token de acesso não poderão mais ser visualizados por questões de segurança. Porém, é possível gerar novos tokens clicando em “Regenerate”, só que os tokens antigos serão invalidados.
+    
+10.	Já na aba “Permissions”, clicar em editar para dar o tipo de permissão de acesso para a plataforma, no nosso caso vamos marcar a opção de “Read, write and Direct Message”, na qual o aplicativo terá permissão de ler, escrever e realizar mensagem direta do Twitter.
+11.	Após criar o aplicativo, é necessário criar um ambiente no Tiwtter Developers, para isso clique no seu avatar e vá em “Dev environments”.
 
+  !!! note "NOTA"
+  
+    Para utilizar uma das assinaturas de APIs do Twitter, você precisa configurar um ambiente de desenvolvimento para o endpoint. Todos os pacotes de assinatura de API suportam pelo menos 1 ambiente de desenvolvimento (o número vai depender dos detalhes de seu pacote), que pode ser usado para isolar uso, regras, limites de taxa ou outra forma dentro de seus sistemas.
+
+12.	Para a nossa integração, utilizaremos a opção “Account Activity API/Sandbox”. Clicar em “Set up dev environment” para configurar esse ambiente de desenvolvimento.
+13.	Será apresentada uma tela com os campos para configurar o ambiente:
+
+|Campo|	Descrição|
+|-----|----------|
+|Dev environment label|	Colocar um identificador para o aplicativo|
+|App|	Selecionar o aplicativo que foi criado anteriormente|
 
 
 
