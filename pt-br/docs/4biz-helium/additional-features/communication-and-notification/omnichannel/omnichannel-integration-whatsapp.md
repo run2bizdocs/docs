@@ -56,5 +56,31 @@ O Twilio vai enviar um código de verificação para o celular cadastrado.
     
 ### Configuração 4biz
 
+Acessar o sistema por meio do seguinte caminho: Menu > Sistema > Configurações > Interações Omnichannel. Clique em “Novo”.  
+Preencher os campos que irão aparecer:
+
+|Campo|Descrição|
+|-----|---------|
+|Identificador|	Este código o 4biz já traz preenchido, e não pode ser alterado|
+|Canal de Interação|	Selecionar a opção “Whatsapp Business (Twilio)”.|
+|Nome|	O usuário que for realizar o cadastro poderá colocar qualquer Nome desejado|
+|Unidade default|	Unidade utilizada na criação do colaborador/solicitante do Whatsapp|
+|Grupo default|	Grupo o qual será vinculado o colaborador/solicitante usuário do serviço Whatsapp.|
+|Atividade default|	Atividade a ser disponibilizada para a criação de tickets relacionados ao Whatsapp.|
+|Origem de Contato|	Colocar “Whatsapp”.|
+|Origem de Contato|	Habilitar esta opção somente quando quiser que o usuário/Solicitante do Whatsapp tenha interação com a mesma.|
+|Número|	Colocar o número de telefone principal de contato do Twilio (ex.: +14155238886).|
+|Identificador da Conta (Account Sid)|	Copiar do Whatsapp|
+|Token de Autenticação|	Copiar do Whatsapp.|
+|URL de retorno de chamada|	Este campo o 4biz já traz preenchido com URL, e não pode ser alterado.|
+
+Caso deseje editar ou excluir uma interação, vá até a página inicial de Interações do Omnichannel, selecione uma das interações existentes para editar, ou clique em “Ações” e selecione a opção “Excluir”.  
+
+OBS.: A exclusão realizada é uma exclusão lógica.
+
+
+
+
+
 
 
