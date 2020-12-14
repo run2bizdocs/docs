@@ -609,6 +609,10 @@ nav:
     - Comunicação e notificação:
       - Chat:
         - 4biz-helium/additional-features/communication-and-notification/chat/chat.md
+      - Omnichannel:
+        - 4biz-helium/additional-features/communication-and-notification/omnichannel/omnichannel-integration-facebook.md
+        - 4biz-helium/additional-features/communication-and-notification/omnichannel/omnichannel-integration-twitter.md
+        - 4biz-helium/additional-features/communication-and-notification/omnichannel/omnichannel-integration-whatsapp.md
       - E-mail:
         - 4biz-helium/additional-features/communication-and-notification/email/register-email-notification.md
       - Notificação:
