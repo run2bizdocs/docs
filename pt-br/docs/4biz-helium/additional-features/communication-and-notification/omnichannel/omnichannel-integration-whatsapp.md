@@ -17,3 +17,44 @@ O 4biz disponibiliza então a integração da ferramenta através de diversos ca
 - [x] Ter realizado toda a configuração no Twilio;
 
 ## Procedimento
+
+Para acessar a funcionalidade do Omnichannel no 4biz, vá até Menu > Sistema > Configurações > Interações Omnichannel.  
+Antes de preencher os dados para criação de uma interação Ominichannel no 4biz, é necessário realizar anteriormente a configuração no próprio WhatsApp.
+
+### Configuração WhatsApp (Twilio)
+
+Para realizar a integração do WhatsApp Messenger com o 4biz, é necessário ter uma conta cadastrada no "Twilio".  
+Ao criar a conta, o Twilio vai enviar uma mensagem para o e-mail de quem cadastrou para confirmar o cadastro. Quem está realizando o cadastro deverá colocar o (ddd) e o número do celular o qual será o responsável pela conta e fará contato com o Twilio.  
+O Twilio vai enviar um código de verificação para o celular cadastrado.
+
+1.	O Twilio vai enviar um código de verificação para o celular cadastrado.
+2.	Responder as perguntas na tela de validação
+
+       - Do you write code? – Responder a opção “No”.
+       - What are you here to do? – Selecionar a opção “Skip to dashboard”
+
+3.	No “Console Dashboard” apresentará os campos “ACCOUNT SID” e “AUTH TOKEN” já preenchidos. E estes dois campos serão utilizados no 4biz para o cadastro da Integração Whatsapp.
+4.	Finalizar demais configurações 
+5.	Salvar todas as informações dos Campos pois será necessário utilizá-las para configurar no 4biz:
+          
+       - “ACCOUNT SID” 
+       - “AUTH TOKEN” - para visualizar as informações contidas no campo deverá clicar no “Show”
+
+6.	Clicar em “All products & Services” e fixar a opção “Programmable SMS”
+7.	 Clicar em Whatsapp para abrir um menu abaixo
+8.	Clicar no Menu o Whatsapp na opção “Learn”
+
+  !!! warning "ATENÇÃO"
+  
+    1º - Deverá enviar a seguinte mensagem via Whatsapp para o número de telefone do Twilio para iniciar uma conversa “join pattern-swept”.  
+    2º - O Twilio irá responder com a seguinte mensagem “Twilio Sandbox: ✅ You are all set! The sandbox can now send/receive messages from WhatsApp:+14155238886. Reply stop to leave the sandbox any time.” O número de telefone apresentado na mensagem é o número do Twilio o qual irá gerenciar a comunicação via Whatsapp dos números de telefones cadastrados para conversar como 4biz.
+    
+9.	Na tela ao lado da opção “Learn” verificar se apresenta a seguinte mensagem “Message Received!” após realizar o passo da OBS. Se apresentar significa que está funcionando.
+10.	Clicar no Menu o Whatsapp na opção “Sandbox”;
+11.	No campo “WHEN A MESSAGE COMES IN” - colocar o “URL de retorno de chamada” que se encontra no 4biz. 
+12.	Caso tenham outros números de telefones cadastrados para poder utilizar este mesmo canal serão apresentados em uma listagem “Sandbox Participants”.
+    
+### Configuração 4biz
+
+
+
