@@ -17,3 +17,38 @@ A 4biz disponibiliza então a integração da ferramenta através de diversos ca
 - [x] Ter realizado toda a configuração necessária no Facebook (será apresentada mais adiante no documento)
 
 ## Procedimento
+
+Para acessar a funcionalidade do Omnichannel no 4biz, vá até Menu > Sistema > Configurações > Interações Omnichannel. Será apresentada a tela com os filtros para pesquisar pelas interações e a lista de interações já presentes na ferramenta.  
+Antes de preencher os dados para criação de uma interação Omnichannel no 4biz, é necessário realizar anteriormente a configuração no próprio Facebook Messenger.
+
+### Configuração Facebook Messenger
+
+Os pré-requisitos para configurar o Facebook Messenger são:
+
+1.	Ter um Facebook developers criado.
+2.	Criar um Aplicativo no Facebook developers.
+3.	Criar uma página e vincular ao aplicativo do Facebook developers.
+4.	A opção de edição somente aparece depois de colocar o “URL de retorno de chamada” e de “verificar o Token” na primeira vez. No painel Webhooks vá até a página e clique em “Editar” para editar assinaturas. Depois selecione as opções “messages” e “messaging_postbacks” para permitir a comunicação da página via Messenger com o 4biz.  
+
+Após realizar a configuração, será possível então acessar as informações que serão utilizadas na ferramenta para efetuar a comunicação.
+
+- Para ter acesso à “Chave Secreta do Aplicativo” que será preenchida no 4biz, vá até o Facebook developers e acesse: Menu > Configurações > Básico. No campo Chave Secreta do Aplicativo” clicar no botão “Mostrar” para copiar e colar no campo respectivo na ferramenta.
+- Para ter acesso ao “Token de Acesso” que será preenchida no 4biz, vá até o Facebook developers e acesse: Menu > Messenger > Configurações. No painel “Token de acesso” onde está a página criada clique em “Gerar Token”.
+- Para colocar a URL, vá até o Facebook developers e acesse: Menu > Messenger > Configurações. No painel Webhooks clique em “Editar URL de retorno”, e preencha os campos com os dados descritos no 4biz nos campos “URL de retorno de chamada” e “Token de verificação”.
+
+Agora que o Facebook foi configurado, podemos preencher as informações necessárias no 4biz.
+
+### Configuração 4biz
+
+
+
+
+
+
+
+
+
+
+
+
+
