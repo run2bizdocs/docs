@@ -63,7 +63,31 @@ Para realizar a integração através de direct message do Twitter é necessári
 |Dev environment label|	Colocar um identificador para o aplicativo|
 |App|	Selecionar o aplicativo que foi criado anteriormente|
 
+Após preencher os campos, será apresentado na tela de ambientes a descrição do aplicativo que acabamos de configurar, sendo também possível de deletar esse ambiente.
 
+### Configuração 4biz
+
+Para acessar a funcionalidade do Omnichannel no 4biz, vá até Menu > Sistema > Configurações > Interações Omnichannel. Clique em “Novo”.  
+Preencher os campos que irão aparecer:
+
+|Campo|	Descrição|
+|-----|----------|
+|Identificador|	Este código o 4biz já traz preenchido, e não pode ser alterado|
+|Nome|	O usuário que for realizar o cadastro poderá colocar qualquer Nome desejado|
+|Canal de interação|	Selecionar o canal de interação desejável. Nesse caso, a opção “Twitter Direct Message”|
+|Unidade default|	Unidade utilizada na criação do colaborador/solicitante do Twitter Direct Message|
+|Grupo default|	Grupo que será configurado o colaborador/solicitante do serviço Twitter Direct Message|
+|Atividade default|	Atividade a ser disponibilizada para a criação de tickets relacionados ao Twitter Direct Message|
+|Origem do contato|	Configurar de onde virá o contato, nesse caso, Twitter|
+|Habilitar interceptação com Helper|	Habilitar esta opção somente quando quiser que o usuário/Solicitante do Twitter Direct Message tenha interação com o chatbot|
+|Ambiente de desenvolvimento|	É o nome do ambiente que foi configurado no campo “Dev environment label” do Twitter Developer|
+|Chave da API|	A chave gerada no próprio Twitter Developer na aba “Keys and tokens”, o campo “API key”|
+|Chave secreta da API|	A chave secreta gerada no próprio Twitter Developer na aba “Keys and tokens”, o campo “API secret key”|
+|Token de acesso|	O token gerado no próprio Twitter Developer na aba “”Keys and tokens”, o campo “Access token”|
+|Segredo do token de acesso|	O token secreto gerado no próprio Twitter Developer na aba “”Keys and tokens”, o campo “Access token secret”|
+|URL de retorno de chamada|	O domínio da aplicação que irá receber os chamados provenientes do Twitter|
+
+Caso deseje editar ou excluir uma interação, vá até a página inicial de Interações do Omnichannel, selecione uma das interações existentes para editar, ou clique em “Ações” e selecione a opção “Excluir”.
 
 
 
