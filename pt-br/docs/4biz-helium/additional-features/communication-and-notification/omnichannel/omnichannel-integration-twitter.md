@@ -17,3 +17,44 @@ A 4biz disponibiliza então a integração da ferramenta através de diversos ca
 - [x] Ter realizado toda a configuração necessária no Twitter developer (será apresentada mais adiante no documento)
 
 ## Procedimento
+
+Para acessar a funcionalidade do Omnichannel no 4biz, vá até Menu > Sistema > Configurações > Interações Omnichannel. Será apresentada a tela com os filtros para pesquisar pelas interações e a lista de interações já presentes na ferramenta.  
+Antes de preencher os dados para criação de uma interação Omnichannel no 4biz, é necessário realizar anteriormente a configuração no próprio Twitter Developer.  
+
+### Configuração Twitter Developer
+
+Para realizar a integração através de direct message do Twitter é necessário utilizar o site Twitter Developer (develloper.twitter.com), pois, é ele que irá apresentar as informações que iremos utilizar na configuração do 4biz. Para criar uma conta no Twitter Developer é preciso ter primeiramente uma conta cadastrada no Twitter (twitter.com). Criado as contas, vamos seguir os seguintes passos:  
+
+1.	No primeiro acesso, o Twitter Developer vai pedir que descreva a razão para sua utilização, marque a que achar mais conveniente para você. Além disso, também irá pedir que você valide seus dados.
+2.	O Twitter Developer ainda pede que você responda, em inglês, como você pretende utilizar a API deles. Recomendamos deixar configurado como sim e preencher apenas as opções: “In English, please describe how you plan to use Twitter data and/or APIs. The more detailed the response, the easier it is to review and approve.” e “Will you app use Tweet, Retweet, like, follow or Direct Message functionality?”.
+3.	Depois que submeter suas respostas, o twitter enviará um e-mail para confirmar seus dados. Entre novamente na sua conta, clique no seu avatar e depois vá em “Apps”.
+4.	Na página de Apps, clicar em “Create new app” para criar um novo app.
+5.	Preencher os campos necessários:
+
+|Campo|Descrição|
+|-----|---------|
+|App name (obrigatório)|	Dar um nome para o aplicativo|
+|Application description (obrigatório)|	Descreva o aplicativo sendo criado|
+|Website URL (obrigatório)|	Colocar a URL do seu domínio|
+|Enable sign in with Twitter|	Clicar caso deseje permitir que este aplicativo seja usado para fazer login com o Twitter. Recomendado não marcar|
+|Tell us how this app will be used|	Descrever para o próprio Twitter Developer o propósito desse aplicativo e como será utilizado pelo cliente|  
+
+6.	Após criado o aplicativo, será direcionado para a página de informações desse app. A primeira aba “App details” mostra os campos que foram preenchidos na criação do aplicativo.
+7.	Na aba “Keys and tokens”, é possível gerenciar as chaves, chaves secretas e tokens de acesso do aplicativo.
+8.	Em “Consumer API Keys” será apresentada a chave e a chave secreta da API que serão utilizadas para configurar o Omnichannel no 4biz.
+9.	Para gerar tokens de acesso e tokens de acesso secreto, clicar em “Generate” em “Access token & access token secret”. Esses tokens serão utilizados para configurar o Omnichannel no 4biz. 
+
+  !!! note "NOTA"
+  
+    Note que aparecerá um pop-up com os tokens de acesso para ser copiado, pois, uma vez fechada essa janela, os dados do token de acesso não poderão mais ser visualizados por questões de segurança. Porém, é possível gerar novos tokens clicando em “Regenerate”, só que os tokens antigos serão invalidados.
+
+
+
+
+
+
+
+
+
+
+
