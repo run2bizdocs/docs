@@ -1,14 +1,14 @@
 title:  Registrar plantilla de ticket 
 Description: Tiene el objetivo de habilitar algunas funcionalidades en la pantalla de solicitud de servicio (ticket).
-# Registrar plantilla de ticket
+# Registrar plantilla de ticket/cambio
 
 Esta funcionalidad tiene el objetivo de habilitar algunas funcionalidades en la pantalla de solicitud de servicio (ticket).
-Esta funcionalidad ofrece acciones diversas, tales como, incluir, cambiar y borrar plantilla de ticket.
+Esta funcionalidad ofrece acciones diversas, tales como, incluir, cambiar y borrar plantilla de ticket/cambio.
 
 Antes de empezar
 ----------------
 
-La plantilla de ticket del tipo Cuestionario requiere el registro de un
+La plantilla de ticket/cambio del tipo Cuestionario requiere el registro de un
 cuestionario previamente.
 
 La plantilla de ticket del tipo Builder requiere el registro previo de un
@@ -17,7 +17,7 @@ formulario del tipo **Builder** previamente.
 Procedimiento
 -------------
 
-1.  Acceder al menú principal Sistema \> Plantilla de Ticket;
+1.  Acceder al menú principal Sistema \> Plantilla de Ticket/Cambio;
 
 2.  Hacer clic en "Nuevo";
 
@@ -63,6 +63,36 @@ Procedimiento
     **versión** del formulario haciendo clic en el botón *Versión específica del
     formulario*. Las reglas del template del tipo Cuestionario son válidas para
     la plantilla del tipo Builder.
+
+4. Identifique la plantilla mediante el campo "Identificación de la plantilla";
+
+5. Asigne un nombre a la plantilla mediante el campo "Nombre de la plantilla";
+
+6. Seleccione las casillas de verificación disponibles para las plantillas:
+
+    - Aplicable al Ticket;
+    - Habilita direccionamiento;
+    - Habilita estado;
+    - Habilita elemento de configuração;
+    - Habilita cambio;
+    - Habilita problema;    
+    - Habilita la solución;    
+    - Habilita solicitud relacionada;
+    - Habilita botón para guardar y continuar.
+
+!!! abstract "NOTA"
+
+    Al seleccionar la casilla de verificación "Aplicable al ticket", este campo el usuario entiende que su tipo de plantilla es aplicable solo al ticket.
+    
+!!! abstract "NOTA"
+ 
+    Al seleccionar el tipo de plantilla "Builder", se mostrará el nuevo campo de tipo de casilla de verificación con el texto: "Aplicable al cambio". Al seleccionar este campo, el usuario entiende que su tipo de plantilla es aplicable solo al Cambio.
+    
+!!! warning "ATENCIÓN"    
+
+    En el caso de plantillas tipo "Builder", el usuario puede informar que la plantilla se utilizará tanto para ticket como para cambio.
+
+
 
 Relacionado
 -----------
