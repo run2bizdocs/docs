@@ -20,61 +20,56 @@ Em Meus Tickets temos a opção de "Filtrar por situação do ticket", onde ser�
 Ao selecionar os tickets em andamento, é apresentada uma lista com os tickets nessa situação e composto por:  
   
 1. Tipo de demanda. Que pode ser: requisição, incidente ou procedimento;
-2. O nome do ticket;
+2. A descrição da atividade do ticket aberto;
 3. O número do ticket;
 4. A situação do ticket. Ex: Em progresso;
 5. Se ele está dentro do prazo;
 6. A descrição da tarefa de fluxo. Ex: Em atendimento;
-7. O número do ticket;
-8. O nome da prioridade atribuída ao ticket. Ex: alto;
+7. A descrição da prioridade atribuída ao ticket. Ex: alto.
     
 ### Fechado  
 Ao selecionar os tickets fechados, é apresentado uma lista com os tickets nessa situação e composto por:
 
 1. Tipo de demanda. Que pode ser: requisição, incidente ou procedimento;
-2. O nome do ticket;
+2. A descrição da atividade do ticket aberto;
 3. O número do ticket;
 4. A situação do ticket, que sempre fechada;
 5. Se ele está dentro do prazo;
 6. A descrição da tarefa de fluxo. Ex: Em atendimento;
-7. O número do ticket;
-8. O nome da prioridade atribuída ao ticket. Ex: alto.
+7. A descrição da prioridade atribuída ao ticket. Ex: alto.
     
 ### Cancelado  
 Ao selecionar os tickets cancelados, é apresentado uma lista com os tickets nessa situação e composto por:
 
 1. Tipo de demanda. Que pode ser: requisição, incidente ou procedimento;
-2. O nome do ticket;
+2. A descrição da atividade do ticket aberto;
 3. O número do ticket;
 4. A situação do ticket, que sempre cancelada;
 5. Se ele está dentro do prazo;
 6. A descrição da tarefa de fluxo. Ex: Em atendimento;
-7. O número do ticket;
-8. O nome da prioridade atribuída ao ticket. Ex: alto.
+7. A descrição da prioridade atribuída ao ticket. Ex: alto.
     
 ### Suspenso  
 Ao selecionar os tickets suspensos, é apresentado uma lista com os tickets nessa situação e composto por:  
 
 1. Tipo de demanda. Que pode ser: requisição, incidente ou procedimento;
-2. O nome do ticket;
+2. A descrição da atividade do ticket aberto;
 3. O número do ticket;
 4. A situação do ticket, que sempre suspenso;
 5. Se ele está dentro do prazo;
 6. A descrição da tarefa de fluxo. Ex: Em atendimento;
-7. O número do ticket;
-8. O nome da prioridade atribuída ao ticket. Ex: alto.
+7. A descrição da prioridade atribuída ao ticket. Ex: alto.
     
 ### Resolvido  
 Ao selecionar os tickets resolvidos, é apresentado uma lista com os tickets nessa situação e composto por:
 
 1. Tipo de demanda. Que pode ser: requisição, incidente ou procedimento;
-2. O nome do ticket;
+2. A descrição da atividade do ticket aberto;
 3. O número do ticket;
 4. A situação do ticket, que sempre resolvido;
 5. Se ele está dentro do prazo;
 6. A descrição da tarefa de fluxo. Ex: Em atendimento;
-7. O número do ticket;
-8. O nome da prioridade atribuída ao ticket. Ex: alto;
+7. A descrição da prioridade atribuída ao ticket. Ex: alto.
 
 No final da página temos então duas opções de aplicar ou não os filtros:
 
