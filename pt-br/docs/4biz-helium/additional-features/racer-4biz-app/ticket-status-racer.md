@@ -139,9 +139,58 @@ Ao acessar um ticket, você terá acesso a todos os detalhes, ações e informa�
         - Caso o ticket não tenha nenhum conhecimento vinculado, será presentada a mensagem: O ticket selecionado não tem nenhum conhecimento vinculado a ele. E o Botão OK.
         - Será apresentado o Título: Base de Conhecimentos e uma lista com os conhecimentos. Cada item da lista terá: O autor; O nome do conhecimento; A descrição do conhecimento; Um botão para Vincular o vincular o conhecimento, caso ele não esteja vinculado ao ticket; Um símbolo de vinculado e um botão de Desvincular, caso ele esteja vinculado ao ticket.
 
+15. Portfólio de serviços e contrato. Ao ser selecionado é aberta uma tela com seta para voltar, com o Título: Portfólio/contrato e as seguintes informações:
 
+        - Uma caixa com o Título: Portfólio e o nome do portfólio;
+        - Uma caixa com o Título: Serviço e o nome do serviço;
+        - Uma caixa com o Título: Atividade e o nome da atividade;
+        - Uma caixa com o Título: Contrato e a descrição do contrato;
 
+16. Comentários. Ao ser selecionado é aberta uma tela com seta para voltar com o Título: Comentários e as seguintes informações:
 
+    1. Caso não haja nenhum comentário será exibida a seguinte mensagem: Não há comentário e o botão Ok;
+    
+       Na tela será exibida e mensagem: Não há nenhum comentário na lista e um botão: Adicionar comentário. Ao selecionar o botão, Será aberta uma nova tela com seta para voltar, Título Adicionar comentário e as seguintes informações:
+       
+           - Chave para selecionar se o campo é Público;
+           - Ao selecionar essa opção, o autor do comentário permite a visualização por parte do solicitante;
+           - Chave para selecionar se é para enviar o comentário por e-mail;
+           - O envio de e-mail depende da correta parametrização da aplicação;
+           - Caixa para digitar o comentário;
+           - Título: Lançar horas (opcional);
+           - Campo para selecionar a data, que abre um calendário;
+           - Campo para digitar a hora;
+           - Botão Enviar;
+            Se o campo comentário não for preenchido é exibida uma mensagem: Você deve informar uma descrição para o comentário. E o botão Ok.
+            Se tudo estiver correto o comentário é adicionado e apresentada a mensagem: Comentário enviado com sucesso. E o botão Ok que retorna para a tela anterior; 
+
+    2. Caso haja comentário, será exibida a lista de comentários da seguinte maneira:  
+    
+           - Nome do autor do comentário;
+           - O comentário;
+           - Data e hora do comentário;
+           - Botão Responder, que abre a mesma tele de adicionar comentário;
+           - Botão 3 pontinhos, com as opções de editar(abre a mesma tela de adicionar comentário, mas com as informações do comentário preenchidas) e excluir comentário (apresenta uma mensagem: Tem certeza de que deseja excluir este comentário? E uma opção para Cancelar e outra para Confirmar); 
+           - Botão com sinal +, que abre a tela de adicionar comentário;
+           
+17. Histórico do Ticket. Ao ser selecionado é aberta uma tela com seta para voltar, Título: Histórico do ticket e uma lista com as seguintes informações:
+
+        - Data da alteração;
+        - Nome de quem fez a alteração;
+        - Hora da alteração;
+        - Ip da máquina que fez a alteração;
+        - A ação que foi executada na alteração;
+        - O detalhamento da alteração;
+
+18. Ação. Ao ser selecionado é aberta uma tela com seta para voltar, Título: Ação e as seguintes informações:
+
+    1. Campo para selecionar a Ação, que pode ser: Aprovar Ticket ou Recusar Ticket;
+    
+           - As ações apresentadas dependem do desenho de fluxo determinado para a atividade criada.
+           
+19. Título: Direcionar para Grupo, seguido de um campo para seleção com o Título: Selecionar grupo, que ao ser selecionada apresenta uma lista com todos os grupos cadastrados;
+20. Botão: Salvar e Sair, que ser selecionado apresenta um caixa com o Título: Deseja salvar e sair?, a Mensagem: Todas as alterações serão salvas e você retornará para a tela de listagem. E os botões Voltar e Salvar e Sair;
+21. Botão: Salvar e Avançar, que ao ser selecionado apresenta um caixa com o Título: Sucesso, a Mensagem: Avançado para a próxima fase e o botão OK.
 
 
 ## Trabalhando no ticket
