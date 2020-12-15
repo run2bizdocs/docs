@@ -1,5 +1,5 @@
-title: Register ticket template
-Description: This feature provides a variety of actions, such as including, changing, and deleting ticket template. 
+title: Register ticket/change template
+Description: This feature provides a variety of actions, such as including, changing, and deleting ticket/change template. 
 
 # Register ticket template
 
@@ -7,13 +7,13 @@ This feature allows the manager to add, change and delete ticket templates.
 
 ## Before getting started
 
-The Questionnaire type ticket template, requires the previous registration of a questionnaire.
+The Questionnaire type ticket/change template, requires the previous registration of a questionnaire.
 
-The Builder type ticket template, requires the previous registration of Builder form.
+The Builder type ticket/change template, requires the previous registration of Builder form.
 
 ## Procedure
 
-1.	Access the functionality through the main menu System > Ticket Template;
+1.	Access the functionality through the main menu System > Ticket/Change Template;
 2.	Click on "New";
 3.	The type of template selected will define the fields to fill:
 
@@ -23,7 +23,33 @@ The Builder type ticket template, requires the previous registration of Builder 
     
     •	Builder: When this option is selected, the Builder form link field and Builder page are made available. You can also select the version of the form by clicking the "Specific Version" button on the form. The template rules of the Questionnaire type are also valid for the Builder type template.
 
+4. Identify the template using the "Identification of the service request template" field;
 
+5. Name the template using the "Template name" field;
+
+6. Select the checkboxes available for the templates:
+
+    - Applicable to Ticket;
+    - Enable targeting;
+    - Enable status;
+    - Enable configuration item;
+    - Enable change;
+    - Enable problem;    
+    - Enable solution;    
+    - Enable related request;
+    - Enable button of save and continue.
+
+!!! abstract "NOTE"
+
+    When selecting the "Applicable to Ticket" checkbox, the user understands that the type of template is applicable only to the ticket.
+    
+!!! abstract "NOTE"
+ 
+    When selecting the "Builder" Template Type, the new checkbox type field will be displayed with the text: "Applicable to Change". When selecting this field the user understands that the type of template is applicable only to the Change.
+    
+!!! warning "ATTENTION"    
+
+    In the case of "Builder" type templates, the user can inform that the template will be used for both tickets and changes.
 
 
 
