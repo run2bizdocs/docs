@@ -75,6 +75,77 @@ O administrador deverá habilitar os seguintes parâmetros para receber notifica
 
 ## Procedimento
 
+Abra o aplicativo Racer4biz no celular. Faça Login no aplicativo e acesse os tickets.
+
+### Detalhes do ticket
+
+Ao acessar um ticket, você terá acesso a todos os detalhes, ações e informações para o ticket escolhido. Temos como informações o seguinte:
+
+1. Um Símbolo informando o tipo do ticket;	
+2. A situação do ticket;
+3. A Prioridade do ticket;
+4. A tarefa do ticket;
+5. O grupo atual do ticket;
+6. O SLA do ticket;
+7. O tempo limite para a entrega do ticket;
+8. O solicitante do Ticket. Exibido com o seu avatar, o seu nome e o seu telefone. Ao selecionar o solicitante é aberta uma tela com uma seta para voltar e as seguintes informações:
+
+       - O avatar do solicitante;
+       - O nome do solicitante;
+       - O Símbolo e o nome chamada, que ao ser selecionado redireciona o celular para realizar uma chamada para o número cadastrado;
+       - O Símbolo e o nome Mensagem, que ao ser selecionado redireciona o celular para enviar uma mensagem para o número cadastrado;
+       - O Símbolo e o nome E-mail, que ao ser selecionado redireciona o celular para enviar um E-mail para o e-mail cadastrado;
+       - O Telefone do solicitante;
+       - O e-mail do solicitante;
+       - O endereço do solicitante.
+
+9. O responsável do Ticket. Exibido com o seu avatar, o seu nome e o seu telefone. Ao selecionar o responsável é aberta uma tela com uma seta para voltar e as seguintes informações:
+
+       - O avatar do responsável;
+       - O nome do responsável;
+       - O Símbolo e o nome chamada, que ao ser selecionado redireciona o celular para realizar uma chamada para o número cadastrado;
+       - O Símbolo e o nome Mensagem, que ao ser selecionado redireciona o celular para enviar uma mensagem para o número cadastrado;
+       - O Símbolo e o nome E-mail, que ao ser selecionado redireciona o celular para enviar um E-mail para o e-mail cadastrado;
+       - O Telefone do responsável;
+       - O e-mail do responsável;
+       - O endereço do responsável.
+
+10. A descrição do ticket;
+11. Local de destino: Apresenta o nome do local seguido de um mapa com a localização da unidade do solicitante do ticket;
+12. Formulário de acompanhamento: Ao ser selecionado é aberta uma tela com uma seta para voltar com o Título: Questionário e o número do ticket aberto. A existência de um questionário será definida pelo administrador na aplicação através da configuração de portfólio ou do fluxo. Caso haja formulário as perguntas serão definidas pelo administrador do contrato e preenchidas durante o atendimento do ticket;
+
+        - Respostas do formulário de criação: Essa função poderá conter as respostas do formulário de criação.
+
+13. Anexo. Ao ser selecionado é aberta uma tela com uma seta para voltar com o Título: Anexos.
+
+    !!! note "NOTE"
+    
+        Caso ainda não haja nenhum anexo inserido no ticket:  
+        
+            - Será apresentada uma mensagem: Nenhum anexo foi adicionado;
+            - Um botão Adicionar anexo. Que ao ser selecionado abre uma opção para selecionar o arquivo desejado no celular. Ao selecionar o arquivo é apresentada a mensagem: Novo Anexo adicionado com sucesso! E o Botão de Ok.
+            
+        Caso haja anexo adicionado no ticket:
+        
+            - O aplicativo apresentará a quantidade de anexos;
+            - Ao selecionar a aba Anexos será apresentado o nome do anexo;
+            - Um botão com 3 pontinhos que ao ser selecionado apresenta a opção excluir anexo, que ao ser selecionada apresenta uma janela com o Título Excluir anexo, a mensagem Tem certeza de que deseja excluir este documento em anexo?, o botão cancelar (que retorna para a tela anterior) e o botão confirmar (que remova o anexo do ticket).
+            
+            
+14. Artigos de conhecimento. Ao ser selecionado é aberta uma tela com seta para voltar com o Título: Conhecimento e uma Lupa que ao ser selecionada abre um campo de pesquisar que possibilita digitar o nome a ser pesquisado na base de conhecimento.
+
+        - A pesquisa é feita pelo título do anexo ou parte do conteúdo do conhecimento;
+        - Para que o aplicativo liste corretamente os conhecimentos garanta que a indexação da base de conhecimento esteja atualizada na aplicação;
+        - Caso o ticket não tenha nenhum conhecimento vinculado, será presentada a mensagem: O ticket selecionado não tem nenhum conhecimento vinculado a ele. E o Botão OK.
+        - Será apresentado o Título: Base de Conhecimentos e uma lista com os conhecimentos. Cada item da lista terá: O autor; O nome do conhecimento; A descrição do conhecimento; Um botão para Vincular o vincular o conhecimento, caso ele não esteja vinculado ao ticket; Um símbolo de vinculado e um botão de Desvincular, caso ele esteja vinculado ao ticket.
+
+
+
+
+
+
+## Trabalhando no ticket
+
 Para acessarmos as possibilidades de ações dentro de um ticket no aplicativo, vamos selecionar um dos tickets na fila. Para as ações a seguir iremos abordar o caso de um ticket **em andamento**.
 
 ### Capturar ticket
