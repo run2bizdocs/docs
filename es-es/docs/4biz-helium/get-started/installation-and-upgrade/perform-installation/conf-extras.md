@@ -2,7 +2,13 @@ Title: Configuraciones extras de 4biz
 
 # Configuraciones extras de 4biz
 
-Cree un archivo llamado citsmart.cfg en /opt/wildfly/standalone/configuration/ con la información a continuación:
+Desde la versión Helium 1.2.19, el archivo CITSMART.CFG pasa a llamarse "application.ini" y debe seguir las siguientes pautas:  
+
+1. La actualización de la tabla solo ocurrirá cuando el parámetro LOAD_FACTSERVICEREQUESTRULES de APPLICATION.INI tenga el valor TRUE. En ausencia de esta configuración en el archivo, el sistema asume el valor FALSE para el parámetro. Es decir, el valor predeterminado es NO actualizar la tabla;  
+2. Si hay una programación relacionada con una regla de escalamiento de tickets y el parámetro LOAD_FACTSERVICEREQUESTRULES tiene el valor FALSE, el sistema emite la alerta en el LOG: El sistema no puede comenzar a procesar las reglas de escalamiento porque la propiedad LOAD_FACTSERVICEREQUESTRULES (archivo de configuración) es igual a FALSE;  
+3. NUEVOS PARÁMETROS PARA APLICACIÓN.INI: Para activar updateParameters, opción para sincronizar los valores de los parámetros en la memoria, en un ambiente agrupado; debemos agregar en el archivo application.ini la siguiente configuración: UPDATEPARAMETERS_PORT =<número de puerto a utilizar> ejemplo: UPDATEPARAMETERS_PORT=2002.
+
+Cree un archivo llamado application.ini en /opt/wildfly/standalone/configuration/ con la información a continuación:
 
 ``` shell
 START_MONITORA_INCIDENTES=FALSE
@@ -20,12 +26,12 @@ INICIAR_PROCESSAMENTOS_BATCH=TRUE
 Dar permiso de usuario wildfly para este archivo:
 
 ``` shell
-[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/citsmart.cfg
+[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 ```
 
 !!! note
 
-	En el archivo citsmart.cfg, el valor predeterminado es TRUE (incluso si no está configurado),es decir, si esta opción no existe en el archivo, el sistema usará el valor TRUE para esta propiedad. Establecido en TRUE, habilita el Thread que actualiza la tabla de hechos de solicitud de servicio al inicio del sistema. Establecido en FALSE, la actualización ocurrirá solo después de agregar o cambiar la solicitud de servicio.
+	En el archivo application.ini, el valor predeterminado es TRUE (incluso si no está configurado),es decir, si esta opción no existe en el archivo, el sistema usará el valor TRUE para esta propiedad. Establecido en TRUE, habilita el Thread que actualiza la tabla de hechos de solicitud de servicio al inicio del sistema. Establecido en FALSE, la actualización ocurrirá solo después de agregar o cambiar la solicitud de servicio.
 
 
 ## Configuración de Quartz
