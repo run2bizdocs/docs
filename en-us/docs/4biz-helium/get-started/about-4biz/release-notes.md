@@ -3,6 +3,27 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 1.2.22 (2020/12/03)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [4biz Helium guide version 1.2.22][3]
+
+Welcome to 4biz Helium Version 1.2.22. This version presents the following items:
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10176|Correction|Lookup component correction|
+|Incident 5800|Correction|Error correction when limiting a select with TOP command|
+
+Welcome to Builder 1.3.6.1
+
+The version presented has the following correction(s):
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10476|Correction|[My 5802] - Builder side menus not working properly|
+
 ## Version Helium 1.2.13 (2020/11/03)
 
 !!! warning "ATTENTION"
@@ -147,3 +168,4 @@ Welcome to 4biz Helium Version 1.0.2. This version presents the following items:
 |4818|Corrective|Time of Service|Correction in scheduling an activity to link to the registered SLA|
 
 [2]:/en-us/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
+[3]:/en-us/4biz-helium/get-started/about-4biz/Guidance-about-version-4biz-helium1.2.22.zip
