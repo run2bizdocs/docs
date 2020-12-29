@@ -117,6 +117,14 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do 4biz logo
 systemctl restart wildfly
 ```
 
+## Configurando Firebase
+
+1. O arquivo a seguir tem a função de permitir a comunicação da aplicação com o aplicativo com mensageria via Push sempre que um novo ticket for criado, suspenso, reativo, reclassificado ou encerrado;  
+
+2. Para isso deverá ser colocado em uma das pastas do repositório do 4biz.  
+
+3. Após subir o pacote salve o caminho para utilizá-lo conforme orientado em: Configurando o servidor de aplicação
+
 ## Próximo passo
 
 [Configurando o Datasource e Drives de banco][1]
