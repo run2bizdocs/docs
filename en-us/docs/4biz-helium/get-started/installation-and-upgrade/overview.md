@@ -2,6 +2,10 @@ Title: Installation overview
 
 # Instalation overview
 
+!!! warning "ATTENTION"
+
+     After installing all software components, change all default installation passwords. Do not under any circumstances keep any default password. Maintain the routine of periodic password changes for administrator users and other users.
+
 Before starting the installation, it's necessary to understand all packages and components for the platform operation. Each component is responsible for a specific functionality to support the Platform, functionalities and ITIL Process.
 
 * **4biz Enterprise Platform**: Package “WAR “(web application archive java) to be run under the wildfly application server. Mandatory in all scenarios.
