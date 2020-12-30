@@ -17,7 +17,7 @@ cadastrar o modelo de e-mail com o modelo "Aguardando Aprovação" que se encont
 em anexo e o servidor de e-mail deverá ser configurado com todos os parâmetros
 referentes a regras de parametrização de e-mail.
 
-!!! Abstract "ATENÇÃO"
+!!! Warning "ATENÇÃO"
 
     A aprovação de ticket via e-mail será possível apenas com os seguintes 
     navegadores configurados como padrão: Mozilla Firefox, 
@@ -64,8 +64,12 @@ Procedimento
     -   MM (50) - Tempo de expiração do token em Minutos : esse campo pode ser
         alterado pelo usuário;
 
-1.  Clicar em "Gravar".
+3.  Clicar em "Gravar".
 
+!!! warning "ATENÇÃO"
+
+    O sistema de aprovação de ticket via e-mail aceita um prazo máximo de **35791 nos parâmetros de tempo, caso o usuário ultrapasse esse limite, a configuração é setada automaticamente em 2horas, ou 120 minutos.**
+    
 
 Relacionado
 -------
