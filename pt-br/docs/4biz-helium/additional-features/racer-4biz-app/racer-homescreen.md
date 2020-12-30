@@ -78,3 +78,5 @@ Caso concorde com os termos, será apresentado então a opção para entrar no a
 [Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
 
 [Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
+
+[Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
