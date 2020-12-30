@@ -391,3 +391,5 @@ Uma vez reativado, você terá as ações disponíveis para tratamento da requis
 [Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
 
 [Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
+
+[Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
