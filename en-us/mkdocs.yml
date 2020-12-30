@@ -321,6 +321,7 @@ nav:
         - 4biz-helium/processes/tickets/configuration/create-ticket-receiving-email.md
       - Approval Ticket:
         - 4biz-helium/processes/tickets/use/approve-a-ticket.md
+        - 4biz-helium/processes/tickets/configuration/approve-request-via-email.md
       - Attending Ticket:
         - Capture Ticket:
           - 4biz-helium/processes/tickets/use/capture-ticket.md
@@ -359,7 +360,6 @@ nav:
       - Configuration:
         - 4biz-helium/processes/tickets/configuration/access-ticket-management.md
         - 4biz-helium/processes/tickets/use/register-ticket-source.md
-        - 4biz-helium/processes/tickets/configuration/approve-request-via-email.md
         - 4biz-helium/processes/tickets/configuration/create-template-of-ticket.md
         - 4biz-helium/processes/tickets/configuration/notification-delegated-email-ticket.md
         - 4biz-helium/processes/tickets/configuration/relate-group-to-contract.md
