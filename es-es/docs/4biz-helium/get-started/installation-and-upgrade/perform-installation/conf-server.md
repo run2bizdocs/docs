@@ -127,6 +127,30 @@ Y edite el archivo stantalone-full.xml e incluya la configuración XML 4biz just
 
 3. Después de cargar el paquete, guarde la ruta para usarlo como se indica en: Configuración del servidor de aplicaciones.
 
+## Configuración de Mensaje
+
+1. Las configuraciones del servidor de aplicaciones se pueden realizar de dos formas: a través de jboss-cli o editando el archivo xml. No hay diferencia técnica en ninguna de las opciones y la elección depende de cada administrador.
+
+2. Conéctese a jboss-cli (asumiendo que el servidor se está ejecutando) ejecutando el siguiente comando:
+
+	1. Donde en el archivo independiente en <jms-queue> incluir una nueva línea:
+
+	``` xml
+	<jms-queue name="advancedSearch" entries="queue/advancedSearch 	    java:jboss/exported/jms/queue/queue/advancedSearch"/>
+      Llenar según el ejemplo:
+      <!-- resto del código omitido -->
+      <subsystem xmlns="urn:jboss:domain:messaging-activemq:3.0">
+            <server name="default">
+                  <!-- resto del código omitido -->
+    <jms-queue name="advancedSearch"   
+         entries="queue/advancedSearch   
+         java:jboss/exported/jms/queue/queue/advancedSearch" />
+                                               <!-- resto del código omitido -->
+            </server>
+      </subsystem>
+      <!-- resto del código omitido -->
+      ```
+
 ## Próximo paso
 
 [Configurando el Datasource y Drives de base][1]
