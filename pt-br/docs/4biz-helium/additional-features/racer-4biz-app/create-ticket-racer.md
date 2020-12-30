@@ -64,7 +64,13 @@ Preencha os campos necessários para descrever a requisição do ticket:
 Por fim, aparecerá um botão de "Finalizar" para confirmar a criação do ticket. Ao clicar nesse botão aparecerá a mensagem: "Ticket xxxx criado com sucesso" e um botão ok.
 
 
+## Relacionados
 
+[Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
+
+[Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
+
+[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
 
 
 
