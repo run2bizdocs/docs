@@ -38,6 +38,35 @@ Preencha os campos necessários para identificação do usuário que está crian
 
 Após preencher os campos, clique em "Avançar Etapa" para avançar para a segunda página e etapa do processo de criação.
 
+### Segunda etapa - Identificação do serviço
+
+Preencha os campos necessários para identificação do serviço que o solicitante irá requisitar no ticket:
+
+|Campo|Descrição|
+|-----|---------|
+|Portfólio| Campo para selecionar, em uma lista já cadastrada, o portfólio|
+|Serviço| Campo para selecionar, em uma lista já cadastrada, o serviço|
+|Atividade| Campo para selecionar, em uma lista já cadastrada, a atividade|
+|Contrato| Campo para selecionar, em uma lista já cadastrada, o contrato|
+
+Após preencher os campos, clique em "Avançar Etapa" para avançar para a terceira página e etapa do processo de criação.
+
+### Terceira etapa - Descrição do ticket
+
+Preencha os campos necessários para descrever a requisição do ticket:
+
+|Campo|Descrição|
+|-----|---------|
+|Formulário de criação| Ao selecionar essa opção, será apresentado uma tela com o questionário que foi criado pelo administrador. Essa tela só será apresentada quando estiver vinculado no fluxo na tarefa de criação ou quando o usuário colocar no portfólio no cadastro de requisição esse template de criação|
+|Descrição| Campo para informar a descrição do ticket|
+|Anexos| O botão de anexo permite anexar arquivos para o ticket sendo criado. Pelo celular, ao clicar nessa opção, serão apresentadas 3 formas de realizar o anexo: Abrir câmera, Abrir galeria, Enviar documento. Os 3 vão abrir o aplicativo relacionado do celular para o que o usuário selecione o arquivo. Após selecionar um arquivo, o anexo apresentará as opções de exclusão, cancelamento e confirmação|
+
+Por fim, aparecerá um botão de "Finalizar" para confirmar a criação do ticket. Ao clicar nesse botão aparecerá a mensagem: "Ticket xxxx criado com sucesso" e um botão ok.
+
+
+
+
+
 
 
 
