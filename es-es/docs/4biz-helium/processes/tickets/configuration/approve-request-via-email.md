@@ -44,7 +44,7 @@ Procedimiento
     (grupo/usuario) del correo electrónico que se va enviar (el sistema no hace
     búsqueda por destinatarios por "Expresión".
 
-###Configurar la notificación de aprobación del correo electrónico
+### Configurar la notificación de aprobación del correo electrónico
 
 1.  Acceder a la funcionalidad en el menú Sistema \> Configuración \> Modelo
     de e-mail;
@@ -67,6 +67,10 @@ Procedimiento
         cambiado por el usuario;
 
 3.  Haga clic en "Guardar".
+
+!!! warning "ATENCIÓN"
+
+    El sistema de aprobación de tickets por correo electrónico acepta un plazo máximo de **35791 en los parámetros de tiempo, si el usuario excede este límite, la configuración se establece automáticamente en 2 horas o 120 minutos.**
 
 
 Relacionado
