@@ -3,6 +3,26 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 1.2.23 (2020/11/10)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [4biz Helium Guidance Guide version 1.2.23][4]
+    
+Welcome to 4biz Helium Version 1.2.23. This version presents the following items:
+ 
+|Number|Type|Description|
+|--------|---------|---------|
+|Incident 5929| Correction| Security fix in the product avoiding accepting LDAP injection, special characters in user login and login size|
+
+Welcome to Builder 1.3.5.4
+
+This version presents the following correction (s):
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10280 | Correction| Recovery of the default value of the business object columns|
+
 ## Version Helium 1.2.22 (2020/12/03)
 
 !!! warning "ATTENTION"
@@ -169,3 +189,4 @@ Welcome to 4biz Helium Version 1.0.2. This version presents the following items:
 
 [2]:/en-us/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
 [3]:/en-us/4biz-helium/get-started/about-4biz/Guidance-about-version-4biz-helium1.2.22.zip
+[4]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-1.2.23.zip
