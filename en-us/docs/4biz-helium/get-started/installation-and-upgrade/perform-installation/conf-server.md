@@ -88,7 +88,7 @@ Edit the standalone-full.xml file and include the 4biz logo XML configuration ri
 </extensions>
 ```
 
- After the configuration tag close </extensions> include the parameters below:
+ In the standalone file in the attributes: `<system-properties>` include a new line and fill as presented below:
 
  ``` xml
  <system-properties>
