@@ -7,7 +7,7 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 !!! warning "ATTENTION"
 
-    Before downloading this version, check the guidelines in the document [4biz Helium Guidance Guide version 1.2.23][4]
+    Before downloading this version, check the guidelines in the document [4biz Helium Guide version 1.2.23][4]
     
 Welcome to 4biz Helium Version 1.2.23. This version presents the following items:
  
