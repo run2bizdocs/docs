@@ -86,7 +86,7 @@ Y edite el archivo stantalone-full.xml e incluya la configuración XML 4biz just
 </extensions>
 ```
 
- Después de cerrar la configuración `</extensions>` incluya el siguiente fragmento:
+En el archivo standalone en los atributos: `<system-properties>` incluya una nueva línea y complete como se presenta a continuación:
 
  ``` xml
  <system-properties>
