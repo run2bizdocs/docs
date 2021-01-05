@@ -11,4 +11,4 @@ All technical views with metadata for the reports of the 4biz platform can be fo
   
   
   
-  [1]:/en-us/4biz-helium/additional-features/bi-metadados-tecnico-views-relatorios-4biz.xlsx
+  [1]:/en-us/4biz-helium/additional-features/bi-metadados-tecnico-views-relatorios.xlsx
