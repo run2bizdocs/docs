@@ -3,7 +3,7 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
-## Versión Helium 1.2.13 (2020/11/03)
+## Versión Helium 1.2.13 (2021/01/05)
 
 !!! warning "ATENCIÓN"
 
