@@ -20,8 +20,9 @@ Para que la Indización del conocimiento funcione correctamente, es necesario:
     ```
 
 3. Configurar el parámetro 308 informando la cantidad de elementos a indexar a la vez;
-4. Configurar el parámetro 332 que indica si la sincronización con el servidor de indización está activa;
-5. Acceder al menú principal Sistema > Configuración> Gestión del conocimiento (Indexación) y haga clic en "Actualizar el servidor de índices".
+4. Configurar el parámetro 332 que indica si la sincronización con el servidor de indización está activa;  
+5. Configure el parámetro 333 informando el intervalo en minutos para sincronizar el conocimiento con el servidor de índices - Valores aceptados entre 1 y 59;  
+6. Acceder al menú principal Sistema > Configuración> Gestión del conocimiento (Indexación) y haga clic en "Actualizar el servidor de índices".
 
 ## Gestionar contenido
 
