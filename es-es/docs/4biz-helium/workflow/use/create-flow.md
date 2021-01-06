@@ -13,7 +13,8 @@ Procedimiento
 2.  Hacer clic en "Nuevo";
 
 3.  En la pestaña "Datos del Flujo" es necesario completar los datos obligatorios: nombre
-    del flujo (su identificador interno, debe ser informado sin espacio, acentos y caracteres especiales); el proceso al que está vinculado (el flujo estará sólo para el proceso al que está vinculado) y la opción para permitir la reapertura de un servicio independientemente de la configuración de grupo. También se puede ver qué versión se encuentra el flujo.
+    del flujo (su identificador interno, debe ser informado sin espacio, acentos y caracteres especiales); el proceso al que está vinculado (el flujo estará sólo para el proceso al que está vinculado) y la opción para permitir la reapertura de un servicio independientemente de la configuración de grupo. También se puede ver qué versión se encuentra el flujo.  
+    En la pestaña también se encuentra el campo "Scripts Timeout (segundos): Campo Obligatorio donde se deben informar los segundos según la regla. A partir de la versión 2.0.0, el sistema detiene la ejecución de un script de Rhino desde un flujo de 4biz o Builder que lleva más tiempo que el definido en el atributo "Scripts Timeout (segundos)". El valor por defecto de este atributo se puede configurar en el parámetro HINO_TIMEOUT_EXCECUTION (en segundos) del archivo APPLICATION.INI. Si el parámetro no está configurado en el archivo, el sistema tiene un valor predeterminado de 90 segundos. Los flujos existentes antes de la instalación de la nueva versión se inicializaron a 90 segundos.
 
 4.  En la pestaña "Diagrama" se muestra la herramienta para dibujar el flujo insertando los elementos que representan el escenario deseado. Para ello, basta hacer clic en el elemento y arrastrarlo al área de dibujo. Al hacer esto, se mostrará una pantalla para definir las propiedades. Debemos tener en cuenta que siempre un flujo comienza con el elemento "Evento Inicio" y termina con el elemento "Evento Fin".
 
