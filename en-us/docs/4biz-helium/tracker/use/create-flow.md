@@ -19,7 +19,8 @@ Procedure
     special characters); the process to which it's linked (the flow will be only
     visible to the process to which it's linked) and the option that allow to
     reopen the service regardless of group settings. It's also possible to view
-    the version of the flow.
+    the version of the flow.  
+    In the tab there is also the field "Scripts Timeout (seconds): Mandatory Field where the seconds must be informed according to the rule. From version 2.0.0, the system stops the execution of a Rhino script from a 4biz or Builder flow that takes longer than the time defined in the "Scripts Timeout (seconds)" attribute. The default value of this attribute can be configured in the parameter HINO_TIMEOUT_EXCECUTION (in seconds) of the file APPLICATION.INI. If the parameter is not configured in the file, the system defaults to 90 seconds. The flows existing before the installation of the new version were initialized to 90 seconds.
 
 4.  In the “Diagram” tab, it's presented the tool to design the flow by entering
     elements that represent the scenario. To do so, simply click on the element
