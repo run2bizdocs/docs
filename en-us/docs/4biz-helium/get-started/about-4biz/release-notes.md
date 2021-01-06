@@ -3,7 +3,7 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
-## Version Helium 1.2.23 (2020/11/10)
+## Version Helium 1.2.23 (2021/01/05)
 
 !!! warning "ATTENTION"
 
