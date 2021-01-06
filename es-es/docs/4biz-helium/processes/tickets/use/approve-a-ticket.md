@@ -41,7 +41,40 @@ Procedimiento
     -   Si marca "No aprobada", describir las observaciones, informar la
         justificación y el complemento de la justificación.
 
-5.  Haga clic en el botón de “Opciones” y después en el botón “Grabar y avanzar
+5.  Si la tarea del ticket es del tipo de aprobación, el sistema mostrará en el campo Directo al grupo el Botón: "Ver aprobaciones". Al hacer clic en Ver aprobaciones, se mostrará el historial de aprobaciones de la tarea;  
+
+6.  En el historial de aprobación de la tarea, se muestran 3 pestañas con las informaciones:
+
+- Pestaña **Realizadas**, donde aparecerán las siguientes columnas:
+
+|Columna|Descripción|
+|------|---------|
+|Responsable| Se mostrará el nombre del usuario que votó|
+|Resultado| Se mostrará el voto del usuario|
+|Comentario| Si hay alguno, se mostrará el comentario del usuario|
+|Fecha/Hora| Se mostrará la fecha y hora de la votación|
+|Numero de aprobaciones| Se mostrará el número de votos positivos para la aprobación|
+|Numero de abstenciones| Se mostrará el número de abstenciones|
+|Número de descartes| Se mostrará el número de votos negativos para aprobación|
+|Aprobaciones pendientes| Cuántos usuarios quedarán antes de votar|
+
+- Pestaña **Pendientes** con la columna:
+
+|Columna|Descripción|
+|------|---------|
+|Responsable| Se mostrarán los nombres de los usuarios que aún no han votado|
+
+- Pestaña **Historial** con los campos:
+
+|Campo|Descripción|
+|-----|---------|
+|Responsable| Se mostrará el nombre del usuario que cambió el voto|
+|Resultado| Se mostrará el voto anterior del usuario|
+|Comentario| Si hay alguno, se mostrará el comentario del usuario|
+|Fecha/Hora| Se mostrarán la fecha y la hora del cambio de votación|
+
+
+7.  Haga clic en el botón de “Opciones” y después en el botón “Grabar y avanzar
     el flujo” para guardar y avanzar el flujo. Hecho esto, si el ticket ha sido
     aprobado, el mismo será encaminado a la fase de ejecución, o sea, para la
     atención. Pero, si el ticket no es aprobado, se lo vá cerrar.
