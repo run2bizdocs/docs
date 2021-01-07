@@ -20,7 +20,6 @@ theme:
   - 'get_started.html'
   - 'platform.html'
   - 'builder.html'
-  - 'videos.html'
 
   # Default values, taken from mkdocs_theme.yml
   language: en
@@ -658,19 +657,15 @@ nav:
     - builder/using-builder-sm/tickets.md
     - builder/using-builder-sm/experience-center.md
   - Advanced Options:
-    - builder/advanced-options/component-lookup.md
     - builder/advanced-options/business-rules.md
     - builder/advanced-options/css.md
     - builder/advanced-options/database.md
-    - builder/advanced-options/itsm-connection.md
     - builder/advanced-options/package.md
     - builder/advanced-options/parameters.md
-    - builder/advanced-options/process-integration-tracker.md
     - builder/advanced-options/report-file.md
     - builder/advanced-options/report-setup.md
-    - builder/advanced-options/service-integration-tracker.md
+    - builder/advanced-options/service-integration-flow.md
     - builder/advanced-options/type-of-data.md
-    - builder/advanced-options/variables.md
   - Add-Ons:
     - builder/addons/addons-list.md
 #  - Database Dictionary:
