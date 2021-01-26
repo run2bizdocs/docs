@@ -29,7 +29,7 @@ for example:
 *   Communication, Marketing and others.
 
 Therefore, following the best service management practices, based on the ITIL best 
-practice library, 4biz natively has 13 automated processes, they are:
+practice library, 4biz natively has 16 automated processes, they are:
 
 *   Portfolio Management
 *   Service Catalog
