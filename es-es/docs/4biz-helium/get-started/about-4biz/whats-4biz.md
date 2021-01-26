@@ -28,7 +28,7 @@ Hay casos de gestión de servicios con procesos automatizados en diversas áreas
 *   Comunicación, Marketing, entre otros.
 
 Además de estos, siguiendo las mejores prácticas de gestión de servicios, con base en la 
-biblioteca de mejores prácticas de ITIL, 4biz tiene nativamente 13 procesos automatizados, 
+biblioteca de mejores prácticas de ITIL, 4biz tiene nativamente 16 procesos automatizados, 
 siendo ellos:
 
 *   Gestión de Portafolio
