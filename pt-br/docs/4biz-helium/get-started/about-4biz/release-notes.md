@@ -3,6 +3,29 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 1.2.24 (2021/01/16)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.2.24][5]
+
+Bem-vindos ao 4biz Helium Versão 1.2.24. Esta versão apresenta os seguintes itens:
+A versão Neuro compatível com essa versão é 1.3.5.5
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10619|Melhoria|Bloqueio de usuários após sucessivos erros de acesso|
+|10620|Melhoria|Envio de notificação de bloqueio de usuário|
+|10617|Melhoria|Inclusão de captcha ao acessar o sistema|
+|10663|Melhoria|Correção de acesso a usuários logados via LDAP|
+|10618|Melhoria|Ajustes de mensagens de autenticação do sistema|
+|10628|Melhoria|Inclusão de autenticação keycloack com gerenciamento de acesso e identidade|
+|10624|Melhoria|Revisão de critérios de segurança|
+
+|Erros conhecidos|Descrição|
+|10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
+
+
 ## Versão Helium 1.2.23 (2021/01/05)
 
 !!! warning "ATENÇÃO"
@@ -203,6 +226,7 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [2]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.13.zip
 [3]:/pt-br/4biz-helium/get-started/about-4biz/Guia-de-orientações-4biz-Helium-versão-2.0.0.zip
 [4]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.23.zip
+[5]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.24.zip
 
 
 
