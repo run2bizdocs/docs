@@ -26,6 +26,14 @@ A versão Builder compatível com essa versão é 1.3.5.5
 |Erros conhecidos|Descrição|
 |10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
 
+Bem-vindos ao Builder 1.3.5.5
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Corretiva|Descrição|
+|--------|---------|---------|
+||Correção de erro intermitente ocasionado em Scripts Rhino|
+
 
 ## Versão Helium 1.2.23 (2021/01/05)
 
