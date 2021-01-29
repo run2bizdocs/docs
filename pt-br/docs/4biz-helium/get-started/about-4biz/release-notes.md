@@ -24,6 +24,7 @@ A versão Builder compatível com essa versão é 1.3.5.5
 |10624|Melhoria|Revisão de critérios de segurança|
 
 |Erros conhecidos|Descrição|
+|--------|---------|
 |10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
 
 Bem-vindos ao Builder 1.3.5.5
