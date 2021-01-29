@@ -10,7 +10,8 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
     Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.2.24][5]
 
 Bem-vindos ao 4biz Helium Versão 1.2.24. Esta versão apresenta os seguintes itens:
-A versão Neuro compatível com essa versão é 1.3.5.5
+
+A versão Builder compatível com essa versão é 1.3.5.5
 
 |Número|Tipo|Descrição|
 |--------|---------|---------|
