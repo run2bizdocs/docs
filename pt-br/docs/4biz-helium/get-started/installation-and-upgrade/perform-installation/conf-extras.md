@@ -2,6 +2,44 @@ Title: Configurações extras do 4Biz
 
 # Configurações extras do 4biz
 
+A partir da versão Helium 1.2.24 foram inseridos novos parâmetros:
+ 
+- Parâmetro: AUTHENTICATION_PROTOCOL
+- Ojetivo: Definir o protocolo de autenticação
+- Comportamento: Define se o sistema irá se autenticar com parâmetros internos ou com outro protocolo de autenticação.
+- Tipo: varchar
+- Valor default: internal
+- Tipos válidos: 
+
+	1.	OAUTH2: Para autenticação com keycloack – essa informação sobrescreve qualquer política de segurança inserida no cadastro de Política de Segurança;
+	2.	Internal: Para autenticação definida no sistema;
+ 
+- Parâmetro: AUTHENTICATION_CREATE_USER
+- Ojetivo: Definir se o usuário será criado na aplicação após login
+- Comportamento: Grava o usuário que fez login na aplicação;
+- Tipo: boleano (true or false)
+- Valor default: FALSE 
+- Valores possíveis:
+	
+	True – gravar
+	False -–  não gravar
+
+
+A partir da versão Helium 1.2.23 foram inseridos novos parâmetros:
+ 
+- Parâmetro: MAXIMUM_LOGIN_FIELD_SIZE
+- Ojetivo: Definir o tamanho máximo aceitável no campo login
+- Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
+- Tipo: numérico
+- Valor default: 25
+ 
+- Parâmetro: ALLOW_SYMBOLS_AT_LOGIN
+- Ojetivo: Definir se o sistema aceita símbolos no campo login
+- Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
+- Tipo: boleano (true or false)
+- Valor default: FALSE
+
+
 A partir da versão Helium 1.2.19 o arquivo CITSMART.CFG passa a se chamar “application.ini” e deve seguir as orientações abaixo:  
 
 1. A atualização da tabela só vai ocorrer quando o parâmetro LOAD_FACTSERVICEREQUESTRULES do APPLICATION.INI possuir o valor TRUE. Na ausência dessa configuração no arquivo, o sistema assume o valor FALSE para o parâmetro. Ou seja, o default é NÃO atualizar a tabela;  
