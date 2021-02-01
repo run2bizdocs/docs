@@ -2,6 +2,43 @@ Title: Configuraciones extras de 4biz
 
 # Configuraciones extras de 4biz
 
+A partir de la versión Helium 1.2.24, se insertaron nuevos parámetros:
+ 
+- Parámetro: AUTHENTICATION_PROTOCOL
+- Ojetivo: Definir o protocolo de autenticação
+- Comportamiento: Define si el sistema se autenticará con parámetros internos o con otro protocolo de autenticación.
+- Tipo: varchar
+- Valor default: internal
+- Tipos válidos: 
+
+	1.	OAUTH2: Para la autenticación de keycloack: esta información sobrescribe cualquier política de seguridad ingresada en el registro de Política de seguridad;
+	2.	Internal: Para autenticación definida por el sistema;
+ 
+- Parámetro: AUTHENTICATION_CREATE_USER
+- Ojetivo: Defina si el usuario se creará en la aplicación después de iniciar sesión
+- Comportamiento: Registra el usuario que inició sesión en la aplicación;
+- Tipo: boleano (true or false)
+- Valor default: FALSE 
+- Valores posibles:
+	
+	True – grabar
+	False -–  no grabar
+
+
+A partir de la versión Helium 1.2.23, se insertaron nuevos parámetros:
+ 
+- Parámetro: MAXIMUM_LOGIN_FIELD_SIZE
+- Ojetivo: Establezca el tamaño máximo aceptable en el campo de inicio de sesión
+- Comportamiento: Simplemente evita el inicio de sesión emitiendo un mensaje genérico, inicio de sesión o contraseña no válidos.
+- Tipo: numérico
+- Valor default: 25
+ 
+- Parámetro: ALLOW_SYMBOLS_AT_LOGIN
+- Ojetivo: Defina si el sistema acepta símbolos en el campo de inicio de sesión
+- Comportamiento: Simplemente evita el inicio de sesión emitiendo un mensaje genérico, inicio de sesión o contraseña no válidos.
+- Tipo: boleano (true or false)
+- Valor default: FALSE
+
 Desde la versión Helium 1.2.19, el archivo CITSMART.CFG pasa a llamarse "application.ini" y debe seguir las siguientes pautas:  
 
 1. La actualización de la tabla solo ocurrirá cuando el parámetro LOAD_FACTSERVICEREQUESTRULES de APPLICATION.INI tenga el valor TRUE. En ausencia de esta configuración en el archivo, el sistema asume el valor FALSE para el parámetro. Es decir, el valor predeterminado es NO actualizar la tabla;  
