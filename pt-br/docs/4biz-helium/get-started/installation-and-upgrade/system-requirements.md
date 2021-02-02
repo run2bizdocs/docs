@@ -29,6 +29,4 @@ Caso já tenha um servidor de banco relacional em seu ambiente, você pode fazer
 MongoDB   | `3.4.15`|
 
 
-Author         | Version   | Updated             | Description
--------------- | ------ | ------------------- | -----------
-`Christiano Mendonça` | 8.0.2.0 | 11/08/2019| Updated installation process to latest version.
+
