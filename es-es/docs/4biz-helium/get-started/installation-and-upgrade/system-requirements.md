@@ -2,52 +2,33 @@ Title: Requerimientos del Sistema
 
 # Requerimientos del Sistema
 
+Para ejecutar la plataforma y las aplicaciones, los requisitos del sistema recomendados pueden variar según el escenario de instalación.
 
-## Servidor de la Aplicación
+## Aplicación y base de datos en el mismo servidor
 
-4biz se ejecuta en el servidor de aplicaciones Wildfly versión 12. Los requerimientos mínimos del sistema requeridos para el servidor de aplicaciones son:
+Si instala todos los programas y la base de datos relacional en el mismo servidor, recomendamos que el servidor tenga al menos `32GB` de memoria para entornos de producción. Si solo desea realizar algunas pruebas o entornos de aprobación y desarrollo, un servidor de `16GB` es suficiente. En cuanto al tamaño del disco, recomendamos tener al menos `30 GB` de espacio disponible.
 
-| Recurso | Valor  |
-|---------|---------|
-| **Memoria** | 8 GB   |
-| **CPU**     | 4 CPU's |
-| **Disco**   | 80 GB   |
+## Aplicación y base de datos desmembrados
 
-## Servidor de Base de Datos Relacional
+Si ya tiene un servidor bancario relacional en su entorno, puede usarlo para instalar 4biz. En este caso, el servidor de aplicaciones debe tener al menos `16GB` de memoria. Para el servidor bancario, recomendamos al menos `4GB` para un entorno de producción.
 
-4biz es compatible con bases de datos PostgreSQL, Oracle y Microsoft SQL Server. Si ya tiene un sistema de gestión de bases de datos corporativas, se puede utilizar para alojar la base de datos de 4biz. Si no posee y desea instalar un nuevo SGDB sólo para la aplicación, recomendamos el uso de PostgreSQL 9.2 o posterior, con las siguientes configuraciones:
+!!! Warning "ATENCIÓN"
 
-| Recurso | Valor   |
-|---------|---------|
-| **Memoria** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disco**   | 80 GB   |
+    Cualquiera que sea el caso, estos son los valores mínimos recomendados. Recuerda que la plataforma 4biz está compuesta por otras aplicaciones, como Builder, que permite integraciones con los más diversos propósitos. Estas integraciones pueden dar lugar a consumos y cargas de procesamiento diferentes de las normales, por lo que los valores de los requisitos del sistema pueden variar de un entorno a otro.   
 
-##  Servidor de Base de Datos NoSQL
+# Versiones de paquete recomendadas
 
-Para instalar el MongoDB, se recomienda seguir la siguiente configuración:
+A partir de la versión Helium 1.2.23, la tabla de Versiones de Paquete Recomendadas, debe cambiarse para las bases de datos aprobadas:
 
-| Recurso | Valor   |
-|---------|---------|
-| **Memoria** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disco**   | 80 GB   |
-
-## Sistema de indexación
-
-Para instalar el Apache SOLR, se recomienda seguir la siguiente configuración:
-
-| Recurso | Valor   |
-|---------|---------|
-| **Memoria** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disco**   | 80 GB   |
-
-!!! tip
-    Los servicios **SOLR** y **MongoDB** se pueden instalar en el mismo servidor que la aplicación 4biz. Recomendamos para entornos de producción que separe el servidor de base de datos del servidor de aplicaciones.
-   
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+|Aplicación|Versión|
+|-------------- | ------ |
+|Wildfly | `12.x` |
+|Java JDK | `8.x` |
+|PostgreSQL | `12` |
+|Driver JDBC |`Depende de la versión de la base. En el documento usaremos la versión 9.3 porque postgreSQL estará en esta versión.` |
+|SOLR | `6.4.2` |
+|Sistema Operativo| Aunque se puede instalar en cualquier distribución y versión, el documento considera la distribución `Linux CentOS 7.x.`   |
+|MongoDB   | `3.4.15`|
+|Microsoft SQL Server|`2019`|
+|Oracle| `12c`|
 
