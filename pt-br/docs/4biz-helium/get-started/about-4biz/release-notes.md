@@ -3,6 +3,23 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 1.2.25 (2021/02/16)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações 4biz Helium versão 1.2.25][6]
+
+Bem-vindos ao 4biz Helium Versão 1.2.25. Esta versão apresenta os seguintes itens:
+
+A versão Builder compatível com essa versão é 1.3.5.5
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|6231|Corretiva|Erro ao listar histórico de um ticket delegado pela pesquisa avançada|
+|10670|Corretiva|Sistema não apresenta conhecimento externo e público|
+|10802|Corretiva|Erro de charset em palavras acentuadas nos relatórios smart|
+|10892|Corretiva|Melhoria de performance nas consultas de auditoria|
+
 ## Versão Helium 1.2.24 (2021/01/16)
 
 !!! warning "ATENÇÃO"
@@ -237,6 +254,7 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [3]:/pt-br/4biz-helium/get-started/about-4biz/Guia-de-orientações-4biz-Helium-versão-2.0.0.zip
 [4]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.23.zip
 [5]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.24.zip
+[6]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.25
 
 
 
