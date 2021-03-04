@@ -78,6 +78,11 @@ No final da página temos então duas opções de aplicar ou não os filtros:
 |Apagar filtros| Opção para apagar todos os filtros que você configurou. Todas as modificações voltarão ao padrão do sistema|
 |Filtrar|Realiza o filtro da lista conforme parâmetro selecionado|
 
+!!! note "NOTA"
+
+    As opções selecionadas no filtro ficarão marcadas ao sair do aplicativo e logar novamente.  
+    Para refazer o filtro, é necessário limpar as preferências.
+
 ## Relacionado
 
 [Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
