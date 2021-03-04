@@ -67,9 +67,11 @@ Em "Senha", você irá informar a senha do usuário cadastrado na aplicação. N
 
 Já o botão "Disponível para atendimento", você pode marcar ou não para configurar se sua localização será compartilhada em tempo real. Essa opção é utilizada para informar aos gestores que um agente está disponível para atendimento e para que o agente compartilhe a sua localização.
 
-Antes de iniciar a sessão, será necessário clicar em "Ir para os termos de uso", para você concordar ou não com os nossos termos de segurança. 
+### Termo de aceite
 
-Caso concorde com os termos, será apresentado então a opção para entrar no aplicativo, basta clicar em "Entrar".
+Antes de iniciar a sessão, será necessário clicar em "Ir para os termos de uso", para você concordar ou não com os nossos termos de aceite. 
+
+É necessário ler o termo até o final e selecionar se concorda ou não com ele. Caso não concorde, o sistema  não permitirá o login. Caso concorde, é feito o login e será redirecionado para a tela inicial do aplicativo.
 
 ## Relacionado
 
