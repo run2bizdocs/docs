@@ -154,6 +154,8 @@ nav:
     - Painel do usuário:
       - 4biz-helium/initial-settings/user-panel/home-panel.md
       - 4biz-helium/initial-settings/user-panel/register-menu.md
+  - Recomendações de segurança:
+    - 4biz-helium/security-recommendation/security-recommendation.md
   - Administração da Plataforma:
     - Introdução:
       - 4biz-helium/platform-administration/introduction.md
