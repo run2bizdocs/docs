@@ -148,6 +148,8 @@ nav:
     - User Panel:
       - 4biz-helium/initial-settings/user-panel/home-panel.md
       - 4biz-helium/initial-settings/user-panel/register-menu.md
+  - Safety Recommendations:
+    - 4biz-helium/security-recommendation/security-recommendation.md
   - Platform Administration:
     - Introduction:
       - 4biz-helium/platform-administration/introduction.md
