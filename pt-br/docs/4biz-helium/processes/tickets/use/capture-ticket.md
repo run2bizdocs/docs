@@ -14,7 +14,9 @@ Capturar o incidente ou requisição de serviço significa assumir a responsabil
 
 1. Para acessar a funcionalidade Interface de Atendimento, acesse o menu Processos > Gerência de ticket > Ticket > Abrir
 
-2. Localize o ticket desejado, pressionando uma vez para abrir as ações e selecionando o botão “Abrir” ou com um clique duplo para abri-lo diretamente.
+2. Localize o ticket desejado, pressionando uma vez para abrir as ações e selecionando o botão “Abrir” ou com um clique duplo para abri-lo diretamente;
+
+3. Caso o sistema identifique que o usuário executor está vinculado a mais de um grupo que poderia promover a execução desse ticket o sistema exibi uma interface para que o usuário identifique o grupo que irá executar a tarefa.
 
 ## Informações sobre o incidente ou a requisição de serviço
 
