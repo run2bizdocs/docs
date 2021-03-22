@@ -16,6 +16,8 @@ Capturar el incidente o la solicitud de servicio significa asumir la responsabil
 
 2. Busque el ticket deseado y presione una vez para abrir las acciones. Después seleccione el botón “Abrir” o haga doble clic para abrirlo directamente.
 
+3. Si el sistema identifica que el usuario ejecutor está vinculado a más de un grupo que podría promover la ejecución de ese ticket, el sistema muestra una interfaz para que el usuario identifique el grupo que realizará la tarea.
+
 ## Información sobre el incidente o solicitud de servicio
 
 Después de abrir la solicitud de servicio o incidente, el sistema recuperará la información de la solicitud o incidente.
