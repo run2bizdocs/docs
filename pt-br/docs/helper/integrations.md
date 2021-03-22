@@ -82,9 +82,9 @@ E os formatos necessários para integração:
 
 -   Formato de retorno da mensagem do bot em imagem:
 
-` {"image": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png",   "recipient_id": "joao"} `
+` {"image": "https://helperassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png",   "recipient_id": "joao"} `
 
 Ou
 
-` {"attachment": "https://anuvaassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"} `
+` {"attachment": "https://helperassistantimages.s3.amazonaws.com/dev/fe711b50-d974-11e9-9622-94de80f33bee.png","recipient_id": "joao"} `
 
