@@ -13,7 +13,7 @@ Bem-vindos ao 4biz Helium Versão 1.2.26. Esta versão apresenta as seguintes me
 
 Informações para atualização do pacote:
 
-1. Para essa versão o builder compatível é 1.3.6.6.
+1. Para essa versão o Builder compatível é 1.3.6.6.
 
 ## Versão Helium 1.2.25 (2021/02/16)
 
