@@ -3,6 +3,18 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 1.2.26 (2021/03/23)
+
+Bem-vindos ao 4biz Helium Versão 1.2.26. Esta versão apresenta as seguintes melhorias:
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|ITSM #6396| Corretiva| Sintaxe de SQL incorreta ao criar ou abrir um problema|
+
+Informações para atualização do pacote:
+
+1. Para essa versão o builder compatível é 1.3.6.6.
+
 ## Versão Helium 1.2.25 (2021/02/16)
 
 !!! warning "ATENÇÃO"
