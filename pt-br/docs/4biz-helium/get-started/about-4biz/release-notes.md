@@ -9,7 +9,7 @@ Bem-vindos ao 4biz Helium Versão 1.2.26. Esta versão apresenta as seguintes me
 
 |Número|Tipo|Descrição|
 |--------|---------|---------|
-|ITSM #6396| Corretiva| Sintaxe de SQL incorreta ao criar ou abrir um problema|
+|ITSM 6396| Corretiva| Sintaxe de SQL incorreta ao criar ou abrir um problema|
 
 Informações para atualização do pacote:
 
