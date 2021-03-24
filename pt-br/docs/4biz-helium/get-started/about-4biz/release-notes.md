@@ -22,6 +22,10 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |--------|---------|---------|
 |11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
 
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Builder 1.3.6.6, veja o arquivo de [Notas de Release Builder][7]
+
 ## Versão Helium 1.2.26 (2021/03/23)
 
 Bem-vindos ao 4biz Helium Versão 1.2.26. Esta versão apresenta as seguintes melhorias:
@@ -37,6 +41,10 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |Número|Tipo|Descrição|
 |--------|---------|---------|
 |11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
+
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Builder 1.3.6.6, veja o arquivo de [Notas de Release Builder][7]
 
 ## Versão Helium 1.2.25 (2021/02/16)
 
@@ -290,6 +298,7 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [4]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.23.zip
 [5]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualizacao-1.2.24.zip
 [6]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.25.zip
+[7]:/pt-br/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.6.6.docx
 
 
 
