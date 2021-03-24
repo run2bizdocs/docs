@@ -47,29 +47,29 @@ Procedure
 
 7.  For users who are already in operation, it's possible to force the password
     change of the new configuration, from the next login, click on the key "Force
-    password change at next login for all users"
+    password change at next login for all users";
+    
+From version Helium 1.2.23 or 2.1.0, new parameters were added:    
 
-8.  Click on "Save”.
+8.  Enable the key “Enable user blocking policy”:
+    
+    - It'll be considered for both internal and external logins;
+        
+9.  Enable the key “Enable Captcha at Login”: This functionality enables a mandatory check for connections of all users in the system; during the login;    
 
-!!! Abstract "NOTE"
+10.  In the User blocking field, the administrator must define the minimum number of successive errors of credentials for user blocking, this blocking occurs for both internal and external users and the unlocking is performed inside the product;  
 
-    The System notifies the user 3 days before the expiration of the current password,
-    making this alert through a message in a text box that will appear
-    once a day when logging in the System. After the password expires,
-    the user is automatically sent to the user profile screen with open
-    password exchange panel (you can only use the system again if you
-    make a password change).
+11.  Define the time of successive credential errors from the last minutes to block the user: This field is linked to the field “Block user after successive credential errors”, since the system needs a time parameter to compare the amount of error in a certain period of time and do not consider the user to be blocked if they are not within the defined time limit for reaching the number of attempts to block;  
 
-!!! Abstract "NOTE"
+12.  In the field Notifications must be defined:
+        1. Send security alert to the group: Inform the group to whom the alert email will be sent in case of blocked user for exceeding the configured attempts;
+        2. Send security alert to e-mails: Inform the e-mail of possible employees who should be alerted in case of user blocking. E-mails must be separated by a comma and with no space between them and no space at the end;
+        
+        !!! warning "ATENÇÃO"
+        
+            Caso o sistema identifique o e-mail do usuário que teve o acesso bloqueado esse usuário também receberá e-mail de bloqueio.
+            O modelo de e-mail de bloqueio não está disponível para alteração nessa versão.    
 
-    To change the password, the user can reset the password in two different
-    ways, see [Register user][1] and [Edit user account][2].
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
+13.  Click on "Save”.
 [1]:/en-us/4biz-helium/initial-settings/access-settings/user/users.html
 [2]:/en-us/4biz-helium/initial-settings/access-settings/user/user-data.html
