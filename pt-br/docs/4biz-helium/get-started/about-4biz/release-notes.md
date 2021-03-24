@@ -14,9 +14,13 @@ Bem-vindos ao 4biz Helium Versão 1.2.27. Esta versão apresenta as seguintes me
 |11094| Corretiva| Não persistir a senha do usuário LDAP|
 |11094| Corretiva| Tratamento de erros LDAP|
 
-Informações para atualização do pacote:
+Bem-vindos ao Builder 1.3.6.6.
 
-1. Para essa versão o Builder compatível é 1.3.6.6.
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
 
 ## Versão Helium 1.2.26 (2021/03/23)
 
@@ -26,9 +30,13 @@ Bem-vindos ao 4biz Helium Versão 1.2.26. Esta versão apresenta as seguintes me
 |--------|---------|---------|
 |ITSM 6396| Corretiva| Sintaxe de SQL incorreta ao criar ou abrir um problema|
 
-Informações para atualização do pacote:
+Bem-vindos ao Builder 1.3.6.6.
 
-1. Para essa versão o Builder compatível é 1.3.6.6.
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
 
 ## Versão Helium 1.2.25 (2021/02/16)
 
