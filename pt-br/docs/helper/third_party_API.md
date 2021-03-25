@@ -18,7 +18,7 @@ O nosso assistente virtual Helper disponibiliza uma área para integrar API exte
 |-|-|
 | Nome| Definir o nome característico da API que está sendo registrada.|
 | Dependência | Se necessário, identificar se essa API que está sendo criado necessita anteriormente da execução de uma outra API.|
-| Método| Selecionar qual método htpp será utilizado pela API: POST, GET, PUT, DELETE ou PATCH.|
+| Método| Selecionar qual método http será utilizado pela API: POST, GET, PUT, DELETE ou PATCH.|
 | URL | Definir a URL do novo API. Caso queira incluir na URL um contexto já cadastrado no assistente virtual, colocar o valor entre {}.|
 
 Uma vez preenchidos os campos de identificação, vamos preencher os atributos necessários para dar continuidade as requisições REST: cabeçalho, corpo, respostas e configurações.
