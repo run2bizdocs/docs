@@ -76,7 +76,7 @@ chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 
 ## Configuração do Quartz
 
-O processamento Batch do CITSmart utiliza o Quartz para o agendamento e processamento de rotinas de sistema. Crie um arquivo de nome "quartz.properties" no caminho
+O processamento Batch do 4biz utiliza o Quartz para o agendamento e processamento de rotinas de sistema. Crie um arquivo de nome "quartz.properties" no caminho
 `/opt/wildfly/standalone/configuration/`. As configurações se diferem para standalone comum, para o standalone configurado em modo cluster. Em qualquer um dos casos,
 configure o wildfly da seguinte maneira das formas a seguir.
 
