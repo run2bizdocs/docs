@@ -117,7 +117,7 @@ user: "admin",
 pwd: "admin",
 roles:[
 { role: "root", db: "admin" },
-{ role: "dbOwner", db: "citsmart" }
+{ role: "dbOwner", db: "4biz" }
 ]
 })
 ```
@@ -133,7 +133,7 @@ Successfully added user: {
                 },
                 {
                         "role" : "dbOwner",
-                        "db" : "citsmart"
+                        "db" : "4biz"
                 }
         ]
 }
