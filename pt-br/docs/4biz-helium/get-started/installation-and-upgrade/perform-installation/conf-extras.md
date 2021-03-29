@@ -88,7 +88,7 @@ Se você estiver rodando o wildfly em modo standalone mas sem configuração de 
 #===============================================================
 #Configure Main Scheduler Properties
 #===============================================================
-org.quartz.scheduler.instanceName = CitSmartMonitor
+org.quartz.scheduler.instanceName = 4BizMonitor
 org.quartz.scheduler.instanceId = AUTO
 #===============================================================
 #Configure ThreadPool
@@ -113,7 +113,7 @@ Configuração para banco de dados Banco de Dados Postgres
 #============================================================================
 # Configure Main Scheduler Properties
 #============================================================================
-org.quartz.scheduler.instanceName = CitSmartMonitor
+org.quartz.scheduler.instanceName = 4BizMonitor
 org.quartz.scheduler.instanceId = AUTO
 #============================================================================
 # Configure ThreadPool
@@ -141,7 +141,7 @@ Configuração para o banco de dados Microsoft SQL Server
 #============================================================================
 # Configure Main Scheduler Properties
 #============================================================================
-org.quartz.scheduler.instanceName = CitSmartMonitor
+org.quartz.scheduler.instanceName = 4BizMonitor
 org.quartz.scheduler.instanceId = AUTO
 #============================================================================
 # Configure ThreadPool
@@ -156,7 +156,7 @@ org.quartz.jobStore.misfireThreshold = 60000
 org.quartz.jobStore.class = org.quartz.impl.jdbcjobstore.JobStoreTX
 org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.MSSQLDelegate
 org.quartz.jobStore.useProperties = true
-org.quartz.jobStore.dataSource = citsmart
+org.quartz.jobStore.dataSource = 4biz
 org.quartz.jobStore.tablePrefix = QRTZ_
 org.quartz.jobStore.isClustered = true
 org.quartz.jobStore.clusterCheckinInterval = 20000
@@ -169,7 +169,7 @@ Configuração para o banco de dados Oracle
 #============================================================================
 # Configure Main Scheduler Properties
 #============================================================================
-org.quartz.scheduler.instanceName = CitSmartMonitor
+org.quartz.scheduler.instanceName = 4BizMonitor
 org.quartz.scheduler.instanceId = AUTO
 #============================================================================
 # Configure ThreadPool
@@ -184,7 +184,7 @@ org.quartz.jobStore.misfireThreshold = 60000
 org.quartz.jobStore.class = org.quartz.impl.jdbcjobstore.JobStoreTX
 org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.oracle.OracleDelegate
 org.quartz.jobStore.useProperties = true
-org.quartz.jobStore.dataSource = citsmart
+org.quartz.jobStore.dataSource = 4biz
 org.quartz.jobStore.tablePrefix = QRTZ_
 org.quartz.jobStore.isClustered = true
 org.quartz.jobStore.clusterCheckinInterval = 20000
