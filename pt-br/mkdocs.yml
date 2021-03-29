@@ -701,7 +701,7 @@ nav:
     - builder/addons/addons-list.md
 #  - Dicionário de Banco de Dados:
 #    - builder/database-dictionary.md
-  - Neuro FAQ:
+  - Builder FAQ:
     - builder/builder-faq.md
 - Helper:
   - helper/what_is_helper.md
