@@ -2,7 +2,7 @@ Title: Realizando o deploy do 4biz
 
 # Realizando o deploy do 4biz
 
-Faça o download do pacote WAR do 4biz e do Neuro no portal do parceiro. Envie para o servidor utilizando scp para pasta /tmp. A instalação do 4biz consiste nos seguintes passsos:
+Faça o download do pacote WAR do 4biz e do Builder no portal do parceiro. Envie para o servidor utilizando scp para pasta /tmp. A instalação do 4biz consiste nos seguintes passsos:
 
 1. Fazer o deploy do pacote 4biz Workflow
 2. Fazer o deploy do pacote Builder
@@ -25,7 +25,7 @@ Observe o log `/opt/wildfly/standalone/log/server.log` com a opção `tail -f` a
 2019-11-14 17:20:37,731 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "4biz-Helium-BETA-01.war" (runtime-name : "4biz-Helium-BETA-01.war")
 ```
 
-A mensagem acima confirma que o deploy foi realizado. O mesmo se aplica ao pacote do Builder. Copie o neuro para pasta `standalone/deployments`:
+A mensagem acima confirma que o deploy foi realizado. O mesmo se aplica ao pacote do Builder. Copie o Builder para pasta `standalone/deployments`:
 
 ``` shell
 cp citsmart-neuro-web-1.3.4.1.war /opt/wildfly/standalone/deployments/
