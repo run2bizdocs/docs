@@ -60,7 +60,7 @@ postgres=# create user forbizdbuser with password 'SUA_SENHA';
 CREATE ROLE
 postgres=#
 ```
-Crie um banco de dados para o CITSmart:
+Crie um banco de dados para o 4biz:
 ```sh
 create database forbiz_db with owner forbizdbuser encoding 'UTF8' tablespace pg_default;
 ```
@@ -70,7 +70,7 @@ postgres=# create database forbiz_db with owner forbizdbuser encoding 'UTF8' tab
 CREATE DATABASE
 postgres=#
 ```
-Dê permissão para o usuário do CITSmart:
+Dê permissão para o usuário do 4biz:
 ```sh
 alter role forbizdbuser superuser;
 ```
@@ -96,7 +96,7 @@ bash-4.2$ exit
 exit
 [root@server /tmp]#
 ```
-Caso o banco esteja rodando no mesmo servidor, é necessário liberar a conexão para o usuário do CITSmart. Edite o arquivo  `/var/lib/pgsql/9.6/data/pg_hba.conf` e inclua a seguinte linha:
+Caso o banco esteja rodando no mesmo servidor, é necessário liberar a conexão para o usuário do 4biz. Edite o arquivo  `/var/lib/pgsql/9.6/data/pg_hba.conf` e inclua a seguinte linha:
 
 ```sh
 # Database administrative login by Unix domain socket
@@ -115,7 +115,7 @@ host forbiz_db forbizdbuser WILDFLY_IP_ADDRESS/32 md5
 
 ## Configurando o datasource para o Run2biz
 
-Existem oito entradas de datasource para o forbiz_db, sendo que quatro são para o CITSmart e quatro para o CITSmart Neuro. O usuário e senha é forbizdbuser e SUA_SENHA criados no passo anterior. Caso tenha criado usuário, senha e banco de nomes diferentes, altere nos comandos abaixo.
+Existem oito entradas de datasource para o forbiz_db, sendo que quatro são para o 4biz e quatro para o 4biz Builder. O usuário e senha é forbizdbuser e SUA_SENHA criados no passo anterior. Caso tenha criado usuário, senha e banco de nomes diferentes, altere nos comandos abaixo.
 
 Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhum erro na execução, execute cada comando separadamente:
 
