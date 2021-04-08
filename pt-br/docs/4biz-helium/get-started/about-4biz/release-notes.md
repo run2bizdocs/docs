@@ -397,7 +397,7 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [6]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.25.zip
 [7]:/pt-br/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.6.6.docx
 [8]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualização-2.0.2.zip
-[9]:/pt-br/4biz-helium/get-started/about-4biz/Notas de Release Builder 1.3.7.0.docx
+[9]:/pt-br/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.0.docx
 
 
 
