@@ -65,6 +65,27 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |10538| Correção| Correção de diretivas Builder|
 |11320| Correção| Exibir propriedades do componente na criação do formulário pelo objeto de negócio|
 
+Bem-vindos ao Builder 1.3.7.0.
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10735| Corretiva| Correção da autenticação de usuários|
+|10735| Corretiva| Login com usuário LDAP e Oauth2|
+|10735| Corretiva| Tratamento de senha na autenticação Builder|
+|11025| Corretiva| Correção de null pointer|
+|11025| Corretiva| Refactory na autenticação|
+|11196| Corretiva| Correção do mouse move do desenho de fluxo no Chrome|
+|11214| Corretiva| Alteração do algoritmo de criptografia de senha do usuário|
+|11214| Corretiva| Retirada de constantes de usuário admin|
+|11216| Corretiva| Correção de vulnerabilidade do filtro de autocomplete|
+|11214| Corretiva| Alteração do algoritmo de criptografia de senha e forçar alteração da senha no próximo login|
+
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Builder 1.3.7.0, veja o arquivo de [Notas de Release Builder][9]
+
 ## Versão Helium 1.2.28 (2021/03/24)
 
 Bem-vindos ao 4biz Helium Versão 1.2.28. Esta versão apresenta as seguintes melhorias:
@@ -376,6 +397,7 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [6]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-1.2.25.zip
 [7]:/pt-br/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.6.6.docx
 [8]:/pt-br/4biz-helium/get-started/about-4biz/Pacote-Atualização-2.0.2.zip
+[9]:/pt-br/4biz-helium/get-started/about-4biz/Notas de Release Builder 1.3.7.0.docx
 
 
 
