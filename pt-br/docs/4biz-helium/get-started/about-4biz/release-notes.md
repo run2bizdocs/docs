@@ -3,7 +3,7 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
-## Versão Helium 2.0.2 (2021/04/07)
+## Versão Helium 2.0.2 (2021/04/14)
 
 !!! warning "ATENÇÃO"
 
@@ -81,6 +81,13 @@ E as seguintes melhorias:
 |10081| Melhoria|	[Webservice] Melhoria em que foi criado um webservice que permite visualizar os detalhes da mudança.|
 
 
+Bem-vindos ao Builder 1.3.7.3.
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11320| Correção| Correção da exibição de componentes|
 
 Bem-vindos ao Builder 1.3.7.1.
 
