@@ -120,6 +120,14 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 
     Para mais informações sobre o Builder 1.3.7.0, veja o arquivo de [Notas de Release Builder][9]
 
+## Versão Helium 1.2.29 (2021/04/14)
+
+Bem-vindos ao 4biz Helium Versão 1.2.29. Esta versão apresenta a seguinte correção:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11344| Correção| Corretiva de segurança|
+
 ## Versão Helium 1.2.28 (2021/03/24)
 
 Bem-vindos ao 4biz Helium Versão 1.2.28. Esta versão apresenta as seguintes melhorias:
