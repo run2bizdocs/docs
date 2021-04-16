@@ -82,3 +82,5 @@ Antes de iniciar a sessão, será necessário clicar em "Ir para os termos de us
 [Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
 
 [Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
+
+[Configurar instância para uso do aplicativo Racer4Biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/configuration/configure-field-service-application.html)
