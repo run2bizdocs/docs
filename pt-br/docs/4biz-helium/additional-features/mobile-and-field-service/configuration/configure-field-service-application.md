@@ -1,7 +1,7 @@
-title: Manual de utilização do aplicativo 4biz e Mobile GO
+title: Configurar instância para uso do aplicativo 4biz e Mobile GO
 Description: O aplicativo 4biz e Mobile GO possibilita a realização de atendimentos em modo offline
 
-# Manual de utilização do aplicativo 4biz e Mobile GO
+# Configurar instância para uso do aplicativo 4biz e Mobile GO
 
 O aplicativo 4biz e Mobile GO possibilita a realização de atendimentos em modo offline - em que o atendente não possui internet. Após o aplicativo se conectar a internet, a aplicação enviará, automaticamente, as informações para o ambiente em produção. Vale lembrar que a delegação da solicitação para um atendente deve ser realizada manualmente por um responsável.
  O atendente visualizará apenas solicitações que foram delegadas a ele.
@@ -75,7 +75,7 @@ do ambiente. Verificar os tickets e realizar atendimento.
 Relacionado
 -----------
 
-[Configurar instância para uso do aplicativo 4biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/apps/4biz-field-service-manual.html)
+[Manual de utilização do aplicativo 4biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/apps/4biz-field-service-manual.html)
 
 !!! tip "About"
 
