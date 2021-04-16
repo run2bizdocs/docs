@@ -1,13 +1,15 @@
-title: Configurar instância para uso do aplicativo 4biz GO
-Description: O aplicativo 4biz GO possibilita a realização de atendimentos em modo offline
-# Configurar instância para uso do aplicativo 4biz GO
-O aplicativo 4biz GO possibilita a realização de atendimentos em modo offline - em que o atendente não possui internet. Após o aplicativo se conectar a internet, a aplicação enviará, automaticamente, as informações para o ambiente em produção. Vale lembrar que a delegação da solicitação para um atendente deve ser realizada manualmente por um responsável.
+title: Manual de utilização do aplicativo 4biz e Mobile GO
+Description: O aplicativo 4biz e Mobile GO possibilita a realização de atendimentos em modo offline
+
+# Manual de utilização do aplicativo 4biz e Mobile GO
+
+O aplicativo 4biz e Mobile GO possibilita a realização de atendimentos em modo offline - em que o atendente não possui internet. Após o aplicativo se conectar a internet, a aplicação enviará, automaticamente, as informações para o ambiente em produção. Vale lembrar que a delegação da solicitação para um atendente deve ser realizada manualmente por um responsável.
  O atendente visualizará apenas solicitações que foram delegadas a ele.
 
 Antes de começar
 ----------------
 
-1.  Instalar o aplicativo 4biz GO;
+1.  Instalar o aplicativo 4biz e Mobile GO;
 
 2.  No ambiente - instância do 4biz -, configurar as seguintes
     funcionalidades:
@@ -67,13 +69,13 @@ Procedimento
 O que fazer a seguir
 --------------------
 
-Logar no aplicativo 4biz GO já instalado, inserindo a URL, usuário e a senha
+Logar no aplicativo 4biz e Mobile GO já instalado, inserindo a URL, usuário e a senha
 do ambiente. Verificar os tickets e realizar atendimento.
 
 Relacionado
 -----------
 
-[Manual de utilização do aplicativo 4biz GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/apps/4biz-field-service-manual.html)
+[Configurar instância para uso do aplicativo 4biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/apps/4biz-field-service-manual.html)
 
 !!! tip "About"
 
