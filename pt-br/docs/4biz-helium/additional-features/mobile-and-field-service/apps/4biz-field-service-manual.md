@@ -1,15 +1,16 @@
-title: Manual de utilização do aplicativo 4biz GO
-Description: O objetivo do aplicativo 4biz GO é permitir a realização de atendimentos em do técnico em campo no modo offline (onde o atendente não possui internet).
-# Manual de utilização do aplicativo 4biz GO
+title: Manual de utilização do aplicativo 4biz e Mobile GO
+Description: O objetivo do aplicativo 4biz e Mobile GO é permitir a realização de atendimentos em do técnico em campo no modo offline (onde o atendente não possui internet).
 
-O objetivo do aplicativo 4biz GO é permitir a realização de atendimentos do técnico em campo no modo offline (onde o atendente não possui internet).
+# Manual de utilização do aplicativo 4biz e Mobile GO
+
+O objetivo do aplicativo 4biz e Mobile GO é permitir a realização de atendimentos do técnico em campo no modo offline (onde o atendente não possui internet).
 
 Antes de começar 
 -----------------
 
 1.  Ter configurado o aplicativo na instância ITSM;
 
-2.  Instalar o aplicativo 4biz GO (Android e iOS);
+2.  Instalar o aplicativo 4biz e Mobile GO (Android e iOS);
 
 3.  É necessário delegar tarefas ao técnico no site 4biz para que o mesmo as
     possa atender em campo no modo offline.
@@ -19,7 +20,7 @@ Procedimento
 
 !!! Abstract "ATENÇÃO"
 
-    Ao logar no aplicativo 4biz GO, a primeira sincronização pode demorar
+    Ao logar no aplicativo 4biz e Mobile GO, a primeira sincronização pode demorar
     alguns instantes, pois para funcionar offline tem que baixar todas as
     solicitações e enviar as que tiveram mudanças para que o aplicativo funcione
     corretamente.
@@ -47,7 +48,7 @@ Procedimento
 
     !!! Abstract "REGRA"
 
-        Não é possível vincular uma IC e base de conhecimento pelo mobile GO.    
+        Não é possível vincular uma IC e base de conhecimento pelo 4biz e Mobile GO.    
 
 4.  Se desejar adicionar algum arquivo clicar na aba "Anexos";
 
@@ -73,7 +74,7 @@ Procedimento
 Relacionado
 -----------
 
-[Configurar instância para uso do aplicativo 4biz GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/configuration/configure-field-service-application.html)
+[Configurar instância para uso do aplicativo 4biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/configuration/configure-field-service-application.html)
 
 [Obter assinatura em atendimento de campo](/pt-br/4biz-helium/additional-features/mobile-and-field-service/use/get-signature-in-attendance.html)
 
