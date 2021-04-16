@@ -393,3 +393,5 @@ Uma vez reativado, você terá as ações disponíveis para tratamento da requis
 [Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
 
 [Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
+
+[Configurar instância para uso do aplicativo Racer4Biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/configuration/configure-field-service-application.html)
