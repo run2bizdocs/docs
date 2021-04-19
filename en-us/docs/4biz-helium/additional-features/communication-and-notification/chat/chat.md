@@ -52,7 +52,7 @@ After saving, the Smart Chat screen will be available on the login screen, as we
 
 Below there are some examples of how to use 4biz Chat in different scenarios:
 
-## Access to Smart Chat without configure Helper - Ticket creation
+### Access to Smart Chat without configure Helper - Ticket creation
 
 1. Access the Smart Portal or Experience Center;
 2. Click on the "Talk" icon at the bottom of the screen to start the conversation;
@@ -66,14 +66,14 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 8. Both being online, it's possible to keep the conversation;
 9. If one of the parties is not online and parameter 447 - is set, then the system sends a message stating it.
 
-## Access to Smart Chat without Helper configuration - Ticket creation through Activity Search
+### Access to Smart Chat without Helper configuration - Ticket creation through Activity Search
 
 1. Access the Smart Portal or Experience Center;
 2. Click on the "Talk" icon at the bottom of the screen to start the conversation;
 3. Enter the name of the Activity;
 4. The system returns options to create a new ticket or resume the attendance;
 
-## Access to Smart Chat to search Knowledge
+### Access to Smart Chat to search Knowledge
 
 1. Access the Smart Portal or Experience Center;
 2. Click on the "Talk" icon at the bottom of the screen to start the conversation;
@@ -83,7 +83,7 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 6. The system will present the preview button and, when clicked, opens the knowledge portal;
 7. The system will present the close button and, when clicked, reduces the knowledge, returning to the original status.
 
-## Access to the Virtual Assistant - Ticket Creation
+### Access to the Virtual Assistant - Ticket Creation
 
 1. Click on the icon at the top of the screen called "Virtual Assistant" to talk to Helper;
 2. Type your search or subject;
@@ -97,14 +97,14 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 8. Both being online, it's possible to keep the conversation;
 9. If one of the parties is not online and parameter 447 - is set, then the system sends a message stating it.
 
-## Access to Virtual Assistant- Ticket creation through Activity Search
+### Access to Virtual Assistant- Ticket creation through Activity Search
 
 1. Access the Smart Portal or Experience Center;
 2. Click on the "Talk" icon at the bottom of the screen to start the conversation;
 3. Enter the name of an Activity;
 4. The system returns the options to create a new ticket or resume an attendance;
 
-## Access to Virtual Assistant for the search of Knowledge
+### Access to Virtual Assistant for the search of Knowledge
 
 1. Access the Smart Portal or Experience Center;
 2. Click on the "Talk" icon at the bottom of the screen to start the conversation;
@@ -114,7 +114,7 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 6. The system will present the preview button and, when clicked, opens the knowledge portal;
 7. The system will display the close button and, when clicked, reduces the knowledge, returning to the original status.
 
-## Conversation in Smart Chat between attendants
+### Conversation in Smart Chat between attendants
 
 1. Analysts must have the ticket screen open;
 2. Analysts must link contacts to chat through the Attendants tab;
@@ -127,7 +127,7 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
    b. Online - Both parties are active for conversation - signaled by a filled green ball
 8. Both being online, it's possible to keep the conversation;
 
-## Conversation in Smart Chat between requester and attendant
+### Conversation in Smart Chat between requester and attendant
 
 1. Analyst must have the ticket screen open;
 2. The requester, when sending a message, the system will send to the attendant, regardless of whether the analyst has the ticket opened or not, the system displays an exclamation mark in the SmartChat icon;
@@ -137,7 +137,7 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
    b. Attendance in the Queue - These are attendances that didn't capture the ticket
    c. Attendances in Progress - These are attendances that have already been captured and are being answered
 
-# Related
+## Related
 
 [Configure parametrization - chat](/en-us/4biz-helium/platform-administration/parameters-list/configure-parametrization-chat.html)
 
