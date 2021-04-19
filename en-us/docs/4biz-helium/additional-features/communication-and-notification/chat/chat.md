@@ -19,7 +19,7 @@ Chat can be used in three ways:
     To interact with a Chatbot, it's necessary to have purchased this service. If you have any 
     questions, contact 4biz.
 
-# Before getting started
+## Before getting started
 
 In order for chat to be available, it's necessary to configure the parameters of activation of the functionality.
 
@@ -29,7 +29,26 @@ In order for chat to be available, it's necessary to configure the parameters of
 
 By enabling parameter 423 the chat will open integrated with the virtual assistant Helper.
 
-# How to access it
+## Procedure
+
+### Configuring the Smart Chat
+
+Access the main menu > Parametrization > Chat
+
+It'll be presented the following parameters:
+
+|Parameter|Description|
+|---------|---------|
+|Enable guest mode| Configure whether Smart Chat will be displayed on the login screen or not. The options will be Yes or No, default No. If the user chooses "Yes", the system will ask for the user's login. The login must follow the pattern: domain\\login|
+|Guest mode - User ID| It is the identifier number of the user who will log in as a guest. Information contained in the UserID column of the user table|
+|Guest mode - Secret key| The secret key is the password for the guest user|
+|Welcome message| Change or keep the default welcome message|
+|Starts opened| When enabled, it means that Smart Chat will always be in the mode waiting for a message. The default will be No|
+|Initial action| When informed, an action will start from the virtual assistant on the Smart Chat screen|
+|Save| Button to save the configurations|
+
+After saving, the Smart Chat screen will be available on the login screen, as well as all services configured for Smart Chat or virtual assistant, following the restrictions, group and access profile, imposed on the guest user.
+
 
 Below there are some examples of how to use 4biz Chat in different scenarios:
 
