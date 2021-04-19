@@ -56,7 +56,7 @@ Após salvar, a tela do Smart Chat estará disponível na tela de login, assim c
 
 A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenários diferentes:
 
-## Acesso ao Smart Chat sem configuração de Helper - Criação de ticket
+### Acesso ao Smart Chat sem configuração de Helper - Criação de ticket
 
 1. Acesse a tela de Smart Portal ou Centro de Experiência;
 2. Clique no ícone "Falar" no canto inferior da tela para iniciar a conversa;
@@ -70,14 +70,14 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
 8. Ambos estando online é possível manter a conversa;
 9. Se um dos interlocutores não estiver online e o parâmetro 447 - estiver configurado, então o sistema envia mensagem informando.
 
-## Acesso ao Smart Chat sem configuração de Helper - Criação de ticket por meio de Pesquisa de Atividades
+### Acesso ao Smart Chat sem configuração de Helper - Criação de ticket por meio de Pesquisa de Atividades
 
 1. Acesse a tela de Smart Portal ou Centro de Experiência;
 2. Clique no ícone "Falar" no canto inferior da tela para iniciar a conversa;
 3. Informe o nome de uma Atividade;
 4. O sistema retornará as opções para criar novo atendimento ou retomar um atendimento;
 
-## Acesso ao Smart Chat para pesquisa de Conhecimento
+### Acesso ao Smart Chat para pesquisa de Conhecimento
 
 1. Acesse a tela de Smart Portal ou Centro de Experiência
 2. Clique no ícone "Falar" no canto inferior da tela para iniciar a conversa;
@@ -87,7 +87,7 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
 6. O sistema apresentará o botão de visualizar e, quando clicado, abre o portal de conhecimento;
 7. O sistema apresentará o botão de fechar e, quando clicado, reduz o conhecimento, retornando ao estado original.
 
-## Acesso ao Assistente Virtual - Criação de Ticket
+### Acesso ao Assistente Virtual - Criação de Ticket
 
 1. Clique no sinalizador no topo da tela chamado "Virtual Assistant" para falar com o Helper;
 2. Digite sua pesquisa ou assunto;
@@ -101,14 +101,14 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
 8. Ambos estando online é possível manter a conversa;
 9. Se um dos interlocutores não estiver online e o parâmetro 447 - estiver configurado, então o sistema envia mensagem informando.
 
-## Acesso ao Assistente Virtual- Criação de ticket por meio de Pesquisa de Atividades
+### Acesso ao Assistente Virtual- Criação de ticket por meio de Pesquisa de Atividades
 
 1. Acessa a tela de Smart Portal ou Centro de Experiência;
 2. Clique no ícone "Falar" no canto inferior da tela para iniciar a conversa;
 3. Informe o nome de uma Atividade;
 4. O sistema retornará as opções para criar novo atendimento ou retomar um atendimento;
 
-## Acesso ao Assistente virtual para pesquisa de Conhecimento
+### Acesso ao Assistente virtual para pesquisa de Conhecimento
 
 1. Acesse a tela de Smart Portal ou Centro de Experiência;
 2. Clique no ícone "Falar" no canto inferior da tela para iniciar a conversa;
@@ -118,7 +118,7 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
 6. O sistema apresentará o botão de visualizar e, quando clicado, abre o portal de conhecimento;
 7. O sistema apresentará o botão de fechar e, quando clicado, reduz o conhecimento, retornando ao estado original.
 
-## Conversa do Smart Chat entre atendentes
+### Conversa do Smart Chat entre atendentes
 
 1. Os analistas devem estar com a tela de ticket aberta;
 2. Os analistas devem vincular os contatos para conversar pela Aba Atendentes;
@@ -131,7 +131,7 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
    b. Online - Ambos os interlocutores estão ativos para conversa - sinalizado por uma bola verde preenchida
 8. Ambos estando online e vinculados é possível manter a conversa;
 
-## Conversa do Smart Chat entre solicitante e atendente
+### Conversa do Smart Chat entre solicitante e atendente
 
 1. O analista deve estar com a tela de ticket aberta;
 2. O solicitante ao enviar uma mensagem o sistema enviará ao atendente, independente se o analista estiver com o ticket em questão aberto ou não, o sistema exibe no ícone do SmartChat um ponto de exclamação;
@@ -141,7 +141,7 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenári
    b. Atendimentos na Fila - São atendimentos que não foi feito captura do chamado
    c. Atendimentos em Andamento -São atendimentos que já foram capturados e estão sendo atendidos
 
-# Relacionado
+## Relacionado
 
 [Configurar parametrização - chat](/pt-br/4biz-helium/platform-administration/parameters-list/configure-parametrization-chat.html)
 
