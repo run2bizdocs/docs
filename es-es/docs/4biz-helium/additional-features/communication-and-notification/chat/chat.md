@@ -19,7 +19,7 @@ El chat se puede usar de tres maneras:
     
     Para interactuar con un Chatbot, se necesita comprar este servicio. Si tiene alguna pregunta, comuníquese con 4biz.
 
-# Antes de empezar
+## Antes de empezar
 
 Para que el chat esté disponible, debe configurar los parámetros de activación de la funcionalidad.
 
@@ -29,11 +29,28 @@ Para que el chat esté disponible, debe configurar los parámetros de activació
 
 Al habilitar el parámetro 423, el chat se abrirá integrado con el asistente virtual Helper.
 
-# Cómo acceder
+## Procedimiento
+
+Accede al menú principal > Parametrización > Chat
+
+Se mostrarán los siguientes parámetros:
+
+|Parámetro|Descripción|
+|---------|---------|
+|Habilitar el modo de invitado| Configure si el Smart Chat se mostrará en la pantalla de inicio de sesión. Las opciones serán Sí o No, por defecto es No. Si el usuario elige "Sí", el sistema solicitará el inicio de sesión del usuario. El inicio de sesión debe seguir el patrón: dominio\\login|
+|Modo de invitado - ID del usuario| Es el número de identificación del usuario que iniciará sesión como invitado. Información contenida en la columna UserID de la tabla de usuarios|
+|Modo de invitado - clave secreta| La clave secreta es la contraseña del usuario invitado|
+|Mensaje de bienvenida| Cambiar o mantener el mensaje de bienvenida predeterminado|
+|Empezar abierto| Cuando está activo, significa que Smart Chat siempre estará en el modo esperando por un mensaje. El valor predeterminado será No|
+|Acción inicial| Cuando se le informa, se iniciará una acción desde el asistente virtual en la pantalla del Smart Chat|
+|Guardar| Botón para guardar la configuración|
+
+Después de guardar, la pantalla de Smart Chat estará disponible en la pantalla de inicio de sesión, así como todos los servicios configurados para Smart Chat o asistente virtual, siguiendo las restricciones, grupo y perfil de acceso, impuestas al usuario invitado.
+
 
 A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en diferentes escenarios:
 
-## Acceso al Smart Chat sin configuración de Helper: Creación de tickets
+### Acceso al Smart Chat sin configuración de Helper: Creación de tickets
 
 1. Acceder a la pantalla Smart Portal o Centro de Experiencia;
 2. Hacer clic en el icono "Hablar" en la parte inferior de la pantalla para iniciar la conversación;
@@ -47,14 +64,14 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 8. Ambos estando en línea, es posible mantener la conversación;
 9. Si una de las partes no está en línea y el parámetro 447 está configurado, el sistema envía un mensaje indicando.
 
-## Acceso al Smart Chat sin configuración de Helper - Creación de tickets mediante la Búsqueda de Actividades
+### Acceso al Smart Chat sin configuración de Helper - Creación de tickets mediante la Búsqueda de Actividades
 
 1. Acceder a la pantalla Smart Portal o Centro de Experiencia;
 2. Hacer clic en el icono "Hablar" en la parte inferior de la pantalla para iniciar la conversación;
 3. Informar el nombre de una Actividad;
 4. El sistema devuelve las opciones para crear un nuevo servicio o reanudar la atención;
 
-## Acceso al Smart Chat para búsqueda de Conocimiento
+### Acceso al Smart Chat para búsqueda de Conocimiento
 
 1. Acceder a la pantalla Smart Portal o Centro de Experiencia;
 2. Hacer clic en el icono "Hablar" en la parte inferior de la pantalla para iniciar la conversación;
@@ -64,7 +81,7 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 6. El sistema presentará el botón de visualización y, al hacerlo clic, se abre el portal de conocimiento;
 7. El sistema presentará el botón de cierre y, al hacerlo clic, reduce el conocimiento y regresa al estado original.
 
-## Acceso al Asistente Virtual - Creación de Ticket
+### Acceso al Asistente Virtual - Creación de Ticket
 
 1. Hacer clic en el icono en la parte superior de la pantalla llamada "Virtual Assistant" para hablar con Helper;
 2. Ingresar su búsqueda o asunto;
@@ -78,14 +95,14 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 8. Ambos estando en línea, es posible mantener la conversación;
 9. Si una de las partes no está en línea y el parámetro 447 está configurado, el sistema envía un mensaje indicandolo.
 
-## Acceso al Asistente Virtual - Creación de ticket mediante Búsqueda de Actividad
+### Acceso al Asistente Virtual - Creación de ticket mediante Búsqueda de Actividad
 
 1. Acceder a la pantalla Smart Portal o Centro de Experiencia;
 2. Hacer clic en el icono "Hablar" en la parte inferior de la pantalla para iniciar la conversación;
 3. Informar el nombre de una Actividad;
 4. El sistema devuelve las opciones para crear un nuevo servicio o reanudar la atención;
 
-## Acceso al Asistente virtual para búsqueda de Conocimiento
+### Acceso al Asistente virtual para búsqueda de Conocimiento
 
 1. Acceder a la pantalla Smart Portal o Centro de Experiencia;
 2. Hacer clic en el icono "Hablar" en la parte inferior de la pantalla para iniciar la conversación;
@@ -95,7 +112,7 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 6. El sistema presentará el botón de visualización y, al hacerlo clic, se abre el portal de conocimiento;
 7. El sistema presentará el botón de cierre y, al hacerlo clic, reduce el conocimiento y regresa al estado original.
 
-## Conversación del Smart Chat entre asistentes
+### Conversación del Smart Chat entre asistentes
 
 1. Los analistas deben tener abierta la pantalla de ticket;
 2. Los analistas deben vincular contactos para hablar a través de la pestaña Asistentes;
@@ -108,7 +125,7 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
    b. En línea - Ambas partes están activas para conversar - señaladas por una bola verde llena
 8. Ambos estando en línea, es posible mantener la conversación.
 
-## Conversación del Smart Chat entre solicitante y asistente
+### Conversación del Smart Chat entre solicitante y asistente
 
 1. Los analistas deben tener abierta la pantalla de ticket;
 2. El solicitante, al enviar un mensaje que el sistema enviará al asistente, independientemente de si el analista tiene el ticket abierto o no, el sistema muestra un signo de exclamación en el icono del SmartChat;
@@ -118,7 +135,7 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
    b. Llamadas en cola - son atenciones que no capturaron el llamado
    c. Asistencia en curso - estas son llamadas que ya se han capturado y se están respondiendo
 
-# Relacionado
+## Relacionado
 
 [Configurar parametrización - chat](/es-es/4biz-helium/platform-administration/parameters-list/configure-parametrization-chat.html)
 
