@@ -29,7 +29,7 @@ Bem-vindos ao 4biz Helium Versão 2.0.5. Esta versão apresenta as seguintes cor
 
 |Número|Tipo|Descrição|
 |------|----|---------|
-|11348| Correção| Validação de campos obrigatórios na página de CRUD do Neuro|
+|11348| Correção| Validação de campos obrigatórios na página de CRUD do Builder|
 |11355| Correção| Alteracao para o sistema não usar a trigger bpm_itemtrabalhofluxo_mv|
 
 Para essa versão o Builder compatível é 1.3.7.4.
