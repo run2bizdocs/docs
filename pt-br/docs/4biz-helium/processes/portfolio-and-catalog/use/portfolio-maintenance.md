@@ -9,3 +9,6 @@ Description: Veremos como realizar a manutenção de um portfólio de serviço.
 - [x] Ter uma atividade cadastrada em algum portfólio de serviço
 
 ## Procedimento
+
+Acesse o menu principal > Processos > Gerência de Portfólio e Catálogo > Portfólio > Manutenção.
+
