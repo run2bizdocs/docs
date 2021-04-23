@@ -66,7 +66,7 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 |Grupo aprovador|
 |Fluxo|
 
-6. Abaixo, será apresentado as atividades e os contratos que você selecionou para serem vinculados anteriormente.  
+6. Abaixo, será apresentado as atividades e os contratos que você selecionou anteriormente para serem vinculados anteriormente.  
 7. Todas as atividades e contratos selecionadas nessa etapa receberão as mesmas características informadas acima. Caso o sistema identifique uma característica para um serviço/contrato, a característica anterior não será subscrita.  
 8. Após configurar todos os campos, clique em Avançar.  
 9. Será apresentado a tela de "Revisão de itens que serão alterados".  
@@ -89,4 +89,45 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
 
 4. Quando selecionado os contratos, aparecerão dois botões, um mostrando a quantidade de contratos que foram selecionadas e outro "Comparar contratos selecionados", onde apresenta um pop-up com as informações dos contratos selecionados.
+
+Depois da lista de Contratos, é hora de selecionar a Atividade que deseja desvincular.
+
+1. O sistema apresenta a lista das Atividades encontradas no portfólio selecionado.  
+2. Selecione a atividade que deseja desvincular. Para as Atividades, temos as seguintes informações:
+
+- Nome
+- Opção de filtrar
+- ID
+- Portfólio
+- Serviço
+- Contratos vinculados
+- Visualizar detalhes
+
+3. Clique em Avançar para prosseguir.  
+4. Será apresentado a tela de "Características padrões da ação em massa". Nessa tela, você preencherá algumas informações que servirão como características padrões da ação em massa para todos contratos e atividades que você selecionou anteriormente.  
+5. Temos os seguintes campos para preencher como característica padrão da ação em massa:
+
+|Campo|
+|-----|
+|Condições de operação|
+|Data de início|
+|Calendário|
+|Tempo de atendimento|
+|Modelo de abertura|
+|Modelo de e-mail de fechamento|
+|Grupos executores|
+|Grupo aprovador|
+|Fluxo|
+
+6. Abaixo será apresentado as atividades e os contratos que você selecionou anteriormente para serem desvinculados.  
+7. Após configurar todos os campos, clique em Avançar.  
+8. Será apresentado a tela de "Revisão de itens que serão alterados".  
+9. Nessa tela você poderá rever todas as características, atividades e contratos que você selecionou durante todo o processo de desvínculo para averiguar se está de acordo com suas necessidades. Note que essa tela é apenas de visualização, não podendo ser alterada nenhuma informação.  
+10. Caso esteja de acordo com as informações, clique em "Confirmar". Será apresentado uma mensagem "Deseja confirmar e seguir com as ações em massa?", clique em "Sim, confirmar" para finalizar o desvínculo.  
+11. Ao desvincular uma atividade de um contrato, o sistema irá configurar a data fim no vínculo de serviço x contrato.  
+12. A atividade não será aposentada e poderá sofrer novo vínculo a qualquer momento com o mesmo contrato ou com outros contratos.
+
+
+## Relacionado
+
 
