@@ -130,4 +130,7 @@ Depois da lista de Contratos, é hora de selecionar a Atividade que deseja desvi
 
 ## Relacionado
 
+[Cadastrar um contrato](/pt-br/4biz-helium/additional-features/contract-management/use/register-contract.html)
+
+[Cadastrar atividade de serviço](/pt-br/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html)
 
