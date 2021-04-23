@@ -130,6 +130,6 @@ After the list of Contracts, it's time to select the Activity you want to unlink
 
 ## Related
 
-[Cadastrar um contrato](/en-us/4biz-helium/additional-features/contract-management/use/register-contract.html)
+[Creating contract](/en-us/4biz-helium/additional-features/contract-management/use/register-contract.html)
 
-[Cadastrar atividade de serviço](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html)
+[Creating service activity](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html)
