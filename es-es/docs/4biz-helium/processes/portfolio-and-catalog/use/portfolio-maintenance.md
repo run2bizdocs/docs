@@ -17,120 +17,120 @@ Description: Veremos cómo mantener un portafolio de servicios.
 |Etapa|Descripción|
 |-----|---------|
 |Eligir la acción| En esta etapa tenemos dos opciones: Vincular y Desvincular. Cuando seleccione una de las opciones, se le presentará otra pregunta sobre lo que desea vincular o desvincular|
-|O que deseja vincular?| Também teremos duas opções nessa etapa: Contrato e Atividade. Selelcione qual dos dois você deseja vincular ao seu Portfólio|
-|No que deseja vincular?| Caso você tenha selecionado na etapa anterior a opção "Contrato", virá por defaul para você vincular uma Atividade ao seu contrato. Caso tenha selecionado anteriormente a opção "Atividade", virá por default então o Contrato para ser vinculado a ela|
-|Conteúdos relacionados| É um link para cadastrar/editar um contrato, que, ao ser selecionado, irá abrir a tela de cadastro de contrato. Ao finalizar o sistema retorna para página de manutenção do portfólio|
+|¿Qué quieres vincular?| También tendremos dos opciones en esta etapa: Contrato y Actividad. Seleccione cuál desea vincular a su Portafolio|
+|¿A qué quieres vincular?| Si seleccionó la opción "Contrato" en el paso anterior, se le asignará por defecto vincular una Actividad a su contrato. Si ha seleccionado previamente la opción "Actividad", entonces el Contrato vendrá por defecto para estar vinculado a él|
+|Contenidos relacionados| Es un enlace para registrar/editar un contrato que, cuando se selecciona, abrirá la pantalla de registro del contrato. Una vez finalizado, el sistema vuelve a la página de mantenimiento del portafolio|
 
-### Vinculando atividade ao contrato
+### Vinculación de la actividad al contrato
 
-1. Essa opção é para quando você respondeu nas etapas: Escolha a ação - Vincular; O que deseja vincular? - Atividade; No que deseja vincular? - Contrato.  
-2. O sistema retorna todas as atividades ativas encontradas para o serviço de negócio/apoio selecionado. Atividades ativas são as que estão com status ativo.
-3. Selecione a(s) atividade(s) que deseja vincular. Para as Atividades, temos as seguintes informações:
+1. Esta opción es para cuando respondió en las etapas: Elijir la acción - Vincular; ¿Qué quieres vincular? - Actividad; ¿A qué quieres vincular? - Contrato.  
+2. El sistema devuelve todas las actividades activas encontradas para el servicio de negocio/técnico seleccionado. Las actividades activas son aquellas con un estado activo.
+3. Seleccione la(s) actividad(es) que desea vincular. Para Actividades, tenemos la siguiente información:
 
-       - Nome
-       - Opção de filtrar
+       - Nombre
+       - Opción de filtrar
        - ID
-       - Portfólio
-       - Serviço
+       - Portafolio
+       - Servicio
        - Contratos vinculados
-       - Visualizar detalhes
+       - Ver detalles
 
-4. Quando selecionado as atividades, aparecerão dois botões, um mostrando a quantidade de atividades que foram selecionadas e outro "Comparar atividades selecionadas", onde apresenta um pop-up com as informações das atividades selecionadas.
+4. Cuando se seleccionan las actividades, aparecerán dos botones, uno mostrando el número de actividades que se han seleccionado y el otro "Comparar actividades seleccionadas", donde aparecerá un pop-up con la información de las actividades seleccionadas.
 
-Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincular.
+Después de la lista de Actividades, es hora de seleccionar el Contrato que desea vincular.
 
-1. O sistema apresenta a lista dos contratos ativos encontrados nas atividades selecionadas anteriormente.  
-2. Selecione o contrato que deseja vincular. Para os Contratos, temos as seguintes informações:
+1. El sistema muestra la lista de contratos activos encontrados en las actividades previamente seleccionadas.  
+2. Seleccione el contrato que desea vincular. Para los Contratos, tenemos la siguiente información:
 
-       - Nome do contrato  
-       - Opção de filtrar  
+       - Nombre del contrato  
+       - Opción de filtrar  
        - Cliente  
-       - Fornecedor  
-       - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
-       - Visualizar detalhes
-       - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
+       - Proveedor  
+       - Portafolio, que presentará la cantidad de portafolios encontrados en el contrato seleccionado  
+       - Ver detalles
+       - Flecha de detalles del contrato, que cuando se selecciona carga la siguiente información del contrato: tipo de acuerdo/contrato, fecha del contrato, horas de soporte, moneda, fecha de finalización del contrato
 
-3. Após vincular devidamente as Atividades e Contratos que deseja, clique em "Avançar".  
-4. Será apresentado a tela de "Características padrões da ação em massa". Nessa tela, você preencherá algumas informações que servirão como características padrões da ação em massa para todas atividades e contratos que você selecionou anteriormente.  
-5. Temos os seguintes campos para preencher como característica padrão da ação em massa:
+3. Después de vincular correctamente las actividades y los contratos que desee, haga clic en "Siguiente".  
+4. Aparecerá la pantalla "Características estándar de la acción masiva". En esta pantalla, completarás algunos datos que te servirán como características estándar de la acción masiva para todas las actividades y contratos que hayas seleccionado previamente.  
+5. Tenemos los siguientes campos para completar como característica estándar de la acción masiva:
 
 |Campo|
 |-----|
-|Condições de operação|
-|Data de início|
-|Calendário|
-|Tempo de atendimento|
-|Modelo de abertura|
-|Modelo de e-mail de fechamento|
-|Grupos executores|
-|Grupo aprovador|
-|Fluxo|
+|Condiciones de operación|
+|Fecha de inicio|
+|Calendario|
+|Tiempo de atención|
+|Plantilla de apertura|
+|Plantilla de correo electrónico de cierre|
+|Grupos ejecutores|
+|Grupo de aprobación|
+|Flujo|
 
-6. Abaixo, será apresentado as atividades e os contratos que você selecionou anteriormente para serem vinculados anteriormente.  
-7. Todas as atividades e contratos selecionadas nessa etapa receberão as mesmas características informadas acima. Caso o sistema identifique uma característica para um serviço/contrato, a característica anterior não será subscrita.  
-8. Após configurar todos os campos, clique em Avançar.  
-9. Será apresentado a tela de "Revisão de itens que serão alterados".  
-10. Nessa tela você poderá rever todas as características, atividades e contratos que você selecionou durante todo o processo de vínculo para averiguar se está de acordo com suas necessidades. Note que essa tela é apenas de visualização, não podendo ser alterada nenhuma informação.  
-11. Caso esteja de acordo com as informações, clique em "Confirmar". Será apresentado uma mensagem "Deseja confirmar e seguir com as ações em massa?", clique em "Sim, confirmar" para finalizar o vínculo.  
-12. Ao vincular uma atividade a um contrato o sistema retornará para tela portfólio.
+6. A continuación, verá las actividades y los contratos que seleccionó anteriormente para vincularlos.  
+7. Todas las actividades y contratos seleccionados en este paso recibirán las mismas características informadas anteriormente. Si el sistema identifica una función para un servicio/contrato, la función anterior no se suscribirá.  
+8. Después de configurar todos los campos, haga clic en Siguiente.  
+9. Aparecerá la pantalla "Revisión de ítems a cambiar".  
+10. En esta pantalla podrás revisar todas las características, actividades y contratos que seleccionaste durante todo el proceso de vinculación para ver si se ajusta a tus necesidades. Tenga en cuenta que esta pantalla es solo para visualización y no se puede cambiar ninguna información.  
+11. Si está de acuerdo con la información, haga clic en "Confirmar". Verás un mensaje "¿Quieres confirmar y continuar con las acciones masivas?", Haz clic en "Sí, confirmar" para finalizar el vínculo.  
+12. Al vincular una actividad a un contrato, el sistema volverá a la pantalla de Portafolio.
 
 ### Desvinculando
 
-1. Essa opção é para quando você respondeu nas etapas: Escolha a ação - Desvincular; O que deseja vincular? - Contrato; No que deseja vincular? - Atividade.  
-2. O sistema retorna todas os contratos ativos encontradas para o portfólio selecionado. Portfólio ativos são os que estão com status ativo.  
-3. Selecione o contrato que deseja desvincular. Para os Contratos, temos as seguintes informações:
+1. Esta opción es para cuando respondió en las etapas: Elijir la acción - Desvincular; ¿Qué quieres desvincular? - Contrato; ¿A qué quieres desvincular? - Actividad.  
+2. El sistema devuelve todos los contratos activos encontrados para el portafolio seleccionado. Los portafolios activos son aquelles con estado activo.  
+3. Seleccione el contrato que desea desvincular. Para Contratos, tenemos la siguiente información:
 
-       - Nome do contrato  
-       - Opção de filtrar  
+       - Nombre del contrato  
+       - Opción de filtrar  
        - Cliente  
-       - Fornecedor  
-       - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
-       - Visualizar detalhes
-       - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
+       - Proveedor  
+       - Portafolio, que presentará la cantidad de portafolios encontrados en el contrato seleccionado  
+       - Ver detalles
+       - Flecha de detalles del contrato, que cuando se selecciona carga la siguiente información del contrato: tipo de acuerdo/contrato, fecha del contrato, horas de soporte, moneda, fecha de finalización del contrato
 
-4. Quando selecionado os contratos, aparecerão dois botões, um mostrando a quantidade de contratos que foram selecionadas e outro "Comparar contratos selecionados", onde apresenta um pop-up com as informações dos contratos selecionados.
+4. Cuando se seleccionan los contratos, aparecerán dos botones, uno mostrando la cantidad de contratos que se han seleccionado y el otro "Comparar contratos seleccionados", donde aparecerá un pop-up con la información de los contratos seleccionados.
 
-Depois da lista de Contratos, é hora de selecionar a Atividade que deseja desvincular.
+Después de la lista de Contratos, es hora de seleccionar la Actividad que desea desvincular.
 
-1. O sistema apresenta a lista das Atividades encontradas no portfólio selecionado.  
-2. Selecione a atividade que deseja desvincular. Para as Atividades, temos as seguintes informações:
+1. El sistema muestra la lista de actividades encontradas en el portafolio seleccionado.   
+2. Seleccione la actividad que desea desvincular. Para Actividades, tenemos la siguiente información:
 
-       - Nome
-       - Opção de filtrar
+       - Nombre
+       - Opción de filtrar
        - ID
-       - Portfólio
-       - Serviço
+       - Portafolio
+       - Servicio
        - Contratos vinculados
-       - Visualizar detalhes
+       - Ver detalles
 
-3. Clique em Avançar para prosseguir.  
-4. Será apresentado a tela de "Características padrões da ação em massa". Nessa tela, você preencherá algumas informações que servirão como características padrões da ação em massa para todos contratos e atividades que você selecionou anteriormente.  
-5. Temos os seguintes campos para preencher como característica padrão da ação em massa:
+3. Haga clic en Siguiente para continuar.  
+4. Aparecerá la pantalla "Características estándar de la acción masiva". En esta pantalla, completarás algunos datos que te servirán como características estándar de la acción masiva para todas las actividades y contratos que hayas seleccionado previamente.  
+5. Tenemos los siguientes campos para completar como característica estándar de la acción masiva:
 
 |Campo|
 |-----|
-|Condições de operação|
-|Data de início|
-|Calendário|
-|Tempo de atendimento|
-|Modelo de abertura|
-|Modelo de e-mail de fechamento|
-|Grupos executores|
-|Grupo aprovador|
-|Fluxo|
+|Condiciones de operación|
+|Fecha de inicio|
+|Calendario|
+|Tiempo de atención|
+|Plantilla de apertura|
+|Plantilla de correo electrónico de cierre|
+|Grupos ejecutores|
+|Grupo de aprobación|
+|Flujo|
 
-6. Abaixo será apresentado as atividades e os contratos que você selecionou anteriormente para serem desvinculados.  
-7. Após configurar todos os campos, clique em Avançar.  
-8. Será apresentado a tela de "Revisão de itens que serão alterados".  
-9. Nessa tela você poderá rever todas as características, atividades e contratos que você selecionou durante todo o processo de desvínculo para averiguar se está de acordo com suas necessidades. Note que essa tela é apenas de visualização, não podendo ser alterada nenhuma informação.  
-10. Caso esteja de acordo com as informações, clique em "Confirmar". Será apresentado uma mensagem "Deseja confirmar e seguir com as ações em massa?", clique em "Sim, confirmar" para finalizar o desvínculo.  
-11. Ao desvincular uma atividade de um contrato, o sistema irá configurar a data fim no vínculo de serviço x contrato.  
-12. A atividade não será aposentada e poderá sofrer novo vínculo a qualquer momento com o mesmo contrato ou com outros contratos.
+6. A continuación, verá las actividades y los contratos que seleccionó anteriormente para desvincularlos.  
+7. Después de configurar todos los campos, haga clic en Siguiente.  
+8. Aparecerá la pantalla "Revisión de ítems a cambiar".  
+9. En esta pantalla podrás revisar todas las características, actividades y contratos que seleccionaste durante todo el proceso de desvinculación para ver si se ajusta a tus necesidades. Tenga en cuenta que esta pantalla es solo para visualización y no se puede cambiar ninguna información.  
+10. Si está de acuerdo con la información, haga clic en "Confirmar". Verás un mensaje "¿Quieres confirmar y continuar con las acciones masivas?", Haz clic en "Sí, confirmar" para finalizar el desvínculo.  
+11. Al desvincular una actividad de un contrato, el sistema establecerá la fecha de finalización en el vínculo de servicio x contrato.  
+12. La actividad no se retirará y podrá volver a vincularse en cualquier momento con el mismo contrato o con otros contratos.
 
 
 ## Relacionado
 
-[Cadastrar um contrato](/es-es/4biz-helium/additional-features/contract-management/use/register-contract.html)
+[Crear un contrato](/es-es/4biz-helium/additional-features/contract-management/use/register-contract.html)
 
-[Cadastrar atividade de serviço](/es-es/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html)
+[Crear actividad de servicio](/es-es/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html)
 
