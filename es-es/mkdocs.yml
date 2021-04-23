@@ -400,6 +400,8 @@ nav:
         - 4biz-helium/processes/knowledge/use/generate-reports-knowledge-management.md
     - Portafolio y catálogo:
       - 4biz-helium/processes/portfolio-and-catalog/overview.md
+      - 4biz-helium/processes/portfolio-and-catalog/use/create-the-portfolio.md
+      - 4biz-helium/processes/portfolio-and-catalog/use/portfolio-maintenance.md
       - Configuración:
         - 4biz-helium/processes/portfolio-and-catalog/configuration/access-portfolio-management.md
         - 4biz-helium/processes/portfolio-and-catalog/configuration/create-service-category.md
