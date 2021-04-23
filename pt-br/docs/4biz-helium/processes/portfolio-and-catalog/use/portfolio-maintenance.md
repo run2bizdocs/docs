@@ -72,8 +72,21 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 9. Será apresentado a tela de "Revisão de itens que serão alterados".  
 10. Nessa tela você poderá rever todas as características, atividades e contratos que você selecionou durante todo o processo de vínculo para averiguar se está de acordo com suas necessidades. Note que essa tela é apenas de visualização, não podendo ser alterada nenhuma informação.  
 11. Caso esteja de acordo com as informações, clique em "Confirmar". Será apresentado uma mensagem "Deseja confirmar e seguir com as ações em massa?", clique em "Sim, confirmar" para finalizar o vínculo.  
-12. Você retornará para tela de Portfólios.
+12. 2.	Ao ser vinculado uma atividade a um contrato o sistema retornará para tela portfólio.
 
+### Desvinculando
 
+1. Essa opção é para quando você respondeu nas etapas: Escolha a ação - Desvincular; O que deseja vincular? - Contrato; No que deseja vincular? - Atividade.  
+2. O sistema retorna todas os contratos ativos encontradas para o portfólio selecionado. Portfólio ativos são os que estão com status ativo.  
+3. Selecione o contrato que deseja desvincular. Para os Contratos, temos as seguintes informações:
 
+- Nome do contrato  
+- Opção de filtrar  
+- Cliente  
+- Fornecedor  
+- Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
+- Visualizar detalhes
+- Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
+
+4. Quando selecionado os contratos, aparecerão dois botões, um mostrando a quantidade de contratos que foram selecionadas e outro "Comparar contratos selecionados", onde apresenta um pop-up com as informações dos contratos selecionados.
 
