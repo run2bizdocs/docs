@@ -71,5 +71,7 @@ From version Helium 1.2.23 or 2.1.0, new parameters were added:
             O modelo de e-mail de bloqueio não está disponível para alteração nessa versão.    
 
 13.  Click on "Save”.
-[1]:/en-us/4biz-helium/initial-settings/access-settings/user/users.html
-[2]:/en-us/4biz-helium/initial-settings/access-settings/user/user-data.html
+
+## Related
+
+[Users Unlock Requirements](/en-us/4biz-helium/platform-administration/security/user-unlock-requirement.html)
