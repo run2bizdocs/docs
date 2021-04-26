@@ -236,6 +236,7 @@ nav:
     - Seguridad:
       - 4biz-helium/platform-administration/security/implement-password-security-rules.md
       - 4biz-helium/platform-administration/security/reset-password.md
+      - 4biz-helium/platform-administration/security/user-unlock-requirement.md
   - Tracker:
     - 4biz-helium/tracker/overview.md
     - Configuración:
