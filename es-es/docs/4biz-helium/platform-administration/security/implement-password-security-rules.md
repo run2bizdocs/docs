@@ -73,4 +73,4 @@ Clicar em “Salvar”.
 
 ## Relacionado
 
-[Requisito para desbloqueio de usuário](/es-es/4biz-helium/platform-administration/security/user-unlock-requirement.html)
+[Requisito de Desbloqueo de Usuario](/es-es/4biz-helium/platform-administration/security/user-unlock-requirement.html)
