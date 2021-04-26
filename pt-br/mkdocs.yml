@@ -167,6 +167,7 @@ nav:
     - Segurança:
       - 4biz-helium/platform-administration/security/implement-password-security-rules.md
       - 4biz-helium/platform-administration/security/reset-password.md
+      - 4biz-helium/platform-administration/security/user-unlock-requirement.md
     - Tempo:
       - 4biz-helium/platform-administration/time/create-calendar.md
       - 4biz-helium/platform-administration/time/create-cycle.md
