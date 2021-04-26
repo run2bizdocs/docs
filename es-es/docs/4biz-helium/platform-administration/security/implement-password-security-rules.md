@@ -1,5 +1,6 @@
 title: Implementar reglas de seguridad de contraseña
 Description: Configuración de contraseñas de uso del sistema, ofreciendo mayor nivel de seguridad con uso de diferentes caracteres.
+
 # Implementar reglas de seguridad de contraseña
 
 Esta funcionalidad retrata la configuración de contraseñas de uso del sistema,
@@ -10,21 +11,22 @@ ofreciendo mayor nivel de seguridad con el uso de diferentes caracteres.
      Esta política de seguridad no está disponible para los usuarios LDAP.
      
 
-Reglas por defecto al habilitar la Política de Seguridad:
+1. Desde la versión Helium 2.1.0, al actualizar la aplicación, el sistema configurará automáticamente los siguientes parámetros de la pantalla de política de privacidad:
 
--   Tamaño mínimo de 8 caracteres;
+       - El campo Habilitar política de contraseña se configurará como habilitado;  
+       - El campo Tamaño mínimo se configurará en 8;  
+       - El campo Exigir virá com as opções Minúsculas, Maiúsculas, Números e Símbolos setados como habilitados;  
+       - El campo La nueva contraseña no puede ser la misma que las anteriores, se configurará en 2;  
+       - El campo Requerir cambio de contraseña en el primer inicio de sesión se establecerá como habilitado;  
+       - El campo de duración de la contraseña se establecerá en 2 meses.
 
--   Al menos una letra minúscula;
-
--   Al menos una letra mayúscula;
-
--   Al menos un número;
-
--   Por lo menos un carácter especial (símbolo);
-
--   La contraseña no puede ser igual a las últimas 3 contraseñas utilizadas;
-
--   La contraseña caduca en 3 meses.
+2. El sistema requerirá cambiar la contraseña en el primer inicio de sesión, después de una actualización o instalación;  
+3. Para actualizaciones, si la política de contraseñas ya está habilitada, el sistema respetará la configuración del cliente;  
+4. Si la aplicación vuelve a cambiar su versión en menos de 2 meses, establecida en la configuración inicial, el sistema no solicitará un cambio de contraseña para los usuarios locales que ya hayan realizado el cambio;  
+5. Esta configuración solo será válida para usuarios locales;  
+6. Al habilitar la Política de bloqueo de usuarios, el administrador autoriza el bloqueo de usuarios externos o internos;  
+7. El uso de captcha cambia la forma de iniciar sesión, teniendo un método extra de autenticación;  
+8. El administrador, si habilita el bloqueo de usuarios, puede enviar un correo electrónico a los responsables de la seguridad del sistema.
 
 Procedimiento
 ------------
@@ -46,28 +48,29 @@ Procedimiento
 
 7.  Para usuarios que ya están en operación, es posible forzar el cambio de contraseña de la nueva configuración, desde el siguiente inicio de sesión, haga clic en la clave “Forzar el cambio de contraseña la primera vez que se inicie sesión”;
 
-8.  Hacer clic en "Guardar”.
+A partir de la versión 1.2.23 o 2.1.0 de Helium, se han insertado nuevos parámetros:
 
-!!! Abstract "NOTA"
+8.  Habilite la clave "Habilitar política de bloqueo de usuarios":
+    
+        - Un símbolo con una "i" que indica que: Se considerará para inicios de sesión internos y externos
+        
+9.  Habilite la clave “Habilitar Captcha al iniciar sesión”: esta funcionalidad habilita una verificación obligatoria de las conexiones de todos los usuarios en el sistema; durante el inicio de sesión;    
 
-    El sistema notifica al usuario 3 días antes de la expiración de la contraseña
-    actual, haciendo esta alerta a través de mensajería en cuadro de texto que
-    surgirá una vez al día al iniciar sesión en el sistema. Después de que la
-    contraseña esté expirado, el usuario se envía automáticamente a la pantalla de
-    perfil de usuario con panel de cambio de contraseña abierto (sólo podrá utilizar
-    el sistema de nuevo si realiza el cambio de contraseña).
-  
+10.  En el campo Bloqueo de usuarios, el administrador debe definir el número mínimo de errores sucesivos de credenciales para el bloqueo de usuarios, este bloqueo ocurre tanto para usuarios internos como externos y el desbloqueo se realiza dentro del producto;  
 
-!!! Abstract "NOTA"
+11.  Definir el tiempo de los sucesivos errores de credencial de los últimos minutos para bloquear al usuario: Este campo está vinculado al campo **“Bloquear usuario tras sucesivos errores de credencial”**, porque el sistema necesita un parámetro de tiempo para comparar el error de cantidad en un período de tiempo dado y no considerar al usuario bloqueado si no se encuentra dentro del límite de tiempo definido por haber alcanzado el número de intentos de bloqueo;  
 
-    Para cambiar la contraseña, el usuario puede redefinir la contraseña por dos caminos
-    diferentes, ver [Registrar usuario][1] y [Editar información de la cuenta][2].
+12.  En el campo Notificaciones, debe definir:
+        
+         1. Enviar alerta de seguridad al grupo: Informar al grupo al que se le enviará el correo electrónico de alerta en caso de bloqueo de usuario por exceder los intentos configurados;
+         2. Enviar alerta de seguridad a correos electrónicos: Informar al correo electrónico de posibles colaboradores que deben ser alertados en caso de bloqueo de usuarios. Los correos electrónicos deben estar separados por una coma y sin espacios entre ellos y sin espacios al final;
+        
+!!! warning "ATENCIÓN"
+        
+    Si el sistema identifica el correo electrónico del usuario al que se le ha bloqueado el acceso, ese usuario también recibirá un correo electrónico de bloqueo. La plantilla de correo electrónico de bloqueo no está disponible para cambios en esta versión. 
 
+Clicar em “Salvar”.
 
-!!! tip "About"
+## Relacionado
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-
-[1]:/es-es/4biz-helium/initial-settings/access-settings/user/users.html
-[2]:/es-es/4biz-helium/initial-settings/access-settings/user/user-data.html
+[Requisito para desbloqueio de usuário](/es-es/4biz-helium/platform-administration/security/user-unlock-requirement.html)
