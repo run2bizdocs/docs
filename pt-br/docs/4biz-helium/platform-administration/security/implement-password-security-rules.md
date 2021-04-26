@@ -70,4 +70,8 @@ A partir da versão Helium 1.2.23 ou 2.1.0 foram inseridos novos parâmetros:
         
     Caso o sistema identifique o e-mail do usuário que teve o acesso bloqueado esse usuário também receberá e-mail de bloqueio. O modelo de e-mail de bloqueio não está disponível para alteração nessa versão. 
 
-13.  Clicar em “Salvar”.
+Clicar em “Salvar”.
+
+## Relacionado
+
+[Requisito para desbloqueio de usuário](/pt-br/4biz-helium/platform-administration/security/user-unlock-requirement.html)
