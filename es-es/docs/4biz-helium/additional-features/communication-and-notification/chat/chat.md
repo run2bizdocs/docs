@@ -23,7 +23,7 @@ El chat se puede usar de tres maneras:
 
 Para que el chat esté disponible, debe configurar los parámetros de activación de la funcionalidad.
 
-•	Uso Manual: 299, 315, 316, 317, 447 e 423.
+•	Uso Manual: 315, 316, 317, 447 e 423.
 
 •	Integración con Helper: 423
 
@@ -133,14 +133,21 @@ A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en difere
 4. Cuando el asistente abre la pantalla de la lista de atención, esta pantalla tiene los siguientes campos:
    a. Búsqueda por el número del ticket;
    b. Llamadas en cola - son atenciones que no capturaron el llamado
-   c. Asistencia en curso - estas son llamadas que ya se han capturado y se están respondiendo
+   c. Asistencia en curso - estas son llamadas que ya se han capturado y se están respondiendo.
+   
+### Conversación entre ambos canales - Chat y Helper
+
+1. Para tener integración entre ambos canales, los parámetros deben estar habilitados: 402, 423, 441, 442, 450 3453;  
+2. El parámetro 453 debe contener la información en formato <b>menú</b>. Ej.: Estimado, no entendí muy bien lo que pediste. Escriba <b>menú</b> para que pueda mostrarle las formas en que puedo ayudarlo;  
+3. Ítem 1: el usuario hablará con el Helper;  
+4. Ítem 2: el asistente virtual enviará varios mensajes de fallback;  
+5. Ítem 3: El asistente virtual enviará opciones para hablar con el asistente o para abrir una nueva solicitud/incidente;  
+6. Ítem 4: el usuario selecciona hablar con el asistente;  
+7. Ítem 5: El asistente virtual abre un nuevo ticket y si hay un agente en el lado del ticket, el ticket se creará con una alerta;  
+8. Ítem ​​6: En ese momento puede ocurrir interacción entre el usuario y el asistente.   
 
 ## Relacionado
 
 [Configurar parametrización - chat](/es-es/4biz-helium/platform-administration/parameters-list/configure-parametrization-chat.html)
 
 
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz ESP | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
