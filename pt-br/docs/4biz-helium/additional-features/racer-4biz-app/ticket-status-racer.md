@@ -395,3 +395,5 @@ Uma vez reativado, você terá as ações disponíveis para tratamento da requis
 [Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
 
 [Configurar instância para uso do aplicativo Racer4Biz e Mobile GO](/pt-br/4biz-helium/additional-features/mobile-and-field-service/configuration/configure-field-service-application.html)
+
+[Obter assinatura no aplicativo Racer4biz](/pt-br/4biz-helium/additional-features/mobile-and-field-service/use/get-signature-in-attendance.html)
