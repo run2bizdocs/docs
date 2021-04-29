@@ -23,7 +23,7 @@ Chat can be used in three ways:
 
 In order for chat to be available, it's necessary to configure the parameters of activation of the functionality.
 
-•	Manual Usage: 299, 315, 316, 317, 447 e 423.
+•	Manual Usage: 315, 316, 317, 447 e 423.
 
 •	Integration with Helper: 423
 
@@ -137,6 +137,17 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
    b. Attendance in the Queue - These are attendances that didn't capture the ticket
    c. Attendances in Progress - These are attendances that have already been captured and are being answered
 
+### Conversation between both channels - Chat and Helper
+
+1. In order to have integration between both channels, the parameters must be enabled: 402, 423, 441, 442, 450 3 453;  
+2. Parameter 453 must contain the information in the <b>menu</b> format. Eg.: Sorry my dear, I did not understand very well what you asked for. Type <b>menu</b> so that I can show you the ways I can help you;  
+3. Item 1: The user will talk with Helper;  
+4. Item 2: The virtual assistant will send several fallback messages;  
+5. Item 3: The virtual assistant will send options to talk to the attendant or to open a new service/incident request;  
+6. Item 4: The user selects to talk to the attendant;  
+7. Item 5: O assistente virtual abre um novo ticket e caso tenha um agente do lado do ticket, o ticket será criado com um alert;  
+8. Item 6: At this moment, the interaction between the user and the attendant may occur.
+
 ## Related
 
 [Configure parametrization - chat](/en-us/4biz-helium/platform-administration/parameters-list/configure-parametrization-chat.html)
@@ -146,12 +157,3 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 
 
 
-
-
-
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
-	
