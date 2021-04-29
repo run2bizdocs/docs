@@ -145,7 +145,7 @@ Below there are some examples of how to use 4biz Chat in different scenarios:
 4. Item 2: The virtual assistant will send several fallback messages;  
 5. Item 3: The virtual assistant will send options to talk to the attendant or to open a new service/incident request;  
 6. Item 4: The user selects to talk to the attendant;  
-7. Item 5: O assistente virtual abre um novo ticket e caso tenha um agente do lado do ticket, o ticket será criado com um alert;  
+7. Item 5: The virtual assistant opens a new request/incident, and if there is an agent on the request side, the ticket will be created with an alert;  
 8. Item 6: At this moment, the interaction between the user and the attendant may occur.
 
 ## Related
