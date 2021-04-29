@@ -34,6 +34,21 @@ Bem-vindos ao 4biz Helium Versão 2.0.5. Esta versão apresenta as seguintes cor
 
 Para essa versão o Builder compatível é 1.3.7.4.
 
+
+## Versão Helium 2.0.4 (2021/04/16)
+
+Bem-vindos ao 4biz Helium Versão 2.0.4. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|10735| Correção| Correção do filtro de segurança|
+|11235| Correção| Correção do tratamento de erros Builder|
+|11235| Correção| Respostas ao formulario builder nao aparecem na pesquisa avançada|
+|11355| Correção| Alteracao para o sistema não usar a trigger bpm_itemtrabalhofluxo_mv|
+
+Para essa versão o Builder compatível é 1.3.7.4.
+
+
 ## Versão Helium 2.0.3 (2021/04/16)
 
 Bem-vindos ao 4biz Helium Versão 2.0.3. Esta versão apresenta as seguintes correções:
