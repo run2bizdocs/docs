@@ -104,7 +104,7 @@ Bem-vindos ao 4biz Helium Versão 2.0.2. Esta versão apresenta as seguintes cor
 |11189| Correção|	[G. Ticket] Correção do erro ao criar um ticket que continha somente uma imagem no campo descrição o sistema não apresentava a imagem após a criação.|
 |10476| Correção|	[CMDB] Correção do erro em que na tela de 'Midia' ao vincular um conhecimento e salvar, ao entrar dentro dele, novamente, o conhecimento ia replicando.|
 |11239| Correção|	[G. Ticket] Correção do erro no comportamento do sistema quando o usuário não selecionava nenhum grupo ao capturar um ticket e clicava em avançar.|
-|11223| Correção|	[G. Liberação] Correção do erro quando tentávamos gravar e avançar uma liberação que estava com a tarefa atual igual 'liberação' e essa liberação contina uma mudança que tinha um IC vinculado na mesma requisição de liberação, ele não salvava e apresenta mensagem de erro.|
+|11223| Correção|	[G. Liberação] Correção do erro quando tentávamos gravar e avançar uma liberação que estava com a tarefa atual igual 'liberação' e essa liberação contia uma mudança que tinha um IC vinculado na mesma requisição de liberação, ele não salvava e apresenta mensagem de erro.|
 |10971| Correção|	[Corretiva] Correção do erro de key violation, remanescente da correção do Sequence_Block.|
 |11199| Correção|	[G. Ticket] Correção do erro ao delegar um ticket por dentro do chamado.|
 |10487| Correção|	[Webservice] Correção do erro em que ao reclassificar, pelo webservice, não estava ficando a justificativa correta. |
