@@ -194,7 +194,7 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |10735| Corretiva| Login com usuário LDAP e Oauth2|
 |10735| Corretiva| Tratamento de senha na autenticação Builder|
 |11025| Corretiva| Correção de null pointer|
-|11025| Corretiva| Refactory na autenticação|
+|11025| Corretiva| Refactoring na autenticação|
 |11196| Corretiva| Correção do mouse move do desenho de fluxo no Chrome|
 |11214| Corretiva| Alteração do algoritmo de criptografia de senha do usuário|
 |11214| Corretiva| Retirada de constantes de usuário admin|
