@@ -91,12 +91,12 @@ Bem-vindos ao 4biz Helium Versão 2.0.2. Esta versão apresenta as seguintes cor
 |11110| Correção|	[G. Ticket] Correção de erro em que ao reprovar um ticket pelo smart portal ou pela tela ticket ele era cancelado, mas ficava aparecendo na lista principal.|
 |11269| Correção|	[Webservice] Correção de erro ao mostrar a ocorrência em tickets fechados.|
 |11195| Correção|	[G. Ticket] Correção do erro no campo direcionar para grupos, que carregava todos os grupos cadastrados.|
-|10928| Correção|	[Webservice] Correção do erro ao utilizar os WebServices Save e Next setando os campos a serem alterados no ticket, eles não estavam sendo alterados no Front End e mostrava a alteração somente no histórico do ticket.|
+|10928| Correção|	[Webservice] Correção do erro ao utilizar os WebServices Save e Next definindo os campos a serem alterados no ticket, eles não estavam sendo alterados no Front End e mostrava a alteração somente no histórico do ticket.|
 |11287| Correção|	[G. Ticket] Correção do erro ao rejeitar um ticket com fluxo de aprovação via token pelo e-mail.|
 |11197| Correção|	[G. Ticket] Correção do erro em que um ticket que foi capturado na tarefa de direcionar atendimento, ao delegar o ticket, não estava apresentando as informações na tabela 'capturecontrolservicerequest'.|
 |10929| Correção|	[Sistema] Correção do erro em que o Ícone 'bandeira' para trocar o idioma não estava funcionando na tela 'Termos de serviço' em uma instalação do zero.|
 |11231| Correção|	[G. Ticket] Correção do erro em que a pesquisa de satisfação não estava funcionando corretamente, quando o usuário clicava no link do email para responder. A aplicação redirecionava para url do sistema, porém ficava só no aguarde.|
-|11260| Correção|	[G. Ticket] Correção do erro em que ao realizar a validação de um ticket que possuia mais de um grupo na atribuição do fluxo, com fluxo aprovação via token setando na tarefa de usuário executor "Aprovar" com mais de um grupo, ao aprovar ou rejeitar via e-mail na tabela bpm_itemtrabalhofluxo não setava o campo executor_grupo_id.|
+|11260| Correção|	[G. Ticket] Correção do erro em que ao realizar a validação de um ticket que possuia mais de um grupo na atribuição do fluxo, com fluxo aprovação via token configurando na tarefa de usuário executor "Aprovar" com mais de um grupo, ao aprovar ou rejeitar via e-mail na tabela bpm_itemtrabalhofluxo não setava o campo executor_grupo_id.|
 |11263| Correção|	[Webservice] Correção de falha no webservice de empregado.|
 |11258| Correção|	[G. Ticket] Correção do erro quando tínhamos um ticket origem vinculado a um ticket relacionado, ao fechar, o ticket origem e o ticket relacionado também eram fechados. Porém na tabela bpm_itemtrabalho não ficava gravado o grupo executor do ticket relacionado.|
 |11261| Correção|	[Webservice] Correção do erro no webservice de check-in.|
