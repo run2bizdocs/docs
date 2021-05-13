@@ -3,6 +3,33 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 1.2.24 (2021/01/16)
+
+Welcome to 4biz Helium Version 1.2.24. This version presents the following items:  
+For this version, the compatible Builder is 1.3.5.5.
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10619|	Improvement |	Blocking users after successive access errors|
+|10620|	Improvement |	Sending of notification of blocking user|
+|10617| Improvement |	Inclusion of captcha when accessing the system|
+|10663|	Improvement |	Correction of access to users logged in via LDAP|
+|10618|	Improvement	| Settings of system authentication messages|
+|10628|	Improvement	| Inclusion of keycloack authentication with access and identity management|
+|10624|	Improvement	| Review of safety criteria|
+
+|Known errors| Description|
+|------------|------------|
+|10670| Access screen for viewing external knowledge does not allow access without logging into the system|
+
+Welcome to Builder 1.3.5.5.  
+The version presented has the following correction(s): 
+
+|Corrective| Description|
+|----------|------------|
+|          | Correction of intermittent error occasioned in Rhino Scripts|
+
+
 ## Version Helium 1.2.23 (2021/01/05)
 
 !!! warning "ATTENTION"
