@@ -3,6 +3,21 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.2 (2021/05/14)
+
+Bem-vindos ao 4biz Helium Versão 2.1.2. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11510| Correção| Correção de erro com o usuário convidado no Smart Chat|
+|11393| Correção| Correção de erro ao logar em vários ambientes onde está abrindo a pop-up do chat|
+|11607| Correção| Correção de erro quando o usuário inicia uma conversa com a Helper e em seguida abre uma nova janela no navegador|
+|11541| Correção| Correção de erro ao tentar fazer um download de uma evidência dentro de uma atividade periódica|
+|10025| Correção| Erro apresentando ao criar um ticket ou um sub-ticket com situação igual a "Resolvida". Não está sendo possível que ele seja criado e fechado ao mesmo tempo|
+
+Para essa versão o Builder compatível é 1.3.7.4.
+
+
 ## Versão Helium 2.1.1 (2021/05/03)
 
 Bem-vindos ao 4biz Helium Versão 2.1.1. Esta versão apresenta as seguintes correções:
