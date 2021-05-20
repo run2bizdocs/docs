@@ -3,6 +3,86 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 1.2.30 (2021/05/03)
+
+Welcome to 4biz Helium Version 1.2.30. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11365	|Correction|Alteration in method for removing tags|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+## Version Helium 1.2.29 (2021/04/14)
+
+Welcome to 4biz Helium Version 1.2.29. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11344	|Correction|Corrective of security|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+
+## Version Helium 1.2.28 (2021/03/24)
+
+Welcome to 4biz Helium Version 1.2.28. This version presents the following improvements:
+
+|Number |	  Type|   Description|
+|-------|---------|--------------|
+|11216|Corrective |Correction of vulnerability of the autocomplete filter|
+|11214|Improvement|Alteration of password encryption algorithm and force password alteration in the next login|
+|6588 |Corrective |Incident in the SLA Control report returning dates outside of the requested period|
+|6607 |Corrective |Incident in the SLA Control report delayed showing dates outside of the selected period|
+|6527 |Corrective |Incident when responding to a satisfaction survey, the system does not load the survey|
+
+For this version, the compatible Builder is 1.3.6.6.
+
+
+## Version Helium 1.2.27 (2021/03/23)
+
+Welcome to 4biz Helium Version 1.2.27. This version presents the following improvements:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11094  |Corrective|	Correction of LDAP authentication via webservice|
+|11094	|Corrective|	Correction of null pointer and messages|
+|11094	|Corrective|	Do not continue using the LDAP user password|
+|11094	|Corrective|	LDAP error handling|
+
+For this version, the compatible Builder is 1.3.6.6.
+
+## Version Helium 1.2.26 (2021/03/23)
+
+Welcome to 4biz Helium Version 1.2.26. This version presents the following improvements:
+
+|Number   |	      Type|	 Description|
+|---------|----------|--------------|
+|ITSM 6396|Corrective|Incorrect SQL syntax when creating or opening a problem|
+
+Welcome to Builder 1.3.6.6.
+The version presented has the following correction(s):
+
+|Number   |	     Type|   Description|
+|---------|----------|--------------|
+|11025    |Corrective|	Correction of login screen redirection when using the webservice of the same name|
+
+
+
+## Version Helium 1.2.25 (2021/02/16)
+
+Welcome to 4biz Helium Version 1.2.25. This version features the following items:
+
+|Number|	Type|	Description|
+|------|--------|--------------|
+|6231 |	Corrective|	Error when listing history of a delegated ticket by the advanced search|
+|10670|	Corrective|	The system does not present external and public knowledge|
+|10802|	Corrective|	Charset error in accented words in smart reports|
+|10892|	Corrective|	Improvement of performance in the audit consultations|
+
+For this version, the compatible Builder is 1.3.5.5.
+
+
 ## Version Helium 1.2.24 (2021/01/16)
 
 Welcome to 4biz Helium Version 1.2.24. This version presents the following items:  
