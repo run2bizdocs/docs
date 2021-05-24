@@ -3,6 +3,19 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.3 (2021/05/24)
+
+Bem-vindos ao 4biz Helium Versão 2.1.3. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11824| Correção| Correção de erro para permitir a execução de solicitação atribuída, apenas, para o usuário|
+|11937| Correção| Correção de erro para apresentar notificação de relatório concluído quando processado em segundo plano|
+|11952| Correção| Correção de componentes Builder|
+|11353| Correção| Correção de script de banco de dados|
+
+Para essa versão o Builder compatível é 1.3.7.4.
+
 ## Versão Helium 2.1.2 (2021/05/14)
 
 Bem-vindos ao 4biz Helium Versão 2.1.2. Esta versão apresenta as seguintes correções:
