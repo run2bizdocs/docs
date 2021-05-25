@@ -9,8 +9,8 @@ Welcome to 4biz Helium Version 1.2.31. This version presents the following corre
 
 |Number |	   Type|   Description|
 |-------|----------|--------------|
-|10025  |Correction|    Registration of the executing group, in the task of closing the request, which has already been released and solved|
-|11541  |Correction|	Allows downloading of files on the periodic activity screen|
+|10025  |Correction|Registration of executing group, in the task of closing the request, which has already been released and solved|
+|11541  |Correction|Allows downloading of files on the periodic activity screen|
 
 For this version, the compatible Builder is 1.3.7.4.
 
