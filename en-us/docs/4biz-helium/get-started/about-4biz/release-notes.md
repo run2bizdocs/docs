@@ -66,8 +66,73 @@ Welcome to 4biz Helium Version 2.0.2. This version presents the following correc
 |10891	|Correction|[System] Error correction to remove a schedule when a batch processing is automatically inactivated.|
 |10902	|Correction|[System] Error correction in the sequence of the "Rest_operation" table that had a value equivalent to "Restoperation_seq.nextval" for the primary key.|
 
+And the following improvements:
 
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11214	|Improvement|[Users] Improvement in the alteration of password encryption algorithm and force password alteration in the next login.|
+|11159	|Improvement|[Webservice] Improvement in the 4biz login webservice for a new LDAP user.|
+|11158	|Improvement|[Webservice] Improvement in the authentication webservice – Builder.|
+|10665	|Improvement|[Mgmt. Ticket] Improvement in tickets that had more than one group in the allocation of the flow.|
+|- 	    |Improvement|[Users] Improvement in inclusion of the Keycloack authentication method.|
+|-	    |Improvement|[Users] Improvement in inclusion of the authentication method via social networks.|
+|10502	|Improvement|[Mgmt. Ticket] Improvement in BI consultations.|
+|10081	|Improvement|[Webservice] Improvement in which a webservice has been created that allows you to visualize the details of the change.|
 
+Welcome to Builder 1.3.7.4.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11320	|Correction|Correction of the error message|
+|11353	|Correction|Correction of the creation of flows in Oracle environment|
+|11353	|Correction|Correction of query component|
+
+Welcome to Builder 1.3.7.3.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11320	|Correction|Correction of components display|
+
+Welcome to Builder 1.3.7.2.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10735	|Correction|Correction of scripts|
+
+Welcome to Builder 1.3.7.1.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10538	|Correction|Correction of Builder directives|
+|11320	|Correction|Display component properties in form creation by business object|
+
+Welcome to Builder 1.3.7.0.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10735	|Corrective|Correction of users’ authentication|
+|10735	|Corrective|Login with LDAP and Oauth2 user|
+|10735	|Corrective|Password handling in Builder authentication|
+|11025	|Corrective|Correction of null pointer|
+|11025	|Corrective|Authentication refactoring|
+|11196	|Corrective|Correction of the mouse move of flow drawing in Chrome|
+|11214	|Corrective|Alteration of user password encryption algorithm|
+|11214	|Corrective|Removal of admin user constants|
+|11216	|Corrective|Correction of vulnerability of the autocomplete filter|
+|11214	|Corrective|Alteration of password encryption algorithm and force password alteration in the next login|
+
+!!! warning "ATTENTION"
+For more information about Builder 1.3.7.0, see the [Builder Release Notes]
 
 ## Version Helium 1.2.31 (2021/05/12)
 
