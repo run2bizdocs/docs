@@ -12,59 +12,59 @@ Welcome to 4biz Helium Version 2.0.2. This version presents the following correc
 |Number |	   Type|   Description|
 |-------|----------|--------------|
 |10975	|Correction|[PostgreSQL / Sql Server] Error correction when adding an image to the content of knowledge for the visualization of visiting users.|
-11190	Correction	[Mgmt. Ticket] Error correction in which when suspending a ticket, it was disappearing from the list.
-10979	Correction	[Mgmt. Knowledge] Error correction for knowledge versioning.
-11092	Correction	[Mgmt. Ticket] Error correction in which when editing a comment on the ticket screen, it was not possible to save the ticket.
-11160	Correction	[Mgmt. Ticket] Error correction that prevented the creation of a ticket via token.
-11105	Correction	[Experience Center] Error correction in which when opening a ticket through the experience center, it was adding in the description field the name of the portfolio’s activity.
-11106	Correction	[Experience Center] Error correction in which the Cancel ticket button was not displayed within the ticket selected in the experience center.
-11109	Correction	[Mgmt. Knowledge] Error correction in which when adding an image to an image category or a knowledge content, it was redirected to the login screen.
-11110	Correction	[Mgmt. Ticket] Error correction in which when a ticket was rejected by the smart portal or the ticket screen, it was canceled but kept appearing in the main list.
-11269	Correction	[Webservice] Error correction when showing occurrence in closed tickets.
-11195	Correction	[Mgmt. Ticket] Error correction in the "direct to groups" field, which loaded all registered groups.
-10928	Correction	[Webservice] Error correction when using "Webservices Save and Next" by defining the fields to be changed in the ticket, they were not being modified in the Front End and the change were only showed in the ticket history.
-11287	Correction	[Mgmt. Ticket] Error correction when rejecting a ticket with approval flow via token by e-mail.
-11197	Correction	[Mgmt. Ticket] Error correction in which a ticket that was captured in the task of directing service, when delegating the ticket, was not presenting the information in the 'capturecontrolservicerequest' table.
-10929	Correction	[System] Error correction in which the 'flag' icon to change the language was not working on the 'Terms of Service' screen in an installation from scratch.
-11231	Correction	[Mgmt. Ticket] Error correction in which the satisfaction survey was not working properly, when the user was clicking on the e-mail link to reply. The application was redirecting to the system url, but was only on standby. 
-11260	Correction	[Mgmt. Ticket] Error correction in which when validating a ticket that had more than one group in the flow assignment, with approval flow via token defining in the user task executing "Approve" with more than one group, when approving or rejecting via e-mail in the bpm_itemtworkflow table did not set the executor_group_id field.
-11263	Correction	[Webservice] Fault correction on the employee webservice.
-11258	Correction	[Mgmt. Ticket] Error correction when we had an origin ticket linked to a related ticket, when closing, the source ticket and the related ticket were also closed. But in the bpm_itemtrabalho table the related ticket executor group was not saved.
-11261	Correction	[Webservice] Error correction in check-in webservice.
-11196	Correction	[Mgmt. Ticket] Error correction in the flow component that could not be moved in Chrome.
-11189	Correction	[Mgmt. Ticket] Error correction when creating a ticket that contained only one image in the description field. The system was not displaying the image after creation.
-10476	Correction	[CMDB] Error correction in which on the 'Media' screen when linking a knowledge and save it. When entering it, again, the knowledge was being replicated.
-11239	Correction	[Mgmt. Ticket] Error correction in system behavior when the user was not selecting any group when capturing a ticket and clicking on next.
-11223	Correction	[Mgmt. Release] Error correction when we was trying to save and advance a release that was with the current task equal to 'release' and that release had a change with a CI linked in the same release request, it was not saving and presented error message.
-10971	Correction	[Corrective] Error correction of key violation, remaining from Sequence_block correction.
-11199	Correction	[Mgmt. Ticket] Error correction when delegating a ticket within the call.
-10487	Correction	[Webservice] Error correction in which the reclassification, by the webservice, was not getting the correct justification.
-10546	Correction	[Mgmt. Portfolio] Error correction in the portfolio in which when editing any field of the "Link Request or Incident Service" pop-up was presenting the SQL error in the Log and was not saving the edit. The "save" button was out of action.
-11217	Correction	[Mgmt. Problems] Error correction in which it was not possible to create a problem of the 'Reactive' type, as we could not link a ticket to the problem.
-11188	Correction	[Mgmt. Ticket] Error correction when suspending a ticket inside the call.
-11010	Correction	[Webservice] Error correction in which you were not creating a ticket with the old webservice create.
-11011	Correction	[Mgmt. Ticket] Error correction in which when suspending a ticket the application was not being suspended and presented deadlock.
-11290	Correction	[Webservice] Error correction that was occurring when using Webservice to list portfolios. The same was not presenting correctly the portfolios of the logged-in user, whose same is the user provided in the body of the webservice when parameter 293 is enabled.
-11291	Correction	[Users] Error correction when we were registering a user by the application, the local domain was not remaining, for example, 4biz.local re.
-11288	Correction	[Mgmt. Ticket] Error correction in which when trying to reopen a ticket that had an approval flow via token, the application was displaying an error message.
-11293	Correction	[Webservice] Error correction in which when trying to capture a ticket through the webservice, with a logged-in user and with permission in the flow for two groups, it was not allowed to capture the ticket and an error message was displayed.
-11216	Correction	[System] Correction of vulnerability in the system.
-10503	Correction	[Mgmt. Ticket] Error correction when validating closed calls that kept appearing on the list of calls in progress.
-10649	Correction	[System] Error correction because the "useremail" field of the "chatusers" table was not accepting null. When logging in with LDAP users, who had no registered e-mail, an error was being presented.
-10930	Correction	[User] Error correction in the access profile table.
-10931	Correction	[System] Correction of errors presented in the log when making a new installation.
-10944	Correction	[System] Error correction when creating a flow.
-10314	Correction	[Mgmt. Release] Error correction in which "creation and completion" occurrences were not shown in the advanced and in the name of the person who performed the occurrence was described the login of the user and not his full name.
-10867	Correction	[Webservices] Error correction when saving a ticket with a linked knowledge the system was cleaning up the knowledge.
-10921	Correction	[Webservices] Error correction in webservice location/last.
-10554	Correction	[Smart Portal] Error correction when id parameter 293 = Yes, the application was showing error when opening the Smart Portal screen.
-10866	Correction	[Mgmt. Problem] Error correction in which when creating a problem request was presented, on the screen for the user and in the log, an SQL error.
-10865	Correction	[Mgmt. Change] Error correction on the change when inserting IC and saving.
-10861	Correction	[Mgmt. Change] Error correction in Java in which the "RequisicaoMudancaServiceEjb" table was not bringing the amount of approval requests on the change screen.
-10788	Correction	[System] Error correction in which when updating the version of 1.2.24 to 2.0.1-Snapshot-02, the application was presenting an error in the system body parameters.
-10922	Correction	[Webservices] Error correction in which the notification push was not coming in the application.
-10891	Correction	[System] Error correction to remove a schedule when a batch processing is automatically inactivated.
-10902	Correction	[System] Error correction in the sequence of the "Rest_operation" table that had a value equivalent to "Restoperation_seq.nextval" for the primary key.
+|11190	|Correction|[Mgmt. Ticket] Error correction in which when suspending a ticket, it was disappearing from the list.|
+|10979	|Correction|[Mgmt. Knowledge] Error correction for knowledge versioning.|
+|11092	|Correction|[Mgmt. Ticket] Error correction in which when editing a comment on the ticket screen, it was not possible to save the ticket.|
+|11160	|Correction|[Mgmt. Ticket] Error correction that prevented the creation of a ticket via token.|
+|11105	|Correction|[Experience Center] Error correction in which when opening a ticket through the experience center, it was adding in the description field the name of the portfolio’s activity.|
+|11106	|Correction|[Experience Center] Error correction in which the Cancel ticket button was not displayed within the ticket selected in the experience center.|
+|11109	|Correction|[Mgmt. Knowledge] Error correction in which when adding an image to an image category or a knowledge content, it was redirected to the login screen.|
+|11110	|Correction|[Mgmt. Ticket] Error correction in which when a ticket was rejected by the smart portal or the ticket screen, it was canceled but kept appearing in the main list.|
+|11269	|Correction|[Webservice] Error correction when showing occurrence in closed tickets.|
+|11195	|Correction|[Mgmt. Ticket] Error correction in the "direct to groups" field, which loaded all registered groups.|
+|10928	|Correction|[Webservice] Error correction when using "Webservices Save and Next" by defining the fields to be changed in the ticket, they were not being modified in the Front End and the change were only showed in the ticket history.|
+|11287	|Correction|[Mgmt. Ticket] Error correction when rejecting a ticket with approval flow via token by e-mail.|
+|11197	|Correction|[Mgmt. Ticket] Error correction in which a ticket that was captured in the task of directing service, when delegating the ticket, was not presenting the information in the 'capturecontrolservicerequest' table.|
+|10929	|Correction|[System] Error correction in which the 'flag' icon to change the language was not working on the 'Terms of Service' screen in an installation from scratch.|
+|11231	|Correction|[Mgmt. Ticket] Error correction in which the satisfaction survey was not working properly, when the user was clicking on the e-mail link to reply. The application was redirecting to the system url, but was only on standby.| 
+|11260	|Correction|[Mgmt. Ticket] Error correction in which when validating a ticket that had more than one group in the flow assignment, with approval flow via token defining in the user task executing "Approve" with more than one group, when approving or rejecting via e-mail in the bpm_itemtworkflow table did not set the executor_group_id field.|
+|11263	|Correction|[Webservice] Fault correction on the employee webservice.|
+|11258	|Correction|[Mgmt. Ticket] Error correction when we had an origin ticket linked to a related ticket, when closing, the source ticket and the related ticket were also closed. But in the bpm_itemtrabalho table the related ticket executor group was not saved.|
+|11261	|Correction|[Webservice] Error correction in check-in webservice.|
+|11196	|Correction|[Mgmt. Ticket] Error correction in the flow component that could not be moved in Chrome.|
+|11189	|Correction|[Mgmt. Ticket] Error correction when creating a ticket that contained only one image in the description field. The system was not displaying the image after creation.|
+|10476	|Correction|[CMDB] Error correction in which on the 'Media' screen when linking a knowledge and save it. When entering it, again, the knowledge was being replicated.|
+|11239	|Correction|[Mgmt. Ticket] Error correction in system behavior when the user was not selecting any group when capturing a ticket and clicking on next.|
+|11223	|Correction|[Mgmt. Release] Error correction when we was trying to save and advance a release that was with the current task equal to 'release' and that release had a change with a CI linked in the same release request, it was not saving and presented error message.|
+|10971	|Correction|[Corrective] Error correction of key violation, remaining from Sequence_block correction.|
+|11199	|Correction|[Mgmt. Ticket] Error correction when delegating a ticket within the call.|
+|10487	|Correction|[Webservice] Error correction in which the reclassification, by the webservice, was not getting the correct justification.|
+|10546	|Correction|[Mgmt. Portfolio] Error correction in the portfolio in which when editing any field of the "Link Request or Incident Service" pop-up was presenting the SQL error in the Log and was not saving the edit. The "save" button was out of action.|
+|11217	|Correction|[Mgmt. Problems] Error correction in which it was not possible to create a problem of the 'Reactive' type, as we could not link a ticket to the problem.|
+|11188	|Correction|[Mgmt. Ticket] Error correction when suspending a ticket inside the call.|
+|11010	|Correction|[Webservice] Error correction in which you were not creating a ticket with the old webservice create.|
+|11011	|Correction|[Mgmt. Ticket] Error correction in which when suspending a ticket the application was not being suspended and presented deadlock.|
+|11290	|Correction|[Webservice] Error correction that was occurring when using Webservice to list portfolios. The same was not presenting correctly the portfolios of the logged-in user, whose same is the user provided in the body of the webservice when parameter 293 is enabled.|
+|11291	|Correction|[Users] Error correction when we were registering a user by the application, the local domain was not remaining, for example, 4biz.local re.|
+|11288	|Correction|[Mgmt. Ticket] Error correction in which when trying to reopen a ticket that had an approval flow via token, the application was displaying an error message.|
+|11293	|Correction|[Webservice] Error correction in which when trying to capture a ticket through the webservice, with a logged-in user and with permission in the flow for two groups, it was not allowed to capture the ticket and an error message was displayed.|
+|11216	|Correction|[System] Correction of vulnerability in the system.|
+|10503	|Correction|[Mgmt. Ticket] Error correction when validating closed calls that kept appearing on the list of calls in progress.|
+|10649	|Correction|[System] Error correction because the "useremail" field of the "chatusers" table was not accepting null. When logging in with LDAP users, who had no registered e-mail, an error was being presented.|
+|10930  |Correction|[User] Error correction in the access profile table.|
+|10931	|Correction|[System] Correction of errors presented in the log when making a new installation.|
+|10944	|Correction|[System] Error correction when creating a flow.|
+|10314	|Correction|[Mgmt. Release] Error correction in which "creation and completion" occurrences were not shown in the advanced and in the name of the person who performed the occurrence was described the login of the user and not his full name.|
+|10867	|Correction|[Webservices] Error correction when saving a ticket with a linked knowledge the system was cleaning up the knowledge.|
+|10921	|Correction|[Webservices] Error correction in webservice location/last.|
+|10554	|Correction|[Smart Portal] Error correction when id parameter 293 = Yes, the application was showing error when opening the Smart Portal screen.|
+|10866	|Correction|[Mgmt. Problem] Error correction in which when creating a problem request was presented, on the screen for the user and in the log, an SQL error.|
+|10865	|Correction|[Mgmt. Change] Error correction on the change when inserting IC and saving.
+|10861	|Correction|[Mgmt. Change] Error correction in Java in which the "RequisicaoMudancaServiceEjb" table was not bringing the amount of approval requests on the change screen.|
+|10788	|Correction|[System] Error correction in which when updating the version of 1.2.24 to 2.0.1-Snapshot-02, the application was presenting an error in the system body parameters.|
+|10922	|Correction|[Webservices] Error correction in which the notification push was not coming in the application.|
+|10891	|Correction|[System] Error correction to remove a schedule when a batch processing is automatically inactivated.|
+|10902	|Correction|[System] Error correction in the sequence of the "Rest_operation" table that had a value equivalent to "Restoperation_seq.nextval" for the primary key.|
 
 
 
