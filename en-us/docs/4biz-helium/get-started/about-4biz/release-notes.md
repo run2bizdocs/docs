@@ -23,10 +23,10 @@ Welcome to 4biz Helium Version 2.1.2. This version presents the following correc
 |Number |	   Type|   Description|
 |-------|----------|--------------|
 |11510	|Correction|Error correction with guest user on Smart Chat|
-|11393	|Correction	Error correction when logging into multiple environments where the chat pop-up is opening
+|11393	|Correction	Error correction when logging into multiple environments where the chat pop-up is opening|
 |11607  |Correction|Error correction when the user starts a conversation with Helper and then opens a new window in the browser|
 |11541  |Correction|Error correction when trying to download an evidence within a periodic activity|
-|10025  |CorrectionvError showing when creating a ticket or sub-ticket with "Solved" status. It is not possible for it to be created and closed at the same timev
+|10025  |CorrectionvError showing when creating a ticket or sub-ticket with "Solved" status. It is not possible for it to be created and closed at the same time|
 
 For this version, the compatible Builder is 1.3.7.4.
 
