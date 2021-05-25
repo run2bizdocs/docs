@@ -3,6 +3,17 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 1.2.31 (2021/05/12)
+
+Welcome to 4biz Helium Version 1.2.31. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10025  |Correction|    Registration of the executing group, in the task of closing the request, which has already been released and solved|
+|11541  |Correction|	Allows downloading of files on the periodic activity screen|
+
+For this version, the compatible Builder is 1.3.7.4.
+
 ## Version Helium 1.2.30 (2021/05/03)
 
 Welcome to 4biz Helium Version 1.2.30. This version presents the following corrections:
