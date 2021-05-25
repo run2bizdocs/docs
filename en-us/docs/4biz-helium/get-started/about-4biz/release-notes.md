@@ -3,6 +3,31 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.0.4 (2021/04/16)
+
+Welcome to 4biz Helium Version 2.0.4. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10735	|Correction|Correction of the safety filter|
+|11235	|Correction|Correction of Builder error handling|
+|11235	|Correction|Replies to the Builder form do not appear in the advanced search|
+|11355	|Correction|Alteration so that the system does not use the trigger bpm_itemtrabalhofluxo_mv|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+
+## Version Helium 2.0.3 (2021/04/16)
+
+Welcome to 4biz Helium Version 2.0.3. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11344	|Correction|Treatment of new SQL Injection tags|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+
 ## Version Helium 2.0.2 (2021/04/14)
 
 !!! warning "ATTENTION"
@@ -79,6 +104,7 @@ And the following improvements:
 |10502	|Improvement|[Mgmt. Ticket] Improvement in BI consultations.|
 |10081	|Improvement|[Webservice] Improvement in which a webservice has been created that allows you to visualize the details of the change.|
 
+
 Welcome to Builder 1.3.7.4.
 
 The version presented has the following correction(s):
@@ -89,6 +115,7 @@ The version presented has the following correction(s):
 |11353	|Correction|Correction of the creation of flows in Oracle environment|
 |11353	|Correction|Correction of query component|
 
+
 Welcome to Builder 1.3.7.3.
 
 The version presented has the following correction(s):
@@ -96,6 +123,7 @@ The version presented has the following correction(s):
 |Number |	   Type|   Description|
 |-------|----------|--------------|
 |11320	|Correction|Correction of components display|
+
 
 Welcome to Builder 1.3.7.2.
 
@@ -105,6 +133,7 @@ The version presented has the following correction(s):
 |-------|----------|--------------|
 |10735	|Correction|Correction of scripts|
 
+
 Welcome to Builder 1.3.7.1.
 
 The version presented has the following correction(s):
@@ -113,6 +142,7 @@ The version presented has the following correction(s):
 |-------|----------|--------------|
 |10538	|Correction|Correction of Builder directives|
 |11320	|Correction|Display component properties in form creation by business object|
+
 
 Welcome to Builder 1.3.7.0.
 
@@ -134,6 +164,7 @@ The version presented has the following correction(s):
 !!! warning "ATTENTION"
 For more information about Builder 1.3.7.0, see the [Builder Release Notes]
 
+
 ## Version Helium 1.2.31 (2021/05/12)
 
 Welcome to 4biz Helium Version 1.2.31. This version presents the following corrections:
@@ -144,6 +175,7 @@ Welcome to 4biz Helium Version 1.2.31. This version presents the following corre
 |11541  |Correction|Allows downloading of files on the periodic activity screen|
 
 For this version, the compatible Builder is 1.3.7.4.
+
 
 ## Version Helium 1.2.30 (2021/05/03)
 
