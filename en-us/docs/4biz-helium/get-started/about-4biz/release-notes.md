@@ -3,6 +3,73 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.3 (2021/05/24)
+
+Welcome to 4biz Helium Version 2.1.3. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11824	|Correction|Error correction to allow the execution of request assigned, only, to the user|
+|11937	|Correction|Error correction to submit completed report notification when processed in the background|
+|11952  |Correction|Correction of Builder Component|
+|11353  |Correction|Correction of database script|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+## Version Helium 2.1.2 (2021/05/14)
+
+Welcome to 4biz Helium Version 2.1.2. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11510	|Correction|Error correction with guest user on Smart Chat|
+|11393	|Correction	Error correction when logging into multiple environments where the chat pop-up is opening
+|11607  |Correction|Error correction when the user starts a conversation with Helper and then opens a new window in the browser|
+|11541  |Correction|Error correction when trying to download an evidence within a periodic activity|
+|10025  |CorrectionvError showing when creating a ticket or sub-ticket with "Solved" status. It is not possible for it to be created and closed at the same timev
+
+For this version, the compatible Builder is 1.3.7.4.
+
+## Version Helium 2.1.1 (2021/05/03)
+
+Welcome to 4biz Helium Version 2.1.1. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11607	|Correction|Error correction where the user who is configured as guest user is prevented from accessing the system|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+## Version Helium 2.1.0 (2021/04/16)
+
+Welcome to 4biz Helium Version 2.1.0. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11235	|Correction|Replies to the Builder form do not appear in the advanced search|
+|11348	|Correction|Check that Builder forms are being saved without the validation of mandatory fields|
+
+And the following improvements:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11155	|Improvement|Improvement in Portfolio Maintenance|
+|11220	|Improvement|Create configuration area for Smartchat|
+|11221	|Improvement|Allow visualization and iteration of user with Smartchat via the system home screen|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+## Version Helium 2.0.5 (2021/04/16)
+
+Welcome to 4biz Helium Version 2.0.5. This version presents the following corrections:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11348	|Correction|Validation of mandatory fields on the Builder CRUD page|
+|11355	|Correction|Alteration so that the system does not use the trigger bpm_itemtrabalhofluxo_mv|
+
+For this version, the compatible Builder is 1.3.7.4.
+
 ## Version Helium 2.0.4 (2021/04/16)
 
 Welcome to 4biz Helium Version 2.0.4. This version presents the following corrections:
