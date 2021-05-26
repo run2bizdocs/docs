@@ -25,13 +25,33 @@ O chat pode ser usado de três modos:
 
 ## Antes de começar
 
-Para que o chat esteja disponível é preciso configurar os parâmetros de ativação da funcionalidade.
+Para que o chat esteja disponível é preciso configurar os parâmetros de ativação da funcionalidade.  
 
-•	Uso Manual: 315, 316, 317, 447 e 423.
+1.  Acessar a funcionalidade através da navegação no menu principal
+    Parametrização \> Chat;
 
-•	Integração com o Helper: 423
+2.  Definir os valores dos parâmetros (atributos);
 
-Ao habilitar o parâmetro 423 o chat será aberto integrado ao assistente virtual Helper.
+3.  Clicar no botão "Gravar" para efetuar a operação;
+
+4.  A lista abaixo apresenta os parâmetros da funcionalidade "Chat" e a
+    finalidade de cada um deles.
+
+|  #  |                        Nome                        | Valores posssíveis |                             Finalidade                            | Orientações complementares |
+|:---:|:--------------------------------------------------:|:------------------:|:-----------------------------------------------------------------:|:--------------------------:|
+| 118 |   ID do contrato padrão para abertura de chamados  |                    |          ID do contrato padrão para abertura de chamados          |        Não se aplica       |
+| 315 |   ID da origem das solicitações criadas pelo chat  |                    |          ID da origem das solicitações criadas pelo chat          |        Não se aplica       |
+| 316 |                     Ativar Chat                    |       S ou N       |                            Ativar Chat                            |        Não se aplica       |
+| 317 | ID da atividade das solicitações criadas pelo chat |                    |         ID da atividade das solicitações criadas pelo chat        |        Não se aplica       |
+| 388 |       ID usuário padrão (Requisição externa)       |                    |               ID usuário padrão (Requisição externa)              |        Não se aplica       |
+| 389 |        ID grupo padrão (Requisição externa)        |                    |                ID grupo padrão (Requisição externa)               |        Não se aplica       |
+| 390 |                ID da unidade padrão                |                    | ID da Unidade que será atribuido ao usuário cadastrado no profile |        Não se aplica       |
+| 447 |  ID do modelo de e-mail para notificação de novas mensagens no chat |                    | ID do modelo de e-mail para notificação de novas mensagens no chat |        Não se aplica       |
+| 299 |     Ticket - Ativar troca de mensagens             |       S ou N       | Ativa um ícone de conversa ao lado do número do ticket na fila de atendimento |        Não se aplica       |
+| 448 |    Editor de texto utilizado pela aplicação        |                    | Editor de texto utilizado pela aplicação |        Não se aplica       |  
+
+5. Os parâmetros 315, 316, 317, 447 e 423 devem ser atribuídos manualmente.
+6. Para que o chat seja aberto integrado ao assistente virtual Helper, é necessário habilitar o parâmetro 423.
 
 ## Procedimento
 
@@ -44,14 +64,14 @@ Serão apresentados os seguintes parâmetros:
 |Parâmetro|Descrição|
 |---------|---------|
 |Ativar modo convidado| Configurar se o Smart Chat será visualizado na tela de login. As opções serão Sim ou Não, default Não. Caso o usuário escolha "Sim", o sistema solicitará o login do usuário. O login deverá seguir o padrão: domínio\\login|
-|Modo convidado - ID Usuário| É o número identificador do usuário que iniciará sessão como convidado. Informação contida na coluna idUsuario da tabela usuário|
-|Modo convidado - Chave secreta| A chave secreta é a senha de acesso do usuário convidado|
+|Modo convidado - ID Usuário| Esse campo é obrigatório. É o número identificador do usuário que se logará como convidado. Informação contida na coluna idUsuario da tabela usuário.|
+|Modo convidado - Chave secreta| Esse campo é obrigatório. É uma palavra de segurança para que o usuário saiba que está conversando com um usuário convidado.|
 |Mensagem de boas-vindas| Alterar ou manter a mensagem padrão de boas-vindas|
 |Iniciar aberto| Quando ativo significa que o Smart Chat vai sempre estar no modo aguardando mensagem. O default será Não|
 |Ação inicial| Quando informado iniciará uma ação vinda do assistente virtual na tela de Smart Chat|
 |Salvar| Botão para salvar as configurações|
 
-Após salvar, a tela do Smart Chat estará disponível na tela de login, assim como todos os serviços configurados para Smart Chat ou assistente virtual, seguindo as restrições, de grupo e perfil de acesso, impostas ao usuário convidado.
+Após salvar as configurações do Smart Chat, as funcionalidades estarão disponíveis na tela de login somente para interação com o assistente virtual. Essas funcionalidades seguem as restrições de grupo e perfil  de acesso impostas ao usuário.
 
 
 A seguir apresentamos alguns exemplos de como utilizar o Chat do 4biz em cenários diferentes:
