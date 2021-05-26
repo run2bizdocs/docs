@@ -229,8 +229,8 @@ The version presented has the following correction(s):
 |11214	|Corrective|Alteration of password encryption algorithm and force password alteration in the next login|
 
 !!! warning "ATTENTION"
-For more information about Builder 1.3.7.0, see the [Builder Release Notes]
 
+    For more information about Builder 1.3.7.0, see the [Builder Release Notes][5]
 
 ## Version Helium 1.2.31 (2021/05/12)
 
@@ -538,3 +538,4 @@ Welcome to 4biz Helium Version 1.0.2. This version presents the following items:
 [2]:/en-us/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
 [3]:/en-us/4biz-helium/get-started/about-4biz/Guidance-about-version-4biz-helium1.2.22.zip
 [4]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-1.2.23.zip
+[5]:/en-us/4biz-helium/get-started/about-4biz/Release-Notes-Builder-1.3.7.0.docx
