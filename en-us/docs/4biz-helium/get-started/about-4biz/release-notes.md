@@ -99,6 +99,8 @@ For this version, the compatible Builder is 1.3.7.4.
 
 !!! warning "ATTENTION"
 
+    Before downloading this version, check the guidelines in the document [4biz Helium Guide version 2.0.2][6]
+
 Welcome to 4biz Helium Version 2.0.2. This version presents the following corrections:
 
 |Number |	   Type|   Description|
@@ -539,3 +541,4 @@ Welcome to 4biz Helium Version 1.0.2. This version presents the following items:
 [3]:/en-us/4biz-helium/get-started/about-4biz/Guidance-about-version-4biz-helium1.2.22.zip
 [4]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-1.2.23.zip
 [5]:/en-us/4biz-helium/get-started/about-4biz/Release-Notes-Builder-1.3.7.0.docx
+[6]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-2.0.2.zip
