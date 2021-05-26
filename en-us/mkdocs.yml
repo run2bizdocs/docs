@@ -678,15 +678,17 @@ nav:
     - builder/builder-faq.md
 - Helper:
   - helper/what_is_helper.md
-  - Configuration:
-    - helper/configuration/helper-4biz.md
-    - helper/configuration/context-helper.md
-    - helper/configuration/interact-helper.md
-    - helper/configuration/store-dialog-helper.md
-  - Use:
-    - helper/use/teach-helper.md
-    - helper/use/trainning-helper.md
-    - helper/use/monitoring-helper.md
+  - helper/analytics.md
+  - helper/context.md
+  - helper/create_edit_intent.md
+  - helper/dialogues.md
+  - helper/integrations.md
+  - helper/settings.md
+  - helper/skills.md
+  - helper/themes.md
+  - helper/third_party_API.md  
+  - helper/trainings.md  
+  - helper/users.md
 - FAQ:
   - faq.md
   - glossary.md
