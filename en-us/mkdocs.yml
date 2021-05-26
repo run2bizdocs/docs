@@ -677,7 +677,7 @@ nav:
   - Builder FAQ:
     - builder/builder-faq.md
 - Helper:
-  - helper/overview.md
+  - helper/what_is_helper.md
   - Configuration:
     - helper/configuration/helper-4biz.md
     - helper/configuration/context-helper.md
