@@ -39,7 +39,7 @@ Para que el chat esté disponible, debe configurar los parámetros de activació
 |315|	ID de origen de las solicitudes creadas por el chat      |		          |     ID de origen de las solicitudes creadas por el chat         |       No se aplica      |
 |316|	Activar Chat	                                         |      S  o  N	  |     Activar Chat	                                            |       No se aplica      |
 |317|	ID de la actividad de las solicitudes creadas por el chat|		          |     ID de la actividad de las solicitudes creadas por el chat   |       No se aplica      |
-|388|	ID de usuario predeterminado (Solicitud externa)		 |                |     ID de usuario predeterminado (Solicitud externa)	        |       No se aplica      |
+|388|	ID usuario predeterminado (Solicitud externa)	    	 |                |     ID usuario predeterminado (Solicitud externa)	            |       No se aplica      |
 |389|	ID grupo predeterminado (Solicitud externa)		         |                |     ID grupo predeterminado (Solicitud externa)	                |       No se aplica      |
 |390|	ID de unidad predeterminado		                         |                |ID de unidad que se asignará al usuario registrado en el perfil	|       No se aplica      |
 |447|	ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat| |ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat|        No se aplica    |
