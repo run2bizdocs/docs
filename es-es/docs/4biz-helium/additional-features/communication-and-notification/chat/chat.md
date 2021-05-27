@@ -33,7 +33,7 @@ Para que el chat esté disponible, debe configurar los parámetros de activació
 4.	La siguiente lista muestra los parámetros de la funcionalidad "Chat" y 
     el propósito de cada uno de ellos.
 
-|#	|Nombre                                                      |Valores posibles|Finalidad                                                        |Directrices adicionales  |
+|#	|Nombre                                                      |Valores posibles|Finalidad                                                     |Directrices complementarias |
 |:-:|:----------------------------------------------------------:|:--------------:|:---------------------------------------------------------------:|:-----------------------:|
 |118|	ID de contrato estándar para la apertura de Tickets      |	              |     ID de contrato estándar para la apertura de Tickets         |       No se aplica      |
 |315|	ID de origen de las solicitudes creadas por el chat      |		          |     ID de origen de las solicitudes creadas por el chat         |       No se aplica      |
