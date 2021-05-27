@@ -9,8 +9,8 @@ chamados e ajustar o grupo padrão, além de outras ações.
 
 O chat pode ser usado de três modos:
 
--   Manual: troca de mensagens entre diversos tipos de usuários (ex: solicitante
-    e atendente) em uma instância 4biz;
+-   Manual: troca de mensagens entre diversos tipos de usuários 
+    (ex: solicitante e atendente) em uma instância 4biz;
 
 -   Automático: utilizado para a troca de mensagens entre usuário e um
     assistente virtual – por meio de um Chatbot, usando a inteligência
@@ -34,8 +34,8 @@ Para que o chat esteja disponível é preciso configurar os parâmetros de ativa
 
 3.  Clicar no botão "Gravar" para efetuar a operação;
 
-4.  A lista abaixo apresenta os parâmetros da funcionalidade "Chat" e a
-    finalidade de cada um deles.
+4.  A lista abaixo apresenta os parâmetros da funcionalidade "Chat" e 
+    a finalidade de cada um deles.
 
 |  #  |                        Nome                        | Valores possíveis |                             Finalidade                            | Orientações complementares |
 |:---:|:--------------------------------------------------:|:------------------:|:-----------------------------------------------------------------:|:--------------------------:|
