@@ -33,22 +33,21 @@ Para que el chat esté disponible, debe configurar los parámetros de activació
 4.	La siguiente lista muestra los parámetros de la funcionalidad "Chat" y 
     el propósito de cada uno de ellos.
 
-|#	|Nombre                                                      |Valores posibles|Finalidad                                                   |Directrices adicionales |
-|:-:|:----------------------------------------------------------:|:--------------:|:---------------------------------------------------------------:|:-----------------:|
-|118|	ID de contrato estándar para la apertura de Tickets      |	              |     ID de contrato estándar para la apertura de Tickets         |   No se aplica    |
-|315|	ID de origen de las solicitudes creadas por el chat      |		          |     ID de origen de las solicitudes creadas por el chat         |   No se aplica    |
-|316|	Activar Chat	                                         |      S o N	  |     Activar Chat	                                            |   No se aplica    |
-|317|	ID de la actividad de las solicitudes creadas por el chat|		          |     ID de la actividad de las solicitudes creadas por el chat   |   No se aplica    |
-|388|	ID de usuario predeterminado (Solicitud externa)		 |                |     ID de usuario predeterminado (Solicitud externa)	        |   No se aplica    |
-|389|	ID grupo predeterminado (Solicitud externa)		         |                |     ID grupo predeterminado (Solicitud externa)	                |   No se aplica    |
-|390|	ID de unidad predeterminado		                         |                |ID de unidad que se asignará al usuario registrado en el perfil	|   No se aplica    |
-|447|	ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat| |ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat|    No se aplica    |
-|299|	Activar el intercambio de mensajes                  	 |      S o N	  |Activa un icono de conversación junto al número de ticket en la cola de llamadas|No se aplica|
-|448|	Editor de texto utilizado por la aplicación              |		          |     Editor de texto utilizado por la aplicación                 |	No se aplica    |
+|#	|Nombre                                                      |Valores posibles|Finalidad                                                        |Directrices adicionales  |
+|:-:|:----------------------------------------------------------:|:--------------:|:---------------------------------------------------------------:|:-----------------------:|
+|118|	ID de contrato estándar para la apertura de Tickets      |	              |     ID de contrato estándar para la apertura de Tickets         |       No se aplica      |
+|315|	ID de origen de las solicitudes creadas por el chat      |		          |     ID de origen de las solicitudes creadas por el chat         |       No se aplica      |
+|316|	Activar Chat	                                         |      S  o  N	  |     Activar Chat	                                            |       No se aplica      |
+|317|	ID de la actividad de las solicitudes creadas por el chat|		          |     ID de la actividad de las solicitudes creadas por el chat   |       No se aplica      |
+|388|	ID de usuario predeterminado (Solicitud externa)		 |                |     ID de usuario predeterminado (Solicitud externa)	        |       No se aplica      |
+|389|	ID grupo predeterminado (Solicitud externa)		         |                |     ID grupo predeterminado (Solicitud externa)	                |       No se aplica      |
+|390|	ID de unidad predeterminado		                         |                |ID de unidad que se asignará al usuario registrado en el perfil	|       No se aplica      |
+|447|	ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat| |ID de plantilla de correo electrónico para la notificación de nuevos mensajes en el chat|        No se aplica    |
+|299|	Activar el intercambio de mensajes                  	 |      S  o  N	  |Activa un icono de conversación junto al número de ticket en la cola de llamadas|No se aplica|
+|448|	Editor de texto utilizado por la aplicación              |		          |     Editor de texto utilizado por la aplicación                 |	    No se aplica      |
 
 5.	Los parámetros 315, 316, 317, 447 y 423 deben asignarse manualmente.
 6.	Para que el chat se abra integrado al asistente virtual Helper, es necesario habilitar el parámetro 423.
-
 
 ## Procedimiento
 
