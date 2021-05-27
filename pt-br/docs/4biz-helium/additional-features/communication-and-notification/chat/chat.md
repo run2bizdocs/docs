@@ -37,7 +37,7 @@ Para que o chat esteja disponível é preciso configurar os parâmetros de ativa
 4.  A lista abaixo apresenta os parâmetros da funcionalidade "Chat" e a
     finalidade de cada um deles.
 
-|  #  |                        Nome                        | Valores posssíveis |                             Finalidade                            | Orientações complementares |
+|  #  |                        Nome                        | Valores possíveis |                             Finalidade                            | Orientações complementares |
 |:---:|:--------------------------------------------------:|:------------------:|:-----------------------------------------------------------------:|:--------------------------:|
 | 118 |   ID do contrato padrão para abertura de chamados  |                    |          ID do contrato padrão para abertura de chamados          |        Não se aplica       |
 | 315 |   ID da origem das solicitações criadas pelo chat  |                    |          ID da origem das solicitações criadas pelo chat          |        Não se aplica       |
