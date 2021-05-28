@@ -60,14 +60,14 @@ Se mostrarán los siguientes parámetros:
 |Parámetro|Descripción|
 |---------|---------|
 |Habilitar el modo de invitado| Configure si el Smart Chat se mostrará en la pantalla de inicio de sesión. Las opciones serán Sí o No, por defecto es No. Si el usuario elige "Sí", el sistema solicitará el inicio de sesión del usuario. El inicio de sesión debe seguir el patrón: dominio\\login|
-|Modo de invitado - ID del usuario| Es el número de identificación del usuario que iniciará sesión como invitado. Información contenida en la columna UserID de la tabla de usuarios|
-|Modo de invitado - clave secreta| La clave secreta es la contraseña del usuario invitado|
+|Modo de invitado - ID del usuario| Este campo es obligatorio. Es el número de identificación del usuario que iniciará sesión como invitado. Información contenida en la columna UserID de la tabla de usuarios|
+|Modo de invitado - clave secreta|  Este campo es obligatorio. La clave secreta es la contraseña del usuario invitado|
 |Mensaje de bienvenida| Cambiar o mantener el mensaje de bienvenida predeterminado|
 |Empezar abierto| Cuando está activo, significa que Smart Chat siempre estará en el modo esperando por un mensaje. El valor predeterminado será No|
 |Acción inicial| Cuando se le informa, se iniciará una acción desde el asistente virtual en la pantalla del Smart Chat|
 |Guardar| Botón para guardar la configuración|
 
-Después de guardar, la pantalla de Smart Chat estará disponible en la pantalla de inicio de sesión, así como todos los servicios configurados para Smart Chat o asistente virtual, siguiendo las restricciones, grupo y perfil de acceso, impuestas al usuario invitado.
+Después de guardar la configuración de Smart Chat, las funciones solo estarán disponibles en la pantalla de inicio de sesión para interactuar con el asistente virtual. Estas funcionalidades siguen las restricciones de grupo y perfil de acceso impuestas al usuario.
 
 
 A continuación hay algunos ejemplos de cómo utilizar el Chat de 4biz en diferentes escenarios:
