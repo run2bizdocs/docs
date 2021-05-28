@@ -2,7 +2,7 @@ Title: Training
 
 # Training
 
-**What does it mean to train my virtual assistant?**
+## What does it mean to train my virtual assistant?**
 
 It's the act of placing your assistant to understand how the interactions with the user will be, considering the dialogs constructed. Whenever new interactions are added, the assistant must be retrained so it can react as expected in a conversation.  
 
