@@ -1,4 +1,4 @@
-Title: Treinamento
+Título: Treinamento
 
 # Treinamentos
 
@@ -153,7 +153,7 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
    
    - <b>II. integration:</b> Diretório destinado a conter os testes a serem realizados, na aplicação. Algumas boas práticas são:  
    
-        - Estes arquivos devem se restringir à lógica dos testes e manipulação dos dados, deixando a cargo dos commands a execução dos procedimentos com as devidas interações com telas e api ‘ s. </br> 
+        - Estes arquivos devem se restringir à lógica dos testes e manipulação dos dados, deixando a cargo dos commands a execução dos procedimentos com as devidas interações com telas e APIs. </br> 
         
         - Por questão organizacional, deve se ter um arquivo command para cada arquivo de teste. </br> 
         
@@ -176,13 +176,13 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
             - Os commands importam os arquivos locators.  
             
             - Manter os métodos em ordem alfabética facilita a localização e leitura, além do que, intuitivamente, leva a um padrão na criação de suas nomenclaturas.              
-            - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de url’s, que pode ser único e servir a toda a aplicação.  
+            - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de URLs, que pode ser único e servir a toda a aplicação.  
                       
          
         
       - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, URLs e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:   
         
-            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e urls.  
+            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widgets de tela e URLs.  
             
             - Os arquivos locators devem ser importados pelos commands.  
             
