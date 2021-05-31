@@ -14,7 +14,6 @@ Tenha certeza que todas as configurações de parametrização e infraestrutura 
 
 ## Procedimento  
 
-
 ### Agendar treinamento
 
 1.  Após acessar a plataforma, acesse o menu Treinamentos;
