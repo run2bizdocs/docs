@@ -223,15 +223,3 @@ Ejemplos:
         - login.spec.js  
         - theme.spec.js 
 
-   
-Relacionado
------------
-
-[Cómo enseñar su Helper](/es-es/helper/use/teach-helper.html)
-
-[Monitorear las interacciones de su Helper](/es-es/helper/use/monitoring-helper.html)
-
-!!! tip "About"
-
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
