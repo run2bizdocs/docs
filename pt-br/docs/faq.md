@@ -105,7 +105,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     A regra de escalonamento de solicitação de serviço é habilitada na tela de Parâmetro do 4biz. Para habilitar essa regra, proceder conforme orientações abaixo:
 
-    1- No arquivo 4biz.cfg colocar a rotina START_MONITORA_INCIDENTES=TRUE
+    1- No arquivo application.ini colocar a rotina START_MONITORA_INCIDENTES=TRUE
     
     2- Acessar a funcionalidade de Parâmetros do 4biz através da navegação no menu principal Sistema > Parâmetros 4biz;
     
@@ -558,9 +558,9 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     O desempenho do sistema é definido como o tempo que o software demora para realizar uma determinada tarefa, visto que esse desempenho é um forte atributo de qualidade percebido pelos usuários do software.
     
-    Existe a capacidade de o sistema funcionar com mais de uma instância, para isso, será necessário utilizar o arquivo de configuração (4biz.cfg), onde é possível ativar ou inativar rotinas.
+    Existe a capacidade de o sistema funcionar com mais de uma instância, para isso, será necessário utilizar o arquivo de configuração (application.ini), onde é possível ativar ou inativar rotinas.
     
-    Para utilizar essa capacidade, deverá existir o arquivo 4biz.cfg no diretório:
+    Para utilizar essa capacidade, deverá existir o arquivo application.ini no diretório:
     ```sh
     \jboss\standalone\configuration\ (quando o Jboss sobe como uma única instância)
     \jboss\domain\configuration\ (quando é utilizado cluster, tem domains e hosts)
