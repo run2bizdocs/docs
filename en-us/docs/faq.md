@@ -85,7 +85,7 @@ description: Here you have the answers for the frequently asked questions about 
     
     The service request scheduling rule is enabled on the 4biz Parameter screen. To enable this rule, proceed as follows:
 
-    1- In the 4biz.cfg file put the routine START_MONITORA_INCIDENTES=TRUE;
+    1- In the application.ini file put the routine START_MONITORA_INCIDENTES=TRUE;
     
     2- Access the 4biz Parameters feature by navigating in the main menu System > 4biz Parameters;
     
@@ -551,9 +551,9 @@ description: Here you have the answers for the frequently asked questions about 
     
     The system performance is defined as the time the software takes to perform a given task, since this performance is a strong quality attribute perceived by software users.
     
-    There is the capability of the system to work with more than one instance. For this, it is necessary to use the configuration file (4biz.cfg), where you can activate or inactivate routines.
+    There is the capability of the system to work with more than one instance. For this, it is necessary to use the configuration file (application.ini), where you can activate or inactivate routines.
     
-    To use this capability, the 4biz.cfg file must exist in the directory:
+    To use this capability, the application.ini file must exist in the directory:
     ```sh
     \jboss\standalone\configuration\ (When Jboss rises as a single instance)
     \jboss\domain\configuration\ (When using cluster, has domains and hosts)
