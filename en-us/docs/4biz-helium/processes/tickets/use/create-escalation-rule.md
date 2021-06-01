@@ -10,7 +10,7 @@ This functionality allows the Administrator to create escalation rules so that n
 
 To create escalation rules, it's necessary to set the parameter 190 with value Y, and previously register the contracts, employees, groups, services portfolios and the automatic action of escalation type.
 
-In the file 4biz.cfg, it's necessary configure the properties START_MONITORA_INCIDENTES informing the parameter TRUE (only the operating system administrator of the application server makes this adjustment).
+In the file application.ini, it's necessary configure the properties START_MONITORA_INCIDENTES informing the parameter TRUE (only the operating system administrator of the application server makes this adjustment).
 
 
 **Procedure**
