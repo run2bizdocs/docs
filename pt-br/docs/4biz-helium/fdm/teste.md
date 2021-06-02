@@ -4,12 +4,7 @@ Title: Teste
 
 Teste teste teste
 
-teste [teste](1)
+teste ![teste](/pt-br/4biz-helium/fdm/slide45.png)
 
 
 
-
-
-
-
-(1):/pt-br/4biz-helium/fdm/slide45.png
