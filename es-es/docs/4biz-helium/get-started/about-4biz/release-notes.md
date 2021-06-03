@@ -3,6 +3,54 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 1.2.31 (2021/05/12)
+
+Bienvenidos a 4biz Helium Versión 1.2.31. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|10025	|Corrección	|Registro del grupo ejecutor, en la tarea de finalización de la solicitud, que fue lanzada y ya resuelta|
+|11541	|Corrección	|Permite descargar archivos en la pantalla de actividad periódica|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+## Versión Helium 1.2.30 (2021/05/03)
+
+Bienvenidos a 4biz Helium Versión 1.2.30. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11365	|Corrección	|Cambio en el método de eliminación de etiquetas|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 1.2.29 (2021/04/14)
+
+Bienvenidos a 4biz Helium Versión 1.2.29. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11344	|Corrección	|Correctiva de seguridad|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 1.2.28 (2021/03/24)
+
+Bienvenido a 4biz Helium Versión 1.2.28. Esta versión incluye las siguientes mejoras:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11216	|Correctiva	|Corrección de la vulnerabilidad del filtro de autocomplete|
+|11214	|Mejora		|Cambio del algoritmo de cifrado de contraseña y forzar el cambio de contraseña en el siguiente inicio de sesión|
+|6588	|Correctiva	|Incidente en el informe de control de SLA que devuelve fechas fuera del período solicitado|
+|6607	|Correctiva	|Incidente en el informe de Controle de SLA atrasado que muestra fechas fuera del período seleccionado|
+|6527	|Correctiva	|Incidente al responder una encuesta de satisfacción, el sistema no carga la encuesta|
+
+La versión Builder compatible con esta versión es 1.3.6.6.
+
+
 ## Versión Helium 1.2.27 (2021/03/23)
 
 Bienvenido a 4biz Helium Versión 1.2.27. Esta versión incluye las siguientes mejoras:
