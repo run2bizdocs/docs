@@ -13,7 +13,7 @@ Bienvenido a 4biz Helium Versión 1.2.24. Esta versión incluye los siguientes e
 
 La versión Builder compatible con esta versión es 1.3.5.5.
 
-|Número	||Tipo	|Descripción        |
+|Número	|Tipo	|Descripción        |
 |-------|-------|-------------------|
 |10619	|Mejora	|Bloqueo de usuarios después de sucesivos errores de acceso	|
 |10620	|Mejora	|Envío de notificación de bloqueo de usuario	|
