@@ -3,6 +3,103 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.3 (2021/05/24) 
+
+Bienvenidos a 4biz Helium Versión 2.1.3. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11824	|Corrección	|Corrección de error para permitir la ejecución de la solicitud asignada solo al usuario|
+|11937	|Corrección	|Corrección de error para presentar la notificación de informe completada cuando se procesa en segundo plano|
+|11952	|Corrección	|Corrección de componentes Builder|
+|11353	|Corrección	|Corrección de script de base de datos|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.1.2 (2021/05/14)
+
+Bienvenidos a 4biz Helium Versión 2.1.2. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo  	   |Descripción        |
+|-------|----------|-------------------|
+|11510	|Corrección|	Corrección de error con el usuario invitado en Smart Chat|
+|11393	|Corrección|	Corrección de error al iniciar sesión en varios entornos en los que está abriendo la ventana emergente de chat|
+|11607	|Corrección|	Corrección de error cuando el usuario inicia una conversación con Helper y luego abre una nueva ventana en el navegador|
+|11541	|Corrección|	Corrección de error al intentar descargar una evidencia dentro de una actividad periódica|
+|10025	|Corrección|	Error al crear un ticket o sub-ticket con una situación igual a "Resuelto". No es posible que sea creado y cerrado al mismo tiempo|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.1.1 (2021/05/03)
+
+Bienvenidos a 4biz Helium Versión 2.1.1 Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo  	   |Descripción        |
+|-------|----------|-------------------|
+|11607	|Corrección|	Corrección de error en el que el usuario que está configurado como usuario invitado no puede acceder al sistema|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.1.0 (2021/04/16)
+
+Bienvenidos a 4biz Helium Versión 2.1.0. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo  	   |Descripción        |
+|-------|----------|-------------------|
+|11235	|Corrección|	Las respuestas al formulario Builder no aparecen en la búsqueda avanzada|
+|11348	|Corrección|	Verificar que los formularios Builder se están guardando sin la validación de campos obligatorios|
+
+Y las siguientes mejoras:
+
+|Número	|Tipo	|Descripción        |
+|-------|-------|-------------------|
+|11155	|Mejora	|Mejora en el mantenimiento del Portafolio|
+|11220	|Mejora	|Crear área de configuración para Smart Chat|
+|11221	|Mejora	|Permitir la visualización e iteración del usuario con Smart Chat desde la pantalla de inicio del sistema|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.0.5 (2021/04/16)
+
+Bienvenidos a 4biz Helium Versión 2.0.5. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11348	|Corrección	|Validación de campos obligatorios en la página de CRUD de Builder|
+|11355	|Corrección	|Cambio para que el sistema no utilice Trigger bpm_itemtrabalhofluxo_mv|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.0.4 (2021/04/16)
+
+Bienvenidos a 4biz Helium Versión 2.0.4. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|10735	|Corrección	|Corrección del filtro de seguridad|
+|11235	|Corrección	|Corrección de tratamiento de errors Builder |
+|11235	|Corrección	|Las respuestas al formulario Builder no aparecen en la búsqueda avanzada|
+|11355	|Corrección	|Cambio para que el sistema no utilice Trigger bpm_itemtrabalhofluxo_mv|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
+## Versión Helium 2.0.3 (2021/04/16)
+
+Bienvenidos a 4biz Helium Versión 2.0.3. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11344	|Corrección	|Tratamiento de nuevas etiquetas SQL Injection|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
 ## Versión Helium 2.0.2 (2021/04/14)
 
 !!! warning "ATENCIÓN"
