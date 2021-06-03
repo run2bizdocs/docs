@@ -3,11 +3,71 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 1.2.27 (2021/03/23)
+
+Bienvenido a 4biz Helium Versión 1.2.27. Esta versión incluye las siguientes mejoras:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11094	|Correctiva	|Corrección de la autenticación LDAP a través del webservice|
+|11094	|Correctiva	|Corrección de null pointer y mensajes|
+|11094	|Correctiva	|No continuar usando la contraseña de usuario de LDAP|
+|11094	|Correctiva	|Gestión de errores LDAP|
+
+Bienvenido a Builder 1.3.6.6 
+
+La versión presentada tiene la siguiente corrección: 
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11025	|Correctiva	|Corrección de redirección para la pantalla de inicio de sesión cuando se utiliza el webservice del mismo nombre
+
+!!! warning "ATENCIÓN"
+
+    Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder 
+
+## Versión Helium 1.2.26 (2021/03/23)
+
+Bienvenido a 4biz Helium Versión 1.2.26. Esta versión incluye las siguientes mejoras:
+
+|Número		|Tipo		|Descripción        |
+|ITSM 6396	|Correctiva	|Sintaxis SQL incorrecta al crear o abrir un problema
+
+Bienvenido a Builder 1.3.6.6 
+
+La versión presentada tiene la siguiente corrección: 
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|11025	|Correctiva	|Corrección de redirección para la pantalla de inicio de sesión cuando se utiliza el webservice del mismo nombre|
+
+!!! warning "ATENCIÓN"
+
+    Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder
+
+## Versión Helium 1.2.25 (2021/02/16)
+
+!!! warning "ATENCIÓN"
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.25
+
+Bienvenido a 4biz Helium Versión 1.2.25. Esta versión incluye los siguientes elementos:
+
+La versión Builder compatible con esta versión es 1.3.5.5.
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|6231	|Correctiva	|Error al enumerar el historial de un ticket delegado mediante la búsqueda avanzada|
+|10670	|Correctiva	|El sistema no presenta el conocimiento externo y público|
+|10802	|Correctiva	|Error de charset en las palabras acentuadas en los informes smart|
+|10892	|Correctiva	|Mejora del rendimiento de las consultas de auditoría|
+
+
 ## Versión Helium 1.2.24 (2021/01/16)
 
 !!! warning "ATENCIÓN"
 	
-	Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.24
+    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.24
 
 Bienvenido a 4biz Helium Versión 1.2.24. Esta versión incluye los siguientes elementos:
 
