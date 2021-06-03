@@ -1,4 +1,5 @@
 Title: Captura de incidentes o solicitud de servicio
+
 Description: Capturar el incidente o la solicitud de servicio significa asumir la responsabilidad de producir una solución satisfactoria al ticket.
 
 # Captura de incidentes o solicitud de servicio
