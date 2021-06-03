@@ -3,6 +3,142 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.0.2 (2021/04/14)
+
+!!! warning "ATENCIÓN"
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 2.0.2
+
+Bienvenidos a 4biz Helium Versión 2.0.2. Esta versión incluye las siguientes correcciones:
+
+|Número	|Tipo		|Descripción        |
+|-------|---------------|-------------------|
+|10975	|Corrección	|[PostgreSQL / Sql Server] Corrección de error al agregar una imagen en el contenido del conocimiento para la visualización de los usuarios visitantes.|
+|11190	|Corrección	|[G. Ticket] Corrección de error en el que al suspender un ticket, desaparecía de la lista.|
+|10979	|Corrección	|[G. Conocimiento] Corrección de error para el versionamiento de conocimiento.|
+|11092	|Corrección	|[G. Ticket] Corrección de error en el que al editar un comentario en la pantalla de ticket no se podía guardar el ticket.|
+|11160	|Corrección	|[G. Ticket] Corrección de error que impedía la creación de un ticket a través de un token.|
+|11105	|Corrección	|[Centro de Experiencia] Corrección de error en el que al abrir un ticket por el centro de experiencia, añadía en el campo descripción el nombre de la actividad del portafolio.|
+|11106	|Corrección	|[Centro de Experiencia] Corrección de error en el que no se muestra el botón Cancelar ticket dentro del ticket seleccionado en el centro de experiencia.|
+|11109	|Corrección	|[G. Conocimiento] Corrección de error en el que al agregar una imagen en una categoría de imagen o en un contenido de conocimiento, era redirigido a la pantalla de inicio de sesión.|
+|11110	|Corrección	|[G. Ticket] Corrección de error en el que al suspender un ticket a través del smart portal o de la pantalla del ticket se cancelaba, pero seguía apareciendo en la lista principal.|
+|11269	|Corrección	|[Webservice] Corrección de error al mostrar la ocurrencia en tickets cerrados.|
+|11195	|Corrección	|[G. Ticket] Corrección de error en el campo dirigir a grupos, que cargaba todos los grupos registrados.|
+|10928	|Corrección	|[Webservice] Corrección de error al utilizar los WebServices Save y Next definiendo los campos que se van a cambiar en el ticket, no estaban siendo alterados en el Front End y mostraba el cambio solo en el historial del ticket.|
+|11287	|Corrección	|[G. Ticket] Corrección de error al rechazar un ticket con flujo de aprobación a través de token por correo electrónico.|
+|11197	|Corrección	|[G. Ticket] Corrección de error en el que un ticket que fue capturado en la tarea de dirigir el servicio, al delegar el ticket, no estaba mostrando la información en la tabla 'capturecontrolservicerequest'.|
+|10929	|Corrección	|[Sistema] Corrección de error en el que el icono 'bandera' para cambiar el idioma no funcionaba en la pantalla 'Términos de servicio' en una instalación desde cero.|
+|11231	|Corrección	|[G. Ticket] Corrección de error en el que la encuesta de satisfacción no funcionaba correctamente, cuando el usuario hacía clic en el enlace del correo electrónico para responder. La aplicación redireccionaba a la url del sistema, pero se quedaba solo en espera. |
+|11260	|Corrección	|[G. Ticket] Corrección de error en el que al realizar la validación de un ticket que tenía más de un grupo en la asignación del flujo, con flujo aprobación vía token configurando en la tarea de usuario ejecutor "Aprobar" con más de un grupo, al aprobar o rechazar por correo electrónico en la tabla bpm_itemtrabalhofluxo no establecía el campo executor_grupo_id.|
+|11263	|Corrección	|[Webservice] Corrección de fallo en el webservice del empleado.|
+|11258	|Corrección	|[G. Ticket] Corrección de error cuando teníamos un ticket de origen vinculado a un ticket relacionado, al cerrar, el ticket de origen y el ticket relacionado también estaban cerrados. Sin embargo, en la tabla bpm_itemtrabalho no estaba registrado el grupo ejecutor del ticket relacionado.|
+|11261	|Corrección	|[Webservice] Corrección de error en el webservice de check-in.|
+|11196	|Corrección	|[G. Ticket] Corrección de error en el componente de flujo que no se podía mover en Chrome.|
+|11189	|Corrección	|[G. Ticket] Corrección de error al crear un ticket que contenía solamente una imagen en el campo descripción el sistema no mostraba la imagen después de la creación.|
+|10476	|Corrección	|[CMDB] Corrección de error en el que en la pantalla de 'Midia' al vincular un conocimiento y guardar, al entrar dentro de él nuevamente, el conocimiento se replicaba.|
+|11239	|Corrección	|[G. Ticket] Corrección de error en el comportamiento del sistema cuando el usuario no seleccionaba ningún grupo al capturar un ticket y hacía clic en siguiente.|
+|11223	|Corrección	|[G. Liberación] Corrección de error cuando intentábamos guardar y avanzar una liberación que estaba con la tarea actual igual 'liberación' y esa liberación contenía un cambio que tenía un IC vinculado en la misma solicitud de liberación, no guardaba y muestraba un mensaje de error.|
+|10971	|Corrección	|[Correctiva] Corrección de error de key violation, remanente de la corrección de Sequence_Block.|
+|11199	|Corrección	[G. Ticket] Corrección de error al delegar un ticket dentro de la llamada.|
+|10487	|Corrección	|[Webservice] Corrección de error en el que al reclasificar, por el webservice, no quedaba la justificación correcta.|
+|10546	|Corrección	|[G. Portafolio] Corrección de error en el que, en el portafolio, al editar cualquier campo de pop-up "Vincular Servicio de Solicitud o Incidente" presentaba el error de SQL en el log y no guardaba la edición. El botón de "Guardar" estaba sin acción.|
+|11217	|Corrección	|[G. Problemas] Corrección de error en el que no se podía crear un problema de tipo 'Reactivo', ya que no podíamos vincular un ticket al problema.|
+|11188	|Corrección	|[G. Ticket] Corrección de error al suspender un ticket dentro de la llamada.|
+|11010	|Corrección	|[Webservice] Corrección de error en el que no estaba creando un ticket con el viejo webservice create.|
+|11011	|Corrección	|[G. Ticket] Corrección de error en el que al suspender un ticket, la aplicación no se suspendía y presentaba deadlock.|
+|11290	|Corrección	|[Webservice] Corrección de error que estaba ocurriendo cuando se utiliza el webservice para listar portafolios. El mismo no estaba presentando correctamente los portafolios del usuario conectado, cuyo el mismo es el usuario proporcionado en el body del webservice cuando el parámetro 293 está habilitado.|
+|11291	|Corrección	|[Usuarios] Corrección de error cuando registrábamos a un usuario a través de la aplicación no estaba recibiendo el dominio local, por ejemplo, 4biz.local re.|
+|11288	|Corrección	|[G. Ticket] Corrección de error donde al intentar reabrir un ticket que tenía un flujo de aprobación a través de token, la aplicación mostraba un mensaje de error.|
+|11293	|Corrección	|[Webservice] Corrección de error en el que al intentar capturar un ticket a través del webservice, con un usuario conectado y con permiso en el flujo para dos grupos, no se permitía capturar el ticket y se mostraba un mensaje de error.|
+|11216	|Corrección	|[Sistema] Corrección de vulnerabilidad en el sistema.|
+|10503	|Corrección	|[G. Ticket] Corrección de error al validar llamados cerrados que seguían apareciendo en la lista de llamados en curso.|
+|10649	|Corrección	|[Sistema] Corrección de error porque el campo "useremail" de la tabla "chatusers" no aceptaba null. Al iniciar sesión con los usuarios de LDAP, que no tenía correo electrónico registrado, presentaba un error.|
+|10930	|Corrección	|[Usuario] Corrección de error en la tabla perfil de acceso.|
+|10931	|Corrección	|[Sistema] Corrección de errores presentados en el log al realizar una nueva instalación.|
+|10944	|Corrección	|[Sistema] Corrección de error al crear un flujo.|
+|10314	|Corrección	|[G. Liberación] Corrección de error en el que no se mostraban las ocurrencias de "creación y finalización" en la búsqueda avanzada y en el nombre de la persona que realizó la ocurrencia estaba descrito el inicio de sesión del usuario y no su nombre completo.|
+|10867	|Corrección	|[Webservices] Corrección de error al guardar un ticket con un conocimiento vinculado el sistema limpiaba el conocimiento.|
+|10921	|Corrección	|[Webservices] Corrección de error en el webservice location/last.|
+|10554	|Corrección	|[Smart Portal] Corrección de error cuando el parámetro id 293 = Sí, la aplicación estaba mostrando error al abrir la pantalla de Smart portal.|
+|10866	|Corrección	|[G. Problema] Corrección de error en la que al crear una petición de problema se presentaba, en la pantalla para el usuario y en el log, un error de SQL.|
+|10865	|Corrección	|[G. Cambio] Corrección de error del cambio al insertar IC y guardar.|
+|10861	|Corrección	|[G. Cambio] Corrección de error en Java en el que la tabla "RequisicaoMudancaServiceEjb" no estaba trayendo la cantidad de solicitudes de aprobación en la pantalla de cambio.|
+|10788	|Corrección	|[Sistema] Corrección de error en el que al actualizar la versión de 1.2.24 a 2.0.1-Snapshot-02, la aplicación presentaba error en los parámetros corpore del sistema.|
+|10922	|Corrección	|[Webservice] Corrección de error en el que la notificación push no estaba llegando a la aplicación.|
+|10891	|Corrección	|[Sistema] Corrección de error para eliminar una programación, cuando un procesamiento batch se desactiva automáticamente.|
+|10902	|Corrección	|[Sistema] Corrección de error en la secuencia de la tabla "Rest_operation" que estaba con valor equivalente a "Restoperation_seq.nextval" para la clave primaria.|
+
+Y las siguientes mejoras:
+
+|Número	|Tipo	|Descripción        |
+|-------|-------|-------------------|
+|11214	|Mejora	|[Usuarios] Mejora en el cambio del algoritmo de cifrado de contraseña y forzar el cambio de contraseña en el siguiente inicio de sesión.|
+|11159	|Mejora	|[Webservice] Mejora en el webservice de inicio de sesión de 4biz para un nuevo usuario LDAP.|
+|11158	|Mejora	|[Webservice] Mejora en el webservice de autenticación – Builder.|
+|10665	|Mejora	|[G. Ticket] Mejora en tickets que tenían más de un grupo en la asignación del flujo.|
+|- 	|Mejora	|[Usuarios] Mejora en la inclusión del método de autenticación Keycloack.|
+|-	|Mejora	|[Usuarios] Mejora en la inclusión del método de autenticación a través de redes sociales.|
+|10502	|Mejora	|[G. Ticket] Mejora de las consultas de BI.|
+|10081	|Mejora	|[Webservice] Mejora donde se ha creado un webservice que le permite ver los detalles del cambio.|
+
+
+Bienvenido a Builder 1.3.7.4.
+
+La versión presentada tiene las siguientes correcciones: 
+
+|Número	|Tipo	   |Descripción        |
+|-------|----------|-------------------|
+|11320	|Corrección|	Corrección de mensaje de error|
+|11353	|Corrección|	Corrección de la creación de flujos en el entorno Oracle|
+|11353	|Corrección|	Corrección de query componente|
+
+Bienvenido a Builder 1.3.7.3.
+
+La versión presentada tiene la siguiente corrección: 
+
+|Número	|Tipo	   |Descripción        |
+|-------|----------|-------------------|
+|11320	|Corrección|	Corrección de la visualización de componentes|
+
+Bienvenido a Builder 1.3.7.2.
+
+The version presented has the following correction(s):
+
+|Número	|Tipo	   |Descripción        |
+|-------|----------|-------------------|
+|10735	|Corrección|	Corrección de scripts|
+
+Bienvenido a Builder 1.3.7.1.
+
+La versión presentada tiene las siguientes correcciones: 
+
+|Número	|Tipo	   |Descripción        |
+|-------|----------|-------------------|
+|10538	|Corrección|	Corrección de directivas Builder|
+|11320	|Corrección|	Mostrar propiedades del componente al crear el formulario por el objeto de negocio|
+
+
+Bienvenido a Builder 1.3.7.0 
+
+La versión presentada tiene las siguientes correcciones: 
+
+|Número	|Tipo	   |Descripción        |
+|-------|----------|-------------------|
+|10735	|Correctiva|	Corrección de la autenticación de usuarios|
+|10735	|Correctiva|	Inicio de sesión con usuario LDAP y Oauth2|
+|10735	|Correctiva|	Tratamiento de contraseña en la autenticación Builder|
+|11025	|Correctiva|	Corrección de null pointer|
+|11025	|Correctiva|	Refactoring en la autenticación|
+|11196	|Correctiva|	Corrección del mouse move del diseño de flujo en Chrome|
+|11214	|Correctiva|	Cambio del algoritmo de cifrado de contraseña de usuario|
+|11214	|Correctiva|	Retiro de constantes de usuario admin|
+|11216	|Correctiva|	Corrección de la vulnerabilidad del filtro de autocomplete|
+|11214	|Correctiva|	Cambio del algoritmo de cifrado de contraseña y forzar el cambio de contraseña en el siguiente inicio de sesión.|
+
+!!! warning "ATENCIÓN"
+
+    Para más información sobre Builder 1.3.7.0, vea el archivo de Notas de Release Builder
+
 ## Versión Helium 1.2.31 (2021/05/12)
 
 Bienvenidos a 4biz Helium Versión 1.2.31. Esta versión incluye las siguientes correcciones:
