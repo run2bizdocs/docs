@@ -39,7 +39,7 @@ Bienvenidos a 4biz Helium Versión 2.0.2. Esta versión incluye las siguientes c
 |11239	|Corrección	|[G. Ticket] Corrección de error en el comportamiento del sistema cuando el usuario no seleccionaba ningún grupo al capturar un ticket y hacía clic en siguiente.|
 |11223	|Corrección	|[G. Liberación] Corrección de error cuando intentábamos guardar y avanzar una liberación que estaba con la tarea actual igual 'liberación' y esa liberación contenía un cambio que tenía un IC vinculado en la misma solicitud de liberación, no guardaba y muestraba un mensaje de error.|
 |10971	|Corrección	|[Correctiva] Corrección de error de key violation, remanente de la corrección de Sequence_Block.|
-|11199	|Corrección	[G. Ticket] Corrección de error al delegar un ticket dentro de la llamada.|
+|11199	|Corrección	|[G. Ticket] Corrección de error al delegar un ticket dentro de la llamada.|
 |10487	|Corrección	|[Webservice] Corrección de error en el que al reclasificar, por el webservice, no quedaba la justificación correcta.|
 |10546	|Corrección	|[G. Portafolio] Corrección de error en el que, en el portafolio, al editar cualquier campo de pop-up "Vincular Servicio de Solicitud o Incidente" presentaba el error de SQL en el log y no guardaba la edición. El botón de "Guardar" estaba sin acción.|
 |11217	|Corrección	|[G. Problemas] Corrección de error en el que no se podía crear un problema de tipo 'Reactivo', ya que no podíamos vincular un ticket al problema.|
