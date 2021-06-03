@@ -68,18 +68,20 @@ La versión presentada tiene la siguiente corrección:
 
 |Número	|Tipo		|Descripción        |
 |-------|---------------|-------------------|
-|11025	|Correctiva	|Corrección de redirección para la pantalla de inicio de sesión cuando se utiliza el webservice del mismo nombre
+|11025	|Correctiva	|Corrección de redirección para la pantalla de inicio de sesión cuando se utiliza el webservice del mismo nombre|
 
 !!! warning "ATENCIÓN"
 
     Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder 
+
 
 ## Versión Helium 1.2.26 (2021/03/23)
 
 Bienvenido a 4biz Helium Versión 1.2.26. Esta versión incluye las siguientes mejoras:
 
 |Número		|Tipo		|Descripción        |
-|ITSM 6396	|Correctiva	|Sintaxis SQL incorrecta al crear o abrir un problema
+|---------------|---------------|-------------------|
+|ITSM 6396	|Correctiva	|Sintaxis SQL incorrecta al crear o abrir un problema |
 
 Bienvenido a Builder 1.3.6.6 
 
@@ -92,6 +94,7 @@ La versión presentada tiene la siguiente corrección:
 !!! warning "ATENCIÓN"
 
     Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder
+
 
 ## Versión Helium 1.2.25 (2021/02/16)
 
