@@ -3,6 +3,48 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 1.2.23 (2021/01/05)
+
+!!! warning "ATENCIÓN" 
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.23
+
+Bienvenido a 4biz Helium Versión 1.2.23. Esta versión incluye los siguientes elementos:
+
+|Número         |Tipo       |Descripción        |
+|---------------|-----------|-------------------|
+|Incidente 5929 |Correctiva |Corrección de seguridad del producto evitando aceptar LDAP Injection, caracteres especiales en el inicio de sesión de usuario y tamaño de inicio de sesión|
+
+Bienvenido a Builder 1.3.5.4 
+
+La versión presentada tiene las siguientes correcciones: 
+
+|Número         |Tipo       |Descripción        |
+|---------------|-----------|-------------------|
+|10280          |Corrección |Recuperación del valor default de las columnas del objeto de negocio|
+
+
+## Versión Helium 1.2.22 (2020/12/03)
+
+!!! warning "ATENCIÓN"
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.22
+
+Bienvenido a 4biz Helium Versión 1.2.22. Esta versión incluye los siguientes elementos: 
+
+|Número         |Tipo       |Descripción        |
+|---------------|-----------|-------------------|
+|10176          |Correctiva |Corrección de componente lookup|
+|Incidente 5800 |Correctiva |Corrección de error al limitar un select con comando TOP|
+		
+Bienvenido a Builder 1.3.6.1 
+
+La versión presentada tiene la siguiente corrección: 
+
+|Número         |Tipo       |Descripción        |
+|---------------|-----------|-------------------|
+|10476          |Corrección |[My 5802] - Menús laterales de Builder no funcionan correctamente|
+
 ## Versión Helium 1.2.13 (2021/01/05)
 
 !!! warning "ATENCIÓN"
