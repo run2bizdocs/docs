@@ -32,6 +32,7 @@ Bienvenido a Builder 1.3.5.5
 La versión presentada tiene la siguiente corrección: 
 
 |Correctiva	|Descripción	|
+|---------------|---------------|
 |		|Corrección de error intermitente ocasionado en Scripts Rhino|
 	
 
