@@ -1,3 +1,3 @@
-Title: Configuração do Ambiente de Desenvolvimento do CITSmart no Linux
+Title: Configuração do Ambiente de Desenvolvimento do 4biz no Linux
 
-Description: Como realizar a configuração do ambiente CITSmart usando SO Ubuntu.
+Description: Como realizar a configuração do ambiente 4biz usando SO Ubuntu.
