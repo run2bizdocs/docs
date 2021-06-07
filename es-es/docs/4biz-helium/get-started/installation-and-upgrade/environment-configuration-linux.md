@@ -61,7 +61,7 @@ Haga clic en el primer botón para descargar la versión de escritorio de Ubuntu
  
  - Espere a que se complete el proceso, que puede tardar unos minutos dependiendo de su máquina. Después de completar, haga clic en _CLOSE_ para cerrar Rufus.  
        
- -Inserte la unidad con ISO en su computadora y reinicie la máquina. La mayoría de las computadoras reconocerán automáticamente la unidad de arranque y mostrarán un mensaje de bienvenida con opciones para seleccionar el idioma, instalar o probar Ubuntu Desktop.  
+ - Inserte la unidad con ISO en su computadora y reinicie la máquina. La mayoría de las computadoras reconocerán automáticamente la unidad de arranque y mostrarán un mensaje de bienvenida con opciones para seleccionar el idioma, instalar o probar Ubuntu Desktop.  
    
 !!! note "Nota"    
 
