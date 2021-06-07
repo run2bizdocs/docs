@@ -4,8 +4,7 @@ Description: Cómo realizar la configuración del entorno 4biz usando SO Ubuntu.
 
 # Configuración del Entorno de Desarrollo de 4biz en Linux
 
-La configuración del producto 4biz con OS Linux es posible.
-En este documento se mostrará detalladamente el paso a paso de este proceso, desde la instalación de Ubuntu y todas las aplicaciones necesarias hasta el proceso de integración propiamente dicho.
+La configuración del producto 4biz con OS Linux es posible. En este documento se mostrará detalladamente el paso a paso de este proceso, desde la instalación de Ubuntu y todas las aplicaciones necesarias hasta el proceso de integración propiamente dicho.
 
 
 ## Antes de empezar  
@@ -179,7 +178,7 @@ https://scm.centralit.com.br/scm/#repositoryPanel;4MRv1XSxO9
  - En la pestaña General y en el campo Name, introduzca _root_  
 
  - Repita la operación y cree un **Login/Group Roles** con el nombre _rtsadmin_
- - 
+ 
 ### Instalación de Docker
 
  - Acceda al terminal de Ubuntu e introduzca:
