@@ -218,7 +218,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - En la carpeta donde se extrajo Eclipse, abra el archivo _eclipse.ini_ y edite las opciones como abajo:
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image1.jpg)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image1.jpg)
 
  - Ejecuta el archivo Eclipse y selecciona un directorio para que sea tu workspace. Puede marcar la opción **"Use this as the default and do not ask again"** para que la selección del directorio de workspace no se solicite de nuevo.
 
@@ -226,7 +226,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Seleccione en **File** la opción **Import**: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image2.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image2.png)
 
  
 
@@ -235,65 +235,65 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Introduzca la ruta de acceso al directorio donde se encuentra el repositorio _Citsmart-itsm_: 
 
- ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image3.png)
+ ![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image3.png)
  
 
  - El Proyecto aparecerá como se muestra a continuación: 
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image4.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image4.png)
   
 
  - En la pantalla de inicio del eclipse, abre la ventana **Window/Preferences** y completa las opciones de las siguientes pantallas como se muestra a continuación:
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image5.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image5.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image6.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image6.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image7.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image7.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image8.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image8.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image9.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image9.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image10.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image10.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image11.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image11.png)
 
  
 
  - Localice la opción **Validation**, buscando en la barra de búsqueda, y habilite la opción **Suspend all validators**, como abajo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image12.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image12.png)
  
 
 
  - En la pantalla de inicio del eclipse, haga clic con el botón derecho del ratón en la parte superior del Proyecto, elija **Run As/Run Configurations** y complete las opciones de las siguientes pantallas como se muestra a continuación: 
 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image13.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image13.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image14.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image14.png)
  
 
  - El siguiente paso será establecer un nuevo Servers como se muestra a continuación: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image15.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image15.png)
  
 
  - Haga clic en el enlace en azul _"No Servers are available. Click this link to create a new server..."_
 
  - Elija la opción de la siguiente manera: 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image16.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image16.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image17.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image17.png)
 
 !!! note "Nota"
 
@@ -306,7 +306,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - En la opción del New Server, seleccione **WildFly 12**: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image18.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image18.png)
  
 
  - En la opción Configuration file, seleccione el archivo xml _standalone-postgres-full.xml_, descargado en OneDrive: 
@@ -314,27 +314,27 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - En la pantalla de inicio del eclipse, abra la ventana **Window/Preferences**, localice la opción Maven, seleccione la opción **User Settings** y complete como se indica a continuación: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image19.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image19.png)
  
 
  - Después de instalar WildFly en Servers, aparecerá en Eclipse como se muestra a continuación: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image20.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image20.png)
 
  
 
  - Haga doble clic encima de WildFly 12 y complete como se indica a continuación: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image21.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image21.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image22.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image22.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image23.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image23.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image24.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image24.png)
 
 
  - En la opción **Program arguments** complete como se indica a continuación:  
@@ -353,19 +353,19 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
  - Aún en la configuración de WildFly 12, complete el Time Limit, como abajo: 
 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image25.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image25.png)
 
  - Poco después, haga clic en Guardar. 
 
  
  - Haga clic con el botón derecho del ratón en la parte superior de WildFly, elija la opción **Add and Remove**, seleccione Citsmart9 y añada:
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image26.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image26.png)
  
 
  - Compruebe el archivo _clean.sh_, descargado en OneDrive: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image27.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image27.png)
 
 !!! note "Nota"  
 
@@ -392,11 +392,11 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
  
  - Vaya al Proyecto, haga clic con el botón derecho del ratón y elija **Refresh**. 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image28.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image28.png)
 
  - También en el Proyecto, haga clic con el botón derecho del ratón y elija**Run as/Run Configuration/Run**. 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image29.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image29.png)
 
  
 
@@ -404,9 +404,9 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
  - Haga clic con el botón derecho del ratón en la parte superior de WildFly, elija la opción **Add and Remove**, seleccione Citsmart9 y añada: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image30.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image30.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image31.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image31.png)
 
  
 
@@ -414,9 +414,9 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
  - Aparecerá la pantalla de abajo, marque la opción **Remember my decision** y haga clic en el botón **No**: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image32.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image32.png)
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image33.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image33.png)
 
  
 
@@ -427,7 +427,7 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
       En caso de que el Proyecto no funcione, después de todos los pasos anteriores, haga clic con el botón derecho del ratón en la parte superior del Proyecto, Maven / Update Project y repita nuevamente el Paso a Paso. 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image34.png)
+![imagem 1](/es-es/4biz-helium/get-started/installation-and-upgrade/images-linux/image34.png)
  
  - Acceda al siguiente enlace para CITSmart: 
 
