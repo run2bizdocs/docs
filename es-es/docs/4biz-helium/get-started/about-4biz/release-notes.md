@@ -104,7 +104,7 @@ La versión Builder compatible con esta versión es 1.3.7.4.
 
 !!! warning "ATENCIÓN"
 
-    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 2.0.2
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 2.0.2][9]
 
 Bienvenidos a 4biz Helium Versión 2.0.2. Esta versión incluye las siguientes correcciones:
 
@@ -234,7 +234,7 @@ La versión presentada tiene las siguientes correcciones:
 
 !!! warning "ATENCIÓN"
 
-    Para más información sobre Builder 1.3.7.0, vea el archivo de Notas de Release Builder
+    Para más información sobre Builder 1.3.7.0, vea el archivo de [Notas de Release Builder][8]
 
 ## Versión Helium 1.2.31 (2021/05/12)
 
@@ -305,7 +305,7 @@ La versión presentada tiene la siguiente corrección:
 
 !!! warning "ATENCIÓN"
 
-    Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder 
+    Para más información sobre Builder 1.3.6.6, vea el archivo de [Notas de Release Builder][7]
 
 
 ## Versión Helium 1.2.26 (2021/03/23)
@@ -326,14 +326,14 @@ La versión presentada tiene la siguiente corrección:
 
 !!! warning "ATENCIÓN"
 
-    Para más información sobre Builder 1.3.6.6, vea el archivo de Notas de Release Builder
+    Para más información sobre Builder 1.3.6.6, vea el archivo de [Notas de Release Builder][7]
 
 
 ## Versión Helium 1.2.25 (2021/02/16)
 
 !!! warning "ATENCIÓN"
 
-    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.25
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 1.2.25][6]
 
 Bienvenido a 4biz Helium Versión 1.2.25. Esta versión incluye los siguientes elementos:
 
@@ -351,7 +351,7 @@ La versión Builder compatible con esta versión es 1.3.5.5.
 
 !!! warning "ATENCIÓN"
 	
-    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.24
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 1.2.24][5]
 
 Bienvenido a 4biz Helium Versión 1.2.24. Esta versión incluye los siguientes elementos:
 
@@ -384,7 +384,7 @@ La versión presentada tiene la siguiente corrección:
 
 !!! warning "ATENCIÓN" 
 
-    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.23
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 1.2.23][4]
 
 Bienvenido a 4biz Helium Versión 1.2.23. Esta versión incluye los siguientes elementos:
 
@@ -405,7 +405,7 @@ La versión presentada tiene las siguientes correcciones:
 
 !!! warning "ATENCIÓN"
 
-    Antes de descargar esta versión, consulte las orientaciones en el documento Guía de orientaciones del 4biz Helium versión 1.2.22
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 1.2.22][3]
 
 Bienvenido a 4biz Helium Versión 1.2.22. Esta versión incluye los siguientes elementos: 
 
@@ -566,3 +566,10 @@ Bienvenido a 4biz Helium Versión 1.0.2 Esta versión incluye los siguientes ele
 |4818|Corretiva|Tiempo de Atención|Corrección en la programación de una actividad para vincular al SLA registrado|
 
 [2]:/es-es/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
+[3]:/es-es/4biz-helium/get-started/about-4biz/Guía-de-orientaciones-4biz-Helium-versión-2.0.0.zip
+[4]:/es-es/4biz-helium/get-started/about-4biz/Paquete-Actualización-1.2.23.zip
+[5]:/es-es/4biz-helium/get-started/about-4biz/Paquete-Actualización-1.2.24.zip
+[6]:/es-es/4biz-helium/get-started/about-4biz/Orientaciones-sobre-la-versión-4biz-Helium-1.2.25.zip
+[7]:/es-es/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.6.6.docx
+[8]:/es-es/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.0.docx
+[9]:/es-es/4biz-helium/get-started/about-4biz/Paquete-Actualización-2.0.2.zip
