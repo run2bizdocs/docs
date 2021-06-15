@@ -3,6 +3,10 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+!!! warning "ATTENTION"
+
+    For more information about Builder 1.3.7.6, see the [Builder Release Notes][10]
+    
 ## Version Helium 2.1.3 (2021/05/24)
 
 Welcome to 4biz Helium Version 2.1.3. This version presents the following corrections:
@@ -293,7 +297,17 @@ Welcome to 4biz Helium Version 1.2.27. This version presents the following impro
 |11094	|Corrective|	Do not continue using the LDAP user password|
 |11094	|Corrective|	LDAP error handling|
 
-For this version, the compatible Builder is 1.3.6.6.
+Welcome to Builder 1.3.6.6.
+
+The version presented has the following correction(s):
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|11025	|Corrective|Correction of login screen redirection when using the webservice of the same name|
+
+!!! warning "ATTENTION"
+
+    For more information about Builder 1.3.6.6, see the [Builder Release Notes][7]
 
 ## Version Helium 1.2.26 (2021/03/23)
 
@@ -304,14 +318,22 @@ Welcome to 4biz Helium Version 1.2.26. This version presents the following impro
 |ITSM 6396|Corrective|Incorrect SQL syntax when creating or opening a problem|
 
 Welcome to Builder 1.3.6.6.
+
 The version presented has the following correction(s):
 
 |Number   |	     Type|   Description|
 |---------|----------|--------------|
 |11025    |Corrective|	Correction of login screen redirection when using the webservice of the same name|
 
+!!! warning "ATTENTION"
+
+    For more information about Builder 1.3.6.6, see the [Builder Release Notes][7]
 
 ## Version Helium 1.2.25 (2021/02/16)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [4biz Helium Guide version 1.2.25][6]
 
 Welcome to 4biz Helium Version 1.2.25. This version features the following items:
 
@@ -327,7 +349,12 @@ For this version, the compatible Builder is 1.3.5.5.
 
 ## Version Helium 1.2.24 (2021/01/16)
 
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [4biz Helium Guide version 1.2.24][5]
+
 Welcome to 4biz Helium Version 1.2.24. This version presents the following items:  
+
 For this version, the compatible Builder is 1.3.5.5.
 
 |Number|Type|Description|
@@ -539,6 +566,9 @@ Welcome to 4biz Helium Version 1.0.2. This version presents the following items:
 [2]:/en-us/4biz-helium/get-started/about-4biz/Guidance-4biz-Helium1213.zip
 [3]:/en-us/4biz-helium/get-started/about-4biz/Guidance-about-version-4biz-helium1.2.22.zip
 [4]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-1.2.23.zip
+[5]:/
+[6]:/
+[7]:/
 [8]:/en-us/4biz-helium/get-started/about-4biz/Release-Notes-Builder-1.3.7.0.docx
 [9]:/en-us/4biz-helium/get-started/about-4biz/Update-Package-2.0.2.zip
 [10]:/en-us/4biz-helium/get-started/about-4biz/Release-Notes-Builder-1.3.7.6.docx
