@@ -7,7 +7,7 @@ Description:
 ## Antes de começar
 
 - [x] Possuir um servidor de autenticação com protocolo OAUTH2, exemplo Keycloack  
-- [x] Conectar ao servidor de autenticação ao sistema  
+- [x] Conectar o servidor de autenticação ao sistema  
 - [x] Após leitura de um novo usuário, o sistema atribuirá as seguintes permissões contidas nos seguintes parâmetros: 
 
       - Parâmetro 45 - LDAP – ID Grupo Padrão  
@@ -17,7 +17,7 @@ Description:
 ## Procedimento
 
 1. Acessar o menu principal Parametrização > Método de Autenticação > Oauth2;  
-2. Será apresentado a tela de Mètodo de Autenticação Oauth2 com duas opções "Filtros" e "Método de Autenticação";
+2. Será apresentado a tela de Método de Autenticação Oauth2 com duas opções "Filtros" e "Método de Autenticação";
 3. A partir da versão Helium 1.2.24 houve alterações na interface descritas abaixo;  
 4. A opção "Filtros" é uma tela de pesquisa com 4 opções:
 
@@ -36,8 +36,32 @@ Description:
 
 |Campo|Descrição|
 |-----|---------|
-|Tipo de Autenticação| Existem duas opções para selecionar "Oauth2 - Interna" e "Oauth2
-    
+|Tipo de Autenticação| Existem duas opções para selecionar "Oauth2 - Interna" e "Oauth2|
+|Provider| Onde será escolhido se será do tipo "Google", "Facebook" ou "outros" <br /> Se for do tipo Google ou Facebook só será preciso informar: o Id do Cliente e a Chave Secreta do Cliente; <br /> Se for do tipo Outros será preciso informar: o Nome do cliente, o Domínio que deverá ser o mesmo cadastrado nas URLs de redirecionamento do provedor|
+|Id do Cliente| Onde deve ser informado o client id que foi cadastrado no servidor Oauth2| 
+|Tipo de concessão| Identifica o grant de acesso concedido pelo provedor de autenticação. Geralmente contém o valor “password”|
+|Url de Autenticação| Onde deverá ser informado o caminho do servidor de autenticação Oauth2 |
+|Senha| Onde deverá ser informado o client secret cadastrado no servidor Oauth2 | 
+|Situação| Onde poderá ser escolhido se a autenticação está ativa ou inativa. <br /> Essa situação determina se o sistema vai iniciar o processo de sincronização de usuário |
+|Botão Gravar| Salva o meio de autenticação|
+|Botão Excluir| Apaga o meio de autenticação do banco de dados|
+|Botão Limpar| Limpa todos os campos|
+|Botão Pesquisa| Apresentado no topo da tela, que volta para a tela de pesquisa|
+
+
+9. Para a aba de "Mapeamento de Campos", preencher:
+
+- Essa aba permite o mapeamento de informações presentes no token de autenticação Oauth2. <br /> Na tela são apresentadas duas colunas: a primeira coluna com o nome dos campos existentes no cadastro de usuário do Sistema e a segunda coluna com o nome do respectivo atributo do token Oauth2;
+- As informações que podem ser mapeadas são: CPF, Telefone e Data de Nascimento; 
+
+|Campo|Descrição|
+|-----|---------|
+|Botão Gravar| Salva os campos|
+|Botão Limpar| Limpa todos os campos|
+|Botão Pesquisa| Apresentado no topo da tela, que volta para a tela de pesquisa|
+
+10. Deverá ser configurada a URL de Retorno ao CITSMART através da Plataforma escolhida para autenticação externa. 
+
     
 
 
