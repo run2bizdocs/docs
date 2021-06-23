@@ -3,6 +3,23 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.4 (2021/06/23)
+
+Welcome to 4biz Helium version 2.1.4. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|---------|
+|12123| Correction| Correction in the loading of countries, states and cities|
+|6652| Correction| Assigning executor group, as current group, to WebService /servicerequestincident/create when not specified|
+|7077| Correction| Increasing availability of batch processing|
+|7164| Correction| PAllowing the execution of the Current Group expression|
+|7165| Correction| Key violation – RequestTemplateInfo|
+|12117| Correction| Form Builder is not working on Change Request Screen in any system default flow|
+|12118| Correction| Generated version of the hotfix/itsm-7077 branch of the incident is showing Encoding error in the "About 4biz" popup|
+
+For this version, the compatible Builder is 1.3.7.4.
+
+
 !!! warning "ATTENTION"
 
     For more information about Builder 1.3.7.6, see the [Builder Release Notes][10]
