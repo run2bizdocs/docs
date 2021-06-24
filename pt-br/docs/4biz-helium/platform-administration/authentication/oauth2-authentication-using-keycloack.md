@@ -1,12 +1,12 @@
-Title: Autenticação Oauth2 usando Keycloack
+Title: Autenticação Oauth2 usando Keycloak
 Description:
 
-# Autenticação Oauth2 usando Keycloack
+# Autenticação Oauth2 usando Keycloak
 
 
 ## Antes de começar
 
-- [x] Possuir um servidor de autenticação com protocolo OAUTH2, exemplo Keycloack  
+- [x] Possuir um servidor de autenticação com protocolo OAUTH2, exemplo Keycloak  
 - [x] Conectar o servidor de autenticação ao sistema  
 - [x] Após leitura de um novo usuário, o sistema atribuirá as seguintes permissões contidas nos seguintes parâmetros: 
 
