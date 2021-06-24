@@ -37,7 +37,7 @@ Description:
 |Campo|Descripción|
 |-----|-----------|
 |Tipo de autenticación| Hay dos opciones para seleccionar "Oauth2 - Interna" y "Oauth2|
-|Provider| Donde será escolhido se será do tipo "Google", "Facebook" ou "outros" <br /> Si es del tipo Google o Facebook, solo será necesario informar: el Id del Cliente y la Clave Secreta del Cliente; <br /> Si es del tipo Otros, será necesario informar: el Nombre del cliente, el Dominio que deberá ser el mismo registrado en las URL de redirección del proveedor| 
+|Provider| Donde será escolhido se será do tipo "Google", "Facebook" u "outros" <br /> Si es del tipo Google o Facebook, solo será necesario informar: el Id del Cliente y la Clave Secreta del Cliente; <br /> Si es del tipo Otros, será necesario informar: el Nombre del cliente, el Dominio que deberá ser el mismo registrado en las URL de redirección del proveedor| 
 |Id del cliente| Donde debe ser informado el client id que fue registrado en el servidor Oauth2| 
 |Tipo de concesión| Identifica el grant de acceso concedido por el proveedor de autenticación. Generalmente contiene el valor “password”| 
 |Url de autenticación| Donde se debe informar la ruta del servidor de autenticación Oauth2 |  
@@ -57,9 +57,9 @@ Description:
 |Teléfono|                      |
 |Fecha de Nacimiento|            | 
 
-    - Esta pestaña permite la asignación de información en el token de autenticación Oauth2. En la pantalla se muestran dos columnas: la primera columna con el nombre de los campos existentes en el registro de usuario del Sistema y la segunda columna con el nombre del respectivo atributo del token Oauth2;
+- Esta pestaña permite la asignación de información en el token de autenticación Oauth2. <br /> En la pantalla se muestran dos columnas: la primera columna con el nombre de los campos existentes en el registro de usuario del Sistema y la segunda columna con el nombre del respectivo atributo del token Oauth2;
     
-    - La información que se puede asignar es: Sexo (M o F), ID numero, Teléfono y Fecha de Nacimiento; 
+- La información que se puede asignar es: Sexo (M o F), ID numero, Teléfono y Fecha de Nacimiento; 
 
 |Campo|Descripción|
 |-----|-----------|
