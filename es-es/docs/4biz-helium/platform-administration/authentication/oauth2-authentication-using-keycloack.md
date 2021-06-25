@@ -50,22 +50,16 @@ Description:
 
 9. En la pestaña "Asignación de campos", rellenar:
 
-|Campo en 4biz|Campo en el Servidor|
-|-------------|-----------------|
-|Sexo (M o F)|                 |
-|ID numero|                           |
-|Teléfono|                      |
-|Fecha de Nacimiento|            | 
-
-- Esta pestaña permite la asignación de información en el token de autenticación Oauth2. <br /> En la pantalla se muestran dos columnas: la primera columna con el nombre de los campos existentes en el registro de usuario del Sistema y la segunda columna con el nombre del respectivo atributo del token Oauth2;
-    
-- La información que se puede asignar es: Sexo (M o F), ID numero, Teléfono y Fecha de Nacimiento; 
-
 |Campo|Descripción|
 |-----|-----------|
 |Botón Grabar| Guarda los campos|
 |Botón Limpiar| Limpia todos los campos|
 |Botón de Búsqueda| Aparece en la parte superior de la pantalla, que vuelve a la pantalla de búsqueda|
+
+- Esta pestaña permite la asignación de información en el token de autenticación Oauth2. <br /> En la pantalla se muestran dos columnas: la primera columna con el nombre de los campos existentes en el registro de usuario del Sistema y la segunda columna con el nombre del respectivo atributo del token Oauth2;
+    
+- La información que se puede asignar es: ID numero, Teléfono y Fecha de Nacimiento; 
+
 
 10. Debe configurarse la URL de Retorno a CITSMART a través de la Plataforma elegida para la autenticación externa. En el siguiente ejemplo, se mostrará la pantalla de KeyCloak.
 
