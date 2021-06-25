@@ -36,7 +36,7 @@ Description:
 
 |Campo|Descripción|
 |-----|-----------|
-|Tipo de autenticación| Hay dos opciones para seleccionar "Oauth2 - Interna" y "Oauth2|
+|Tipo de autenticación| Hay dos opciones para seleccionar "Oauth2 - Interna" y "Oauth2"|
 |Provider| Donde será escolhido se será do tipo "Google", "Facebook" u "outros" <br /> Si es del tipo Google o Facebook, solo será necesario informar: el Id del Cliente y la Clave Secreta del Cliente; <br /> Si es del tipo Otros, será necesario informar: el Nombre del cliente, el Dominio que deberá ser el mismo registrado en las URL de redirección del proveedor| 
 |Id del cliente| Donde debe ser informado el client id que fue registrado en el servidor Oauth2| 
 |Tipo de concesión| Identifica el grant de acceso concedido por el proveedor de autenticación. Generalmente contiene el valor “password”| 
