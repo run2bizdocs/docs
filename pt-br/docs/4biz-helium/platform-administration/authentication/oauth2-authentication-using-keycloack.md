@@ -51,13 +51,6 @@ Description:
 
 9. Para a aba de "Mapeamento de Campos", preencher:
 
-|Campo no 4biz|Campo no Servidor|
-|-------------|-----------------|
-|Sexo (M ou F)|                 |
-|CPF|                           |
-|Telefone|                      |
-|Data de nascimento|            | 
-
 - Essa aba permite o mapeamento de informações presentes no token de autenticação Oauth2. <br /> Na tela são apresentadas duas colunas: a primeira coluna com o nome dos campos existentes no cadastro de usuário do Sistema e a segunda coluna com o nome do respectivo atributo do token Oauth2;
       
 - As informações que podem ser mapeadas são: Sexo (M ou F), CPF, Telefone e Data de Nascimento;
