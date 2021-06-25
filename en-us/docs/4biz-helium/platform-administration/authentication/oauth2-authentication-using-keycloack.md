@@ -64,5 +64,3 @@ Description:
 10. The return URL to CITSmart must be configured through the chosen external authentication platform. 
     
 
-
-## Related
