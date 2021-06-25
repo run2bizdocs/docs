@@ -7,7 +7,7 @@ Description:
 ## Before getting started
 
 
-- [x] Have an authentication server with OAUTH2Oauth2 protocol, example Keycloak. 
+- [x] Have an authentication server with OAUTH2 protocol, example Keycloak. 
 - [x] Connect to the authentication server.    
 - [x] After reading a new user, the system will atribute permissions based on the following parameters: 
 
