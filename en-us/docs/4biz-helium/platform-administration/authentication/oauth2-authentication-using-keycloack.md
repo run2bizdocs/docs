@@ -19,12 +19,12 @@ Description:
 
 1. Access the main navigation menu > Parametrization > Authentication > Oauth2 option;  
 2. The authentication method screen will be shown, with the options "Filters" and "Authentication Methods";
-3. As of version 9.1.2.24 there has been a few interface changes described below:  
+3. As of version Helium 1.2.24 there has been a few interface changes described below:  
 4. The search screen is shown, where 4 options exist for the filters.
 
 |Option|Description|
 |-----|---------|
-|Type| The type of authentication. There are 2 types: external and internal. If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloack. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the Run2Biz login screen.|
+|Type| The type of authentication. There are 2 types: External and Internal. If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloack. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the Run2Biz login screen.|
 |Provider| Here you can inform if the provider is Google, Facebook or others.|
 |Domain| Inform the authentication domain.|
 |Client Name| Inform the name of the client for authentication.|
@@ -61,6 +61,6 @@ Description:
 - This tab allows the mapping of information contained in the Oauth2 tokens. <br /> On this screen there are two columns, one with the name of the existing fields in the user registration and another with their respective names on Oauth2 tokens;
 - The information that can be mapped are: ID number, Telephone and Birth Date;
 
-10. The return URL to CITSmart must be configured through the chosen external authentication platform. 
+10. The return URL to 4biz must be configured through the chosen external authentication platform. 
     
 
