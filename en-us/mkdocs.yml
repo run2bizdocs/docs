@@ -155,6 +155,7 @@ nav:
       - 4biz-helium/platform-administration/introduction.md
     - Authentication:
       - 4biz-helium/platform-administration/authentication/overview.md
+      - 4biz-helium/platform-administration/authentication/oauth2-authentication-using-keycloack.md
       - 4biz-helium/platform-administration/authentication/ldap.md
       - 4biz-helium/platform-administration/authentication/sso.md
       - 4biz-helium/platform-administration/authentication/okta.md
