@@ -51,15 +51,16 @@ Description:
 
 9. Para a aba de "Mapeamento de Campos", preencher:
 
-- Essa aba permite o mapeamento de informações presentes no token de autenticação Oauth2. <br /> Na tela são apresentadas duas colunas: a primeira coluna com o nome dos campos existentes no cadastro de usuário do Sistema e a segunda coluna com o nome do respectivo atributo do token Oauth2;
-      
-- As informações que podem ser mapeadas são: Sexo (M ou F), CPF, Telefone e Data de Nascimento;
-
 |Campo|Descrição|
 |-----|---------|
 |Botão Gravar| Salva os campos|
 |Botão Limpar| Limpa todos os campos|
 |Botão Pesquisa| Apresentado no topo da tela, que volta para a tela de pesquisa|
+
+- Essa aba permite o mapeamento de informações presentes no token de autenticação Oauth2. <br /> Na tela são apresentadas duas colunas: a primeira coluna com o nome dos campos existentes no cadastro de usuário do Sistema e a segunda coluna com o nome do respectivo atributo do token Oauth2;
+      
+- As informações que podem ser mapeadas são: Sexo (M ou F), CPF, Telefone e Data de Nascimento;
+
 
 10. Deverá ser configurada a URL de Retorno ao CITSMART através da Plataforma escolhida para autenticação externa. 
 
