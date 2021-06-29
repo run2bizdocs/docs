@@ -46,7 +46,7 @@ Ao logar no sistema pela primeira vez as notificações são apresentadas por de
 
 ### Sobre o aplicativo
 
-A opção "Sobre o aplicativo" irá apresentar a tela de Termos de Uso do aplicativo. Nos temos de uso você pode ler o texto sobre as Políticas de Privacidade.
+A opção "Sobre o aplicativo" irá apresentar a tela de Termos de Uso do aplicativo. Nos termos de uso você pode ler o texto sobre as Políticas de Privacidade.
 
 ### Sair do aplicativo
 
