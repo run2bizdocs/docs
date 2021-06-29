@@ -15,7 +15,7 @@ Nesse documento iremos ver como criar um novo ticket através do nosso aplicativ
 1. Abra o aplicativo no seu celular e faça login com suas credenciais;  
 2. Ao logar, você verá a tela de tickets com 3 opções de visualização referentes aos tickets:
 
-|Opção| Descição|
+|Opção| Descrição|
 |-----|---------|
 |Meus tickets| Em Meus tickets você abrirá uma aba com a lista de tickets criados pelo solicitante logado. Ao clicar em um dos tickets aparecerá o detalhamento dele|
 |Todos os tickets| Em Todos os tickets você abrirá uma aba com a lista de tickets que estão atribuídos ao grupo ao qual o solicitante logado pertence e que ele tem permissão para capturar. Ao clicar em um dos tickets aparecerá o detalhamento dele|
