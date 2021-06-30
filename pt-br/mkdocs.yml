@@ -57,10 +57,10 @@ extra:
 #hidden: ['Home', 'MailUs']
 #nav_right: ['About', 'Contact']
 
-# Google Analytics
-#google_analytics:
-#  - 'UA-131806581-4'
-#  - 'auto'
+Google Analytics
+google_analytics:
+  - 'G-D4V4C1MWGL'
+  - 'auto'
 
 # Extensions
 markdown_extensions:
