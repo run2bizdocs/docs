@@ -46,7 +46,7 @@ Será apresentado os seguintes campos para serem preenchidos:
 |URL da conexão|Campo para informar a URL da conexão. Será URL/o nome do contexto. Exemplo: http://<span></span>exemplo.clou4biz.com/4biz|
 |Checkbox "Conexão padrão"|Checkbox para informar se você deseja que essa conexão em específico será a sua conexão padrão. Caso você selecione esse conexão como conexão padrão, irá apresentar um pop-up com a mensagem: "Tem certeza de que deseja alterar a conexão padrão para esta?", onde você poderá confirmar ou cancelar essa informação. Se você não selecionar o checkbox, não aparecerá essa mensagem|
 
-Depois que salvar sua conexão, você será levado para a tela de "Selecionar Conexão", onde será apresentado a conexão criada e, caso você já tenha mais de uma conexão, uma lista com todas as conexões cadasatradas.
+Depois que salvar sua conexão, você será levado para a tela de "Selecionar Conexão", onde será apresentado a conexão criada e, caso você já tenha mais de uma conexão, uma lista com todas as conexões cadastradas.
 
 !!!note "NOTA"
 
