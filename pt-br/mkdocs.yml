@@ -57,7 +57,7 @@ extra:
 #hidden: ['Home', 'MailUs']
 #nav_right: ['About', 'Contact']
 
-Google Analytics
+# Google Analytics
 google_analytics:
   - 'G-D4V4C1MWGL'
   - 'auto'
