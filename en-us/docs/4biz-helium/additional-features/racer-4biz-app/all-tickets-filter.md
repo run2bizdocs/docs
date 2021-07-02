@@ -105,12 +105,11 @@ At the end of the page we have two options to aply the filters or not:
 
 ## Related
 
-[Filters - my tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html) 
+[Filters - My tickets](/en-us/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html) 
 
-[Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
+[Racer 4biz – Homescreen](/en-us/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
 
-[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
+[Tickets Status](/en-us/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
 
-[Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)<<<<<<<<<CONSERTA ESSES LINK FEIIII
-
+[Create ticket on Racer 4biz](/en-us/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
 
