@@ -125,7 +125,7 @@ Al seleccionar el solicitante, se abre una pantalla con una flecha para volver y
             - Aparecerá un mensaje: No se ha agregado ningún archivo adjunto;
             - Un botón Añadir archivo adjunto. Que cuando se selecciona, se abre una opción para seleccionar el archivo deseado en el teléfono. Al seleccionar el archivo, se muestra el mensaje: ¡Nuevo Adjunto añadido con éxito! Y el Botón de Ok.
             
-        Si se ha añadido un archivo adjunto al ticket:
+       Si se ha añadido un archivo adjunto al ticket:
         
             - La aplicación mostrará la cantidad de archivos adjuntos;
             - Al seleccionar la pestaña Archivos adjuntos, se mostrará el nombre del archivo adjunto;
