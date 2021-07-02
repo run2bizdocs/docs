@@ -1,5 +1,5 @@
-Title: Mais opções do aplicativo
-Description: Será apresentado a tela do aplicativo "mais opções" com as opções adicionais.
+Title: More options on the app
+Description: The "more options" screen will be describied with additional features.
 
 # More options on the app
 
@@ -37,7 +37,7 @@ Here we can change some of the configurations of the app:
 |Notificações de aprovação| Quando tiver notificações de aprovação será apresentado no celular do usuário a notificação "Existe um ticket aguardando aprovação. Clique aqui para visualizar". Ao selecionar o visualizar da mensagem, o aplicativo irá apresentar a tela de ticket com a fila de aprovação|
 |Notificações de chat| Quando tiver notificações de chat será apresentado no celular do usuário a notificação "Tem uma nova mensagem no chat para você. Clique aqui para visualizar". Ao selecionar o visualizar da mensagem o aplicativo irá apresentar a tela de chat|
 
-!!! note "ATENÇÃO"
+!!! note "WARNING"
 
     Altough it is possible to configure chat notifications, the chat service is not yet available on the app. Wait for future versions.
     
