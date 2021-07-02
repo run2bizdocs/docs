@@ -26,7 +26,6 @@ Tenemos las siguientes opciones:
 Luego tenemos la opción de Filtrar por situación de ticket, en la que tenemos:
 
 **En marcha**  
-
 Al seleccionar los tickets en curso, se muestra una lista con los tickets en esa situación y compuesta por:  
   
     1. Tipo de demanda. Que puede ser: solicitud, incidente o procedimiento;
@@ -38,7 +37,6 @@ Al seleccionar los tickets en curso, se muestra una lista con los tickets en esa
     7. La descripción de la prioridad asignada al ticket. Por ejemplo: alto.
     
 **Cerrado**  
-
 Al seleccionar los tickets cerrados, se muestra una lista con los tickets en esa situación y compuesta por:
 
     1. Tipo de demanda. Que puede ser: solicitud, incidente o procedimiento;
@@ -51,7 +49,6 @@ Al seleccionar los tickets cerrados, se muestra una lista con los tickets en esa
 
     
 **Cancelado**  
-
 Al seleccionar los tickets cancelados, se muestra una lista con los tickets en esa situación y compuesta por:
 
     1. Tipo de demanda. Que puede ser: solicitud, incidente o procedimiento;
@@ -63,7 +60,6 @@ Al seleccionar los tickets cancelados, se muestra una lista con los tickets en e
     7. La descripción de la prioridad asignada al ticket. Por ejemplo: alto.
 
 **Suspendido**  
-
 Al seleccionar los tickets suspendidos, se muestra una lista con los tickets en esa situación y compuesta por:  
 
     1. Tipo de demanda. Que puede ser: solicitud, incidente o procedimiento;
@@ -75,7 +71,6 @@ Al seleccionar los tickets suspendidos, se muestra una lista con los tickets en 
     7. La descripción de la prioridad asignada al ticket. Por ejemplo: alto.
     
 **Resuelto**  
-
 Al seleccionar los tickets resueltos, se muestra una lista con los tickets en esa situación y compuesta por:
 
     1. Tipo de demanda. Que puede ser: solicitud, incidente o procedimiento;
