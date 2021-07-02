@@ -48,6 +48,7 @@ Desde la versión Helium 1.2.19, el archivo CITSMART.CFG pasa a llamarse "applic
 Cree un archivo llamado application.ini en /opt/wildfly/standalone/configuration/ con la información a continuación:
 
 ``` shell
+RECORDS_LIMIT_TO_GENERATE_REPORT_IN_THE_BACKGROUND = 500
 START_MONITORA_INCIDENTES=FALSE
 JDBC_ALIAS_REPORTS=
 JDBC_ALIAS_BPM=
