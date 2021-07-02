@@ -1,5 +1,5 @@
-Title: Filtros - meus tickets
-Description: Iremos apresentar os filtros existentes no aplicativo para a tela de "Meus Tickets".
+Title: Filters - my tickets
+Description: We will show the available filters for the "my tickets" screen on the app.
 
 # Filters - My tickets
 
@@ -89,10 +89,10 @@ At the end of the page, we have the option to apply the filters or not.
 
 ## Related  
 
-[Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
+[Filters – All tickets](/en-us/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
 
-[Racer 4biz – tela inicial do aplicativo](/pt-br/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
+[Racer 4biz – Homescreen](/en-us/4biz-helium/additional-features/racer-4biz-app/racer-homescreen.html)
 
-[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
+[Ticket status](/en-us/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
 
-[Criar Ticket no Aplicativo Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
+[Creating tickets on Racer 4biz](/en-us/4biz-helium/additional-features/racer-4biz-app/create-ticket-racer.html)
