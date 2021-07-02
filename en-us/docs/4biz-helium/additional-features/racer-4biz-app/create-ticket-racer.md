@@ -1,5 +1,5 @@
-Title: Criar ticket  
-Description: Como criar um ticket no aplicativo Racer 4biz
+Title: Create ticket  
+Description: How to create tickets using the Racer 4biz app
 
 # Creating a ticket using Racer 4biz app
 
@@ -66,11 +66,11 @@ At last, there will be a message with the option fo Finish the ticket creation. 
 
 ## Related
 
-[Filtros – todos os tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
+[Filters – all tickets](/en-us/4biz-helium/additional-features/racer-4biz-app/all-tickets-filter.html)
 
-[Filtros - meus tickets](/pt-br/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
+[Filters - my tickets](/en-us/4biz-helium/additional-features/racer-4biz-app/my-tickets-filters.html)
 
-[Situação dos Tickets no Racer 4biz](/pt-br/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
+[Ticket status](/en-us/4biz-helium/additional-features/racer-4biz-app/ticket-status-racer.html)
 
 
 
