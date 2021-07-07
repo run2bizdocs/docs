@@ -11,9 +11,9 @@ Bem-vindos ao 4Biz Helium Versão 2.1.5. Esta versão apresenta as seguintes cor
 |------|----|---------|
 |6928  |Correção| Corrigindo Relatório de Quantitativo de Tickets no Campo Grupo|
 |7054  |Correção| Implementando controle de acesso interno, do sistema, para usuário não autorizado|
-|7162  |Correção| Ao abrir a mudança vai para planejamento e após planejar vai para aprovação|
+|7162  |Correção| Ao abrir a mudança, ela vai para planejamento e, depois, vai para aprovação|
 |7268  |Correção| Permitindo a execução de mudança|
-|12185 |Correção| [ITSM 7025] - E-mail de notificação de alteração da base de conhecimento está vindo incompleto|
+|12185 |Correção| E-mail de notificação de alteração da base de conhecimento está vindo incompleto|
 |12193 |Correção| Alterando senha de usuário logado|
 |12201 |Correção| Criar chaves primárias|
 
