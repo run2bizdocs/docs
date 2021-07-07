@@ -9,7 +9,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.5. Esta versão apresenta as seguintes cor
 
 |Número|Tipo|Descrição|
 |------|----|---------|
-|6928  |Correção| Corrigido Relatório de Quantitativo de Tickets no Campo Grupo|
+|6928  |Correção| Corrigindo Relatório de Quantitativo de Tickets no Campo Grupo|
 |7054  |Correção| Implementando controle de acesso interno, do sistema, para usuário não autorizado|
 |7162  |Correção| Ao abrir a mudança vai para planejamento e após planejar vai para aprovação|
 |7268  |Correção| Permitindo a execução de mudança|
