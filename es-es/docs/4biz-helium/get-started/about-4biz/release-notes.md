@@ -3,12 +3,29 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.5 (2021/07/07)
+
+Bienvenidos a 4Biz Helium Versión 2.1.5. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|6928  |Corrección| Corrección del Informe Cuantitativo de Tickets en el campo Grupo| 
+|7054  |Corrección| Implementación de control de acceso interno, del sistema, para el usuario no autorizado| 
+|7162  |Corrección| Al abrir el cambio, va a la planificación y después de planificar, va a la aprobación| 
+|7268  |Corrección| Permitiendo la ejecución del cambio| 
+|12185 |Corrección| [ITSM 7025] - el correo electrónico de notificación de cambio de la base de conocimientos está llegando incompleto| 
+|12193 |Corrección| Cambio de la contraseña del usuario conectado| 
+|12201 |Corrección| Crear claves primarias|
+
+La versión Builder compatible con esta versión es 1.3.7.4.
+
+
 ## Versión Helium 2.1.4 (2021/06/23)
 
-Bienvenido a 4biz Helium Versión 2.1.4. Esta versión presenta las siguientes correcciones:
+Bienvenidos a 4biz Helium Versión 2.1.4. Esta versión presenta las siguientes correcciones:
 
 |Número|Tipo|Descripción|
-|------|----|---------|
+|------|----|-----------|
 |12123| Corrección| Corrección de la carga para países, municipios y ciudades|
 |6652| Corrección| Asignar grupo ejecutor, como grupo actual, a WebService /servicerequestincident/create cuando no se especifica|
 |7077| Corrección| Mayor disponibilidad del procesamiento batch|
