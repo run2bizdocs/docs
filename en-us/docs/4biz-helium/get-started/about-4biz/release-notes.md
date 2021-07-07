@@ -3,6 +3,23 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.5 (2021/07/07)
+
+Welcome to 4Biz Helium Version 2.1.5. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|--------|
+|6928 |Correction| Correcting Ticket Quantity Report in Group Field|
+|7054 |Correction| Implementing internal system access control, for unauthorized user|
+|7162 |Correction| When opening the change, goes to planning and after planning, goes to approval|
+|7268 |Correction| Allowing the execution of change|
+|12185 |Correction| [ITSM 7025] - e-mail notification of knowledge base change is coming incomplete|
+|12193 |Correction| Changing the logged-in user password|
+|12201 |Correction| Create primary keys|
+
+For this version the compatible Builder is 1.3.7.4.
+
+
 ## Version Helium 2.1.4 (2021/06/23)
 
 Welcome to 4biz Helium version 2.1.4. This version presents the following corrections:
