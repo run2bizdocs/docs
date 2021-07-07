@@ -5,7 +5,7 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 ## Versão Helium 2.1.5 (2021/07/07)
 
-Bem-vindos ao 4Biz Helium Versão 2.1.5 Esta versão apresenta as seguintes correções:
+Bem-vindos ao 4Biz Helium Versão 2.1.5. Esta versão apresenta as seguintes correções:
 
 |Número|Tipo|Descrição|
 |------|----|---------|
