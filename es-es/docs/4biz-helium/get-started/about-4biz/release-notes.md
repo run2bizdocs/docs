@@ -13,7 +13,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.5. Esta versión presenta las siguientes 
 |7054  |Corrección| Implementación de control de acceso interno, del sistema, para el usuario no autorizado| 
 |7162  |Corrección| Al abrir el cambio, va a la planificación y después de planificar, va a la aprobación| 
 |7268  |Corrección| Permitiendo la ejecución del cambio| 
-|12185 |Corrección| [ITSM 7025] - el correo electrónico de notificación de cambio de la base de conocimientos está llegando incompleto| 
+|12185 |Corrección| [ITSM 7025] - correo electrónico de notificación de cambio de la base de conocimientos está llegando incompleto| 
 |12193 |Corrección| Cambio de la contraseña del usuario conectado| 
 |12201 |Corrección| Crear claves primarias|
 
