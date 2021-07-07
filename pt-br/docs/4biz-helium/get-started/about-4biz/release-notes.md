@@ -3,6 +3,23 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.5 (2021/07/07)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.5 Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|6928  |Correção| Corrigido Relatório de Quantitativo de Tickes no Campo Grupo|
+|7054  |Correção| Implementando controle de acesso interno, do sistema, para usuário não autorizado|
+|7162  |Correção| Ao abrir a mudança vai para planejamento e após planejar vai para aprovação|
+|7268  |Correção| Permitindo a execução de mudança|
+|12185 |Correção| [ITSM 7025] - e-mail de notificação de alteração da base de conhecimento está vindo incompleto|
+|12193 |Correção| Alterando senha de usuário logado|
+|12201 |Correção| Criar chaves primárias|
+
+Para essa versão o Builder compatível é 1.3.7.4.
+
+
 ## Versão Helium 2.1.4 (2021/06/23)
 
 Bem-vindos ao 4biz Helium Versão 2.1.4. Esta versão apresenta as seguintes correções:
@@ -36,6 +53,7 @@ Bem-vindos ao 4biz Helium Versão 2.1.3. Esta versão apresenta as seguintes cor
 |11353| Correção| Correção de script de banco de dados|
 
 Para essa versão o Builder compatível é 1.3.7.4.
+
 
 ## Versão Helium 2.1.2 (2021/05/14)
 
