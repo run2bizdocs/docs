@@ -1,6 +1,6 @@
 title: Personalizar Labels
 Description: Mudar os nomes de labels dentro do ITSM permitindo assim uma maior customização do mesmo.
-#Personalizar Labels
+# Personalizar Labels
 
 Esta funcionalidade tem por objetivo mudar os nomes de labels dentro da Plataforma 4biz
 permitindo assim uma maior customização do mesmo. É preciso que o usuário tenha
