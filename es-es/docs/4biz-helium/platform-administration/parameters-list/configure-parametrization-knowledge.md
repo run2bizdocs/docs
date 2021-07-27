@@ -52,7 +52,7 @@ Procedimiento
 |366|Color del fondo del encabezado (Guía del usuario) (Estándar: #e6e6e6)|Parámetro de uso restringido a 4biz Corporation, personaliza la apariencia de la Guía del Usuario.|No se aplica|
 |367|Color de la fuente del encabezado (Guía del usuario) (Estándar: #333333)|Parámetro de uso restringido a 4biz Corporation, personaliza la apariencia de la Guía del Usuario.|No se aplica|
 |368|URL para el inicio de sesión del socio (Ej.: https://example.com/4biz)|Parámetro de uso restringido a 4biz Corporation, personaliza el enlace a donde se dirige la solución al hacer clic en "Soy Agente" en la Guía del Usuario.|No se aplica|
-|410|Ver el título de Portal del conocimiento| (Default: S)|Se informa si es para presentar el título del conocimiento en la pantalla de Búsqueda de la Base de Conocimiento |No se aplica|
+|410|Ver el título de Portal del conocimiento (Default: S)|Se informa si es para presentar el título del conocimiento en la pantalla de Búsqueda de la Base de Conocimiento |No se aplica|
 
 Tabla 1 - Lista de parámetros
 
