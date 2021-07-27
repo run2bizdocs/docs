@@ -1,5 +1,6 @@
 title:  Configurar parametrización – conocimiento 
-Description: La parametrización de "Conocimiento" debe ser realizada para permitir la ejecución/uso de este proceso
+Description: permitir la ejecución/uso de este proceso, pudiendo ser posible, definir la carpeta para el almacenamiento del conocimiento creado a partir de los eventos, definir el directorio para almacenar la descripción de la respuesta de la solicitud del servicio/incidente para ser guardada en la base de conocimientos, entre otras acciones.
+
 # Configurar parametrización – conocimiento
 
 El sistema de gestión del conocimientos de servicio incluye herramientas para recopilar, almacenar, administrar, actualizar, analizar y presentar todos los conocimientos, información y datos que un proveedor de servicios de TI necesita para administrar el ciclo de vida completo de los servicios de TI.
@@ -7,7 +8,7 @@ El sistema de gestión del conocimientos de servicio incluye herramientas para r
 La parametrización de "Conocimiento" debe ser realizada para permitir la ejecución/uso de este proceso, pudiendo ser posible, definir la carpeta para almacenamiento del conocimiento creado a partir de eventos, definir el directorio para almacenar la descripción de la respuesta de la solicitud de servicio/incidente para guardar en la base de conocimiento, y otras acciones.
 
 Procedimiento
--------------
+----------------
 
 1.  Acceder al menú principal Parametrización \> Gestión de Conocimiento;
 
