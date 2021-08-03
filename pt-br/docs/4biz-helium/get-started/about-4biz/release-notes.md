@@ -11,7 +11,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.6. Esta versão apresenta as seguintes cor
 |-------|----|---------|
 |7303   |Correção| Conversão do JSON resposta anuva|
 |7428	|Correção| Permissão do agendamento sem anexo |
-|11137	|Correção| Modal de comparação de contratos e atividades. Gravação do domínio do usuário na tela de pessoa|
+|11137	|Correção| Modal de comparação de contratos e atividades. <b> Gravação do domínio do usuário na tela de pessoa </b>|
 |11323	|Correção| Auditoria das telas de usuário e perfil de acesso |
 |11370  |Correção| Alterações na arquitetura do audit |
 |11373  |Correção| Inclusão da auditoria da tela de grupo.Inclusão do cadastro de usuário na auditoria |
