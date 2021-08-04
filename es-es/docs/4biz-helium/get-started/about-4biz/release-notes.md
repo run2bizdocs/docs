@@ -23,7 +23,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.6. Esta versión presenta las siguientes 
 |11714  |Corrección| Ajustes en la auditoría de grupo |
 |11715  |Corrección| Ajustes en la auditoría de grupo | 
 |11716	|Corrección| Ajustes en la auditoría de grupo |
-|11778	|Corrección| Ajuste en concat para la base oracle, que no acepta más de 2 argumentos <br/> Ajustes en la auditoría de grupo <br/> Corrección en la auditoría del campo perfil de acceso que no se reflejaba <br/> Corrección en la pantalla de grupo que no estaba guardando correctamente las banderas de envío de correo electrónico <br/> Mejora en la auditoría del campo timezone concatenando los campos name y timezone para una mejor lectura |
+|11778	|Corrección| Ajuste en concat para la base oracle, que no acepta más de 2 argumentos <br/> Ajustes en la auditoría de grupo <br/> Corrección en la auditoría del campo perfil de acceso que no se reflejaba <br/> Corrección en la pantalla de grupo que no estaba guardando correctamente las banderas de envío de e-mail <br/> Mejora en la auditoría del campo timezone concatenando los campos name y timezone para una mejor lectura |
 |11833	|Corrección| Adición de la funcionalidad de auditoría sin mostrar los valores cambiados |
 |11922	|Corrección| Ajuste en la auditoría de usuario cuando se crea fuera de la pantalla del sistema |
 |12019	|Corrección| Verificación de la cantidad de portafolio listado que estaba equivocado |
