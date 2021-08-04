@@ -38,7 +38,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.6. Esta versão apresenta as seguintes cor
 |12278	|Correção| Formatação do campo data na auditoria |
 |12290	|Correção| Gravação dos grupos do LDAP que estavam desfazendo os agendamentos na exclusão do LDAP |
 |12292	|Correção| Alteração do tooltip do button para abrir a modal de filtro de atividades |
-|12294	|Correção| Gravação das alterações de usuários no cadastro de pessoas. Gravação da auditoria na alteração de pessoa|
+|12294	|Correção| Gravação das alterações de usuários no cadastro de pessoas <br/> Gravação da auditoria na alteração de pessoa|
 |12301	|Correção| Correção da abertura de link de serviços em detalhamento de contrato |
 |12316	|Correção| Adição do timeout para casos de internet lenta |
 |12317	|Correção| Alteração da validação de mensagem de notfound para modal de detalhamento de contratos |
