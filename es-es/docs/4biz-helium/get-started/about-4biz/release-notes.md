@@ -15,7 +15,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.6. Esta versión presenta las siguientes 
 |11323	|Corrección| Auditoría de las pantallas de usuario y perfil de acceso |
 |11370  |Corrección| Cambios en la arquitectura de audit |
 |11373  |Corrección| Inclusión de la auditoría de la pantalla de grupo <br/> Inclusión del registro de usuario en la auditoría |
-|11371	|Corrección| Ajuste en el montaje del objeto antiguo - no estaba guardando los grupos del usuario <br/> Auditoría de la pantalla de persona |
+|11371	|Corrección| Ajuste en el montaje del objeto antiguo - no se estaba guardando los grupos del usuario <br/> Auditoría de la pantalla de persona |
 |11372	|Corrección| Auditoría de colaborador <br/> Cambios en Builders |
 |11541	|Corrección| Permiso para descargar los archivos en actividad periódica |
 |11703	|Corrección| Eliminación de los botones Guardar, Idioma y Acerca de CKEditor |
