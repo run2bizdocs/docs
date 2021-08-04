@@ -9,43 +9,43 @@ Bienvenidos a 4Biz Helium Versión 2.1.6. Esta versión presenta las siguientes 
 
 |Número|Tipo|Descripción| 
 |------|----|-----------|
-|7303   |Correção| Conversão do JSON resposta anuva|
-|7428	|Correção| Permissão do agendamento sem anexo |
-|11137	|Correção| Modal de comparação de contratos e atividades <br/> Gravação do domínio do usuário na tela de pessoa |
-|11323	|Correção| Auditoria das telas de usuário e perfil de acesso |
-|11370  |Correção| Alterações na arquitetura do audit |
-|11373  |Correção| Inclusão da auditoria da tela de grupo <br/> Inclusão do cadastro de usuário na auditoria |
-|11371	|Correção| Ajuste na montagem do objeto antigo - não estava gravando os grupos do usuário <br/> Auditoria da tela de pessoa |
-|11372	|Correção| Auditoria de colaborador <br/> Alteração nos builders |
-|11541	|Correção| Permissão do download de arquivos em atividade periódica |
-|11703	|Correção| Remoção dos botões Salvar, Idioma e Sobre do CKEditor |
-|11704	|Correção| Correção das palavras na Internacionalização <br/> Permissão do restore de contrato usando queryParms |
-|11714  |Correção| Ajustes na auditoria de grupo |
-|11715  |Correção| Ajustes na auditoria de grupo | 
-|11716	|Correção| Ajustes na auditoria de grupo |
-|11778	|Correção| Ajuste no concat para banco oracle, que não aceita mais que 2 argumentos <br/> Ajustes na auditoria de grupo <br/> Correção na auditoria do campo perfil de acesso que não estava sendo refletido <br/> Correção na tela de grupo que não estava salvando corretamente as flags de envio de e-mail <br/> Melhoria na auditoria do campo timezone concatenando os campos name e timezone para melhor leitura|
-|11833	|Correção| Adição da funcionalidade de auditoria sem exibir os valores alterados|
-|11922	|Correção| Ajuste na auditoria de usuário quando criado fora da tela do sistema |
-|12019	|Correção| Verificação da quantidade listada de portfólio que estava errada |
-|12058	|Correção| Melhoria na performance do sistema |
-|12076	|Correção| Correção na auditoria do campo tipo de parceiro |
-|12077	|Correção| Adição do StringComparator.java para evitar casos em que campos vazios e nulos estavam sendo comparados como "diferentes" <br/> Correção do problema na verificação nulo x vazio <br/> Adição da validação extra para os casos de nulo x vazio|
-|12161	|Correção| Requisição da liberação que duplicava os IC's ao salvar |
-|12213	|Correção| Permissão para marcar os alvos do tempo de atendimento |
-|12228	|Correção| Limpeza no grupo executor da tarefa quando a delegação é apenas para grupo |
-|12270	|Correção| Correção de erro no click do link de atividades que redirecionava para a tela errada em detalhamento de contratos vinculados |
-|12272	|Correção| Adição do texto de "não encontrado" para filtros da modal de detalhamento de contratos |
-|12278	|Correção| Formatação do campo data na auditoria |
-|12290	|Correção| Gravação dos grupos do LDAP que estavam desfazendo os agendamentos na exclusão do LDAP |
-|12292	|Correção| Alteração do tooltip do button para abrir a modal de filtro de atividades |
-|12294	|Correção| Gravação das alterações de usuários no cadastro de pessoas. Gravação da auditoria na alteração de pessoa|
-|12301	|Correção| Correção da abertura de link de serviços em detalhamento de contrato |
-|12316	|Correção| Adição do timeout para casos de internet lenta |
-|12317	|Correção| Alteração da validação de mensagem de notfound para modal de detalhamento de contratos |
-|12320	|Correção| Permissão de envio para revisão de um conhecimento |
-|12323	|Correção| Permissão do registro de conhecimento no portal |
-|12324	|Correção| Remoção da duplicidade no histórico de alterações de comentários |
-|12328	|Correção| Adição do limite mínimo para o campo de identificador no filtro de histórico de ticket |
+|7303   |Corrección| Conversión de JSON respuesta  anuva|
+|7428	|Corrección| Permiso de programación sin adjunto |
+|11137	|Corrección| Modal de comparación de contratos y actividades <br/> Grabación de dominio de usuario en la pantalla de persona |
+|11323	|Corrección| Auditoría de las pantallas de usuario y perfil de acceso |
+|11370  |Corrección| Cambios en la arquitectura de audit |
+|11373  |Corrección| Inclusión de la auditoría de la pantalla de grupo <br/> Inclusión del registro de usuario en la auditoría |
+|11371	|Corrección| Ajuste en el montaje del objeto antiguo - no estaba guardando los grupos del usuario <br/> Auditoría de la pantalla de persona |
+|11372	|Corrección| Auditoría de colaborador <br/> Cambios en Builders |
+|11541	|Corrección| Permiso para descargar los archivos en actividad periódica |
+|11703	|Corrección| Eliminación de los botones Guardar, Idioma y Acerca de CKEditor |
+|11704	|Corrección| Corrección de las palabras en la internacionalización <br/> Permiso de restore de contrato usando queryParms |
+|11714  |Corrección| Ajustes en la auditoría de grupo |
+|11715  |Corrección| Ajustes en la auditoría de grupo | 
+|11716	|Corrección| Ajustes en la auditoría de grupo |
+|11778	|Corrección| Ajuste en concat para la base oracle, que no acepta más de 2 argumentos <br/> Ajustes en la auditoría de grupo <br/> Corrección en la auditoría del campo perfil de acceso que no se reflejaba <br/> Corrección en la pantalla de grupo que no estaba guardando correctamente las banderas de envío de correo electrónico <br/> Mejora en la auditoría del campo timezone concatenando los campos name y timezone para una mejor lectura |
+|11833	|Corrección| Adición de la funcionalidad de auditoría sin mostrar los valores cambiados |
+|11922	|Corrección| Ajuste en la auditoría de usuario cuando se crea fuera de la pantalla del sistema |
+|12019	|Corrección| Verificación de la cantidad de portafolio listado que estaba equivocado |
+|12058	|Corrección| Mejora del rendimiento del sistema |
+|12076	|Corrección| Corrección en la auditoría del campo tipo de socio |
+|12077	|Corrección| Adición de StringComparator.java para evitar casos en los que los campos vacíos y nulos se estaban comparando como "diferentes" <br/> Corrección del problema en el análisis nulo x vacío <br/> Adición de la validación adicional para los casos de nulo x vacío|
+|12161	|Corrección| Solicitud de la liberación que duplicaba los IC’s al guardar |
+|12213	|Corrección| Permiso para marcar los objetivos del tiempo de servicio |
+|12228	|Corrección| Limpieza en el grupo ejecutor de la tarea cuando la delegación es solo para grupo |
+|12270	|Corrección| Corrección de error al hacer clic en el enlace de actividades que redirigía a la pantalla equivocada en el detalle de contratos vinculados |
+|12272	|Corrección| Adición de texto "no encontrado" para filtros de modal de detalle de contratos |
+|12278	|Corrección| Formato del campo de fecha en la auditoría |
+|12290	|Corrección| Grabación de los grupos de LDAP que estaban deshaciendo las programaciones en la eliminación de LDAP |
+|12292	|Corrección| Cambio del tooltip del button para abrir el modal de filtro de actividades |
+|12294	|Corrección| Grabación de los cambios de los usuarios en el registro de personas <br/> Grabación de auditoría en el cambio de persona |
+|12301	|Corrección| Corrección de la apertura de enlace de servicios en el detalle de contrato |
+|12316	|Corrección| Adición del timeout para los casos de internet lenta |
+|12317	|Corrección| Cambio de la validación de mensajes de "notfound" a modal de detalles de contratos |
+|12320	|Corrección| Permiso de envío para la revisión de un conocimiento |
+|12323	|Corrección| Permiso de registro de conocimiento en el portal |
+|12324	|Corrección| Eliminación de la duplicidad en el historial de cambios de comentarios |
+|12328	|Corrección| Adición del límite mínimo para el campo de identificador en el filtro de historial de tickets |
 
 La versión Builder compatible con esta versión es 1.3.7.4.
 
