@@ -24,7 +24,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
 !!! Question "É possível categorizar a Requisição/Incidente (Ticket)?"
     
-    Tanto uma Requisição quanto um Incidente podem ser categorizados na etapa de [cadastro das atividades em um serviço](https://docs.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html), as categorias podem ser criadas na mesma tela de registro, na hora da vinculação da categoria ou na funcionalidades específica para  [Criar categoria de serviço](https://docs.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/configuration/create-service-category.html).
+    Tanto uma Requisição quanto um Incidente podem ser categorizados na etapa de [cadastro das atividades em um serviço](https://docs.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/use/register-service-activity.html), as categorias podem ser criadas na mesma tela de registro, na hora da vinculação da categoria ou na funcionalidades específica para  [Criar categoria de serviço](https://docs.run2biz.com/pt-br/4biz-helium/processes/portfolio-and-catalog/configuration/create-service-category.html)
 
 !!! Question "Como acessar a solicitação de serviço a partir da notificação de e-mail?"
     
