@@ -3,6 +3,18 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.7 (2021/08/11) 
+
+Bem-vindos ao 4Biz Helium Versão 2.1.7. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|7269   |Correção| Adição de ação no botão de visualizar na tela de cadastro de questionário |
+|7572   |Correção| Ajuste de filtro de SLA na tela de ticket |
+
+Para essa versão o Builder compatível é 1.3.7.6
+
+
 ## Versão Helium 2.1.6 (2021/07/30)
 
 Bem-vindos ao 4Biz Helium Versão 2.1.6. Esta versão apresenta as seguintes correções:
@@ -73,13 +85,13 @@ Bem-vindos ao 4biz Helium Versão 2.1.4. Esta versão apresenta as seguintes cor
 
 |Número|Tipo|Descrição|
 |------|----|---------|
-|12123| Correção| Correção de Carga de Países, Municípios e UFs|
-|6652| Correção| Atribuindo o grupo executor, como grupo atual, para o WebService /servicerequestincident/create quando não é especificado|
-|7077| Correção| Aumentando a disponibilidade do processamento batch|
-|7164| Correção| Permitindo a execução da expressão Grupo Atual|
-|7165| Correção| Key violation – RequestTemplateInfo|
-|12117| Correção| Formulário Builder não está funcionando na Tela de Requisição de Mudança em nenhum fluxo default do sistema|
-|12118| Correção| Versão gerada da branch hotfix/itsm-7077 de incidente esta apresentando erro de Encoding na popup "Sobre o 4biz"|
+|12123 |Correção| Correção de Carga de Países, Municípios e UFs|
+|6652  |Correção| Atribuindo o grupo executor, como grupo atual, para o WebService /servicerequestincident/create quando não é especificado|
+|7077  |Correção| Aumentando a disponibilidade do processamento batch|
+|7164  |Correção| Permitindo a execução da expressão Grupo Atual|
+|7165  |Correção| Key violation – RequestTemplateInfo|
+|12117 |Correção| Formulário Builder não está funcionando na Tela de Requisição de Mudança em nenhum fluxo default do sistema|
+|12118 |Correção| Versão gerada da branch hotfix/itsm-7077 de incidente esta apresentando erro de Encoding na popup "Sobre o 4biz"|
 
 Para essa versão o Builder compatível é 1.3.7.4.
 
