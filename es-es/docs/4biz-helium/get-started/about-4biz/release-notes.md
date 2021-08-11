@@ -3,6 +3,18 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.7 (2021/08/11) 
+
+Bienvenidos a 4Biz Helium Versión 2.1.7. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|7269  |Corrección| Adición de acción al botón de previsualización en la pantalla de registro de la encuesta |
+|7572  |Corrección| Ajuste del filtro de SLA en la pantalla de ticket |
+
+La versión Builder compatible con esta versión es 1.3.7.6.
+
+
 ## Versión Helium 2.1.6 (2021/07/30)
 
 Bienvenidos a 4Biz Helium Versión 2.1.6. Esta versión presenta las siguientes correcciones:
