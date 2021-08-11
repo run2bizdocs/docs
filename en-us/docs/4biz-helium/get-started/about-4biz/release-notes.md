@@ -3,12 +3,24 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
-## Version Helium 2.1.6 (2021/07/30)
+## Version Helium 2.1.7 (2021/08/11) 
 
-Welcome to 4Biz Helium Version 2.1.5. This version presents the following corrections:
+Welcome to 4Biz Helium Version 2.1.7. This version presents the following corrections:
 
 |Number|Type|Description|
-|------|----|--------|
+|------|----|-----------|
+|7269  |Correction| Addition of action to the preview button on the questionnaire registration screen |
+|7572  |Correction| Adjustment of SLA filter on the ticket screen |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
+## Version Helium 2.1.6 (2021/07/30)
+
+Welcome to 4Biz Helium Version 2.1.6. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
 |7303   |Correction| Conversion of JSON response anuva|
 |7428	|Correction| Schedule permission without attachment |
 |11137	|Correction| Contracts and Activities Comparison Modal <br/> User domain recording on the person screen |
