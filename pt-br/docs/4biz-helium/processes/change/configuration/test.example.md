@@ -18,3 +18,6 @@ Description: sdnfjslkjfssd.
     
 Mais texto aleatório da minha cabeça.
 
+- [x] Checklist
+- [x] olar 
+
