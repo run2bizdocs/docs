@@ -3,6 +3,20 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.8 (2021/08/25)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.8. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|7644   |Correção| Permissão para pesquisa de satisfação via questionário |
+|7655   |Correção| Alteração do comportamento da tela de cadastro de pesquisas para evitar que sejam realizados cadastros como inativo |
+|12510  |Correção| Eliminação da atualização automática da employeecontract_view |
+|7685   |Correção| Filtro por datas |
+
+Para essa versão o Builder compatível é 1.3.7.6
+
+
 ## Versão Helium 2.1.7 (2021/08/11) 
 
 Bem-vindos ao 4Biz Helium Versão 2.1.7. Esta versão apresenta as seguintes correções:
