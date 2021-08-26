@@ -3,6 +3,20 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.8 (2021/08/25) 
+
+Welcome to 4Biz Helium Version 2.1.8. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|7644  |Correction| Permission for satisfaction survey via a questionnaire |
+|7655  |Correction| Change in the behavior of the survey registration screen to prevent registrations as inactive |
+|12510 |Correction| Deletion of employeecontract_view automatic update |
+|7685  |Correction| Filter by dates |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.7 (2021/08/11) 
 
 Welcome to 4Biz Helium Version 2.1.7. This version presents the following corrections:
