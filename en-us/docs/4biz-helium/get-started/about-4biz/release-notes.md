@@ -13,6 +13,7 @@ Welcome to 4Biz Helium Version 2.1.8. This version presents the following correc
 |7655  |Correction| Change in the behavior of the survey registration screen to prevent registrations as inactive |
 |12510 |Correction| Deletion of employeecontract_view automatic update |
 |7685  |Correction| Filter by dates |
+|12516 |Correction| Sending of creation email and email receipt request by the group |
 
 For this version the compatible Builder is 1.3.7.6.
 
