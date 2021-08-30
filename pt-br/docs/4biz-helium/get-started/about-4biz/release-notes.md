@@ -17,7 +17,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.8. Esta versão apresenta as seguintes cor
 |7655   |Correção| Alteração do comportamento da tela de cadastro de pesquisas para evitar que sejam realizados cadastros como inativo |
 |12510  |Correção| Eliminação da atualização automática da employeecontract_view |
 |7685   |Correção| Filtro por datas |
-|12516  |Correção| Envio de e-mail de criação e e-mail de recebimento de solicitação pelo grupo|
+|12516  |Correção| Envio de e-mail de criação e e-mail de recebimento de solicitação pelo grupo |
 
 Para essa versão o Builder compatível é 1.3.7.6
 
