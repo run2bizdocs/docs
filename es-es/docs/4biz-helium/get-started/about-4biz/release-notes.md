@@ -20,7 +20,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.32. Esta versión presenta las siguientes
 
 |Número|Tipo|Descripción| 
 |------|----|-----------|
-|77719 |Corrección| Validación del permiso de ejecución de los grupos de asignación |
+|77719 |Corrección| Validación del permiso de ejecución de los grupos de asignación  |
 
 La versión Builder compatible con esta versión es 1.3.7.6.
 
