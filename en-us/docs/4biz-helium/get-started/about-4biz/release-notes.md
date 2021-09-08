@@ -3,6 +3,28 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.9 (2021/09/06)
+
+Welcome to 4Biz Helium Version 2.1.9. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|      |Correction| OAuth2 external authentication process: When the system is parameterized to use OAuth2, it will use the "name" field sent by the authenticator. In case this field is not sent, the system has been changed to use the "preferred_username" field. Otherwise, the following message will be sent: Name of the user not informed |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
+## Version Helium 2.1.32 (2021/09/03)
+
+Welcome to 4Biz Helium Version 2.1.32. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|77719 |Correction| Validation of execution permission of the assignment groups |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.8 (2021/08/25) 
 
 !!! warning "ATTENTION"
