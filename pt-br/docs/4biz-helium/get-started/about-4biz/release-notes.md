@@ -9,7 +9,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.9. Esta versão apresenta as seguintes cor
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
-|       |Correção| Processo de autenticação externa OAuth2: O sistema quando parametrizado para utilizar OAuth2, irá usar o campo "name" enviado pelo autenticador, se este campo não for enviado, o sistema foi alterado para utilizar o campo "preferred_username", do contrário, será emitida a mensagem: Nome do usuário não informado |
+|       |Correção| Processo de autenticação externa OAuth2: Quando o sistema está parametrizado para utilizar OAuth2, irá usar o campo "name" enviado pelo autenticador. Se este campo não for enviado, o sistema foi alterado para utilizar o campo "preferred_username". Caso contrário, será emitida a mensagem: Nome do usuário não informado |
 
 Para essa versão o Builder compatível é 1.3.7.6
 
@@ -20,7 +20,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.32. Esta versão apresenta as seguintes co
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
-|77719  |Correção| Validação da permissão de execução dos grupos de atribuição |
+|77719  |Correção| Validação da permissão de execução dos grupos de atribuição  |
 
 Para essa versão o Builder compatível é 1.3.7.6
 
