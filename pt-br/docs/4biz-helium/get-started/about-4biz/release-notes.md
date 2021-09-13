@@ -11,7 +11,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.11. Esta versão apresenta as seguintes co
 |-------|----|---------|
 |12543	|Correção| Procedimento para exibição do campo título para um sub-ticket |
 |12568	|Correção| Procedimento para filtrar grupo na query de relatório de causa e solução |
-|12544	|Correção| Procedimento para exibir apenas os usuários que podem executar o fluxo da atividade |
+|12544	|Correção| Procedimento para exibir apenas os usuários que podem executar o fluxo da atividade  |
 
 Para essa versão o Builder compatível é 1.3.7.6
 
