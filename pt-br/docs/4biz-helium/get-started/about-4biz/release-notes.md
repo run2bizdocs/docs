@@ -3,6 +3,32 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.11 (2021/09/10)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.11. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|12543	|Correção| Procedimento para exibição do campo título para um sub-ticket |
+|12568	|Correção| Procedimento para filtrar grupo na query de relatório de causa e solução |
+|12544	|Correção| Procedimento para exibir apenas os usuários que podem executar o fluxo da atividade |
+
+Para essa versão o Builder compatível é 1.3.7.6
+
+
+## Versão Helium 2.1.10 (2021/09/03)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.10. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|12345  |Correção| Adição do botão voltar quando o usuário entra na tela de registrar um chamado no Centro de Experiência |
+|12015	|Correção| Verificação de testes unitários que não permitiam que o ITSM atualizasse |
+|12344	|Correção| E-mails adicionados na tela nova de manutenção de portfólio |
+
+Para essa versão o Builder compatível é 1.3.7.6
+
+
 ## Versão Helium 2.1.9 (2021/09/06)
 
 Bem-vindos ao 4Biz Helium Versão 2.1.9. Esta versão apresenta as seguintes correções:
