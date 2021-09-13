@@ -11,7 +11,7 @@ Welcome to 4Biz Helium Version 2.1.11. This version presents the following corre
 |------|----|-----------|
 |12543 |Correction| Procedure to display the title field of a sub-ticket |
 |12568 |Correction| Procedure to filter group in cause and solution report query|
-|12544 |Correction| Procedure to display only users who can perform activity flow |
+|12544 |Correction| Procedure to display only users who can perform activity flow  |
 
 For this version the compatible Builder is 1.3.7.6.
 
