@@ -24,7 +24,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.10. Esta versión presenta las siguientes
 |------|----|-----------|
 |12345 |Corrección| Adición del botón de retorno cuando el usuario entra en la pantalla de registro de un Ticket en el Centro de experiencia |
 |12015 |Corrección| Verificación de pruebas unitarias que no permitían actualizar el ITSM |
-|12344 |Corrección| Correos electrónicos agregados en la nueva pantalla de mantenimiento de portafolio |
+|12344 |Corrección| Correos electrónicos agregados en la nueva pantalla de mantenimiento de portafolio  |
 
 La versión Builder compatible con esta versión es 1.3.7.6.
 
