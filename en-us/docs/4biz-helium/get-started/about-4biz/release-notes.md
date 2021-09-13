@@ -3,6 +3,32 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.11 (2021/09/10)
+
+Welcome to 4Biz Helium Version 2.1.11. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12543 |Correction| Procedure to display the title field of a sub-ticket |
+|12568 |Correction| Procedure to filter group in cause and solution report query|
+|12544 |Correction| Procedure to display only users who can perform activity flow |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
+## Version Helium 2.1.10 (2021/09/03)
+
+Welcome to 4Biz Helium Version 2.1.10. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12345 |Correction| Addition of the back button when the user enters the Register Ticket screen in the Experience Center |
+|12015 |Correction| Verification of unit tests that did not allow the updating of the ITSM |
+|12344 |Correction| E-mails added on the new portfolio maintenance screen | 
+
+For this version the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.9 (2021/09/06)
 
 Welcome to 4Biz Helium Version 2.1.9. This version presents the following corrections:
