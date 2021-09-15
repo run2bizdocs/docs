@@ -3,6 +3,21 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.12 (2021/09/14)
+
+!!! warning "ATENCIÓN"
+
+    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 2.1.12][12]
+
+Bienvenidos a 4Biz Helium Versión 2.1.12. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|TASKER 12636 <br/> ITSM 7897 |Corrección| Procedimiento para la corrección de errores en el campo "dirigir a" en la pantalla del ticket |
+
+La versión Builder compatible con esta versión es 1.3.7.6.
+
+
 ## Versión Helium 2.1.11 (2021/09/10)
 
 Bienvenidos a 4Biz Helium Versión 2.1.11. Esta versión presenta las siguientes correcciones:
@@ -740,3 +755,4 @@ Bienvenido a 4biz Helium Versión 1.0.2 Esta versión incluye los siguientes ele
 [9]:/es-es/4biz-helium/get-started/about-4biz/Paquete-Actualización-2.0.2.zip
 [10]:/es-es/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.6.docx
 [11]:/es-es/4biz-helium/get-started/about-4biz/Orientaciones-sobre-la-versión-4biz-Helium-2.1.8.zip
+[12]:/es-es/4biz-helium/get-started/about-4biz/Orientaciones-sobre-la-versión-4biz-Helium-2.1.12.zip
