@@ -13,7 +13,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.12. Esta versión presenta las siguientes
 
 |Número|Tipo|Descripción| 
 |------|----|-----------|
-|TASKER 12636 <br/> ITSM 7897 |Corrección| Procedimiento para la corrección de errores en el campo "dirigir a" en la pantalla del ticket |
+|12636 <br/> 7897 |Corrección| Procedimiento para la corrección de errores en el campo "dirigir a" en la pantalla del ticket |
 
 La versión Builder compatible con esta versión es 1.3.7.6.
 
