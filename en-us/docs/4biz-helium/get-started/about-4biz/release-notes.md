@@ -13,8 +13,10 @@ Welcome to 4Biz Helium Version 2.1.12. This version presents the following corre
 
 |Number|Type|Description|
 |------|----|-----------|
+|TASKER 12636  <br/>ITSM 7897 |Correction| Procedure for error correction in the "direct to" field on the ticket screen |
 
-|TASKER 12636  <br/> ITSM 7897  |Correction| Procedure for error correction in the "direct to" field on the ticket screen |
+For this version the compatible Builder is 1.3.7.6.
+
 
 ## Version Helium 2.1.11 (2021/09/10)
 
