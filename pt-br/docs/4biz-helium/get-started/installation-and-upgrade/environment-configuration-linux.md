@@ -209,7 +209,7 @@ psql -l  </i>
 
  - Acesse o link a seguir para baixar o **Eclipse IDE**: 
 
-https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterprise-java-developers   
+https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-enterprise-java-developers   
 
  - Na opção Download Links, escolha a versão para **Linux**.  
 

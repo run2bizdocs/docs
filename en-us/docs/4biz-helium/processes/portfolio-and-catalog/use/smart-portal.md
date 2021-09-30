@@ -64,6 +64,6 @@ It's necessary to have a contract previously registered, the definition of the t
     
 !!! tip "About"  
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
    
 [1]:images/smartportal.png

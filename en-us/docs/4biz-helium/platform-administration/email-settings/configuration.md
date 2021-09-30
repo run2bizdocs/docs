@@ -42,5 +42,5 @@ Get the email information and configure the access permissions in the email serv
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020 
+    <b>Updated:</b>11/03/2021 
 	

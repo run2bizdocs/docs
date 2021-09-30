@@ -26,4 +26,4 @@ By default, only user groups explicitly indicated will be allowed to use a speci
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

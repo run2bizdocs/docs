@@ -66,4 +66,4 @@ As Regras de Negócio do Builder servem para realizar validações que reflitam 
   As regras de negócio criadas são bloqueadas por padrão. Isso significa que a regra não poderá ser utilizada a menos que seja desbloqueada. Para desbloquear selecione a regra desejada e clique na opção Desbloquear. 
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

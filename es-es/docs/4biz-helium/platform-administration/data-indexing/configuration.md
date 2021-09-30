@@ -34,6 +34,6 @@ indexados, haga clic en "Eliminar la indexación de la base de conocimiento".
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/es-es/4biz-helium/get-started/installation-and-upgrade/download-software.html#servidor-de-indexacion-apache-solr

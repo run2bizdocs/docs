@@ -26,6 +26,6 @@ Para realizar a indexação é necessário antes [configurar sua instância][1] 
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/pt-br/4biz-helium/platform-administration/data-indexing/configuration.html

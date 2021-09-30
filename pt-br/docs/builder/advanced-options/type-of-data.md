@@ -25,4 +25,4 @@ Para obter mais informações, consulte a documentação de Desenvolvendo Aplica
 3.	Clique o botão “Salvar”.
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

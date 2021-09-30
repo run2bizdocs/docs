@@ -82,4 +82,4 @@ Esta es la nueva mentalidad para las nuevas empresas y nuestra 4biz -
 Enterprise Services Platform ayudará a cambiar la perspectiva de estas corporaciones.
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

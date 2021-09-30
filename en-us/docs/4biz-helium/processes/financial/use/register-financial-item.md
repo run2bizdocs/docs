@@ -110,4 +110,4 @@ The Grid wil inform Date and time of the ocurrence, the user, wich element is in
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b> 20/03/2020 - Andre Fernandes
+    <b>Updated:</b> 20/03/2021 - Andre Fernandes

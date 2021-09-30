@@ -26,6 +26,6 @@ To perform the indexing, it is necessary to first [configure your instance][1] w
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/en-us/4biz-helium/platform-administration/data-indexing/configuration.html

@@ -157,4 +157,4 @@ Figura 7 - Pantalla de registro/edición del workflow, pestaña de Diagrama
 
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

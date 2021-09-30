@@ -58,7 +58,7 @@ Rutinas Batch
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 
 [1]:/es-es/4biz-helium/platform-administration/configuring-automatic-actions/images/verify-email.txt

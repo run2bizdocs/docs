@@ -37,6 +37,6 @@ Se você chegou aqui, acreditamos que tenha concluído com sucesso o processo de
 
 !!! tip ""
 
-    Author: `Renato Aragão` Version: 4biz-helium-BETA-1 Updated: 2020/04/28 Description: Updated installation process to latest
+    Author: `Renato Aragão` Version: 4biz-helium-BETA-1 Updated: 2021/04/28 Description: Updated installation process to latest
 
 [1]:/pt-br/4biz-helium/initial-settings/navigation-and-user-interface.html

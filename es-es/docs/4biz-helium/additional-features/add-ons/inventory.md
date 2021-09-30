@@ -36,7 +36,7 @@ Para probar el Inventory, [configurar][4] las conexiones en la instancia 4biz.
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/es-es/4biz-helium/additional-features/add-ons/event-monitor.html
 [2]:/es-es/4biz-helium/get-started/installation-and-upgrade/perform-installation.html

@@ -277,5 +277,5 @@ para atender à norma ISO/IEC 20000, incorporando as melhores recomendações co
 PMBOK, COBIT, Six Sigma e ISO 20000.
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 

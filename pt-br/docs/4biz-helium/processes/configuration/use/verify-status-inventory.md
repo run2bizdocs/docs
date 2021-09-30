@@ -40,7 +40,7 @@ Para visualizar o status de inventário de ICs é necessário ter definido um pr
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 
 [1]:/pt-br/4biz-helium/processes/event/configuration/set-inventory-connection.html

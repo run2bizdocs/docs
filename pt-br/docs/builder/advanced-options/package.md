@@ -35,4 +35,4 @@ Figura 1 - Tela de pesquisa de pacotes
     Para garantir a compatibilidade, é recomendável que a versão do Builder que realizará a importação de um pacote seja a mesma versão que realizou a exportação.
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

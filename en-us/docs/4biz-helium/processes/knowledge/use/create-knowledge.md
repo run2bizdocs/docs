@@ -158,7 +158,7 @@ When creating a knowledge, 4biz will always establish version "1.0" and, when ch
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>30/03/2020 – Andre Fernandes
+    <b>Updated:</b>30/03/2021 – Andre Fernandes
     
 [1]:https://en.wikipedia.org/wiki/WYSIWYG
 [2]:/en-us/4biz-helium/initial-settings/access-settings/profile/create-profile-access.html

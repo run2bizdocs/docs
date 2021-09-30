@@ -96,4 +96,4 @@ It also enables it to register a new knowledge in order to make the portal dynam
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

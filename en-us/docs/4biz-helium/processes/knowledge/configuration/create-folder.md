@@ -58,7 +58,7 @@ Folder permissions are applied from two perspectives: access profile and user gr
 
 !!! tip "About"
     <b>Product/Verssion:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/en-us/4biz-helium/processes/knowledge/use/create-knowledge.html
 [2]:/en-us/4biz-helium/initial-settings/access-settings/user/register-groups.html

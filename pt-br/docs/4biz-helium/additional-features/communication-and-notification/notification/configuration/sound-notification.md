@@ -45,7 +45,7 @@ Pronto, a partir de agora será possível identificar novos atendimentos pela no
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/pt-br/4biz-helium/additional-features/communication-and-notification/notification/configuration/template-create.html
 

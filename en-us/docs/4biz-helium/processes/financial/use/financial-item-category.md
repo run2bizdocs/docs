@@ -35,4 +35,4 @@ Description:Financial Item Category
 3. Click on "Save".
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b> 20/03/2020 - Brunno Roosevelt
+    <b>Updated:</b> 20/03/2021 - Brunno Roosevelt

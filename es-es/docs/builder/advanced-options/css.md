@@ -54,4 +54,4 @@ Figura 4 - Tela de cadastro de CSS
 5- Clique em Salvar para armazenar o arquivo. Clique em Pesquisar para voltar para a tela anterior.    
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

@@ -71,7 +71,7 @@ Para cada una de las áreas anteriores, contamos con procesos y medidas de segur
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [2]:images/citsmart-on-premises.jpg
 [3]:images/citsmart-inv-evm.jpg

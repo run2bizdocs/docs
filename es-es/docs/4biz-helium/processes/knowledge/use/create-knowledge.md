@@ -87,8 +87,8 @@ En la pestaña "Registro", se presentará un formulario que contiene los campos 
 | Autor | Creador del Conocimiento | John Doe |
 | Editor | Lo responsable por la publicación del Conocimiento | John Smith |
 | Privacidad | Sensibilidad de la información: **Confidencial** (solo el autor del conocimiento y el administrador de la carpeta tendrán acceso al conocimiento), **Interno** (solo las personas que tienen permiso en la carpeta tendrán acceso al conocimiento) y **Público** (interno/externo) (todos tendrán acceso al conocimiento, incluso aquellos que no tienen permiso en la carpeta) | Público(interno) |
-| Fecha de Creación (automático) | Día en que se creó el conocimiento | 02/01/2020 |
-| Fecha de Publicación (automático) | Día en que se publicó el conocimiento | 02/01/2020 |
+| Fecha de Creación (automático) | Día en que se creó el conocimiento | 02/01/2021 |
+| Fecha de Publicación (automático) | Día en que se publicó el conocimiento | 02/01/2021 |
 | Tags | Palabras (o conjunto de palabras) utilizadas para ayudar al motor de búsqueda | manual-del-usuario |
 | Contenido | Contenido del conocimiento que estará disponible en el Portal, aquí debe contener toda la información y los medios relacionados con el documento | "Lorem ipsum dolor sit amet, consectetur adipiscing elit..." |
 | Adjunto | Archivos relacionados con el conocimiento | manual-del-usuario.pdf |
@@ -131,7 +131,7 @@ En la creación del conocimiento, 4biz siempre establecerá la versión "1.0" y,
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
     
 [1]:https://en.wikipedia.org/wiki/WYSIWYG
 [2]:/es-es/4biz-helium/initial-settings/access-settings/profile/create-profile-access.html

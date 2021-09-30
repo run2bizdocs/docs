@@ -13,4 +13,4 @@ Faça o download do dicionário de dados do 4Biz Builder clicando no link abaixo
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020 
+    <b>Updated:</b>11/03/2021 

@@ -35,5 +35,5 @@ Esta funcionalidade tem por objetivo registrar a justificativa da liberação qu
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 

@@ -21,6 +21,6 @@ Esta funcionalidade destina-se a configurar o idioma padrão do sistema.
 !!! tip "Sobre"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 	
 	

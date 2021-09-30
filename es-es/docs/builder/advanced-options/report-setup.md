@@ -86,4 +86,4 @@ Figura 6 - Registro/edición de configuración del informe, pestaña Formulario
 
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

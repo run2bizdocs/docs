@@ -70,4 +70,4 @@ determinadas informações sejam registradas ao criar o incidente/requisição.*
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

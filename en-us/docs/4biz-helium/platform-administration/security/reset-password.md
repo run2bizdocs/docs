@@ -47,7 +47,7 @@ To test the service to change the password, access the login page, click on "For
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/en-us/4biz-helium/platform-administration/email-settings/email-templates-configure-email-template.html
 [2]:/en-us/4biz-helium/platform-administration/email-settings/configuration.html

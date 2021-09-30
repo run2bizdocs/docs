@@ -573,7 +573,7 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |10280 | Correção| Recuperação do valor default das colunas do objeto de negócio|
 
 
-## Versão Helium 1.2.22 (2020/12/03)
+## Versão Helium 1.2.22 (2021/12/03)
 
 !!! warning "ATENÇÃO"
 
@@ -595,7 +595,7 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |10476|Correção|[My 5802] - Menus laterais do Builder sem funcionamento correto|
 
 
-## Versão Helium 1.2.13 (2020/11/03)
+## Versão Helium 1.2.13 (2021/11/03)
 
 !!! warning "ATENÇÃO"
 
@@ -658,7 +658,7 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |10049|Corretiva|[My 5357]- Falha ao validar permissões de botões, mesmo com usuário com permissão|
 |9751|Corretiva|[My 5153] - Verificar que arquivos que possuem nomes com caracteres especiais não são feitos uploads|
 
-## Versão Helium 1.1.1 (2020/09/14)
+## Versão Helium 1.1.1 (2021/09/14)
 
 !!! warning "ATENÇÃO"
 
@@ -739,7 +739,7 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |7774|Melhoria|Erro de tradução no BUILDER --> ESI|
 
 
-## Versão Helium 1.0.2 (2020/04/27)
+## Versão Helium 1.0.2 (2021/04/27)
 Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes itens:
 
 |Número|Tipo|Funcionalidade|Descrição|

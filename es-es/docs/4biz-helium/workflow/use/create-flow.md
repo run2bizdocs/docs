@@ -43,6 +43,6 @@ Relacionado
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [2]:/es-es/4biz-helium/workflow/configuration/expressions-creator.html

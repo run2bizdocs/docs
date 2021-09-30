@@ -49,4 +49,4 @@ Figura 3 - Pantalla de registro del archivo de informe
 
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

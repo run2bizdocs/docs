@@ -74,4 +74,4 @@ O diagrama é a modelagem do processo de integração sendo implementado pelo fl
 
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

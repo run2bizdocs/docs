@@ -85,4 +85,4 @@ Figura 10 - Tela de cadastro/edição de regra de negócio - Tipo Script (contin
   3- Clique em Salvar para executar as alterações.    
 
 !!! tip "About"
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021

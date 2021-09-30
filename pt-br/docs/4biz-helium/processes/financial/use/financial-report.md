@@ -57,4 +57,4 @@ Nestes relatórios, é possível acompanhar o valor dos investimentos e a distri
 [Usar Smart Analytics (BI) para criar relatórios](https://documentation.run2biz.com/pt-br/4biz-helium/additional-features/smart-analytics/use-bi-solution.html)
 
 <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b> 20/03/2020 - William Costa
+    <b>Updated:</b> 20/03/2021 - William Costa

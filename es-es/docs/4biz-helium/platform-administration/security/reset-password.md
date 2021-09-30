@@ -47,7 +47,7 @@ Para probar el servicio de cambio de contraseña, acceder a la página de login,
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>11/03/2020
+    <b>Updated:</b>11/03/2021
 
 [1]:/es-es/4biz-helium/platform-administration/email-settings/email-templates-configure-email-template.html
 [2]:/es-es/4biz-helium/platform-administration/email-settings/configuration.html

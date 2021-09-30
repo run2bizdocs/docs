@@ -78,4 +78,4 @@ If you want to link a mailbox to a workflow, follow the procedure below:
 !!! tip "About"
 
     <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
-    <b>Updated:</b>03/11/2020
+    <b>Updated:</b>03/11/2021
