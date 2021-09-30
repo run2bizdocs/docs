@@ -3,6 +3,19 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.13 (2021/09/30)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.13. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|7867   |Correção| Procedimento para aumentar a quantidade de caracteres aceitos no conteúdo de uma base de conhecimento |
+|7887   |Correção| Formatação do e-mail de mudança |
+|12639  |Correção| Remoção do botão de questionário no cadastro de Mudança |
+
+Para essa versão o Builder compatível é 1.3.7.6
+
+
 ## Versão Helium 2.1.12 (2021/09/14)
 
 !!! warning "ATENÇÃO"
