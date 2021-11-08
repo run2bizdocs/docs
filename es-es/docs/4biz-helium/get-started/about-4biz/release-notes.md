@@ -5,10 +5,6 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 ## Versión Helium 2.1.14 (2021/11/05)
 
-!!! warning "ATENCIÓN"
-
-    Antes de descargar esta versión, consulte las orientaciones en el documento [Guía de orientaciones del 4biz Helium versión 2.1.14][13]
-
 Bienvenidos a 4Biz Helium Versión 2.1.14. Esta versión presenta las siguientes correcciones:
 
 |Número|Tipo|Descripción| 
