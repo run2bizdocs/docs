@@ -10,6 +10,8 @@ En este documento, veremos las posibles acciones que se pueden realizar para tra
 - [x] Instalar la aplicación Racer 4biz en Android o IOS  
 - [x] Tener un usuario registrado en el sistema a través de la aplicación
 
+Es necesario configurar los siguientes parámetros: - 254 - clave API para el uso de servicios de Google; - 331 - Activar Google Maps API; - 436 - Número de proyecto (Sender ID) en Google Cloud Platform utilizado para generar las claves de API (Solo Mobile SM);
+
 Además, es necesario realizar algunas configuraciones en la plataforma 4biz de Webservice, Unidad y Tickets.
 
 **Webservice**
@@ -29,6 +31,11 @@ En la pestaña Búsqueda de Operaciones, buscar por cada uno de los webservices 
     - request_uploadSignature
     - parameter_query
     - registerdevice_query
+    - notification/checkin 
+    - notification/attendRequest 
+    - notification/checkout 
+    - device/disassociate  
+    - notification_locationTrack 
     
 El webservice de request_updateStatus deberá estar configurado con la siguiente información:
     
