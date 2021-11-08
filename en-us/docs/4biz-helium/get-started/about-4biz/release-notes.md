@@ -3,6 +3,21 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.14 (2021/11/05)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [4biz Helium Guide version 2.1.14][13]
+
+Welcome to 4Biz Helium Version 2.1.14. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12876 |Correction| Change to display requests by attendant on the map |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.13 (2021/09/30)
 
 Welcome to 4Biz Helium Version 2.1.13. This version presents the following corrections:
