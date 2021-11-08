@@ -3,12 +3,14 @@ Description: We will see the possible actions that can be done in ticket attenda
 
 # Ticket Status on Racer 4biz  
 
-this document will show the possible actions to be taken in ticket attendance when using Racer 4Biz app.  
+This document will show the possible actions to be taken in ticket attendance when using Racer 4Biz app.  
 
 ## Before getting started
 
 - [x] Install the app Racer 4biz for Android or IOS  
 - [x] Have valid access credentials to the system
+
+It is also necessary to configure the parameters - 254 API Key for use of Google services; 331 - Enable Google Maps API; 436 - Project number (Sender ID) in Google Cloud Platform used to generate API keys (Mobile SM only);   
 
 Besides, it is also necessary to configure the 4biz Webservice, Unit and Tickets platforms.
 
@@ -30,6 +32,11 @@ On the Operation Search tab, search for each one of the webservices below. Next,
     - request_uploadSignature
     - parameter_query
     - registerdevice_query
+    - notification/checkin 
+    - notification/attendRequest 
+    - notification/checkout 
+    - device/disassociate  
+    - notification_locationTrack 
     
 The webservice request_updateStatus must be configured with the following information:
     
