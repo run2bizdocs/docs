@@ -109,6 +109,12 @@ Para hacerse responsable del incidente o solicitud de servicio, puede encontrar 
 | **Conocimiento**      | Aparece cuando hay conocimiento vinculado al paso del flujo     |
 | **Layout**            | Activa la edición del diseño de la página (30% - 70%, 50% - 50% e 100%)|
 
+!!! note "NOTA"
+
+      Si el ticket no está capturado, el campo grupo actual mostrará el nombre del grupo actual, el mismo que está en la lista de tickets.
+      Si el ticket está capturado, tendrá que elegir el grupo ejecutor y se mostrará en el campo grupo actual.
+      
+
 ### Opciones del Ticket
 
 En las opciones, tenemos:
