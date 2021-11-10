@@ -108,6 +108,12 @@ Para se tornar responsável pelo incidente ou requisição de serviço, você po
 | **Conhecimento**     | Aparece quando há conhecimento vinculado à etapa do fluxo       |
 | **Layout**           | Ativa a edição do layout da página (30% - 70%, 50% - 50% e 100%)|
 
+!!! tip "NOTA"  
+
+      Se o ticket não estiver capturado o campo grupo atual apresentará o nome do grupo atual o memo que está na listagem de tickets.  
+      Se o ticket estiver capturado ele terá que escolher o grupo executor e ele será exibido no campo grupo atual.
+
+
 ### Opções do Ticket
 
 Nas opções, temos:
