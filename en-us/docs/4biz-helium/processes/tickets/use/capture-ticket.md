@@ -111,7 +111,7 @@ To become responsible for the Incident or Request, click on the option “Assign
 
 !!! tip "Note"
 
-      If the is not captured, the current group field will show the same group listed on the ticket's  
+      If the ticket is not captured, the current group field will show the same group listed on the ticket screen 
       If the ticket is captured, the agent must pick the executor group and it will be shown on the current group field.
 
 
