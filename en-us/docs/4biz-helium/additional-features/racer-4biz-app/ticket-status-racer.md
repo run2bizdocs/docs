@@ -10,7 +10,11 @@ This document will show the possible actions to be taken in ticket attendance wh
 - [x] Install the app Racer 4biz for Android or IOS  
 - [x] Have valid access credentials to the system
 
-It is also necessary to configure the parameters - 254 API Key for use of Google services; 331 - Enable Google Maps API; 436 - Project number (Sender ID) in Google Cloud Platform used to generate API keys (Mobile SM only);   
+It is also necessary to configure the parameters:
+
+- [x] 254 - API Key for use of Google services; 
+- [x] 331 - Enable Google Maps API; 
+- [x] 436 - Project number (Sender ID) in Google Cloud Platform used to generate API keys (Mobile SM only).   
 
 Besides, it is also necessary to configure the 4biz Webservice, Unit and Tickets platforms.
 
