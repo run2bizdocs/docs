@@ -34,11 +34,11 @@ Na aba Pesquisa de Operações, buscar por cada um dos webservices abaixo, em se
     - request_uploadSignature
     - parameter_query
     - registerdevice_query
-    - notification/checkin 
-    - notification/attendRequest 
-    - notification/checkout 
-    - device/disassociate  
-    - notification_locationTrack 
+    - notification_checkin
+    - notification_attendRequest
+    - notification_checkout
+    - service_deviceDisassociate
+    - notification_locationTrack
     
 O webservice de request_updateStatus deverá estar configurado com as seguintes informações:
     
