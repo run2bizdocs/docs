@@ -11,9 +11,10 @@ Nesse documento vamos ver as ações possíveis de realizar no tratamento de um 
 - [x] Possuir um usuário cadastrado no sistema através da aplicação  
 
 É necessário configurar os seguintes parâmetros: 
-        - 254 – API Key para uso de serviços Google; 
-        - 331 – Ativar Google Maps API; 
-        - 436 – Número do projeto (Sender ID) no Google Cloud Platform utilizado para gerar chaves de API (Apenas Mobile SM); 
+
+- [x] 254 – API Key para uso de serviços Google;
+- [x] 331 – Ativar Google Maps API; 
+- [x] 436 – Número do projeto (Sender ID) no Google Cloud Platform utilizado para gerar chaves de API (Apenas Mobile SM). 
 
 Além disso, é necessário realizar algumas configurações na plataforma 4biz de Webservice, Unidade e Tickets.
 
