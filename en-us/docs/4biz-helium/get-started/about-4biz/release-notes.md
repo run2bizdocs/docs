@@ -3,6 +3,19 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.15 (2021/11/12)
+
+Welcome to 4Biz Helium Version 2.1.15. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12905 |Correction| A system verification was performed for the current group field to be displayed on the ticket service screen in the same way that is shown on the ticket listing screen |
+|12679 |Correction| Correction of a translation on the portfolio screen | 
+|12901 |Correction| Push Notification Correction for the requester |
+
+For this version the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.14 (2021/11/05)
 
 Welcome to 4Biz Helium Version 2.1.14. This version presents the following corrections:
