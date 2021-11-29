@@ -9,7 +9,7 @@ Welcome to 4Biz Helium Version 2.1.16. This version presents the following corre
 
 |Number|Type|Description|
 |------|----|-----------|
-|12971 |Correction| The task notification that was already performed when trying to view a canceled ticket has been fixed |
+|12971 |Correction| The task notification that was already performed when trying to view a canceled ticket has been fixed  |
 |12981 |Correction| An encoding failure that occurred in the X (close) when the ticket creation confirmation was popping up on the ticket listing screen has been fixed |
 |8436  |Correction| An issue with the ticket description opened by the Experience Center has been fixed |
 |8361  |Correction| An issue in ticket closing e-mail sending has been fixed, to be sent only once, after successive reopenings |
