@@ -3,6 +3,20 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.16 (2021/11/26)
+
+Welcome to 4Biz Helium Version 2.1.16. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12971 |Correction| The task notification that was already performed when trying to view a canceled ticket has been fixed |
+|12981 |Correction| An encoding failure that occurred in the X (close) when the ticket creation confirmation was popping up on the ticket listing screen has been fixed |
+|8436  |Correction| An issue with the ticket description opened by the Experience Center has been fixed |
+|8361  |Correction| An issue in ticket closing e-mail sending has been fixed, to be sent only once, after successive reopenings |
+
+For this version, the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.15 (2021/11/12)
 
 Welcome to 4Biz Helium Version 2.1.15. This version presents the following corrections:
@@ -13,7 +27,7 @@ Welcome to 4Biz Helium Version 2.1.15. This version presents the following corre
 |12679 |Correction| Correction of a translation on the portfolio screen | 
 |12901 |Correction| Push Notification Correction for the requester |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.14 (2021/11/05)
@@ -24,7 +38,7 @@ Welcome to 4Biz Helium Version 2.1.14. This version presents the following corre
 |------|----|-----------|
 |12876 |Correction| Change to display requests by attendant on the map |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.13 (2021/09/30)
@@ -37,7 +51,7 @@ Welcome to 4Biz Helium Version 2.1.13. This version presents the following corre
 |7887  |Correction| Formatting the e-mail of change |
 |12639 |Correction| Removing the questionnaire button in the Change registration|
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.12 (2021/09/14)
@@ -65,7 +79,7 @@ Welcome to 4Biz Helium Version 2.1.11. This version presents the following corre
 |12568 |Correction| Procedure to filter group in cause and solution report query|
 |12544 |Correction| Procedure to display only users who can perform activity flow  |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.10 (2021/09/03)
@@ -89,7 +103,7 @@ Welcome to 4Biz Helium Version 2.1.9. This version presents the following correc
 |------|----|-----------|
 |      |Correction| OAuth2 external authentication process: When the system is parameterized to use OAuth2, it will use the "name" field sent by the authenticator. In case this field is not sent, the system has been changed to use the "preferred_username" field. Otherwise, the following message will be sent: Name of the user not informed |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.32 (2021/09/03)
@@ -119,7 +133,7 @@ Welcome to 4Biz Helium Version 2.1.8. This version presents the following correc
 |7685  |Correction| Filter by dates |
 |12516 |Correction| Sending of creation email and email receipt request by the group |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.7 (2021/08/11) 
@@ -131,7 +145,7 @@ Welcome to 4Biz Helium Version 2.1.7. This version presents the following correc
 |7269  |Correction| Addition of action to the preview button on the questionnaire registration screen |
 |7572  |Correction| Adjustment of SLA filter on the ticket screen |
 
-For this version the compatible Builder is 1.3.7.6.
+For this version, the compatible Builder is 1.3.7.6.
 
 
 ## Version Helium 2.1.6 (2021/07/30)
@@ -178,7 +192,7 @@ Welcome to 4Biz Helium Version 2.1.6. This version presents the following correc
 |12324	|Correction| Removal of duplicity in the history of comment changes |
 |12328	|Correction| Addition of minimum limit to the identifier field in the ticket history filter |
 
-For this version the compatible Builder is 1.3.7.4.
+For this version, the compatible Builder is 1.3.7.4.
 
 
 ## Version Helium 2.1.5 (2021/07/07)
@@ -195,7 +209,7 @@ Welcome to 4Biz Helium Version 2.1.5. This version presents the following correc
 |12193 |Correction| Changing the logged-in user password|
 |12201 |Correction| Create primary keys|
 
-For this version the compatible Builder is 1.3.7.4.
+For this version, the compatible Builder is 1.3.7.4.
 
 
 ## Version Helium 2.1.4 (2021/06/23)
