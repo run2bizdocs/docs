@@ -9,7 +9,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.16. Esta versión presenta las siguientes
 
 |Número|Tipo|Descripción| 
 |------|----|-----------|
-|12971 |Corrección| Se ha corregido la notificación de tarea ya ejecutada cuando se intentaba ver un ticket cancelado |
+|12971 |Corrección| Se ha corregido la notificación de tarea ya ejecutada cuando se intentaba ver un ticket cancelado  |
 |12981 |Corrección| Se ha corregido un error de codificación que ocurría en X (cerrar) de la ventana emergente de confirmación de creación de ticket en la pantalla de lista de tickets |
 |8436  |Corrección| Se ha corregido un problema con la descripción del ticket abierto por el Centro de Experiencia |
 |8361  |Corrección| Se ha corregido un problema al enviar un correo electrónico de cierre de ticket, que se enviará una sola vez después de sucesivas reaperturas |
