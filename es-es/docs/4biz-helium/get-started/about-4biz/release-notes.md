@@ -3,6 +3,20 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.16 (2021/11/26)
+
+Bienvenidos a 4Biz Helium Versión 2.1.16. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|12971 |Corrección| Se ha corregido la notificación de tarea ya ejecutada cuando se intentaba ver un ticket cancelado |
+|12981 |Corrección| Se ha corregido un error de codificación que ocurría en X (cerrar) de la ventana emergente de confirmación de creación de ticket en la pantalla de lista de tickets |
+|8436  |Corrección| Se ha corregido un problema con la descripción del ticket abierto por el Centro de Experiencia |
+|8361  |Corrección| Se ha corregido un problema al enviar un correo electrónico de cierre de ticket, que se enviará una sola vez después de sucesivas reaperturas |
+
+La versión Builder compatible con esta versión es 1.3.7.6.
+
+
 ## Versión Helium 2.1.15 (2021/11/12)
 
 Bienvenidos a 4Biz Helium Versión 2.1.15. Esta versión presenta las siguientes correcciones:
