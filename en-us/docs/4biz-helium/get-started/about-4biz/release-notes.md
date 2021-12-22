@@ -3,6 +3,20 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.17 (2021/12/22)
+
+Welcome to 4Biz Helium Version 2.1.17. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|12986	|Correction| Fix in session of the loadTimePeriod method |
+|12987	|Correction| Change in the concatenation of id ItemTrabalho to improve the visualization when an exception occurs |
+|13045	|Correction| lib log4j update to fix new vulnerabilities as recommended by apache |
+|12985	|Correction| Fix problem in Citframework, which was writing to a response channel already closed |
+
+For this version, the compatible Builder is 1.3.7.6.
+
+
 ## Version Helium 2.1.16 (2021/11/26)
 
 Welcome to 4Biz Helium Version 2.1.16. This version presents the following corrections:
