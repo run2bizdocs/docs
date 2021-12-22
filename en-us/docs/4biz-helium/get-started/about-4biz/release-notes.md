@@ -9,7 +9,7 @@ Welcome to 4Biz Helium Version 2.1.17. This version presents the following corre
 
 |Number|Type|Description|
 |------|----|-----------|
-|12986	|Correction| Fix in session of the loadTimePeriod method |
+|12986	|Correction| Fix in session of the loadTimePeriod method  |
 |12987	|Correction| Change in the concatenation of id ItemTrabalho to improve the visualization when an exception occurs |
 |13045	|Correction| lib log4j update to fix new vulnerabilities as recommended by apache |
 |12985	|Correction| Fix problem in Citframework, which was writing to a response channel already closed |
