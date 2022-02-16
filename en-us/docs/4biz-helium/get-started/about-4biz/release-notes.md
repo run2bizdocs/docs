@@ -3,6 +3,24 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.18 (2022/02/11)
+
+Welcome to 4Biz Helium Version 2.1.18. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|13294  |Correction| [OCS Inventory] - Error when filling in the IP number of the machine read by the OCS Inventory |
+|13247	|Correction| [Remote Access] – The Remote Access does not display after inventory |
+|13306	|Correction| [Inventory] – Error after reading the inventory, the thread stops working and does not make a new inventory |
+|8610	|Correction| [Ticket Mgmt.] – Failure when trying to respond the satisfaction survey |
+|10418	|Correction| [Definitive Media] -  Error while deleting the definitive media |
+|8498	|Correction| [Knowledge Mgmt.] – Failure when adding a video to the knowledge base |
+|8594	|Correction| [Ticket Mgmt.] - When the e-mail is sent, the Outlook Desktop buttons appear strangely in Outlook Web and in Spanish |
+|8566	|Correction| [Ticket Mgmt.] – Error when informing the group of a reclassified ticket with an execution group |
+
+For this version, the compatible Builder is 1.3.7.7.
+
+
 ## Version Helium 2.1.17 (2021/12/22)
 
 Welcome to 4Biz Helium Version 2.1.17. This version presents the following corrections:
