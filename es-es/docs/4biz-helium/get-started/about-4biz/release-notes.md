@@ -3,6 +3,24 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.18 (2022/02/11)
+
+Bienvenidos a 4Biz Helium Versión 2.1.18. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|13294  |Corrección| [OCS Inventory] - Error al rellenar el número IP de la máquina leída por el OCS |
+|13247	|Corrección| [Acceso Remoto] – El acceso remoto no se muestra después del inventario |
+|13306	|Corrección| [Inventory] – Error después de leer el inventario, el hilo deja de funcionar y no hace un nuevo inventario |
+|8610	|Corrección| [G. Ticket] – Fallo al intentar responder a la encuesta de satisfacción |
+|10418	|Corrección| [Biblioteca Multimedia Definitiva] -  Error al borrar la Biblioteca multimedia definitiva |
+|8498	|Corrección| [G. Conocimiento] – Fallo al añadir un vídeo a la base de conocimientos |
+|8594	|Corrección| [G. Ticket] - Cuando se envía el correo electrónico, los botones de Outlook Desktop aparecen de forma extraña en Outlook Web y en español  |
+|8566	|Corrección| [G. Ticket] – Error al informar al grupo de un ticket reclasificado con grupo de ejecución |
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
 ## Versión Helium 2.1.17 (2021/12/22)
 
 Bienvenidos a 4Biz Helium Versión 2.1.17. Esta versión presenta las siguientes correcciones:
