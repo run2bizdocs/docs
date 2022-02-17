@@ -21,6 +21,11 @@ Bienvenidos a 4Biz Helium Versión 2.1.18. Esta versión presenta las siguientes
 La versión Builder compatible con esta versión es 1.3.7.7.
 
 
+!!! warning "ATENCIÓN"
+
+    Para más información sobre Builder 1.3.7.7, vea el archivo de [Notas de Release Builder][13]
+
+
 ## Versión Helium 2.1.17 (2021/12/22)
 
 Bienvenidos a 4Biz Helium Versión 2.1.17. Esta versión presenta las siguientes correcciones:
@@ -259,7 +264,6 @@ Bienvenidos a 4biz Helium Versión 2.1.4. Esta versión presenta las siguientes 
 |12118| Corrección| La versión generada de la rama hotfix/itsm-7077 del incidente muestra un error de codificación en la ventana emergente "Acerca de 4biz"|
 
 La versión Builder compatible con esta versión es 1.3.7.4.
-
 
 
 !!! warning "ATENCIÓN"
@@ -839,3 +843,4 @@ Bienvenido a 4biz Helium Versión 1.0.2 Esta versión incluye los siguientes ele
 [10]:/es-es/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.6.docx
 [11]:/es-es/4biz-helium/get-started/about-4biz/Orientaciones-sobre-la-versión-4biz-Helium-2.1.8.zip
 [12]:/es-es/4biz-helium/get-started/about-4biz/Orientaciones-sobre-la-versión-4biz-Helium-2.1.12.zip
+[13]:/es-es/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.7.docx
