@@ -3,6 +3,45 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.1.21 (2022/03/25)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.21. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|ITSM 9336 |Correção| Não estão sendo enviados os e-mails de encerramento do problema|
+|ITSM 9338 |Correção| O campo Localidade Física não persiste após a criação do ticket|
+|ITSM 9339 |Correção| Sistema não envia grupo definido em direcionamento para a próxima etapa|
+|ITSM 9096 |Correção| O botão de ações (remover) dentro do ANS não está funcionando. Detalhes em anexo|
+|ITSM 9370 |Correção| Pesquisa de Expressões no fluxo não aparecem na busca|
+|ITSM 9368 |Correção| Quando uma solução de contorno é gravada o sistema está enviando e-mail ao solicitante|
+|ITSM 9369 |Correção| Sistema altera descrição de encerramento após ticket fechado ser colocado em Problema aberto|
+
+Para essa versão o Builder compatível é 1.3.7.7
+
+
+## Versão Helium 2.1.20 (2022/03/11)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.20. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|13381  |Correção| Relatório de diferença na rota por agente|
+
+Para essa versão o Builder compatível é 1.3.7.7.
+
+
+## Versão Helium 2.1.19 (2022/02/18)
+
+Bem-vindos ao 4Biz Helium Versão 2.1.19. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|8610   |Correção| [G. Ticket] – Falha ao tentar responder a pesquisa de satisfação|
+
+Para essa versão o Builder compatível é 1.3.7.7.
+
+
 ## Versão Helium 2.1.18 (2022/02/11)
 
 Bem-vindos ao 4Biz Helium Versão 2.1.18. Esta versão apresenta as seguintes correções:
@@ -18,7 +57,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.18. Esta versão apresenta as seguintes co
 |8594	|Correção| [G. Ticket] - Quando o e-mail é enviado, estranhamente aparece normal no Outlook Web e em espanhol os botões do Outlook Desktop |
 |8566	|Correção| [G. Ticket] – Erro ao informar grupo de um ticket reclassificado com grupo de execução |
 
-Para essa versão o Builder compatível é 1.3.7.7
+Para essa versão o Builder compatível é 1.3.7.7.
 
 
 !!! warning "ATENÇÃO"
@@ -37,7 +76,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.17. Esta versão apresenta as seguintes co
 |13045	|Correção| Atualização da lib log4j para correção de novas vulnerabilidades conforme recomendação da apache |
 |12985	|Correção| Correção de problema no CitFrameWork, que estava escrevendo em um canal de resposta já fechado |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.16 (2021/11/26)
@@ -51,7 +90,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.16. Esta versão apresenta as seguintes co
 |8436	|Correção| Foi corrigido um problema com a descrição do ticket aberto pelo Centro de Experiência |
 |8361	|Correção| Foi corrigido um problema no envio de e-mail de fechamento de ticket, para ser enviado uma única vez, após sucessivas reaberturas |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.15 (2021/11/12)
@@ -64,7 +103,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.15. Esta versão apresenta as seguintes co
 |12679  |Correção| Foi corrigida uma tradução na tela de portfólio | 
 |12901  |Correção| Correção no Push Notification para o solicitante | 
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.14 (2021/11/05)
@@ -75,7 +114,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.14. Esta versão apresenta as seguintes co
 |-------|----|---------|
 |12876  |Correção| Alteração para exibir as solicitações por atendente no mapa |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.13 (2021/09/30)
@@ -88,7 +127,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.13. Esta versão apresenta as seguintes co
 |7887   |Correção| Formatação do e-mail de mudança |
 |12639  |Correção| Remoção do botão de questionário no cadastro de Mudança |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.12 (2021/09/14)
@@ -103,7 +142,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.12. Esta versão apresenta as seguintes co
 |-------|----|---------|
 |12636  <br/> 7897 |Correção| Procedimento para correção de erro no campo “direcionar para” na tela de ticket | 
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.11 (2021/09/10)
@@ -116,7 +155,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.11. Esta versão apresenta as seguintes co
 |12568	|Correção| Procedimento para filtrar grupo na query de relatório de causa e solução |
 |12544	|Correção| Procedimento para exibir apenas os usuários que podem executar o fluxo da atividade  |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.10 (2021/09/03)
@@ -129,7 +168,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.10. Esta versão apresenta as seguintes co
 |12015	|Correção| Verificação de testes unitários que não permitiam que o ITSM atualizasse |
 |12344	|Correção| E-mails adicionados na tela nova de manutenção de portfólio |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.9 (2021/09/06)
@@ -140,7 +179,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.9. Esta versão apresenta as seguintes cor
 |-------|----|---------|
 |       |Correção| Processo de autenticação externa OAuth2: Quando o sistema está parametrizado para utilizar OAuth2, irá usar o campo "name" enviado pelo autenticador. Se este campo não for enviado, o sistema foi alterado para utilizar o campo "preferred_username". Caso contrário, será emitida a mensagem: Nome do usuário não informado |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.32 (2021/09/03)
@@ -151,7 +190,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.32. Esta versão apresenta as seguintes co
 |-------|----|---------|
 |77719  |Correção| Validação da permissão de execução dos grupos de atribuição |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.8 (2021/08/25)
@@ -170,7 +209,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.8. Esta versão apresenta as seguintes cor
 |7685   |Correção| Filtro por datas |
 |12516  |Correção| Envio de e-mail de criação e e-mail de recebimento de solicitação pelo grupo |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.7 (2021/08/11) 
@@ -182,7 +221,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.7. Esta versão apresenta as seguintes cor
 |7269   |Correção| Adição de ação no botão de visualizar na tela de cadastro de questionário |
 |7572   |Correção| Ajuste de filtro de SLA na tela de ticket |
 
-Para essa versão o Builder compatível é 1.3.7.6
+Para essa versão o Builder compatível é 1.3.7.6.
 
 
 ## Versão Helium 2.1.6 (2021/07/30)
