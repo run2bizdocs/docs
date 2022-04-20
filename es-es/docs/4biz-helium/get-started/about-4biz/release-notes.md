@@ -3,6 +3,45 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.21 (2022/03/25)
+
+Bienvenidos a 4Biz Helium Versión 2.1.21. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|ITSM 9336 |Corrección| No se están enviando los correos electrónicos de cierre del problema|
+|ITSM 9338 |Corrección| El campo Ubicación física no persiste después de crear el ticket|
+|ITSM 9339 |Corrección| El sistema no envía el grupo definido en la dirección al siguiente paso|
+|ITSM 9096 |Corrección| El botón de acciones (eliminar) dentro de ANS no está funcionando. Detalles en el anexo|
+|ITSM 9370 |Corrección| La búsqueda de Expresiones en el flujo no aparece en la búsqueda|
+|ITSM 9368 |Corrección| Cuando se guarda una solución alternativa, el sistema envía un correo electrónico al solicitante|
+|ITSM 9369 |Corrección| El sistema cambia la descripción de cierre después de que el ticket cerrado se coloque en Problema abierto|
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
+## Versión Helium 2.1.20 (2022/03/11)
+
+Bienvenidos a 4Biz Helium Versión 2.1.20. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|13381 |Corrección| Informe de diferencia de ruta por agente|
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
+## Versión Helium 2.1.19 (2022/02/18)
+
+Bienvenidos a 4Biz Helium Versión 2.1.19. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|8610  |Corrección| [G. Ticket] – Fallo al intentar responder a la encuesta de satisfacción|
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
 ## Versión Helium 2.1.18 (2022/02/11)
 
 Bienvenidos a 4Biz Helium Versión 2.1.18. Esta versión presenta las siguientes correcciones:
