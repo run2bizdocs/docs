@@ -15,7 +15,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.21. Esta versão apresenta as seguintes co
 |ITSM 9096 |Correção| O botão de ações (remover) dentro do ANS não está funcionando. Detalhes em anexo|
 |ITSM 9370 |Correção| Pesquisa de Expressões no fluxo não aparecem na busca|
 |ITSM 9368 |Correção| Quando uma solução de contorno é gravada o sistema está enviando e-mail ao solicitante|
-|ITSM 9369 |Correção| Sistema altera descrição de encerramento após ticket fechado ser colocado em Problema aberto|
+|ITSM 9369 |Correção| Sistema altera descrição de encerramento após ticket fechado ser colocado em Problema aberto |
 
 Para essa versão o Builder compatível é 1.3.7.7
 
