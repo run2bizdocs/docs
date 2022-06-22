@@ -12,7 +12,7 @@ Bienvenidos a 4Biz Helium Versión 2.1.23. Esta versión presenta las siguientes
 |ITSM 10191 |Corrección| El sistema presenta la función de Captcha rota en la pantalla de inicio de sesión|
 |ITSM 8690  |Corrección| Corrección en la función de delegar un ticket|
 |ITSM 9815  |Corrección| Corrección en la funcionalidad Sobre 4Biz|
-|ITSM 8182  |Corrección| Corrección en el botón de búsqueda en la pantalla de llamadas|
+|ITSM 8182  |Corrección| Corrección en el botón de búsqueda en la pantalla de llamadas |
 
 La versión Builder compatible con esta versión es 1.3.7.7.
 
