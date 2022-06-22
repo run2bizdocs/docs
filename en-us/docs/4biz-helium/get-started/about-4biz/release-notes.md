@@ -12,7 +12,7 @@ Welcome to 4Biz Helium Version 2.1.23. This version presents the following corre
 |ITSM 10191 |Correction| The system has a broken Captcha function on the login screen| 
 |ITSM 8690  |Correction| Correction in the delegate ticket function| 
 |ITSM 9815  |Correction| Correction on the About 4Biz functionality| 
-|ITSM 8182  |Correction| Correction on the search button on the tickets screen| 
+|ITSM 8182  |Correction| Correction on the search button on the tickets screen | 
 
 For this version, the compatible Builder is 1.3.7.7.
 
@@ -23,6 +23,7 @@ Welcome to 4Biz Helium Version 2.1.22. This version presents the following corre
 
 |Number|Type|Description|
 |------|----|-----------|
+
 
 For this version, the compatible Builder is 1.3.7.7.
 
