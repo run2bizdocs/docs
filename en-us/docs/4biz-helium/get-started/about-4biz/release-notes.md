@@ -3,6 +3,30 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
+## Version Helium 2.1.23 (2022/06/22)
+
+Welcome to 4Biz Helium Version 2.1.23. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|ITSM 10191 |Correction| The system has a broken Captcha function on the login screen| 
+|ITSM 8690  |Correction| Correction in the delegate ticket function| 
+|ITSM 9815  |Correction| Correction on the About 4Biz functionality| 
+|ITSM 8182  |Correction| Correction on the search button on the tickets screen| 
+
+For this version, the compatible Builder is 1.3.7.7.
+
+
+## Version Helium 2.1.22 (2022/06/)
+
+Welcome to 4Biz Helium Version 2.1.22. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+
+For this version, the compatible Builder is 1.3.7.7.
+
+
 ## Version Helium 2.1.21 (2022/03/25)
 
 Welcome to 4Biz Helium Version 2.1.21. This version presents the following corrections:
