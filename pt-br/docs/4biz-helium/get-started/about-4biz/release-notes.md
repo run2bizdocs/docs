@@ -17,7 +17,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.23. Esta versão apresenta as seguintes co
 Para essa versão o Builder compatível é 1.3.7.7
 
 
-## Versão Helium 2.1.22 (2022/06/  )
+## Versão Helium 2.1.22 (2022/06/)
 
 Bem-vindos ao 4Biz Helium Versão 2.1.22. Esta versão apresenta as seguintes correções:
 
