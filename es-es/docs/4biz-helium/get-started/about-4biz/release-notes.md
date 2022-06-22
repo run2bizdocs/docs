@@ -3,6 +3,31 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.1.23 (2022/06/22)
+
+Bienvenidos a 4Biz Helium Versión 2.1.23. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|ITSM 10191 |Corrección| El sistema presenta la función de Captcha rota en la pantalla de inicio de sesión|
+|ITSM 8690  |Corrección| Corrección en la función de delegar un ticket|
+|ITSM 9815  |Corrección| Corrección en la funcionalidad Sobre 4Biz|
+|ITSM 8182  |Corrección| Corrección en el botón de búsqueda en la pantalla de llamadas|
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
+## Versión Helium 2.1.22 (2022/06/)
+
+Bienvenidos a 4Biz Helium Versión 2.1.22. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
 ## Versión Helium 2.1.21 (2022/03/25)
 
 Bienvenidos a 4Biz Helium Versión 2.1.21. Esta versión presenta las siguientes correcciones:
