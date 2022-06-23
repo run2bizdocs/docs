@@ -31,7 +31,7 @@ Welcome to 4Biz Helium Version 2.1.22. This version presents the following corre
 |ITSM 9604	|Correction| Mobile: when rendering the Builder form, it drops your session|
 |ITSM 9694	|Correction| Create an option to inform the title in the ticket creation API|
 |ITSM 9534  |Correction| When canceling a ticket via smartportal, the message "Ticket not canceled" appears|
-|TASKER 14027 |Correction| Error in the Portfolio task locality|
+|TASKER 14027 |Correction| Error in the Portfolio task locality |
 
 For this version, the compatible Builder is 1.3.7.7.
 
