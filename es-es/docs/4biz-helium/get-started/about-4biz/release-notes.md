@@ -17,16 +17,23 @@ Bienvenidos a 4Biz Helium Versión 2.1.23. Esta versión presenta las siguientes
 La versión Builder compatible con esta versión es 1.3.7.7.
 
 
-## Versión Helium 2.1.22 (2022/06/)
+## Versión Helium 2.1.22 (2022/04/25)
 
 Bienvenidos a 4Biz Helium Versión 2.1.22. Esta versión presenta las siguientes correcciones:
 
 |Número|Tipo|Descripción| 
 |------|----|-----------|
-
+|ITSM 9627  |Corrección| El OCS del cliente TJRS no actualiza los EC|
+|ITSM 9610  |Corrección| Tratamiento de los caracteres de escape del correo electrónico|
+|ITSM 8508  |Corrección| Guardar el campo del motivo en el historial del ticket|
+|ITSM 8499  |Corrección| El campo del motivo no se muestra en el historial|
+|ITSM 9581  |Corrección| Mobile: 'formulario de creación' cuando estamos creando el ticket, se sigue cargando y no aparece|
+|ITSM 9604  |Corrección| Mobile: al renderizar el formulario Builder, el mismo hace caer su sesión|
+|ITSM 9694  |Corrección| Crear la opción para informar el título en la API de creación de los tickets|
+|ITSM 9534  |Corrección| Al cancelar un ticket a través del smartportal, aparece el mensaje "Ticket no cancelado"|
+|TASKER 14027 |Corrección| Error en la localidad de la tarea del Portafolio|
 
 La versión Builder compatible con esta versión es 1.3.7.7.
-
 
 ## Versión Helium 2.1.21 (2022/03/25)
 
