@@ -31,7 +31,7 @@ Bem-vindos ao 4Biz Helium Versão 2.1.22. Esta versão apresenta as seguintes co
 |ITSM 9604	|Correção| Mobile: Ao renderizar o formulario builder, o mesmo derruba a sua sessão|
 |ITSM 9694	|Correção| Criar opção para informar título na API de criação de ticket|
 |ITSM 9534  |Correção| Ao cancelar um ticket via smartportal, apresenta a mensagem "Ticket não cancelado"|
-|TASKER 14027 |Correção| Erro na localidade na tarefa Porfolio|
+|TASKER 14027 |Correção| Erro na localidade na tarefa Porfolio |
 
 Para essa versão o Builder compatível é 1.3.7.7
 
