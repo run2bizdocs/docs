@@ -3,9 +3,50 @@ Description: Release notes, bug fixes and improvements in the 4biz.
 
 # Release Notes
 
-## Version Helium 2.1.23 (2022/06/22)
+## Versión Helium 2.2.5 (2022/09/20)
 
-Welcome to 4Biz Helium Version 2.1.23. This version presents the following corrections:
+Welcome to 4Biz Helium Version 2.2.5. This version presents the following corrections:
+
+|Number|Type|Description|Attachment|
+|-------|----|----------|------|
+|Tasker 14781   |Correction|  Change the message of the ticket viewing screen|  |
+|Tasker 14779   |Correction|  Check Null Pointer error when requesting access to the system via the Knowledge Portal|  |
+|Tasker 14687   |Correction|  Check the possibility of removing the "Register Opinion" action from closed tickets in the Smart Portal|  |
+|Tasker 14782   |Correction|  Adjust Problem keys that do not bring the Request's data|  |
+|Tasker 14665   |Correction|  OAUTH2 integration via e-mail|  |
+|ITSM 10782     |Correction|  Allow approval via e-mail for a user without access to the system|  |
+
+For this version, the compatible Builder is 1.3.7.7.
+
+
+## Versión Helium 2.2.4 (2022/08/09)
+
+Welcome to 4Biz Helium Version 2.2.4. This version presents the following corrections:
+
+|Number|Type|Description|
+|------|----|-----------|
+|14735      |Correction| Adjust line breaks in the escalation notification keys|
+|14733      |Correction| Handle HTML injection in CitFrameWork screens|
+|My 10332   |Correction| Check errors in system keys when using e-mail notification|
+|14664      |Correction| Handle e-mail sending keys in problem, change, and knowledge management|
+|My 8566    |Correction| Fixed bug in the reclassification of a ticket when it has already been captured|
+|My 8326    |Correction| When changing a knowledge folder, a notification is sent to those involved, even if it is set not to notify|
+|My 10575   |Correction| Error when logging in through Mobile on ITSM|
+|My 10593   |Correction| Check failure in the behavior of the Experience Center that does not return to the Portfolios screen after opening a ticket|
+|My 10428   |Correction| Error in the ${NOMEGRUPOATUAL} and ${GRUPOATUAL} keys when sending an e-mail|
+|My 10191   |Correction| Display the Captcha|
+|My 10324   |Correction| Error on the problem screen when showing the priority label|
+|My 10257   |Correction| Create parameters to include ChatBot Widget in the login screen|
+|My 10315   |Correction| Vulnerability bug fix|
+|14736      |Correction| Adjust the ${DESCRSITUACAO} key as it is bringing up one code line |
+|14775      |Correction| Notify the requester when delegating a ticket|
+
+For this version, the compatible Builder is 1.3.7.7.
+
+
+## Version Helium 2.2.3 (2022/06/22)
+
+Welcome to 4Biz Helium Version 2.2.3. This version presents the following corrections:
 
 |Number|Type|Description|
 |------|----|-----------|
@@ -17,9 +58,9 @@ Welcome to 4Biz Helium Version 2.1.23. This version presents the following corre
 For this version, the compatible Builder is 1.3.7.7.
 
 
-## Version Helium 2.1.22 (2022/04/25)
+## Version Helium 2.2.2 (2022/04/25)
 
-Welcome to 4Biz Helium Version 2.1.22. This version presents the following corrections:
+Welcome to 4Biz Helium Version 2.2.2. This version presents the following corrections:
 
 |Number|Type|Description|
 |------|----|-----------|
@@ -36,9 +77,9 @@ Welcome to 4Biz Helium Version 2.1.22. This version presents the following corre
 For this version, the compatible Builder is 1.3.7.7.
 
 
-## Version Helium 2.1.21 (2022/03/25)
+## Version Helium 2.2.1 (2022/03/25)
 
-Welcome to 4Biz Helium Version 2.1.21. This version presents the following corrections:
+Welcome to 4Biz Helium Version 2.2.1. This version presents the following corrections:
 
 |Number|Type|Description|
 |------|----|-----------|
@@ -53,9 +94,9 @@ Welcome to 4Biz Helium Version 2.1.21. This version presents the following corre
 For this version, the compatible Builder is 1.3.7.7.
 
 
-## Version Helium 2.1.20 (2022/03/11)
+## Version Helium 2.2.0 (2022/03/11)
 
-Welcome to 4Biz Helium Version 2.1.20. This version presents the following corrections:
+Welcome to 4Biz Helium Version 2.2.0. This version presents the following corrections:
 
 |Number|Type|Description|
 |------|----|-----------|
