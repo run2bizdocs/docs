@@ -25,7 +25,7 @@ Bem-vindos ao 4biz Helium Versão 2.2.4. Esta versão apresenta as seguintes cor
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
-|14735      |Correção| Ajustar quebra de linhas nas chaves de notificação deescalonamento|
+|14735      |Correção| Ajustar quebra de linhas nas chaves de notificação de escalonamento|
 |14733      |Correção| Tratar HTML injection nas telas do CitFrameWork|
 |My 10332   |Correção| Verificar erro nas chaves do sistema ao utilizar e-mail de notificação|
 |14664      |Correção| Tratar chaves de envio de e-mail nas gerências problema, mudança e conhecimento|
