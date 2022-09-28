@@ -3,9 +3,50 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
-## Versão Helium 2.1.23 (2022/06/22)
+## Versão Helium 2.2.5 (2022/09/20)
 
-Bem-vindos ao 4Biz Helium Versão 2.1.23. Esta versão apresenta as seguintes correções:
+Bem-vindos ao 4biz Helium Versão 2.2.5. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|Anexos|
+|-------|----|---------|------|
+|Tasker 14781   |Correção|  Alterar mensagem da tela de visualização do ticket|  |
+|Tasker 14779   |Correção|  Verificar erro de Null Pointer ao solicitar acesso ao sistema via Portal de Conhecimento|  |
+|Tasker 14687   |Correção|  Verificar a possibilidade de remover a ação de "Registrar Opinião" de tickets fechados no Smart Portal|  |
+|Tasker 14782   |Correção|  Ajustar as chaves de problema que não trazem os dados da solicitação|  |
+|Tasker 14665   |Correção|  Integração OUATH2 para e-mail|  |
+|ITSM 10782     |Correção|  Permitir aprovação via e-mail para um usuário sem acesso ao sistema|  |
+
+Para essa versão o Builder compatível é 1.3.7.7
+
+
+## Versão Helium 2.2.4 (2022/08/09)
+
+Bem-vindos ao 4biz Helium Versão 2.2.4. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|14735      |Correção| Ajustar quebra de linhas nas chaves de notificação deescalonamento|
+|14733      |Correção| Tratar HTML injection nas telas do CitFrameWork|
+|My 10332   |Correção| Verificar erro nas chaves do sistema ao utilizar e-mail de notificação|
+|14664      |Correção| Tratar chaves de envio de e-mail nas gerências problema, mudança e conhecimento|
+|My 8566    |Correção| Verificado bug no momento de reclassificar ticket quando o mesmo já foi capturado|
+|My 8326    |Correção| Ao trocar a pasta de um conhecimento é enviado uma notificação para os envolvidos, mesmo estando configurado para não notificar|
+|My 10575   |Correção| Erro ao logar pelo Mobile no ITSM|
+|My 10593   |Correção| Verificar falha no comportamento no Centro de Experiência que não retorna à tela de Portfolios após abertura de ticket|
+|My 10428   |Correção| Erro nas chaves ${NOMEGRUPOATUAL} e ${GRUPOATUAL} no envio de e-mail|
+|My 10191   |Correção| Mostrar o Captcha|
+|My 10324   |Correção| Erro na tela de problema ao mostrar a label de prioridade|
+|My 10257   |Correção| Criar parâmetros para incluir Widget ChatBot na tela de login|
+|My 10315   |Correção| Correção de erro de vulnerabilidade|
+|14736      |Correção| Ajustar chave ${DESCRSITUACAO} pois está trazendo uma linha de código|
+|14775      |Correção| Notificar o solicitante na delegação de um ticket|
+
+Para essa versão o Builder compatível é 1.3.7.7
+
+
+## Versão Helium 2.2.3 (2022/06/22)
+
+Bem-vindos ao 4Biz Helium Versão 2.2.3. Esta versão apresenta as seguintes correções:
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
@@ -17,9 +58,9 @@ Bem-vindos ao 4Biz Helium Versão 2.1.23. Esta versão apresenta as seguintes co
 Para essa versão o Builder compatível é 1.3.7.7
 
 
-## Versão Helium 2.1.22 (2022/04/25)
+## Versão Helium 2.2.2 (2022/04/25)
 
-Bem-vindos ao 4Biz Helium Versão 2.1.22. Esta versão apresenta as seguintes correções:
+Bem-vindos ao 4Biz Helium Versão 2.2.2. Esta versão apresenta as seguintes correções:
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
@@ -36,9 +77,9 @@ Bem-vindos ao 4Biz Helium Versão 2.1.22. Esta versão apresenta as seguintes co
 Para essa versão o Builder compatível é 1.3.7.7
 
 
-## Versão Helium 2.1.21 (2022/03/25)
+## Versão Helium 2.2.1 (2022/03/25)
 
-Bem-vindos ao 4Biz Helium Versão 2.1.21. Esta versão apresenta as seguintes correções:
+Bem-vindos ao 4Biz Helium Versão 2.2.1. Esta versão apresenta as seguintes correções:
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
@@ -53,9 +94,9 @@ Bem-vindos ao 4Biz Helium Versão 2.1.21. Esta versão apresenta as seguintes co
 Para essa versão o Builder compatível é 1.3.7.7
 
 
-## Versão Helium 2.1.20 (2022/03/11)
+## Versão Helium 2.2.0 (2022/03/11)
 
-Bem-vindos ao 4Biz Helium Versão 2.1.20. Esta versão apresenta as seguintes correções:
+Bem-vindos ao 4Biz Helium Versão 2.2.0. Esta versão apresenta as seguintes correções:
 
 |Número |Tipo|Descrição|
 |-------|----|---------|
