@@ -11,10 +11,10 @@ Bem-vindos ao 4biz Helium Versão 2.2.5. Esta versão apresenta as seguintes cor
 |-------|----|---------|------|
 |Tasker 14781   |Correção|  Alterar mensagem da tela de visualização do ticket|  |
 |Tasker 14779   |Correção|  Verificar erro de Null Pointer ao solicitar acesso ao sistema via Portal de Conhecimento|  |
-|Tasker 14687   |Correção|  Verificar a possibilidade de remover a ação de "Registrar Opinião" de tickets fechados no Smart Portal|  |
-|Tasker 14782   |Correção|  Ajustar as chaves de problema que não trazem os dados da solicitação|  |
-|Tasker 14665   |Correção|  Integração OUATH2 para e-mail|  |
-|ITSM 10782     |Correção|  Permitir aprovação via e-mail para um usuário sem acesso ao sistema|  |
+|Tasker 14687   |Correção|  Verificar a possibilidade de remover a ação de "Registrar Opinião" de tickets fechados no Smart Portal|[documentação da atividade 14687][14]|
+|Tasker 14782   |Correção|  Ajustar as chaves de problema que não trazem os dados da solicitação|[documentação da atividade 14782][15]|
+|Tasker 14665   |Correção|  Integração OUATH2 para e-mail|[documentação da atividade 14665][16]|
+|ITSM 10782     |Correção|  Permitir aprovação via e-mail para um usuário sem acesso ao sistema|[documentação da atividade 10782][17]|
 
 Para essa versão o Builder compatível é 1.3.7.7
 
@@ -962,9 +962,9 @@ Bem-vindos ao 4biz Helium Versão 1.0.2 Esta versão apresenta os seguintes iten
 [11]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-2.1.8.zip
 [12]:/pt-br/4biz-helium/get-started/about-4biz/Orientações-sobre-a-versão-4biz-Helium-2.1.12.zip
 [13]:/pt-br/4biz-helium/get-started/about-4biz/Notas-de-Release-Builder-1.3.7.7.docx
-[14]:/pt-br/4biz-helium/get-started/about-4biz/
-[15]:/pt-br/4biz-helium/get-started/about-4biz/
-[16]:/pt-br/4biz-helium/get-started/about-4biz/
-[17]:/pt-br/4biz-helium/get-started/about-4biz/
+[14]:/pt-br/4biz-helium/get-started/about-4biz/documentacao_da_atividade_14687.pdf
+[15]:/pt-br/4biz-helium/get-started/about-4biz/documentacao_da_atividade_14782.pdf
+[16]:/pt-br/4biz-helium/get-started/about-4biz/documentacao_da_atividade_14665.pdf
+[17]:/pt-br/4biz-helium/get-started/about-4biz/documentacao_da_atividade_10782.pdf
 
 
