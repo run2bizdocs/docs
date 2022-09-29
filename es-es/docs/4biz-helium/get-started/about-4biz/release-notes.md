@@ -3,6 +3,20 @@ Description: Notas de la versión, corrección de errores y mejoras de 4biz.
 
 # Notas de Release
 
+## Versión Helium 2.2.6 (2022/09/28)
+
+Bienvenidos a 4Biz Helium Versión 2.2.6. Esta versión presenta las siguientes correcciones:
+
+|Número|Tipo|Descripción| 
+|------|----|-----------|
+|ITSM 11013 |Corrección| Corrección de errores que dañaban un ticket al vincular un llamado de cambio a un llamado de gestión de tickets |
+|ITSM 11245 |Corrección| Corrección de un error en el registro del Centro de Experiencia |
+|ITSM 11246 |Corrección| Corrección de un error en el portafolio |
+|ITSM 11247 |Corrección| Corrección de un error en la notificación del flujo |
+
+La versión Builder compatible con esta versión es 1.3.7.7.
+
+
 ## Versión Helium 2.2.5 (2022/09/20)
 
 Bienvenidos a 4Biz Helium Versión 2.2.5. Esta versión presenta las siguientes correcciones:
