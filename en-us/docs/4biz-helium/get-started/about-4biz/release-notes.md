@@ -12,7 +12,7 @@ Welcome to 4Biz Helium Version 2.2.7. This version presents the following correc
 |ITSM 11013 |Correction| Bug fix that corrupted a ticket by linking a change ticket to a ticket management |
 |ITSM 11245 |Correction| Bug fix in the Experience Center registration  |
 |ITSM 11246 |Correction| Portfolio bug fix |
-|ITSM 11247 |Correction| Bug fix for flow notification |
+|ITSM 11247 |Correction| Bug fix for flow notification   |
 |ITSM 10786 |Correction| Bug fix where page forwarding error occurred when logging from visitor to user in the knowledge base |
 |TASKER 14943 |Correction| NullPointer bugfix - when closing a ticket that has related and has already been reopened |
 |TASKER 14944 |Correction| Bug fix where the system was not sending notification to stakeholders that there was a comment record |
