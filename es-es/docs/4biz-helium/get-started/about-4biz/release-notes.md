@@ -11,7 +11,7 @@ Bienvenidos a 4Biz Helium Versión 2.2.7. Esta versión presenta las siguientes 
 |------|----|-----------|
 |ITSM 11013 |Corrección| Corrección de errores que dañaban un ticket al vincular un llamado de cambio a un llamado de gestión de tickets |
 |ITSM 11245 |Corrección| Corrección de un error en el registro del Centro de Experiencia |
-|ITSM 11246 |Corrección| Corrección de un error en el portafolio |
+|ITSM 11246 |Corrección| Corrección de un error en el portafolio   |
 |ITSM 11247 |Corrección| Corrección de un error en la notificación del flujo |
 |ITSM 10786 |Corrección| Corrección de un error de reenvío de página al iniciar la sesión de visitante a usuario en la base de conocimiento |
 |TASKER 14943 |Corrección| Corrección de un error de NullPointer - Al cerrar un ticket que tiene relacionados y que ya ha sido reabierto |
