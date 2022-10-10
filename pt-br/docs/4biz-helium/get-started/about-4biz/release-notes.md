@@ -3,6 +3,32 @@ Description: Notas de release, correções de erros e melhorias no 4biz.
 
 # Notas de Release
 
+## Versão Helium 2.2.7 (2022/09/30)
+
+Bem-vindos ao 4biz Helium Versão 2.2.7. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo|Descrição|
+|-------|----|---------|
+|ITSM 11013 |Correção| Correção de erro que corrompia um chamado ao vincular um chamado de mudança a um chamado da gerência de ticket |
+|ITSM 11245 |Correção| Correção de erro no cadastro do Centro de Experiência |
+|ITSM 11246 |Correção| Correção de erro no portfólio |
+|ITSM 11247 |Correção| Correção de erro na notificação do fluxo |
+|ITSM 10786 |Correção| Correção de erro onde ao logar de visitante para usuário na base de conhecimento acontecia erro de direcionamento de página |
+|TASKER 14943 |Correção| Correção de erro de NullPointer - Na hora de fechar um ticket que possui relacionados e já foi reaberto |
+|TASKER 14944 |Correção| Correção de erro onde o sistema não estava enviando notificação para partes interessadas, avisando que houve um registro de comentário |
+
+Para essa versão o Builder compatível é 1.3.7.7
+
+Procedimento para receber notificação de e-mail para registro de comentário:
+
+    1. Cadastrar as partes interessadas no cadastro de conhecimento;
+    2. Preencher os parâmetros para envio de e-mail desta funcionalidade:
+        SMTP_ENVIO_RemetenteNotificacoesSolicitacao - 10
+        ID_MODELO_EMAIL_ENVIO_COMENTARIO_BASE_CONHECIMENTO - 457
+    3. Registrar um comentário;
+    4. Verificar se um e-mail de notificação de registro de comentário foi enviado.
+
+
 ## Versão Helium 2.2.6 (2022/09/28)
 
 Bem-vindos ao 4biz Helium Versão 2.2.6. Esta versão apresenta as seguintes correções:
